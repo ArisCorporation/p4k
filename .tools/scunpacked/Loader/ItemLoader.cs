@@ -21,15 +21,14 @@ namespace Loader
 		AmmoService ammoSvc;
 		ItemInstaller itemInstaller;
 		LoadoutLoader loadoutLoader;
+		InventoryContainerService _inventoryContainerSvc;
 
 		// Don't dump items with these types
 		string[] type_avoids =
 		{
 			"UNDEFINED",
 			"airtrafficcontroller",
-			"bottle",
 			"button",
-			"char_accessory_head",
 			"char_body",
 			"char_head",
 			"char_hair_color",
@@ -41,7 +40,6 @@ namespace Loader
 			"char_skin_color",
 			"cloth",
 			"debris",
-			"drink",
 			"flair_floor",
 			"flair_surface",
 			"flair_wall",
@@ -49,7 +47,7 @@ namespace Loader
 			"shopdisplay"
 		};
 
-		public ItemLoader(ItemBuilder itemBuilder, ManufacturerService manufacturerSvc, EntityService entitySvc, AmmoService ammoSvc, ItemInstaller itemInstaller, LoadoutLoader loadoutLoader)
+		public ItemLoader(ItemBuilder itemBuilder, ManufacturerService manufacturerSvc, EntityService entitySvc, AmmoService ammoSvc, ItemInstaller itemInstaller, LoadoutLoader loadoutLoader, InventoryContainerService inventoryContainerSvc)
 		{
 			this.itemBuilder = itemBuilder;
 			this.manufacturerSvc = manufacturerSvc;
@@ -58,6 +56,7 @@ namespace Loader
 			this.ammoSvc = ammoSvc;
 			this.itemInstaller = itemInstaller;
 			this.loadoutLoader = loadoutLoader;
+			this._inventoryContainerSvc = inventoryContainerSvc;
 		}
 
 		public List<ItemIndexEntry> Load(string typeFilter = null)
@@ -99,6 +98,12 @@ namespace Loader
 					damageResistances = damageMacro?.damageResistance;
 				}
 
+				StandardisedInventoryContainer inventoryContainer = null;
+				if (!String.IsNullOrEmpty(entity.Components?.SCItemInventoryContainerComponentParams?.containerParams))
+				{
+					inventoryContainer = _inventoryContainerSvc.GetInventoryContainer(entity.Components.SCItemInventoryContainerComponentParams.containerParams);
+				}
+
 				var stdItem = itemBuilder.BuildItem(entity);
 				var loadout = loadoutLoader.Load(entity);
 				itemInstaller.InstallLoadout(stdItem, loadout);
@@ -113,13 +118,14 @@ namespace Loader
 				var jsonFilename = Path.Combine(OutputFolder, "items", $"{entity.ClassName.ToLower()}.json");
 				var json = JsonConvert.SerializeObject(new
 				{
-					magazine = magazine,
+					magazine,
 					ammo = ammoEntry,
 					Raw = new
 					{
 						Entity = entity,
 					},
-					damageResistances = damageResistances
+					damageResistances,
+					inventoryContainer,
 				});
 				File.WriteAllText(jsonFilename, json);
 			}

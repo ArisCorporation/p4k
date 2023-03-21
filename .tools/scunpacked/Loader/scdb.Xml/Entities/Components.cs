@@ -33,9 +33,14 @@ namespace scdb.Xml.Entities
 		public SEntityInteractableParams SEntityInteractableParams;
 		public SCItemClothingParams SCItemClothingParams;
 		public SCItemSuitArmorParams SCItemSuitArmorParams;
+		public SCItemSuitHelmetParams SCItemSuitHelmetParams;
 		public SSCItemPingComponentParams SSCItemPingComponentParams;
 		public SCItemScannerComponentParams SSCItemScannerComponentParams;
 		public SItemPortCoreParams SItemPortContainerComponentParams;
 		public SCItemWeaponRegenPoolComponentParams SCItemWeaponRegenPoolComponentParams;
+		public MaxBoundingBoxSize maxBoundingBoxSize;
+		public SInventoryParams SInventoryParams;
+		public SCItemInventoryContainerComponentParams SCItemInventoryContainerComponentParams;
+		public SCItemConsumableParams SCItemConsumableParams;
 	}
 }

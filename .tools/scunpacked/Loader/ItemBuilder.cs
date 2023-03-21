@@ -12,13 +12,15 @@ namespace Loader
 		ManufacturerService manufacturerSvc;
 		AmmoService ammoSvc;
 		EntityService entitySvc;
+		InventoryContainerService _inventoryContainerSvc;
 
-		public ItemBuilder(LocalisationService localisationSvc, ManufacturerService manufacturerSvc, AmmoService ammoSvc, EntityService entitySvc)
+		public ItemBuilder(LocalisationService localisationSvc, ManufacturerService manufacturerSvc, AmmoService ammoSvc, EntityService entitySvc, InventoryContainerService inventoryContainerSvc)
 		{
 			this.localisationSvc = localisationSvc;
 			this.manufacturerSvc = manufacturerSvc;
 			this.ammoSvc = ammoSvc;
 			this.entitySvc = entitySvc;
+			this._inventoryContainerSvc = inventoryContainerSvc;
 		}
 
 		public StandardisedItem BuildItem(EntityClassDefinition entity)
@@ -28,6 +30,10 @@ namespace Loader
 				ClassName = entity.ClassName,
 				Size = entity.Components.SAttachableComponentParams?.AttachDef.Size ?? 0,
 				Grade = entity.Components.SAttachableComponentParams?.AttachDef.Grade ?? 0,
+				Width = entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyDimensions?.x ?? 0,
+				Length = entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyDimensions?.y ?? 0,
+				Height = entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyDimensions?.z ?? 0,
+				Volume = entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyVolume?.SMicroCargoUnit?.microSCU ?? 0,
 				Type = BuildTypeName(entity.Components.SAttachableComponentParams?.AttachDef.Type, entity.Components.SAttachableComponentParams?.AttachDef.SubType),
 				Name = localisationSvc.GetText(entity.Components.SAttachableComponentParams?.AttachDef.Localization.Name, entity.ClassName),
 				Description = localisationSvc.GetText(entity.Components.SAttachableComponentParams?.AttachDef.Localization.Description),
@@ -60,6 +66,7 @@ namespace Loader
 			stdItem.Radar = BuildRadarInfo(entity);
 			stdItem.Ping = BuildPingInfo(entity);
 			stdItem.WeaponRegenPool = BuildWeaponRegenInfo(entity);
+			stdItem.InventoryContainer = BuildPersonalInventoryInfo(entity);
 
 			return stdItem;
 		}
@@ -378,7 +385,10 @@ namespace Loader
 			return new StandardisedIfcs
 			{
 				MaxSpeed = ifcs.maxSpeed,
-				MaxAfterburnSpeed = ifcs.maxAfterburnSpeed
+				MaxAfterburnSpeed = ifcs.maxAfterburnSpeed,
+				Pitch = ifcs.maxAngularVelocity.x,
+                Yaw = ifcs.maxAngularVelocity.z,
+                Roll = ifcs.maxAngularVelocity.y
 			};
 		}
 
@@ -655,6 +665,14 @@ namespace Loader
 			};
 
 			return info;
+		}
+
+		StandardisedInventoryContainer BuildPersonalInventoryInfo(EntityClassDefinition item)
+		{
+			var inventoryRef = item.Components.SCItemInventoryContainerComponentParams?.containerParams;
+			if (inventoryRef != null) return _inventoryContainerSvc.GetInventoryContainer(inventoryRef);
+
+			return null;
 		}
 	}
 }

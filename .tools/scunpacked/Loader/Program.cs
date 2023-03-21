@@ -105,24 +105,34 @@ namespace Loader
 
 			// Insurance
 			Console.WriteLine("Load Insurance");
-			var insuranceLoader = new InsuranceLoader()
+			// var insuranceLoader = new InsuranceLoader()
+			// {
+			// 	DataRoot = scDataRoot
+			// };
+			// //var insurancePrices = insuranceLoader.Load();
+			// //var insuranceSvc = new InsuranceService(insurancePrices);
+			// var insuranceSvc = new InsuranceService(null);
+
+			// PersonalInventories
+			Console.WriteLine("Load PersonalInventories");
+			var inventoryLoader = new InventoryContainerLoader()
 			{
 				DataRoot = scDataRoot
 			};
-			var insurancePrices = insuranceLoader.Load();
-			var insuranceSvc = new InsuranceService(insurancePrices);
+			var inventoryIndex = inventoryLoader.Load();
+			var inventorySvc = new InventoryContainerService(inventoryIndex);
 
 			var xmlLoadoutLoader = new XmlLoadoutLoader { DataRoot = scDataRoot };
 			var manualLoadoutLoader = new ManualLoadoutLoader();
 			var loadoutLoader = new LoadoutLoader(xmlLoadoutLoader, manualLoadoutLoader);
-			var itemBuilder = new ItemBuilder(localisationSvc, manufacturerSvc, ammoSvc, entitySvc);
+			var itemBuilder = new ItemBuilder(localisationSvc, manufacturerSvc, ammoSvc, entitySvc, inventorySvc);
 			var itemInstaller = new ItemInstaller(entitySvc, loadoutLoader, itemBuilder);
 
 			// Items
 			if (doItems)
 			{
 				Console.WriteLine("Load Items");
-				var itemLoader = new ItemLoader(itemBuilder, manufacturerSvc, entitySvc, ammoSvc, itemInstaller, loadoutLoader)
+				var itemLoader = new ItemLoader(itemBuilder, manufacturerSvc, entitySvc, ammoSvc, itemInstaller, loadoutLoader, inventorySvc)
 				{
 					OutputFolder = outputRoot,
 					DataRoot = scDataRoot,
@@ -134,7 +144,7 @@ namespace Loader
 			if (doShips)
 			{
 				Console.WriteLine("Load Ships and Vehicles");
-				var shipLoader = new ShipLoader(itemBuilder, manufacturerSvc, localisationSvc, entitySvc, itemInstaller, loadoutLoader, insuranceSvc)
+				var shipLoader = new ShipLoader(itemBuilder, manufacturerSvc, localisationSvc, entitySvc, itemInstaller, loadoutLoader, null)//insuranceSvc)
 				{
 					OutputFolder = outputRoot,
 					DataRoot = scDataRoot,

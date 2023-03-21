@@ -170,7 +170,7 @@ namespace Loader
 
 		(Vehicle, EntityClassDefinition, List<StandardisedPart>, StandardisedShip, StandardisedPortSummary)? LoadShip(string entityFilename)
 		{
-			Console.WriteLine(entityFilename);
+		    Console.WriteLine(entityFilename);
 
 			var entity = LoadEntity(entityFilename);
 			var vehicle = LoadVehicle(entity);
@@ -230,7 +230,9 @@ namespace Loader
 		Vehicle LoadVehicle(EntityClassDefinition entity)
 		{
 			var vehicleFilename = entity.Components?.VehicleComponentParams?.vehicleDefinition;
-			if (vehicleFilename == null) return null;
+			if (vehicleFilename == null) {
+			    return null;
+			}
 
 			vehicleFilename = Path.Combine(DataRoot, "Data", vehicleFilename.Replace('/', '\\'));
 			var vehicleModification = entity.Components?.VehicleComponentParams?.modification;
@@ -239,6 +241,7 @@ namespace Loader
 			else Console.WriteLine($"{vehicleFilename} ({vehicleModification})");
 
 			var vehicleParser = new VehicleParser();
+
 			var vehicle = vehicleParser.Parse(vehicleFilename, vehicleModification);
 
 			return vehicle;
@@ -531,6 +534,9 @@ namespace Loader
 				Role = localisationSvc.GetText(entity.Components.VehicleComponentParams.vehicleRole),
 				Manufacturer = manufacturerSvc.GetManufacturer(entity.Components.VehicleComponentParams.manufacturer, entity.ClassName),
 				Size = entity.Components.SAttachableComponentParams.AttachDef.Size,
+				Width = entity.Components.VehicleComponentParams.maxBoundingBoxSize.x,
+				Length = entity.Components.VehicleComponentParams.maxBoundingBoxSize.y,
+				Height = entity.Components.VehicleComponentParams.maxBoundingBoxSize.z,
 				Crew = entity.Components.VehicleComponentParams.crewSize,
 				WeaponCrew = portSummary.MannedTurrets.Count + portSummary.RemoteTurrets.Count,
 				OperationsCrew = Math.Max(portSummary.MiningTurrets.Count, portSummary.UtilityTurrets.Count),
@@ -539,7 +545,14 @@ namespace Loader
 					.Where(x => x.InstalledItem?.CargoGrid != null)
 					.Where(x => !x.InstalledItem.CargoGrid.MiningOnly)
 					.Sum(x => x.InstalledItem.CargoGrid.Capacity)),
-				Insurance = insuranceSvc.GetInsurance(entity.ClassName)
+			//	Insurance = insuranceSvc.GetInsurance(entity.ClassName)
+			};
+
+			shipSummary.Insurance = new StandardisedInsurance
+			{
+				ExpeditedCost = entity.StaticEntityClassData?.SEntityInsuranceProperties?.shipInsuranceParams?.baseExpeditingFee ?? 0,
+				ExpeditedClaimTime = entity.StaticEntityClassData?.SEntityInsuranceProperties?.shipInsuranceParams?.baseWaitTimeMinutes ?? 0,
+				StandardClaimTime = entity.StaticEntityClassData?.SEntityInsuranceProperties?.shipInsuranceParams?.mandatoryWaitTimeMinutes ?? 0,
 			};
 
 			shipSummary.IsVehicle = entity.Components?.VehicleComponentParams.vehicleCareer == "@vehicle_focus_ground";
@@ -606,7 +619,10 @@ namespace Loader
 					Retro = shipSummary.Propulsion.ThrustCapacity.Retro / shipSummary.Mass / G,
 					Vtol = shipSummary.Propulsion.ThrustCapacity.Vtol / shipSummary.Mass / G,
 					Maneuvering = shipSummary.Propulsion.ThrustCapacity.Maneuvering / shipSummary.Mass / G
-				}
+				},
+                Pitch = ifcs?.InstalledItem.Ifcs.Pitch ?? 0,
+                Yaw = ifcs?.InstalledItem.Ifcs.Yaw ?? 0,
+                Roll = ifcs?.InstalledItem.Ifcs.Roll ?? 0
 			};
 			shipSummary.FlightCharacteristics.ZeroToScm = shipSummary.FlightCharacteristics.ScmSpeed / shipSummary.FlightCharacteristics.Acceleration.Main;
 			shipSummary.FlightCharacteristics.ZeroToMax = shipSummary.FlightCharacteristics.MaxSpeed / shipSummary.FlightCharacteristics.Acceleration.Main;
