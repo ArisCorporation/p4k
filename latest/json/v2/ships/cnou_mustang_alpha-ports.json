@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_nose",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Nose_Turret",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Nose_Turret",
@@ -18,6 +18,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -53,6 +57,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
               "Durability": {
                 "Health": 850.0,
                 "Lifetime": 20.0
@@ -169,6 +177,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
               "Durability": {
                 "Health": 850.0,
                 "Lifetime": 20.0
@@ -278,7 +290,7 @@
     },
     {
       "PortName": "hardpoint_weapon_wing_left",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -287,7 +299,7 @@
     },
     {
       "PortName": "hardpoint_rocket_wing_left",
-      "Size": 3,
+      "Size": 0,
       "Types": [
         "WeaponGun.Rocket"
       ],
@@ -299,7 +311,7 @@
     },
     {
       "PortName": "hardpoint_weapon_wing_right",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -308,7 +320,7 @@
     },
     {
       "PortName": "hardpoint_rocket_wing_right",
-      "Size": 3,
+      "Size": 0,
       "Types": [
         "WeaponGun.Rocket"
       ],
@@ -329,7 +341,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasure_right",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "CNOU_CML_Noise_Small",
       "InstalledItem": {
         "ClassName": "CNOU_CML_Noise_Small",
@@ -342,6 +354,10 @@
           "Code": "JOK",
           "Name": "Joker Engineering"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -390,7 +406,7 @@
     },
     {
       "PortName": "hardpoint_countermeasure_left",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "CNOU_CML_Decoy_Small",
       "InstalledItem": {
         "ClassName": "CNOU_CML_Decoy_Small",
@@ -403,6 +419,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -453,7 +473,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_SECO_S01_INK_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_SECO_S01_INK_SCItem",
@@ -466,15 +486,19 @@
           "Code": "SECO",
           "Name": "Seal Corporation"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1350.0,
           "Regeneration": 340.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -522,7 +546,7 @@
     },
     {
       "PortName": "hardpoint_shield_generator_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_SECO_S01_INK_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_SECO_S01_INK_SCItem",
@@ -535,15 +559,19 @@
           "Code": "SECO",
           "Name": "Seal Corporation"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1350.0,
           "Regeneration": 340.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -593,7 +621,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_power_plant",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_LPLT_S01_ZapJet_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_LPLT_S01_ZapJet_SCItem",
@@ -606,11 +634,15 @@
           "Code": "LPLT",
           "Name": "Lightning Power Ltd."
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 1893.15
         },
         "Durability": {
-          "Health": 480.0,
+          "Health": 1500.0,
           "Lifetime": 19.2
         },
         "PowerConnection": {
@@ -635,7 +667,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_JSPN_S01_WinterStar_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_JSPN_S01_WinterStar_SCItem",
@@ -648,11 +680,15 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 194000.0
         },
         "Durability": {
-          "Health": 475.0,
+          "Health": 1500.0,
           "Lifetime": 18.6
         },
         "PowerConnection": {
@@ -675,7 +711,7 @@
     },
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_JSPN_S01_WinterStar_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_JSPN_S01_WinterStar_SCItem",
@@ -688,11 +724,15 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 194000.0
         },
         "Durability": {
-          "Health": 475.0,
+          "Health": 1500.0,
           "Lifetime": 18.6
         },
         "PowerConnection": {
@@ -717,7 +757,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QDRV_ARCC_S01_Rush_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_ARCC_S01_Rush_SCItem",
@@ -730,6 +770,10 @@
           "Code": "ARCC",
           "Name": "ArcCorp"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 1.0682000000000001E-08,
           "JumpRange": 3.402823E+38,
@@ -749,7 +793,7 @@
           }
         },
         "Durability": {
-          "Health": 470.0,
+          "Health": 1054.0,
           "Lifetime": 3.85
         },
         "PowerConnection": {
@@ -774,7 +818,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_CNOU_Mustang_Alpha",
       "InstalledItem": {
         "ClassName": "QTNK_CNOU_Mustang_Alpha",
@@ -785,6 +829,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 583.33
         }
@@ -803,7 +851,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_main_thruster_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Main",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Main",
@@ -815,6 +863,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1949095.0,
           "FuelRate": 9.275E-06,
@@ -848,7 +900,7 @@
     },
     {
       "PortName": "hardpoint_main_thruster_center",
-      "Size": 2,
+      "Size": 0,
       "Types": [
         "MainThruster.FixedThruster"
       ],
@@ -862,7 +914,7 @@
     },
     {
       "PortName": "hardpoint_main_thruster_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Main",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Main",
@@ -874,6 +926,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1949095.0,
           "FuelRate": 9.275E-06,
@@ -909,7 +965,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_retro_thruster_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Retro",
@@ -921,6 +977,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 728808.7,
           "FuelRate": 9.275E-06,
@@ -953,7 +1013,7 @@
     },
     {
       "PortName": "hardpoint_retro_thruster_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Retro",
@@ -965,6 +1025,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 728808.7,
           "FuelRate": 9.275E-06,
@@ -1000,7 +1064,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_mav_thruster_front_upper_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1012,6 +1076,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1047,7 +1115,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_front_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1059,6 +1127,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1093,7 +1165,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_front_lower_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1105,6 +1177,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1140,7 +1216,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_front_lower_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1152,6 +1228,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1187,7 +1267,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_front_upper_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1199,6 +1279,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1234,7 +1318,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_rear_left_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1246,6 +1330,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1280,7 +1368,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_rear_left_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1292,6 +1380,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1326,7 +1418,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_rear_left_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1338,6 +1430,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1372,7 +1468,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_rear_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1384,6 +1480,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1418,7 +1518,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_rear_right_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1430,6 +1530,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1464,7 +1568,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_rear_right_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1476,6 +1580,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1510,7 +1618,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_rear_right_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
@@ -1522,6 +1630,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 574838.9,
           "FuelRate": 3.125E-06,
@@ -1558,7 +1670,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_CNOU_Mustang_Alpha",
       "InstalledItem": {
         "ClassName": "HTNK_CNOU_Mustang_Alpha",
@@ -1569,6 +1681,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 30000.0
         }
@@ -1585,7 +1701,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_CNOU_Mustang_Alpha",
       "InstalledItem": {
         "ClassName": "HTNK_CNOU_Mustang_Alpha",
@@ -1596,6 +1712,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 30000.0
         }
@@ -1614,7 +1734,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_CNOU_Mustang_Alpha",
       "InstalledItem": {
         "ClassName": "INTK_CNOU_Mustang_Alpha",
@@ -1625,6 +1745,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 4.0
         },
@@ -1650,7 +1774,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_CNOU_Mustang_Alpha",
       "InstalledItem": {
         "ClassName": "INTK_CNOU_Mustang_Alpha",
@@ -1661,6 +1785,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 4.0
         },
@@ -1695,18 +1823,16 @@
         "ClassName": "CNOU_Mustang_CargoGrid_Main",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
+        "Type": "CargoGrid.UNDEFINED",
         "Name": "CNOU_Mustang_CargoGrid_Main",
         "Manufacturer": {
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
-        "CargoGrid": {
-          "Capacity": 4.0,
-          "Width": 5.0,
-          "Height": 1.25,
-          "Depth": 1.25
-        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -1715,6 +1841,12 @@
           "ThermalEnergyBase": 10.0,
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 1.25,
+          "z": 1.25
         }
       },
       "Types": [
@@ -1740,6 +1872,10 @@
           "Code": "CNOU",
           "Name": "Consolidated Outland"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 800.0
         },
@@ -1753,7 +1889,11 @@
               "Size": 1,
               "Grade": 1,
               "Type": "Cargo.UNDEFINED",
-              "Name": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door"
+              "Name": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Category": "UNKNOWN"
           },
@@ -1766,7 +1906,11 @@
               "Size": 1,
               "Grade": 1,
               "Type": "Cargo.UNDEFINED",
-              "Name": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door"
+              "Name": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Category": "UNKNOWN"
           }
@@ -1821,7 +1965,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -1832,6 +1976,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -1848,7 +1996,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -1859,7 +2007,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -1873,7 +2025,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],
@@ -1886,7 +2038,7 @@
     },
     {
       "PortName": "hardpoint_radar",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_WLOP_S01_Capstan",
       "InstalledItem": {
         "ClassName": "RADR_WLOP_S01_Capstan",
@@ -1898,6 +2050,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },

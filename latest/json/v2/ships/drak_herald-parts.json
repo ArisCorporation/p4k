@@ -14,7 +14,7 @@
             "Name": "Hardpoint_Body_Interior",
             "Port": {
               "PortName": "Hardpoint_Body_Interior",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Room"
               ],
@@ -25,7 +25,7 @@
             "Name": "hardpoint_ladder",
             "Port": {
               "PortName": "hardpoint_ladder",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Door_Ship_Exterior_Herald_Ladder_Attachable",
               "InstalledItem": {
                 "ClassName": "Door_Ship_Exterior_Herald_Ladder_Attachable",
@@ -33,6 +33,10 @@
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
                 "Name": "Door_Ship_Exterior_Herald_Ladder_Attachable",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -188,7 +192,7 @@
             "Name": "hardpoint_avionics_motherboard_left",
             "Port": {
               "PortName": "hardpoint_avionics_motherboard_left",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Avionics.Motherboard"
               ],
@@ -203,7 +207,7 @@
             "Name": "hardpoint_avionics_motherboard_right",
             "Port": {
               "PortName": "hardpoint_avionics_motherboard_right",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Avionics.Motherboard"
               ],
@@ -218,7 +222,7 @@
             "Name": "hardpoint_cooler_left",
             "Port": {
               "PortName": "hardpoint_cooler_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COOL_TYDT_S01_HeatSafe_SCItem",
               "InstalledItem": {
                 "ClassName": "COOL_TYDT_S01_HeatSafe_SCItem",
@@ -231,11 +235,15 @@
                   "Code": "TYDT",
                   "Name": "Tyler Design & Tech"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 130000.0
                 },
                 "Durability": {
-                  "Health": 350.0,
+                  "Health": 1500.0,
                   "Lifetime": 10.0
                 },
                 "PowerConnection": {
@@ -261,7 +269,7 @@
             "Name": "hardpoint_cooler_right",
             "Port": {
               "PortName": "hardpoint_cooler_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COOL_TYDT_S01_HeatSafe_SCItem",
               "InstalledItem": {
                 "ClassName": "COOL_TYDT_S01_HeatSafe_SCItem",
@@ -274,11 +282,15 @@
                   "Code": "TYDT",
                   "Name": "Tyler Design & Tech"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 130000.0
                 },
                 "Durability": {
-                  "Health": 350.0,
+                  "Health": 1500.0,
                   "Lifetime": 10.0
                 },
                 "PowerConnection": {
@@ -304,7 +316,7 @@
             "Name": "hardpoint_fuel_intake_left",
             "Port": {
               "PortName": "hardpoint_fuel_intake_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "INTK_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "INTK_DRAK_Herald",
@@ -315,6 +327,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelIntake": {
                   "Rate": 0.0
                 },
@@ -343,7 +359,7 @@
             "Name": "hardpoint_fuel_tank_left",
             "Port": {
               "PortName": "hardpoint_fuel_tank_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "HTNK_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "HTNK_DRAK_Herald",
@@ -354,6 +370,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 52500.0
                 }
@@ -373,7 +393,7 @@
             "Name": "hardpoint_gravity_generator",
             "Port": {
               "PortName": "hardpoint_gravity_generator",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "GravityGenerator"
               ],
@@ -388,7 +408,7 @@
             "Name": "hardpoint_life_support",
             "Port": {
               "PortName": "hardpoint_life_support",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "LifeSupportGenerator"
               ],
@@ -403,7 +423,7 @@
             "Name": "hardpoint_power_plant",
             "Port": {
               "PortName": "hardpoint_power_plant",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "POWR_TYDT_S01_Slipstream_SCItem",
               "InstalledItem": {
                 "ClassName": "POWR_TYDT_S01_Slipstream_SCItem",
@@ -416,11 +436,15 @@
                   "Code": "TYDT",
                   "Name": "Tyler Design & Tech"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "PowerPlant": {
                   "Output": 1787.98
                 },
                 "Durability": {
-                  "Health": 325.0,
+                  "Health": 1500.0,
                   "Lifetime": 17.0
                 },
                 "PowerConnection": {
@@ -446,7 +470,7 @@
             "Name": "hardpoint_pylon_left",
             "Port": {
               "PortName": "hardpoint_pylon_left",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "MRCK_S03_BEHR_Quad_S01",
               "InstalledItem": {
                 "ClassName": "MRCK_S03_BEHR_Quad_S01",
@@ -462,6 +486,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.6699014,
+                "Height": 1.202842,
+                "Length": 4.422015,
+                "Volume": 756000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -499,6 +527,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -533,6 +565,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -567,6 +603,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -601,6 +641,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -632,7 +676,7 @@
             "Name": "hardpoint_pylon_right",
             "Port": {
               "PortName": "hardpoint_pylon_right",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "MRCK_S03_BEHR_Quad_S01",
               "InstalledItem": {
                 "ClassName": "MRCK_S03_BEHR_Quad_S01",
@@ -648,6 +692,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.6699014,
+                "Height": 1.202842,
+                "Length": 4.422015,
+                "Volume": 756000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -685,6 +733,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -719,6 +771,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -753,6 +809,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -787,6 +847,10 @@
                         "EM",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -818,7 +882,7 @@
             "Name": "hardpoint_quantum_drive",
             "Port": {
               "PortName": "hardpoint_quantum_drive",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "QDRV_TARS_S01_Expedition_SCItem",
               "InstalledItem": {
                 "ClassName": "QDRV_TARS_S01_Expedition_SCItem",
@@ -831,6 +895,10 @@
                   "Code": "TARS",
                   "Name": "Tarsus"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "QuantumDrive": {
                   "FuelRate": 9.8E-09,
                   "JumpRange": 3.402823E+38,
@@ -850,7 +918,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 500.0,
+                  "Health": 1054.0,
                   "Lifetime": 5.0
                 },
                 "PowerConnection": {
@@ -876,7 +944,7 @@
             "Name": "hardpoint_quantum_fuel_tank",
             "Port": {
               "PortName": "hardpoint_quantum_fuel_tank",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "QTNK_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "QTNK_DRAK_Herald",
@@ -887,6 +955,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 583.33
                 }
@@ -906,7 +978,7 @@
             "Name": "hardpoint_radar",
             "Port": {
               "PortName": "hardpoint_radar",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "RADR_WLOP_S01_Capstan",
               "InstalledItem": {
                 "ClassName": "RADR_WLOP_S01_Capstan",
@@ -918,6 +990,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -966,7 +1042,7 @@
             "Name": "hardpoint_scanner",
             "Port": {
               "PortName": "hardpoint_scanner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_scanner",
               "InstalledItem": {
                 "ClassName": "test_scanner",
@@ -977,6 +1053,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Scanner": {
                   "Range": 0.0
                 }
@@ -996,7 +1076,7 @@
             "Name": "hardpoint_ping",
             "Port": {
               "PortName": "hardpoint_ping",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_ping",
               "InstalledItem": {
                 "ClassName": "test_ping",
@@ -1007,7 +1087,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -1024,7 +1108,7 @@
             "Name": "hardpoint_transponder",
             "Port": {
               "PortName": "hardpoint_transponder",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Transponder"
               ],
@@ -1040,7 +1124,7 @@
             "Name": "hardpoint_cockpit_flair_hang",
             "Port": {
               "PortName": "hardpoint_cockpit_flair_hang",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Cockpit.Flair_Hanging"
               ],
@@ -1051,7 +1135,7 @@
             "Name": "hardpoint_seat_pilot",
             "Port": {
               "PortName": "hardpoint_seat_pilot",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_SCItem_Seat_Pilot",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_SCItem_Seat_Pilot",
@@ -1063,6 +1147,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 1.0,
                   "PowerDraw": 1.0
@@ -1082,7 +1170,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "Display.UNDEFINED",
-                      "Name": "Projector_HUD_Generic"
+                      "Name": "Projector_HUD_Generic",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Category": "UNKNOWN"
                   }
@@ -1102,7 +1194,7 @@
             "Name": "hardpoint_seat_station",
             "Port": {
               "PortName": "hardpoint_seat_station",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_SCItem_Seat_Support",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_SCItem_Seat_Support",
@@ -1116,7 +1208,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Seat"
@@ -1132,7 +1228,7 @@
             "Name": "hardpoint_shield_generator_left",
             "Port": {
               "PortName": "hardpoint_shield_generator_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "SHLD_ASAS_S01_Shimmer_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_ASAS_S01_Shimmer_SCItem",
@@ -1145,15 +1241,19 @@
                   "Code": "ASAS",
                   "Name": "Ascension Astro"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Shield": {
                   "Health": 1500.0,
                   "Regeneration": 375.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -1178,7 +1278,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 93.75,
+                  "Health": 1054.0,
                   "Lifetime": 15.0
                 },
                 "PowerConnection": {
@@ -1204,7 +1304,7 @@
             "Name": "hardpoint_shield_generator_right",
             "Port": {
               "PortName": "hardpoint_shield_generator_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "SHLD_ASAS_S01_Shimmer_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_ASAS_S01_Shimmer_SCItem",
@@ -1217,15 +1317,19 @@
                   "Code": "ASAS",
                   "Name": "Ascension Astro"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Shield": {
                   "Health": 1500.0,
                   "Regeneration": 375.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -1250,7 +1354,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 93.75,
+                  "Health": 1054.0,
                   "Lifetime": 15.0
                 },
                 "PowerConnection": {
@@ -1276,7 +1380,7 @@
             "Name": "hardpoint_thruster_front_left_bottom",
             "Port": {
               "PortName": "hardpoint_thruster_front_left_bottom",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -1288,6 +1392,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -1322,7 +1430,7 @@
             "Name": "hardpoint_thruster_front_left_front",
             "Port": {
               "PortName": "hardpoint_thruster_front_left_front",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Retro",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Retro",
@@ -1334,6 +1442,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1446075.0,
                   "FuelRate": 1.0325E-05,
@@ -1369,7 +1481,7 @@
             "Name": "hardpoint_thruster_front_left_side",
             "Port": {
               "PortName": "hardpoint_thruster_front_left_side",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -1381,6 +1493,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -1415,7 +1531,7 @@
             "Name": "hardpoint_thruster_front_left_top",
             "Port": {
               "PortName": "hardpoint_thruster_front_left_top",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -1427,6 +1543,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -1461,7 +1581,7 @@
             "Name": "hardpoint_thruster_front_right_bottom",
             "Port": {
               "PortName": "hardpoint_thruster_front_right_bottom",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -1473,6 +1593,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -1507,7 +1631,7 @@
             "Name": "hardpoint_thruster_front_right_front",
             "Port": {
               "PortName": "hardpoint_thruster_front_right_front",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Retro",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Retro",
@@ -1519,6 +1643,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1446075.0,
                   "FuelRate": 1.0325E-05,
@@ -1554,7 +1682,7 @@
             "Name": "hardpoint_thruster_front_right_side",
             "Port": {
               "PortName": "hardpoint_thruster_front_right_side",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -1566,6 +1694,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -1600,7 +1732,7 @@
             "Name": "hardpoint_thruster_front_right_top",
             "Port": {
               "PortName": "hardpoint_thruster_front_right_top",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -1612,6 +1744,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -1646,7 +1782,7 @@
             "Name": "hardpoint_weapon_s02_nose",
             "Port": {
               "PortName": "hardpoint_weapon_s02_nose",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "Mount_Gimbal_S3",
               "InstalledItem": {
                 "ClassName": "Mount_Gimbal_S3",
@@ -1663,6 +1799,10 @@
                   "gimbalMount",
                   "flightReady"
                 ],
+                "Width": 0.6699014,
+                "Height": 1.202842,
+                "Length": 4.422015,
+                "Volume": 756000.0,
                 "Durability": {
                   "Health": 150.0,
                   "Lifetime": 720.0
@@ -1698,6 +1838,10 @@
                         "flightReady",
                         "weaponMountUsable"
                       ],
+                      "Width": 0.4466009,
+                      "Height": 0.801895,
+                      "Length": 3.316511,
+                      "Volume": 252000.0,
                       "Durability": {
                         "Health": 850.0,
                         "Lifetime": 20.0
@@ -1778,7 +1922,11 @@
                             },
                             "Tags": [
                               "uneditable"
-                            ]
+                            ],
+                            "Width": 0.15,
+                            "Height": 0.15,
+                            "Length": 0.15,
+                            "Volume": 1.0
                           },
                           "Types": [
                             "WeaponAttachment.Barrel"
@@ -1801,7 +1949,11 @@
                             },
                             "Tags": [
                               "uneditable"
-                            ]
+                            ],
+                            "Width": 0.15,
+                            "Height": 0.15,
+                            "Length": 0.15,
+                            "Volume": 1.0
                           },
                           "Types": [
                             "WeaponAttachment.FiringMechanism"
@@ -1824,7 +1976,11 @@
                             },
                             "Tags": [
                               "uneditable"
-                            ]
+                            ],
+                            "Width": 0.15,
+                            "Height": 0.15,
+                            "Length": 0.15,
+                            "Volume": 1.0
                           },
                           "Types": [
                             "WeaponAttachment.PowerArray"
@@ -1847,7 +2003,11 @@
                             },
                             "Tags": [
                               "uneditable"
-                            ]
+                            ],
+                            "Width": 0.15,
+                            "Height": 0.15,
+                            "Length": 0.15,
+                            "Volume": 1.0
                           },
                           "Types": [
                             "WeaponAttachment.Ventilation"
@@ -1874,7 +2034,7 @@
             "Name": "hardpoint_cockpit_selfdestruct",
             "Port": {
               "PortName": "hardpoint_cockpit_selfdestruct",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "VHCL_SelfDestruct_30s",
               "InstalledItem": {
                 "ClassName": "VHCL_SelfDestruct_30s",
@@ -1889,7 +2049,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SelfDestruct"
@@ -1906,14 +2070,18 @@
             "Name": "landingpad_helper",
             "Port": {
               "PortName": "landingpad_helper",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Default_LandingSystem",
               "InstalledItem": {
                 "ClassName": "Default_LandingSystem",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LandingSystem.UNDEFINED",
-                "Name": "Default_LandingSystem"
+                "Name": "Default_LandingSystem",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LandingSystem"
@@ -1933,7 +2101,7 @@
                 "Name": "hardpoint_weapon_s02_left_wing",
                 "Port": {
                   "PortName": "hardpoint_weapon_s02_left_wing",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "Mount_Gimbal_S2",
                   "InstalledItem": {
                     "ClassName": "Mount_Gimbal_S2",
@@ -1950,6 +2118,10 @@
                       "gimbalMount",
                       "flightReady"
                     ],
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "Durability": {
                       "Health": 100.0,
                       "Lifetime": 720.0
@@ -1985,6 +2157,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.4466009,
+                          "Height": 1.105504,
+                          "Length": 0.801895,
+                          "Volume": 84000.0,
                           "Durability": {
                             "Health": 525.0,
                             "Lifetime": 20.0
@@ -2100,7 +2276,7 @@
                 "Name": "hardpoint_weapon_s02_right_wing",
                 "Port": {
                   "PortName": "hardpoint_weapon_s02_right_wing",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "Mount_Gimbal_S2",
                   "InstalledItem": {
                     "ClassName": "Mount_Gimbal_S2",
@@ -2117,6 +2293,10 @@
                       "gimbalMount",
                       "flightReady"
                     ],
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "Durability": {
                       "Health": 100.0,
                       "Lifetime": 720.0
@@ -2152,6 +2332,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.4466009,
+                          "Height": 1.105504,
+                          "Length": 0.801895,
+                          "Volume": 84000.0,
                           "Durability": {
                             "Health": 525.0,
                             "Lifetime": 20.0
@@ -2263,7 +2447,7 @@
             "Name": "hardpoint_seat_access",
             "Port": {
               "PortName": "hardpoint_seat_access",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "DRAK_Herald_SeatAccess",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_SeatAccess",
@@ -2274,7 +2458,11 @@
                 "Manufacturer": {
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SeatAccess"
@@ -2286,7 +2474,7 @@
             "Name": "hardpoint_fuel_tank_right",
             "Port": {
               "PortName": "hardpoint_fuel_tank_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "HTNK_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "HTNK_DRAK_Herald",
@@ -2297,6 +2485,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 52500.0
                 }
@@ -2316,7 +2508,7 @@
             "Name": "hardpoint_fuel_intake_right",
             "Port": {
               "PortName": "hardpoint_fuel_intake_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "INTK_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "INTK_DRAK_Herald",
@@ -2327,6 +2519,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelIntake": {
                   "Rate": 0.0
                 },
@@ -2355,14 +2551,18 @@
             "Name": "hardpoint_controller_weapon",
             "Port": {
               "PortName": "hardpoint_controller_weapon",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Weapon",
               "InstalledItem": {
                 "ClassName": "Controller_Weapon",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "WeaponController.UNDEFINED",
-                "Name": "WEAPONS"
+                "Name": "WEAPONS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "WeaponController"
@@ -2379,7 +2579,7 @@
             "Name": "hardpoint_controller_flight",
             "Port": {
               "PortName": "hardpoint_controller_flight",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Flight_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "Controller_Flight_DRAK_Herald",
@@ -2387,9 +2587,16 @@
                 "Grade": 1,
                 "Type": "FlightController.UNDEFINED",
                 "Name": "SELF STATUS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ifcs": {
-                  "MaxSpeed": 174.0,
-                  "MaxAfterburnSpeed": 1361.0
+                  "MaxSpeed": 1361.0,
+                  "MaxAfterburnSpeed": 0.0,
+                  "Pitch": 40.0,
+                  "Yaw": 38.0,
+                  "Roll": 165.0
                 }
               },
               "Types": [
@@ -2407,7 +2614,7 @@
             "Name": "hardpoint_controller_shield",
             "Port": {
               "PortName": "hardpoint_controller_shield",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Shield_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "Controller_Shield_DRAK_Herald",
@@ -2417,7 +2624,11 @@
                 "Name": "SHIELDS",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "ShieldController"
@@ -2434,14 +2645,18 @@
             "Name": "hardpoint_controller_cooler",
             "Port": {
               "PortName": "hardpoint_controller_cooler",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Cooler",
               "InstalledItem": {
                 "ClassName": "Controller_Cooler",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -2458,14 +2673,18 @@
             "Name": "hardpoint_controller_energy",
             "Port": {
               "PortName": "hardpoint_controller_energy",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Energy",
               "InstalledItem": {
                 "ClassName": "Controller_Energy",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -2482,7 +2701,7 @@
             "Name": "hardpoint_weapon_regen_pool",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Crew_SnubFighter",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Crew_SnubFighter",
@@ -2490,6 +2709,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Crew_SnubFighter",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 3000,
@@ -2511,7 +2734,7 @@
             "Name": "hardpoint_weapon_regen_pool_turrets",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool_turrets",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -2527,7 +2750,7 @@
             "Name": "hardpoint_controller_capacitor_assignment",
             "Port": {
               "PortName": "hardpoint_controller_capacitor_assignment",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_CapacitorAssignment",
               "InstalledItem": {
                 "ClassName": "Controller_CapacitorAssignment",
@@ -2537,7 +2760,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"
@@ -2554,7 +2781,7 @@
             "Name": "hardpoint_dashboard_station",
             "Port": {
               "PortName": "hardpoint_dashboard_station",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "DRAK_Herald_SCItem_Dashboard_Station",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_SCItem_Dashboard_Station",
@@ -2566,6 +2793,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 1.0
                 },
@@ -2589,14 +2820,18 @@
             "Name": "hardpoint_controller_comms",
             "Port": {
               "PortName": "hardpoint_controller_comms",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Comms",
               "InstalledItem": {
                 "ClassName": "Controller_Comms",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -2613,14 +2848,18 @@
             "Name": "hardpoint_controller_door",
             "Port": {
               "PortName": "hardpoint_controller_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Door",
               "InstalledItem": {
                 "ClassName": "Controller_Door",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -2637,7 +2876,7 @@
             "Name": "hardpoint_bed_body",
             "Port": {
               "PortName": "hardpoint_bed_body",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Bed_Single_Herald_DRAK",
               "InstalledItem": {
                 "ClassName": "Bed_Single_Herald_DRAK",
@@ -2645,6 +2884,10 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Bed_Single_Herald_DRAK",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "Mattress",
@@ -2675,7 +2918,7 @@
             "Name": "hardpoint_armour",
             "Port": {
               "PortName": "hardpoint_armour",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ARMR_DRAK_Herald",
               "InstalledItem": {
                 "ClassName": "ARMR_DRAK_Herald",
@@ -2690,10 +2933,14 @@
                 "Tags": [
                   "DRAK_Herald_Base"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.9,
-                    "Energy": 0.9,
+                    "Physical": 0.42,
+                    "Energy": 1.0,
                     "Distortion": 1.0,
                     "Thermal": 1.0,
                     "Biochemical": 1.0
@@ -2720,14 +2967,18 @@
             "Name": "hardpoint_controller_light",
             "Port": {
               "PortName": "hardpoint_controller_light",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Light",
               "InstalledItem": {
                 "ClassName": "Controller_Light",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -2744,14 +2995,18 @@
             "Name": "hardpoint_controller_missile",
             "Port": {
               "PortName": "hardpoint_controller_missile",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Missile",
               "InstalledItem": {
                 "ClassName": "Controller_Missile",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "MissileController.UNDEFINED",
-                "Name": "MISSILES"
+                "Name": "MISSILES",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "MissileController"
@@ -2772,7 +3027,7 @@
         "Name": "hardpoint_lights_ext",
         "Port": {
           "PortName": "hardpoint_lights_ext",
-          "Size": 1,
+          "Size": 0,
           "Flags": [
             "uneditable"
           ],
@@ -2784,7 +3039,7 @@
         "Name": "Hardpoint_Gameplay_Interior",
         "Port": {
           "PortName": "Hardpoint_Gameplay_Interior",
-          "Size": 1,
+          "Size": 0,
           "Types": [
             "Room"
           ],
@@ -2809,7 +3064,7 @@
             "Name": "hardpoint_thruster_main_top",
             "Port": {
               "PortName": "hardpoint_thruster_main_top",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Main",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Main",
@@ -2821,6 +3076,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 3782517.0,
                   "FuelRate": 1.0325E-05,
@@ -2855,7 +3114,7 @@
             "Name": "hardpoint_thruster_main_bottom",
             "Port": {
               "PortName": "hardpoint_thruster_main_bottom",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Aux",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Aux",
@@ -2867,6 +3126,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 2591158.0,
                   "FuelRate": 1.25E-05,
@@ -2901,7 +3164,7 @@
             "Name": "hardpoint_thruster_back_left_back",
             "Port": {
               "PortName": "hardpoint_thruster_back_left_back",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -2913,6 +3176,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -2948,7 +3215,7 @@
             "Name": "hardpoint_thruster_back_left_bottom",
             "Port": {
               "PortName": "hardpoint_thruster_back_left_bottom",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -2960,6 +3227,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -2994,7 +3265,7 @@
             "Name": "hardpoint_thruster_back_left_side",
             "Port": {
               "PortName": "hardpoint_thruster_back_left_side",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -3006,6 +3277,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -3040,7 +3315,7 @@
             "Name": "hardpoint_thruster_back_left_top",
             "Port": {
               "PortName": "hardpoint_thruster_back_left_top",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -3052,6 +3327,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -3086,7 +3365,7 @@
             "Name": "hardpoint_thruster_back_right_back",
             "Port": {
               "PortName": "hardpoint_thruster_back_right_back",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -3098,6 +3377,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -3133,7 +3416,7 @@
             "Name": "hardpoint_thruster_back_right_bottom",
             "Port": {
               "PortName": "hardpoint_thruster_back_right_bottom",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -3145,6 +3428,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -3179,7 +3466,7 @@
             "Name": "hardpoint_thruster_back_right_side",
             "Port": {
               "PortName": "hardpoint_thruster_back_right_side",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -3191,6 +3478,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -3225,7 +3516,7 @@
             "Name": "hardpoint_thruster_back_right_top",
             "Port": {
               "PortName": "hardpoint_thruster_back_right_top",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Herald_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "DRAK_Herald_Thruster_Mav_Fixed",
@@ -3237,6 +3528,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 817385.6,
                   "FuelRate": 3.125E-06,
@@ -3271,7 +3566,7 @@
             "Name": "hardpoint_cm_launcher_left_01",
             "Port": {
               "PortName": "hardpoint_cm_launcher_left_01",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_CML_Decoy_Small",
               "InstalledItem": {
                 "ClassName": "DRAK_CML_Decoy_Small",
@@ -3284,6 +3579,10 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -3335,7 +3634,7 @@
             "Name": "hardpoint_cm_launcher_right_01",
             "Port": {
               "PortName": "hardpoint_cm_launcher_right_01",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_CML_Noise_Small",
               "InstalledItem": {
                 "ClassName": "DRAK_CML_Noise_Small",
@@ -3348,6 +3647,10 @@
                   "Code": "JOK",
                   "Name": "Joker Engineering"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -3403,7 +3706,7 @@
         "Name": "hardpoint_paint",
         "Port": {
           "PortName": "hardpoint_paint",
-          "Size": 1,
+          "Size": 0,
           "Types": [
             "Paints"
           ],

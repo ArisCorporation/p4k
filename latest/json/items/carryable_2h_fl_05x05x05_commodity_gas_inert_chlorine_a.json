@@ -7,6 +7,9 @@
           "value": "37ba7ad8-8553-45df-a84b-c49eb6ebb7a6"
         },
         {
+          "value": "00ead468-9073-485b-a6df-ca6b94053603"
+        },
+        {
           "value": "c3f3f211-c145-49b3-a4b8-2b388bc2dd84"
         }
       ],
@@ -14,7 +17,7 @@
         "SAttachableComponentParams": {
           "AttachDef": {
             "Type": "Cargo",
-            "SubType": "Cargo",
+            "SubType": "Handheld",
             "Size": 2,
             "Grade": 1,
             "Manufacturer": "00000000-0000-0000-0000-000000000000",
@@ -24,6 +27,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 155558.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.5378128,
+              "y": 0.5378128,
+              "z": 0.5378128
             }
           }
         },
@@ -57,13 +70,6 @@
               }
             }
           }
-        },
-        "CommodityComponentParams": {
-          "type": "27317b27-f4d8-4c38-9b1c-e240cebbaf5f",
-          "subtype": "ead05d43-1dfa-4f09-842d-3fdc989cd467",
-          "name": "@items_commodities_chlorine",
-          "description": "@items_commodities_chlorine_desc",
-          "IsUnrefinedElement": false
         },
         "SEntityInteractableParams": {
           "Interactable": {

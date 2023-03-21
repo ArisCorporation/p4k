@@ -42,13 +42,23 @@
           "Localization": {
             "Name": "@item_Namegmni_shotgun_ballistic_01_mag",
             "Description": "@item_Descgmni_shotgun_ballistic_01_mag"
+          },
+          "inventoryOccupancyVolume": {
+            "SMicroCargoUnit": {
+              "microSCU": 610.0
+            }
+          },
+          "inventoryOccupancyDimensions": {
+            "x": 0.0339876,
+            "y": 0.08141628,
+            "z": 0.2206837
           }
         }
       },
       "SAmmoContainerComponentParams": {
         "initialAmmoCount": 10.0,
         "maxAmmoCount": 10.0,
-        "ammoParamsRecord": "d905c52f-ac42-41b8-818a-bbbda6481819"
+        "ammoParamsRecord": "06ba0f5c-c7a5-4cfc-9199-a03cf2263563"
       },
       "SEntityInteractableParams": {
         "Interactable": {
@@ -68,7 +78,7 @@
               "available": true
             },
             {
-              "Name": "CarryLowered",
+              "Name": "Carry",
               "RoomTag": "00000000-0000-0000-0000-000000000000",
               "UsableTag": "00000000-0000-0000-0000-000000000000",
               "DisplayName": "@interaction_carry",
@@ -82,7 +92,7 @@
               "available": true
             },
             {
-              "Name": "Equip",
+              "Name": "EquipToSuit",
               "RoomTag": "00000000-0000-0000-0000-000000000000",
               "UsableTag": "00000000-0000-0000-0000-000000000000",
               "DisplayName": "@interaction_equip",
@@ -96,7 +106,7 @@
               "available": true
             },
             {
-              "Name": "OffHandEquip",
+              "Name": "OffHandEquipToSuit",
               "RoomTag": "00000000-0000-0000-0000-000000000000",
               "UsableTag": "00000000-0000-0000-0000-000000000000",
               "DisplayName": "@interaction_equip",
@@ -195,7 +205,7 @@
       "BulletProjectileParams": {
         "damage": [
           {
-            "DamagePhysical": 2.0,
+            "DamagePhysical": 2.35,
             "DamageEnergy": 0.0,
             "DamageDistortion": 0.0,
             "DamageThermal": 0.0,
@@ -206,8 +216,8 @@
         "detonationParams": {}
       }
     },
-    "ClassName": "12g_ballistic_1",
-    "__ref": "d905c52f-ac42-41b8-818a-bbbda6481819",
+    "ClassName": "gmni_shotgun_ballistic_01_ammo_12g",
+    "__ref": "06ba0f5c-c7a5-4cfc-9199-a03cf2263563",
     "__type": "AmmoParams"
   },
   "Raw": {
@@ -276,6 +286,16 @@
             "Localization": {
               "Name": "@item_Namegmni_shotgun_ballistic_01",
               "Description": "@item_Descgmni_shotgun_ballistic_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 19000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.1069,
+              "y": 0.8358,
+              "z": 0.2864
             }
           }
         },

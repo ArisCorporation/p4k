@@ -2,18 +2,16 @@
   "ClassName": "ORIG_400i_CargoGrid",
   "Size": 1,
   "Grade": 1,
-  "Type": "Cargo.UNDEFINED",
+  "Type": "CargoGrid.UNDEFINED",
   "Name": "ORIG_400i_CargoGrid",
   "Manufacturer": {
     "Code": "ORIG",
     "Name": "Origin Jumpworks"
   },
-  "CargoGrid": {
-    "Capacity": 42.0,
-    "Width": 3.75,
-    "Height": 2.5,
-    "Depth": 8.75
-  },
+  "Width": 0.15,
+  "Height": 0.15,
+  "Length": 0.15,
+  "Volume": 1.0,
   "PowerConnection": {
     "PowerBase": 0.0,
     "PowerDraw": 1.0
@@ -22,5 +20,11 @@
     "ThermalEnergyBase": 10.0,
     "ThermalEnergyDraw": 20.0,
     "CoolingRate": 1.0
+  },
+  "InventoryContainer": {
+    "SCU": 0.0,
+    "x": 3.75,
+    "y": 8.75,
+    "z": 2.5
   }
 }

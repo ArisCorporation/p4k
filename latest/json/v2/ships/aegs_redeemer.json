@@ -5,11 +5,14 @@
   "Career": "Combat",
   "Role": "Gunship",
   "Size": 4,
-  "Cargo": 2,
+  "Cargo": 0,
   "Crew": 4,
   "WeaponCrew": 4,
   "OperationsCrew": 0,
   "Mass": 444270.26,
+  "Width": 25.0,
+  "Height": 14.0,
+  "Length": 51.0,
   "IsSpaceship": true,
   "Manufacturer": {
     "Code": "AEG",
@@ -31,12 +34,12 @@
     "rudder_flap_left": 100.0
   },
   "FlightCharacteristics": {
-    "ScmSpeed": 140.0,
-    "MaxSpeed": 960.0,
-    "ZeroToScm": 3.5638782303067393,
-    "ZeroToMax": 24.438022150674783,
-    "ScmToZero": 8.67595282572501,
-    "MaxToZero": 59.492247947828645,
+    "ScmSpeed": 960.0,
+    "MaxSpeed": 0.0,
+    "ZeroToScm": 24.438022150674783,
+    "ZeroToMax": 0.0,
+    "ScmToZero": 59.492247947828645,
+    "MaxToZero": 0.0,
     "Acceleration": {
       "Main": 39.2830481158023,
       "Retro": 16.136556158406822,
@@ -48,7 +51,10 @@
       "Retro": 1.6454707664965278,
       "Vtol": 1.3350376358969278,
       "Maneuvering": 4.061510224493117
-    }
+    },
+    "Pitch": 23.0,
+    "Yaw": 23.0,
+    "Roll": 65.0
   },
   "Propulsion": {
     "FuelCapacity": 660000.0,
@@ -81,23 +87,23 @@
   },
   "PilotHardpoints": [
     {
-      "Size": 4,
+      "Size": 0,
       "Fixed": true,
       "WeaponSizes": [
-        4
+        0
       ]
     },
     {
-      "Size": 4,
+      "Size": 0,
       "Fixed": true,
       "WeaponSizes": [
-        4
+        0
       ]
     }
   ],
   "MannedTurrets": [
     {
-      "Size": 5,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         5,
@@ -105,7 +111,7 @@
       ]
     },
     {
-      "Size": 5,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         5,
@@ -115,7 +121,7 @@
   ],
   "RemoteTurrets": [
     {
-      "Size": 3,
+      "Size": 0,
       "Gimballed": true,
       "WeaponSizes": [
         3,
@@ -123,7 +129,7 @@
       ]
     },
     {
-      "Size": 3,
+      "Size": 0,
       "Gimballed": true,
       "WeaponSizes": [
         3,
@@ -132,8 +138,8 @@
     }
   ],
   "Insurance": {
-    "StandardClaimTime": 31.9375,
-    "ExpeditedClaimTime": 7.3125,
+    "StandardClaimTime": 7.3125,
+    "ExpeditedClaimTime": 31.9375,
     "ExpeditedCost": 10970.0
   }
 }

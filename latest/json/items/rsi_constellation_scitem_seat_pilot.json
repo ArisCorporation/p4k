@@ -24,6 +24,16 @@
             "Localization": {
               "Name": "@item_Name_TARG_Controller",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -366,6 +376,18 @@
               "Flags": "",
               "MinSize": 1,
               "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "Aim_HUD",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 0,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
               "Types": []

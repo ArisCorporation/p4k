@@ -19,11 +19,21 @@
         "Localization": {
           "Name": "@item_NamePOWR_JUST_S02_Genoa_SCItem",
           "Description": "@item_DescPOWR_JUST_S02_Genoa_SCItem"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 252000.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.4466009,
+          "y": 3.316511,
+          "z": 0.801895
         }
       }
     },
     "SHealthComponentParams": {
-      "Health": 600.0,
+      "Health": 3000.0,
       "DamageResistances": {
         "DamageResistance": {
           "PhysicalResistance": {
@@ -96,10 +106,10 @@
       "MisfireMaxTemperature": 900.0
     },
     "SDistortionParams": {
-      "DecayRate": 114.0,
-      "Maximum": 5280.0,
+      "DecayRate": 40.0,
+      "Maximum": 12000.0,
       "OverloadRatio": 0.0,
-      "RecoveryRatio": 0.3,
+      "RecoveryRatio": 0.0,
       "RecoveryTime": 0.0
     },
     "SEntityInteractableParams": {

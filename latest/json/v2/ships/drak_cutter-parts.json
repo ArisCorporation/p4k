@@ -23,6 +23,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -72,6 +76,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -121,6 +129,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -170,6 +182,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -219,6 +235,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -268,6 +288,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -317,11 +341,15 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
-                  "ThrustCapacity": 298989.2,
+                  "ThrustCapacity": 698412.3,
                   "FuelRate": 1.25E-05,
                   "Type": "Retro",
-                  "MaxThrustFuelRate": 3.7373650000000005
+                  "MaxThrustFuelRate": 8.730153750000001
                 },
                 "Durability": {
                   "Health": 1000.0,
@@ -368,11 +396,15 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
-                  "ThrustCapacity": 298989.2,
+                  "ThrustCapacity": 698412.3,
                   "FuelRate": 1.25E-05,
                   "Type": "Retro",
-                  "MaxThrustFuelRate": 3.7373650000000005
+                  "MaxThrustFuelRate": 8.730153750000001
                 },
                 "Durability": {
                   "Health": 1000.0,
@@ -419,6 +451,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1098411.0,
                   "FuelRate": 1.25E-05,
@@ -468,6 +504,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1098411.0,
                   "FuelRate": 1.25E-05,
@@ -518,15 +558,19 @@
                   "Code": "SECO",
                   "Name": "Seal Corporation"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Shield": {
                   "Health": 1650.0,
                   "Regeneration": 413.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -551,7 +595,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 137.5,
+                  "Health": 1054.0,
                   "Lifetime": 22.0
                 },
                 "PowerConnection": {
@@ -571,6 +615,122 @@
             }
           },
           {
+            "Name": "hardpoint_scout_shieldgen",
+            "Port": {
+              "PortName": "hardpoint_scout_shieldgen",
+              "Size": 1,
+              "Types": [
+                "Shield"
+              ],
+              "Flags": [
+                "uneditable",
+                "invisible"
+              ],
+              "Category": "Shield generators",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_scout_scanner"
+          },
+          {
+            "Name": "hardpoint_scout_radar",
+            "Port": {
+              "PortName": "hardpoint_scout_radar",
+              "Size": 2,
+              "Types": [
+                "Radar.ShortRangeRadar",
+                "Radar.MidRangeRadar"
+              ],
+              "Flags": [
+                "uneditable",
+                "invisible"
+              ],
+              "Category": "Radars",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_scout_quantumdrive",
+            "Port": {
+              "PortName": "hardpoint_scout_quantumdrive",
+              "Size": 1,
+              "Types": [
+                "QuantumDrive.QDrive"
+              ],
+              "Flags": [
+                "uneditable",
+                "invisible"
+              ],
+              "Category": "Quantum drives",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_scout_powerplant",
+            "Port": {
+              "PortName": "hardpoint_scout_powerplant",
+              "Size": 2,
+              "Types": [
+                "PowerPlant"
+              ],
+              "Flags": [
+                "uneditable",
+                "invisible"
+              ],
+              "Category": "Power plants",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_scout_gravitygenerator",
+            "Port": {
+              "PortName": "hardpoint_scout_gravitygenerator",
+              "Size": 1,
+              "Types": [
+                "Misc"
+              ],
+              "Flags": [
+                "uneditable",
+                "invisible"
+              ],
+              "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_scout_cooler",
+            "Port": {
+              "PortName": "hardpoint_scout_cooler",
+              "Size": 2,
+              "Types": [
+                "Cooler"
+              ],
+              "Flags": [
+                "uneditable",
+                "invisible"
+              ],
+              "Category": "Coolers",
+              "Uneditable": true
+            }
+          },
+          {
+            "Name": "hardpoint_scout_battery",
+            "Port": {
+              "PortName": "hardpoint_scout_battery",
+              "Size": 1,
+              "Types": [
+                "Misc"
+              ],
+              "Flags": [
+                "uneditable",
+                "invisible"
+              ],
+              "Category": "UNKNOWN",
+              "Uneditable": true
+            }
+          },
+          {
             "Name": "hardpoint_radar",
             "Port": {
               "PortName": "hardpoint_radar",
@@ -586,6 +746,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -645,6 +809,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -758,7 +926,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Physical_Cutter_ExtRamp"
+                      "Name": "ControlPanel_Screen_DoorControl_Physical_Cutter_ExtRamp",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "ControlPanel.DoorPart"
@@ -774,7 +946,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Physical_Cutter_ExtRamp"
+                      "Name": "ControlPanel_Screen_DoorControl_Physical_Cutter_ExtRamp",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "ControlPanel.DoorPart"
@@ -811,6 +987,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 3000.0
                 }
@@ -841,6 +1021,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 3000.0
                 }
@@ -873,6 +1057,10 @@
                   "Code": "ACAS",
                   "Name": "Ace Astrogation"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "QuantumDrive": {
                   "FuelRate": 5.8799999999999995E-09,
                   "JumpRange": 3.402823E+38,
@@ -892,7 +1080,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 315.0,
+                  "Health": 1054.0,
                   "Lifetime": 4.25
                 },
                 "PowerConnection": {
@@ -928,11 +1116,15 @@
                   "Code": "SASU",
                   "Name": "Sakura Sun"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "PowerPlant": {
                   "Output": 1998.33
                 },
                 "Durability": {
-                  "Health": 500.0,
+                  "Health": 1500.0,
                   "Lifetime": 21.6
                 },
                 "PowerConnection": {
@@ -966,7 +1158,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -991,8 +1187,18 @@
                 "Grade": 1,
                 "Type": "Cargo.UNDEFINED",
                 "Name": "PersonalStorage_Cutter",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.65,
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
                 }
               },
               "Types": [
@@ -1036,8 +1242,12 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
-                  "Capacity": 330000.0
+                  "Capacity": 146700.0
                 }
               },
               "Types": [
@@ -1066,8 +1276,12 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
-                  "Capacity": 330000.0
+                  "Capacity": 146700.0
                 }
               },
               "Types": [
@@ -1099,7 +1313,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SeatAccess"
@@ -1128,6 +1346,10 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -1192,6 +1414,10 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -1256,11 +1482,15 @@
                   "Code": "LPLT",
                   "Name": "Lightning Power Ltd."
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 190000.0
                 },
                 "Durability": {
-                  "Health": 480.0,
+                  "Health": 1500.0,
                   "Lifetime": 19.2
                 },
                 "PowerConnection": {
@@ -1289,18 +1519,16 @@
                 "ClassName": "DRAK_Cutter_CargoGrid_2Stack",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "DRAK_Cutter_CargoGrid_2Stack",
                 "Manufacturer": {
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
-                "CargoGrid": {
-                  "Capacity": 2.0,
-                  "Width": 1.25,
-                  "Height": 2.5,
-                  "Depth": 1.25
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -1309,16 +1537,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 1.25,
+                  "y": 1.25,
+                  "z": 2.5
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -1332,18 +1566,16 @@
                 "ClassName": "DRAK_Cutter_CargoGrid_2Stack",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "DRAK_Cutter_CargoGrid_2Stack",
                 "Manufacturer": {
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
-                "CargoGrid": {
-                  "Capacity": 2.0,
-                  "Width": 1.25,
-                  "Height": 2.5,
-                  "Depth": 1.25
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -1352,16 +1584,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 1.25,
+                  "y": 1.25,
+                  "z": 2.5
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -1384,6 +1622,10 @@
                 "Tags": [
                   "ESPR_Talon_Base"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 1.0
                 }
@@ -1445,6 +1687,10 @@
                   "Code": "JOK",
                   "Name": "Joker Engineering"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -1509,6 +1755,10 @@
                   "Code": "JOK",
                   "Name": "Joker Engineering"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -1597,6 +1847,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -1634,6 +1888,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 100.0
                       },
@@ -1668,6 +1926,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 100.0
                       },
@@ -1710,6 +1972,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -1747,6 +2013,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 100.0
                       },
@@ -1781,6 +2051,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 1.0,
+                      "Volume": 1000000.0,
                       "Durability": {
                         "Health": 100.0
                       },
@@ -1823,6 +2097,10 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1096006.0,
                       "FuelRate": 1.25E-05,
@@ -1871,11 +2149,15 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
-                      "ThrustCapacity": 1248822.0,
+                      "ThrustCapacity": 545656.0,
                       "FuelRate": 1.25E-05,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 15.610275000000001
+                      "MaxThrustFuelRate": 6.8207
                     },
                     "Durability": {
                       "Health": 1000.0,
@@ -1929,11 +2211,15 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
-                      "ThrustCapacity": 1248822.0,
+                      "ThrustCapacity": 545656.0,
                       "FuelRate": 1.25E-05,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 15.610275000000001
+                      "MaxThrustFuelRate": 6.8207
                     },
                     "Durability": {
                       "Health": 1000.0,
@@ -1980,6 +2266,10 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1096006.0,
                       "FuelRate": 1.25E-05,
@@ -2062,6 +2352,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -2111,6 +2405,10 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 837532.6,
                   "FuelRate": 1.25E-05,
@@ -2155,7 +2453,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LandingSystem.UNDEFINED",
-                "Name": "Default_LandingSystem"
+                "Name": "Default_LandingSystem",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LandingSystem"
@@ -2199,6 +2501,10 @@
                     "Tags": [
                       "DRAK_Cutter"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 100.0
                     }
@@ -2239,6 +2545,10 @@
                     "Tags": [
                       "DRAK_Cutter"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 100.0
                     }
@@ -2284,6 +2594,10 @@
                       "gimbalMount",
                       "flightReady"
                     ],
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "Durability": {
                       "Health": 100.0,
                       "Lifetime": 720.0
@@ -2319,6 +2633,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.4466009,
+                          "Height": 1.105504,
+                          "Length": 0.801895,
+                          "Volume": 84000.0,
                           "Durability": {
                             "Health": 525.0,
                             "Lifetime": 20.0
@@ -2435,6 +2753,10 @@
                     "Grade": 1,
                     "Type": "WeaponRegenPool.UNDEFINED",
                     "Name": "WeaponRegenPool_Turret_S1",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "WeaponRegenPool": {
                       "RegenFillRate": 3000.0,
                       "AmmoLoad": 20000,
@@ -2464,6 +2786,10 @@
                     "Grade": 1,
                     "Type": "WeaponRegenPool.UNDEFINED",
                     "Name": "WeaponRegenPool_Crew_Dogfighter",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "WeaponRegenPool": {
                       "RegenFillRate": 3000.0,
                       "AmmoLoad": 4500,
@@ -2502,6 +2828,10 @@
                       "gimbalMount",
                       "flightReady"
                     ],
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "Durability": {
                       "Health": 100.0,
                       "Lifetime": 720.0
@@ -2537,6 +2867,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.4466009,
+                          "Height": 1.105504,
+                          "Length": 0.801895,
+                          "Volume": 84000.0,
                           "Durability": {
                             "Health": 525.0,
                             "Lifetime": 20.0
@@ -2657,6 +2991,10 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 837532.6,
                       "FuelRate": 1.25E-05,
@@ -2706,6 +3044,10 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 837532.6,
                       "FuelRate": 1.25E-05,
@@ -2755,6 +3097,10 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 837532.6,
                       "FuelRate": 1.25E-05,
@@ -2804,6 +3150,10 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 837532.6,
                       "FuelRate": 1.25E-05,
@@ -2852,7 +3202,11 @@
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "Seat"
@@ -2882,7 +3236,11 @@
                     },
                     "Tags": [
                       "flightReady"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -2909,6 +3267,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "HydrogenFuelIntake": {
                       "Rate": 15.0
                     },
@@ -2934,7 +3296,15 @@
                 }
               },
               {
-                "Name": "hardpoint_flair_hanging"
+                "Name": "hardpoint_flair_hanging",
+                "Port": {
+                  "PortName": "hardpoint_flair_hanging",
+                  "Size": 1,
+                  "Types": [
+                    "Flair_Cockpit.Flair_Hanging"
+                  ],
+                  "Category": "UNKNOWN"
+                }
               },
               {
                 "Name": "hardpoint_cockpit_flair",
@@ -2963,6 +3333,10 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 1.0
                     },
@@ -2993,7 +3367,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "Display.UNDEFINED",
-                          "Name": "Projector_HUD_Generic"
+                          "Name": "Projector_HUD_Generic",
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Category": "UNKNOWN"
                       }
@@ -3020,7 +3398,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "WeaponController.UNDEFINED",
-                    "Name": "WEAPONS"
+                    "Name": "WEAPONS",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponController"
@@ -3047,7 +3429,11 @@
                     "Name": "SHIELDS",
                     "Tags": [
                       "flightReady"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "ShieldController"
@@ -3075,6 +3461,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Scanner": {
                       "Range": 0.0
                     }
@@ -3101,7 +3491,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "MissileController.UNDEFINED",
-                    "Name": "MISSILES"
+                    "Name": "MISSILES",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "MissileController"
@@ -3125,7 +3519,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "LightController.UNDEFINED",
-                    "Name": "LIGHTS"
+                    "Name": "LIGHTS",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "LightController"
@@ -3150,9 +3548,16 @@
                     "Grade": 1,
                     "Type": "FlightController.UNDEFINED",
                     "Name": "SELF STATUS",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Ifcs": {
-                      "MaxSpeed": 160.0,
-                      "MaxAfterburnSpeed": 1050.0
+                      "MaxSpeed": 1050.0,
+                      "MaxAfterburnSpeed": 0.0,
+                      "Pitch": 32.0,
+                      "Yaw": 32.0,
+                      "Roll": 130.0
                     }
                   },
                   "Types": [
@@ -3177,7 +3582,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "EnergyController.UNDEFINED",
-                    "Name": "POWER"
+                    "Name": "POWER",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "EnergyController"
@@ -3201,7 +3610,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "DoorController.UNDEFINED",
-                    "Name": "SECURITY"
+                    "Name": "SECURITY",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "DoorController"
@@ -3225,7 +3638,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "CoolerController.UNDEFINED",
-                    "Name": "HEAT"
+                    "Name": "HEAT",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "CoolerController"
@@ -3249,7 +3666,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "CommsController.UNDEFINED",
-                    "Name": "COMMS"
+                    "Name": "COMMS",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "CommsController"
@@ -3276,7 +3697,11 @@
                     "Name": "Controller_CapacitorAssignment",
                     "Tags": [
                       "flightReady"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "CapacitorAssignmentController"
@@ -3308,7 +3733,11 @@
                     },
                     "Tags": [
                       "flightReady"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SelfDestruct"
@@ -3337,10 +3766,14 @@
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Armour": {
                       "DamageMultipliers": {
-                        "Physical": 0.9,
-                        "Energy": 0.9,
+                        "Physical": 0.42,
+                        "Energy": 1.0,
                         "Distortion": 1.0,
                         "Thermal": 1.0,
                         "Biochemical": 1.0
@@ -3404,6 +3837,10 @@
                     "Grade": 1,
                     "Type": "Usable.UNDEFINED",
                     "Name": "Weapon_Rack_DRAK_Cutter_4_Slot",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Ports": [
                       {
                         "PortName": "$proxy_weapon_01",

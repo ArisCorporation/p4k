@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KLWE_LaserRepeater_S2",
       "InstalledItem": {
         "ClassName": "KLWE_LaserRepeater_S2",
@@ -21,6 +21,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -123,7 +127,7 @@
     },
     {
       "PortName": "hardpoint_weapon_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KLWE_LaserRepeater_S2",
       "InstalledItem": {
         "ClassName": "KLWE_LaserRepeater_S2",
@@ -142,6 +146,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -252,7 +260,7 @@
   "MissileRacks": [
     {
       "PortName": "hardpoint_weapon_missilerack_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MRCK_S01_BEHR_Single_S01",
       "InstalledItem": {
         "ClassName": "MRCK_S01_BEHR_Single_S01",
@@ -268,6 +276,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -305,6 +317,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -328,7 +344,7 @@
     },
     {
       "PortName": "hardpoint_weapon_missilerack_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MRCK_S01_BEHR_Single_S01",
       "InstalledItem": {
         "ClassName": "MRCK_S01_BEHR_Single_S01",
@@ -344,6 +360,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -381,6 +401,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -406,7 +430,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasures_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_CML_Flare",
       "InstalledItem": {
         "ClassName": "MISC_Razor_CML_Flare",
@@ -419,6 +443,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -467,7 +495,7 @@
     },
     {
       "PortName": "hardpoint_countermeasures_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_CML_Chaff",
       "InstalledItem": {
         "ClassName": "MISC_Razor_CML_Chaff",
@@ -480,6 +508,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -530,7 +562,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_YORM_S01_Targa_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_YORM_S01_Targa_SCItem",
@@ -543,15 +575,19 @@
           "Code": "YORM",
           "Name": "Yorm"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -576,7 +612,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 10.0
         },
         "PowerConnection": {
@@ -601,34 +637,38 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_powerplant",
-      "Size": 1,
-      "Loadout": "POWR_ACOM_S01_SunFlare_SCItem",
+      "Size": 0,
+      "Loadout": "POWR_ACOM_S01_StarHeart_SCItem",
       "InstalledItem": {
-        "ClassName": "POWR_ACOM_S01_SunFlare_SCItem",
+        "ClassName": "POWR_ACOM_S01_StarHeart_SCItem",
         "Size": 1,
-        "Grade": 3,
+        "Grade": 2,
         "Type": "PowerPlant.Power",
-        "Name": "SunFlare",
-        "Description": "Item Type: Power Plant\nManufacturer: ACOM\nSize: 1\nGrade: C\nClass: Competition\n\nHarness the power of a star with this high performance power plant from ACOM. Ideal for racers and those who seek speed.",
+        "Name": "StarHeart",
+        "Description": "Item Type: Power Plant\nManufacturer: ACOM \nSize: 1\nGrade: B\nClass: Competition\n\nFour generations of racing knowledge and know-how are behind ACOM’s StarHeart power plant. Known for its rapid power distribution, the StarHeart has become a favorite among speedsters.  ",
         "Manufacturer": {
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
-          "Output": 1051.75
+          "Output": 1262.1
         },
         "Durability": {
-          "Health": 500.0,
-          "Lifetime": 16.0
+          "Health": 1500.0,
+          "Lifetime": 17.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
-          "PowerDraw": 1051.75
+          "PowerDraw": 1262.1
         },
         "HeatConnection": {
-          "ThermalEnergyBase": 28516.5,
-          "ThermalEnergyDraw": 31554.0,
-          "CoolingRate": 212.2531
+          "ThermalEnergyBase": 12600.0,
+          "ThermalEnergyDraw": 33307.0,
+          "CoolingRate": 245.5069
         }
       },
       "Types": [
@@ -644,7 +684,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_ACOM_S01_IcePlunge_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_ACOM_S01_IcePlunge_SCItem",
@@ -657,11 +697,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 232000.0
         },
         "Durability": {
-          "Health": 375.0,
+          "Health": 1500.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -684,7 +728,7 @@
     },
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_ACOM_S01_IcePlunge_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_ACOM_S01_IcePlunge_SCItem",
@@ -697,11 +741,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 232000.0
         },
         "Durability": {
-          "Health": 375.0,
+          "Health": 1500.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -726,7 +774,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QDRV_ACAS_S01_LightFire_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_ACAS_S01_LightFire_SCItem",
@@ -739,6 +787,10 @@
           "Code": "ACAS",
           "Name": "Ace Astrogation"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 4.9E-09,
           "JumpRange": 3.402823E+38,
@@ -758,7 +810,7 @@
           }
         },
         "Durability": {
-          "Health": 300.0,
+          "Health": 1054.0,
           "Lifetime": 3.75
         },
         "PowerConnection": {
@@ -783,7 +835,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_MISC_Razor",
       "InstalledItem": {
         "ClassName": "QTNK_MISC_Razor",
@@ -794,6 +846,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 583.3
         }
@@ -812,7 +868,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Main",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Main",
@@ -824,6 +880,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 774724.5,
           "FuelRate": 9.800000000000001E-06,
@@ -858,7 +918,7 @@
     },
     {
       "PortName": "hardpoint_engine_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Main",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Main",
@@ -870,6 +930,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 774724.5,
           "FuelRate": 9.800000000000001E-06,
@@ -906,7 +970,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_thruster_retro_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Retro",
@@ -918,6 +982,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 337538.8,
           "FuelRate": 9.800000000000001E-06,
@@ -951,7 +1019,7 @@
     },
     {
       "PortName": "hardpoint_thruster_retro_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Retro",
@@ -963,6 +1031,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 337538.8,
           "FuelRate": 9.800000000000001E-06,
@@ -999,7 +1071,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_RR_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1011,6 +1083,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1043,7 +1119,7 @@
     },
     {
       "PortName": "hardpoint_thruster_RR_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1055,6 +1131,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1087,7 +1167,7 @@
     },
     {
       "PortName": "hardpoint_thruster_RR_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1099,6 +1179,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1131,7 +1215,7 @@
     },
     {
       "PortName": "hardpoint_thruster_RL_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1143,6 +1227,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1175,7 +1263,7 @@
     },
     {
       "PortName": "hardpoint_thruster_RL_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1187,6 +1275,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1219,7 +1311,7 @@
     },
     {
       "PortName": "hardpoint_thruster_RL_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1231,6 +1323,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1263,7 +1359,7 @@
     },
     {
       "PortName": "hardpoint_thruster_FR_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1275,6 +1371,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1307,7 +1407,7 @@
     },
     {
       "PortName": "hardpoint_thruster_FR_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1319,6 +1419,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1351,7 +1455,7 @@
     },
     {
       "PortName": "hardpoint_thruster_FR_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1363,6 +1467,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1395,7 +1503,7 @@
     },
     {
       "PortName": "hardpoint_thruster_FL_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1407,6 +1515,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1439,7 +1551,7 @@
     },
     {
       "PortName": "hardpoint_thruster_FL_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1451,6 +1563,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1483,7 +1599,7 @@
     },
     {
       "PortName": "hardpoint_thruster_FL_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MISC_Razor_Thruster_Mav",
       "InstalledItem": {
         "ClassName": "MISC_Razor_Thruster_Mav",
@@ -1495,6 +1611,10 @@
           "Code": "MIS",
           "Name": "Musashi Industrial & Starflight Concern"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 241706.8,
           "FuelRate": 3.125E-06,
@@ -1529,7 +1649,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_MISC_Razor",
       "InstalledItem": {
         "ClassName": "HTNK_MISC_Razor",
@@ -1540,6 +1660,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 30000.0
         }
@@ -1557,7 +1681,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_MISC_Razor",
       "InstalledItem": {
         "ClassName": "INTK_MISC_Razor",
@@ -1568,6 +1692,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1593,7 +1721,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_MISC_Razor",
       "InstalledItem": {
         "ClassName": "INTK_MISC_Razor",
@@ -1604,6 +1732,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1633,7 +1765,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_radar",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_NAVE_S01_SNSR6",
       "InstalledItem": {
         "ClassName": "RADR_NAVE_S01_SNSR6",
@@ -1649,6 +1781,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -1694,7 +1830,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -1705,6 +1841,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -1721,7 +1861,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -1732,7 +1872,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -1746,7 +1890,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],

@@ -15,8 +15,18 @@
             "RequiredTags": "",
             "DisplayType": "",
             "Localization": {
-              "Name": "@LOC_PLACEHOLDER",
+              "Name": "@item_s42_doorpanel",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -102,7 +112,7 @@
                 "GenericCursor": "Button",
                 "FocusModeOnly": false,
                 "Sendable": true,
-                "Linkable": false,
+                "Linkable": true,
                 "LockedByLinks": true,
                 "RequiresAuthorizedUser": false,
                 "available": true
@@ -215,7 +225,7 @@
                 "FocusModeOnly": false,
                 "Sendable": true,
                 "Linkable": true,
-                "LockedByLinks": true,
+                "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
               },
@@ -243,7 +253,7 @@
                 "FocusModeOnly": false,
                 "Sendable": true,
                 "Linkable": true,
-                "LockedByLinks": true,
+                "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
               },

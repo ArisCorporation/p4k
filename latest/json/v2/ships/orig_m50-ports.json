@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_gun_class1_left_wing",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_LaserCannon_S2",
       "InstalledItem": {
         "ClassName": "BEHR_LaserCannon_S2",
@@ -21,6 +21,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -123,7 +127,7 @@
     },
     {
       "PortName": "hardpoint_weapon_gun_class1_right_wing",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_LaserCannon_S2",
       "InstalledItem": {
         "ClassName": "BEHR_LaserCannon_S2",
@@ -142,6 +146,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -252,7 +260,7 @@
   "MissileRacks": [
     {
       "PortName": "hardpoint_weapon_missilerack_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MRCK_S01_BEHR_Single_S01",
       "InstalledItem": {
         "ClassName": "MRCK_S01_BEHR_Single_S01",
@@ -268,6 +276,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -305,6 +317,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -328,7 +344,7 @@
     },
     {
       "PortName": "hardpoint_weapon_missilerack_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "MRCK_S01_BEHR_Single_S01",
       "InstalledItem": {
         "ClassName": "MRCK_S01_BEHR_Single_S01",
@@ -344,6 +360,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -381,6 +401,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -406,7 +430,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasure_launcher_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_CML_Flare",
       "InstalledItem": {
         "ClassName": "ORIG_M50_CML_Flare",
@@ -419,6 +443,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -467,7 +495,7 @@
     },
     {
       "PortName": "hardpoint_countermeasure_launcher_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_CML_Chaff",
       "InstalledItem": {
         "ClassName": "ORIG_M50_CML_Chaff",
@@ -480,6 +508,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -530,7 +562,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_YORM_S01_Targa_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_YORM_S01_Targa_SCItem",
@@ -543,15 +575,19 @@
           "Code": "YORM",
           "Name": "Yorm"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -576,7 +612,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 10.0
         },
         "PowerConnection": {
@@ -599,7 +635,7 @@
     },
     {
       "PortName": "hardpoint_shield_generator_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_YORM_S01_Targa_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_YORM_S01_Targa_SCItem",
@@ -612,15 +648,19 @@
           "Code": "YORM",
           "Name": "Yorm"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -645,7 +685,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 10.0
         },
         "PowerConnection": {
@@ -670,7 +710,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_power_plant",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_ACOM_S01_LumaCore_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_ACOM_S01_LumaCore_SCItem",
@@ -683,11 +723,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 1472.45
         },
         "Durability": {
-          "Health": 370.0,
+          "Health": 1500.0,
           "Lifetime": 19.0
         },
         "PowerConnection": {
@@ -714,7 +758,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_ACOM_S01_IcePlunge_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_ACOM_S01_IcePlunge_SCItem",
@@ -727,11 +771,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 232000.0
         },
         "Durability": {
-          "Health": 375.0,
+          "Health": 1500.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -755,7 +803,7 @@
     },
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_ACOM_S01_IcePlunge_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_ACOM_S01_IcePlunge_SCItem",
@@ -768,11 +816,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 232000.0
         },
         "Durability": {
-          "Health": 375.0,
+          "Health": 1500.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -798,7 +850,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QDRV_ACAS_S01_LightFire_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_ACAS_S01_LightFire_SCItem",
@@ -811,6 +863,10 @@
           "Code": "ACAS",
           "Name": "Ace Astrogation"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 4.9E-09,
           "JumpRange": 3.402823E+38,
@@ -830,7 +886,7 @@
           }
         },
         "Durability": {
-          "Health": 300.0,
+          "Health": 1054.0,
           "Lifetime": 3.75
         },
         "PowerConnection": {
@@ -855,7 +911,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_ORIG_m50",
       "InstalledItem": {
         "ClassName": "QTNK_ORIG_m50",
@@ -866,6 +922,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 583.33
         }
@@ -884,7 +944,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine_right_attach",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Main",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Main",
@@ -896,6 +956,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 720445.5,
           "FuelRate": 9.8875E-06,
@@ -929,7 +993,7 @@
     },
     {
       "PortName": "hardpoint_engine_left_attach",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Main",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Main",
@@ -941,6 +1005,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 720445.5,
           "FuelRate": 9.8875E-06,
@@ -976,7 +1044,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_thruster_intake_right_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Retro",
@@ -988,6 +1056,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 355035.4,
           "FuelRate": 9.8875E-06,
@@ -1020,7 +1092,7 @@
     },
     {
       "PortName": "hardpoint_thruster_intake_left_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Retro",
@@ -1032,6 +1104,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 355035.4,
           "FuelRate": 9.8875E-06,
@@ -1067,7 +1143,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_rear_right_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Joint",
@@ -1079,6 +1155,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 129803.1,
           "FuelRate": 3.125E-06,
@@ -1112,7 +1192,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_right_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Joint",
@@ -1124,6 +1204,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 129803.1,
           "FuelRate": 3.125E-06,
@@ -1157,7 +1241,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_left_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Joint",
@@ -1169,6 +1253,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 129803.1,
           "FuelRate": 3.125E-06,
@@ -1202,7 +1290,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_left_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Joint",
@@ -1214,6 +1302,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 129803.1,
           "FuelRate": 3.125E-06,
@@ -1247,7 +1339,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
@@ -1259,6 +1351,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 128231.2,
           "FuelRate": 3.125E-06,
@@ -1291,7 +1387,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
@@ -1303,6 +1399,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 128231.2,
           "FuelRate": 3.125E-06,
@@ -1335,7 +1435,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
@@ -1347,6 +1447,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 128231.2,
           "FuelRate": 3.125E-06,
@@ -1379,7 +1483,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
@@ -1391,6 +1495,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 128231.2,
           "FuelRate": 3.125E-06,
@@ -1423,7 +1531,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right_side",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
@@ -1435,6 +1543,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 128231.2,
           "FuelRate": 3.125E-06,
@@ -1467,7 +1579,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
@@ -1479,6 +1591,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 128231.2,
           "FuelRate": 3.125E-06,
@@ -1513,7 +1629,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_ORIG_M50",
       "InstalledItem": {
         "ClassName": "HTNK_ORIG_M50",
@@ -1524,6 +1640,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 15000.0
         }
@@ -1540,7 +1660,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_ORIG_M50",
       "InstalledItem": {
         "ClassName": "HTNK_ORIG_M50",
@@ -1551,6 +1671,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 15000.0
         }
@@ -1569,7 +1693,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_ORIG_M50",
       "InstalledItem": {
         "ClassName": "INTK_ORIG_M50",
@@ -1580,6 +1704,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1605,7 +1733,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_ORIG_M50",
       "InstalledItem": {
         "ClassName": "INTK_ORIG_M50",
@@ -1616,6 +1744,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1645,7 +1777,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_radar",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_NAVE_S01_SNSR6",
       "InstalledItem": {
         "ClassName": "RADR_NAVE_S01_SNSR6",
@@ -1661,6 +1793,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -1706,7 +1842,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -1717,6 +1853,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -1733,7 +1873,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -1744,7 +1884,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -1758,7 +1902,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],

@@ -35,6 +35,16 @@
         "Localization": {
           "Name": "@item_Namecrlf_consumable_overdoseRevival_01",
           "Description": "@item_Desccrlf_consumable_overdoseRevival_01"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 180.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.0348,
+          "y": 0.15,
+          "z": 0.0336
         }
       }
     },
@@ -43,7 +53,12 @@
       "subtype": "00000000-0000-0000-0000-000000000000",
       "name": "@LOC_EMPTY",
       "description": "@LOC_EMPTY",
-      "IsUnrefinedElement": false
+      "IsUnrefinedElement": false,
+      "occupancy": {
+        "SMicroCargoUnit": {
+          "microSCU": 550.0
+        }
+      }
     },
     "SEntityInteractableParams": {
       "Interactable": {
@@ -203,6 +218,17 @@
             "available": true
           }
         ]
+      }
+    },
+    "SCItemConsumableParams": {
+      "containerTypeTag": "injection",
+      "oneShotConsume": true,
+      "canBeReclosed": false,
+      "discardWhenConsumed": true,
+      "consumableVolume": {
+        "SMicroCargoUnit": {
+          "microSCU": 15.0
+        }
       }
     }
   },

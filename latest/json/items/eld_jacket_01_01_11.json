@@ -40,6 +40,16 @@
             "Localization": {
               "Name": "@item_Name_ELD_Jacket_01_01_11",
               "Description": "@item_Desc_ELD_Jacket_01_01_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 8700.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.356,
+              "y": 0.183,
+              "z": 0.166
             }
           }
         },
@@ -176,11 +186,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "f4656fda-387e-46fe-8860-e8bf95380f64"
         }
       },
       "ClassName": "eld_jacket_01_01_11",
       "__ref": "43696e42-7d70-41e2-bc25-0d2f2478cccd",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.001,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

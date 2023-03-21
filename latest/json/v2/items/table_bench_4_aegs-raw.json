@@ -11,13 +11,13 @@
         "SItemPortLoadoutManualParams": {
           "entries": [
             {
-              "itemPortName": "Seat_01",
-              "entityClassName": "Seat_Chair_Template",
+              "itemPortName": "$slot_seat_01",
+              "entityClassName": "Seat_Bench_NoBack_Center_Template_a",
               "loadout": {}
             },
             {
-              "itemPortName": "Seat_02",
-              "entityClassName": "Seat_Chair_Template",
+              "itemPortName": "$slot_seat_02",
+              "entityClassName": "Seat_Bench_NoBack_Center_Template_a",
               "loadout": {}
             },
             {
@@ -67,6 +67,16 @@
         "Localization": {
           "Name": "@LOC_PLACEHOLDER",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
@@ -83,7 +93,7 @@
         {
           "Name": "Drink_01",
           "DisplayName": "",
-          "PortTags": "table_drink_01",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
@@ -95,7 +105,7 @@
         {
           "Name": "Drink_02",
           "DisplayName": "",
-          "PortTags": "table_drink_02",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
@@ -105,10 +115,10 @@
           "Types": []
         },
         {
-          "Name": "Seat_01",
+          "Name": "$slot_seat_01",
           "DisplayName": "",
-          "PortTags": "",
-          "RequiredPortTags": "Seat_01",
+          "PortTags": "Seat_01",
+          "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
           "MaxSize": 1,
@@ -117,7 +127,7 @@
           "Types": []
         },
         {
-          "Name": "Seat_02",
+          "Name": "$slot_seat_02",
           "DisplayName": "",
           "PortTags": "Seat_02",
           "RequiredPortTags": "",
@@ -301,7 +311,7 @@
         {
           "Name": "Drink_03",
           "DisplayName": "",
-          "PortTags": "table_drink_03",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
@@ -405,7 +415,7 @@
         {
           "Name": "Drink_04",
           "DisplayName": "",
-          "PortTags": "table_drink_04",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
@@ -509,7 +519,7 @@
         {
           "Name": "Drink_05",
           "DisplayName": "",
-          "PortTags": "table_drink_05",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
@@ -613,7 +623,7 @@
         {
           "Name": "Drink_06",
           "DisplayName": "",
-          "PortTags": "table_drink_06",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
@@ -717,7 +727,7 @@
         {
           "Name": "Drink_07",
           "DisplayName": "",
-          "PortTags": "table_drink_07",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,
@@ -821,7 +831,7 @@
         {
           "Name": "Drink_08",
           "DisplayName": "",
-          "PortTags": "table_drink_08",
+          "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "nophys",
           "MinSize": 0,

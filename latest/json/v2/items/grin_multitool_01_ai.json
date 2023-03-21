@@ -10,6 +10,10 @@
     "Code": "GRIN",
     "Name": "Greycat Industrial"
   },
+  "Width": 0.0612,
+  "Height": 0.125,
+  "Length": 0.2677,
+  "Volume": 1700.0,
   "PowerConnection": {
     "PowerBase": 1.0,
     "PowerDraw": 50.0
@@ -43,6 +47,30 @@
     {
       "PortName": "magazine_attach",
       "Size": 1,
+      "Types": [
+        "WeaponAttachment.Magazine"
+      ]
+    },
+    {
+      "PortName": "weapon_action_attachment",
+      "Size": 1,
+      "Types": [
+        "WeaponAttachment.Personal"
+      ]
+    },
+    {
+      "PortName": "module_attach",
+      "Size": 1,
+      "Types": [
+        "WeaponAttachment.Utility"
+      ],
+      "Flags": [
+        "inventory"
+      ]
+    },
+    {
+      "PortName": "canister_attach",
+      "Size": 1,
       "Loadout": "grin_multitool_resource_healing_01",
       "InstalledItem": {
         "ClassName": "grin_multitool_resource_healing_01",
@@ -59,6 +87,10 @@
           "grin_multitool_01",
           "multitool_resource"
         ],
+        "Width": 0.045,
+        "Height": 0.134,
+        "Length": 0.045,
+        "Volume": 300.0,
         "Ammunition": {
           "Speed": 600.0,
           "Range": 1200.0,
@@ -71,45 +103,6 @@
       },
       "Types": [
         "WeaponAttachment.Magazine"
-      ]
-    },
-    {
-      "PortName": "weapon_action_attachment",
-      "Size": 1,
-      "Types": [
-        "WeaponAttachment.Personal"
-      ]
-    },
-    {
-      "PortName": "module_attach",
-      "Size": 1,
-      "Loadout": "grin_multitool_energy_01_mag",
-      "InstalledItem": {
-        "ClassName": "grin_multitool_energy_01_mag",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponAttachment.Magazine",
-        "Name": "Pyro RYT Multi-Tool Battery",
-        "Description": "This battery powers Greycat's Pyro RYT Multi-Tool, so that you can tackle a variety of tasks.",
-        "Manufacturer": {
-          "Code": "GRIN",
-          "Name": "Greycat Industrial"
-        },
-        "Tags": [
-          "grin_multitool_energy_01"
-        ],
-        "Ammunition": {
-          "Speed": 600.0,
-          "Range": 1200.0,
-          "Size": 1.0,
-          "Capacity": 100.0,
-          "ImpactDamage": {
-            "Energy": 5.0
-          }
-        }
-      },
-      "Types": [
-        "WeaponAttachment.Utility"
       ],
       "Flags": [
         "inventory"

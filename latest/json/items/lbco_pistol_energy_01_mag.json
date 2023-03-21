@@ -8,17 +8,17 @@
         "damage": [
           {
             "DamagePhysical": 0.0,
-            "DamageEnergy": 5.5,
-            "DamageDistortion": 4.0,
+            "DamageEnergy": 8.0,
+            "DamageDistortion": 1.0,
             "DamageThermal": 0.0,
             "DamageBiochemical": 0.0,
-            "DamageStun": 3.0
+            "DamageStun": 1.0
           }
         ],
         "detonationParams": {}
       }
     },
-    "ClassName": "pistol_electron",
+    "ClassName": "lbco_pistol_energy_01_ammo_electron",
     "__ref": "3fd06a3d-6d80-4636-bfaf-57faf063b8ea",
     "__type": "AmmoParams"
   },
@@ -66,6 +66,16 @@
             "Localization": {
               "Name": "@item_Namelbco_pistol_energy_01_mag",
               "Description": "@item_Desclbco_pistol_energy_01_mag"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 180.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.03443176,
+              "y": 0.03702345,
+              "z": 0.1430198
             }
           }
         },
@@ -92,7 +102,7 @@
                 "available": true
               },
               {
-                "Name": "CarryLowered",
+                "Name": "Carry",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_carry",
@@ -106,7 +116,7 @@
                 "available": true
               },
               {
-                "Name": "Equip",
+                "Name": "EquipToSuit",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_equip",
@@ -120,7 +130,7 @@
                 "available": true
               },
               {
-                "Name": "OffHandEquip",
+                "Name": "OffHandEquipToSuit",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_equip",

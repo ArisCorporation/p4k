@@ -4,6 +4,14 @@
       "StaticEntityClassData": {
         "DefaultEntitlementEntityParams": {
           "entitlementPolicy": "8a1fdd48-7896-4774-a110-2466190e1a07"
+        },
+        "SEntityInsuranceProperties": {
+          "shipInsuranceParams": {
+            "shipEntityClassName": "ANVL_Ballista",
+            "baseWaitTimeMinutes": 0.759375,
+            "mandatoryWaitTimeMinutes": 0.0,
+            "baseExpeditingFee": 380.0
+          }
         }
       },
       "tags": [
@@ -18,6 +26,9 @@
         },
         {
           "value": "6c5813fa-c300-4bb9-a389-bfdfb587174c"
+        },
+        {
+          "value": "71383ff9-d5e6-4053-ba15-8e8f5bf745d0"
         }
       ],
       "Components": {
@@ -37,12 +48,22 @@
           "vehicleCareer": "@vehicle_focus_ground",
           "vehicleCareerRef": "00000000-0000-0000-0000-000000000000",
           "vehicleRole": "@vehicle_focus_ground",
-          "vehicleRoleRef": "00000000-0000-0000-0000-000000000000"
+          "vehicleRoleRef": "00000000-0000-0000-0000-000000000000",
+          "maxBoundingBoxSize": {
+            "x": 7.0,
+            "y": 17.0,
+            "z": 5.5
+          }
         },
         "SEntityComponentDefaultLoadoutParams": {
           "loadout": {
             "SItemPortLoadoutManualParams": {
               "entries": [
+                {
+                  "itemPortName": "hardpoint_paint",
+                  "entityClassName": "",
+                  "loadout": {}
+                },
                 {
                   "itemPortName": "hardpoint_seat_driver",
                   "entityClassName": "ANVL_Ballista_SCItem_Seat_Driver",
@@ -340,6 +361,16 @@
             "Localization": {
               "Name": "@vehicle_NameANVL_Ballista",
               "Description": "@vehicle_DescANVL_Ballista"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -477,7 +508,8 @@
         {
           "name": "ANVL_Ballista",
           "mass": "33276.0",
-          "damagemax": 4200.0,
+          "damageMax": 4200.0,
+          "damagemax": 0.0,
           "class": "Animated",
           "Parts": [
             {
@@ -492,8 +524,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 4,
-                    "maxsize": 4,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "$uneditable",
                     "defaultWeaponGroup": "1",
                     "Types": [
@@ -538,8 +570,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "port_NameSeatDriver",
                     "flags": "uneditable",
                     "Types": [
@@ -579,8 +611,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "uneditable",
                     "Types": [
                       {
@@ -614,8 +646,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "port_NameSeatPassenger",
                     "flags": "uneditable",
                     "Types": [
@@ -655,8 +687,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "uneditable",
                     "Types": [
                       {
@@ -671,8 +703,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "uneditable",
                     "Types": [
                       {
@@ -687,8 +719,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "port_Flair01",
                     "flags": "",
                     "requiredTags": "",
@@ -705,8 +737,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "port_Flair01",
                     "flags": "",
                     "requiredTags": "",
@@ -726,13 +758,11 @@
                   "DetachPart": [
                     {
                       "name": "body",
-                      "damagemax": 0.0,
-                      "Probability": 1.0
+                      "damagemax": 0.0
                     },
                     {
                       "name": "nose",
-                      "damagemax": 0.0,
-                      "Probability": 1.0
+                      "damagemax": 0.0
                     }
                   ]
                 },
@@ -758,8 +788,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -791,8 +821,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "Armor Slot",
                     "flags": "invisible uneditable",
                     "Types": [
@@ -807,8 +837,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 4,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "",
                     "Types": [
                       {
@@ -832,8 +862,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "Self Destruct",
                     "flags": "invisible uneditable",
                     "Types": [
@@ -854,8 +884,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -892,8 +922,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -916,8 +946,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -954,8 +984,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -978,8 +1008,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1022,8 +1052,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "Weapon Regen Pool",
                     "flags": "invisible uneditable",
                     "Types": [
@@ -1048,8 +1078,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "Weapon Regen Pool",
                     "flags": "invisible uneditable",
                     "Types": [
@@ -1074,8 +1104,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1098,8 +1128,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1127,8 +1157,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1145,8 +1175,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1170,8 +1200,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "display_name": "port_NamePaint",
                     "flags": "uneditable",
                     "id": "modPaint",
@@ -1282,8 +1312,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1300,8 +1330,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "uneditable",
                     "Types": [
                       {
@@ -1400,8 +1430,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1445,8 +1475,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1471,8 +1501,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 1,
-                    "maxsize": 1,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "invisible uneditable",
                     "Types": [
                       {
@@ -1499,8 +1529,8 @@
                   "damagemax": 0.0,
                   "class": "ItemPort",
                   "ItemPort": {
-                    "minsize": 9,
-                    "maxsize": 9,
+                    "minsize": 0,
+                    "maxsize": 0,
                     "flags": "uneditable",
                     "defaultWeaponGroup": "1",
                     "requiredTags": "",
@@ -1541,13 +1571,11 @@
                   "DetachPart": [
                     {
                       "name": "nose",
-                      "damagemax": 0.0,
-                      "Probability": 1.0
+                      "damagemax": 0.0
                     },
                     {
                       "name": "body",
-                      "damagemax": 0.0,
-                      "Probability": 1.0
+                      "damagemax": 0.0
                     }
                   ]
                 },
@@ -1563,7 +1591,8 @@
             {
               "name": "hardpoint_wheel_front_left01",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -1573,33 +1602,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_left01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_left01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_left01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_left01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_left01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_left01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -1650,7 +1673,8 @@
             {
               "name": "hardpoint_wheel_front_left02",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -1660,33 +1684,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_left02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_left02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_left02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_left02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_left02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_left02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -1737,7 +1755,8 @@
             {
               "name": "hardpoint_wheel_front_right01",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -1747,33 +1766,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_right01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_right01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_right01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_right01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_right01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_right01",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -1824,7 +1837,8 @@
             {
               "name": "hardpoint_wheel_front_right02",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -1834,33 +1848,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_right02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_right02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_right02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_right02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_right02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_right02",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -1911,7 +1919,8 @@
             {
               "name": "hardpoint_wheel_back_left01",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -1921,33 +1930,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_left03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_left03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_left03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_left03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_left03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_left03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -1998,7 +2001,8 @@
             {
               "name": "hardpoint_wheel_back_left02",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -2008,33 +2012,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_left04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_left04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_left04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_left04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_left04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_left04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -2085,7 +2083,8 @@
             {
               "name": "hardpoint_wheel_back_right01",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -2095,33 +2094,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_right03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_right03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_right03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_right03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_right03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_right03",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -2172,7 +2165,8 @@
             {
               "name": "hardpoint_wheel_back_right02",
               "mass": "80",
-              "damagemax": 1700.0,
+              "damageMax": 1700.0,
+              "damagemax": 0.0,
               "class": "SubPartWheel",
               "detachRatio": 1.0,
               "DamageBehaviors": [
@@ -2182,33 +2176,27 @@
                   "DetachPart": [
                     {
                       "name": "hardpoint_spindle_right04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_drive_shaft_right04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_lower_right04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_suspension_housing_right04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_arm_upper_right04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     },
                     {
                       "name": "hardpoint_piston_right04",
-                      "damagemax": 0.0,
-                      "Probability": 0.2
+                      "damagemax": 0.0
                     }
                   ]
                 }
@@ -2267,8 +2255,8 @@
               "damagemax": 0.0,
               "class": "ItemPort",
               "ItemPort": {
-                "minsize": 1,
-                "maxsize": 1,
+                "minsize": 0,
+                "maxsize": 0,
                 "flags": "invisible uneditable",
                 "Types": [
                   {

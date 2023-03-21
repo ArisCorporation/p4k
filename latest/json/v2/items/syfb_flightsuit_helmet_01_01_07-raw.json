@@ -55,6 +55,16 @@
         "Localization": {
           "Name": "@item_Name_syfb_flightsuit_helmet_01_01_07",
           "Description": "@item_Desc_syfb_flightsuit_helmet_01_01_07"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 15700.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.229,
+          "y": 0.283,
+          "z": 0.303
         }
       }
     },
@@ -132,7 +142,7 @@
             "available": true
           },
           {
-            "Name": "Equip",
+            "Name": "EquipToWear",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@interaction_equip",
@@ -156,6 +166,9 @@
     },
     "SCItemSuitArmorParams": {
       "damageResistance": "7024a3a2-4072-434f-a095-0b43d2c60ae4"
+    },
+    "SCItemSuitHelmetParams": {
+      "atmosphereCapacity": 0.02
     },
     "SItemPortContainerComponentParams": {
       "PortFlags": "",

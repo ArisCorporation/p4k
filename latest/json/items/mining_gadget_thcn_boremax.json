@@ -21,6 +21,16 @@
             "Localization": {
               "Name": "@item_Mining_Gadget_Gadget5",
               "Description": "@item_Mining_Gadget_Gadget5_Desc"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 15563.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.5109016,
+              "y": 0.175,
+              "z": 0.125
             }
           }
         },
@@ -217,6 +227,20 @@
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_unprime",
+                "DisplayType": "Hide",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": false,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
+              },
+              {
+                "Name": "CarryLowered",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@usable_use",
                 "DisplayType": "Hide",
                 "GenericCursor": "SingleAction",
                 "FocusModeOnly": false,

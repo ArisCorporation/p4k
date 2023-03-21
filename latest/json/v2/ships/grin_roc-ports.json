@@ -25,6 +25,10 @@
           "weaponMountUsable",
           "miningMount"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 1.105504,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 8000.0,
           "Lifetime": 100.0
@@ -79,6 +83,10 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "PowerPlant": {
           "Output": 720.0
         },
@@ -119,6 +127,10 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "PowerPlant": {
           "Output": 720.0
         },
@@ -161,6 +173,10 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.4009475,
+        "Length": 1.105504,
+        "Volume": 21000.0,
         "Cooler": {
           "Rate": 100000.0
         },
@@ -196,7 +212,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "FuelTank"
       ],
@@ -211,7 +227,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "FuelIntake"
       ],
@@ -224,40 +240,11 @@
     }
   ],
   "InterdictionHardpoints": [],
-  "CargoGrids": [
-    {
-      "PortName": "hardpoint_cargogrid_main",
-      "Size": 1,
-      "Loadout": "GRIN_ROC_CargoGrid_Main",
-      "InstalledItem": {
-        "ClassName": "GRIN_ROC_CargoGrid_Main",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "GRIN_ROC_CargoGrid_Main",
-        "Manufacturer": {
-          "Code": "GRIN",
-          "Name": "Greycat Industrial"
-        },
-        "Durability": {
-          "Health": 1000.0
-        }
-      },
-      "Types": [
-        "Cargo"
-      ],
-      "Flags": [
-        "selfphys",
-        "uneditable"
-      ],
-      "Category": "Cargo grids",
-      "Uneditable": true
-    }
-  ],
+  "CargoGrids": [],
   "Avionics": [
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -268,6 +255,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -284,7 +275,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping_Prospector",
       "InstalledItem": {
         "ClassName": "test_ping_Prospector",
@@ -295,7 +286,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -309,7 +304,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],
@@ -334,6 +329,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },

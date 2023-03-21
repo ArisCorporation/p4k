@@ -17,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -140,11 +150,27 @@
               }
             ]
           }
+        },
+        "SInventoryParams": {
+          "capacity": {
+            "SCentiCargoUnit": {
+              "centiSCU": 200.0
+            }
+          }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "e9a8140f-12be-4ec0-abb2-c121dde203d8"
         }
       },
       "ClassName": "PersonalStorage_RAFT",
       "__ref": "e8d614e1-9411-4fbd-b251-5542adef017e",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.4,
+    "x": 0.5,
+    "y": 0.5,
+    "z": 1.5
   }
 }

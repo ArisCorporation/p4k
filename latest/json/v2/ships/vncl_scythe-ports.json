@@ -1,8 +1,190 @@
 {
   "PilotHardpoints": [
     {
+      "PortName": "hardpoint_gun_wing_left",
+      "Size": 0,
+      "Loadout": "VNCL_NeutronCannon_S5",
+      "InstalledItem": {
+        "ClassName": "VNCL_NeutronCannon_S5",
+        "Size": 5,
+        "Grade": 1,
+        "Type": "WeaponGun.Gun",
+        "Name": "'WAR' Cannon",
+        "Description": "Manufacturer: Vanduul / Esperia\nItem Type: Neutron Cannon\nSize: 5\n\nThis neutron cannon is typically found on Vanduul war ships and is commonly known by its UEE Navy designation of 'WAR'.",
+        "Manufacturer": {
+          "Code": "VNC",
+          "Name": "Vanduul"
+        },
+        "Tags": [
+          "VNCL",
+          "NeutronCannon",
+          "flightReady",
+          "weaponMountUsable"
+        ],
+        "Width": 1.116502,
+        "Height": 2.004737,
+        "Length": 8.84403,
+        "Volume": 4200000.0,
+        "Durability": {
+          "Health": 2640.0,
+          "Lifetime": 20.0
+        },
+        "PowerConnection": {
+          "PowerBase": 450.0,
+          "PowerDraw": 450.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 100.0,
+          "ThermalEnergyDraw": 200.0,
+          "CoolingRate": 347.857
+        },
+        "Weapon": {
+          "Ammunition": {
+            "Speed": 700.0,
+            "Range": 2800.0,
+            "Size": 1.0,
+            "Capacity": 0.0,
+            "ImpactDamage": {
+              "Energy": 1500.0
+            }
+          },
+          "Modes": [
+            {
+              "Name": "Single",
+              "LocalisedName": "[AUTO]",
+              "RoundsPerMinute": 70.0,
+              "FireType": "sequence",
+              "AmmoPerShot": 1.0,
+              "PelletsPerShot": 1.0,
+              "DamagePerShot": {
+                "Energy": 1500.0
+              },
+              "DamagePerSecond": {
+                "Energy": 1750.0
+              }
+            }
+          ],
+          "Consumption": {
+            "RequestedRegenPerSec": 8750.0,
+            "Cooldown": 1.75,
+            "CostPerBullet": 750.0,
+            "RequestedAmmoLoad": 52500.0
+          }
+        },
+        "Ammunition": {
+          "Speed": 700.0,
+          "Range": 2800.0,
+          "Size": 1.0,
+          "Capacity": 0.0,
+          "ImpactDamage": {
+            "Energy": 1500.0
+          }
+        }
+      },
+      "Types": [
+        "WeaponGun.Gun"
+      ],
+      "Flags": [
+        "uneditable",
+        "left"
+      ],
+      "Category": "Weapon hardpoints",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_gun_wing_right",
+      "Size": 0,
+      "Loadout": "VNCL_PlasmaCannon_S5",
+      "InstalledItem": {
+        "ClassName": "VNCL_PlasmaCannon_S5",
+        "Size": 5,
+        "Grade": 1,
+        "Type": "WeaponGun.Gun",
+        "Name": "'WRATH' Cannon",
+        "Description": "Manufacturer: Vanduul / Esperia\nItem Type: Plasma Canon\nSize: 5\n\nThis laser repeater is typically found on Vanduul war ships and is commonly known by its UEE Navy designation of 'WRATH'.",
+        "Manufacturer": {
+          "Code": "VNC",
+          "Name": "Vanduul"
+        },
+        "Tags": [
+          "VNCL",
+          "PlasmaCannon",
+          "flightReady",
+          "weaponMountUsable"
+        ],
+        "Width": 1.116502,
+        "Height": 2.004737,
+        "Length": 8.84403,
+        "Volume": 4200000.0,
+        "Durability": {
+          "Health": 1050.0,
+          "Lifetime": 20.0
+        },
+        "PowerConnection": {
+          "PowerBase": 450.0,
+          "PowerDraw": 450.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 100.0,
+          "ThermalEnergyDraw": 200.0,
+          "CoolingRate": 347.857
+        },
+        "Weapon": {
+          "Ammunition": {
+            "Speed": 700.0,
+            "Range": 2800.0,
+            "Size": 1.0,
+            "Capacity": 0.0,
+            "ImpactDamage": {
+              "Energy": 1500.0
+            }
+          },
+          "Modes": [
+            {
+              "Name": "Single",
+              "LocalisedName": "[AUTO]",
+              "RoundsPerMinute": 70.0,
+              "FireType": "sequence",
+              "AmmoPerShot": 1.0,
+              "PelletsPerShot": 1.0,
+              "DamagePerShot": {
+                "Energy": 1500.0
+              },
+              "DamagePerSecond": {
+                "Energy": 1750.0
+              }
+            }
+          ],
+          "Consumption": {
+            "RequestedRegenPerSec": 8750.0,
+            "Cooldown": 1.75,
+            "CostPerBullet": 750.0,
+            "RequestedAmmoLoad": 52500.0
+          }
+        },
+        "Ammunition": {
+          "Speed": 700.0,
+          "Range": 2800.0,
+          "Size": 1.0,
+          "Capacity": 0.0,
+          "ImpactDamage": {
+            "Energy": 1500.0
+          }
+        }
+      },
+      "Types": [
+        "WeaponGun.Gun"
+      ],
+      "Flags": [
+        "uneditable",
+        "right"
+      ],
+      "Category": "Weapon hardpoints",
+      "Uneditable": true
+    },
+    {
       "PortName": "hardpoint_gun_nose_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_LaserCannon_S1",
       "InstalledItem": {
         "ClassName": "VNCL_LaserCannon_S1",
@@ -21,6 +203,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -97,7 +283,7 @@
     },
     {
       "PortName": "hardpoint_gun_nose_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_LaserCannon_S1",
       "InstalledItem": {
         "ClassName": "VNCL_LaserCannon_S1",
@@ -116,6 +302,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -189,180 +379,6 @@
       ],
       "Category": "Weapon hardpoints",
       "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_gun_wing_left",
-      "Size": 5,
-      "Loadout": "VNCL_NeutronCannon_S5",
-      "InstalledItem": {
-        "ClassName": "VNCL_NeutronCannon_S5",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "'WAR' Cannon",
-        "Description": "Manufacturer: Vanduul / Esperia\nItem Type: Neutron Cannon\nSize: 5\n\nThis neutron cannon is typically found on Vanduul war ships and is commonly known by its UEE Navy designation of 'WAR'.",
-        "Manufacturer": {
-          "Code": "VNC",
-          "Name": "Vanduul"
-        },
-        "Tags": [
-          "VNCL",
-          "NeutronCannon",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "Durability": {
-          "Health": 2640.0,
-          "Lifetime": 20.0
-        },
-        "PowerConnection": {
-          "PowerBase": 450.0,
-          "PowerDraw": 450.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 100.0,
-          "ThermalEnergyDraw": 200.0,
-          "CoolingRate": 347.857
-        },
-        "Weapon": {
-          "Ammunition": {
-            "Speed": 700.0,
-            "Range": 2800.0,
-            "Size": 1.0,
-            "Capacity": 0.0,
-            "ImpactDamage": {
-              "Energy": 1500.0
-            }
-          },
-          "Modes": [
-            {
-              "Name": "Single",
-              "LocalisedName": "[AUTO]",
-              "RoundsPerMinute": 70.0,
-              "FireType": "sequence",
-              "AmmoPerShot": 1.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Energy": 1500.0
-              },
-              "DamagePerSecond": {
-                "Energy": 1750.0
-              }
-            }
-          ],
-          "Consumption": {
-            "RequestedRegenPerSec": 8750.0,
-            "Cooldown": 1.75,
-            "CostPerBullet": 750.0,
-            "RequestedAmmoLoad": 52500.0
-          }
-        },
-        "Ammunition": {
-          "Speed": 700.0,
-          "Range": 2800.0,
-          "Size": 1.0,
-          "Capacity": 0.0,
-          "ImpactDamage": {
-            "Energy": 1500.0
-          }
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Flags": [
-        "uneditable",
-        "left"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_gun_wing_right",
-      "Size": 5,
-      "Loadout": "VNCL_PlasmaCannon_S5",
-      "InstalledItem": {
-        "ClassName": "VNCL_PlasmaCannon_S5",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "'WRATH' Cannon",
-        "Description": "Manufacturer: Vanduul / Esperia\nItem Type: Plasma Canon\nSize: 5\n\nThis laser repeater is typically found on Vanduul war ships and is commonly known by its UEE Navy designation of 'WRATH'.",
-        "Manufacturer": {
-          "Code": "VNC",
-          "Name": "Vanduul"
-        },
-        "Tags": [
-          "VNCL",
-          "PlasmaCannon",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "Durability": {
-          "Health": 1050.0,
-          "Lifetime": 20.0
-        },
-        "PowerConnection": {
-          "PowerBase": 450.0,
-          "PowerDraw": 450.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 100.0,
-          "ThermalEnergyDraw": 200.0,
-          "CoolingRate": 347.857
-        },
-        "Weapon": {
-          "Ammunition": {
-            "Speed": 700.0,
-            "Range": 2800.0,
-            "Size": 1.0,
-            "Capacity": 0.0,
-            "ImpactDamage": {
-              "Energy": 1500.0
-            }
-          },
-          "Modes": [
-            {
-              "Name": "Single",
-              "LocalisedName": "[AUTO]",
-              "RoundsPerMinute": 70.0,
-              "FireType": "sequence",
-              "AmmoPerShot": 1.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Energy": 1500.0
-              },
-              "DamagePerSecond": {
-                "Energy": 1750.0
-              }
-            }
-          ],
-          "Consumption": {
-            "RequestedRegenPerSec": 8750.0,
-            "Cooldown": 1.75,
-            "CostPerBullet": 750.0,
-            "RequestedAmmoLoad": 52500.0
-          }
-        },
-        "Ammunition": {
-          "Speed": 700.0,
-          "Range": 2800.0,
-          "Size": 1.0,
-          "Capacity": 0.0,
-          "ImpactDamage": {
-            "Energy": 1500.0
-          }
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Flags": [
-        "uneditable",
-        "right"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
     }
   ],
   "MannedTurrets": [],
@@ -374,7 +390,7 @@
   "MissileRacks": [
     {
       "PortName": "hardpoint_missile_rack_left",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "MRCK_S03_VNCL_Quad_S01",
       "InstalledItem": {
         "ClassName": "MRCK_S03_VNCL_Quad_S01",
@@ -390,6 +406,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -427,6 +447,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -461,6 +485,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -495,6 +523,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -529,6 +561,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -557,7 +593,7 @@
     },
     {
       "PortName": "hardpoint_blade_wing_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_MissileRack_Blade",
       "InstalledItem": {
         "ClassName": "VNCL_MissileRack_Blade",
@@ -574,6 +610,10 @@
           "flightReady",
           "VNCL_Blade"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 200.0
         },
@@ -599,7 +639,7 @@
     },
     {
       "PortName": "hardpoint_missile_rack_right",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "MRCK_S03_VNCL_Quad_S01",
       "InstalledItem": {
         "ClassName": "MRCK_S03_VNCL_Quad_S01",
@@ -615,6 +655,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -652,6 +696,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -686,6 +734,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -720,6 +772,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -754,6 +810,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 1.0,
+              "Volume": 1000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -784,7 +844,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasures_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "VNCL_CML_Chaff",
       "InstalledItem": {
         "ClassName": "VNCL_CML_Chaff",
@@ -797,6 +857,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -845,7 +909,7 @@
     },
     {
       "PortName": "hardpoint_countermeasures_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "VNCL_CML_Flare",
       "InstalledItem": {
         "ClassName": "VNCL_CML_Flare",
@@ -858,6 +922,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -908,7 +976,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
@@ -921,15 +989,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -954,7 +1026,7 @@
           }
         },
         "Durability": {
-          "Health": 125.0,
+          "Health": 1054.0,
           "Lifetime": 20.0
         },
         "PowerConnection": {
@@ -977,7 +1049,7 @@
     },
     {
       "PortName": "hardpoint_shield_generator_02",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
@@ -990,15 +1062,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -1023,7 +1099,7 @@
           }
         },
         "Durability": {
-          "Health": 125.0,
+          "Health": 1054.0,
           "Lifetime": 20.0
         },
         "PowerConnection": {
@@ -1048,7 +1124,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_powerplant_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_AEGS_S01_FierellCascade_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_AEGS_S01_FierellCascade_SCItem",
@@ -1061,11 +1137,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 3365.6
         },
         "Durability": {
-          "Health": 800.0,
+          "Health": 1500.0,
           "Lifetime": 23.0
         },
         "PowerConnection": {
@@ -1091,7 +1171,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -1104,11 +1184,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -1132,7 +1216,7 @@
     },
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -1145,11 +1229,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -1175,7 +1263,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QDRV_WETK_S01_Beacon_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_WETK_S01_Beacon_SCItem",
@@ -1188,6 +1276,10 @@
           "Code": "WETK",
           "Name": "Wei-Tek"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 1.862E-08,
           "JumpRange": 3.402823E+38,
@@ -1232,7 +1324,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_VNCL_Scythe",
       "InstalledItem": {
         "ClassName": "QTNK_VNCL_Scythe",
@@ -1244,6 +1336,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 583.33
         }
@@ -1262,7 +1358,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine_left",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Main_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Main_Fixed",
@@ -1274,6 +1370,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3564777.0,
           "FuelRate": 3.7E-05,
@@ -1306,7 +1406,7 @@
     },
     {
       "PortName": "hardpoint_engine_right",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Main_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Main_Fixed",
@@ -1318,6 +1418,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3564777.0,
           "FuelRate": 3.7E-05,
@@ -1352,7 +1456,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_thruster_retro_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Scythe_Thruster_Retro_Fixed_Left",
       "InstalledItem": {
         "ClassName": "VNCL_Scythe_Thruster_Retro_Fixed_Left",
@@ -1364,6 +1468,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1350104.0,
           "FuelRate": 1.25E-05,
@@ -1399,7 +1507,7 @@
     },
     {
       "PortName": "hardpoint_thruster_retro_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Scythe_Thruster_Retro_Fixed_Right",
       "InstalledItem": {
         "ClassName": "VNCL_Scythe_Thruster_Retro_Fixed_Right",
@@ -1411,6 +1519,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1350103.0,
           "FuelRate": 1.25E-05,
@@ -1449,7 +1561,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_top_front_right_fixed",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Fixed",
@@ -1461,6 +1573,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980051.8,
           "FuelRate": 1.25E-05,
@@ -1500,7 +1616,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_back_left_joint",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Joint",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Joint",
@@ -1512,6 +1628,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980362.8,
           "FuelRate": 1.25E-05,
@@ -1550,7 +1670,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_back_right_joint",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Joint",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Joint",
@@ -1562,6 +1682,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980362.8,
           "FuelRate": 1.25E-05,
@@ -1599,7 +1723,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_front_left_joint",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Joint",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Joint",
@@ -1611,6 +1735,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980362.8,
           "FuelRate": 1.25E-05,
@@ -1648,7 +1776,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_front_right_joint",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Joint",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Joint",
@@ -1660,6 +1788,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980362.8,
           "FuelRate": 1.25E-05,
@@ -1699,7 +1831,7 @@
     },
     {
       "PortName": "hardpoint_thruster_side_back_left_fixed",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Fixed",
@@ -1711,6 +1843,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980051.8,
           "FuelRate": 1.25E-05,
@@ -1748,7 +1884,7 @@
     },
     {
       "PortName": "hardpoint_thruster_side_back_right_fixed",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Fixed",
@@ -1760,6 +1896,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980051.8,
           "FuelRate": 1.25E-05,
@@ -1794,7 +1934,7 @@
     },
     {
       "PortName": "hardpoint_thruster_side_front_left_fixed",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Fixed",
@@ -1806,6 +1946,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980051.8,
           "FuelRate": 1.25E-05,
@@ -1840,7 +1984,7 @@
     },
     {
       "PortName": "hardpoint_thruster_side_front_right_fixed",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Fixed",
@@ -1852,6 +1996,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980051.8,
           "FuelRate": 1.25E-05,
@@ -1887,7 +2035,7 @@
     },
     {
       "PortName": "hardpoint_thruster_top_back_left_joint",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Joint",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Joint",
@@ -1899,6 +2047,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980362.8,
           "FuelRate": 1.25E-05,
@@ -1937,7 +2089,7 @@
     },
     {
       "PortName": "hardpoint_thruster_top_back_right_joint",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Joint",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Joint",
@@ -1949,6 +2101,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980362.8,
           "FuelRate": 1.25E-05,
@@ -1986,7 +2142,7 @@
     },
     {
       "PortName": "hardpoint_thruster_top_front_left_fixed",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "VNCL_Glaive_Thruster_Aux_Fixed",
       "InstalledItem": {
         "ClassName": "VNCL_Glaive_Thruster_Aux_Fixed",
@@ -1998,6 +2154,10 @@
           "Code": "VNC",
           "Name": "Vanduul"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 980051.8,
           "FuelRate": 1.25E-05,
@@ -2037,7 +2197,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_VNCL_Scythe",
       "InstalledItem": {
         "ClassName": "HTNK_VNCL_Scythe",
@@ -2048,6 +2208,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 522500.0
         }
@@ -2063,7 +2227,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_VNCL_Scythe",
       "InstalledItem": {
         "ClassName": "HTNK_VNCL_Scythe",
@@ -2074,6 +2238,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 522500.0
         }
@@ -2091,7 +2259,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_VNCL_Scythe",
       "InstalledItem": {
         "ClassName": "INTK_VNCL_Scythe",
@@ -2102,6 +2270,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -2127,7 +2299,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_VNCL_Scythe",
       "InstalledItem": {
         "ClassName": "INTK_VNCL_Scythe",
@@ -2138,6 +2310,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -2167,7 +2343,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_radar",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_GRNP_S01_Ecouter",
       "InstalledItem": {
         "ClassName": "RADR_GRNP_S01_Ecouter",
@@ -2179,6 +2355,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -2224,7 +2404,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -2235,6 +2415,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -2251,7 +2435,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -2262,7 +2446,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -2276,7 +2464,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],

@@ -11,7 +11,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_BASL_S01_Bulwark_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_BASL_S01_Bulwark_SCItem",
@@ -24,15 +24,19 @@
           "Code": "BASL",
           "Name": "Basilisk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -57,7 +61,7 @@
           }
         },
         "Durability": {
-          "Health": 250.0,
+          "Health": 1054.0,
           "Lifetime": 40.0
         },
         "PowerConnection": {
@@ -82,7 +86,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_powerplant",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_JUST_S01_Roughneck_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_JUST_S01_Roughneck_SCItem",
@@ -95,11 +99,15 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 3996.65
         },
         "Durability": {
-          "Health": 125.0,
+          "Health": 1500.0,
           "Lifetime": 38.0
         },
         "PowerConnection": {
@@ -137,6 +145,10 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.4009475,
+        "Length": 1.105504,
+        "Volume": 21000.0,
         "Cooler": {
           "Rate": 100000.0
         },
@@ -177,6 +189,10 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.4009475,
+        "Length": 1.105504,
+        "Volume": 21000.0,
         "Cooler": {
           "Rate": 100000.0
         },
@@ -208,7 +224,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine_middle_left",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Main",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Main",
@@ -220,6 +236,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 68173.3,
           "FuelRate": 1.09375E-05,
@@ -253,7 +273,7 @@
     },
     {
       "PortName": "hardpoint_engine_middle_right",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Main",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Main",
@@ -265,6 +285,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 68173.3,
           "FuelRate": 1.09375E-05,
@@ -298,7 +322,7 @@
     },
     {
       "PortName": "hardpoint_engine_left",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Main_Joint",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Main_Joint",
@@ -310,6 +334,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 51224.58,
           "FuelRate": 1.09375E-05,
@@ -342,7 +370,7 @@
     },
     {
       "PortName": "hardpoint_engine_right",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Main_Joint",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Main_Joint",
@@ -354,6 +382,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 51224.58,
           "FuelRate": 1.09375E-05,
@@ -390,7 +422,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_front_left_front",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Front",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Front",
@@ -402,6 +434,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 73769.5,
           "FuelRate": 1.25E-05,
@@ -434,7 +470,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left_top",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Front_Top",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Front_Top",
@@ -446,6 +482,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 73769.5,
           "FuelRate": 1.25E-05,
@@ -481,7 +521,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left_middle",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Side",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Side",
@@ -493,6 +533,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 61139.72,
           "FuelRate": 1.25E-05,
@@ -527,7 +571,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right_front",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Front",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Front",
@@ -539,6 +583,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 73769.5,
           "FuelRate": 1.25E-05,
@@ -571,7 +619,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right_top",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Front_Top",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Front_Top",
@@ -583,6 +631,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 73769.5,
           "FuelRate": 1.25E-05,
@@ -617,7 +669,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right_middle",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Side",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Side",
@@ -629,6 +681,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 61139.72,
           "FuelRate": 1.25E-05,
@@ -663,7 +719,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right_bottom",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Fixed_03",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Fixed_03",
@@ -675,6 +731,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 73769.5,
           "FuelRate": 1.25E-05,
@@ -710,7 +770,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left_bottom",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Fixed_03",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Fixed_03",
@@ -722,6 +782,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 73769.5,
           "FuelRate": 1.25E-05,
@@ -757,7 +821,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_left_top",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Top",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Top",
@@ -769,6 +833,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 64394.18,
           "FuelRate": 1.25E-05,
@@ -804,7 +872,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_left_middle",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Side_Rear",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Side_Rear",
@@ -816,6 +884,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 40578.23,
           "FuelRate": 1.25E-05,
@@ -850,7 +922,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_left_bottom",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Bottom",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Bottom",
@@ -862,6 +934,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 71610.14,
           "FuelRate": 1.25E-05,
@@ -897,7 +973,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_right_bottom",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Bottom",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Bottom",
@@ -909,6 +985,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 71610.14,
           "FuelRate": 1.25E-05,
@@ -944,7 +1024,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_right_middle",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Side_Rear",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Side_Rear",
@@ -956,6 +1036,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 40578.23,
           "FuelRate": 1.25E-05,
@@ -990,7 +1074,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_right_top",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ARGO_MPUV_Thruster_Aux_Top",
       "InstalledItem": {
         "ClassName": "ARGO_MPUV_Thruster_Aux_Top",
@@ -1002,6 +1086,10 @@
           "Code": "ARGO",
           "Name": "Argo Astronautics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 64394.18,
           "FuelRate": 1.25E-05,
@@ -1039,10 +1127,10 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
-      "Loadout": "HTNK_ARGO_MPUV",
+      "Size": 0,
+      "Loadout": "HTNK_ARGO_MPUV_Transport",
       "InstalledItem": {
-        "ClassName": "HTNK_ARGO_MPUV",
+        "ClassName": "HTNK_ARGO_MPUV_Transport",
         "Size": 1,
         "Grade": 1,
         "Type": "FuelTank.Fuel",
@@ -1050,6 +1138,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 15000.0
         }
@@ -1066,7 +1158,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_ARGO_MPUV_Transport",
       "InstalledItem": {
         "ClassName": "HTNK_ARGO_MPUV_Transport",
@@ -1077,6 +1169,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 15000.0
         }
@@ -1095,7 +1191,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_ARGO_MPUV_Transport",
       "InstalledItem": {
         "ClassName": "INTK_ARGO_MPUV_Transport",
@@ -1106,6 +1202,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1131,7 +1231,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_ARGO_MPUV_Transport",
       "InstalledItem": {
         "ClassName": "INTK_ARGO_MPUV_Transport",
@@ -1142,6 +1242,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1167,25 +1271,11 @@
     }
   ],
   "InterdictionHardpoints": [],
-  "CargoGrids": [
-    {
-      "PortName": "hardpoint_cargogrid",
-      "Size": 1,
-      "Types": [
-        "Cargo"
-      ],
-      "Flags": [
-        "selfphys",
-        "uneditable"
-      ],
-      "Category": "Cargo grids",
-      "Uneditable": true
-    }
-  ],
+  "CargoGrids": [],
   "Avionics": [
     {
       "PortName": "hardpoint_radar",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Radar.ShortRangeRadar",
         "Radar.MidRangeRadar"
@@ -1199,7 +1289,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_WLOP_S01_Capstan",
       "InstalledItem": {
         "ClassName": "RADR_WLOP_S01_Capstan",
@@ -1211,6 +1301,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -1256,7 +1350,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -1267,7 +1361,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -1281,7 +1379,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],

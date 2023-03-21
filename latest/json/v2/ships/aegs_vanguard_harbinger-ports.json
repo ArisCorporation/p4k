@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_gun_nose",
-      "Size": 5,
+      "Size": 0,
       "Loadout": "Mount_Gimbal_S5",
       "InstalledItem": {
         "ClassName": "Mount_Gimbal_S5",
@@ -19,6 +19,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 1.116502,
+        "Height": 2.004737,
+        "Length": 8.84403,
+        "Volume": 4200000.0,
         "Durability": {
           "Health": 400.0,
           "Lifetime": 720.0
@@ -54,6 +58,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2100000.0,
               "Durability": {
                 "Health": 1650.0,
                 "Lifetime": 20.0
@@ -133,7 +141,7 @@
     },
     {
       "PortName": "hardpoint_weapon_gun_nose_fixed_001",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_BallisticCannon_VNG_S2",
       "InstalledItem": {
         "ClassName": "BEHR_BallisticCannon_VNG_S2",
@@ -152,6 +160,10 @@
           "VanguardNose",
           "AEGS_Vanguard_Base"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -209,7 +221,7 @@
     },
     {
       "PortName": "hardpoint_weapon_gun_nose_fixed_002",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_BallisticCannon_VNG_S2",
       "InstalledItem": {
         "ClassName": "BEHR_BallisticCannon_VNG_S2",
@@ -228,6 +240,10 @@
           "VanguardNose",
           "AEGS_Vanguard_Base"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -285,7 +301,7 @@
     },
     {
       "PortName": "hardpoint_weapon_gun_nose_fixed_003",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_BallisticCannon_VNG_S2",
       "InstalledItem": {
         "ClassName": "BEHR_BallisticCannon_VNG_S2",
@@ -304,6 +320,10 @@
           "VanguardNose",
           "AEGS_Vanguard_Base"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -361,7 +381,7 @@
     },
     {
       "PortName": "hardpoint_weapon_gun_nose_fixed_004",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_BallisticCannon_VNG_S2",
       "InstalledItem": {
         "ClassName": "BEHR_BallisticCannon_VNG_S2",
@@ -380,6 +400,10 @@
           "VanguardNose",
           "AEGS_Vanguard_Base"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -439,7 +463,7 @@
   "MannedTurrets": [
     {
       "PortName": "hardpoint_turret",
-      "Size": 6,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Harbinger_SCItem_Turret",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Harbinger_SCItem_Turret",
@@ -447,6 +471,10 @@
         "Grade": 1,
         "Type": "TurretBase.MannedTurret",
         "Name": "Manned Turret",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 2000.0,
           "Lifetime": 25.0
@@ -479,6 +507,10 @@
               "Tags": [
                 "flightReady"
               ],
+              "Width": 0.6699014,
+              "Height": 1.202842,
+              "Length": 4.422015,
+              "Volume": 756000.0,
               "Durability": {
                 "Health": 1000.0,
                 "Lifetime": 1440.0
@@ -555,6 +587,10 @@
               "Tags": [
                 "flightReady"
               ],
+              "Width": 0.6699014,
+              "Height": 1.202842,
+              "Length": 4.422015,
+              "Volume": 756000.0,
               "Durability": {
                 "Health": 1000.0,
                 "Lifetime": 1440.0
@@ -612,6 +648,12 @@
               "WeaponGun.Rocket"
             ],
             "Category": "Weapon hardpoints"
+          },
+          {
+            "PortName": "Aim_HUD",
+            "Size": 0,
+            "Loadout": "Projector_HUD_Aim",
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -634,15 +676,15 @@
   "MissileRacks": [
     {
       "PortName": "hardpoint_weapon_missilelauncher",
-      "Size": 5,
+      "Size": 0,
       "Loadout": "MRCK_S05_AEGS_Vanguard",
       "InstalledItem": {
         "ClassName": "MRCK_S05_AEGS_Vanguard",
         "Size": 5,
         "Grade": 1,
         "Type": "MissileLauncher.MissileRack",
-        "Name": "MISC Freelancer MIS Missile Launcher",
-        "Description": "[PH] MISC Freelancer MIS Missile Launcher",
+        "Name": "Aegis Vanguard Torpedo Rack",
+        "Description": "Item Type: Torpedo Rack\nManufacturer: Behring\nSize: 5\nTorpedoes: 3xS5\n\nAegis Dynamics and Behring worked together to develop this torpedo rack, which can carry and deploy three S5 torpedoes.",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -650,6 +692,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 1.116502,
+        "Height": 2.004737,
+        "Length": 8.84403,
+        "Volume": 4200000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -687,6 +733,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 5.0,
+              "Volume": 5000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -721,6 +771,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 5.0,
+              "Volume": 5000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -755,6 +809,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 5.0,
+              "Volume": 5000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -782,7 +840,7 @@
     },
     {
       "PortName": "hardpoint_weapon_missilerack_right_inner",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_AEGS_Vanguard",
       "InstalledItem": {
         "ClassName": "MRCK_S04_AEGS_Vanguard",
@@ -798,6 +856,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -835,6 +897,10 @@
                 "EM",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -869,6 +935,10 @@
                 "EM",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -903,6 +973,10 @@
                 "EM",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -937,6 +1011,10 @@
                 "EM",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -960,7 +1038,7 @@
     },
     {
       "PortName": "hardpoint_weapon_missilerack_left_inner",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_AEGS_Vanguard",
       "InstalledItem": {
         "ClassName": "MRCK_S04_AEGS_Vanguard",
@@ -976,6 +1054,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -1013,6 +1095,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1047,6 +1133,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1081,6 +1171,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1115,6 +1209,10 @@
                 "IR",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1138,7 +1236,7 @@
     },
     {
       "PortName": "hardpoint_weapon_missilerack_right_rear",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Dual_S03",
@@ -1154,6 +1252,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -1191,6 +1293,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1225,6 +1331,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1248,7 +1358,7 @@
     },
     {
       "PortName": "hardpoint_weapon_missilerack_left_rear",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Dual_S03",
@@ -1264,6 +1374,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -1301,6 +1415,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1335,6 +1453,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -1360,7 +1482,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasure_launcher_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "AEGS_Eclipse_CML_Flare",
       "InstalledItem": {
         "ClassName": "AEGS_Eclipse_CML_Flare",
@@ -1373,6 +1495,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -1421,7 +1547,7 @@
     },
     {
       "PortName": "hardpoint_countermeasure_launcher_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "AEGS_Eclipse_CML_Chaff",
       "InstalledItem": {
         "ClassName": "AEGS_Eclipse_CML_Chaff",
@@ -1434,6 +1560,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -1484,7 +1614,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_001",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S02_SecureShield_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S02_SecureShield_SCItem",
@@ -1497,15 +1627,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Shield": {
           "Health": 7100.0,
           "Regeneration": 450.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -1530,7 +1664,7 @@
           }
         },
         "Durability": {
-          "Health": 350.0,
+          "Health": 2320.0,
           "Lifetime": 18.0
         },
         "PowerConnection": {
@@ -1550,7 +1684,7 @@
     },
     {
       "PortName": "hardpoint_shield_generator_002",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S02_SecureShield_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S02_SecureShield_SCItem",
@@ -1563,15 +1697,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Shield": {
           "Health": 7100.0,
           "Regeneration": 450.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -1596,7 +1734,7 @@
           }
         },
         "Durability": {
-          "Health": 350.0,
+          "Health": 2320.0,
           "Lifetime": 18.0
         },
         "PowerConnection": {
@@ -1618,7 +1756,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_powerplant_middle",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "POWR_AMRS_S02_TurboDrive_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_AMRS_S02_TurboDrive_SCItem",
@@ -1631,11 +1769,15 @@
           "Code": "AMRS",
           "Name": "Amon & Reese Co."
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "PowerPlant": {
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 1000.0,
+          "Health": 3000.0,
           "Lifetime": 40.0
         },
         "PowerConnection": {
@@ -1655,7 +1797,7 @@
     },
     {
       "PortName": "hardpoint_powerplant_rear",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "POWR_AMRS_S02_TurboDrive_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_AMRS_S02_TurboDrive_SCItem",
@@ -1668,11 +1810,15 @@
           "Code": "AMRS",
           "Name": "Amon & Reese Co."
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "PowerPlant": {
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 1000.0,
+          "Health": 3000.0,
           "Lifetime": 40.0
         },
         "PowerConnection": {
@@ -1694,7 +1840,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S02_Permafrost_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S02_Permafrost_SCItem",
@@ -1707,11 +1853,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Cooler": {
           "Rate": 5600000.0
         },
         "Durability": {
-          "Health": 1800.0,
+          "Health": 3000.0,
           "Lifetime": 92.0
         },
         "PowerConnection": {
@@ -1731,7 +1881,7 @@
     },
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S02_Permafrost_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S02_Permafrost_SCItem",
@@ -1744,11 +1894,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Cooler": {
           "Rate": 5600000.0
         },
         "Durability": {
-          "Health": 1800.0,
+          "Health": 3000.0,
           "Lifetime": 92.0
         },
         "PowerConnection": {
@@ -1770,7 +1924,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "QDRV_WETK_S02_Yeager_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_WETK_S02_Yeager_SCItem",
@@ -1783,6 +1937,10 @@
           "Code": "WETK",
           "Name": "Wei-Tek"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "QuantumDrive": {
           "FuelRate": 2.2890000000000002E-08,
           "JumpRange": 3.402823E+38,
@@ -1802,7 +1960,7 @@
           }
         },
         "Durability": {
-          "Health": 2760.0,
+          "Health": 2320.0,
           "Lifetime": 43.2
         },
         "PowerConnection": {
@@ -1824,7 +1982,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "QTNK_AEGS_Vanguard_Harbinger",
       "InstalledItem": {
         "ClassName": "QTNK_AEGS_Vanguard_Harbinger",
@@ -1835,6 +1993,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 2500.0
         }
@@ -1853,7 +2015,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine_right",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Main_01",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Main_01",
@@ -1865,6 +2027,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 5324742.0,
           "FuelRate": 6.125E-06,
@@ -1897,7 +2063,7 @@
     },
     {
       "PortName": "hardpoint_engine_middle_right",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Main_02",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Main_02",
@@ -1909,6 +2075,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3448401.0,
           "FuelRate": 9.1875E-06,
@@ -1941,7 +2111,7 @@
     },
     {
       "PortName": "hardpoint_engine_left",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Main_01",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Main_01",
@@ -1953,6 +2123,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 5324742.0,
           "FuelRate": 6.125E-06,
@@ -1986,7 +2160,7 @@
     },
     {
       "PortName": "hardpoint_engine_middle_left",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Main_02",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Main_02",
@@ -1998,6 +2172,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3448401.0,
           "FuelRate": 9.1875E-06,
@@ -2032,7 +2210,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_thruster_retro_right",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Retro",
@@ -2044,6 +2222,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3513015.0,
           "FuelRate": 6.125E-06,
@@ -2077,7 +2259,7 @@
     },
     {
       "PortName": "hardpoint_thruster_retro_left",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Retro",
@@ -2089,6 +2271,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3513015.0,
           "FuelRate": 6.125E-06,
@@ -2125,7 +2311,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_top_FR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2137,6 +2323,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2172,7 +2362,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_FR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2184,6 +2374,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2219,7 +2413,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_RR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2231,6 +2425,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2266,7 +2464,7 @@
     },
     {
       "PortName": "hardpoint_thruster_top_RR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2278,6 +2476,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2312,7 +2514,7 @@
     },
     {
       "PortName": "hardpoint_thruster_side_RR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2324,6 +2526,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2359,7 +2565,7 @@
     },
     {
       "PortName": "hardpoint_thruster_side_RL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2371,6 +2577,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2406,7 +2616,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_FL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2418,6 +2628,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2453,7 +2667,7 @@
     },
     {
       "PortName": "hardpoint_thruster_top_RL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2465,6 +2679,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2499,7 +2717,7 @@
     },
     {
       "PortName": "hardpoint_thruster_top_FL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2511,6 +2729,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2546,7 +2768,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottom_RL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
@@ -2558,6 +2780,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1586393.0,
           "FuelRate": 3.125E-06,
@@ -2595,7 +2821,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_AEGS_Vanguard_Harbinger",
       "InstalledItem": {
         "ClassName": "HTNK_AEGS_Vanguard_Harbinger",
@@ -2606,6 +2832,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 195000.0
         }
@@ -2622,7 +2852,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_AEGS_Vanguard_Harbinger",
       "InstalledItem": {
         "ClassName": "HTNK_AEGS_Vanguard_Harbinger",
@@ -2633,6 +2863,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 195000.0
         }
@@ -2651,7 +2885,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_AEGS_Vanguard_Harbinger",
       "InstalledItem": {
         "ClassName": "INTK_AEGS_Vanguard_Harbinger",
@@ -2662,6 +2896,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 25.0
         },
@@ -2687,7 +2925,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_AEGS_Vanguard_Harbinger",
       "InstalledItem": {
         "ClassName": "INTK_AEGS_Vanguard_Harbinger",
@@ -2698,6 +2936,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 25.0
         },
@@ -2725,7 +2967,7 @@
   "InterdictionHardpoints": [
     {
       "PortName": "hardpoint_weapon_emp",
-      "Size": 4,
+      "Size": 0,
       "Types": [
         "EMP"
       ],
@@ -2740,7 +2982,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_radar",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "RADR_WLOP_S02_Chernykh",
       "InstalledItem": {
         "ClassName": "RADR_WLOP_S02_Chernykh",
@@ -2752,6 +2994,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -2797,7 +3043,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -2808,6 +3054,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -2824,7 +3074,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "test_ping_S2",
       "InstalledItem": {
         "ClassName": "test_ping_S2",
@@ -2835,7 +3085,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -2849,7 +3103,7 @@
     },
     {
       "PortName": "hardpoint_radar_turret",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "RADR_WLOP_S02_Chernykh",
       "InstalledItem": {
         "ClassName": "RADR_WLOP_S02_Chernykh",
@@ -2861,6 +3115,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },

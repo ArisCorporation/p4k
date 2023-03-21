@@ -10,6 +10,9 @@
   "WeaponCrew": 0,
   "OperationsCrew": 0,
   "Mass": 74132.0,
+  "Width": 25.5,
+  "Height": 7.5,
+  "Length": 28.25,
   "IsSpaceship": true,
   "Manufacturer": {
     "Code": "ANVL",
@@ -29,12 +32,12 @@
     "Tail_Debris": 2500.0
   },
   "FlightCharacteristics": {
-    "ScmSpeed": 200.0,
-    "MaxSpeed": 1337.0,
-    "ZeroToScm": 4.221000691239254,
-    "ZeroToMax": 28.217389620934416,
-    "ScmToZero": 14.43852069241483,
-    "MaxToZero": 96.52151082879314,
+    "ScmSpeed": 1337.0,
+    "MaxSpeed": 0.0,
+    "ZeroToScm": 28.217389620934416,
+    "ZeroToMax": 0.0,
+    "ScmToZero": 96.52151082879314,
+    "MaxToZero": 0.0,
     "Acceleration": {
       "Main": 47.38212917498516,
       "Retro": 13.851834565369881,
@@ -46,7 +49,10 @@
       "Retro": 1.4124940052830102,
       "Vtol": 0.0,
       "Maneuvering": 9.651629477819554
-    }
+    },
+    "Pitch": 45.0,
+    "Yaw": 40.0,
+    "Roll": 150.0
   },
   "Propulsion": {
     "FuelCapacity": 140000.0,
@@ -79,7 +85,7 @@
   },
   "PilotHardpoints": [
     {
-      "Size": 5,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         3,
@@ -87,27 +93,32 @@
       ]
     },
     {
-      "Size": 3,
+      "Size": 0,
       "Fixed": true,
       "WeaponSizes": [
-        3
+        0
       ]
     },
     {
-      "Size": 3,
+      "Size": 4,
       "Fixed": true,
       "WeaponSizes": [
-        3
+        4
       ]
     },
     {
-      "Size": 3,
+      "Size": 4,
       "Fixed": true,
       "WeaponSizes": [
-        3
+        4
       ]
     }
   ],
   "MannedTurrets": [],
-  "RemoteTurrets": []
+  "RemoteTurrets": [],
+  "Insurance": {
+    "StandardClaimTime": 2.25,
+    "ExpeditedClaimTime": 6.75,
+    "ExpeditedCost": 3375.0
+  }
 }

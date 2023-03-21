@@ -24,12 +24,22 @@
         "Size": 3,
         "Grade": 1,
         "Manufacturer": "b922abdb-0634-4358-9eee-60118f3cf3a7",
-        "Tags": "ANVL_Valkyrie",
-        "RequiredTags": "ANVL_Valkyrie",
+        "Tags": "$ANVL_Valkyrie",
+        "RequiredTags": "",
         "DisplayType": "",
         "Localization": {
           "Name": "@itemPort_hardpoint_turret",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
@@ -221,6 +231,18 @@
               ]
             }
           ]
+        },
+        {
+          "Name": "Aim_HUD",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 0,
+          "MaxSize": 0,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": []
         }
       ]
     }

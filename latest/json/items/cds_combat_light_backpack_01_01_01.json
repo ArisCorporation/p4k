@@ -49,6 +49,16 @@
             "Localization": {
               "Name": "@item_Name_cds_combat_light_backpack_01_01_01",
               "Description": "@item_Desc_cds_combat_light_backpack_01_01_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 41000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.332,
+              "y": 0.417,
+              "z": 0.261
             }
           }
         },
@@ -227,11 +237,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "2fe657bc-8530-475b-9bc2-cf3312829b1d"
         }
       },
       "ClassName": "cds_combat_light_backpack_01_01_01",
       "__ref": "d176699d-7032-4eeb-a351-3e27d567e4a7",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.04,
+    "x": 0.335,
+    "y": 0.425,
+    "z": 0.255
   }
 }

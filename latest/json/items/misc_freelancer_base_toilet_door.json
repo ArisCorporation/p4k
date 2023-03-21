@@ -4,14 +4,6 @@
       "StaticEntityClassData": {},
       "tags": [],
       "Components": {
-        "SEntityComponentDefaultLoadoutParams": {
-          "loadout": {
-            "SItemPortLoadoutXMLParams": {
-              "loadoutPath": "",
-              "__type": "SItemPortLoadoutBaseParams"
-            }
-          }
-        },
         "SAttachableComponentParams": {
           "AttachDef": {
             "Type": "Door",
@@ -25,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -78,6 +80,12 @@
               }
             ]
           }
+        },
+        "SItemPortContainerComponentParams": {
+          "PortFlags": "",
+          "PortTags": "",
+          "RequiredItemTags": "",
+          "Ports": []
         }
       },
       "ClassName": "MISC_Freelancer_Base_Toilet_Door",

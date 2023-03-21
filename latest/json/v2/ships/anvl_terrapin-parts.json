@@ -11,7 +11,7 @@
             "Name": "hardpoint_seat_access",
             "Port": {
               "PortName": "hardpoint_seat_access",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_SCItem_SeatAccess",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_SCItem_SeatAccess",
@@ -22,7 +22,11 @@
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SeatAccess"
@@ -38,7 +42,7 @@
             "Name": "hardpoint_self_destruct_pilot",
             "Port": {
               "PortName": "hardpoint_self_destruct_pilot",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "VHCL_SelfDestruct_30s",
               "InstalledItem": {
                 "ClassName": "VHCL_SelfDestruct_30s",
@@ -53,7 +57,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SelfDestruct"
@@ -70,7 +78,7 @@
             "Name": "hardpoint_thruster_retro_left",
             "Port": {
               "PortName": "hardpoint_thruster_retro_left",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Retro",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Retro",
@@ -82,6 +90,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 2089736.0,
                   "FuelRate": 9.3625E-06,
@@ -117,7 +129,7 @@
             "Name": "hardpoint_thruster_retro_right",
             "Port": {
               "PortName": "hardpoint_thruster_retro_right",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Retro",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Retro",
@@ -129,6 +141,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 2089736.0,
                   "FuelRate": 9.3625E-06,
@@ -164,14 +180,18 @@
             "Name": "landingpad_helper",
             "Port": {
               "PortName": "landingpad_helper",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Default_LandingSystem",
               "InstalledItem": {
                 "ClassName": "Default_LandingSystem",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LandingSystem.UNDEFINED",
-                "Name": "Default_LandingSystem"
+                "Name": "Default_LandingSystem",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LandingSystem"
@@ -187,7 +207,7 @@
             "Name": "hardpoint_cooler_right",
             "Port": {
               "PortName": "hardpoint_cooler_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COOL_AEGS_S01_Polar_SCItem",
               "InstalledItem": {
                 "ClassName": "COOL_AEGS_S01_Polar_SCItem",
@@ -200,11 +220,15 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 280000.0
                 },
                 "Durability": {
-                  "Health": 1800.0,
+                  "Health": 1500.0,
                   "Lifetime": 46.0
                 },
                 "PowerConnection": {
@@ -230,7 +254,7 @@
             "Name": "hardpoint_cooler_left",
             "Port": {
               "PortName": "hardpoint_cooler_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COOL_AEGS_S01_Polar_SCItem",
               "InstalledItem": {
                 "ClassName": "COOL_AEGS_S01_Polar_SCItem",
@@ -243,11 +267,15 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 280000.0
                 },
                 "Durability": {
-                  "Health": 1800.0,
+                  "Health": 1500.0,
                   "Lifetime": 46.0
                 },
                 "PowerConnection": {
@@ -273,7 +301,7 @@
             "Name": "interior_body",
             "Port": {
               "PortName": "interior_body",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Room"
               ],
@@ -288,7 +316,7 @@
             "Name": "hardpoint_seat_support",
             "Port": {
               "PortName": "hardpoint_seat_support",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Support_Turret",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Support_Turret",
@@ -303,6 +331,10 @@
                 "Tags": [
                   "ANVL_Terrapin_Base"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 2000.0,
                   "Lifetime": 25.0
@@ -332,6 +364,10 @@
                         "Code": "ANVL",
                         "Name": "Anvil Aerospace"
                       },
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "Durability": {
                         "Health": 600.0
                       },
@@ -349,6 +385,11 @@
                       "Scanner.Gun"
                     ],
                     "Category": "Scanners"
+                  },
+                  {
+                    "PortName": "Aim_HUD",
+                    "Size": 0,
+                    "Category": "UNKNOWN"
                   }
                 ]
               },
@@ -366,7 +407,7 @@
             "Name": "hardpoint_fuel_intake_left",
             "Port": {
               "PortName": "hardpoint_fuel_intake_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "INTK_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "INTK_ANVL_Terrapin",
@@ -377,6 +418,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelIntake": {
                   "Rate": 9.0
                 },
@@ -405,7 +450,7 @@
             "Name": "hardpoint_avionics",
             "Port": {
               "PortName": "hardpoint_avionics",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Avionics.Motherboard"
               ],
@@ -424,7 +469,7 @@
                 "Name": "hardpoint_thruster_main_front_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_front_left",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ANVL_Terrapin_Thruster_Main",
                   "InstalledItem": {
                     "ClassName": "ANVL_Terrapin_Thruster_Main",
@@ -436,6 +481,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1756797.0,
                       "FuelRate": 9.3625E-06,
@@ -474,7 +523,7 @@
             "Name": "hardpoint_thruster_top_left",
             "Port": {
               "PortName": "hardpoint_thruster_top_left",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -486,6 +535,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1153023.0,
                   "FuelRate": 3.125E-06,
@@ -520,7 +573,7 @@
             "Name": "hardpoint_thruster_top_right",
             "Port": {
               "PortName": "hardpoint_thruster_top_right",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -532,6 +585,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1153023.0,
                   "FuelRate": 3.125E-06,
@@ -570,7 +627,7 @@
             "Name": "hardpoint_fuel_intake_right",
             "Port": {
               "PortName": "hardpoint_fuel_intake_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "INTK_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "INTK_ANVL_Terrapin",
@@ -581,6 +638,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelIntake": {
                   "Rate": 9.0
                 },
@@ -609,7 +670,7 @@
             "Name": "hardpoint_fuel_tank_left",
             "Port": {
               "PortName": "hardpoint_fuel_tank_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "HTNK_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "HTNK_ANVL_Terrapin",
@@ -620,6 +681,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 522500.0
                 }
@@ -639,7 +704,7 @@
             "Name": "hardpoint_fuel_tank_right",
             "Port": {
               "PortName": "hardpoint_fuel_tank_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "HTNK_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "HTNK_ANVL_Terrapin",
@@ -650,6 +715,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 522500.0
                 }
@@ -692,7 +761,7 @@
                 "Name": "hardpoint_thruster_main_front_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_front_right",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ANVL_Terrapin_Thruster_Main",
                   "InstalledItem": {
                     "ClassName": "ANVL_Terrapin_Thruster_Main",
@@ -704,6 +773,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1756797.0,
                       "FuelRate": 9.3625E-06,
@@ -746,7 +819,7 @@
             "Name": "hardpoint_door_SideRamp",
             "Port": {
               "PortName": "hardpoint_door_SideRamp",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Ramp",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Ramp",
@@ -758,6 +831,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -896,7 +973,7 @@
             "Name": "hardpoint_power_plant",
             "Port": {
               "PortName": "hardpoint_power_plant",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "POWR_SASU_S02_DayBreak_SCItem",
               "InstalledItem": {
                 "ClassName": "POWR_SASU_S02_DayBreak_SCItem",
@@ -909,11 +986,15 @@
                   "Code": "SASU",
                   "Name": "Sakura Sun"
                 },
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "PowerPlant": {
                   "Output": 5937.5
                 },
                 "Durability": {
-                  "Health": 1296.0,
+                  "Health": 3000.0,
                   "Lifetime": 34.56
                 },
                 "PowerConnection": {
@@ -936,7 +1017,7 @@
             "Name": "hardpoint_shield_generator",
             "Port": {
               "PortName": "hardpoint_shield_generator",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "SHLD_BEHR_S02_5MA_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_BEHR_S02_5MA_SCItem",
@@ -949,15 +1030,19 @@
                   "Code": "BEH",
                   "Name": "Behring"
                 },
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "Shield": {
                   "Health": 9000.0,
                   "Regeneration": 500.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -982,7 +1067,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 250.0,
+                  "Health": 2320.0,
                   "Lifetime": 40.0
                 },
                 "PowerConnection": {
@@ -1005,7 +1090,7 @@
             "Name": "hardpoint_shield_generator_02",
             "Port": {
               "PortName": "hardpoint_shield_generator_02",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "SHLD_BEHR_S02_5MA_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_BEHR_S02_5MA_SCItem",
@@ -1018,15 +1103,19 @@
                   "Code": "BEH",
                   "Name": "Behring"
                 },
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "Shield": {
                   "Health": 9000.0,
                   "Regeneration": 500.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -1051,7 +1140,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 250.0,
+                  "Health": 2320.0,
                   "Lifetime": 40.0
                 },
                 "PowerConnection": {
@@ -1074,14 +1163,18 @@
             "Name": "hardpoint_controller_cooler",
             "Port": {
               "PortName": "hardpoint_controller_cooler",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Cooler",
               "InstalledItem": {
                 "ClassName": "Controller_Cooler",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -1098,14 +1191,18 @@
             "Name": "hardpoint_controller_energy",
             "Port": {
               "PortName": "hardpoint_controller_energy",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Energy",
               "InstalledItem": {
                 "ClassName": "Controller_Energy",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -1122,7 +1219,7 @@
             "Name": "hardpoint_controller_flight",
             "Port": {
               "PortName": "hardpoint_controller_flight",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Flight_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "Controller_Flight_ANVL_Terrapin",
@@ -1130,9 +1227,16 @@
                 "Grade": 1,
                 "Type": "FlightController.UNDEFINED",
                 "Name": "SELF STATUS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ifcs": {
-                  "MaxSpeed": 157.0,
-                  "MaxAfterburnSpeed": 1204.0
+                  "MaxSpeed": 1204.0,
+                  "MaxAfterburnSpeed": 0.0,
+                  "Pitch": 35.0,
+                  "Yaw": 35.0,
+                  "Roll": 112.0
                 }
               },
               "Types": [
@@ -1150,7 +1254,7 @@
             "Name": "hardpoint_controller_shield",
             "Port": {
               "PortName": "hardpoint_controller_shield",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Shield_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "Controller_Shield_ANVL_Terrapin",
@@ -1160,7 +1264,11 @@
                 "Name": "SHIELDS",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "ShieldController"
@@ -1177,14 +1285,18 @@
             "Name": "hardpoint_controller_weapon",
             "Port": {
               "PortName": "hardpoint_controller_weapon",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Weapon",
               "InstalledItem": {
                 "ClassName": "Controller_Weapon",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "WeaponController.UNDEFINED",
-                "Name": "WEAPONS"
+                "Name": "WEAPONS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "WeaponController"
@@ -1201,7 +1313,7 @@
             "Name": "hardpoint_Bed",
             "Port": {
               "PortName": "hardpoint_Bed",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Bed_Single_Terrapin_ANVL",
               "InstalledItem": {
                 "ClassName": "Bed_Single_Terrapin_ANVL",
@@ -1209,6 +1321,10 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Bed_Single_Terrapin_ANVL",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "Mattress",
@@ -1241,7 +1357,7 @@
             "Name": "hardpoint_control_panel",
             "Port": {
               "PortName": "hardpoint_control_panel",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_ControlPanel_Exterior",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_ControlPanel_Exterior",
@@ -1252,7 +1368,11 @@
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Flags": [
                 "uneditable"
@@ -1265,7 +1385,7 @@
             "Name": "hardpoint_ext_lights",
             "Port": {
               "PortName": "hardpoint_ext_lights",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Room"
               ],
@@ -1276,7 +1396,7 @@
             "Name": "hardpoint_radar_support",
             "Port": {
               "PortName": "hardpoint_radar_support",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "RADR_CHCO_S01_SurveyorLite",
               "InstalledItem": {
                 "ClassName": "RADR_CHCO_S01_SurveyorLite",
@@ -1288,6 +1408,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -1336,7 +1460,7 @@
             "Name": "hardpoint_cooler_middle",
             "Port": {
               "PortName": "hardpoint_cooler_middle",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COOL_AEGS_S01_Polar_SCItem",
               "InstalledItem": {
                 "ClassName": "COOL_AEGS_S01_Polar_SCItem",
@@ -1349,11 +1473,15 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 280000.0
                 },
                 "Durability": {
-                  "Health": 1800.0,
+                  "Health": 1500.0,
                   "Lifetime": 46.0
                 },
                 "PowerConnection": {
@@ -1379,7 +1507,7 @@
             "Name": "hardpoint_armor",
             "Port": {
               "PortName": "hardpoint_armor",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ARMR_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "ARMR_ANVL_Terrapin",
@@ -1394,10 +1522,14 @@
                 "Tags": [
                   "ANVL_Terrapin_Base"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.93,
-                    "Energy": 0.85,
+                    "Physical": 0.46,
+                    "Energy": 1.0,
                     "Distortion": 1.0,
                     "Thermal": 1.0,
                     "Biochemical": 1.0
@@ -1424,14 +1556,18 @@
             "Name": "hardpoint_controller_light",
             "Port": {
               "PortName": "hardpoint_controller_light",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Light",
               "InstalledItem": {
                 "ClassName": "Controller_Light",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -1448,14 +1584,18 @@
             "Name": "hardpoint_controller_door",
             "Port": {
               "PortName": "hardpoint_controller_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Door",
               "InstalledItem": {
                 "ClassName": "Controller_Door",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -1472,14 +1612,18 @@
             "Name": "hardpoint_controller_comms",
             "Port": {
               "PortName": "hardpoint_controller_comms",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Comms",
               "InstalledItem": {
                 "ClassName": "Controller_Comms",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -1496,14 +1640,18 @@
             "Name": "hardpoint_weapon_rack_forward",
             "Port": {
               "PortName": "hardpoint_weapon_rack_forward",
-              "Size": 1,
-              "Loadout": "Weapon_Rack_Single_AEGS_tec_wall",
+              "Size": 0,
+              "Loadout": "Weapon_Rack_ANVL_Terrapin",
               "InstalledItem": {
-                "ClassName": "Weapon_Rack_Single_AEGS_tec_wall",
+                "ClassName": "Weapon_Rack_ANVL_Terrapin",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Weapon_Rack_Single_AEGS_tec_wall",
+                "Name": "Weapon_Rack_ANVL_Terrapin",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$IP_weapon_large_01",
@@ -1523,7 +1671,7 @@
                   },
                   {
                     "PortName": "$IP_weapon_small_01",
-                    "Size": 2,
+                    "Size": 1,
                     "Types": [
                       "WeaponPersonal"
                     ],
@@ -1531,7 +1679,7 @@
                   },
                   {
                     "PortName": "$IP_weapon_small_02",
-                    "Size": 2,
+                    "Size": 1,
                     "Types": [
                       "WeaponPersonal"
                     ],
@@ -1539,7 +1687,7 @@
                   },
                   {
                     "PortName": "$IP_weapon_small_03",
-                    "Size": 2,
+                    "Size": 1,
                     "Types": [
                       "WeaponPersonal"
                     ],
@@ -1561,14 +1709,18 @@
             "Name": "hardpoint_weapon_rack_aft",
             "Port": {
               "PortName": "hardpoint_weapon_rack_aft",
-              "Size": 1,
-              "Loadout": "Weapon_Rack_Single_AEGS_tec_wall",
+              "Size": 0,
+              "Loadout": "Weapon_Rack_ANVL_Terrapin",
               "InstalledItem": {
-                "ClassName": "Weapon_Rack_Single_AEGS_tec_wall",
+                "ClassName": "Weapon_Rack_ANVL_Terrapin",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Weapon_Rack_Single_AEGS_tec_wall",
+                "Name": "Weapon_Rack_ANVL_Terrapin",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$IP_weapon_large_01",
@@ -1588,7 +1740,7 @@
                   },
                   {
                     "PortName": "$IP_weapon_small_01",
-                    "Size": 2,
+                    "Size": 1,
                     "Types": [
                       "WeaponPersonal"
                     ],
@@ -1596,7 +1748,7 @@
                   },
                   {
                     "PortName": "$IP_weapon_small_02",
-                    "Size": 2,
+                    "Size": 1,
                     "Types": [
                       "WeaponPersonal"
                     ],
@@ -1604,7 +1756,7 @@
                   },
                   {
                     "PortName": "$IP_weapon_small_03",
-                    "Size": 2,
+                    "Size": 1,
                     "Types": [
                       "WeaponPersonal"
                     ],
@@ -1626,7 +1778,7 @@
             "Name": "hardpoint_controller_missile",
             "Port": {
               "PortName": "hardpoint_controller_missile",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "MissileController"
               ],
@@ -1642,7 +1794,7 @@
             "Name": "hardpoint_weapon_regen_pool",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Crew_Terrapin",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Crew_Terrapin",
@@ -1650,6 +1802,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Crew_Terrapin",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 10000,
@@ -1671,7 +1827,7 @@
             "Name": "hardpoint_weapon_regen_pool_turrets",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool_turrets",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Turret_Terrapin",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Turret_Terrapin",
@@ -1679,6 +1835,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Turret_Terrapin",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 100000.0,
                   "AmmoLoad": 60000,
@@ -1700,7 +1860,7 @@
             "Name": "hardpoint_controller_capacitor_assignment",
             "Port": {
               "PortName": "hardpoint_controller_capacitor_assignment",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_CapacitorAssignment",
               "InstalledItem": {
                 "ClassName": "Controller_CapacitorAssignment",
@@ -1710,7 +1870,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"
@@ -1735,7 +1899,7 @@
             "Name": "hardpoint_thruster_bottom_left",
             "Port": {
               "PortName": "hardpoint_thruster_bottom_left",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -1747,6 +1911,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1153023.0,
                   "FuelRate": 3.125E-06,
@@ -1781,7 +1949,7 @@
             "Name": "hardpoint_thruster_bottom_right",
             "Port": {
               "PortName": "hardpoint_thruster_bottom_right",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -1793,6 +1961,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1153023.0,
                   "FuelRate": 3.125E-06,
@@ -1827,7 +1999,7 @@
             "Name": "hardpoint_cockpit_flair",
             "Port": {
               "PortName": "hardpoint_cockpit_flair",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Cockpit.Flair_Static"
               ],
@@ -1838,7 +2010,7 @@
             "Name": "hardpoint_cockpit_flair_hang",
             "Port": {
               "PortName": "hardpoint_cockpit_flair_hang",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Cockpit.Flair_Hanging"
               ],
@@ -1849,7 +2021,7 @@
             "Name": "hardpoint_seat_pilot",
             "Port": {
               "PortName": "hardpoint_seat_pilot",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_SCItem_Seat_Pilot",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_SCItem_Seat_Pilot",
@@ -1863,7 +2035,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Seat.Pilot"
@@ -1879,7 +2055,7 @@
             "Name": "hardpoint_dashboard_pilot",
             "Port": {
               "PortName": "hardpoint_dashboard_pilot",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_SCItem_Dashboard_Pilot",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_SCItem_Dashboard_Pilot",
@@ -1891,6 +2067,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 1.0
                 },
@@ -1913,7 +2093,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "Display.UNDEFINED",
-                      "Name": "RADR_Display"
+                      "Name": "RADR_Display",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "Display"
@@ -1929,7 +2113,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "Display.UNDEFINED",
-                      "Name": "Projector_HUD_Generic"
+                      "Name": "Projector_HUD_Generic",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Category": "UNKNOWN"
                   }
@@ -1949,7 +2137,7 @@
             "Name": "hardpoint_weapon_nose",
             "Port": {
               "PortName": "hardpoint_weapon_nose",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Nose_Turret",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Nose_Turret",
@@ -1962,6 +2150,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 600.0,
                   "Lifetime": 720.0
@@ -1997,6 +2189,10 @@
                         "flightReady",
                         "weaponMountUsable"
                       ],
+                      "Width": 0.4466009,
+                      "Height": 0.801895,
+                      "Length": 3.316511,
+                      "Volume": 252000.0,
                       "Durability": {
                         "Health": 850.0,
                         "Lifetime": 20.0
@@ -2113,6 +2309,10 @@
                         "flightReady",
                         "weaponMountUsable"
                       ],
+                      "Width": 0.4466009,
+                      "Height": 0.801895,
+                      "Length": 3.316511,
+                      "Volume": 252000.0,
                       "Durability": {
                         "Health": 850.0,
                         "Lifetime": 20.0
@@ -2224,7 +2424,7 @@
             "Name": "hardpoint_radar",
             "Port": {
               "PortName": "hardpoint_radar",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "RADR_CHCO_S01_SurveyorLite",
               "InstalledItem": {
                 "ClassName": "RADR_CHCO_S01_SurveyorLite",
@@ -2236,6 +2436,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -2284,7 +2488,7 @@
             "Name": "hardpoint_scanner",
             "Port": {
               "PortName": "hardpoint_scanner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_scanner",
               "InstalledItem": {
                 "ClassName": "test_scanner",
@@ -2295,6 +2499,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Scanner": {
                   "Range": 0.0
                 }
@@ -2314,7 +2522,7 @@
             "Name": "hardpoint_ping",
             "Port": {
               "PortName": "hardpoint_ping",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_ping",
               "InstalledItem": {
                 "ClassName": "test_ping",
@@ -2325,7 +2533,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -2342,7 +2554,7 @@
             "Name": "hardpoint_transponder",
             "Port": {
               "PortName": "hardpoint_transponder",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Transponder"
               ],
@@ -2366,7 +2578,7 @@
             "Name": "hardpoint_thruster_rear_left",
             "Port": {
               "PortName": "hardpoint_thruster_rear_left",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Fixed",
@@ -2378,6 +2590,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1270704.0,
                   "FuelRate": 3.125E-06,
@@ -2418,7 +2634,7 @@
                 "Name": "hardpoint_thruster_rear_top_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_rear_top_left",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
                   "InstalledItem": {
                     "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -2430,6 +2646,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1153023.0,
                       "FuelRate": 3.125E-06,
@@ -2474,7 +2694,7 @@
                 "Name": "hardpoint_thruster_main_rear_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_rear_left",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ANVL_Terrapin_Thruster_Main",
                   "InstalledItem": {
                     "ClassName": "ANVL_Terrapin_Thruster_Main",
@@ -2486,6 +2706,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1756797.0,
                       "FuelRate": 9.3625E-06,
@@ -2526,7 +2750,7 @@
             "Name": "hardpoint_thruster_rear_right",
             "Port": {
               "PortName": "hardpoint_thruster_rear_right",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Fixed",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Fixed",
@@ -2538,6 +2762,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1270704.0,
                   "FuelRate": 3.125E-06,
@@ -2588,7 +2816,7 @@
                 "Name": "hardpoint_thruster_rear_top_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_rear_top_right",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
                   "InstalledItem": {
                     "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -2600,6 +2828,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1153023.0,
                       "FuelRate": 3.125E-06,
@@ -2634,7 +2866,7 @@
                 "Name": "hardpoint_thruster_main_rear_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_rear_right",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ANVL_Terrapin_Thruster_Main",
                   "InstalledItem": {
                     "ClassName": "ANVL_Terrapin_Thruster_Main",
@@ -2646,6 +2878,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1756797.0,
                       "FuelRate": 9.3625E-06,
@@ -2696,7 +2932,7 @@
             "Name": "hardpoint_quantum_drive",
             "Port": {
               "PortName": "hardpoint_quantum_drive",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "QDRV_RSI_S01_Eos_SCItem",
               "InstalledItem": {
                 "ClassName": "QDRV_RSI_S01_Eos_SCItem",
@@ -2709,6 +2945,10 @@
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "QuantumDrive": {
                   "FuelRate": 9.114E-09,
                   "JumpRange": 3.402823E+38,
@@ -2728,7 +2968,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 535.0,
+                  "Health": 1054.0,
                   "Lifetime": 5.9
                 },
                 "PowerConnection": {
@@ -2754,7 +2994,7 @@
             "Name": "hardpoint_quantum_fuel_tank",
             "Port": {
               "PortName": "hardpoint_quantum_fuel_tank",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "QTNK_ANVL_Terrapin",
               "InstalledItem": {
                 "ClassName": "QTNK_ANVL_Terrapin",
@@ -2765,6 +3005,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 950.0
                 }
@@ -2784,7 +3028,7 @@
             "Name": "hardpoint_thruster_rear_bottom_left",
             "Port": {
               "PortName": "hardpoint_thruster_rear_bottom_left",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -2796,6 +3040,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1153023.0,
                   "FuelRate": 3.125E-06,
@@ -2830,7 +3078,7 @@
             "Name": "hardpoint_thruster_rear_bottom_right",
             "Port": {
               "PortName": "hardpoint_thruster_rear_bottom_right",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_Terrapin_Thruster_Mav_Joint",
               "InstalledItem": {
                 "ClassName": "ANVL_Terrapin_Thruster_Mav_Joint",
@@ -2842,6 +3090,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1153023.0,
                   "FuelRate": 3.125E-06,
@@ -2877,7 +3129,7 @@
             "Name": "hardpoint_countermeasure_right",
             "Port": {
               "PortName": "hardpoint_countermeasure_right",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_CML_Noise_Small",
               "InstalledItem": {
                 "ClassName": "ANVL_CML_Noise_Small",
@@ -2890,6 +3142,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -2941,7 +3197,7 @@
             "Name": "hardpoint_countermeasure_left",
             "Port": {
               "PortName": "hardpoint_countermeasure_left",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "ANVL_CML_Decoy_Small",
               "InstalledItem": {
                 "ClassName": "ANVL_CML_Decoy_Small",
@@ -2954,6 +3210,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },

@@ -11,7 +11,7 @@
             "Name": "animated_interior_middle",
             "Port": {
               "PortName": "animated_interior_middle",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Room"
               ],
@@ -38,24 +38,22 @@
             "Name": "hardpoint_cargo_rear_right",
             "Port": {
               "PortName": "hardpoint_cargo_rear_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 64.0,
-                  "Width": 5.0,
-                  "Height": 5.0,
-                  "Depth": 5.0
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -64,16 +62,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -81,24 +85,22 @@
             "Name": "hardpoint_cargo_rear_mid",
             "Port": {
               "PortName": "hardpoint_cargo_rear_mid",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid_Mid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid_Mid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid_Mid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 24.0,
-                  "Width": 5.0,
-                  "Height": 2.5,
-                  "Depth": 3.75
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -107,16 +109,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 3.75,
+                  "z": 2.5
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -124,24 +132,22 @@
             "Name": "hardpoint_cargo_rear_left",
             "Port": {
               "PortName": "hardpoint_cargo_rear_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 64.0,
-                  "Width": 5.0,
-                  "Height": 5.0,
-                  "Depth": 5.0
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -150,16 +156,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -167,24 +179,22 @@
             "Name": "hardpoint_cargo_mid_right",
             "Port": {
               "PortName": "hardpoint_cargo_mid_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 64.0,
-                  "Width": 5.0,
-                  "Height": 5.0,
-                  "Depth": 5.0
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -193,16 +203,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -210,24 +226,22 @@
             "Name": "hardpoint_cargo_mid_mid",
             "Port": {
               "PortName": "hardpoint_cargo_mid_mid",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid_Mid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid_Mid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid_Mid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 24.0,
-                  "Width": 5.0,
-                  "Height": 2.5,
-                  "Depth": 3.75
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -236,16 +250,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 3.75,
+                  "z": 2.5
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -253,24 +273,22 @@
             "Name": "hardpoint_cargo_mid_left",
             "Port": {
               "PortName": "hardpoint_cargo_mid_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 64.0,
-                  "Width": 5.0,
-                  "Height": 5.0,
-                  "Depth": 5.0
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -279,16 +297,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -296,24 +320,22 @@
             "Name": "hardpoint_cargo_front_right",
             "Port": {
               "PortName": "hardpoint_cargo_front_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 64.0,
-                  "Width": 5.0,
-                  "Height": 5.0,
-                  "Depth": 5.0
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -322,16 +344,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -339,24 +367,22 @@
             "Name": "hardpoint_cargo_front_mid",
             "Port": {
               "PortName": "hardpoint_cargo_front_mid",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid_Mid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid_Mid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid_Mid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 24.0,
-                  "Width": 5.0,
-                  "Height": 2.5,
-                  "Depth": 3.75
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -365,16 +391,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 3.75,
+                  "z": 2.5
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -382,7 +414,7 @@
             "Name": "hardpoint_docking_door",
             "Port": {
               "PortName": "hardpoint_docking_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_Docking_Door",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_Docking_Door",
@@ -394,6 +426,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -487,7 +523,11 @@
                       "Manufacturer": {
                         "Code": "ANVL",
                         "Name": "Anvil Aerospace"
-                      }
+                      },
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "Decal.DoorPart"
@@ -526,7 +566,7 @@
             "Name": "hardpoint_docking_door_inner",
             "Port": {
               "PortName": "hardpoint_docking_door_inner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_Docking_Door",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_Docking_Door",
@@ -538,6 +578,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -631,7 +675,11 @@
                       "Manufacturer": {
                         "Code": "ANVL",
                         "Name": "Anvil Aerospace"
-                      }
+                      },
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "Decal.DoorPart"
@@ -670,7 +718,7 @@
             "Name": "hardpoint_hangar_door",
             "Port": {
               "PortName": "hardpoint_hangar_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_Door_Hangar",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_Door_Hangar",
@@ -682,6 +730,10 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -806,7 +858,7 @@
                 "Name": "hardpoint_thruster_bottom_rear_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_rear_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -818,6 +870,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -855,7 +911,7 @@
                 "Name": "hardpoint_thruster_bottom_rear_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_rear_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -867,6 +923,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -904,7 +964,7 @@
                 "Name": "hardpoint_thruster_main_left_large",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_left_large",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Main_Large",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Main_Large",
@@ -916,6 +976,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 49233020.0,
                       "FuelRate": 2.79E-06,
@@ -953,7 +1017,7 @@
                 "Name": "hardpoint_thruster_main_left_small",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_left_small",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Main_Small",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Main_Small",
@@ -965,6 +1029,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 29668880.0,
                       "FuelRate": 2.79E-06,
@@ -1002,7 +1070,7 @@
                 "Name": "hardpoint_thruster_main_right_large",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_right_large",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Main_Large",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Main_Large",
@@ -1014,6 +1082,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 49233020.0,
                       "FuelRate": 2.79E-06,
@@ -1051,7 +1123,7 @@
                 "Name": "hardpoint_thruster_main_right_small",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_right_small",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Main_Small",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Main_Small",
@@ -1063,6 +1135,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 29668880.0,
                       "FuelRate": 2.79E-06,
@@ -1100,7 +1176,7 @@
                 "Name": "hardpoint_thruster_side_rear_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_side_rear_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -1112,6 +1188,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -1149,7 +1229,7 @@
                 "Name": "hardpoint_thruster_side_rear_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_side_rear_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -1161,6 +1241,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -1198,7 +1282,7 @@
                 "Name": "hardpoint_thruster_top_rear_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_top_rear_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -1210,6 +1294,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -1247,7 +1335,7 @@
                 "Name": "hardpoint_thruster_top_rear_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_top_rear_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -1259,6 +1347,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -1296,7 +1388,7 @@
                 "Name": "hardpoint_thruster_vtol_rear_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_vtol_rear_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_VTOL",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_VTOL",
@@ -1308,6 +1400,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 14015980.0,
                       "FuelRate": 6.975000000000001E-06,
@@ -1345,7 +1441,7 @@
                 "Name": "hardpoint_thruster_vtol_rear_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_vtol_rear_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_VTOL",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_VTOL",
@@ -1357,6 +1453,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 14015980.0,
                       "FuelRate": 6.975000000000001E-06,
@@ -1394,7 +1494,7 @@
                 "Name": "animated_interior_rear",
                 "Port": {
                   "PortName": "animated_interior_rear",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Room"
                   ],
@@ -1409,7 +1509,7 @@
                 "Name": "hardpoint_cooler_l",
                 "Port": {
                   "PortName": "hardpoint_cooler_l",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "COOL_JUST_S03_IceFlush_SCItem",
                   "InstalledItem": {
                     "ClassName": "COOL_JUST_S03_IceFlush_SCItem",
@@ -1422,11 +1522,15 @@
                       "Code": "JUST",
                       "Name": "Juno Starwerk"
                     },
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Cooler": {
                       "Rate": 16800000.0
                     },
                     "Durability": {
-                      "Health": 1400.0,
+                      "Health": 4500.0,
                       "Lifetime": 224.0
                     },
                     "PowerConnection": {
@@ -1449,7 +1553,7 @@
                 "Name": "hardpoint_cooler_r",
                 "Port": {
                   "PortName": "hardpoint_cooler_r",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "COOL_JUST_S03_IceFlush_SCItem",
                   "InstalledItem": {
                     "ClassName": "COOL_JUST_S03_IceFlush_SCItem",
@@ -1462,11 +1566,15 @@
                       "Code": "JUST",
                       "Name": "Juno Starwerk"
                     },
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Cooler": {
                       "Rate": 16800000.0
                     },
                     "Durability": {
-                      "Health": 1400.0,
+                      "Health": 4500.0,
                       "Lifetime": 224.0
                     },
                     "PowerConnection": {
@@ -1489,7 +1597,7 @@
                 "Name": "hardpoint_countermeasures_left",
                 "Port": {
                   "PortName": "hardpoint_countermeasures_left",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "JOKR_Defcon_CML_Flare",
                   "InstalledItem": {
                     "ClassName": "JOKR_Defcon_CML_Flare",
@@ -1502,6 +1610,10 @@
                       "Code": "JOK",
                       "Name": "Joker Engineering"
                     },
+                    "Width": 0.2233005,
+                    "Height": 0.801895,
+                    "Length": 2.211008,
+                    "Volume": 84000.0,
                     "Durability": {
                       "Health": 1000.0
                     },
@@ -1553,7 +1665,7 @@
                 "Name": "hardpoint_countermeasures_right",
                 "Port": {
                   "PortName": "hardpoint_countermeasures_right",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "JOKR_Defcon_CML_Chaff",
                   "InstalledItem": {
                     "ClassName": "JOKR_Defcon_CML_Chaff",
@@ -1566,6 +1678,10 @@
                       "Code": "JOK",
                       "Name": "Joker Engineering"
                     },
+                    "Width": 0.2233005,
+                    "Height": 0.801895,
+                    "Length": 2.211008,
+                    "Volume": 84000.0,
                     "Durability": {
                       "Health": 1000.0
                     },
@@ -1617,7 +1733,7 @@
                 "Name": "hardpoint_eva_door_left",
                 "Port": {
                   "PortName": "hardpoint_eva_door_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_eva_door",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_eva_door",
@@ -1629,6 +1745,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 200.0
                     },
@@ -1722,7 +1842,11 @@
                           "Manufacturer": {
                             "Code": "ANVL",
                             "Name": "Anvil Aerospace"
-                          }
+                          },
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Types": [
                           "Decal.DoorPart"
@@ -1761,7 +1885,7 @@
                 "Name": "hardpoint_eva_door_right",
                 "Port": {
                   "PortName": "hardpoint_eva_door_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_eva_door",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_eva_door",
@@ -1773,6 +1897,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 200.0
                     },
@@ -1866,7 +1994,11 @@
                           "Manufacturer": {
                             "Code": "ANVL",
                             "Name": "Anvil Aerospace"
-                          }
+                          },
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Types": [
                           "Decal.DoorPart"
@@ -1905,7 +2037,7 @@
                 "Name": "hardpoint_hologlobe_radar",
                 "Port": {
                   "PortName": "hardpoint_hologlobe_radar",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Cart_Hologlobe_RADR_Display",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Cart_Hologlobe_RADR_Display",
@@ -1916,7 +2048,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Flags": [
                     "uneditable"
@@ -1929,7 +2065,7 @@
                 "Name": "hardpoint_power_plant",
                 "Port": {
                   "PortName": "hardpoint_power_plant",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "POWR_JUST_S03_Reliance_SCItem",
                   "InstalledItem": {
                     "ClassName": "POWR_JUST_S03_Reliance_SCItem",
@@ -1942,11 +2078,15 @@
                       "Code": "JUST",
                       "Name": "Juno Starwerk"
                     },
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "PowerPlant": {
                       "Output": 52500.0
                     },
                     "Durability": {
-                      "Health": 900.0,
+                      "Health": 4500.0,
                       "Lifetime": 84.0
                     },
                     "PowerConnection": {
@@ -1969,7 +2109,7 @@
                 "Name": "hardpoint_quantum_drive",
                 "Port": {
                   "PortName": "hardpoint_quantum_drive",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "QDRV_JUST_S03_Kama_SCItem",
                   "InstalledItem": {
                     "ClassName": "QDRV_JUST_S03_Kama_SCItem",
@@ -1982,6 +2122,10 @@
                       "Code": "JUST",
                       "Name": "Juno Starwerk"
                     },
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "QuantumDrive": {
                       "FuelRate": 3.864E-08,
                       "JumpRange": 3.402823E+38,
@@ -2001,7 +2145,7 @@
                       }
                     },
                     "Durability": {
-                      "Health": 1395.0,
+                      "Health": 2500.0,
                       "Lifetime": 80.0
                     },
                     "PowerConnection": {
@@ -2032,7 +2176,7 @@
                 "Name": "hardpoint_shield_generator_l",
                 "Port": {
                   "PortName": "hardpoint_shield_generator_l",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "SHLD_BASL_S03_Barbican_SCItem",
                   "InstalledItem": {
                     "ClassName": "SHLD_BASL_S03_Barbican_SCItem",
@@ -2045,15 +2189,19 @@
                       "Code": "BASL",
                       "Name": "Basilisk"
                     },
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Shield": {
                       "Health": 110000.0,
                       "Regeneration": 1320.0,
-                      "DownedDelay": 5.0,
+                      "DownedDelay": 10.0,
                       "DamagedDelay": 5.0,
                       "Absorption": {
                         "Physical": {
-                          "Minimum": 0.5,
-                          "Maximum": 0.95
+                          "Minimum": 0.0,
+                          "Maximum": 0.3
                         },
                         "Energy": {
                           "Minimum": 1.0,
@@ -2078,7 +2226,7 @@
                       }
                     },
                     "Durability": {
-                      "Health": 1575.0,
+                      "Health": 2500.0,
                       "Lifetime": 84.0
                     },
                     "PowerConnection": {
@@ -2101,7 +2249,7 @@
                 "Name": "hardpoint_shield_generator_r",
                 "Port": {
                   "PortName": "hardpoint_shield_generator_r",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "SHLD_BASL_S03_Barbican_SCItem",
                   "InstalledItem": {
                     "ClassName": "SHLD_BASL_S03_Barbican_SCItem",
@@ -2114,15 +2262,19 @@
                       "Code": "BASL",
                       "Name": "Basilisk"
                     },
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Shield": {
                       "Health": 110000.0,
                       "Regeneration": 1320.0,
-                      "DownedDelay": 5.0,
+                      "DownedDelay": 10.0,
                       "DamagedDelay": 5.0,
                       "Absorption": {
                         "Physical": {
-                          "Minimum": 0.5,
-                          "Maximum": 0.95
+                          "Minimum": 0.0,
+                          "Maximum": 0.3
                         },
                         "Energy": {
                           "Minimum": 1.0,
@@ -2147,7 +2299,7 @@
                       }
                     },
                     "Durability": {
-                      "Health": 1575.0,
+                      "Health": 2500.0,
                       "Lifetime": 84.0
                     },
                     "PowerConnection": {
@@ -2170,7 +2322,7 @@
                 "Name": "hardpoint_turret_back_rear",
                 "Port": {
                   "PortName": "hardpoint_turret_back_rear",
-                  "Size": 5,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Turret_Bubble",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Turret_Bubble",
@@ -2185,6 +2337,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 2000.0,
                       "Lifetime": 25.0
@@ -2220,6 +2376,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -2336,6 +2496,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -2430,6 +2594,11 @@
                           "WeaponGun.Gun"
                         ],
                         "Category": "Weapon hardpoints"
+                      },
+                      {
+                        "PortName": "Aim_HUD",
+                        "Size": 0,
+                        "Category": "UNKNOWN"
                       }
                     ]
                   },
@@ -2447,7 +2616,7 @@
                 "Name": "hardpoint_turret_back_rear_access",
                 "Port": {
                   "PortName": "hardpoint_turret_back_rear_access",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Turret_Bubble",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Turret_Bubble",
@@ -2458,7 +2627,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -2470,7 +2643,7 @@
                 "Name": "hardpoint_turret_back_rear_radar",
                 "Port": {
                   "PortName": "hardpoint_turret_back_rear_radar",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "RADR_Default",
                   "InstalledItem": {
                     "ClassName": "RADR_Default",
@@ -2482,6 +2655,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Lifetime": 720.0
                     },
@@ -2530,7 +2707,7 @@
                 "Name": "hardpoint_turret_remote_turret",
                 "Port": {
                   "PortName": "hardpoint_turret_remote_turret",
-                  "Size": 5,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Remote_Turret",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Remote_Turret",
@@ -2547,6 +2724,10 @@
                       "flightReady",
                       "$ANVL_Carrack_Turret"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 2000.0
                     },
@@ -2581,6 +2762,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -2697,6 +2882,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -2808,14 +2997,18 @@
                 "Name": "hardpoint_turret_remote_turret_controller",
                 "Port": {
                   "PortName": "hardpoint_turret_remote_turret_controller",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "Controller_Weapon",
                   "InstalledItem": {
                     "ClassName": "Controller_Weapon",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "WeaponController.UNDEFINED",
-                    "Name": "WEAPONS"
+                    "Name": "WEAPONS",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponController"
@@ -2832,7 +3025,7 @@
                 "Name": "hardpoint_turret_remote_turret_radar",
                 "Port": {
                   "PortName": "hardpoint_turret_remote_turret_radar",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "RADR_CHCO_S02_Surveyor",
                   "InstalledItem": {
                     "ClassName": "RADR_CHCO_S02_Surveyor",
@@ -2844,6 +3037,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Lifetime": 720.0
                     },
@@ -2900,7 +3097,7 @@
                 "Name": "hardpoint_cart_console",
                 "Port": {
                   "PortName": "hardpoint_cart_console",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Cart_Console",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Cart_Console",
@@ -2912,6 +3109,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -2932,7 +3133,7 @@
                 "Name": "hardpoint_cart_console_access",
                 "Port": {
                   "PortName": "hardpoint_cart_console_access",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Cart_Console_Access",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Cart_Console_Access",
@@ -2943,7 +3144,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -2959,7 +3164,7 @@
                 "Name": "hardpoint_turret_left",
                 "Port": {
                   "PortName": "hardpoint_turret_left",
-                  "Size": 5,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Turret_Side_Left",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Turret_Side_Left",
@@ -2974,6 +3179,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 2000.0
                     },
@@ -3008,6 +3217,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -3124,6 +3337,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -3238,7 +3455,7 @@
                 "Name": "hardpoint_turret_left_seat_access",
                 "Port": {
                   "PortName": "hardpoint_turret_left_seat_access",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Turret_Side_Left",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Turret_Side_Left",
@@ -3249,7 +3466,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -3265,7 +3486,7 @@
                 "Name": "hardpoint_turret_left_turret_radar",
                 "Port": {
                   "PortName": "hardpoint_turret_left_turret_radar",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "RADR_GRNP_S01_Ecouter",
                   "InstalledItem": {
                     "ClassName": "RADR_GRNP_S01_Ecouter",
@@ -3277,6 +3498,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Lifetime": 720.0
                     },
@@ -3325,7 +3550,7 @@
                 "Name": "hardpoint_turret_right",
                 "Port": {
                   "PortName": "hardpoint_turret_right",
-                  "Size": 5,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Turret_Side_Right",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Turret_Side_Right",
@@ -3340,6 +3565,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 2000.0
                     },
@@ -3374,6 +3603,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -3490,6 +3723,10 @@
                             "flightReady",
                             "weaponMountUsable"
                           ],
+                          "Width": 0.8932018,
+                          "Height": 1.60379,
+                          "Length": 6.633023,
+                          "Volume": 2100000.0,
                           "Durability": {
                             "Health": 1650.0,
                             "Lifetime": 20.0
@@ -3604,7 +3841,7 @@
                 "Name": "hardpoint_turret_right_seat_access",
                 "Port": {
                   "PortName": "hardpoint_turret_right_seat_access",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Turret_Side_Right",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Turret_Side_Right",
@@ -3615,7 +3852,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -3631,7 +3872,7 @@
                 "Name": "hardpoint_turret_right_turret_radar",
                 "Port": {
                   "PortName": "hardpoint_turret_right_turret_radar",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "RADR_GRNP_S01_Ecouter",
                   "InstalledItem": {
                     "ClassName": "RADR_GRNP_S01_Ecouter",
@@ -3643,6 +3884,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Lifetime": 720.0
                     },
@@ -3697,7 +3942,7 @@
                 "Name": "hardpoint_weapon_locker_01",
                 "Port": {
                   "PortName": "hardpoint_weapon_locker_01",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "Weapon_Rack_ANVL_Carrack_Armory_Large",
                   "InstalledItem": {
                     "ClassName": "Weapon_Rack_ANVL_Carrack_Armory_Large",
@@ -3705,6 +3950,10 @@
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
                     "Name": "Weapon_Rack_ANVL_Carrack_Armory_Large",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Ports": [
                       {
                         "PortName": "$IP_rifle_01",
@@ -3882,7 +4131,7 @@
                 "Name": "hardpoint_weapon_locker_02",
                 "Port": {
                   "PortName": "hardpoint_weapon_locker_02",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "Weapon_Rack_ANVL_Carrack_Armory_Large",
                   "InstalledItem": {
                     "ClassName": "Weapon_Rack_ANVL_Carrack_Armory_Large",
@@ -3890,6 +4139,10 @@
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
                     "Name": "Weapon_Rack_ANVL_Carrack_Armory_Large",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Ports": [
                       {
                         "PortName": "$IP_rifle_01",
@@ -4069,7 +4322,7 @@
             "Name": "hardpoint_quantum_fuel",
             "Port": {
               "PortName": "hardpoint_quantum_fuel",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "QTNK_ANVL_Carrack",
               "InstalledItem": {
                 "ClassName": "QTNK_ANVL_Carrack",
@@ -4080,6 +4333,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 22000.0
                 }
@@ -4099,7 +4356,7 @@
             "Name": "hardpoint_fuel_tank_2",
             "Port": {
               "PortName": "hardpoint_fuel_tank_2",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "HTNK_ANVL_Carrack",
               "InstalledItem": {
                 "ClassName": "HTNK_ANVL_Carrack",
@@ -4110,6 +4367,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 7893000.0
                 }
@@ -4129,7 +4390,7 @@
             "Name": "hardpoint_fuel_tank_1",
             "Port": {
               "PortName": "hardpoint_fuel_tank_1",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "HTNK_ANVL_Carrack",
               "InstalledItem": {
                 "ClassName": "HTNK_ANVL_Carrack",
@@ -4140,6 +4401,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 7893000.0
                 }
@@ -4159,24 +4424,22 @@
             "Name": "hardpoint_cargo_front_left",
             "Port": {
               "PortName": "hardpoint_cargo_front_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ANVL_Carrack_CargoGrid",
               "InstalledItem": {
                 "ClassName": "ANVL_Carrack_CargoGrid",
                 "Size": 1,
                 "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
+                "Type": "CargoGrid.UNDEFINED",
                 "Name": "ANVL_Carrack_CargoGrid",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
-                "CargoGrid": {
-                  "Capacity": 64.0,
-                  "Width": 5.0,
-                  "Height": 5.0,
-                  "Depth": 5.0
-                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -4185,16 +4448,22 @@
                   "ThermalEnergyBase": 10.0,
                   "ThermalEnergyDraw": 20.0,
                   "CoolingRate": 1.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.0,
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
                 }
               },
               "Types": [
-                "Cargo"
+                "CargoGrid"
               ],
               "Flags": [
                 "selfphys",
                 "uneditable"
               ],
-              "Category": "Cargo grids",
+              "Category": "UNKNOWN",
               "Uneditable": true
             }
           },
@@ -4206,7 +4475,7 @@
                 "Name": "hardpoint_thruster_bottom_front_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_front_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -4218,6 +4487,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -4255,7 +4528,7 @@
                 "Name": "hardpoint_thruster_bottom_front_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_front_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -4267,6 +4540,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -4304,7 +4581,7 @@
                 "Name": "hardpoint_thruster_retro_back",
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_back",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Retro_Back",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Retro_Back",
@@ -4316,6 +4593,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 24508290.0,
                       "FuelRate": 2.79E-06,
@@ -4352,7 +4633,7 @@
                 "Name": "hardpoint_thruster_retro_forward",
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_forward",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Retro_Front",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Retro_Front",
@@ -4364,6 +4645,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 24508290.0,
                       "FuelRate": 2.79E-06,
@@ -4400,7 +4685,7 @@
                 "Name": "hardpoint_thruster_side_front_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_side_front_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -4412,6 +4697,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -4449,7 +4738,7 @@
                 "Name": "hardpoint_thruster_side_front_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_side_front_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -4461,6 +4750,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -4498,7 +4791,7 @@
                 "Name": "hardpoint_thruster_top_front_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_top_front_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -4510,6 +4803,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -4547,7 +4844,7 @@
                 "Name": "hardpoint_thruster_top_front_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_top_front_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_Mav",
@@ -4559,6 +4856,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7223213.0,
                       "FuelRate": 3.125E-06,
@@ -4596,7 +4897,7 @@
                 "Name": "hardpoint_thruster_vtol_front_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_vtol_front_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_VTOL",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_VTOL",
@@ -4608,6 +4909,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 14015980.0,
                       "FuelRate": 6.975000000000001E-06,
@@ -4645,7 +4950,7 @@
                 "Name": "hardpoint_thruster_vtol_front_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_vtol_front_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Thruster_VTOL",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Thruster_VTOL",
@@ -4657,6 +4962,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 14015980.0,
                       "FuelRate": 6.975000000000001E-06,
@@ -4694,7 +5003,7 @@
                 "Name": "animated_interior_front",
                 "Port": {
                   "PortName": "animated_interior_front",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Room"
                   ],
@@ -4709,7 +5018,7 @@
                 "Name": "hardpoint_cockpit_selfdestruct",
                 "Port": {
                   "PortName": "hardpoint_cockpit_selfdestruct",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "VHCL_SelfDestruct_60s",
                   "InstalledItem": {
                     "ClassName": "VHCL_SelfDestruct_60s",
@@ -4724,7 +5033,11 @@
                     },
                     "Tags": [
                       "flightReady"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SelfDestruct"
@@ -4741,7 +5054,7 @@
                 "Name": "hardpoint_console",
                 "Port": {
                   "PortName": "hardpoint_console",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Bridge_Console",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Bridge_Console",
@@ -4753,6 +5066,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -4772,7 +5089,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "Display.UNDEFINED",
-                          "Name": "RADR_Display"
+                          "Name": "RADR_Display",
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Types": [
                           "Display"
@@ -4788,7 +5109,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "Display.UNDEFINED",
-                          "Name": "Projector_HUD_Generic"
+                          "Name": "Projector_HUD_Generic",
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Category": "UNKNOWN"
                       }
@@ -4809,7 +5134,7 @@
                 "Name": "hardpoint_console_access",
                 "Port": {
                   "PortName": "hardpoint_console_access",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Console_Access",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Console_Access",
@@ -4820,7 +5145,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -4836,7 +5165,7 @@
                 "Name": "hardpoint_fuel_intake_1",
                 "Port": {
                   "PortName": "hardpoint_fuel_intake_1",
-                  "Size": 5,
+                  "Size": 0,
                   "Loadout": "INTK_ANVL_Carrack",
                   "InstalledItem": {
                     "ClassName": "INTK_ANVL_Carrack",
@@ -4847,6 +5176,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "HydrogenFuelIntake": {
                       "Rate": 400.0
                     },
@@ -4875,7 +5208,7 @@
                 "Name": "hardpoint_fuel_intake_2",
                 "Port": {
                   "PortName": "hardpoint_fuel_intake_2",
-                  "Size": 5,
+                  "Size": 0,
                   "Loadout": "INTK_ANVL_Carrack",
                   "InstalledItem": {
                     "ClassName": "INTK_ANVL_Carrack",
@@ -4886,6 +5219,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "HydrogenFuelIntake": {
                       "Rate": 400.0
                     },
@@ -4914,7 +5251,7 @@
                 "Name": "hardpoint_garage_door",
                 "Port": {
                   "PortName": "hardpoint_garage_door",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Main_Ramp",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Main_Ramp",
@@ -4926,6 +5263,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 200.0
                     },
@@ -5046,7 +5387,7 @@
                 "Name": "hardpoint_seat_access",
                 "Port": {
                   "PortName": "hardpoint_seat_access",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Pilot",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Pilot",
@@ -5057,7 +5398,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -5073,7 +5418,7 @@
                 "Name": "hardpoint_seat_access_bridge_l",
                 "Port": {
                   "PortName": "hardpoint_seat_access_bridge_l",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Bridge_L",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Bridge_L",
@@ -5084,7 +5429,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -5096,7 +5445,7 @@
                 "Name": "hardpoint_seat_access_bridge_r",
                 "Port": {
                   "PortName": "hardpoint_seat_access_bridge_r",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Bridge_R",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Bridge_R",
@@ -5107,7 +5456,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -5119,7 +5472,7 @@
                 "Name": "hardpoint_seat_bridge_l",
                 "Port": {
                   "PortName": "hardpoint_seat_bridge_l",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Seat_Support_Left",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Seat_Support_Left",
@@ -5131,6 +5484,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -5170,7 +5527,7 @@
                 "Name": "hardpoint_seat_bridge_r",
                 "Port": {
                   "PortName": "hardpoint_seat_bridge_r",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Seat_Support_Right",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Seat_Support_Right",
@@ -5182,6 +5539,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -5221,7 +5582,7 @@
                 "Name": "hardpoint_seat_copilot_access_l",
                 "Port": {
                   "PortName": "hardpoint_seat_copilot_access_l",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_CoPilot_L",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_CoPilot_L",
@@ -5232,7 +5593,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -5244,7 +5609,7 @@
                 "Name": "hardpoint_seat_copilot_access_r",
                 "Port": {
                   "PortName": "hardpoint_seat_copilot_access_r",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_CoPilot_R",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_CoPilot_R",
@@ -5255,7 +5620,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -5267,7 +5636,7 @@
                 "Name": "hardpoint_seat_copilot_l",
                 "Port": {
                   "PortName": "hardpoint_seat_copilot_l",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Seat_CoPilot",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Seat_CoPilot",
@@ -5279,6 +5648,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -5298,7 +5671,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "Display.UNDEFINED",
-                          "Name": "Projector_HUD_Generic"
+                          "Name": "Projector_HUD_Generic",
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Category": "UNKNOWN"
                       }
@@ -5318,7 +5695,7 @@
                 "Name": "hardpoint_seat_copilot_r",
                 "Port": {
                   "PortName": "hardpoint_seat_copilot_r",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Seat_CoPilot",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Seat_CoPilot",
@@ -5330,6 +5707,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -5349,7 +5730,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "Display.UNDEFINED",
-                          "Name": "Projector_HUD_Generic"
+                          "Name": "Projector_HUD_Generic",
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Category": "UNKNOWN"
                       }
@@ -5369,7 +5754,7 @@
                 "Name": "hardpoint_seat_drone_access_l",
                 "Port": {
                   "PortName": "hardpoint_seat_drone_access_l",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Drone_L",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Drone_L",
@@ -5380,7 +5765,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -5392,7 +5781,7 @@
                 "Name": "hardpoint_seat_drone_access_r",
                 "Port": {
                   "PortName": "hardpoint_seat_drone_access_r",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SeatAccess_Drone_R",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SeatAccess_Drone_R",
@@ -5403,7 +5792,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "SeatAccess"
@@ -5415,7 +5808,7 @@
                 "Name": "hardpoint_seat_drone_l",
                 "Port": {
                   "PortName": "hardpoint_seat_drone_l",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Seat_Drone_Left",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Seat_Drone_Left",
@@ -5427,6 +5820,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -5466,7 +5863,7 @@
                 "Name": "hardpoint_seat_drone_r",
                 "Port": {
                   "PortName": "hardpoint_seat_drone_r",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Seat_Drone_Right",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Seat_Drone_Right",
@@ -5478,6 +5875,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -5517,7 +5918,7 @@
                 "Name": "hardpoint_cockpit_flair_hang",
                 "Port": {
                   "PortName": "hardpoint_cockpit_flair_hang",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Flair_Cockpit.Flair_Hanging"
                   ],
@@ -5528,7 +5929,7 @@
                 "Name": "hardpoint_cockpit_radar",
                 "Port": {
                   "PortName": "hardpoint_cockpit_radar",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Display"
                   ],
@@ -5544,7 +5945,7 @@
                 "Name": "hardpoint_seat_pilot",
                 "Port": {
                   "PortName": "hardpoint_seat_pilot",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_SCItem_Seat_Pilot",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_SCItem_Seat_Pilot",
@@ -5556,6 +5957,10 @@
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 1.0,
                       "PowerDraw": 1.0
@@ -5575,7 +5980,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "Display.UNDEFINED",
-                          "Name": "RADR_Display"
+                          "Name": "RADR_Display",
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Types": [
                           "Display"
@@ -5591,7 +6000,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "Display.UNDEFINED",
-                          "Name": "Projector_HUD_Generic"
+                          "Name": "Projector_HUD_Generic",
+                          "Width": 0.15,
+                          "Height": 0.15,
+                          "Length": 0.15,
+                          "Volume": 1.0
                         },
                         "Category": "UNKNOWN"
                       }
@@ -5611,14 +6024,18 @@
                 "Name": "hardpoint_console_weapon_controller",
                 "Port": {
                   "PortName": "hardpoint_console_weapon_controller",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "Controller_Weapon",
                   "InstalledItem": {
                     "ClassName": "Controller_Weapon",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "WeaponController.UNDEFINED",
-                    "Name": "WEAPONS"
+                    "Name": "WEAPONS",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponController"
@@ -5635,7 +6052,7 @@
                 "Name": "hardpoint_hologlobe_bridge",
                 "Port": {
                   "PortName": "hardpoint_hologlobe_bridge",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ANVL_Carrack_Cart_Hologlobe_RADR_Display",
                   "InstalledItem": {
                     "ClassName": "ANVL_Carrack_Cart_Hologlobe_RADR_Display",
@@ -5646,7 +6063,11 @@
                     "Manufacturer": {
                       "Code": "ANVL",
                       "Name": "Anvil Aerospace"
-                    }
+                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Flags": [
                     "uneditable"
@@ -5661,7 +6082,7 @@
             "Name": "hardpoint_antennas",
             "Port": {
               "PortName": "hardpoint_antennas",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Door"
               ],
@@ -5676,14 +6097,18 @@
             "Name": "hardpoint_controller_door",
             "Port": {
               "PortName": "hardpoint_controller_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Door",
               "InstalledItem": {
                 "ClassName": "Controller_Door",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -5700,7 +6125,7 @@
             "Name": "hardpoint_front_pod_door",
             "Port": {
               "PortName": "hardpoint_front_pod_door",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Door"
               ],
@@ -5715,7 +6140,7 @@
             "Name": "hardpoint_mid_pod_door",
             "Port": {
               "PortName": "hardpoint_mid_pod_door",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Door"
               ],
@@ -5730,7 +6155,7 @@
             "Name": "hardpoint_rear_pod_door",
             "Port": {
               "PortName": "hardpoint_rear_pod_door",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Door"
               ],
@@ -5745,7 +6170,7 @@
             "Name": "hardpoint_quantum_fuel_2",
             "Port": {
               "PortName": "hardpoint_quantum_fuel_2",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "QTNK_ANVL_Carrack",
               "InstalledItem": {
                 "ClassName": "QTNK_ANVL_Carrack",
@@ -5756,6 +6181,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 22000.0
                 }
@@ -5775,7 +6204,7 @@
             "Name": "hardpoint_armor",
             "Port": {
               "PortName": "hardpoint_armor",
-              "Size": 3,
+              "Size": 0,
               "Loadout": "ARMR_ANVL_Carrack",
               "InstalledItem": {
                 "ClassName": "ARMR_ANVL_Carrack",
@@ -5787,10 +6216,14 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.95,
-                    "Energy": 0.9,
+                    "Physical": 0.46,
+                    "Energy": 1.0,
                     "Distortion": 1.0,
                     "Thermal": 1.0,
                     "Biochemical": 1.0
@@ -5817,14 +6250,18 @@
             "Name": "hardpoint_controller_comms",
             "Port": {
               "PortName": "hardpoint_controller_comms",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Comms",
               "InstalledItem": {
                 "ClassName": "Controller_Comms",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -5841,14 +6278,18 @@
             "Name": "hardpoint_controller_cooler",
             "Port": {
               "PortName": "hardpoint_controller_cooler",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Cooler",
               "InstalledItem": {
                 "ClassName": "Controller_Cooler",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -5865,14 +6306,18 @@
             "Name": "hardpoint_controller_energy",
             "Port": {
               "PortName": "hardpoint_controller_energy",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Energy",
               "InstalledItem": {
                 "ClassName": "Controller_Energy",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -5889,7 +6334,7 @@
             "Name": "hardpoint_controller_flight",
             "Port": {
               "PortName": "hardpoint_controller_flight",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Flight_ANVL_Carrack",
               "InstalledItem": {
                 "ClassName": "Controller_Flight_ANVL_Carrack",
@@ -5901,9 +6346,16 @@
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ifcs": {
-                  "MaxSpeed": 208.0,
-                  "MaxAfterburnSpeed": 1236.0
+                  "MaxSpeed": 1236.0,
+                  "MaxAfterburnSpeed": 0.0,
+                  "Pitch": 28.0,
+                  "Yaw": 24.0,
+                  "Roll": 75.0
                 }
               },
               "Types": [
@@ -5921,14 +6373,18 @@
             "Name": "hardpoint_controller_light",
             "Port": {
               "PortName": "hardpoint_controller_light",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Light",
               "InstalledItem": {
                 "ClassName": "Controller_Light",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -5945,7 +6401,7 @@
             "Name": "hardpoint_controller_scanner",
             "Port": {
               "PortName": "hardpoint_controller_scanner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_scanner",
               "InstalledItem": {
                 "ClassName": "test_scanner",
@@ -5956,6 +6412,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Scanner": {
                   "Range": 0.0
                 }
@@ -5975,7 +6435,7 @@
             "Name": "hardpoint_controller_shield",
             "Port": {
               "PortName": "hardpoint_controller_shield",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Shield_ANVL_Carrack",
               "InstalledItem": {
                 "ClassName": "Controller_Shield_ANVL_Carrack",
@@ -5985,7 +6445,11 @@
                 "Name": "SHIELDS",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "ShieldController"
@@ -6002,14 +6466,18 @@
             "Name": "hardpoint_controller_weapon",
             "Port": {
               "PortName": "hardpoint_controller_weapon",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Weapon",
               "InstalledItem": {
                 "ClassName": "Controller_Weapon",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "WeaponController.UNDEFINED",
-                "Name": "WEAPONS"
+                "Name": "WEAPONS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "WeaponController"
@@ -6026,14 +6494,18 @@
             "Name": "hardpoint_landing_system",
             "Port": {
               "PortName": "hardpoint_landing_system",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Default_LandingSystem",
               "InstalledItem": {
                 "ClassName": "Default_LandingSystem",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LandingSystem.UNDEFINED",
-                "Name": "Default_LandingSystem"
+                "Name": "Default_LandingSystem",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LandingSystem"
@@ -6049,7 +6521,7 @@
             "Name": "hardpoint_paint",
             "Port": {
               "PortName": "hardpoint_paint",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Paints"
               ],
@@ -6060,7 +6532,7 @@
             "Name": "hardpoint_ping",
             "Port": {
               "PortName": "hardpoint_ping",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_ping",
               "InstalledItem": {
                 "ClassName": "test_ping",
@@ -6071,7 +6543,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -6088,7 +6564,7 @@
             "Name": "hardpoint_radar",
             "Port": {
               "PortName": "hardpoint_radar",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "RADR_CHCO_S02_Surveyor",
               "InstalledItem": {
                 "ClassName": "RADR_CHCO_S02_Surveyor",
@@ -6100,6 +6576,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -6148,7 +6628,7 @@
             "Name": "hardpoint_weapon_regen_pool",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Crew_Carrack",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Crew_Carrack",
@@ -6156,6 +6636,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Crew_Carrack",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 30000.0,
                   "AmmoLoad": 75000,
@@ -6177,7 +6661,7 @@
             "Name": "hardpoint_controller_missile",
             "Port": {
               "PortName": "hardpoint_controller_missile",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "MissileController"
               ],
@@ -6193,7 +6677,7 @@
             "Name": "hardpoint_weapon_regen_pool_turrets",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool_turrets",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Turret_Carrack",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Turret_Carrack",
@@ -6201,6 +6685,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Turret_Carrack",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 100000.0,
                   "AmmoLoad": 1000000,
@@ -6222,7 +6710,7 @@
             "Name": "hardpoint_controller_capacitor_assignment",
             "Port": {
               "PortName": "hardpoint_controller_capacitor_assignment",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_CapacitorAssignment",
               "InstalledItem": {
                 "ClassName": "Controller_CapacitorAssignment",
@@ -6232,7 +6720,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"

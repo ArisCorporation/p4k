@@ -17,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -134,14 +144,37 @@
                 "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
+              },
+              {
+                "Name": "Inventory_Open",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_open_storage",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
               }
             ]
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "07b72e0c-74a4-4f62-81b5-da31c2afcb86"
         }
       },
       "ClassName": "CNOU_Mustang_SeatAccess",
       "__ref": "6df5bcdd-fd7f-40e5-9d71-a0bb0dd961f1",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.25,
+    "x": 2.0,
+    "y": 2.0,
+    "z": 2.0
   }
 }

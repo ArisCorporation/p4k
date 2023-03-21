@@ -15,12 +15,22 @@
         "Localization": {
           "Name": "@item_Name_FLGT_Controller",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
     "IFCSParams": {
-      "maxSpeed": 218.0,
-      "maxAfterburnSpeed": 1250.0,
+      "maxSpeed": 1250.0,
+      "maxAfterburnSpeed": 0.0,
       "torqueDistanceThreshold": -1.0,
       "refreshCachesOnLandingMode": false,
       "coefficientOfLift": 0.0,
@@ -31,7 +41,12 @@
       "groundTurbulenceAmplitude": 0.75,
       "precisionMinDistance": 5.0,
       "precisionMaxDistance": 90.0,
-      "precisionLandingMultiplier": 1.0
+      "precisionLandingMultiplier": 1.0,
+      "maxAngularVelocity": {
+        "x": 42.0,
+        "y": 144.0,
+        "z": 37.0
+      }
     },
     "SEntityInteractableParams": {
       "Interactable": {
@@ -233,7 +248,7 @@
             "available": true
           },
           {
-            "Name": "CycleTransform",
+            "Name": "TransformDeploy",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@usable_use",
@@ -247,7 +262,7 @@
             "available": true
           },
           {
-            "Name": "EnableTransform",
+            "Name": "TransformRetract",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@usable_use",
@@ -261,7 +276,7 @@
             "available": true
           },
           {
-            "Name": "DisableTransform",
+            "Name": "TransformCycle",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@usable_use",

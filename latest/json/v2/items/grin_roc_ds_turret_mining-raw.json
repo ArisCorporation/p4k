@@ -19,7 +19,7 @@
     },
     "SAttachableComponentParams": {
       "AttachDef": {
-        "Type": "TurretBase",
+        "Type": "UtilityTurret",
         "SubType": "MannedTurret",
         "Size": 1,
         "Grade": 1,
@@ -30,6 +30,16 @@
         "Localization": {
           "Name": "@item_Name_Turret_Manned",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
@@ -249,6 +259,18 @@
               ]
             }
           ]
+        },
+        {
+          "Name": "Aim_HUD",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 0,
+          "MaxSize": 0,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": []
         }
       ]
     }

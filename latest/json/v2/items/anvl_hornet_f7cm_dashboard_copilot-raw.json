@@ -15,6 +15,16 @@
         "Localization": {
           "Name": "@LOC_PLACEHOLDER",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
@@ -126,6 +136,25 @@
           }
         ]
       }
+    },
+    "SItemPortContainerComponentParams": {
+      "PortFlags": "",
+      "PortTags": "",
+      "RequiredItemTags": "",
+      "Ports": [
+        {
+          "Name": "Aim_HUD",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 0,
+          "MaxSize": 0,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": []
+        }
+      ]
     }
   },
   "ClassName": "ANVL_Hornet_F7CM_Dashboard_Copilot",

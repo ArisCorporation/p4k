@@ -6,7 +6,7 @@
       "Components": {
         "SAttachableComponentParams": {
           "AttachDef": {
-            "Type": "Cargo",
+            "Type": "CargoGrid",
             "SubType": "UNDEFINED",
             "Size": 1,
             "Grade": 1,
@@ -17,20 +17,17 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
-          }
-        },
-        "SCItemCargoGridParams": {
-          "crateGenPercentageOnDestroy": 0.1,
-          "crateMaxOnDestroy": 20.0,
-          "personalInventory": false,
-          "invisible": false,
-          "miningOnly": false,
-          "minVolatilePowerToExplode": 0.0,
-          "dimensions": {
-            "x": 7.5,
-            "y": 15.0,
-            "z": 6.25
           }
         },
         "EntityComponentPowerConnection": {
@@ -74,11 +71,20 @@
           "Interactable": {
             "SharedInteractions": []
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "921a955e-b063-4502-a101-0191c2bf2ff5"
         }
       },
       "ClassName": "ORIG_890Jump_CargoGrid_Rear",
       "__ref": "b13a027a-66e1-429c-a744-78278aeba9ae",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.0,
+    "x": 7.5,
+    "y": 15.0,
+    "z": 5.0
   }
 }

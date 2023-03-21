@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_gun_centermount",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KRIG_BallisticGatling_S2",
       "InstalledItem": {
         "ClassName": "KRIG_BallisticGatling_S2",
@@ -22,6 +22,10 @@
           "weaponMountUsable",
           "Merlin_Nose"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -134,6 +138,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -169,6 +177,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -291,6 +303,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -326,6 +342,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -440,7 +460,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasure_launcher_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_CML_Flare",
       "InstalledItem": {
         "ClassName": "ORIG_M50_CML_Flare",
@@ -453,6 +473,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -500,7 +524,7 @@
     },
     {
       "PortName": "hardpoint_countermeasure_launcher_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_CML_Chaff",
       "InstalledItem": {
         "ClassName": "ORIG_M50_CML_Chaff",
@@ -513,6 +537,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -562,7 +590,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S01_SecureHyde_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S01_SecureHyde_SCItem",
@@ -575,15 +603,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1350.0,
           "Regeneration": 340.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -608,7 +640,7 @@
           }
         },
         "Durability": {
-          "Health": 175.0,
+          "Health": 1054.0,
           "Lifetime": 18.0
         },
         "PowerConnection": {
@@ -633,7 +665,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_power_plant",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_SASU_S01_LightBlossom_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_SASU_S01_LightBlossom_SCItem",
@@ -646,11 +678,15 @@
           "Code": "SASU",
           "Name": "Sakura Sun"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 1998.33
         },
         "Durability": {
-          "Health": 500.0,
+          "Health": 1500.0,
           "Lifetime": 21.6
         },
         "PowerConnection": {
@@ -675,7 +711,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_JSPN_S01_FrostStar_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_JSPN_S01_FrostStar_SCItem",
@@ -688,11 +724,15 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 214000.0
         },
         "Durability": {
-          "Health": 490.0,
+          "Health": 1500.0,
           "Lifetime": 18.8
         },
         "PowerConnection": {
@@ -715,7 +755,7 @@
     },
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_JSPN_S01_FrostStar_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_JSPN_S01_FrostStar_SCItem",
@@ -728,11 +768,15 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 214000.0
         },
         "Durability": {
-          "Health": 490.0,
+          "Health": 1500.0,
           "Lifetime": 18.8
         },
         "PowerConnection": {
@@ -759,7 +803,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Main",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Main",
@@ -771,6 +815,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 699658.4,
           "FuelRate": 9.3625E-06,
@@ -805,7 +853,7 @@
     },
     {
       "PortName": "hardpoint_engine_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Main",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Main",
@@ -817,6 +865,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 699658.4,
           "FuelRate": 9.3625E-06,
@@ -853,7 +905,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_thruster_lower_center_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Retro_02",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Retro_02",
@@ -865,6 +917,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 132678.2,
           "FuelRate": 9.3625E-06,
@@ -898,7 +954,7 @@
     },
     {
       "PortName": "hardpoint_thruster_upper_left_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Retro_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Retro_01",
@@ -910,6 +966,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 191354.2,
           "FuelRate": 9.3625E-06,
@@ -944,7 +1004,7 @@
     },
     {
       "PortName": "hardpoint_thruster_upper_right_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Retro_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Retro_01",
@@ -956,6 +1016,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 191354.2,
           "FuelRate": 9.3625E-06,
@@ -993,7 +1057,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_front_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1005,6 +1069,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1036,7 +1104,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1048,6 +1116,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1079,7 +1151,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1091,6 +1163,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1122,7 +1198,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1134,6 +1210,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1165,7 +1245,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_right_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
@@ -1177,6 +1257,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 63249.22,
           "FuelRate": 3.125E-06,
@@ -1209,7 +1293,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_right_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
@@ -1221,6 +1305,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 63249.22,
           "FuelRate": 3.125E-06,
@@ -1253,7 +1341,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_left_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
@@ -1265,6 +1353,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 63249.22,
           "FuelRate": 3.125E-06,
@@ -1297,7 +1389,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_left_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_02",
@@ -1309,6 +1401,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 63249.22,
           "FuelRate": 3.125E-06,
@@ -1341,7 +1437,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1353,6 +1449,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1385,7 +1485,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1397,6 +1497,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1429,7 +1533,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1441,6 +1545,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1473,7 +1581,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P52_Merlin_Thruster_Mav_Fixed_01",
@@ -1485,6 +1593,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 201153.3,
           "FuelRate": 3.125E-06,
@@ -1519,7 +1631,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "HTNK_KRIG_P52_Merlin",
@@ -1530,6 +1642,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 7500.0
         }
@@ -1546,7 +1662,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "HTNK_KRIG_P52_Merlin",
@@ -1557,6 +1673,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 7500.0
         }
@@ -1575,7 +1695,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_archimedes_intake",
-      "Size": 2,
+      "Size": 0,
       "Types": [
         "FuelIntake.NoseMounted"
       ],
@@ -1587,7 +1707,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "INTK_KRIG_P52_Merlin",
@@ -1598,6 +1718,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1623,7 +1747,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "INTK_KRIG_P52_Merlin",
@@ -1634,6 +1758,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1675,6 +1803,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -1720,7 +1852,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -1731,6 +1863,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -1747,7 +1883,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping_S0",
       "InstalledItem": {
         "ClassName": "test_ping_S0",
@@ -1758,7 +1894,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"

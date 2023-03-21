@@ -49,12 +49,22 @@
             "Size": 1,
             "Grade": 1,
             "Manufacturer": "eddc1a94-7840-4855-9889-544821d4d739",
-            "Tags": "Environment Set_01 Color_expo $armor_mobi++ SM_RestrictedWep",
+            "Tags": "Environment Set_01 Color_expo $armor_mobi++ SM_RestrictedArm",
             "RequiredTags": "",
             "DisplayType": "",
             "Localization": {
               "Name": "@item_Name_clda_env_heavy_suit_01_expo",
               "Description": "@item_Desc_clda_env_heavy_suit_01_expo"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 572000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.785,
+              "y": 0.572,
+              "z": 1.594
             }
           }
         },
@@ -392,18 +402,6 @@
                   "SubTypes": []
                 }
               ]
-            },
-            {
-              "Name": "Armor_Torso",
-              "DisplayName": "",
-              "PortTags": "",
-              "RequiredPortTags": "fakePortForThetaGeo",
-              "Flags": "",
-              "MinSize": 0,
-              "MaxSize": 0,
-              "InteractionPointSize": -1.0,
-              "DefaultWeaponGroup": "UNDEFINED",
-              "Types": []
             },
             {
               "Name": "wep_stocked_2",
@@ -746,6 +744,9 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "b7617b03-89e6-45e9-bb15-6c91dee5afe0"
         }
       },
       "ClassName": "clda_env_armor_heavy_suit_01_01_expo",
@@ -778,5 +779,11 @@
       "Multiplier": 0.4,
       "Threshold": 0
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.022,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

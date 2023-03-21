@@ -61,6 +61,16 @@
         "Localization": {
           "Name": "@item_Name_rsi_deckcrew_armor_light_helmet_01_01_08",
           "Description": "@item_Desc_rsi_deckcrew_light_helmet_01"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 12000.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.206,
+          "y": 0.244,
+          "z": 0.294
         }
       }
     },
@@ -138,7 +148,7 @@
             "available": true
           },
           {
-            "Name": "Equip",
+            "Name": "EquipToWear",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@interaction_equip",
@@ -162,6 +172,9 @@
     },
     "SCItemSuitArmorParams": {
       "damageResistance": "ef53ae6f-5270-40c5-b676-261eb40038d0"
+    },
+    "SCItemSuitHelmetParams": {
+      "atmosphereCapacity": 0.02
     },
     "SItemPortContainerComponentParams": {
       "PortFlags": "",

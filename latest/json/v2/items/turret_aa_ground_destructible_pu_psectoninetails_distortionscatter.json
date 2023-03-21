@@ -9,6 +9,10 @@
     "Code": "AEG",
     "Name": "Aegis Dynamics"
   },
+  "Width": 0.15,
+  "Height": 0.15,
+  "Length": 0.15,
+  "Volume": 1.0,
   "Durability": {
     "Health": 10000.0
   },
@@ -22,13 +26,16 @@
         "Size": 1,
         "Grade": 1,
         "Type": "AIModule.UNDEFINED",
-        "Name": "AIModule_Unmanned_PU_PSec"
+        "Name": "AIModule_Unmanned_PU_PSec",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "AIModule"
       ],
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true
@@ -54,6 +61,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 1650.0,
           "Lifetime": 20.0
@@ -73,7 +84,9 @@
             "Range": 400.0,
             "Size": 1.0,
             "Capacity": 10.0,
-            "ImpactDamage": {},
+            "ImpactDamage": {
+              "Energy": 0.0001
+            },
             "DetonationDamage": {
               "Distortion": 45.0
             }
@@ -87,9 +100,11 @@
               "AmmoPerShot": 1.0,
               "PelletsPerShot": 8.0,
               "DamagePerShot": {
+                "Energy": 0.0008,
                 "Distortion": 360.0
               },
               "DamagePerSecond": {
+                "Energy": 0.0011333333333333334,
                 "Distortion": 510.0
               }
             }
@@ -106,7 +121,9 @@
           "Range": 400.0,
           "Size": 1.0,
           "Capacity": 10.0,
-          "ImpactDamage": {},
+          "ImpactDamage": {
+            "Energy": 0.0001
+          },
           "DetonationDamage": {
             "Distortion": 45.0
           }
@@ -141,6 +158,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 1650.0,
           "Lifetime": 20.0
@@ -160,7 +181,9 @@
             "Range": 400.0,
             "Size": 1.0,
             "Capacity": 10.0,
-            "ImpactDamage": {},
+            "ImpactDamage": {
+              "Energy": 0.0001
+            },
             "DetonationDamage": {
               "Distortion": 45.0
             }
@@ -174,9 +197,11 @@
               "AmmoPerShot": 1.0,
               "PelletsPerShot": 8.0,
               "DamagePerShot": {
+                "Energy": 0.0008,
                 "Distortion": 360.0
               },
               "DamagePerSecond": {
+                "Energy": 0.0011333333333333334,
                 "Distortion": 510.0
               }
             }
@@ -193,7 +218,9 @@
           "Range": 400.0,
           "Size": 1.0,
           "Capacity": 10.0,
-          "ImpactDamage": {},
+          "ImpactDamage": {
+            "Energy": 0.0001
+          },
           "DetonationDamage": {
             "Distortion": 45.0
           }
@@ -222,11 +249,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 4000.0
         },
         "Durability": {
-          "Health": 750.0,
+          "Health": 1500.0,
           "Lifetime": 22.0
         },
         "PowerConnection": {
@@ -257,13 +288,16 @@
         "Size": 1,
         "Grade": 1,
         "Type": "WeaponController.UNDEFINED",
-        "Name": "WEAPONS"
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "WeaponController"
       ],
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true
@@ -277,13 +311,16 @@
         "Size": 1,
         "Grade": 1,
         "Type": "TargetSelector.UNDEFINED",
-        "Name": "TARGET SELECTOR"
+        "Name": "TARGET SELECTOR",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "TargetSelector"
       ],
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true
@@ -297,13 +334,16 @@
         "Size": 1,
         "Grade": 1,
         "Type": "EnergyController.UNDEFINED",
-        "Name": "POWER"
+        "Name": "POWER",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "EnergyController"
       ],
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true
@@ -317,13 +357,16 @@
         "Size": 1,
         "Grade": 1,
         "Type": "CoolerController.UNDEFINED",
-        "Name": "HEAT"
+        "Name": "HEAT",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "CoolerController"
       ],
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true
@@ -342,6 +385,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -377,7 +424,6 @@
         "CoolerController"
       ],
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true
@@ -389,7 +435,6 @@
         "MissileController"
       ],
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true
@@ -409,11 +454,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Cooler": {
           "Rate": 5800000.0
         },
         "Durability": {
-          "Health": 1850.0,
+          "Health": 3000.0,
           "Lifetime": 96.0
         },
         "PowerConnection": {
@@ -450,11 +499,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Cooler": {
           "Rate": 5800000.0
         },
         "Durability": {
-          "Health": 1850.0,
+          "Health": 3000.0,
           "Lifetime": 96.0
         },
         "PowerConnection": {
@@ -486,6 +539,10 @@
         "Grade": 1,
         "Type": "WeaponRegenPool.UNDEFINED",
         "Name": "WeaponRegenPool_Turret_Default",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "WeaponRegenPool": {
           "RegenFillRate": 100000.0,
           "AmmoLoad": 60000,
@@ -493,7 +550,6 @@
         }
       },
       "Flags": [
-        "invisible",
         "uneditable"
       ],
       "Uneditable": true

@@ -21,6 +21,16 @@
             "Localization": {
               "Name": "@item_NamePOWR_LPLT_S00_DuraJet_SCItem",
               "Description": "@item_DescPOWR_LPLT_S00_DuraJet_SCItem"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -98,10 +108,10 @@
           "MisfireMaxTemperature": 600.0
         },
         "SDistortionParams": {
-          "DecayRate": 80.0,
-          "Maximum": 800.0,
+          "DecayRate": 6.66,
+          "Maximum": 2000.0,
           "OverloadRatio": 0.0,
-          "RecoveryRatio": 0.31,
+          "RecoveryRatio": 0.0,
           "RecoveryTime": 0.0
         },
         "SEntityInteractableParams": {

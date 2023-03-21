@@ -17,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -134,14 +144,37 @@
                 "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
+              },
+              {
+                "Name": "Inventory_Open",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_open_storage",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
               }
             ]
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "69207a2d-3333-4e91-a2b6-b38a2afbc1e9"
         }
       },
       "ClassName": "ORIG_m50_SeatAccess",
       "__ref": "af6bc606-8233-4104-90a8-0b76e11824e2",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.15,
+    "x": 2.0,
+    "y": 2.0,
+    "z": 2.0
   }
 }

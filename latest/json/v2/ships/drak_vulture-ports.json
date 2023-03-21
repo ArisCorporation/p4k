@@ -19,6 +19,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -54,6 +58,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -176,6 +184,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -211,6 +223,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -313,30 +329,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_salvage_arm_right",
-      "Size": 1,
-      "Types": [
-        "Turret.Utility"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_salvage_arm_left",
-      "Size": 1,
-      "Types": [
-        "Turret.Utility"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
     }
   ],
   "MannedTurrets": [],
@@ -362,6 +354,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -423,6 +419,10 @@
           "Code": "JOK",
           "Name": "Joker Engineering"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -486,15 +486,19 @@
           "Code": "BASL",
           "Name": "Basilisk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -519,7 +523,7 @@
           }
         },
         "Durability": {
-          "Health": 250.0,
+          "Health": 1054.0,
           "Lifetime": 40.0
         },
         "PowerConnection": {
@@ -552,15 +556,19 @@
           "Code": "BASL",
           "Name": "Basilisk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -585,7 +593,7 @@
           }
         },
         "Durability": {
-          "Health": 250.0,
+          "Health": 1054.0,
           "Lifetime": 40.0
         },
         "PowerConnection": {
@@ -620,11 +628,15 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 4207.0
         },
         "Durability": {
-          "Health": 150.0,
+          "Health": 1500.0,
           "Lifetime": 150.0
         },
         "PowerConnection": {
@@ -657,11 +669,15 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 4207.0
         },
         "Durability": {
-          "Health": 150.0,
+          "Health": 1500.0,
           "Lifetime": 150.0
         },
         "PowerConnection": {
@@ -696,11 +712,15 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 400000.0
         },
         "Durability": {
-          "Health": 1350.0,
+          "Health": 1500.0,
           "Lifetime": 52.0
         },
         "PowerConnection": {
@@ -733,11 +753,15 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 400000.0
         },
         "Durability": {
-          "Health": 1350.0,
+          "Health": 1500.0,
           "Lifetime": 52.0
         },
         "PowerConnection": {
@@ -772,6 +796,10 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 5.8E-09,
           "JumpRange": 3.402823E+38,
@@ -791,7 +819,7 @@
           }
         },
         "Durability": {
-          "Health": 310.0,
+          "Health": 1054.0,
           "Lifetime": 10.0
         },
         "PowerConnection": {
@@ -824,6 +852,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 583.33
         }
@@ -854,11 +886,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 2215831.0,
+          "ThrustCapacity": 3214764.0,
           "FuelRate": 1.25E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 27.6978875
+          "MaxThrustFuelRate": 40.18455
         },
         "Durability": {
           "Health": 1000.0,
@@ -870,7 +906,7 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 45000.0,
+          "ThermalEnergyDraw": 5600.0,
           "CoolingRate": 45.0
         }
       },
@@ -897,11 +933,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 2215831.0,
+          "ThrustCapacity": 3214764.0,
           "FuelRate": 1.25E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 27.6978875
+          "MaxThrustFuelRate": 40.18455
         },
         "Durability": {
           "Health": 1000.0,
@@ -913,7 +953,7 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 45000.0,
+          "ThermalEnergyDraw": 5600.0,
           "CoolingRate": 45.0
         }
       },
@@ -942,6 +982,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1923814.0,
           "FuelRate": 1.25E-05,
@@ -958,7 +1002,7 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 10500.0,
+          "ThermalEnergyDraw": 4500.0,
           "CoolingRate": 45.0
         }
       },
@@ -985,6 +1029,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1923814.0,
           "FuelRate": 1.25E-05,
@@ -1001,7 +1049,7 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 10500.0,
+          "ThermalEnergyDraw": 4500.0,
           "CoolingRate": 45.0
         }
       },
@@ -1030,11 +1078,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 0.0,
+          "ThrustCapacity": 45675.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.0
+          "MaxThrustFuelRate": 0.5709375
         },
         "Durability": {
           "Health": 10240.0,
@@ -1046,8 +1098,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 4500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1075,11 +1127,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 0.0,
+          "ThrustCapacity": 45675.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.0
+          "MaxThrustFuelRate": 0.5709375
         },
         "Durability": {
           "Health": 10240.0,
@@ -1091,8 +1147,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 4500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1120,11 +1176,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 0.0,
+          "ThrustCapacity": 45675.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.0
+          "MaxThrustFuelRate": 0.5709375
         },
         "Durability": {
           "Health": 10240.0,
@@ -1136,8 +1196,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 4500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1164,11 +1224,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 0.0,
+          "ThrustCapacity": 45675.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.0
+          "MaxThrustFuelRate": 0.5709375
         },
         "Durability": {
           "Health": 10240.0,
@@ -1180,8 +1244,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 4500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1210,11 +1274,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1226,8 +1294,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1253,11 +1321,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1269,8 +1341,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1297,11 +1369,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1313,8 +1389,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1340,11 +1416,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1356,8 +1436,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1383,11 +1463,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1399,8 +1483,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1427,11 +1511,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1443,8 +1531,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1470,11 +1558,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1486,8 +1578,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1513,11 +1605,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1529,8 +1625,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1556,11 +1652,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1572,8 +1672,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1599,11 +1699,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1615,8 +1719,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1642,11 +1746,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1658,8 +1766,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1685,11 +1793,15 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
-          "ThrustCapacity": 666427.3,
+          "ThrustCapacity": 1297353.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 8.330341250000002
+          "MaxThrustFuelRate": 16.2169125
         },
         "Durability": {
           "Health": 10240.0,
@@ -1701,8 +1813,8 @@
         },
         "HeatConnection": {
           "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 11500.0,
-          "CoolingRate": 42.0
+          "ThermalEnergyDraw": 5500.0,
+          "CoolingRate": 45.0
         }
       },
       "Types": [
@@ -1729,6 +1841,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 180000.0
         }
@@ -1756,6 +1872,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 180000.0
         }
@@ -1785,6 +1905,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 10.0
         },
@@ -1821,6 +1945,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 10.0
         },
@@ -1848,46 +1976,6 @@
   "InterdictionHardpoints": [],
   "CargoGrids": [
     {
-      "PortName": "hardpoint_cargogrid_main",
-      "Size": 1,
-      "Loadout": "DRAK_Vulture_CargoGrid_Main",
-      "InstalledItem": {
-        "ClassName": "DRAK_Vulture_CargoGrid_Main",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "DRAK_Vulture_CargoGrid_Main",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "CargoGrid": {
-          "Capacity": 16.0,
-          "Width": 2.5,
-          "Height": 2.5,
-          "Depth": 5.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        }
-      },
-      "Types": [
-        "Cargo"
-      ],
-      "Flags": [
-        "selfphys",
-        "uneditable"
-      ],
-      "Category": "Cargo grids",
-      "Uneditable": true
-    },
-    {
       "PortName": "hardpoint_personal_storage",
       "Size": 1,
       "Loadout": "PersonalStorage_DRAK_Vulture",
@@ -1897,8 +1985,18 @@
         "Grade": 1,
         "Type": "Cargo.UNDEFINED",
         "Name": "PersonalStorage_DRAK_Vulture",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 1000.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.65,
+          "x": 2.0,
+          "y": 2.0,
+          "z": 2.0
         }
       },
       "Types": [
@@ -1926,7 +2024,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -1952,6 +2054,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -2007,6 +2113,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }

@@ -23,6 +23,16 @@
         "Localization": {
           "Name": "@item_Name_syfb_flightsuit_suit_01_01_07",
           "Description": "@item_Desc_syfb_flightsuit_suit_01_01_07"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 572000.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.785,
+          "y": 0.572,
+          "z": 1.594
         }
       }
     },
@@ -273,20 +283,11 @@
               "SubTypes": []
             }
           ]
-        },
-        {
-          "Name": "Armor_Torso",
-          "DisplayName": "",
-          "PortTags": "",
-          "RequiredPortTags": "fakePortForThetaGeo",
-          "Flags": "",
-          "MinSize": 0,
-          "MaxSize": 0,
-          "InteractionPointSize": -1.0,
-          "DefaultWeaponGroup": "UNDEFINED",
-          "Types": []
         }
       ]
+    },
+    "SCItemInventoryContainerComponentParams": {
+      "containerParams": "c5c05c4e-b37d-498d-bf0d-422fd93055c3"
     }
   },
   "ClassName": "syfb_flightsuit_suit_01_01_07",

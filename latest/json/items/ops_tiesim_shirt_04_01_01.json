@@ -37,6 +37,16 @@
             "Localization": {
               "Name": "@item_Name_ops_shirt_04_01_01",
               "Description": "@item_Desc_ops_shirt_04_01_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 24547.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
             }
           }
         },
@@ -173,11 +183,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "f4656fda-387e-46fe-8860-e8bf95380f64"
         }
       },
       "ClassName": "ops_tieSim_shirt_04_01_01",
       "__ref": "77d67708-5f1f-49c7-b845-b8e68796c7d2",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.001,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

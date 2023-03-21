@@ -8,7 +8,7 @@
         "damage": [
           {
             "DamagePhysical": 0.0,
-            "DamageEnergy": 0.0,
+            "DamageEnergy": 0.0001,
             "DamageDistortion": 0.0,
             "DamageThermal": 0.0,
             "DamageBiochemical": 0.0,
@@ -19,14 +19,14 @@
           "ProjectileDetonationParams": {
             "explosionParams": {
               "friendlyFire": "None",
-              "minRadius": 3.5,
-              "maxRadius": 7.0,
+              "minRadius": 15.0,
+              "maxRadius": 25.0,
               "soundRadius": 50.0,
-              "minPhysRadius": 2.5,
-              "maxPhysRadius": 5.0,
-              "pressure": 200.0,
+              "minPhysRadius": 0.0,
+              "maxPhysRadius": 0.0,
+              "pressure": 0.0,
               "holeSize": 0.0,
-              "terrainHoleSize": 3.0,
+              "terrainHoleSize": 0.0,
               "maxblurdist": 10.0,
               "effectScale": 1.0,
               "useRandomScale": 0.0,
@@ -102,6 +102,16 @@
             "Localization": {
               "Name": "@item_NameASAD_DistortionRepeater_S1",
               "Description": "@item_DescASAD_DistortionRepeater_S1"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 84000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.4466009,
+              "y": 0.801895,
+              "z": 1.105504
             }
           }
         },
@@ -266,7 +276,7 @@
                   "unit": "RPM",
                   "weaponAction": {
                     "SWeaponActionFireSingleParams": {
-                      "heatPerShot": 2500.0,
+                      "heatPerShot": 200.0,
                       "fireRate": 320.0,
                       "launchParams": {
                         "SProjectileLauncher": {
@@ -292,7 +302,7 @@
                   "unit": "RPM",
                   "weaponAction": {
                     "SWeaponActionFireSingleParams": {
-                      "heatPerShot": 2500.0,
+                      "heatPerShot": 200.0,
                       "fireRate": 320.0,
                       "launchParams": {
                         "SProjectileLauncher": {

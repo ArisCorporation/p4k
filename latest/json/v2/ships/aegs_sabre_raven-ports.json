@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_right_wing",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "KRIG_LaserCannon_S3",
       "InstalledItem": {
         "ClassName": "KRIG_LaserCannon_S3",
@@ -21,6 +21,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 2850.0,
           "Lifetime": 20.0
@@ -96,7 +100,7 @@
     },
     {
       "PortName": "hardpoint_weapon_left_wing",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "KRIG_LaserCannon_S3",
       "InstalledItem": {
         "ClassName": "KRIG_LaserCannon_S3",
@@ -115,6 +119,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 2850.0,
           "Lifetime": 20.0
@@ -199,7 +207,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasure_launcher_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "AEGS_Raven_CML_Flare",
       "InstalledItem": {
         "ClassName": "AEGS_Raven_CML_Flare",
@@ -212,6 +220,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -260,7 +272,7 @@
     },
     {
       "PortName": "hardpoint_countermeasure_launcher_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "AEGS_Raven_CML_Chaff",
       "InstalledItem": {
         "ClassName": "AEGS_Raven_CML_Chaff",
@@ -273,6 +285,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -323,7 +339,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_B",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_ASAS_S01_Shimmer_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_ASAS_S01_Shimmer_SCItem",
@@ -336,15 +352,19 @@
           "Code": "ASAS",
           "Name": "Ascension Astro"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -369,7 +389,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -392,7 +412,7 @@
     },
     {
       "PortName": "hardpoint_shield_generator_A",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_ASAS_S01_Shimmer_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_ASAS_S01_Shimmer_SCItem",
@@ -405,15 +425,19 @@
           "Code": "ASAS",
           "Name": "Ascension Astro"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -438,7 +462,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -463,7 +487,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_powerplant_02",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_TYDT_S01_SonicLite_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_TYDT_S01_SonicLite_SCItem",
@@ -476,11 +500,15 @@
           "Code": "TYDT",
           "Name": "Tyler Design & Tech"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 1367.28
         },
         "Durability": {
-          "Health": 275.0,
+          "Health": 1500.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -503,7 +531,7 @@
     },
     {
       "PortName": "hardpoint_powerplant_01",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_TYDT_S01_SonicLite_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_TYDT_S01_SonicLite_SCItem",
@@ -516,11 +544,15 @@
           "Code": "TYDT",
           "Name": "Tyler Design & Tech"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 1367.28
         },
         "Durability": {
-          "Health": 275.0,
+          "Health": 1500.0,
           "Lifetime": 15.0
         },
         "PowerConnection": {
@@ -545,7 +577,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -558,11 +590,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -585,7 +621,7 @@
     },
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -598,11 +634,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -627,7 +667,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QDRV_RACO_S01_Drift_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_RACO_S01_Drift_SCItem",
@@ -640,6 +680,10 @@
           "Code": "RACO",
           "Name": "RAMP Corporation"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 1.666E-08,
           "JumpRange": 3.402823E+38,
@@ -659,7 +703,7 @@
           }
         },
         "Durability": {
-          "Health": 350.0,
+          "Health": 1054.0,
           "Lifetime": 3.75
         },
         "PowerConnection": {
@@ -684,7 +728,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_AEGS_Sabre",
       "InstalledItem": {
         "ClassName": "QTNK_AEGS_Sabre",
@@ -695,6 +739,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 583.33
         }
@@ -713,7 +761,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Main",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Main",
@@ -725,6 +773,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3445378.0,
           "FuelRate": 3.675E-06,
@@ -760,7 +812,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_thruster_retro_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Retro",
@@ -772,6 +824,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 337957.3,
           "FuelRate": 3.675E-06,
@@ -805,7 +861,7 @@
     },
     {
       "PortName": "hardpoint_thruster_retro_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Retro",
@@ -817,6 +873,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 337957.3,
           "FuelRate": 3.675E-06,
@@ -853,7 +913,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_bottomRR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
@@ -865,6 +925,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 594874.8,
           "FuelRate": 3.125E-06,
@@ -899,7 +963,7 @@
     },
     {
       "PortName": "hardpoint_thruster_topRL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
@@ -911,6 +975,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 594874.8,
           "FuelRate": 3.125E-06,
@@ -945,7 +1013,7 @@
     },
     {
       "PortName": "hardpoint_thruster_topRR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
@@ -957,6 +1025,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 594874.8,
           "FuelRate": 3.125E-06,
@@ -991,7 +1063,7 @@
     },
     {
       "PortName": "hardpoint_thruster_topFR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
@@ -1003,6 +1075,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 999084.4,
           "FuelRate": 3.125E-06,
@@ -1037,7 +1113,7 @@
     },
     {
       "PortName": "hardpoint_thruster_topFL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
@@ -1049,6 +1125,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 999084.4,
           "FuelRate": 3.125E-06,
@@ -1083,7 +1163,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottomFR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
@@ -1095,6 +1175,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 999084.4,
           "FuelRate": 3.125E-06,
@@ -1129,7 +1213,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottomFL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_01",
@@ -1141,6 +1225,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 999084.4,
           "FuelRate": 3.125E-06,
@@ -1175,7 +1263,7 @@
     },
     {
       "PortName": "hardpoint_thruster_bottomRL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_02",
@@ -1187,6 +1275,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 594874.8,
           "FuelRate": 3.125E-06,
@@ -1221,7 +1313,7 @@
     },
     {
       "PortName": "hardpoint_thruster_sideRR",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_03",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_03",
@@ -1233,6 +1325,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 712308.4,
           "FuelRate": 3.125E-06,
@@ -1266,7 +1362,7 @@
     },
     {
       "PortName": "hardpoint_thruster_sideRL",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "AEGS_Sabre_Raven_Thruster_Mav_Joint_03",
       "InstalledItem": {
         "ClassName": "AEGS_Sabre_Raven_Thruster_Mav_Joint_03",
@@ -1278,6 +1374,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 712308.4,
           "FuelRate": 3.125E-06,
@@ -1313,7 +1413,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_AEGS_Sabre_Raven",
       "InstalledItem": {
         "ClassName": "HTNK_AEGS_Sabre_Raven",
@@ -1324,6 +1424,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 60000.0
         }
@@ -1340,7 +1444,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_AEGS_Sabre_Raven",
       "InstalledItem": {
         "ClassName": "HTNK_AEGS_Sabre_Raven",
@@ -1351,6 +1455,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 60000.0
         }
@@ -1369,7 +1477,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_AEGS_Sabre_Raven",
       "InstalledItem": {
         "ClassName": "INTK_AEGS_Sabre_Raven",
@@ -1380,6 +1488,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1405,7 +1517,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_AEGS_Sabre_Raven",
       "InstalledItem": {
         "ClassName": "INTK_AEGS_Sabre_Raven",
@@ -1416,6 +1528,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1443,7 +1559,7 @@
   "InterdictionHardpoints": [
     {
       "PortName": "hardpoint_weapon_missilerack_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "MXOX_EMP_Device_S2",
       "InstalledItem": {
         "ClassName": "MXOX_EMP_Device_S2",
@@ -1451,7 +1567,7 @@
         "Grade": 1,
         "Type": "EMP.UNDEFINED",
         "Name": "TroMag Burst Generator",
-        "Description": "Item Type: Burst Generator\nManufacturer: MaxOx\nSize: 1\nDamage Type: EMP\n\nThe TroMag from MaxOx is a well-designed and reliable EMP-focused burst generator. Its popularity has risen over the years as pilots look for alternatives to Behring’s REP-8. The TroMag boasts a faster charge time than their main competitor but has a smaller effective radius, leaving pilots to decide whether they prefer speed or size.",
+        "Description": "Manufacturer: MaxOx\nItem Type: Burst Generator\nSize: 1\nDamage Type: EMP\n\nThe TroMag from MaxOx is a well-designed and reliable EMP-focused burst generator. Its popularity has risen over the years as pilots look for alternatives to Behring’s REP-8. The TroMag boasts a faster charge time than their main competitor but has a smaller effective radius, leaving pilots to decide whether they prefer speed or size.",
         "Manufacturer": {
           "Code": "MXOX",
           "Name": "Aegis Dynamics"
@@ -1459,14 +1575,18 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 150.0,
           "Lifetime": 1440.0
         },
         "Emp": {
-          "ChargeTime": 12.0,
+          "ChargeTime": 15.0,
           "Damage": 1350.0,
-          "Radius": 750.0,
+          "Radius": 600.0,
           "CooldownTime": 12.0
         },
         "PowerConnection": {
@@ -1490,7 +1610,7 @@
     },
     {
       "PortName": "hardpoint_weapon_missilerack_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "MXOX_EMP_Device_S2",
       "InstalledItem": {
         "ClassName": "MXOX_EMP_Device_S2",
@@ -1498,7 +1618,7 @@
         "Grade": 1,
         "Type": "EMP.UNDEFINED",
         "Name": "TroMag Burst Generator",
-        "Description": "Item Type: Burst Generator\nManufacturer: MaxOx\nSize: 1\nDamage Type: EMP\n\nThe TroMag from MaxOx is a well-designed and reliable EMP-focused burst generator. Its popularity has risen over the years as pilots look for alternatives to Behring’s REP-8. The TroMag boasts a faster charge time than their main competitor but has a smaller effective radius, leaving pilots to decide whether they prefer speed or size.",
+        "Description": "Manufacturer: MaxOx\nItem Type: Burst Generator\nSize: 1\nDamage Type: EMP\n\nThe TroMag from MaxOx is a well-designed and reliable EMP-focused burst generator. Its popularity has risen over the years as pilots look for alternatives to Behring’s REP-8. The TroMag boasts a faster charge time than their main competitor but has a smaller effective radius, leaving pilots to decide whether they prefer speed or size.",
         "Manufacturer": {
           "Code": "MXOX",
           "Name": "Aegis Dynamics"
@@ -1506,14 +1626,18 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 150.0,
           "Lifetime": 1440.0
         },
         "Emp": {
-          "ChargeTime": 12.0,
+          "ChargeTime": 15.0,
           "Damage": 1350.0,
-          "Radius": 750.0,
+          "Radius": 600.0,
           "CooldownTime": 12.0
         },
         "PowerConnection": {
@@ -1540,7 +1664,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_radar",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_BLTR_S01_Pelerous",
       "InstalledItem": {
         "ClassName": "RADR_BLTR_S01_Pelerous",
@@ -1552,6 +1676,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -1597,7 +1725,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -1608,6 +1736,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -1624,7 +1756,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -1635,7 +1767,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -1649,7 +1785,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],

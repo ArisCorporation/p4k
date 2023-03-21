@@ -11,7 +11,7 @@
             "Name": "hardpoint_shield_generator_left",
             "Port": {
               "PortName": "hardpoint_shield_generator_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
@@ -24,15 +24,19 @@
                   "Code": "GODI",
                   "Name": "Gorgon Defender Industries"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Shield": {
                   "Health": 1500.0,
                   "Regeneration": 375.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -57,7 +61,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 125.0,
+                  "Health": 1054.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -83,7 +87,7 @@
             "Name": "hardpoint_shield_generator_right",
             "Port": {
               "PortName": "hardpoint_shield_generator_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
@@ -96,15 +100,19 @@
                   "Code": "GODI",
                   "Name": "Gorgon Defender Industries"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Shield": {
                   "Health": 1500.0,
                   "Regeneration": 375.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -129,7 +137,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 125.0,
+                  "Health": 1054.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -155,7 +163,7 @@
             "Name": "hardpoint_cooler_left",
             "Port": {
               "PortName": "hardpoint_cooler_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
               "InstalledItem": {
                 "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -168,11 +176,15 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 260000.0
                 },
                 "Durability": {
-                  "Health": 1750.0,
+                  "Health": 1500.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -198,7 +210,7 @@
             "Name": "hardpoint_cooler_right",
             "Port": {
               "PortName": "hardpoint_cooler_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
               "InstalledItem": {
                 "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -211,11 +223,15 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Cooler": {
                   "Rate": 260000.0
                 },
                 "Durability": {
-                  "Health": 1750.0,
+                  "Health": 1500.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -242,7 +258,7 @@
             "Name": "hardpoint_radar",
             "Port": {
               "PortName": "hardpoint_radar",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "RADR_GRNP_S01_Ecouter",
               "InstalledItem": {
                 "ClassName": "RADR_GRNP_S01_Ecouter",
@@ -254,6 +270,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -302,7 +322,7 @@
             "Name": "hardpoint_selfdestruct",
             "Port": {
               "PortName": "hardpoint_selfdestruct",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "VHCL_SelfDestruct_10s",
               "InstalledItem": {
                 "ClassName": "VHCL_SelfDestruct_10s",
@@ -317,7 +337,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SelfDestruct"
@@ -334,7 +358,7 @@
             "Name": "hardpoint_seat_pilot",
             "Port": {
               "PortName": "hardpoint_seat_pilot",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_SCItem_Seat_Pilot",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_SCItem_Seat_Pilot",
@@ -350,6 +374,10 @@
                   "flightReady",
                   "webcustom"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "hardpoint_paint_seat",
@@ -369,7 +397,11 @@
                         "300_Seat_Paint",
                         "webcustom",
                         "@Seat_Black"
-                      ]
+                      ],
+                      "Width": 0.3,
+                      "Height": 0.2,
+                      "Length": 0.4,
+                      "Volume": 24000.0
                     },
                     "Types": [
                       "Misc"
@@ -399,7 +431,11 @@
                         "300_SeatTrim_Paint",
                         "webcustom",
                         "@SeatTrim_GlossRed"
-                      ]
+                      ],
+                      "Width": 0.3,
+                      "Height": 0.2,
+                      "Length": 0.4,
+                      "Volume": 24000.0
                     },
                     "Types": [
                       "Misc"
@@ -431,7 +467,7 @@
             "Name": "hardpoint_dashboard_pilot",
             "Port": {
               "PortName": "hardpoint_dashboard_pilot",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "ORIG_300i_Dashboard_Pilot",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_Dashboard_Pilot",
@@ -446,6 +482,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 1.0
                 },
@@ -472,7 +512,11 @@
                       "Manufacturer": {
                         "Code": "ORIG",
                         "Name": "Origin Jumpworks"
-                      }
+                      },
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "Display"
@@ -497,7 +541,11 @@
                         "300_Dash_Paint",
                         "webcustom",
                         "@Dash_GlossRed"
-                      ]
+                      ],
+                      "Width": 0.3,
+                      "Height": 0.2,
+                      "Length": 0.4,
+                      "Volume": 24000.0
                     },
                     "Types": [
                       "Misc"
@@ -526,7 +574,11 @@
                       "Tags": [
                         "webcustom",
                         "300Series_Yoke"
-                      ]
+                      ],
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "Misc"
@@ -547,8 +599,17 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "Display.UNDEFINED",
-                      "Name": "Projector_HUD_Generic"
+                      "Name": "Projector_HUD_Generic",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
+                    "Category": "UNKNOWN"
+                  },
+                  {
+                    "PortName": "Aim_HUD",
+                    "Size": 0,
                     "Category": "UNKNOWN"
                   }
                 ]
@@ -567,7 +628,7 @@
             "Name": "hardpoint_controller_flight",
             "Port": {
               "PortName": "hardpoint_controller_flight",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Flight_ORIG_325a",
               "InstalledItem": {
                 "ClassName": "Controller_Flight_ORIG_325a",
@@ -575,9 +636,16 @@
                 "Grade": 1,
                 "Type": "FlightController.UNDEFINED",
                 "Name": "SELF STATUS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ifcs": {
-                  "MaxSpeed": 225.0,
-                  "MaxAfterburnSpeed": 1235.0
+                  "MaxSpeed": 1235.0,
+                  "MaxAfterburnSpeed": 0.0,
+                  "Pitch": 45.0,
+                  "Yaw": 45.0,
+                  "Roll": 167.0
                 }
               },
               "Types": [
@@ -595,14 +663,18 @@
             "Name": "hardpoint_controller_energy",
             "Port": {
               "PortName": "hardpoint_controller_energy",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Energy",
               "InstalledItem": {
                 "ClassName": "Controller_Energy",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -619,7 +691,7 @@
             "Name": "hardpoint_weapon_regen_pool",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Crew_Dogfighter",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Crew_Dogfighter",
@@ -627,6 +699,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Crew_Dogfighter",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 4500,
@@ -648,7 +724,7 @@
             "Name": "hardpoint_weapon_regen_pool_turrets",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool_turrets",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -664,7 +740,7 @@
             "Name": "hardpoint_controller_capacitor_assignment",
             "Port": {
               "PortName": "hardpoint_controller_capacitor_assignment",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_CapacitorAssignment",
               "InstalledItem": {
                 "ClassName": "Controller_CapacitorAssignment",
@@ -674,7 +750,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"
@@ -691,14 +771,18 @@
             "Name": "hardpoint_controller_cooler",
             "Port": {
               "PortName": "hardpoint_controller_cooler",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Cooler",
               "InstalledItem": {
                 "ClassName": "Controller_Cooler",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -715,7 +799,7 @@
             "Name": "hardpoint_controller_shield",
             "Port": {
               "PortName": "hardpoint_controller_shield",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Shield_ORIG_300",
               "InstalledItem": {
                 "ClassName": "Controller_Shield_ORIG_300",
@@ -725,7 +809,11 @@
                 "Name": "SHIELDS",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "ShieldController"
@@ -742,14 +830,18 @@
             "Name": "hardpoint_controller_weapon",
             "Port": {
               "PortName": "hardpoint_controller_weapon",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Weapon",
               "InstalledItem": {
                 "ClassName": "Controller_Weapon",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "WeaponController.UNDEFINED",
-                "Name": "WEAPONS"
+                "Name": "WEAPONS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "WeaponController"
@@ -766,14 +858,18 @@
             "Name": "hardpoint_controller_comms",
             "Port": {
               "PortName": "hardpoint_controller_comms",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Comms",
               "InstalledItem": {
                 "ClassName": "Controller_Comms",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -790,7 +886,7 @@
             "Name": "hardpoint_mav_thruster_nose_top_left",
             "Port": {
               "PortName": "hardpoint_mav_thruster_nose_top_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -802,6 +898,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1251292.0,
                   "FuelRate": 3.125E-06,
@@ -843,7 +943,7 @@
             "Name": "hardpoint_mav_thruster_nose_bottom_left",
             "Port": {
               "PortName": "hardpoint_mav_thruster_nose_bottom_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -855,6 +955,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1251292.0,
                   "FuelRate": 3.125E-06,
@@ -896,7 +1000,7 @@
             "Name": "hardpoint_mav_thruster_nose_top_right",
             "Port": {
               "PortName": "hardpoint_mav_thruster_nose_top_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -908,6 +1012,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1251292.0,
                   "FuelRate": 3.125E-06,
@@ -949,7 +1057,7 @@
             "Name": "hardpoint_mav_thruster_nose_bottom_right",
             "Port": {
               "PortName": "hardpoint_mav_thruster_nose_bottom_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -961,6 +1069,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1251292.0,
                   "FuelRate": 3.125E-06,
@@ -1002,7 +1114,7 @@
             "Name": "hardpoint_mav_thruster_nose_middle_left",
             "Port": {
               "PortName": "hardpoint_mav_thruster_nose_middle_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_Thruster_Mav_Fixed_02",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_Thruster_Mav_Fixed_02",
@@ -1014,6 +1126,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1452450.0,
                   "FuelRate": 3.125E-06,
@@ -1054,7 +1170,7 @@
             "Name": "hardpoint_mav_thruster_nose_middle_right",
             "Port": {
               "PortName": "hardpoint_mav_thruster_nose_middle_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_Thruster_Mav_Fixed_02",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_Thruster_Mav_Fixed_02",
@@ -1066,6 +1182,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1452450.0,
                   "FuelRate": 3.125E-06,
@@ -1106,7 +1226,7 @@
             "Name": "helper_int_all",
             "Port": {
               "PortName": "helper_int_all",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Room"
               ],
@@ -1117,7 +1237,7 @@
             "Name": "hardpoint_bed",
             "Port": {
               "PortName": "hardpoint_bed",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_325a_Seat_Bed",
               "InstalledItem": {
                 "ClassName": "ORIG_325a_Seat_Bed",
@@ -1129,6 +1249,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 1.0,
                   "PowerDraw": 1.0
@@ -1152,7 +1276,11 @@
                       "Tags": [
                         "webcustom",
                         "300_Bedding"
-                      ]
+                      ],
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "Seat"
@@ -1198,6 +1326,10 @@
                   "flightReady",
                   "weaponMountUsable"
                 ],
+                "Width": 0.8932018,
+                "Height": 1.60379,
+                "Length": 6.633023,
+                "Volume": 2100000.0,
                 "Durability": {
                   "Health": 1650.0,
                   "Lifetime": 20.0
@@ -1296,14 +1428,18 @@
             "Name": "hardpoint_controller_light",
             "Port": {
               "PortName": "hardpoint_controller_light",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Light",
               "InstalledItem": {
                 "ClassName": "Controller_Light",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -1320,7 +1456,7 @@
             "Name": "hardpoint_weapon_rack",
             "Port": {
               "PortName": "hardpoint_weapon_rack",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Weapon_Rack_ORIG_300i_2_Slots",
               "InstalledItem": {
                 "ClassName": "Weapon_Rack_ORIG_300i_2_Slots",
@@ -1328,6 +1464,10 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Weapon_Rack_ORIG_300i_2_Slots",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$proxy_weapon_01",
@@ -1340,6 +1480,30 @@
                   {
                     "PortName": "$proxy_weapon_02",
                     "Size": 4,
+                    "Types": [
+                      "WeaponPersonal"
+                    ],
+                    "Category": "UNKNOWN"
+                  },
+                  {
+                    "PortName": "$proxy_weapon_03",
+                    "Size": 1,
+                    "Types": [
+                      "WeaponPersonal"
+                    ],
+                    "Category": "UNKNOWN"
+                  },
+                  {
+                    "PortName": "$proxy_weapon_04",
+                    "Size": 1,
+                    "Types": [
+                      "WeaponPersonal"
+                    ],
+                    "Category": "UNKNOWN"
+                  },
+                  {
+                    "PortName": "$proxy_weapon_05",
+                    "Size": 1,
                     "Types": [
                       "WeaponPersonal"
                     ],
@@ -1358,17 +1522,57 @@
             }
           },
           {
+            "Name": "hardpoint_personal_storage",
+            "Port": {
+              "PortName": "hardpoint_personal_storage",
+              "Size": 0,
+              "Loadout": "PersonalStorage_ORIG_300i",
+              "InstalledItem": {
+                "ClassName": "PersonalStorage_ORIG_300i",
+                "Size": 1,
+                "Grade": 1,
+                "Type": "Cargo.UNDEFINED",
+                "Name": "PersonalStorage_ORIG_300i",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
+                "Durability": {
+                  "Health": 1000.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.65,
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0
+                }
+              },
+              "Types": [
+                "Cargo"
+              ],
+              "Flags": [
+                "uneditable"
+              ],
+              "Category": "Cargo grids",
+              "Uneditable": true
+            }
+          },
+          {
             "Name": "hardpoint_controller_door",
             "Port": {
               "PortName": "hardpoint_controller_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Door",
               "InstalledItem": {
                 "ClassName": "Controller_Door",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -1385,7 +1589,7 @@
             "Name": "hardpoint_cargo_door_front",
             "Port": {
               "PortName": "hardpoint_cargo_door_front",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "MRCK_S05_ORIG_325a_Quad_S03",
               "InstalledItem": {
                 "ClassName": "MRCK_S05_ORIG_325a_Quad_S03",
@@ -1398,6 +1602,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 1.116502,
+                "Height": 2.004737,
+                "Length": 8.84403,
+                "Volume": 4200000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -1435,6 +1643,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1469,6 +1681,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1503,6 +1719,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1537,6 +1757,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1567,7 +1791,7 @@
             "Name": "hardpoint_cargo_door_rear",
             "Port": {
               "PortName": "hardpoint_cargo_door_rear",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ORIG_300i_CargoBay_Rear",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_CargoBay_Rear",
@@ -1579,6 +1803,10 @@
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -1691,18 +1919,16 @@
                       "ClassName": "ORIG_300i_CargoGrid_Rear",
                       "Size": 1,
                       "Grade": 1,
-                      "Type": "Cargo.UNDEFINED",
+                      "Type": "CargoGrid.UNDEFINED",
                       "Name": "ORIG_300i_CargoGrid_Rear",
                       "Manufacturer": {
                         "Code": "ORIG",
                         "Name": "Origin Jumpworks"
                       },
-                      "CargoGrid": {
-                        "Capacity": 4.0,
-                        "Width": 2.5,
-                        "Height": 1.25,
-                        "Depth": 2.5
-                      },
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "PowerConnection": {
                         "PowerBase": 0.0,
                         "PowerDraw": 1.0
@@ -1711,16 +1937,22 @@
                         "ThermalEnergyBase": 10.0,
                         "ThermalEnergyDraw": 20.0,
                         "CoolingRate": 1.0
+                      },
+                      "InventoryContainer": {
+                        "SCU": 0.0,
+                        "x": 2.5,
+                        "y": 2.5,
+                        "z": 1.25
                       }
                     },
                     "Types": [
-                      "Cargo"
+                      "CargoGrid"
                     ],
                     "Flags": [
                       "selfphys",
                       "uneditable"
                     ],
-                    "Category": "Cargo grids",
+                    "Category": "UNKNOWN",
                     "Uneditable": true
                   }
                 ]
@@ -1739,7 +1971,7 @@
             "Name": "hardpoint_seat_access",
             "Port": {
               "PortName": "hardpoint_seat_access",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "ORIG_300i_SeatAccess",
               "InstalledItem": {
                 "ClassName": "ORIG_300i_SeatAccess",
@@ -1753,7 +1985,41 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
+              },
+              "Types": [
+                "SeatAccess"
+              ],
+              "Category": "Seat access"
+            }
+          },
+          {
+            "Name": "hardpoint_seat_access_ladder",
+            "Port": {
+              "PortName": "hardpoint_seat_access_ladder",
+              "Size": 0,
+              "Loadout": "ORIG_300i_SeatAccess_Ladder",
+              "InstalledItem": {
+                "ClassName": "ORIG_300i_SeatAccess_Ladder",
+                "Size": 1,
+                "Grade": 1,
+                "Type": "SeatAccess.UNDEFINED",
+                "Name": "ORIG_300i_SeatAccess_Ladder",
+                "Manufacturer": {
+                  "Code": "ORIG",
+                  "Name": "Origin Jumpworks"
+                },
+                "Tags": [
+                  "flightReady"
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SeatAccess"
@@ -1770,7 +2036,7 @@
             "Name": "hardpoint_custom_pictureframe",
             "Port": {
               "PortName": "hardpoint_custom_pictureframe",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Surface"
               ],
@@ -1784,7 +2050,7 @@
             "Name": "hardpoint_custom_coffeemachine",
             "Port": {
               "PortName": "hardpoint_custom_coffeemachine",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Surface"
               ],
@@ -1798,7 +2064,7 @@
             "Name": "hardpoint_custom_foodmaker",
             "Port": {
               "PortName": "hardpoint_custom_foodmaker",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Surface"
               ],
@@ -1812,7 +2078,7 @@
             "Name": "hardpoint_custom_clock",
             "Port": {
               "PortName": "hardpoint_custom_clock",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Surface"
               ],
@@ -1826,7 +2092,7 @@
             "Name": "hardpoint_custom_stereo",
             "Port": {
               "PortName": "hardpoint_custom_stereo",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Surface"
               ],
@@ -1840,7 +2106,7 @@
             "Name": "hardpoint_armor",
             "Port": {
               "PortName": "hardpoint_armor",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ARMR_ORIG_325a",
               "InstalledItem": {
                 "ClassName": "ARMR_ORIG_325a",
@@ -1856,10 +2122,14 @@
                 "Tags": [
                   "ORIG_300i_Base"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.97,
-                    "Energy": 0.95,
+                    "Physical": 0.48,
+                    "Energy": 1.0,
                     "Distortion": 1.0,
                     "Thermal": 1.0,
                     "Biochemical": 1.0
@@ -1885,7 +2155,7 @@
             "Name": "hardpoint_scanner",
             "Port": {
               "PortName": "hardpoint_scanner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_scanner",
               "InstalledItem": {
                 "ClassName": "test_scanner",
@@ -1896,6 +2166,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Scanner": {
                   "Range": 0.0
                 }
@@ -1915,7 +2189,7 @@
             "Name": "hardpoint_ping",
             "Port": {
               "PortName": "hardpoint_ping",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_ping",
               "InstalledItem": {
                 "ClassName": "test_ping",
@@ -1926,7 +2200,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -1943,7 +2221,7 @@
             "Name": "hardpoint_paint",
             "Port": {
               "PortName": "hardpoint_paint",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Paint_325a_Base",
               "InstalledItem": {
                 "ClassName": "Paint_325a_Base",
@@ -1961,7 +2239,11 @@
                   "325a_Paint",
                   "webcustom",
                   "@325a_Base"
-                ]
+                ],
+                "Width": 0.3,
+                "Height": 0.2,
+                "Length": 0.4,
+                "Volume": 24000.0
               },
               "Types": [
                 "Paints"
@@ -1978,7 +2260,7 @@
             "Name": "hardpoint_350r_nose_winglet_right",
             "Port": {
               "PortName": "hardpoint_350r_nose_winglet_right",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Misc"
               ],
@@ -1995,7 +2277,7 @@
             "Name": "hardpoint_350r_nose_winglet_left",
             "Port": {
               "PortName": "hardpoint_350r_nose_winglet_left",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Misc"
               ],
@@ -2016,7 +2298,7 @@
                 "Name": "hardpoint_fuel_tank_left",
                 "Port": {
                   "PortName": "hardpoint_fuel_tank_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "HTNK_ORIG_325a",
                   "InstalledItem": {
                     "ClassName": "HTNK_ORIG_325a",
@@ -2027,6 +2309,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "HydrogenFuelTank": {
                       "Capacity": 52500.0
                     }
@@ -2046,7 +2332,7 @@
                 "Name": "hardpoint_fuel_tank_right",
                 "Port": {
                   "PortName": "hardpoint_fuel_tank_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "HTNK_ORIG_325a",
                   "InstalledItem": {
                     "ClassName": "HTNK_ORIG_325a",
@@ -2057,6 +2343,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "HydrogenFuelTank": {
                       "Capacity": 52500.0
                     }
@@ -2076,7 +2366,7 @@
                 "Name": "hardpoint_fuel_tank_center",
                 "Port": {
                   "PortName": "hardpoint_fuel_tank_center",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "FuelTank"
                   ],
@@ -2092,7 +2382,7 @@
                 "Name": "hardpoint_power_plant",
                 "Port": {
                   "PortName": "hardpoint_power_plant",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "POWR_AEGS_S01_Regulus_SCItem",
                   "InstalledItem": {
                     "ClassName": "POWR_AEGS_S01_Regulus_SCItem",
@@ -2105,11 +2395,15 @@
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
                     },
+                    "Width": 0.2233005,
+                    "Height": 0.801895,
+                    "Length": 2.211008,
+                    "Volume": 84000.0,
                     "PowerPlant": {
                       "Output": 4000.0
                     },
                     "Durability": {
-                      "Health": 750.0,
+                      "Health": 1500.0,
                       "Lifetime": 22.0
                     },
                     "PowerConnection": {
@@ -2137,7 +2431,7 @@
                 "Name": "hardpoint_main_thruster",
                 "Port": {
                   "PortName": "hardpoint_main_thruster",
-                  "Size": 4,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Main",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Main",
@@ -2149,6 +2443,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 7545719.0,
                       "FuelRate": 5.2749999999999995E-06,
@@ -2185,7 +2483,7 @@
                 "Name": "hardpoint_countermeasure_left",
                 "Port": {
                   "PortName": "hardpoint_countermeasure_left",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ORIG_CML_Decoy_Small",
                   "InstalledItem": {
                     "ClassName": "ORIG_CML_Decoy_Small",
@@ -2198,6 +2496,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.2233005,
+                    "Height": 0.801895,
+                    "Length": 2.211008,
+                    "Volume": 84000.0,
                     "Durability": {
                       "Health": 1000.0
                     },
@@ -2249,7 +2551,7 @@
                 "Name": "hardpoint_countermeasure_right",
                 "Port": {
                   "PortName": "hardpoint_countermeasure_right",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "ORIG_CML_Noise_Small",
                   "InstalledItem": {
                     "ClassName": "ORIG_CML_Noise_Small",
@@ -2262,6 +2564,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.2233005,
+                    "Height": 0.801895,
+                    "Length": 2.211008,
+                    "Volume": 84000.0,
                     "Durability": {
                       "Health": 1000.0
                     },
@@ -2313,7 +2619,7 @@
                 "Name": "hardpoint_mav_thruster_tail_top_left",
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_tail_top_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -2325,6 +2631,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1251292.0,
                       "FuelRate": 3.125E-06,
@@ -2365,7 +2675,7 @@
                 "Name": "hardpoint_mav_thruster_tail_bottom_left",
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_tail_bottom_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -2377,6 +2687,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1251292.0,
                       "FuelRate": 3.125E-06,
@@ -2417,7 +2731,7 @@
                 "Name": "hardpoint_mav_thruster_tail_top_right",
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_tail_top_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -2429,6 +2743,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1251292.0,
                       "FuelRate": 3.125E-06,
@@ -2469,7 +2787,7 @@
                 "Name": "hardpoint_mav_thruster_tail_bottom_right",
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_tail_bottom_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -2481,6 +2799,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1251292.0,
                       "FuelRate": 3.125E-06,
@@ -2521,7 +2843,7 @@
                 "Name": "hardpoint_quantum_fuel_tank",
                 "Port": {
                   "PortName": "hardpoint_quantum_fuel_tank",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "QTNK_ORIG_325a",
                   "InstalledItem": {
                     "ClassName": "QTNK_ORIG_325a",
@@ -2532,6 +2854,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "QuantumFuelTank": {
                       "Capacity": 583.33
                     }
@@ -2551,7 +2877,7 @@
                 "Name": "hardpoint_quantum_drive",
                 "Port": {
                   "PortName": "hardpoint_quantum_drive",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "QDRV_WETK_S01_Beacon_SCItem",
                   "InstalledItem": {
                     "ClassName": "QDRV_WETK_S01_Beacon_SCItem",
@@ -2564,6 +2890,10 @@
                       "Code": "WETK",
                       "Name": "Wei-Tek"
                     },
+                    "Width": 0.2233005,
+                    "Height": 0.801895,
+                    "Length": 2.211008,
+                    "Volume": 84000.0,
                     "QuantumDrive": {
                       "FuelRate": 1.862E-08,
                       "JumpRange": 3.402823E+38,
@@ -2609,7 +2939,7 @@
                 "Name": "hardpoint_mav_thruster_tail_middle_left",
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_tail_middle_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -2621,6 +2951,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1251292.0,
                       "FuelRate": 3.125E-06,
@@ -2660,7 +2994,7 @@
                 "Name": "hardpoint_mav_thruster_tail_middle_right",
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_tail_middle_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Mav_Fixed_01",
@@ -2672,6 +3006,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1251292.0,
                       "FuelRate": 3.125E-06,
@@ -2711,7 +3049,7 @@
                 "Name": "hardpoint_fuel_intake_left",
                 "Port": {
                   "PortName": "hardpoint_fuel_intake_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "INTK_ORIG_325a",
                   "InstalledItem": {
                     "ClassName": "INTK_ORIG_325a",
@@ -2722,6 +3060,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "HydrogenFuelIntake": {
                       "Rate": 0.0
                     },
@@ -2750,7 +3092,7 @@
                 "Name": "hardpoint_fuel_intake_right",
                 "Port": {
                   "PortName": "hardpoint_fuel_intake_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "INTK_ORIG_325a",
                   "InstalledItem": {
                     "ClassName": "INTK_ORIG_325a",
@@ -2761,6 +3103,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "HydrogenFuelIntake": {
                       "Rate": 0.0
                     },
@@ -2789,7 +3135,7 @@
                 "Name": "hardpoint_300i_Intake",
                 "Port": {
                   "PortName": "hardpoint_300i_Intake",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_325a_Intake",
                   "InstalledItem": {
                     "ClassName": "ORIG_325a_Intake",
@@ -2801,6 +3147,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 200.0
                     }
@@ -2819,7 +3169,7 @@
                 "Name": "hardpoint_350r_tail_winglet_left",
                 "Port": {
                   "PortName": "hardpoint_350r_tail_winglet_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Misc"
                   ],
@@ -2836,7 +3186,7 @@
                 "Name": "hardpoint_350r_tail_winglet_right",
                 "Port": {
                   "PortName": "hardpoint_350r_tail_winglet_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Misc"
                   ],
@@ -2866,7 +3216,7 @@
                 "Name": "hardpoint_thruster_retro_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Retro",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Retro",
@@ -2878,6 +3228,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1657756.0,
                       "FuelRate": 1.25E-05,
@@ -2934,6 +3288,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Durability": {
                       "Health": 200.0
                     },
@@ -2971,6 +3329,10 @@
                             "EM",
                             "flightReady"
                           ],
+                          "Width": 1.0,
+                          "Height": 1.0,
+                          "Length": 2.0,
+                          "Volume": 2000000.0,
                           "Durability": {
                             "Health": 10.0
                           },
@@ -3005,6 +3367,10 @@
                             "EM",
                             "flightReady"
                           ],
+                          "Width": 1.0,
+                          "Height": 1.0,
+                          "Length": 2.0,
+                          "Volume": 2000000.0,
                           "Durability": {
                             "Health": 10.0
                           },
@@ -3031,7 +3397,7 @@
                 "Name": "hardpoint_weapon_wing_left",
                 "Port": {
                   "PortName": "hardpoint_weapon_wing_left",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "BEHR_LaserCannon_S3",
                   "InstalledItem": {
                     "ClassName": "BEHR_LaserCannon_S3",
@@ -3050,6 +3416,10 @@
                       "flightReady",
                       "weaponMountUsable"
                     ],
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Durability": {
                       "Health": 1024.0,
                       "Lifetime": 20.0
@@ -3138,7 +3508,7 @@
                 "Name": "hardpoint_350r_wing_winglet_left",
                 "Port": {
                   "PortName": "hardpoint_350r_wing_winglet_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Misc"
                   ],
@@ -3167,7 +3537,7 @@
                 "Name": "hardpoint_thruster_retro_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "ORIG_300i_Thruster_Retro",
                   "InstalledItem": {
                     "ClassName": "ORIG_300i_Thruster_Retro",
@@ -3179,6 +3549,10 @@
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1657756.0,
                       "FuelRate": 1.25E-05,
@@ -3235,6 +3609,10 @@
                     "Tags": [
                       "flightReady"
                     ],
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Durability": {
                       "Health": 200.0
                     },
@@ -3272,6 +3650,10 @@
                             "EM",
                             "flightReady"
                           ],
+                          "Width": 1.0,
+                          "Height": 1.0,
+                          "Length": 2.0,
+                          "Volume": 2000000.0,
                           "Durability": {
                             "Health": 10.0
                           },
@@ -3306,6 +3688,10 @@
                             "EM",
                             "flightReady"
                           ],
+                          "Width": 1.0,
+                          "Height": 1.0,
+                          "Length": 2.0,
+                          "Volume": 2000000.0,
                           "Durability": {
                             "Health": 10.0
                           },
@@ -3332,7 +3718,7 @@
                 "Name": "hardpoint_weapon_wing_right",
                 "Port": {
                   "PortName": "hardpoint_weapon_wing_right",
-                  "Size": 3,
+                  "Size": 0,
                   "Loadout": "BEHR_LaserCannon_S3",
                   "InstalledItem": {
                     "ClassName": "BEHR_LaserCannon_S3",
@@ -3351,6 +3737,10 @@
                       "flightReady",
                       "weaponMountUsable"
                     ],
+                    "Width": 0.6699014,
+                    "Height": 1.202842,
+                    "Length": 4.422015,
+                    "Volume": 756000.0,
                     "Durability": {
                       "Health": 1024.0,
                       "Lifetime": 20.0
@@ -3439,7 +3829,7 @@
                 "Name": "hardpoint_350r_wing_winglet_right",
                 "Port": {
                   "PortName": "hardpoint_350r_wing_winglet_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Types": [
                     "Misc"
                   ],
@@ -3459,14 +3849,18 @@
             "Name": "hardpoint_controller_missile",
             "Port": {
               "PortName": "hardpoint_controller_missile",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Missile",
               "InstalledItem": {
                 "ClassName": "Controller_Missile",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "MissileController.UNDEFINED",
-                "Name": "MISSILES"
+                "Name": "MISSILES",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "MissileController"
@@ -3483,7 +3877,7 @@
             "Name": "hardpoint_cockpit_flair",
             "Port": {
               "PortName": "hardpoint_cockpit_flair",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Cockpit.Flair_Static"
               ],
@@ -3498,14 +3892,18 @@
         "Name": "landingpad_helper",
         "Port": {
           "PortName": "landingpad_helper",
-          "Size": 1,
+          "Size": 0,
           "Loadout": "Default_LandingSystem",
           "InstalledItem": {
             "ClassName": "Default_LandingSystem",
             "Size": 1,
             "Grade": 1,
             "Type": "LandingSystem.UNDEFINED",
-            "Name": "Default_LandingSystem"
+            "Name": "Default_LandingSystem",
+            "Width": 0.15,
+            "Height": 0.15,
+            "Length": 0.15,
+            "Volume": 1.0
           },
           "Types": [
             "LandingSystem"

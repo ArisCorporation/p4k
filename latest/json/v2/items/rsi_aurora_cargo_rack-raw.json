@@ -28,6 +28,16 @@
         "Localization": {
           "Name": "@LOC_PLACEHOLDER",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
@@ -72,14 +82,14 @@
           "DisplayName": "",
           "PortTags": "",
           "RequiredPortTags": "",
-          "Flags": "invisible uneditable",
+          "Flags": "uneditable",
           "MinSize": 1,
           "MaxSize": 1,
           "InteractionPointSize": -1.0,
           "DefaultWeaponGroup": "UNDEFINED",
           "Types": [
             {
-              "Type": "Cargo",
+              "Type": "CargoGrid",
               "SubTypes": []
             }
           ]

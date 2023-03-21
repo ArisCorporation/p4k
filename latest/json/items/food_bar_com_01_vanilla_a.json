@@ -7,6 +7,9 @@
           "value": "5e11a544-7fea-4160-b2bf-98c6cf9ee9df"
         },
         {
+          "value": "00ead468-9073-485b-a6df-ca6b94053603"
+        },
+        {
           "value": "0969b307-e268-402c-94b9-ce85db787b00"
         },
         {
@@ -42,6 +45,16 @@
             "Localization": {
               "Name": "@item_NameFood_bar_com_01_vanilla_a",
               "Description": "@item_DescFood_bar_com_01_vanilla_a"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 190.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.1832,
+              "y": 0.0569,
+              "z": 0.0211
             }
           }
         },
@@ -50,7 +63,12 @@
           "subtype": "46382ba4-c371-4db1-b468-9c584b6c7cb7",
           "name": "@item_NameFood_bar_com_01_vanilla_a",
           "description": "@item_DescFood_bar_com_01_vanilla_a",
-          "IsUnrefinedElement": false
+          "IsUnrefinedElement": false,
+          "occupancy": {
+            "SMicroCargoUnit": {
+              "microSCU": 170.0
+            }
+          }
         },
         "SEntityInteractableParams": {
           "Interactable": {
@@ -154,6 +172,17 @@
                 "available": true
               }
             ]
+          }
+        },
+        "SCItemConsumableParams": {
+          "containerTypeTag": "bar",
+          "oneShotConsume": true,
+          "canBeReclosed": false,
+          "discardWhenConsumed": true,
+          "consumableVolume": {
+            "SMicroCargoUnit": {
+              "microSCU": 1.0
+            }
           }
         }
       },

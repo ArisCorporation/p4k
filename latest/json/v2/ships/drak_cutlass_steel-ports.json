@@ -1,1125 +1,8 @@
 {
   "PilotHardpoints": [
     {
-      "PortName": "weapon",
-      "Size": 1,
-      "Loadout": "GATS_BallisticGatling_Mounted_S1",
-      "InstalledItem": {
-        "ClassName": "GATS_BallisticGatling_Mounted_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "YellowJacket GT-210 Gatling",
-        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
-        "Manufacturer": {
-          "Code": "GAT",
-          "Name": "Gallenson Tactical Systems"
-        },
-        "Tags": [
-          "GATS",
-          "BallisticGatling",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "PowerConnection": {
-          "PowerBase": 30.0,
-          "PowerDraw": 40.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 100.0,
-          "ThermalEnergyDraw": 200.0,
-          "CoolingRate": 49.189
-        },
-        "Weapon": {
-          "Ammunition": {
-            "Speed": 500.0,
-            "Range": 1100.0,
-            "Size": 1.0,
-            "Capacity": 1200.0,
-            "ImpactDamage": {
-              "Physical": 8.5
-            }
-          },
-          "Modes": [
-            {
-              "Name": "Rapid",
-              "LocalisedName": "[AUTO]",
-              "RoundsPerMinute": 800.0,
-              "FireType": "rapid",
-              "AmmoPerShot": 0.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Physical": 8.5
-              },
-              "DamagePerSecond": {
-                "Physical": 113.33333333333334
-              }
-            }
-          ]
-        },
-        "Ammunition": {
-          "Speed": 500.0,
-          "Range": 1100.0,
-          "Size": 1.0,
-          "Capacity": 1200.0,
-          "ImpactDamage": {
-            "Physical": 8.5
-          }
-        },
-        "Ports": [
-          {
-            "PortName": "BAR1",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Barrel",
-              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Barrel"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "MEC",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.FiringMechanism",
-              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.FiringMechanism"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "POW",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.PowerArray",
-              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.PowerArray"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "VEN",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Ventilation",
-              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Ventilation"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "optics_attach",
-            "Size": 4,
-            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
-            "InstalledItem": {
-              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
-              "Size": 4,
-              "Grade": 1,
-              "Type": "WeaponAttachment.IronSight",
-              "Name": "Gamma (1x Holographic)",
-              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
-              "Manufacturer": {
-                "Code": "NVTC",
-                "Name": "@LOC_PLACEHOLDER"
-              }
-            },
-            "Types": [
-              "WeaponAttachment.IronSight"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Types": [
-        "WeaponGun.Gun",
-        "MissileLauncher"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
-    },
-    {
-      "PortName": "weapon",
-      "Size": 1,
-      "Loadout": "GATS_BallisticGatling_Mounted_S1",
-      "InstalledItem": {
-        "ClassName": "GATS_BallisticGatling_Mounted_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "YellowJacket GT-210 Gatling",
-        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
-        "Manufacturer": {
-          "Code": "GAT",
-          "Name": "Gallenson Tactical Systems"
-        },
-        "Tags": [
-          "GATS",
-          "BallisticGatling",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "PowerConnection": {
-          "PowerBase": 30.0,
-          "PowerDraw": 40.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 100.0,
-          "ThermalEnergyDraw": 200.0,
-          "CoolingRate": 49.189
-        },
-        "Weapon": {
-          "Ammunition": {
-            "Speed": 500.0,
-            "Range": 1100.0,
-            "Size": 1.0,
-            "Capacity": 1200.0,
-            "ImpactDamage": {
-              "Physical": 8.5
-            }
-          },
-          "Modes": [
-            {
-              "Name": "Rapid",
-              "LocalisedName": "[AUTO]",
-              "RoundsPerMinute": 800.0,
-              "FireType": "rapid",
-              "AmmoPerShot": 0.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Physical": 8.5
-              },
-              "DamagePerSecond": {
-                "Physical": 113.33333333333334
-              }
-            }
-          ]
-        },
-        "Ammunition": {
-          "Speed": 500.0,
-          "Range": 1100.0,
-          "Size": 1.0,
-          "Capacity": 1200.0,
-          "ImpactDamage": {
-            "Physical": 8.5
-          }
-        },
-        "Ports": [
-          {
-            "PortName": "BAR1",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Barrel",
-              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Barrel"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "MEC",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.FiringMechanism",
-              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.FiringMechanism"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "POW",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.PowerArray",
-              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.PowerArray"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "VEN",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Ventilation",
-              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Ventilation"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "optics_attach",
-            "Size": 4,
-            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
-            "InstalledItem": {
-              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
-              "Size": 4,
-              "Grade": 1,
-              "Type": "WeaponAttachment.IronSight",
-              "Name": "Gamma (1x Holographic)",
-              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
-              "Manufacturer": {
-                "Code": "NVTC",
-                "Name": "@LOC_PLACEHOLDER"
-              }
-            },
-            "Types": [
-              "WeaponAttachment.IronSight"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Types": [
-        "WeaponGun.Gun",
-        "MissileLauncher"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
-    },
-    {
-      "PortName": "weapon",
-      "Size": 1,
-      "Loadout": "GATS_BallisticGatling_Mounted_S1",
-      "InstalledItem": {
-        "ClassName": "GATS_BallisticGatling_Mounted_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "YellowJacket GT-210 Gatling",
-        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
-        "Manufacturer": {
-          "Code": "GAT",
-          "Name": "Gallenson Tactical Systems"
-        },
-        "Tags": [
-          "GATS",
-          "BallisticGatling",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "PowerConnection": {
-          "PowerBase": 30.0,
-          "PowerDraw": 40.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 100.0,
-          "ThermalEnergyDraw": 200.0,
-          "CoolingRate": 49.189
-        },
-        "Weapon": {
-          "Ammunition": {
-            "Speed": 500.0,
-            "Range": 1100.0,
-            "Size": 1.0,
-            "Capacity": 1200.0,
-            "ImpactDamage": {
-              "Physical": 8.5
-            }
-          },
-          "Modes": [
-            {
-              "Name": "Rapid",
-              "LocalisedName": "[AUTO]",
-              "RoundsPerMinute": 800.0,
-              "FireType": "rapid",
-              "AmmoPerShot": 0.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Physical": 8.5
-              },
-              "DamagePerSecond": {
-                "Physical": 113.33333333333334
-              }
-            }
-          ]
-        },
-        "Ammunition": {
-          "Speed": 500.0,
-          "Range": 1100.0,
-          "Size": 1.0,
-          "Capacity": 1200.0,
-          "ImpactDamage": {
-            "Physical": 8.5
-          }
-        },
-        "Ports": [
-          {
-            "PortName": "BAR1",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Barrel",
-              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Barrel"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "MEC",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.FiringMechanism",
-              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.FiringMechanism"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "POW",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.PowerArray",
-              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.PowerArray"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "VEN",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Ventilation",
-              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Ventilation"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "optics_attach",
-            "Size": 4,
-            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
-            "InstalledItem": {
-              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
-              "Size": 4,
-              "Grade": 1,
-              "Type": "WeaponAttachment.IronSight",
-              "Name": "Gamma (1x Holographic)",
-              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
-              "Manufacturer": {
-                "Code": "NVTC",
-                "Name": "@LOC_PLACEHOLDER"
-              }
-            },
-            "Types": [
-              "WeaponAttachment.IronSight"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Types": [
-        "WeaponGun.Gun",
-        "MissileLauncher"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
-    },
-    {
-      "PortName": "weapon",
-      "Size": 1,
-      "Loadout": "GATS_BallisticGatling_Mounted_S1",
-      "InstalledItem": {
-        "ClassName": "GATS_BallisticGatling_Mounted_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "YellowJacket GT-210 Gatling",
-        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
-        "Manufacturer": {
-          "Code": "GAT",
-          "Name": "Gallenson Tactical Systems"
-        },
-        "Tags": [
-          "GATS",
-          "BallisticGatling",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "PowerConnection": {
-          "PowerBase": 30.0,
-          "PowerDraw": 40.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 100.0,
-          "ThermalEnergyDraw": 200.0,
-          "CoolingRate": 49.189
-        },
-        "Weapon": {
-          "Ammunition": {
-            "Speed": 500.0,
-            "Range": 1100.0,
-            "Size": 1.0,
-            "Capacity": 1200.0,
-            "ImpactDamage": {
-              "Physical": 8.5
-            }
-          },
-          "Modes": [
-            {
-              "Name": "Rapid",
-              "LocalisedName": "[AUTO]",
-              "RoundsPerMinute": 800.0,
-              "FireType": "rapid",
-              "AmmoPerShot": 0.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Physical": 8.5
-              },
-              "DamagePerSecond": {
-                "Physical": 113.33333333333334
-              }
-            }
-          ]
-        },
-        "Ammunition": {
-          "Speed": 500.0,
-          "Range": 1100.0,
-          "Size": 1.0,
-          "Capacity": 1200.0,
-          "ImpactDamage": {
-            "Physical": 8.5
-          }
-        },
-        "Ports": [
-          {
-            "PortName": "BAR1",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Barrel",
-              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Barrel"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "MEC",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.FiringMechanism",
-              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.FiringMechanism"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "POW",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.PowerArray",
-              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.PowerArray"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "VEN",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Ventilation",
-              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Ventilation"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "optics_attach",
-            "Size": 4,
-            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
-            "InstalledItem": {
-              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
-              "Size": 4,
-              "Grade": 1,
-              "Type": "WeaponAttachment.IronSight",
-              "Name": "Gamma (1x Holographic)",
-              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
-              "Manufacturer": {
-                "Code": "NVTC",
-                "Name": "@LOC_PLACEHOLDER"
-              }
-            },
-            "Types": [
-              "WeaponAttachment.IronSight"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Types": [
-        "WeaponGun.Gun",
-        "MissileLauncher"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
-    },
-    {
-      "PortName": "weapon",
-      "Size": 1,
-      "Loadout": "GATS_BallisticGatling_Mounted_S1",
-      "InstalledItem": {
-        "ClassName": "GATS_BallisticGatling_Mounted_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "YellowJacket GT-210 Gatling",
-        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
-        "Manufacturer": {
-          "Code": "GAT",
-          "Name": "Gallenson Tactical Systems"
-        },
-        "Tags": [
-          "GATS",
-          "BallisticGatling",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "PowerConnection": {
-          "PowerBase": 30.0,
-          "PowerDraw": 40.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 100.0,
-          "ThermalEnergyDraw": 200.0,
-          "CoolingRate": 49.189
-        },
-        "Weapon": {
-          "Ammunition": {
-            "Speed": 500.0,
-            "Range": 1100.0,
-            "Size": 1.0,
-            "Capacity": 1200.0,
-            "ImpactDamage": {
-              "Physical": 8.5
-            }
-          },
-          "Modes": [
-            {
-              "Name": "Rapid",
-              "LocalisedName": "[AUTO]",
-              "RoundsPerMinute": 800.0,
-              "FireType": "rapid",
-              "AmmoPerShot": 0.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Physical": 8.5
-              },
-              "DamagePerSecond": {
-                "Physical": 113.33333333333334
-              }
-            }
-          ]
-        },
-        "Ammunition": {
-          "Speed": 500.0,
-          "Range": 1100.0,
-          "Size": 1.0,
-          "Capacity": 1200.0,
-          "ImpactDamage": {
-            "Physical": 8.5
-          }
-        },
-        "Ports": [
-          {
-            "PortName": "BAR1",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Barrel",
-              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Barrel"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "MEC",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.FiringMechanism",
-              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.FiringMechanism"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "POW",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.PowerArray",
-              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.PowerArray"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "VEN",
-            "Size": 1,
-            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-            "InstalledItem": {
-              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponAttachment.Ventilation",
-              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "uneditable"
-              ]
-            },
-            "Types": [
-              "WeaponAttachment.Ventilation"
-            ],
-            "Category": "Weapon attachments"
-          },
-          {
-            "PortName": "optics_attach",
-            "Size": 4,
-            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
-            "InstalledItem": {
-              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
-              "Size": 4,
-              "Grade": 1,
-              "Type": "WeaponAttachment.IronSight",
-              "Name": "Gamma (1x Holographic)",
-              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
-              "Manufacturer": {
-                "Code": "NVTC",
-                "Name": "@LOC_PLACEHOLDER"
-              }
-            },
-            "Types": [
-              "WeaponAttachment.IronSight"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Types": [
-        "WeaponGun.Gun",
-        "MissileLauncher"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Weapon hardpoints",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Left_Wing_Weapon",
-      "Size": 3,
-      "Loadout": "Mount_Gimbal_S3",
-      "InstalledItem": {
-        "ClassName": "Mount_Gimbal_S3",
-        "Size": 3,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S3 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 3\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Durability": {
-          "Health": 150.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 15.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 2,
-            "Loadout": "KLWE_LaserRepeater_S2",
-            "InstalledItem": {
-              "ClassName": "KLWE_LaserRepeater_S2",
-              "Size": 2,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-227 Badger Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 2\n\nThe CF-227 Badger is Klaus & Werner’s dependable size two repeating laser. Its increased output and high rate of fire make it a solid contender in any fight.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Durability": {
-                "Health": 850.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 190.0,
-                "PowerDraw": 190.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.95
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 2.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 40.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 600.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 40.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 400.0
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2000.0,
-                  "Cooldown": 1.0,
-                  "CostPerBullet": 40.0,
-                  "RequestedAmmoLoad": 12000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 2.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 40.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
-      "Types": [
-        "Turret.GunTurret",
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_Left_Body_Weapon",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "Mount_Gimbal_S3",
       "InstalledItem": {
         "ClassName": "Mount_Gimbal_S3",
@@ -1136,6 +19,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 150.0,
           "Lifetime": 720.0
@@ -1171,6 +58,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
               "Durability": {
                 "Health": 850.0,
                 "Lifetime": 20.0
@@ -1251,7 +142,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.Barrel"
@@ -1274,7 +169,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.FiringMechanism"
@@ -1297,7 +196,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.PowerArray"
@@ -1320,7 +223,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.Ventilation"
@@ -1344,7 +251,7 @@
     },
     {
       "PortName": "hardpoint_Right_Body_Weapon",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "Mount_Gimbal_S3",
       "InstalledItem": {
         "ClassName": "Mount_Gimbal_S3",
@@ -1361,6 +268,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 150.0,
           "Lifetime": 720.0
@@ -1396,6 +307,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
               "Durability": {
                 "Health": 850.0,
                 "Lifetime": 20.0
@@ -1476,7 +391,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.Barrel"
@@ -1499,7 +418,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.FiringMechanism"
@@ -1522,7 +445,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.PowerArray"
@@ -1545,7 +472,11 @@
                     },
                     "Tags": [
                       "uneditable"
-                    ]
+                    ],
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0
                   },
                   "Types": [
                     "WeaponAttachment.Ventilation"
@@ -1568,8 +499,8 @@
       "Category": "Weapon hardpoints"
     },
     {
-      "PortName": "hardpoint_Right_Wing_Weapon",
-      "Size": 3,
+      "PortName": "hardpoint_Left_Wing_Weapon",
+      "Size": 0,
       "Loadout": "Mount_Gimbal_S3",
       "InstalledItem": {
         "ClassName": "Mount_Gimbal_S3",
@@ -1586,6 +517,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 150.0,
           "Lifetime": 720.0
@@ -1621,6 +556,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
               "Durability": {
                 "Health": 850.0,
                 "Lifetime": 20.0
@@ -1723,12 +662,1257 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
+    },
+    {
+      "PortName": "hardpoint_Right_Wing_Weapon",
+      "Size": 0,
+      "Loadout": "Mount_Gimbal_S3",
+      "InstalledItem": {
+        "ClassName": "Mount_Gimbal_S3",
+        "Size": 3,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "VariPuck S3 Gimbal Mount",
+        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 3\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
+        "Manufacturer": {
+          "Code": "FFSY",
+          "Name": "Flashfire Systems"
+        },
+        "Tags": [
+          "gimbalMount",
+          "flightReady"
+        ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
+        "Durability": {
+          "Health": 150.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 15.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "hardpoint_class_2",
+            "Size": 2,
+            "Loadout": "KLWE_LaserRepeater_S2",
+            "InstalledItem": {
+              "ClassName": "KLWE_LaserRepeater_S2",
+              "Size": 2,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "CF-227 Badger Repeater",
+              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 2\n\nThe CF-227 Badger is Klaus & Werner’s dependable size two repeating laser. Its increased output and high rate of fire make it a solid contender in any fight.",
+              "Manufacturer": {
+                "Code": "KLA",
+                "Name": "Klaus & Werner"
+              },
+              "Tags": [
+                "KLWE",
+                "LaserRepeater",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
+              "Durability": {
+                "Health": 850.0,
+                "Lifetime": 20.0
+              },
+              "PowerConnection": {
+                "PowerBase": 190.0,
+                "PowerDraw": 190.0
+              },
+              "HeatConnection": {
+                "ThermalEnergyBase": 100.0,
+                "ThermalEnergyDraw": 200.0,
+                "CoolingRate": 100.95
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "Speed": 1400.0,
+                  "Range": 1540.0000000000002,
+                  "Size": 2.0,
+                  "Capacity": 0.0,
+                  "ImpactDamage": {
+                    "Energy": 40.0
+                  }
+                },
+                "Modes": [
+                  {
+                    "Name": "Single",
+                    "LocalisedName": "[SEMI]",
+                    "RoundsPerMinute": 600.0,
+                    "FireType": "sequence",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Energy": 40.0
+                    },
+                    "DamagePerSecond": {
+                      "Energy": 400.0
+                    }
+                  }
+                ],
+                "Consumption": {
+                  "RequestedRegenPerSec": 2000.0,
+                  "Cooldown": 1.0,
+                  "CostPerBullet": 40.0,
+                  "RequestedAmmoLoad": 12000.0
+                }
+              },
+              "Ammunition": {
+                "Speed": 1400.0,
+                "Range": 1540.0000000000002,
+                "Size": 2.0,
+                "Capacity": 0.0,
+                "ImpactDamage": {
+                  "Energy": 40.0
+                }
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Category": "Weapon hardpoints"
+          }
+        ]
+      },
+      "Types": [
+        "Turret.GunTurret",
+        "WeaponGun.Gun"
+      ],
+      "Category": "Weapon hardpoints"
+    },
+    {
+      "PortName": "weapon",
+      "Size": 1,
+      "Loadout": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+      "InstalledItem": {
+        "ClassName": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponGun.Gun",
+        "Name": "YellowJacket GT-210 Gatling",
+        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
+        "Manufacturer": {
+          "Code": "GAT",
+          "Name": "Gallenson Tactical Systems"
+        },
+        "Tags": [
+          "GATS",
+          "BallisticGatling",
+          "flightReady",
+          "weaponMountUsable"
+        ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
+        "PowerConnection": {
+          "PowerBase": 30.0,
+          "PowerDraw": 40.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 100.0,
+          "ThermalEnergyDraw": 200.0,
+          "CoolingRate": 49.189
+        },
+        "Weapon": {
+          "Ammunition": {
+            "Speed": 500.0,
+            "Range": 1100.0,
+            "Size": 1.0,
+            "Capacity": 1200.0,
+            "ImpactDamage": {
+              "Physical": 8.5
+            }
+          },
+          "Modes": [
+            {
+              "Name": "Rapid",
+              "LocalisedName": "[AUTO]",
+              "RoundsPerMinute": 800.0,
+              "FireType": "rapid",
+              "AmmoPerShot": 0.0,
+              "PelletsPerShot": 1.0,
+              "DamagePerShot": {
+                "Physical": 8.5
+              },
+              "DamagePerSecond": {
+                "Physical": 113.33333333333334
+              }
+            }
+          ]
+        },
+        "Ammunition": {
+          "Speed": 500.0,
+          "Range": 1100.0,
+          "Size": 1.0,
+          "Capacity": 1200.0,
+          "ImpactDamage": {
+            "Physical": 8.5
+          }
+        },
+        "Ports": [
+          {
+            "PortName": "BAR1",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Barrel",
+              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Barrel"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "MEC",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.FiringMechanism",
+              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.FiringMechanism"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "POW",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.PowerArray",
+              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.PowerArray"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "VEN",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Ventilation",
+              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Ventilation"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "optics_attach",
+            "Size": 4,
+            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
+            "InstalledItem": {
+              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponAttachment.IronSight",
+              "Name": "Gamma (1x Holographic)",
+              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
+              "Manufacturer": {
+                "Code": "NVTC",
+                "Name": "@LOC_PLACEHOLDER"
+              },
+              "Width": 0.1933333,
+              "Height": 0.1785001,
+              "Length": 0.0772775,
+              "Volume": 1447.0
+            },
+            "Types": [
+              "WeaponAttachment.IronSight"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "WeaponGun.Gun",
+        "MissileLauncher"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Weapon hardpoints",
+      "Uneditable": true
+    },
+    {
+      "PortName": "weapon",
+      "Size": 1,
+      "Loadout": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+      "InstalledItem": {
+        "ClassName": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponGun.Gun",
+        "Name": "YellowJacket GT-210 Gatling",
+        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
+        "Manufacturer": {
+          "Code": "GAT",
+          "Name": "Gallenson Tactical Systems"
+        },
+        "Tags": [
+          "GATS",
+          "BallisticGatling",
+          "flightReady",
+          "weaponMountUsable"
+        ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
+        "PowerConnection": {
+          "PowerBase": 30.0,
+          "PowerDraw": 40.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 100.0,
+          "ThermalEnergyDraw": 200.0,
+          "CoolingRate": 49.189
+        },
+        "Weapon": {
+          "Ammunition": {
+            "Speed": 500.0,
+            "Range": 1100.0,
+            "Size": 1.0,
+            "Capacity": 1200.0,
+            "ImpactDamage": {
+              "Physical": 8.5
+            }
+          },
+          "Modes": [
+            {
+              "Name": "Rapid",
+              "LocalisedName": "[AUTO]",
+              "RoundsPerMinute": 800.0,
+              "FireType": "rapid",
+              "AmmoPerShot": 0.0,
+              "PelletsPerShot": 1.0,
+              "DamagePerShot": {
+                "Physical": 8.5
+              },
+              "DamagePerSecond": {
+                "Physical": 113.33333333333334
+              }
+            }
+          ]
+        },
+        "Ammunition": {
+          "Speed": 500.0,
+          "Range": 1100.0,
+          "Size": 1.0,
+          "Capacity": 1200.0,
+          "ImpactDamage": {
+            "Physical": 8.5
+          }
+        },
+        "Ports": [
+          {
+            "PortName": "BAR1",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Barrel",
+              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Barrel"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "MEC",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.FiringMechanism",
+              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.FiringMechanism"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "POW",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.PowerArray",
+              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.PowerArray"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "VEN",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Ventilation",
+              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Ventilation"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "optics_attach",
+            "Size": 4,
+            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
+            "InstalledItem": {
+              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponAttachment.IronSight",
+              "Name": "Gamma (1x Holographic)",
+              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
+              "Manufacturer": {
+                "Code": "NVTC",
+                "Name": "@LOC_PLACEHOLDER"
+              },
+              "Width": 0.1933333,
+              "Height": 0.1785001,
+              "Length": 0.0772775,
+              "Volume": 1447.0
+            },
+            "Types": [
+              "WeaponAttachment.IronSight"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "WeaponGun.Gun",
+        "MissileLauncher"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Weapon hardpoints",
+      "Uneditable": true
+    },
+    {
+      "PortName": "weapon",
+      "Size": 1,
+      "Loadout": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+      "InstalledItem": {
+        "ClassName": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponGun.Gun",
+        "Name": "YellowJacket GT-210 Gatling",
+        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
+        "Manufacturer": {
+          "Code": "GAT",
+          "Name": "Gallenson Tactical Systems"
+        },
+        "Tags": [
+          "GATS",
+          "BallisticGatling",
+          "flightReady",
+          "weaponMountUsable"
+        ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
+        "PowerConnection": {
+          "PowerBase": 30.0,
+          "PowerDraw": 40.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 100.0,
+          "ThermalEnergyDraw": 200.0,
+          "CoolingRate": 49.189
+        },
+        "Weapon": {
+          "Ammunition": {
+            "Speed": 500.0,
+            "Range": 1100.0,
+            "Size": 1.0,
+            "Capacity": 1200.0,
+            "ImpactDamage": {
+              "Physical": 8.5
+            }
+          },
+          "Modes": [
+            {
+              "Name": "Rapid",
+              "LocalisedName": "[AUTO]",
+              "RoundsPerMinute": 800.0,
+              "FireType": "rapid",
+              "AmmoPerShot": 0.0,
+              "PelletsPerShot": 1.0,
+              "DamagePerShot": {
+                "Physical": 8.5
+              },
+              "DamagePerSecond": {
+                "Physical": 113.33333333333334
+              }
+            }
+          ]
+        },
+        "Ammunition": {
+          "Speed": 500.0,
+          "Range": 1100.0,
+          "Size": 1.0,
+          "Capacity": 1200.0,
+          "ImpactDamage": {
+            "Physical": 8.5
+          }
+        },
+        "Ports": [
+          {
+            "PortName": "BAR1",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Barrel",
+              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Barrel"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "MEC",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.FiringMechanism",
+              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.FiringMechanism"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "POW",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.PowerArray",
+              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.PowerArray"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "VEN",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Ventilation",
+              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Ventilation"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "optics_attach",
+            "Size": 4,
+            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
+            "InstalledItem": {
+              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponAttachment.IronSight",
+              "Name": "Gamma (1x Holographic)",
+              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
+              "Manufacturer": {
+                "Code": "NVTC",
+                "Name": "@LOC_PLACEHOLDER"
+              },
+              "Width": 0.1933333,
+              "Height": 0.1785001,
+              "Length": 0.0772775,
+              "Volume": 1447.0
+            },
+            "Types": [
+              "WeaponAttachment.IronSight"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "WeaponGun.Gun",
+        "MissileLauncher"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Weapon hardpoints",
+      "Uneditable": true
+    },
+    {
+      "PortName": "weapon",
+      "Size": 1,
+      "Loadout": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+      "InstalledItem": {
+        "ClassName": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponGun.Gun",
+        "Name": "YellowJacket GT-210 Gatling",
+        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
+        "Manufacturer": {
+          "Code": "GAT",
+          "Name": "Gallenson Tactical Systems"
+        },
+        "Tags": [
+          "GATS",
+          "BallisticGatling",
+          "flightReady",
+          "weaponMountUsable"
+        ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
+        "PowerConnection": {
+          "PowerBase": 30.0,
+          "PowerDraw": 40.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 100.0,
+          "ThermalEnergyDraw": 200.0,
+          "CoolingRate": 49.189
+        },
+        "Weapon": {
+          "Ammunition": {
+            "Speed": 500.0,
+            "Range": 1100.0,
+            "Size": 1.0,
+            "Capacity": 1200.0,
+            "ImpactDamage": {
+              "Physical": 8.5
+            }
+          },
+          "Modes": [
+            {
+              "Name": "Rapid",
+              "LocalisedName": "[AUTO]",
+              "RoundsPerMinute": 800.0,
+              "FireType": "rapid",
+              "AmmoPerShot": 0.0,
+              "PelletsPerShot": 1.0,
+              "DamagePerShot": {
+                "Physical": 8.5
+              },
+              "DamagePerSecond": {
+                "Physical": 113.33333333333334
+              }
+            }
+          ]
+        },
+        "Ammunition": {
+          "Speed": 500.0,
+          "Range": 1100.0,
+          "Size": 1.0,
+          "Capacity": 1200.0,
+          "ImpactDamage": {
+            "Physical": 8.5
+          }
+        },
+        "Ports": [
+          {
+            "PortName": "BAR1",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Barrel",
+              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Barrel"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "MEC",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.FiringMechanism",
+              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.FiringMechanism"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "POW",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.PowerArray",
+              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.PowerArray"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "VEN",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Ventilation",
+              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Ventilation"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "optics_attach",
+            "Size": 4,
+            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
+            "InstalledItem": {
+              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponAttachment.IronSight",
+              "Name": "Gamma (1x Holographic)",
+              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
+              "Manufacturer": {
+                "Code": "NVTC",
+                "Name": "@LOC_PLACEHOLDER"
+              },
+              "Width": 0.1933333,
+              "Height": 0.1785001,
+              "Length": 0.0772775,
+              "Volume": 1447.0
+            },
+            "Types": [
+              "WeaponAttachment.IronSight"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "WeaponGun.Gun",
+        "MissileLauncher"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Weapon hardpoints",
+      "Uneditable": true
+    },
+    {
+      "PortName": "weapon",
+      "Size": 1,
+      "Loadout": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+      "InstalledItem": {
+        "ClassName": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponGun.Gun",
+        "Name": "YellowJacket GT-210 Gatling",
+        "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 1\n\nWhile the GT-210 YellowJacket may be small, it packs a mighty sting. This high-speed ballistic weapon is perfect for targeting smaller, more mobile targets and its DTX-8 ammo supply system almost completely eliminates weapon jams due to bad rounds.",
+        "Manufacturer": {
+          "Code": "GAT",
+          "Name": "Gallenson Tactical Systems"
+        },
+        "Tags": [
+          "GATS",
+          "BallisticGatling",
+          "flightReady",
+          "weaponMountUsable"
+        ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
+        "PowerConnection": {
+          "PowerBase": 30.0,
+          "PowerDraw": 40.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 100.0,
+          "ThermalEnergyDraw": 200.0,
+          "CoolingRate": 49.189
+        },
+        "Weapon": {
+          "Ammunition": {
+            "Speed": 500.0,
+            "Range": 1100.0,
+            "Size": 1.0,
+            "Capacity": 1200.0,
+            "ImpactDamage": {
+              "Physical": 8.5
+            }
+          },
+          "Modes": [
+            {
+              "Name": "Rapid",
+              "LocalisedName": "[AUTO]",
+              "RoundsPerMinute": 800.0,
+              "FireType": "rapid",
+              "AmmoPerShot": 0.0,
+              "PelletsPerShot": 1.0,
+              "DamagePerShot": {
+                "Physical": 8.5
+              },
+              "DamagePerSecond": {
+                "Physical": 113.33333333333334
+              }
+            }
+          ]
+        },
+        "Ammunition": {
+          "Speed": 500.0,
+          "Range": 1100.0,
+          "Size": 1.0,
+          "Capacity": 1200.0,
+          "ImpactDamage": {
+            "Physical": 8.5
+          }
+        },
+        "Ports": [
+          {
+            "PortName": "BAR1",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Barrel_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Barrel",
+              "Name": "GATS_BallisticGatling_Mounted_Barrel_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Barrel"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "MEC",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.FiringMechanism",
+              "Name": "GATS_BallisticGatling_Mounted_FiringMechanism_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.FiringMechanism"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "POW",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.PowerArray",
+              "Name": "GATS_BallisticGatling_Mounted_PowerArray_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.PowerArray"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "VEN",
+            "Size": 1,
+            "Loadout": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+            "InstalledItem": {
+              "ClassName": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "WeaponAttachment.Ventilation",
+              "Name": "GATS_BallisticGatling_Mounted_Ventilation_S1",
+              "Manufacturer": {
+                "Code": "GAT",
+                "Name": "Gallenson Tactical Systems"
+              },
+              "Tags": [
+                "uneditable"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            },
+            "Types": [
+              "WeaponAttachment.Ventilation"
+            ],
+            "Category": "Weapon attachments"
+          },
+          {
+            "PortName": "optics_attach",
+            "Size": 4,
+            "Loadout": "weaponMount_nvtc_optics_holo_x1_s1",
+            "InstalledItem": {
+              "ClassName": "weaponMount_nvtc_optics_holo_x1_s1",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponAttachment.IronSight",
+              "Name": "Gamma (1x Holographic)",
+              "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
+              "Manufacturer": {
+                "Code": "NVTC",
+                "Name": "@LOC_PLACEHOLDER"
+              },
+              "Width": 0.1933333,
+              "Height": 0.1785001,
+              "Length": 0.0772775,
+              "Volume": 1447.0
+            },
+            "Types": [
+              "WeaponAttachment.IronSight"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "WeaponGun.Gun",
+        "MissileLauncher"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Weapon hardpoints",
+      "Uneditable": true
     }
   ],
   "MannedTurrets": [
     {
       "PortName": "hardpoint_turret",
-      "Size": 6,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_SCItem_Turret_Black",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_SCItem_Turret_Black",
@@ -1740,6 +1924,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 3000.0,
           "Lifetime": 25.0
@@ -1775,6 +1963,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.6699014,
+              "Height": 1.202842,
+              "Length": 4.422015,
+              "Volume": 756000.0,
               "Durability": {
                 "Health": 1024.0,
                 "Lifetime": 20.0
@@ -1891,6 +2083,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.6699014,
+              "Height": 1.202842,
+              "Length": 4.422015,
+              "Volume": 756000.0,
               "Durability": {
                 "Health": 1024.0,
                 "Lifetime": 20.0
@@ -1985,6 +2181,11 @@
               "WeaponGun.Gun"
             ],
             "Category": "Weapon hardpoints"
+          },
+          {
+            "PortName": "Aim_HUD",
+            "Size": 0,
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -2002,7 +2203,7 @@
   "RemoteTurrets": [
     {
       "PortName": "hardpoint_tail_remote_turret",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Steel_Rear_Remote_Dual_Turret",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Steel_Rear_Remote_Dual_Turret",
@@ -2018,6 +2219,10 @@
         "Tags": [
           "DRAK_Cutlass_Steel_Mount"
         ],
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 2000.0,
           "Lifetime": 720.0
@@ -2053,6 +2258,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
               "Durability": {
                 "Health": 850.0,
                 "Lifetime": 20.0
@@ -2172,6 +2381,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 0.801895,
+              "Length": 3.316511,
+              "Volume": 252000.0,
               "Durability": {
                 "Health": 850.0,
                 "Lifetime": 20.0
@@ -2289,7 +2502,7 @@
   "MissileRacks": [
     {
       "PortName": "hardpoint_Right_Pylon_03",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Quad_S02",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Quad_S02",
@@ -2305,6 +2518,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -2342,6 +2559,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2376,6 +2597,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2410,6 +2635,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2444,6 +2673,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2472,7 +2705,7 @@
     },
     {
       "PortName": "hardpoint_Right_Pylon_02",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Dual_S03",
@@ -2488,6 +2721,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -2525,6 +2762,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2559,6 +2800,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2587,7 +2832,7 @@
     },
     {
       "PortName": "hardpoint_Right_Pylon_01",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Dual_S03",
@@ -2603,6 +2848,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -2640,6 +2889,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2674,6 +2927,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2702,7 +2959,7 @@
     },
     {
       "PortName": "hardpoint_Left_Pylon_03",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Quad_S02",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Quad_S02",
@@ -2718,6 +2975,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -2755,6 +3016,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2789,6 +3054,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2823,6 +3092,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2857,6 +3130,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2885,7 +3162,7 @@
     },
     {
       "PortName": "hardpoint_Left_Pylon_02",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Dual_S03",
@@ -2901,6 +3178,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -2938,6 +3219,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -2972,6 +3257,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -3000,7 +3289,7 @@
     },
     {
       "PortName": "hardpoint_Left_Pylon_01",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
         "ClassName": "MRCK_S04_BEHR_Dual_S03",
@@ -3016,6 +3305,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2100000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -3053,6 +3346,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -3087,6 +3384,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 3.0,
+              "Volume": 3000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -3117,7 +3418,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_cm_launcher_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_CML_Decoy_Small",
       "InstalledItem": {
         "ClassName": "DRAK_CML_Decoy_Small",
@@ -3130,6 +3431,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -3178,7 +3483,7 @@
     },
     {
       "PortName": "hardpoint_cm_launcher_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_CML_Noise_Small",
       "InstalledItem": {
         "ClassName": "DRAK_CML_Noise_Small",
@@ -3191,6 +3496,10 @@
           "Code": "JOK",
           "Name": "Joker Engineering"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -3241,7 +3550,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
@@ -3254,15 +3563,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Shield": {
           "Health": 9000.0,
           "Regeneration": 500.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -3287,7 +3600,7 @@
           }
         },
         "Durability": {
-          "Health": 375.0,
+          "Health": 2320.0,
           "Lifetime": 20.0
         },
         "PowerConnection": {
@@ -3312,7 +3625,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_power_plant",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "POWR_AMRS_S02_TurboDrive_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_AMRS_S02_TurboDrive_SCItem",
@@ -3325,11 +3638,15 @@
           "Code": "AMRS",
           "Name": "Amon & Reese Co."
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "PowerPlant": {
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 1000.0,
+          "Health": 3000.0,
           "Lifetime": 40.0
         },
         "PowerConnection": {
@@ -3354,7 +3671,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S02_Arctic_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S02_Arctic_SCItem",
@@ -3367,11 +3684,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Cooler": {
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 3000.0,
           "Lifetime": 88.0
         },
         "PowerConnection": {
@@ -3394,7 +3715,7 @@
     },
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S02_Arctic_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S02_Arctic_SCItem",
@@ -3407,11 +3728,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Cooler": {
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 3000.0,
           "Lifetime": 88.0
         },
         "PowerConnection": {
@@ -3436,7 +3761,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "QDRV_WETK_S02_Crossfield_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_WETK_S02_Crossfield_SCItem",
@@ -3449,6 +3774,10 @@
           "Code": "WETK",
           "Name": "Wei-Tek"
         },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "QuantumDrive": {
           "FuelRate": 2.0709999999999998E-08,
           "JumpRange": 3.402823E+38,
@@ -3468,7 +3797,7 @@
           }
         },
         "Durability": {
-          "Health": 2700.0,
+          "Health": 2320.0,
           "Lifetime": 41.6
         },
         "PowerConnection": {
@@ -3493,7 +3822,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_DRAK_Cutlass_Steel",
       "InstalledItem": {
         "ClassName": "QTNK_DRAK_Cutlass_Steel",
@@ -3504,6 +3833,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 2500.0
         }
@@ -3522,7 +3855,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_Main_Thruster_Left",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Main",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Main",
@@ -3534,6 +3867,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 6937529.0,
           "FuelRate": 1.05E-05,
@@ -3565,7 +3902,7 @@
     },
     {
       "PortName": "hardpoint_Main_Thruster_Right",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Main",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Main",
@@ -3577,6 +3914,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 6937529.0,
           "FuelRate": 1.05E-05,
@@ -3610,7 +3951,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_Main_Retro_Left",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Retro",
@@ -3622,6 +3963,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1999364.0,
           "FuelRate": 1.05E-05,
@@ -3654,7 +3999,7 @@
     },
     {
       "PortName": "hardpoint_Main_Retro_Right",
-      "Size": 4,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Retro",
@@ -3666,6 +4011,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1999364.0,
           "FuelRate": 1.05E-05,
@@ -3700,8 +4049,8 @@
   "VtolThrusters": [],
   "ManeuveringThrusters": [
     {
-      "PortName": "hardpoint_Man_Thruster_Right_Rear",
-      "Size": 1,
+      "PortName": "hardpoint_Man_Thruster_Left_Front",
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -3713,6 +4062,480 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Right_Front",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Left_Outer_Bot",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Left_Outer_Top",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Left_Wing_Bot",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Left_Wing_Top",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Right_Outer_Bot",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Right_Outer_Top",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Right_Wing_Bot",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Right_Wing_Top",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Thruster": {
+          "ThrustCapacity": 1225477.0,
+          "FuelRate": 1.25E-05,
+          "Type": "Maneuver",
+          "MaxThrustFuelRate": 15.3184625
+        },
+        "Durability": {
+          "Health": 10240.0,
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 20.0,
+          "PowerDraw": 24.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 500.0,
+          "ThermalEnergyDraw": 1250.0,
+          "CoolingRate": 42.0
+        }
+      },
+      "Types": [
+        "ManneuverThruster"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Category": "Maneuvering thrusters",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_Man_Thruster_Right_Rear",
+      "Size": 0,
+      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "InstalledItem": {
+        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ManneuverThruster.JointThruster",
+        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -3744,7 +4567,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Right_Center",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -3756,6 +4579,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -3787,7 +4614,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Left_Rear",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -3799,6 +4626,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -3830,7 +4661,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Left_Center",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -3842,6 +4673,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -3873,7 +4708,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Center_Top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -3885,6 +4720,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -3916,7 +4755,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Center_Bot",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -3928,6 +4767,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -3959,7 +4802,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Left_Front_Bot",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -3971,6 +4814,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4006,7 +4853,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Left_Front_Top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4018,6 +4865,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4053,7 +4904,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Left_Rear_Bot",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4065,6 +4916,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4100,7 +4955,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Left_Rear_Top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4112,6 +4967,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4147,7 +5006,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Right_Front_Bot",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4159,6 +5018,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4194,7 +5057,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Right_Front_Top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4206,6 +5069,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4241,7 +5108,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Right_Rear_Bot",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4253,6 +5120,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4288,7 +5159,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Right_Rear_Top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4300,6 +5171,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4335,7 +5210,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Left_Tail",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4347,6 +5222,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4378,7 +5257,7 @@
     },
     {
       "PortName": "hardpoint_Man_Thruster_Right_Tail",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
       "InstalledItem": {
         "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
@@ -4390,436 +5269,10 @@
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
         },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Left_Wing_Bot",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Left_Outer_Top",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Left_Outer_Bot",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Left_Wing_Top",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Right_Wing_Top",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Right_Wing_Bot",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Right_Outer_Top",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Right_Outer_Bot",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Left_Front",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Thruster": {
-          "ThrustCapacity": 1225477.0,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
-        },
-        "Durability": {
-          "Health": 10240.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 24.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 42.0
-        }
-      },
-      "Types": [
-        "ManneuverThruster"
-      ],
-      "Flags": [
-        "uneditable"
-      ],
-      "Category": "Maneuvering thrusters",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_Man_Thruster_Right_Front",
-      "Size": 1,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
-      "InstalledItem": {
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1225477.0,
           "FuelRate": 1.25E-05,
@@ -4853,7 +5306,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_DRAK_Cutlass_Steel",
       "InstalledItem": {
         "ClassName": "HTNK_DRAK_Cutlass_Steel",
@@ -4864,6 +5317,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 180000.0
         }
@@ -4880,7 +5337,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_DRAK_Cutlass_Steel",
       "InstalledItem": {
         "ClassName": "HTNK_DRAK_Cutlass_Steel",
@@ -4891,6 +5348,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 180000.0
         }
@@ -4909,7 +5370,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_DRAK_Cutlass_Steel",
       "InstalledItem": {
         "ClassName": "INTK_DRAK_Cutlass_Steel",
@@ -4920,6 +5381,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 10.0
         },
@@ -4945,7 +5410,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_DRAK_Cutlass_Steel",
       "InstalledItem": {
         "ClassName": "INTK_DRAK_Cutlass_Steel",
@@ -4956,6 +5421,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 10.0
         },
@@ -4983,7 +5452,7 @@
   "InterdictionHardpoints": [
     {
       "PortName": "hardpoint_quantum_interdiction_generator",
-      "Size": 4,
+      "Size": 0,
       "Types": [
         "QuantumInterdictionGenerator"
       ],
@@ -4997,34 +5466,8 @@
   ],
   "CargoGrids": [
     {
-      "PortName": "hardpoint_cargogrid_rear",
-      "Size": 1,
-      "Types": [
-        "Cargo"
-      ],
-      "Flags": [
-        "selfphys",
-        "uneditable"
-      ],
-      "Category": "Cargo grids",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_cargogrid_main",
-      "Size": 1,
-      "Types": [
-        "Cargo"
-      ],
-      "Flags": [
-        "selfphys",
-        "uneditable"
-      ],
-      "Category": "Cargo grids",
-      "Uneditable": true
-    },
-    {
       "PortName": "hardpoint_personal_storage_01",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "PersonalStorage_DRAK_Cutlass_01",
       "InstalledItem": {
         "ClassName": "PersonalStorage_DRAK_Cutlass_01",
@@ -5032,8 +5475,18 @@
         "Grade": 1,
         "Type": "Cargo.UNDEFINED",
         "Name": "PersonalStorage_DRAK_Cutlass_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 1000.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.5,
+          "x": 0.75,
+          "y": 0.5,
+          "z": 1.5
         }
       },
       "Types": [
@@ -5048,7 +5501,7 @@
     },
     {
       "PortName": "hardpoint_personal_storage_02",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "PersonalStorage_DRAK_Cutlass_02",
       "InstalledItem": {
         "ClassName": "PersonalStorage_DRAK_Cutlass_02",
@@ -5056,10 +5509,46 @@
         "Grade": 1,
         "Type": "Cargo.UNDEFINED",
         "Name": "PersonalStorage_DRAK_Cutlass_02",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 1000.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.5,
+          "x": 0.75,
+          "y": 0.5,
+          "z": 1.5
         }
       },
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "selfphys",
+        "uneditable"
+      ],
+      "Category": "Cargo grids",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_cargogrid_rear",
+      "Size": 0,
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "selfphys",
+        "uneditable"
+      ],
+      "Category": "Cargo grids",
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_cargogrid_main",
+      "Size": 0,
       "Types": [
         "Cargo"
       ],
@@ -5073,21 +5562,69 @@
   ],
   "Avionics": [
     {
-      "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "PortName": "hardpoint_radar_turret",
+      "Size": 0,
+      "Loadout": "RADR_CHCO_S02_Surveyor",
+      "InstalledItem": {
+        "ClassName": "RADR_CHCO_S02_Surveyor",
+        "Size": 2,
+        "Grade": 1,
+        "Type": "Radar.MidRangeRadar",
+        "Name": "Surveyor",
+        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
+        "Tags": [
+          "flightReady"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Durability": {
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.1,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Radar": {
+          "DetectionLifetime": 0.0,
+          "AltitudeCeiling": 0.0,
+          "CrossSectionOcclusion": false,
+          "Signatures": []
+        },
+        "Ports": [
+          {
+            "PortName": "BatteryPort",
+            "Size": 2,
+            "Types": [
+              "Battery"
+            ],
+            "Flags": [
+              "invisible"
+            ],
+            "Category": "Batteries"
+          }
+        ]
+      },
       "Types": [
-        "Transponder"
+        "Radar.ShortRangeRadar",
+        "Radar.MidRangeRadar"
       ],
       "Flags": [
         "invisible",
         "uneditable"
       ],
-      "Category": "Transponders",
+      "Category": "Radars",
       "Uneditable": true
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "test_ping_S2",
       "InstalledItem": {
         "ClassName": "test_ping_S2",
@@ -5098,7 +5635,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -5111,8 +5652,69 @@
       "Uneditable": true
     },
     {
+      "PortName": "hardpoint_radar_copilot",
+      "Size": 0,
+      "Loadout": "RADR_CHCO_S02_Surveyor",
+      "InstalledItem": {
+        "ClassName": "RADR_CHCO_S02_Surveyor",
+        "Size": 2,
+        "Grade": 1,
+        "Type": "Radar.MidRangeRadar",
+        "Name": "Surveyor",
+        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
+        "Tags": [
+          "flightReady"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Durability": {
+          "Lifetime": 720.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.1,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Radar": {
+          "DetectionLifetime": 0.0,
+          "AltitudeCeiling": 0.0,
+          "CrossSectionOcclusion": false,
+          "Signatures": []
+        },
+        "Ports": [
+          {
+            "PortName": "BatteryPort",
+            "Size": 2,
+            "Types": [
+              "Battery"
+            ],
+            "Flags": [
+              "invisible"
+            ],
+            "Category": "Batteries"
+          }
+        ]
+      },
+      "Types": [
+        "Radar.ShortRangeRadar",
+        "Radar.MidRangeRadar"
+      ],
+      "Flags": [
+        "invisible",
+        "uneditable"
+      ],
+      "Category": "Radars",
+      "Uneditable": true
+    },
+    {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -5123,6 +5725,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -5138,122 +5744,21 @@
       "Uneditable": true
     },
     {
-      "PortName": "hardpoint_radar_copilot",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
-      "InstalledItem": {
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
-        "Durability": {
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
+      "PortName": "hardpoint_transponder",
+      "Size": 0,
       "Types": [
-        "Radar.ShortRangeRadar",
-        "Radar.MidRangeRadar"
+        "Transponder"
       ],
       "Flags": [
         "invisible",
         "uneditable"
       ],
-      "Category": "Radars",
-      "Uneditable": true
-    },
-    {
-      "PortName": "hardpoint_radar_turret",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
-      "InstalledItem": {
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
-        "Durability": {
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Types": [
-        "Radar.ShortRangeRadar",
-        "Radar.MidRangeRadar"
-      ],
-      "Flags": [
-        "invisible",
-        "uneditable"
-      ],
-      "Category": "Radars",
+      "Category": "Transponders",
       "Uneditable": true
     },
     {
       "PortName": "hardpoint_radar",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "RADR_CHCO_S02_Surveyor",
       "InstalledItem": {
         "ClassName": "RADR_CHCO_S02_Surveyor",
@@ -5265,6 +5770,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },

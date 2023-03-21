@@ -19,6 +19,12 @@
     },
     {
       "value": "59ca5e36-b9a2-4459-ad0e-5745bcf5d899"
+    },
+    {
+      "value": "f9c18d22-2a19-431a-822a-af7dcd3a7392"
+    },
+    {
+      "value": "1dc33a95-594a-4c79-bdde-9558e1a1f9d1"
     }
   ],
   "Components": {
@@ -35,6 +41,16 @@
         "Localization": {
           "Name": "@item_Namecrlf_consumable_oxygen_01",
           "Description": "@item_Desccrlf_consumable_oxygen_01"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 180.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.0348,
+          "y": 0.15,
+          "z": 0.0336
         }
       }
     },
@@ -43,7 +59,12 @@
       "subtype": "80ac6315-4f00-49a8-ba26-2b263dc84b09",
       "name": "@item_Namecrlf_consumable_oxygen_01",
       "description": "@item_Desccrlf_consumable_oxygen_01",
-      "IsUnrefinedElement": false
+      "IsUnrefinedElement": false,
+      "occupancy": {
+        "SMicroCargoUnit": {
+          "microSCU": 550.0
+        }
+      }
     },
     "SEntityInteractableParams": {
       "Interactable": {
@@ -203,6 +224,17 @@
             "available": true
           }
         ]
+      }
+    },
+    "SCItemConsumableParams": {
+      "containerTypeTag": "injection",
+      "oneShotConsume": true,
+      "canBeReclosed": false,
+      "discardWhenConsumed": true,
+      "consumableVolume": {
+        "SMicroCargoUnit": {
+          "microSCU": 500.0
+        }
       }
     }
   },

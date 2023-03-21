@@ -42,6 +42,16 @@
             "Localization": {
               "Name": "@items_commodities_special_lunar_envelope_1_rooster_a",
               "Description": "@items_commodities_special_lunar_envelope_1_rooster_a_desc"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1790.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.1641,
+              "y": 0.2611,
+              "z": 0.0523
             }
           }
         },
@@ -75,13 +85,6 @@
               }
             }
           }
-        },
-        "CommodityComponentParams": {
-          "type": "d8451c7f-aeb5-49c5-9e71-ef123ea03fba",
-          "subtype": "a62158ec-a7d1-454c-94dd-df1b9de0c3dc",
-          "name": "@LOC_EMPTY",
-          "description": "@LOC_EMPTY",
-          "IsUnrefinedElement": false
         },
         "SEntityInteractableParams": {
           "Interactable": {
@@ -175,20 +178,6 @@
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_store",
-                "DisplayType": "Show",
-                "GenericCursor": "SingleAction",
-                "FocusModeOnly": false,
-                "Sendable": false,
-                "Linkable": false,
-                "LockedByLinks": false,
-                "RequiresAuthorizedUser": false,
-                "available": true
-              },
-              {
-                "Name": "",
-                "RoomTag": "00000000-0000-0000-0000-000000000000",
-                "UsableTag": "00000000-0000-0000-0000-000000000000",
-                "DisplayName": "@usable_use",
                 "DisplayType": "Show",
                 "GenericCursor": "SingleAction",
                 "FocusModeOnly": false,

@@ -2,18 +2,16 @@
   "ClassName": "DRAK_Cutlass_Red_CargoGrid_Left",
   "Size": 1,
   "Grade": 1,
-  "Type": "Cargo.UNDEFINED",
+  "Type": "CargoGrid.UNDEFINED",
   "Name": "DRAK_Cutlass_Red_CargoGrid_Left",
   "Manufacturer": {
     "Code": "DRAK",
     "Name": "Drake Interplanetary"
   },
-  "CargoGrid": {
-    "Capacity": 6.0,
-    "Width": 1.25,
-    "Height": 2.5,
-    "Depth": 3.75
-  },
+  "Width": 0.15,
+  "Height": 0.15,
+  "Length": 0.15,
+  "Volume": 1.0,
   "PowerConnection": {
     "PowerBase": 0.0,
     "PowerDraw": 1.0
@@ -22,5 +20,11 @@
     "ThermalEnergyBase": 10.0,
     "ThermalEnergyDraw": 20.0,
     "CoolingRate": 1.0
+  },
+  "InventoryContainer": {
+    "SCU": 0.0,
+    "x": 1.25,
+    "y": 3.75,
+    "z": 2.5
   }
 }

@@ -43,6 +43,16 @@
         "Localization": {
           "Name": "@items_commodities_bluebilva",
           "Description": "@items_commodities_bluebilva_desc"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 920.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.0994,
+          "y": 0.1002,
+          "z": 0.1237
         }
       }
     },
@@ -76,13 +86,6 @@
           }
         }
       }
-    },
-    "CommodityComponentParams": {
-      "type": "bf3b68e9-dafe-4517-bc51-23652d6c9f49",
-      "subtype": "a1cd30a2-6ff7-4d65-8b17-84e37f0eda3a",
-      "name": "@items_commodities_bluebilva",
-      "description": "@items_commodities_bluebilva_desc",
-      "IsUnrefinedElement": false
     },
     "SEntityInteractableParams": {
       "Interactable": {
@@ -200,6 +203,17 @@
             "available": true
           }
         ]
+      }
+    },
+    "SCItemConsumableParams": {
+      "containerTypeTag": "fruit",
+      "oneShotConsume": true,
+      "canBeReclosed": false,
+      "discardWhenConsumed": true,
+      "consumableVolume": {
+        "SMicroCargoUnit": {
+          "microSCU": 1.0
+        }
       }
     }
   },

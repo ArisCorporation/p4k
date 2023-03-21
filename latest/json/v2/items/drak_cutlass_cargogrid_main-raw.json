@@ -4,7 +4,7 @@
   "Components": {
     "SAttachableComponentParams": {
       "AttachDef": {
-        "Type": "Cargo",
+        "Type": "CargoGrid",
         "SubType": "UNDEFINED",
         "Size": 1,
         "Grade": 1,
@@ -15,20 +15,17 @@
         "Localization": {
           "Name": "@LOC_PLACEHOLDER",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
-      }
-    },
-    "SCItemCargoGridParams": {
-      "crateGenPercentageOnDestroy": 0.1,
-      "crateMaxOnDestroy": 20.0,
-      "personalInventory": false,
-      "invisible": false,
-      "miningOnly": false,
-      "minVolatilePowerToExplode": 0.0,
-      "dimensions": {
-        "x": 5.0,
-        "y": 6.25,
-        "z": 2.5
       }
     },
     "EntityComponentPowerConnection": {
@@ -72,6 +69,9 @@
       "Interactable": {
         "SharedInteractions": []
       }
+    },
+    "SCItemInventoryContainerComponentParams": {
+      "containerParams": "b4fde470-99dd-423e-8e6d-94c68332cbdc"
     }
   },
   "ClassName": "DRAK_Cutlass_CargoGrid_Main",

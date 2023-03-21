@@ -25,6 +25,10 @@
           "Code": "JUST",
           "Name": "Juno Starwerk"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "PowerPlant": {
           "Output": 720.0
         },
@@ -64,6 +68,10 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.4009475,
+        "Length": 1.105504,
+        "Volume": 21000.0,
         "Cooler": {
           "Rate": 100000.0
         },
@@ -107,8 +115,18 @@
         "Grade": 1,
         "Type": "Cargo.UNDEFINED",
         "Name": "PersonalStorage_GRIN_STV",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 1000.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.125,
+          "x": 1.2,
+          "y": 1.0,
+          "z": 1.0
         }
       },
       "Types": [
@@ -131,13 +149,22 @@
         "Grade": 1,
         "Type": "Usable.UNDEFINED",
         "Name": "Cargo_Slot_GRIN_STV_1Slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Ports": [
           {
             "PortName": "$proxy_cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
-              "Misc"
+              "Misc",
+              "Char_Armor_Arms",
+              "Char_Armor_Legs",
+              "Char_Armor_Torso",
+              "Char_Armor_Helmet",
+              "Container.Box"
             ],
             "Category": "Cargo grids"
           }
@@ -163,13 +190,22 @@
         "Grade": 1,
         "Type": "Usable.UNDEFINED",
         "Name": "Cargo_Slot_GRIN_STV_1Slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Ports": [
           {
             "PortName": "$proxy_cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
-              "Misc"
+              "Misc",
+              "Char_Armor_Arms",
+              "Char_Armor_Legs",
+              "Char_Armor_Torso",
+              "Char_Armor_Helmet",
+              "Container.Box"
             ],
             "Category": "Cargo grids"
           }
@@ -200,7 +236,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -238,6 +278,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },

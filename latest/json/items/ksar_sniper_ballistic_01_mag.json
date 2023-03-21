@@ -18,8 +18,8 @@
         "detonationParams": {}
       }
     },
-    "ClassName": "7mm_sniper_ballistic",
-    "__ref": "80ac0b57-4f1d-4ff4-8428-09461e8c584e",
+    "ClassName": "ksar_sniper_ballistic_01_ammo_7mm",
+    "__ref": "61d7c50b-4d80-490d-9f20-3ba008407196",
     "__type": "AmmoParams"
   },
   "Raw": {
@@ -66,13 +66,23 @@
             "Localization": {
               "Name": "@item_Nameksar_sniper_ballistic_01_mag",
               "Description": "@item_Descksar_sniper_ballistic_01_mag"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 610.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.0339876,
+              "y": 0.08141628,
+              "z": 0.2206837
             }
           }
         },
         "SAmmoContainerComponentParams": {
           "initialAmmoCount": 8.0,
           "maxAmmoCount": 8.0,
-          "ammoParamsRecord": "80ac0b57-4f1d-4ff4-8428-09461e8c584e"
+          "ammoParamsRecord": "61d7c50b-4d80-490d-9f20-3ba008407196"
         },
         "SEntityInteractableParams": {
           "Interactable": {
@@ -92,7 +102,7 @@
                 "available": true
               },
               {
-                "Name": "CarryLowered",
+                "Name": "Carry",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_carry",
@@ -106,7 +116,7 @@
                 "available": true
               },
               {
-                "Name": "Equip",
+                "Name": "EquipToSuit",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_equip",
@@ -120,7 +130,7 @@
                 "available": true
               },
               {
-                "Name": "OffHandEquip",
+                "Name": "OffHandEquipToSuit",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_equip",

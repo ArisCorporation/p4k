@@ -5,11 +5,14 @@
   "Career": "Combat",
   "Role": "Light Fighter",
   "Size": 2,
-  "Cargo": 3,
+  "Cargo": 0,
   "Crew": 1,
   "WeaponCrew": 0,
   "OperationsCrew": 0,
   "Mass": 28714.0,
+  "Width": 8.75,
+  "Height": 4.5,
+  "Length": 19.0,
   "IsSpaceship": true,
   "Manufacturer": {
     "Code": "RSI",
@@ -26,12 +29,12 @@
     "Wing_Top_Right": 480.0
   },
   "FlightCharacteristics": {
-    "ScmSpeed": 138.0,
-    "MaxSpeed": 1208.0,
-    "ZeroToScm": 1.6672818203162276,
-    "ZeroToMax": 14.594756803927558,
-    "ScmToZero": 3.4728881154477724,
-    "MaxToZero": 30.400353938122528,
+    "ScmSpeed": 1208.0,
+    "MaxSpeed": 0.0,
+    "ZeroToScm": 14.594756803927558,
+    "ZeroToMax": 0.0,
+    "ScmToZero": 30.400353938122528,
+    "MaxToZero": 0.0,
     "Acceleration": {
       "Main": 82.76945044229296,
       "Retro": 39.73637946646235,
@@ -43,7 +46,10 @@
       "Retro": 4.051982971869273,
       "Vtol": 0.0,
       "Maneuvering": 4.696794190773367
-    }
+    },
+    "Pitch": 50.0,
+    "Yaw": 50.0,
+    "Roll": 156.0
   },
   "Propulsion": {
     "FuelCapacity": 45000.0,
@@ -76,17 +82,17 @@
   },
   "PilotHardpoints": [
     {
-      "Size": 1,
+      "Size": 0,
       "Fixed": true,
       "WeaponSizes": [
-        1
+        0
       ]
     },
     {
-      "Size": 1,
+      "Size": 0,
       "Fixed": true,
       "WeaponSizes": [
-        1
+        0
       ]
     },
     {
@@ -107,8 +113,8 @@
   "MannedTurrets": [],
   "RemoteTurrets": [],
   "Insurance": {
-    "StandardClaimTime": 0.675,
-    "ExpeditedClaimTime": 0.0,
+    "StandardClaimTime": 0.0,
+    "ExpeditedClaimTime": 0.675000011920929,
     "ExpeditedCost": 340.0
   }
 }

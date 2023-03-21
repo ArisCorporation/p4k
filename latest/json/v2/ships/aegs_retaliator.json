@@ -10,6 +10,9 @@
   "WeaponCrew": 5,
   "OperationsCrew": 0,
   "Mass": 343270.29,
+  "Width": 44.0,
+  "Height": 13.5,
+  "Length": 70.5,
   "IsSpaceship": true,
   "Manufacturer": {
     "Code": "AEG",
@@ -35,12 +38,12 @@
     "front_right_wing_flp_geom": 600.0
   },
   "FlightCharacteristics": {
-    "ScmSpeed": 138.0,
-    "MaxSpeed": 942.0,
-    "ZeroToScm": 3.7400894707172525,
-    "ZeroToMax": 25.530175952287333,
-    "ScmToZero": 8.049159529046184,
-    "MaxToZero": 54.94426287218482,
+    "ScmSpeed": 942.0,
+    "MaxSpeed": 0.0,
+    "ZeroToScm": 25.530175952287333,
+    "ZeroToMax": 0.0,
+    "ScmToZero": 54.94426287218482,
+    "MaxToZero": 0.0,
     "Acceleration": {
       "Main": 36.897513035573226,
       "Retro": 17.14464715253977,
@@ -52,7 +55,10 @@
       "Retro": 1.7482674378885206,
       "Vtol": 1.6212235678522584,
       "Maneuvering": 5.248741319502937
-    }
+    },
+    "Pitch": 36.0,
+    "Yaw": 36.0,
+    "Roll": 125.0
   },
   "Propulsion": {
     "FuelCapacity": 510000.0,
@@ -86,7 +92,7 @@
   "PilotHardpoints": [],
   "MannedTurrets": [
     {
-      "Size": 4,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         3,
@@ -94,7 +100,7 @@
       ]
     },
     {
-      "Size": 4,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         2,
@@ -102,7 +108,7 @@
       ]
     },
     {
-      "Size": 4,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         2,
@@ -110,7 +116,7 @@
       ]
     },
     {
-      "Size": 4,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         3,
@@ -118,7 +124,7 @@
       ]
     },
     {
-      "Size": 4,
+      "Size": 0,
       "Turret": true,
       "WeaponSizes": [
         3,
@@ -128,8 +134,8 @@
   ],
   "RemoteTurrets": [],
   "Insurance": {
-    "StandardClaimTime": 31.875,
-    "ExpeditedClaimTime": 10.625,
+    "StandardClaimTime": 10.625,
+    "ExpeditedClaimTime": 31.875,
     "ExpeditedCost": 15940.0
   }
 }

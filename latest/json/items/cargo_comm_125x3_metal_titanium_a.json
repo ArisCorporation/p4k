@@ -24,6 +24,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -32,7 +42,12 @@
           "subtype": "d963a638-ffc7-45b2-9f87-11932e412b64",
           "name": "@LOC_EMPTY",
           "description": "@LOC_EMPTY",
-          "IsUnrefinedElement": false
+          "IsUnrefinedElement": false,
+          "occupancy": {
+            "SStandardCargoUnit": {
+              "standardCargoUnits": 1.0
+            }
+          }
         }
       },
       "ClassName": "Cargo_Comm_125x3_Metal_Titanium_a",

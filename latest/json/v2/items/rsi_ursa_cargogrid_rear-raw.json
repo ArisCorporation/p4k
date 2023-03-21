@@ -15,21 +15,21 @@
         "Localization": {
           "Name": "@LOC_PLACEHOLDER",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
-    "SCItemCargoGridParams": {
-      "crateGenPercentageOnDestroy": 0.1,
-      "crateMaxOnDestroy": 20.0,
-      "personalInventory": false,
-      "invisible": false,
-      "miningOnly": false,
-      "minVolatilePowerToExplode": 0.0,
-      "dimensions": {
-        "x": 1.0,
-        "y": 2.0,
-        "z": 1.5
-      }
+    "SCItemInventoryContainerComponentParams": {
+      "containerParams": "de49f4eb-4e68-4505-b880-443c04760d42"
     }
   },
   "ClassName": "RSI_Ursa_CargoGrid_Rear",

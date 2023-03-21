@@ -12,7 +12,7 @@
   "Components": {
     "SAttachableComponentParams": {
       "AttachDef": {
-        "Type": "Turret",
+        "Type": "UtilityTurret",
         "SubType": "BallTurret",
         "Size": 1,
         "Grade": 1,
@@ -23,6 +23,16 @@
         "Localization": {
           "Name": "@item_NameGRIN_ROC_Mining_Turret",
           "Description": "@item_DescGRIN_ROC_Mining_Turret"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 84000.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.2233005,
+          "y": 2.211008,
+          "z": 0.801895
         }
       }
     },

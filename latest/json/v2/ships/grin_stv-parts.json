@@ -5,27 +5,27 @@
     "Parts": [
       {
         "Name": "AAsus_wheel_FL",
-        "MaximumDamage": 800.0,
+        "MaximumDamage": 1500.0,
         "Mass": 80.0,
-        "PartDetachDamage": 800.0
+        "PartDetachDamage": 1500.0
       },
       {
         "Name": "AAsus_wheel_FR",
-        "MaximumDamage": 800.0,
+        "MaximumDamage": 1500.0,
         "Mass": 80.0,
-        "PartDetachDamage": 800.0
+        "PartDetachDamage": 1500.0
       },
       {
         "Name": "AAsus_wheel_RL",
-        "MaximumDamage": 800.0,
+        "MaximumDamage": 1500.0,
         "Mass": 80.0,
-        "PartDetachDamage": 800.0
+        "PartDetachDamage": 1500.0
       },
       {
         "Name": "AAsus_wheel_RR",
-        "MaximumDamage": 800.0,
+        "MaximumDamage": 1500.0,
         "Mass": 80.0,
-        "PartDetachDamage": 800.0
+        "PartDetachDamage": 1500.0
       },
       {
         "Name": "ABsus_spindle_FL",
@@ -81,7 +81,7 @@
       },
       {
         "Name": "Body",
-        "MaximumDamage": 2000.0,
+        "MaximumDamage": 2500.0,
         "Parts": [
           {
             "Name": "hardpoint_armor",
@@ -99,10 +99,14 @@
                   "Code": "GRIN",
                   "Name": "Greycat Industrial"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.9,
-                    "Energy": 0.9,
+                    "Physical": 0.42,
+                    "Energy": 1.0,
                     "Distortion": 1.0,
                     "Thermal": 1.0,
                     "Biochemical": 1.0
@@ -161,7 +165,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"
@@ -185,7 +193,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -209,7 +221,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -233,7 +249,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -257,7 +277,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -300,7 +324,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -328,6 +356,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 10.0,
                   "PowerDraw": 50.0
@@ -360,6 +392,10 @@
                   "Code": "GRIN",
                   "Name": "Greycat Industrial"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 500.0
                 },
@@ -428,8 +464,18 @@
                 "Grade": 1,
                 "Type": "Cargo.UNDEFINED",
                 "Name": "PersonalStorage_GRIN_STV",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 1000.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.125,
+                  "x": 1.2,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "Types": [
@@ -458,7 +504,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -476,17 +526,21 @@
             "Port": {
               "PortName": "hardpoint_seat_access_driver",
               "Size": 4,
-              "Loadout": "GRIN_STV_SCItem_SeatAccess_Driver1",
+              "Loadout": "GRIN_STV_SCItem_SeatAccess_Driver",
               "InstalledItem": {
-                "ClassName": "GRIN_STV_SCItem_SeatAccess_Driver1",
+                "ClassName": "GRIN_STV_SCItem_SeatAccess_Driver",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "GRIN_STV_SCItem_SeatAccess_Driver1",
+                "Name": "GRIN_STV_SCItem_SeatAccess_Driver",
                 "Manufacturer": {
                   "Code": "GRIN",
                   "Name": "Greycat Industrial"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SeatAccess"
@@ -509,7 +563,11 @@
                 "Manufacturer": {
                   "Code": "GRIN",
                   "Name": "Greycat Industrial"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SeatAccess"
@@ -533,6 +591,10 @@
                   "Code": "GRIN",
                   "Name": "Greycat Industrial"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 500.0
                 }
@@ -563,6 +625,10 @@
                   "Code": "GRIN",
                   "Name": "Greycat Industrial"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 500.0
                 }
@@ -596,7 +662,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SelfDestruct"
@@ -621,6 +691,10 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Weapon_Rack_GRIN_STV_1Slot_Left",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$IP_weapon_01",
@@ -654,6 +728,10 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Weapon_Rack_GRIN_STV_1Slot_Right",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$IP_weapon_01",
@@ -687,13 +765,22 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Cargo_Slot_GRIN_STV_1Slot",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$proxy_cargo_01",
                     "Size": 4,
                     "Types": [
                       "Cargo",
-                      "Misc"
+                      "Misc",
+                      "Char_Armor_Arms",
+                      "Char_Armor_Legs",
+                      "Char_Armor_Torso",
+                      "Char_Armor_Helmet",
+                      "Container.Box"
                     ],
                     "Category": "Cargo grids"
                   }
@@ -722,13 +809,22 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Cargo_Slot_GRIN_STV_1Slot",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$proxy_cargo_01",
                     "Size": 4,
                     "Types": [
                       "Cargo",
-                      "Misc"
+                      "Misc",
+                      "Char_Armor_Arms",
+                      "Char_Armor_Legs",
+                      "Char_Armor_Torso",
+                      "Char_Armor_Helmet",
+                      "Container.Box"
                     ],
                     "Category": "Cargo grids"
                   }
@@ -764,8 +860,12 @@
                 "Tags": [
                   "ESPR_Talon_Base"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
-                  "Health": 500.0
+                  "Health": 1.0
                 }
               },
               "Types": [
@@ -795,6 +895,10 @@
                   "Code": "JSPN",
                   "Name": "J-Span"
                 },
+                "Width": 0.2233005,
+                "Height": 0.4009475,
+                "Length": 1.105504,
+                "Volume": 21000.0,
                 "Cooler": {
                   "Rate": 100000.0
                 },
@@ -849,6 +953,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -909,6 +1017,10 @@
                   "Code": "JUST",
                   "Name": "Juno Starwerk"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerPlant": {
                   "Output": 720.0
                 },
@@ -934,37 +1046,37 @@
           },
           {
             "Name": "mesh_bonnet_plate",
+            "MaximumDamage": 500.0,
+            "PartDetachDamage": 500.0
+          },
+          {
+            "Name": "Bonnet_Arm",
             "MaximumDamage": 250.0,
             "PartDetachDamage": 250.0
           },
           {
-            "Name": "Bonnet_Arm",
-            "MaximumDamage": 50.0,
-            "PartDetachDamage": 50.0
-          },
-          {
             "Name": "fender_fr",
-            "MaximumDamage": 50.0,
-            "PartDetachDamage": 50.0
+            "MaximumDamage": 250.0,
+            "PartDetachDamage": 250.0
           },
           {
             "Name": "fender_rl",
-            "MaximumDamage": 50.0,
-            "PartDetachDamage": 50.0
+            "MaximumDamage": 250.0,
+            "PartDetachDamage": 250.0
           },
           {
             "Name": "fender_rr",
-            "MaximumDamage": 50.0,
-            "PartDetachDamage": 50.0
+            "MaximumDamage": 250.0,
+            "PartDetachDamage": 250.0
           },
           {
             "Name": "fender_fl",
-            "MaximumDamage": 50.0,
-            "PartDetachDamage": 50.0
+            "MaximumDamage": 250.0,
+            "PartDetachDamage": 250.0
           }
         ],
-        "ShipDestructionDamage": 2000.0,
-        "PartDetachDamage": 2000.0
+        "ShipDestructionDamage": 2500.0,
+        "PartDetachDamage": 2500.0
       },
       {
         "Name": "massBox",

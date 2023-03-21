@@ -29,6 +29,16 @@
         "Localization": {
           "Name": "@item_Name_rsi_utility_heavy_suit_01_01_03",
           "Description": "@item_Desc_rsi_utility_heavy_suit_01_01_03"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 572000.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.785,
+          "y": 0.572,
+          "z": 1.594
         }
       }
     },
@@ -368,18 +378,6 @@
           ]
         },
         {
-          "Name": "Armor_Torso",
-          "DisplayName": "",
-          "PortTags": "",
-          "RequiredPortTags": "fakePortForThetaGeo",
-          "Flags": "",
-          "MinSize": 0,
-          "MaxSize": 0,
-          "InteractionPointSize": -1.0,
-          "DefaultWeaponGroup": "UNDEFINED",
-          "Types": []
-        },
-        {
           "Name": "wep_stocked_2",
           "DisplayName": "wep_stocked_2",
           "PortTags": "",
@@ -419,6 +417,9 @@
               "SubTypes": [
                 {
                   "value": "Magazine"
+                },
+                {
+                  "value": ""
                 }
               ]
             },
@@ -595,6 +596,14 @@
                   "value": "Grenade"
                 }
               ]
+            },
+            {
+              "Type": "",
+              "SubTypes": [
+                {
+                  "value": ""
+                }
+              ]
             }
           ]
         },
@@ -674,7 +683,11 @@
           "Types": [
             {
               "Type": "FPS_Consumable",
-              "SubTypes": []
+              "SubTypes": [
+                {
+                  "value": ""
+                }
+              ]
             }
           ]
         },
@@ -718,8 +731,35 @@
               ]
             }
           ]
+        },
+        {
+          "Name": "",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 0,
+          "MaxSize": 0,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": [
+            {
+              "Type": "",
+              "SubTypes": [
+                {
+                  "value": ""
+                },
+                {
+                  "value": ""
+                }
+              ]
+            }
+          ]
         }
       ]
+    },
+    "SCItemInventoryContainerComponentParams": {
+      "containerParams": "4e5ed51a-a32c-48f2-952d-6c83f6c81eaa"
     }
   },
   "ClassName": "rsi_utility_heavy_suit_01_01_03",

@@ -21,11 +21,21 @@
             "Localization": {
               "Name": "@item_NamePOWR_AEGS_S01_Regulus",
               "Description": "@item_DescPOWR_AEGS_S01_Regulus"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 84000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.2233005,
+              "y": 2.211008,
+              "z": 0.801895
             }
           }
         },
         "SHealthComponentParams": {
-          "Health": 750.0,
+          "Health": 1500.0,
           "DamageResistances": {
             "DamageResistance": {
               "PhysicalResistance": {
@@ -98,10 +108,10 @@
           "MisfireMaxTemperature": 900.0
         },
         "SDistortionParams": {
-          "DecayRate": 144.0,
-          "Maximum": 4320.0,
+          "DecayRate": 20.0,
+          "Maximum": 6000.0,
           "OverloadRatio": 0.0,
-          "RecoveryRatio": 0.3,
+          "RecoveryRatio": 0.0,
           "RecoveryTime": 0.0
         },
         "SEntityInteractableParams": {

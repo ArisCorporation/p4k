@@ -17,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -140,11 +150,27 @@
               }
             ]
           }
+        },
+        "SInventoryParams": {
+          "capacity": {
+            "SCentiCargoUnit": {
+              "centiSCU": 500.0
+            }
+          }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "56b28d71-d6ec-4c60-9f19-93c15cb4ff7f"
         }
       },
       "ClassName": "PersonalStorage_GRIN_STV",
       "__ref": "9749b221-ac93-43ec-8925-61f5bebdca1d",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.125,
+    "x": 1.2,
+    "y": 1.0,
+    "z": 1.0
   }
 }

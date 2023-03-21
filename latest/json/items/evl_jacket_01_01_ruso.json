@@ -40,6 +40,16 @@
             "Localization": {
               "Name": "@item_Name_EVL_Jacket_01_01_ruso",
               "Description": "@item_Desc_EVL_Jacket_01_01_ruso"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 8700.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.356,
+              "y": 0.183,
+              "z": 0.166
             }
           }
         },
@@ -176,11 +186,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "674597c6-2de0-4fda-b382-e46288cc0ac7"
         }
       },
       "ClassName": "evl_jacket_01_01_ruso",
       "__ref": "bf6026f8-9795-4219-b38d-55299d02866e",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.01,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

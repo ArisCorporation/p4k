@@ -4,11 +4,25 @@
       "StaticEntityClassData": {
         "DefaultEntitlementEntityParams": {
           "entitlementPolicy": "8a1fdd48-7896-4774-a110-2466190e1a07"
+        },
+        "SEntityInsuranceProperties": {
+          "shipInsuranceParams": {
+            "shipEntityClassName": "DRAK_Corsair",
+            "baseWaitTimeMinutes": 13.5,
+            "mandatoryWaitTimeMinutes": 4.5,
+            "baseExpeditingFee": 6750.0
+          }
         }
       },
       "tags": [
         {
-          "value": "00000000-0000-0000-0000-000000000000"
+          "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
+        },
+        {
+          "value": "63897a88-9b61-476d-94f4-1fe138ca648e"
+        },
+        {
+          "value": "5a206ca4-ad01-46b2-bc2b-59de612cf979"
         }
       ],
       "Components": {
@@ -28,7 +42,12 @@
           "vehicleCareer": "@vehicle_focus_exploration",
           "vehicleCareerRef": "605f6ca1-9eae-4d78-9f7f-71288d44dada",
           "vehicleRole": "@vehicle_class_expedition",
-          "vehicleRoleRef": "bdf53a4c-0fce-442f-9222-e438792d7b75"
+          "vehicleRoleRef": "bdf53a4c-0fce-442f-9222-e438792d7b75",
+          "maxBoundingBoxSize": {
+            "x": 30.0,
+            "y": 53.0,
+            "z": 25.0
+          }
         },
         "SEntityComponentDefaultLoadoutParams": {
           "loadout": {
@@ -770,11 +789,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_door_docking",
-                  "entityClassName": "",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_docking_collar",
                   "entityClassName": "DRAK_Corsair_Docking_Collar",
                   "loadout": {}
@@ -881,6 +895,16 @@
             "Localization": {
               "Name": "@vehicle_NameDRAK_Corsair",
               "Description": "@vehicle_DescDRAK_Corsair"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -2250,6 +2274,10 @@
                               {
                                 "itemType": "SeatAccess",
                                 "defaultPriority": "exclusive_control"
+                              },
+                              {
+                                "itemType": "Elevator",
+                                "defaultPriority": "exclusive_control"
                               }
                             ]
                           }
@@ -3331,7 +3359,7 @@
                         "flags": "selfphys uneditable",
                         "Types": [
                           {
-                            "type": "Cargo",
+                            "type": "CargoGrid",
                             "subtypes": ""
                           }
                         ]

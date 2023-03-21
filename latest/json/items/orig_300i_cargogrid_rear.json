@@ -6,7 +6,7 @@
       "Components": {
         "SAttachableComponentParams": {
           "AttachDef": {
-            "Type": "Cargo",
+            "Type": "CargoGrid",
             "SubType": "UNDEFINED",
             "Size": 1,
             "Grade": 1,
@@ -17,20 +17,17 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
-          }
-        },
-        "SCItemCargoGridParams": {
-          "crateGenPercentageOnDestroy": 0.1,
-          "crateMaxOnDestroy": 20.0,
-          "personalInventory": false,
-          "invisible": false,
-          "miningOnly": false,
-          "minVolatilePowerToExplode": 0.0,
-          "dimensions": {
-            "x": 2.5,
-            "y": 2.5,
-            "z": 1.25
           }
         },
         "EntityComponentPowerConnection": {
@@ -74,11 +71,20 @@
           "Interactable": {
             "SharedInteractions": []
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "ee68d155-ce3c-4028-aa67-75064ff97892"
         }
       },
       "ClassName": "ORIG_300i_CargoGrid_Rear",
       "__ref": "e4878bf9-a51e-43e8-8030-854bb110eee3",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.0,
+    "x": 2.5,
+    "y": 2.5,
+    "z": 1.25
   }
 }

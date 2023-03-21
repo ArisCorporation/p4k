@@ -6,7 +6,7 @@
       "Components": {
         "SAttachableComponentParams": {
           "AttachDef": {
-            "Type": "Cargo",
+            "Type": "CargoGrid",
             "SubType": "UNDEFINED",
             "Size": 1,
             "Grade": 1,
@@ -17,20 +17,17 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
-          }
-        },
-        "SCItemCargoGridParams": {
-          "crateGenPercentageOnDestroy": 0.1,
-          "crateMaxOnDestroy": 20.0,
-          "personalInventory": false,
-          "invisible": false,
-          "miningOnly": false,
-          "minVolatilePowerToExplode": 0.0,
-          "dimensions": {
-            "x": 6.25,
-            "y": 2.5,
-            "z": 6.25
           }
         },
         "EntityComponentPowerConnection": {
@@ -74,11 +71,20 @@
           "Interactable": {
             "SharedInteractions": []
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "8bed69d5-06e4-4933-9cc7-b9c8b4813e00"
         }
       },
       "ClassName": "MISC_Starfarer_CargoGrid_Side",
       "__ref": "c840d57e-449e-4cf6-b1dc-85e75297013a",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.0,
+    "x": 6.25,
+    "y": 2.5,
+    "z": 6.25
   }
 }

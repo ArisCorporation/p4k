@@ -6,7 +6,7 @@
       "Components": {
         "SAttachableComponentParams": {
           "AttachDef": {
-            "Type": "Cargo",
+            "Type": "CargoGrid",
             "SubType": "UNDEFINED",
             "Size": 1,
             "Grade": 1,
@@ -17,20 +17,17 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
-          }
-        },
-        "SCItemCargoGridParams": {
-          "crateGenPercentageOnDestroy": 0.1,
-          "crateMaxOnDestroy": 20.0,
-          "personalInventory": false,
-          "invisible": false,
-          "miningOnly": false,
-          "minVolatilePowerToExplode": 0.0,
-          "dimensions": {
-            "x": 7.5,
-            "y": 11.25,
-            "z": 5.0
           }
         },
         "EntityComponentPowerConnection": {
@@ -74,11 +71,20 @@
           "Interactable": {
             "SharedInteractions": []
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "b30f3329-6944-4d43-a1df-9a9007d15a59"
         }
       },
       "ClassName": "CRUS_Starlifter_CargoGrid_Small",
       "__ref": "efad5058-d7e8-48c9-8770-e60b04d64b55",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.0,
+    "x": 7.5,
+    "y": 11.25,
+    "z": 5.0
   }
 }

@@ -17,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -134,14 +144,51 @@
                 "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
+              },
+              {
+                "Name": "Inventory_Open",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_open_storage",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
+              },
+              {
+                "Name": "Inventory_Close",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_close",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
               }
             ]
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "f6a7ee14-89e2-4fd3-b11d-be8bf1dda5e6"
         }
       },
       "ClassName": "XIAN_Nox_SCItem_SeatAccess",
       "__ref": "0a9f477d-2498-436e-9bfd-0333dd5d1d61",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.075,
+    "x": 1.2,
+    "y": 1.0,
+    "z": 1.0
   }
 }

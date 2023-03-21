@@ -37,6 +37,16 @@
             "Localization": {
               "Name": "@item_Name_cba_nurse_pants_01_01_04",
               "Description": "@item_Desc_cba_nurse_pants_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 96398.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.4231768,
+              "y": 0.2821741,
+              "z": 1.009113
             }
           }
         },
@@ -173,11 +183,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "1f5246a7-9ddd-4557-a7a9-ec5cc752f096"
         }
       },
       "ClassName": "cba_nurse_pants_01_01_04",
       "__ref": "5678c25a-cb19-4075-9b46-f9620a34668a",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.0005,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

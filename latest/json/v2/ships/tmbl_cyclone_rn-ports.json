@@ -24,15 +24,19 @@
           "Code": "SECO",
           "Name": "Seal Corporation"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Shield": {
           "Health": 750.0,
           "Regeneration": 187.5,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -95,6 +99,10 @@
           "Code": "LPLT",
           "Name": "Lightning Power Ltd."
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "PowerPlant": {
           "Output": 610.0
         },
@@ -137,6 +145,10 @@
           "Code": "JSPN",
           "Name": "J-Span"
         },
+        "Width": 0.2233005,
+        "Height": 0.4009475,
+        "Length": 1.105504,
+        "Volume": 21000.0,
         "Cooler": {
           "Rate": 100000.0
         },
@@ -172,7 +184,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "FuelTank"
       ],
@@ -187,7 +199,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "FuelIntake"
       ],
@@ -204,7 +216,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -215,6 +227,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -231,7 +247,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Ping"
       ],
@@ -244,7 +260,7 @@
     },
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],
@@ -269,6 +285,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },

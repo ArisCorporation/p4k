@@ -17,12 +17,22 @@
             "Localization": {
               "Name": "@item_Name_FLGT_Controller",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
         "IFCSParams": {
-          "maxSpeed": 190.0,
-          "maxAfterburnSpeed": 1095.0,
+          "maxSpeed": 1095.0,
+          "maxAfterburnSpeed": 0.0,
           "torqueDistanceThreshold": -1.0,
           "refreshCachesOnLandingMode": false,
           "coefficientOfLift": 0.0,
@@ -33,7 +43,12 @@
           "groundTurbulenceAmplitude": 0.75,
           "precisionMinDistance": 5.0,
           "precisionMaxDistance": 90.0,
-          "precisionLandingMultiplier": 1.0
+          "precisionLandingMultiplier": 1.0,
+          "maxAngularVelocity": {
+            "x": 53.0,
+            "y": 212.0,
+            "z": 53.0
+          }
         },
         "SEntityInteractableParams": {
           "Interactable": {

@@ -40,6 +40,16 @@
             "Localization": {
               "Name": "@item_Name_scu_jacket_03_01_02",
               "Description": "@item_Desc_scu_jacket_03_01_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 8700.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.356,
+              "y": 0.183,
+              "z": 0.166
             }
           }
         },
@@ -176,11 +186,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "c1cf3b50-454b-49eb-9360-f148ce65b785"
         }
       },
       "ClassName": "scu_jacket_03_01_02",
       "__ref": "00b6bb1c-664e-402f-a1c3-2f41b8e20a07",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.003,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

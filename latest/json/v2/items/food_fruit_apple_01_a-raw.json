@@ -5,6 +5,9 @@
       "value": "5e11a544-7fea-4160-b2bf-98c6cf9ee9df"
     },
     {
+      "value": "00ead468-9073-485b-a6df-ca6b94053603"
+    },
+    {
       "value": "0969b307-e268-402c-94b9-ce85db787b00"
     },
     {
@@ -40,6 +43,16 @@
         "Localization": {
           "Name": "@item_NameFood_fruit_apple_01_a",
           "Description": "@item_DescFood_fruit_apple_01_a"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 680.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.0838,
+          "y": 0.085,
+          "z": 0.113
         }
       }
     },
@@ -48,7 +61,12 @@
       "subtype": "26b6e285-e0f0-483c-aa83-d8baa25c83a9",
       "name": "@item_NameFood_fruit_apple_01_a",
       "description": "@item_DescFood_fruit_apple_01_a",
-      "IsUnrefinedElement": false
+      "IsUnrefinedElement": false,
+      "occupancy": {
+        "SMicroCargoUnit": {
+          "microSCU": 800.0
+        }
+      }
     },
     "SEntityInteractableParams": {
       "Interactable": {
@@ -152,6 +170,17 @@
             "available": true
           }
         ]
+      }
+    },
+    "SCItemConsumableParams": {
+      "containerTypeTag": "fruit",
+      "oneShotConsume": true,
+      "canBeReclosed": false,
+      "discardWhenConsumed": true,
+      "consumableVolume": {
+        "SMicroCargoUnit": {
+          "microSCU": 1.0
+        }
       }
     }
   },

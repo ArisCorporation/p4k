@@ -17,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -78,14 +88,37 @@
                 "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
+              },
+              {
+                "Name": "Inventory_Open",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_open_storage",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
               }
             ]
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "868e7e70-0ac9-451d-9863-f1ff178925a2"
         }
       },
       "ClassName": "TMBL_Cyclone_SCItem_SeatAccess",
       "__ref": "2b5ae9ee-a264-47b2-8cda-17f1daa39fed",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.1,
+    "x": 1.2,
+    "y": 1.0,
+    "z": 1.0
   }
 }

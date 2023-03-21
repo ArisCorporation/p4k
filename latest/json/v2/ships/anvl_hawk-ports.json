@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_wing_top_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_LaserCannon_S2",
       "InstalledItem": {
         "ClassName": "BEHR_LaserCannon_S2",
@@ -21,6 +21,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -119,7 +123,7 @@
     },
     {
       "PortName": "hardpoint_weapon_wing_bottom_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_LaserCannon_S2",
       "InstalledItem": {
         "ClassName": "BEHR_LaserCannon_S2",
@@ -138,6 +142,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -236,7 +244,7 @@
     },
     {
       "PortName": "hardpoint_weapon_wing_top_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_LaserCannon_S2",
       "InstalledItem": {
         "ClassName": "BEHR_LaserCannon_S2",
@@ -255,6 +263,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -353,7 +365,7 @@
     },
     {
       "PortName": "hardpoint_weapon_wing_bottom_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "BEHR_LaserCannon_S2",
       "InstalledItem": {
         "ClassName": "BEHR_LaserCannon_S2",
@@ -372,6 +384,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 850.0,
           "Lifetime": 20.0
@@ -470,7 +486,7 @@
     },
     {
       "PortName": "hardpoint_weapon_nose_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "JOKR_DistortionCannon_S1",
       "InstalledItem": {
         "ClassName": "JOKR_DistortionCannon_S1",
@@ -489,6 +505,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -508,7 +528,9 @@
             "Range": 1225.0,
             "Size": 1.0,
             "Capacity": 0.0,
-            "ImpactDamage": {},
+            "ImpactDamage": {
+              "Energy": 0.0001
+            },
             "DetonationDamage": {
               "Distortion": 120.0
             }
@@ -522,9 +544,11 @@
               "AmmoPerShot": 1.0,
               "PelletsPerShot": 1.0,
               "DamagePerShot": {
+                "Energy": 0.0001,
                 "Distortion": 120.0
               },
               "DamagePerSecond": {
+                "Energy": 0.000155,
                 "Distortion": 186.0
               }
             }
@@ -541,7 +565,9 @@
           "Range": 1225.0,
           "Size": 1.0,
           "Capacity": 0.0,
-          "ImpactDamage": {},
+          "ImpactDamage": {
+            "Energy": 0.0001
+          },
           "DetonationDamage": {
             "Distortion": 120.0
           }
@@ -559,7 +585,11 @@
               "Name": "JOKR_DistortionCannon_Barrel_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.Barrel"
@@ -578,7 +608,11 @@
               "Name": "JOKR_DistortionCannon_FiringMechanism_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.FiringMechanism"
@@ -597,7 +631,11 @@
               "Name": "JOKR_DistortionCannon_PowerArray_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.PowerArray"
@@ -616,7 +654,11 @@
               "Name": "JOKR_DistortionCannon_Ventilation_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.Ventilation"
@@ -633,7 +675,7 @@
     },
     {
       "PortName": "hardpoint_weapon_nose_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "JOKR_DistortionCannon_S1",
       "InstalledItem": {
         "ClassName": "JOKR_DistortionCannon_S1",
@@ -652,6 +694,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 550.0,
           "Lifetime": 20.0
@@ -671,7 +717,9 @@
             "Range": 1225.0,
             "Size": 1.0,
             "Capacity": 0.0,
-            "ImpactDamage": {},
+            "ImpactDamage": {
+              "Energy": 0.0001
+            },
             "DetonationDamage": {
               "Distortion": 120.0
             }
@@ -685,9 +733,11 @@
               "AmmoPerShot": 1.0,
               "PelletsPerShot": 1.0,
               "DamagePerShot": {
+                "Energy": 0.0001,
                 "Distortion": 120.0
               },
               "DamagePerSecond": {
+                "Energy": 0.000155,
                 "Distortion": 186.0
               }
             }
@@ -704,7 +754,9 @@
           "Range": 1225.0,
           "Size": 1.0,
           "Capacity": 0.0,
-          "ImpactDamage": {},
+          "ImpactDamage": {
+            "Energy": 0.0001
+          },
           "DetonationDamage": {
             "Distortion": 120.0
           }
@@ -722,7 +774,11 @@
               "Name": "JOKR_DistortionCannon_Barrel_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.Barrel"
@@ -741,7 +797,11 @@
               "Name": "JOKR_DistortionCannon_FiringMechanism_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.FiringMechanism"
@@ -760,7 +820,11 @@
               "Name": "JOKR_DistortionCannon_PowerArray_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.PowerArray"
@@ -779,7 +843,11 @@
               "Name": "JOKR_DistortionCannon_Ventilation_S1",
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.Ventilation"
@@ -805,7 +873,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasure_left",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "ANVL_CML_Decoy_Small",
       "InstalledItem": {
         "ClassName": "ANVL_CML_Decoy_Small",
@@ -818,6 +886,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -866,7 +938,7 @@
     },
     {
       "PortName": "hardpoint_countermeasure_right",
-      "Size": 3,
+      "Size": 0,
       "Loadout": "ANVL_CML_Noise_Small",
       "InstalledItem": {
         "ClassName": "ANVL_CML_Noise_Small",
@@ -879,6 +951,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -929,7 +1005,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
@@ -942,15 +1018,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -975,7 +1055,7 @@
           }
         },
         "Durability": {
-          "Health": 125.0,
+          "Health": 1054.0,
           "Lifetime": 20.0
         },
         "PowerConnection": {
@@ -998,7 +1078,7 @@
     },
     {
       "PortName": "hardpoint_shield_generator_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
@@ -1011,15 +1091,19 @@
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -1044,7 +1128,7 @@
           }
         },
         "Durability": {
-          "Health": 125.0,
+          "Health": 1054.0,
           "Lifetime": 20.0
         },
         "PowerConnection": {
@@ -1069,7 +1153,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_power_plant",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_AEGS_S01_Regulus_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_AEGS_S01_Regulus_SCItem",
@@ -1082,11 +1166,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 4000.0
         },
         "Durability": {
-          "Health": 750.0,
+          "Health": 1500.0,
           "Lifetime": 22.0
         },
         "PowerConnection": {
@@ -1111,7 +1199,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -1124,11 +1212,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -1151,7 +1243,7 @@
     },
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -1164,11 +1256,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -1193,7 +1289,7 @@
   "QuantumDrives": [
     {
       "PortName": "hardpoint_quantum_drive",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QDRV_ARCC_S01_Rush_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_ARCC_S01_Rush_SCItem",
@@ -1206,6 +1302,10 @@
           "Code": "ARCC",
           "Name": "ArcCorp"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 1.0682000000000001E-08,
           "JumpRange": 3.402823E+38,
@@ -1225,7 +1325,7 @@
           }
         },
         "Durability": {
-          "Health": 470.0,
+          "Health": 1054.0,
           "Lifetime": 3.85
         },
         "PowerConnection": {
@@ -1250,7 +1350,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "hardpoint_quantum_fuel_tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_ANVL_Hawk",
       "InstalledItem": {
         "ClassName": "QTNK_ANVL_Hawk",
@@ -1261,6 +1361,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 583.33
         }
@@ -1279,7 +1383,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_main_thruster_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Main",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Main",
@@ -1291,6 +1395,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3256278.0,
           "FuelRate": 6.55375E-06,
@@ -1324,7 +1432,7 @@
     },
     {
       "PortName": "hardpoint_main_thruster_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Main",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Main",
@@ -1336,6 +1444,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 3256278.0,
           "FuelRate": 6.55375E-06,
@@ -1371,7 +1483,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_retro_thruster_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Retro",
@@ -1383,6 +1495,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1114319.0,
           "FuelRate": 6.55375E-06,
@@ -1415,7 +1531,7 @@
     },
     {
       "PortName": "hardpoint_retro_thruster_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Retro",
@@ -1427,6 +1543,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 1114319.0,
           "FuelRate": 6.55375E-06,
@@ -1461,7 +1581,7 @@
   "VtolThrusters": [
     {
       "PortName": "hardpoint_vtol_thruster",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "ManneuverThruster"
       ],
@@ -1478,7 +1598,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_mav_thruster_left_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Fixed",
@@ -1490,6 +1610,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 786144.8,
           "FuelRate": 3.125E-06,
@@ -1525,7 +1649,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_left_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Joint",
@@ -1537,6 +1661,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 773712.3,
           "FuelRate": 3.125E-06,
@@ -1572,7 +1700,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_right_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Fixed",
@@ -1584,6 +1712,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 786144.8,
           "FuelRate": 3.125E-06,
@@ -1619,7 +1751,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_right_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Joint",
@@ -1631,6 +1763,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 773712.3,
           "FuelRate": 3.125E-06,
@@ -1666,7 +1802,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_body_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Joint",
@@ -1678,6 +1814,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 773712.3,
           "FuelRate": 3.125E-06,
@@ -1712,7 +1852,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_body_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Joint",
@@ -1724,6 +1864,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 773712.3,
           "FuelRate": 3.125E-06,
@@ -1758,7 +1902,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_body_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Joint",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Joint",
@@ -1770,6 +1914,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 773712.3,
           "FuelRate": 3.125E-06,
@@ -1804,7 +1952,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_tail_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Fixed",
@@ -1816,6 +1964,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 786144.8,
           "FuelRate": 3.125E-06,
@@ -1850,7 +2002,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_tail_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Fixed",
@@ -1862,6 +2014,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 786144.8,
           "FuelRate": 3.125E-06,
@@ -1896,7 +2052,7 @@
     },
     {
       "PortName": "hardpoint_mav_thruster_tail_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_Thruster_Mav_Fixed",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_Thruster_Mav_Fixed",
@@ -1908,6 +2064,10 @@
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 786144.8,
           "FuelRate": 3.125E-06,
@@ -1944,7 +2104,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_ANVL_Hawk",
       "InstalledItem": {
         "ClassName": "HTNK_ANVL_Hawk",
@@ -1955,6 +2115,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 52500.0
         }
@@ -1971,7 +2135,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_ANVL_Hawk",
       "InstalledItem": {
         "ClassName": "HTNK_ANVL_Hawk",
@@ -1982,6 +2146,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 52500.0
         }
@@ -2000,7 +2168,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_ANVL_Hawk",
       "InstalledItem": {
         "ClassName": "INTK_ANVL_Hawk",
@@ -2011,6 +2179,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -2036,7 +2208,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_ANVL_Hawk",
       "InstalledItem": {
         "ClassName": "INTK_ANVL_Hawk",
@@ -2047,6 +2219,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -2074,7 +2250,7 @@
   "InterdictionHardpoints": [
     {
       "PortName": "hardpoint_missile_emp",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "ANVL_Hawk_EMP_Device_S2",
       "InstalledItem": {
         "ClassName": "ANVL_Hawk_EMP_Device_S2",
@@ -2082,7 +2258,7 @@
         "Grade": 1,
         "Type": "EMP.UNDEFINED",
         "Name": "TroMag Burst Generator",
-        "Description": "Item Type: Burst Generator\nManufacturer: MaxOx\nSize: 1\nDamage Type: EMP\n\nThe TroMag from MaxOx is a well-designed and reliable EMP-focused burst generator. Its popularity has risen over the years as pilots look for alternatives to Behring’s REP-8. The TroMag boasts a faster charge time than their main competitor but has a smaller effective radius, leaving pilots to decide whether they prefer speed or size.",
+        "Description": "Manufacturer: MaxOx\nItem Type: Burst Generator\nSize: 1\nDamage Type: EMP\n\nThe TroMag from MaxOx is a well-designed and reliable EMP-focused burst generator. Its popularity has risen over the years as pilots look for alternatives to Behring’s REP-8. The TroMag boasts a faster charge time than their main competitor but has a smaller effective radius, leaving pilots to decide whether they prefer speed or size.",
         "Manufacturer": {
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
@@ -2090,6 +2266,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 252000.0,
         "Durability": {
           "Health": 150.0,
           "Lifetime": 1440.0
@@ -2124,7 +2304,7 @@
   "Avionics": [
     {
       "PortName": "hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],
@@ -2137,7 +2317,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -2148,7 +2328,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -2162,7 +2346,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -2173,6 +2357,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -2189,7 +2377,7 @@
     },
     {
       "PortName": "hardpoint_radar",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_WLOP_S01_Capstan",
       "InstalledItem": {
         "ClassName": "RADR_WLOP_S01_Capstan",
@@ -2201,6 +2389,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },

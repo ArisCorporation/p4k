@@ -61,6 +61,16 @@
         "Localization": {
           "Name": "@item_Name_cds_legacy_armor_medium_helmet_01_01_08",
           "Description": "@item_Desc_cds_legacy_medium_armor_01_helmet"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 17000.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.24,
+          "y": 0.272,
+          "z": 0.317
         }
       }
     },
@@ -138,7 +148,7 @@
             "available": true
           },
           {
-            "Name": "Equip",
+            "Name": "EquipToWear",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@interaction_equip",
@@ -162,6 +172,9 @@
     },
     "SCItemSuitArmorParams": {
       "damageResistance": "6380c701-7466-42ef-8c31-5fa7cb59117c"
+    },
+    "SCItemSuitHelmetParams": {
+      "atmosphereCapacity": 0.02
     },
     "SItemPortContainerComponentParams": {
       "PortFlags": "",

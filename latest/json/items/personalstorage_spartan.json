@@ -17,6 +17,16 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -140,11 +150,27 @@
               }
             ]
           }
+        },
+        "SInventoryParams": {
+          "capacity": {
+            "SCentiCargoUnit": {
+              "centiSCU": 200.0
+            }
+          }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "c20ea96e-6d31-44fb-aa89-7b87401edb7f"
         }
       },
       "ClassName": "PersonalStorage_SPARTAN",
       "__ref": "935afdcf-786f-43fd-9def-2eb658701182",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.5,
+    "x": 0.5,
+    "y": 0.7,
+    "z": 1.3
   }
 }

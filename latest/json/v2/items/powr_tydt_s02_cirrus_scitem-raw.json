@@ -19,11 +19,21 @@
         "Localization": {
           "Name": "@item_Name_POWR_TYDT_S02_Cirrus",
           "Description": "@item_Desc_POWR_TYDT_S02_Cirrus"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 252000.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.4466009,
+          "y": 3.316511,
+          "z": 0.801895
         }
       }
     },
     "SHealthComponentParams": {
-      "Health": 660.0,
+      "Health": 3000.0,
       "DamageResistances": {
         "DamageResistance": {
           "PhysicalResistance": {
@@ -96,10 +106,10 @@
       "MisfireMaxTemperature": 900.0
     },
     "SDistortionParams": {
-      "DecayRate": 240.0,
-      "Maximum": 4800.0,
+      "DecayRate": 40.0,
+      "Maximum": 12000.0,
       "OverloadRatio": 0.0,
-      "RecoveryRatio": 0.3,
+      "RecoveryRatio": 0.0,
       "RecoveryTime": 0.0
     },
     "SEntityInteractableParams": {

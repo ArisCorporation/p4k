@@ -40,6 +40,16 @@
             "Localization": {
               "Name": "@item_Name_CTL_Pants_01_01_01",
               "Description": "@item_Desc_CTL_Pants_01_01_Shared"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 7300.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.308,
+              "y": 0.109,
+              "z": 0.256
             }
           }
         },
@@ -176,11 +186,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "3afdb4b4-7f94-4166-9479-7160053c6422"
         }
       },
       "ClassName": "ctl_pants_01_01_01",
       "__ref": "eb34de82-ec46-4d5d-90db-f34318c2e8cd",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.001,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

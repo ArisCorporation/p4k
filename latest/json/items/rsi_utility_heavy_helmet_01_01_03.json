@@ -60,6 +60,16 @@
             "Localization": {
               "Name": "@item_Name_rsi_utility_heavy_helmet_01_01_03",
               "Description": "@item_Desc_rsi_utility_heavy_helmet_01_01_03"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 19000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.244,
+              "y": 0.298,
+              "z": 0.335
             }
           }
         },
@@ -137,7 +147,7 @@
                 "available": true
               },
               {
-                "Name": "Equip",
+                "Name": "EquipToWear",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_equip",
@@ -161,6 +171,9 @@
         },
         "SCItemSuitArmorParams": {
           "damageResistance": "48b29539-4f56-4bc2-b844-7031ea03e949"
+        },
+        "SCItemSuitHelmetParams": {
+          "atmosphereCapacity": 0.02
         },
         "SItemPortContainerComponentParams": {
           "PortFlags": "",

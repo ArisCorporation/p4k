@@ -7,6 +7,9 @@
           "value": "37ba7ad8-8553-45df-a84b-c49eb6ebb7a6"
         },
         {
+          "value": "00ead468-9073-485b-a6df-ca6b94053603"
+        },
+        {
           "value": "c3f3f211-c145-49b3-a4b8-2b388bc2dd84"
         },
         {
@@ -17,7 +20,7 @@
         "SAttachableComponentParams": {
           "AttachDef": {
             "Type": "Cargo",
-            "SubType": "Cargo",
+            "SubType": "Handheld",
             "Size": 2,
             "Grade": 1,
             "Manufacturer": "00000000-0000-0000-0000-000000000000",
@@ -27,6 +30,16 @@
             "Localization": {
               "Name": "@items_commodities_acryliplex",
               "Description": "@items_commodities_acryliplex_desc"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 128024.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.5040002,
+              "y": 0.5040002,
+              "z": 0.5040002
             }
           }
         },
@@ -60,13 +73,6 @@
               }
             }
           }
-        },
-        "CommodityComponentParams": {
-          "type": "d8451c7f-aeb5-49c5-9e71-ef123ea03fba",
-          "subtype": "12d7a202-da6c-4e4d-b442-d1c36116d18b",
-          "name": "@items_commodities_acryliplex",
-          "description": "@items_commodities_acryliplex_desc",
-          "IsUnrefinedElement": false
         },
         "SEntityInteractableParams": {
           "Interactable": {

@@ -11,6 +11,10 @@
   "Tags": [
     "TMBL_Cyclone_Module"
   ],
+  "Width": 0.15,
+  "Height": 0.15,
+  "Length": 0.15,
+  "Volume": 1.0,
   "Durability": {
     "Health": 200.0
   },
@@ -23,21 +27,25 @@
         "ClassName": "TMBL_Cyclone_CargoGrid_Main",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
+        "Type": "CargoGrid.UNDEFINED",
         "Name": "TMBL_Cyclone_CargoGrid_Main",
         "Manufacturer": {
           "Code": "TMBL",
           "Name": "Tumbril Land Systems"
         },
-        "CargoGrid": {
-          "Capacity": 1.0,
-          "Width": 1.25,
-          "Height": 1.25,
-          "Depth": 1.25
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 1.25,
+          "z": 1.25
         }
       },
       "Types": [
-        "Cargo"
+        "CargoGrid"
       ],
       "Flags": [
         "selfphys",
@@ -59,6 +67,10 @@
           "Code": "TMBL",
           "Name": "Tumbril Land Systems"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 200.0
         },

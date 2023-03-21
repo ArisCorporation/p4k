@@ -15,6 +15,16 @@
         "Localization": {
           "Name": "@LOC_PLACEHOLDER",
           "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
         }
       }
     },
@@ -132,9 +142,40 @@
             "LockedByLinks": false,
             "RequiresAuthorizedUser": false,
             "available": true
+          },
+          {
+            "Name": "Inventory_Open",
+            "RoomTag": "00000000-0000-0000-0000-000000000000",
+            "UsableTag": "00000000-0000-0000-0000-000000000000",
+            "DisplayName": "@interaction_open_storage",
+            "DisplayType": "Show",
+            "GenericCursor": "SingleAction",
+            "FocusModeOnly": false,
+            "Sendable": false,
+            "Linkable": true,
+            "LockedByLinks": false,
+            "RequiresAuthorizedUser": false,
+            "available": true
+          },
+          {
+            "Name": "Inventory_Close",
+            "RoomTag": "00000000-0000-0000-0000-000000000000",
+            "UsableTag": "00000000-0000-0000-0000-000000000000",
+            "DisplayName": "@interaction_close",
+            "DisplayType": "Show",
+            "GenericCursor": "SingleAction",
+            "FocusModeOnly": false,
+            "Sendable": false,
+            "Linkable": true,
+            "LockedByLinks": false,
+            "RequiresAuthorizedUser": false,
+            "available": true
           }
         ]
       }
+    },
+    "SCItemInventoryContainerComponentParams": {
+      "containerParams": "d2379397-9f5c-45a7-94b9-c554cab7ca11"
     }
   },
   "ClassName": "DRAK_Dragonfly_SCItem_SeatAccess",

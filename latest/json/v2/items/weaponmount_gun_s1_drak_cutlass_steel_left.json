@@ -4,13 +4,20 @@
   "Grade": 1,
   "Type": "WeaponMount.WeaponControl",
   "Name": "WeaponMount_Gun_S1_DRAK_Cutlass_Steel_Left",
+  "Tags": [
+    "DRAK_Cutlass_Steel"
+  ],
+  "Width": 0.15,
+  "Height": 0.15,
+  "Length": 0.15,
+  "Volume": 1.0,
   "Ports": [
     {
       "PortName": "weapon",
       "Size": 1,
-      "Loadout": "GATS_BallisticGatling_Mounted_S1",
+      "Loadout": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
       "InstalledItem": {
-        "ClassName": "GATS_BallisticGatling_Mounted_S1",
+        "ClassName": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
         "Size": 1,
         "Grade": 1,
         "Type": "WeaponGun.Gun",
@@ -26,6 +33,10 @@
           "flightReady",
           "weaponMountUsable"
         ],
+        "Width": 0.4466009,
+        "Height": 1.105504,
+        "Length": 0.801895,
+        "Volume": 84000.0,
         "PowerConnection": {
           "PowerBase": 30.0,
           "PowerDraw": 40.0
@@ -88,7 +99,11 @@
               },
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.Barrel"
@@ -110,7 +125,11 @@
               },
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.FiringMechanism"
@@ -132,7 +151,11 @@
               },
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.PowerArray"
@@ -154,7 +177,11 @@
               },
               "Tags": [
                 "uneditable"
-              ]
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
             },
             "Types": [
               "WeaponAttachment.Ventilation"
@@ -174,7 +201,11 @@
               "Manufacturer": {
                 "Code": "NVTC",
                 "Name": "@LOC_PLACEHOLDER"
-              }
+              },
+              "Width": 0.1933333,
+              "Height": 0.1785001,
+              "Length": 0.0772775,
+              "Volume": 1447.0
             },
             "Types": [
               "WeaponAttachment.IronSight"
@@ -201,7 +232,11 @@
         "Grade": 1,
         "Type": "AmmoBox.Magazine",
         "Name": "AmmoBox_GATS_BallisticGatling_Mounted_S1",
-        "Description": "@LOC_PLACEHOLDER"
+        "Description": "@LOC_PLACEHOLDER",
+        "Width": 0.045,
+        "Height": 0.208,
+        "Length": 0.045,
+        "Volume": 0.0
       },
       "Types": [
         "AmmoBox.Gun"
@@ -216,7 +251,11 @@
         "Size": 1,
         "Grade": 1,
         "Type": "WeaponController.UNDEFINED",
-        "Name": "WEAPONS"
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "WeaponController"

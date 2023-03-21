@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "Hardpoint_Weapon_Nose_Right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "Mount_Gimbal_S1",
       "InstalledItem": {
         "ClassName": "Mount_Gimbal_S1",
@@ -19,6 +19,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -54,6 +58,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -162,7 +170,7 @@
     },
     {
       "PortName": "Hardpoint_Weapon_Nose_Left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "Mount_Gimbal_S1",
       "InstalledItem": {
         "ClassName": "Mount_Gimbal_S1",
@@ -179,6 +187,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -214,6 +226,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -322,7 +338,7 @@
     },
     {
       "PortName": "Hardpoint_Weapon_Wing_Top_Left",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "WeaponGun.Gun",
         "Turret.Gun",
@@ -335,7 +351,7 @@
     },
     {
       "PortName": "Hardpoint_Weapon_Wing_Top_Right",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "WeaponGun.Gun",
         "Turret.Gun",
@@ -372,6 +388,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 756000.0,
         "Durability": {
           "Health": 200.0
         },
@@ -409,6 +429,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -443,6 +467,10 @@
                 "CS",
                 "flightReady"
               ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 2000000.0,
               "Durability": {
                 "Health": 10.0
               },
@@ -472,7 +500,7 @@
   "Countermeasures": [
     {
       "PortName": "Hardpoint_Countermeasure_Left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_CML_Decoy_Small",
       "InstalledItem": {
         "ClassName": "RSI_CML_Decoy_Small",
@@ -485,6 +513,10 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -533,7 +565,7 @@
     },
     {
       "PortName": "Hardpoint_Countermeasure_Right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_CML_Noise_Small",
       "InstalledItem": {
         "ClassName": "RSI_CML_Noise_Small",
@@ -546,6 +578,10 @@
           "Code": "JOK",
           "Name": "Joker Engineering"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -596,7 +632,7 @@
   "Shields": [
     {
       "PortName": "Hardpoint_Shield_Generator_Left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_YORM_S01_Targa_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_YORM_S01_Targa_SCItem",
@@ -609,15 +645,19 @@
           "Code": "YORM",
           "Name": "Yorm"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -642,7 +682,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 10.0
         },
         "PowerConnection": {
@@ -665,7 +705,7 @@
     },
     {
       "PortName": "Hardpoint_Shield_Generator_Right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_YORM_S01_Targa_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_YORM_S01_Targa_SCItem",
@@ -678,15 +718,19 @@
           "Code": "YORM",
           "Name": "Yorm"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -711,7 +755,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 10.0
         },
         "PowerConnection": {
@@ -736,7 +780,7 @@
   "PowerPlants": [
     {
       "PortName": "Hardpoint_PowerPlant_Left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_ACOM_S01_LumaCore_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_ACOM_S01_LumaCore_SCItem",
@@ -749,11 +793,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 1472.45
         },
         "Durability": {
-          "Health": 370.0,
+          "Health": 1500.0,
           "Lifetime": 19.0
         },
         "PowerConnection": {
@@ -780,7 +828,7 @@
   "Coolers": [
     {
       "PortName": "Hardpoint_Cooler_Top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_ACOM_S01_QuickCool_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_ACOM_S01_QuickCool_SCItem",
@@ -793,11 +841,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 228000.0
         },
         "Durability": {
-          "Health": 375.0,
+          "Health": 1500.0,
           "Lifetime": 13.0
         },
         "PowerConnection": {
@@ -820,7 +872,7 @@
     },
     {
       "PortName": "Hardpoint_Cooler_Bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_ACOM_S01_QuickCool_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_ACOM_S01_QuickCool_SCItem",
@@ -833,11 +885,15 @@
           "Code": "ACOM",
           "Name": "ACOM"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 228000.0
         },
         "Durability": {
-          "Health": 375.0,
+          "Health": 1500.0,
           "Lifetime": 13.0
         },
         "PowerConnection": {
@@ -862,7 +918,7 @@
   "QuantumDrives": [
     {
       "PortName": "Hardpoint_Quantum_Drive",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QDRV_RSI_S01_Eos_SCItem",
       "InstalledItem": {
         "ClassName": "QDRV_RSI_S01_Eos_SCItem",
@@ -875,6 +931,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "QuantumDrive": {
           "FuelRate": 9.114E-09,
           "JumpRange": 3.402823E+38,
@@ -894,7 +954,7 @@
           }
         },
         "Durability": {
-          "Health": 535.0,
+          "Health": 1054.0,
           "Lifetime": 5.9
         },
         "PowerConnection": {
@@ -919,7 +979,7 @@
   "QuantumFuelTanks": [
     {
       "PortName": "Hardpoint_Quantum_Fuel_Tank",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "QTNK_RSI_Aurora_LX",
       "InstalledItem": {
         "ClassName": "QTNK_RSI_Aurora_LX",
@@ -930,6 +990,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "QuantumFuelTank": {
           "Capacity": 700.0
         }
@@ -948,7 +1012,7 @@
   "MainThrusters": [
     {
       "PortName": "Hardpoint_Main_Thruster",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_LN_Main",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_LN_Main",
@@ -960,6 +1024,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 2376642.0,
           "FuelRate": 9.275E-06,
@@ -993,7 +1061,7 @@
   "RetroThrusters": [
     {
       "PortName": "Hardpoint_Retro_Thruster_Left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Retro",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Retro",
@@ -1005,6 +1073,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 570495.2,
           "FuelRate": 9.275E-06,
@@ -1040,7 +1112,7 @@
     },
     {
       "PortName": "Hardpoint_Retro_Thruster_Right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Retro_Right",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Retro_Right",
@@ -1052,6 +1124,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 570495.2,
           "FuelRate": 9.275E-06,
@@ -1090,7 +1166,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "Hardpoint_Mav_Thruster_FT",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1102,6 +1178,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1139,7 +1219,7 @@
     },
     {
       "PortName": "Hardpoint_Mav_Thruster_FB",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1151,6 +1231,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1188,7 +1272,7 @@
     },
     {
       "PortName": "Hardpoint_Mav_Thruster_FL",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1200,6 +1284,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1238,7 +1326,7 @@
     },
     {
       "PortName": "Hardpoint_Mav_Thruster_FR",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1250,6 +1338,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1288,7 +1380,7 @@
     },
     {
       "PortName": "Hardpoint_Mav_Thruster_RT",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1300,6 +1392,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1338,7 +1434,7 @@
     },
     {
       "PortName": "Hardpoint_Mav_Thruster_RL",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1350,6 +1446,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1388,7 +1488,7 @@
     },
     {
       "PortName": "Hardpoint_Mav_Thruster_RR",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1400,6 +1500,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1438,7 +1542,7 @@
     },
     {
       "PortName": "Hardpoint_Mav_Thruster_RB",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
       "InstalledItem": {
         "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
@@ -1450,6 +1554,10 @@
           "Code": "RSI",
           "Name": "Roberts Space Industries"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 165320.2,
           "FuelRate": 3.125E-06,
@@ -1490,7 +1598,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "Hardpoint_Fuel_Tank_Right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_RSI_Aurora_LX",
       "InstalledItem": {
         "ClassName": "HTNK_RSI_Aurora_LX",
@@ -1501,6 +1609,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 22500.0
         }
@@ -1517,7 +1629,7 @@
     },
     {
       "PortName": "Hardpoint_Fuel_Tank_Left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_RSI_Aurora_LX",
       "InstalledItem": {
         "ClassName": "HTNK_RSI_Aurora_LX",
@@ -1528,6 +1640,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 22500.0
         }
@@ -1546,7 +1662,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "Hardpoint_Fuel_Intake_Right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_RSI_Aurora_LX",
       "InstalledItem": {
         "ClassName": "INTK_RSI_Aurora_LX",
@@ -1557,6 +1673,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 2.5
         },
@@ -1582,7 +1702,7 @@
     },
     {
       "PortName": "Hardpoint_Fuel_Intake_Left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_RSI_Aurora_LX",
       "InstalledItem": {
         "ClassName": "INTK_RSI_Aurora_LX",
@@ -1593,6 +1713,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 2.5
         },
@@ -1618,52 +1742,11 @@
     }
   ],
   "InterdictionHardpoints": [],
-  "CargoGrids": [
-    {
-      "PortName": "hardpoint_cargo_grid",
-      "Size": 1,
-      "Loadout": "RSI_Aurora_ES_CargoGrid_Main",
-      "InstalledItem": {
-        "ClassName": "RSI_Aurora_ES_CargoGrid_Main",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "RSI_Aurora_ES_CargoGrid_Main",
-        "Manufacturer": {
-          "Code": "RSI",
-          "Name": "Roberts Space Industries"
-        },
-        "CargoGrid": {
-          "Capacity": 3.0,
-          "Width": 1.25,
-          "Height": 1.25,
-          "Depth": 3.75
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        }
-      },
-      "Types": [
-        "Cargo"
-      ],
-      "Flags": [
-        "invisible",
-        "uneditable"
-      ],
-      "Category": "Cargo grids",
-      "Uneditable": true
-    }
-  ],
+  "CargoGrids": [],
   "Avionics": [
     {
       "PortName": "Hardpoint_Radar",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "RADR_NAVE_S01_SNSR6",
       "InstalledItem": {
         "ClassName": "RADR_NAVE_S01_SNSR6",
@@ -1679,6 +1762,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -1724,7 +1811,7 @@
     },
     {
       "PortName": "Hardpoint_Scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -1735,6 +1822,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -1751,7 +1842,7 @@
     },
     {
       "PortName": "Hardpoint_Ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping",
       "InstalledItem": {
         "ClassName": "test_ping",
@@ -1762,7 +1853,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"
@@ -1776,7 +1871,7 @@
     },
     {
       "PortName": "Hardpoint_transponder",
-      "Size": 1,
+      "Size": 0,
       "Types": [
         "Transponder"
       ],

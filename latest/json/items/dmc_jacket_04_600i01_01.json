@@ -40,6 +40,16 @@
             "Localization": {
               "Name": "@item_Name_dmc_jacket_04_600i01_01",
               "Description": "@item_Desc_dmc_jacket_04_600i01_01 "
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 8700.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.356,
+              "y": 0.183,
+              "z": 0.166
             }
           }
         },
@@ -176,11 +186,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "72672d7a-29bd-4870-9452-ba328d22987e"
         }
       },
       "ClassName": "dmc_jacket_04_600i01_01",
       "__ref": "837ab689-2505-4329-bb5a-3a56ea3e24e6",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.002,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

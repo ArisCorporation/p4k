@@ -43,6 +43,16 @@
             "Localization": {
               "Name": "@item_Name_cba_jacket_01_01_01",
               "Description": "@item_Desc_cba_jacket_01_01_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 8700.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.356,
+              "y": 0.183,
+              "z": 0.166
             }
           }
         },
@@ -179,11 +189,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "674597c6-2de0-4fda-b382-e46288cc0ac7"
         }
       },
       "ClassName": "cba_jacket_01_01_01",
       "__ref": "04898f0d-030c-42de-878c-0e36d79dc8ef",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.01,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

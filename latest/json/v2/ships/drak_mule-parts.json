@@ -12,7 +12,7 @@
             "Name": "hardpoint_transponder",
             "Port": {
               "PortName": "hardpoint_transponder",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Transponder"
               ],
@@ -28,7 +28,7 @@
             "Name": "hardpoint_selfdestruct",
             "Port": {
               "PortName": "hardpoint_selfdestruct",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "VHCL_SelfDestruct_30s",
               "InstalledItem": {
                 "ClassName": "VHCL_SelfDestruct_30s",
@@ -43,7 +43,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SelfDestruct"
@@ -60,7 +64,7 @@
             "Name": "hardpoint_seat_driver",
             "Port": {
               "PortName": "hardpoint_seat_driver",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Mule_Seat_Driver",
               "InstalledItem": {
                 "ClassName": "DRAK_Mule_Seat_Driver",
@@ -74,7 +78,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Seat"
@@ -90,7 +98,7 @@
             "Name": "hardpoint_seat_access",
             "Port": {
               "PortName": "hardpoint_seat_access",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "DRAK_Mule_SCItem_SeatAccess",
               "InstalledItem": {
                 "ClassName": "DRAK_Mule_SCItem_SeatAccess",
@@ -101,7 +109,11 @@
                 "Manufacturer": {
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SeatAccess"
@@ -113,7 +125,7 @@
             "Name": "hardpoint_scanner",
             "Port": {
               "PortName": "hardpoint_scanner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_scanner",
               "InstalledItem": {
                 "ClassName": "test_scanner",
@@ -124,6 +136,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Scanner": {
                   "Range": 0.0
                 }
@@ -143,7 +159,7 @@
             "Name": "hardpoint_ping",
             "Port": {
               "PortName": "hardpoint_ping",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_ping_Prospector",
               "InstalledItem": {
                 "ClassName": "test_ping_Prospector",
@@ -154,7 +170,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -171,7 +191,7 @@
             "Name": "hardpoint_paint",
             "Port": {
               "PortName": "hardpoint_paint",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Paints"
               ],
@@ -182,7 +202,7 @@
             "Name": "hardpoint_int_main",
             "Port": {
               "PortName": "hardpoint_int_main",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Room"
               ],
@@ -197,7 +217,7 @@
             "Name": "hardpoint_fuel_tank",
             "Port": {
               "PortName": "hardpoint_fuel_tank",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "FuelTank"
               ],
@@ -213,7 +233,7 @@
             "Name": "hardpoint_fuel_intake",
             "Port": {
               "PortName": "hardpoint_fuel_intake",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "FuelIntake"
               ],
@@ -229,7 +249,7 @@
             "Name": "hardpoint_dashboard_driver",
             "Port": {
               "PortName": "hardpoint_dashboard_driver",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "DRAK_Mule_Dashboard_Driver",
               "InstalledItem": {
                 "ClassName": "DRAK_Mule_Dashboard_Driver",
@@ -241,6 +261,10 @@
                   "Code": "GRIN",
                   "Name": "Greycat Industrial"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "hardpoint_cockpit_radar",
@@ -266,7 +290,7 @@
             "Name": "hardpoint_controller_wheel",
             "Port": {
               "PortName": "hardpoint_controller_wheel",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Wheel_DRAK_Mule",
               "InstalledItem": {
                 "ClassName": "Controller_Wheel_DRAK_Mule",
@@ -277,6 +301,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 10.0,
                   "PowerDraw": 50.0
@@ -297,14 +325,18 @@
             "Name": "hardpoint_controller_weapon",
             "Port": {
               "PortName": "hardpoint_controller_weapon",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Weapon_Vehicle",
               "InstalledItem": {
                 "ClassName": "Controller_Weapon_Vehicle",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "WeaponController.UNDEFINED",
-                "Name": "WEAPONS"
+                "Name": "WEAPONS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "WeaponController"
@@ -321,7 +353,7 @@
             "Name": "hardpoint_controller_shield",
             "Port": {
               "PortName": "hardpoint_controller_shield",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Shield_DRAK_Mule",
               "InstalledItem": {
                 "ClassName": "Controller_Shield_DRAK_Mule",
@@ -331,7 +363,11 @@
                 "Name": "SHIELDS",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "ShieldController"
@@ -348,14 +384,18 @@
             "Name": "hardpoint_controller_light",
             "Port": {
               "PortName": "hardpoint_controller_light",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Light",
               "InstalledItem": {
                 "ClassName": "Controller_Light",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -372,14 +412,18 @@
             "Name": "hardpoint_controller_energy",
             "Port": {
               "PortName": "hardpoint_controller_energy",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Energy",
               "InstalledItem": {
                 "ClassName": "Controller_Energy",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -396,14 +440,18 @@
             "Name": "hardpoint_controller_door",
             "Port": {
               "PortName": "hardpoint_controller_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Door",
               "InstalledItem": {
                 "ClassName": "Controller_Door",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -420,14 +468,18 @@
             "Name": "hardpoint_controller_cooler",
             "Port": {
               "PortName": "hardpoint_controller_cooler",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Cooler",
               "InstalledItem": {
                 "ClassName": "Controller_Cooler",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -444,14 +496,18 @@
             "Name": "hardpoint_controller_comms",
             "Port": {
               "PortName": "hardpoint_controller_comms",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Comms",
               "InstalledItem": {
                 "ClassName": "Controller_Comms",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -468,7 +524,7 @@
             "Name": "hardpoint_armor",
             "Port": {
               "PortName": "hardpoint_armor",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ARMR_DRAK_Mule",
               "InstalledItem": {
                 "ClassName": "ARMR_DRAK_Mule",
@@ -480,10 +536,14 @@
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.9,
-                    "Energy": 0.9,
+                    "Physical": 0.42,
+                    "Energy": 1.0,
                     "Distortion": 1.0,
                     "Thermal": 1.0,
                     "Biochemical": 1.0
@@ -507,14 +567,10 @@
             }
           },
           {
-            "Name": "skirting_front",
-            "MaximumDamage": 200.0
-          },
-          {
             "Name": "hardpoint_controller_capacitor_assignment",
             "Port": {
               "PortName": "hardpoint_controller_capacitor_assignment",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_CapacitorAssignment",
               "InstalledItem": {
                 "ClassName": "Controller_CapacitorAssignment",
@@ -524,7 +580,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"
@@ -536,19 +596,6 @@
               "Category": "UNKNOWN",
               "Uneditable": true
             }
-          },
-          {
-            "Name": "cockpit_brace"
-          },
-          {
-            "Name": "bottom"
-          },
-          {
-            "Name": "tank",
-            "MaximumDamage": 200.0
-          },
-          {
-            "Name": "components_panel_mesh"
           },
           {
             "Name": "hardpoint_wheel_FL",
@@ -618,7 +665,7 @@
             "Name": "hardpoint_personal_inventory",
             "Port": {
               "PortName": "hardpoint_personal_inventory",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "PersonalStorage_MULE",
               "InstalledItem": {
                 "ClassName": "PersonalStorage_MULE",
@@ -626,8 +673,18 @@
                 "Grade": 1,
                 "Type": "Cargo.UNDEFINED",
                 "Name": "PersonalStorage_MULE",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 200.0
+                },
+                "InventoryContainer": {
+                  "SCU": 0.125,
+                  "x": 1.2,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "Types": [
@@ -645,7 +702,7 @@
             "Name": "landingpad_helper",
             "Port": {
               "PortName": "landingpad_helper",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "LandingSystem"
               ],
@@ -661,13 +718,10 @@
             "Mass": 1500.0
           },
           {
-            "Name": "Avionics_Door_mesh"
-          },
-          {
             "Name": "hardpoint_avionics",
             "Port": {
               "PortName": "hardpoint_avionics",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "COMP_WLOP_S00_Adze",
               "InstalledItem": {
                 "ClassName": "COMP_WLOP_S00_Adze",
@@ -682,8 +736,12 @@
                 "Tags": [
                   "ESPR_Talon_Base"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
-                  "Health": 500.0
+                  "Health": 1.0
                 }
               },
               "Types": [
@@ -697,16 +755,10 @@
             }
           },
           {
-            "Name": "radar_door_upper_mesh"
-          },
-          {
-            "Name": "radar_door_lower_mesh"
-          },
-          {
             "Name": "hardpoint_radar",
             "Port": {
               "PortName": "hardpoint_radar",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "RADR_WLOP_S00_Denning",
               "InstalledItem": {
                 "ClassName": "RADR_WLOP_S00_Denning",
@@ -718,6 +770,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -778,6 +834,10 @@
                   "Code": "JSPN",
                   "Name": "J-Span"
                 },
+                "Width": 0.2233005,
+                "Height": 0.4009475,
+                "Length": 1.105504,
+                "Volume": 21000.0,
                 "Cooler": {
                   "Rate": 100000.0
                 },
@@ -800,12 +860,6 @@
               ],
               "Category": "Coolers"
             }
-          },
-          {
-            "Name": "cooler_doors_left_mesh"
-          },
-          {
-            "Name": "cooler_doors_right_mesh"
           },
           {
             "Name": "hardpoint_shield_generator"
@@ -847,12 +901,13 @@
             "Parts": [
               {
                 "Name": "Cargo_Arms",
+                "MaximumDamage": 200.0,
                 "Parts": [
                   {
                     "Name": "hardpoint_cargogrid_front",
                     "Port": {
                       "PortName": "hardpoint_cargogrid_front",
-                      "Size": 1,
+                      "Size": 0,
                       "Types": [
                         "Cargo"
                       ],
@@ -865,17 +920,16 @@
                     }
                   },
                   {
-                    "Name": "SHIELD_SDF_01_FT"
+                    "Name": "SHIELD_SDF_01_FT",
+                    "MaximumDamage": 200.0
                   }
                 ]
               },
               {
-                "Name": "Arm_Hinge"
+                "Name": "Arm_Hinge",
+                "MaximumDamage": 200.0
               }
             ]
-          },
-          {
-            "Name": "Bottom_Front"
           },
           {
             "Name": "Rear",
@@ -886,7 +940,7 @@
                 "Name": "hardpoint_weaponrack",
                 "Port": {
                   "PortName": "hardpoint_weaponrack",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "Weapon_Rack_Mule_Single",
                   "InstalledItem": {
                     "ClassName": "Weapon_Rack_Mule_Single",
@@ -894,6 +948,10 @@
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
                     "Name": "Weapon_Rack_Mule_Single",
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Durability": {
                       "Health": 100.0
                     },
@@ -930,17 +988,13 @@
                 "Name": "Components_Rear",
                 "Parts": [
                   {
-                    "Name": "Rear_Components_Door_Mesh",
-                    "MaximumDamage": 200.0
-                  },
-                  {
                     "Name": "Rear_Components_Interior",
                     "Parts": [
                       {
                         "Name": "hardpoint_batteries",
                         "Port": {
                           "PortName": "hardpoint_batteries",
-                          "Size": 1,
+                          "Size": 0,
                           "Loadout": "POWR_JUST_S00_SteadFast_SCItem",
                           "InstalledItem": {
                             "ClassName": "POWR_JUST_S00_SteadFast_SCItem",
@@ -953,6 +1007,10 @@
                               "Code": "JUST",
                               "Name": "Juno Starwerk"
                             },
+                            "Width": 0.15,
+                            "Height": 0.15,
+                            "Length": 0.15,
+                            "Volume": 1.0,
                             "PowerPlant": {
                               "Output": 720.0
                             },
@@ -997,6 +1055,10 @@
                               "Code": "JUST",
                               "Name": "Juno Starwerk"
                             },
+                            "Width": 0.15,
+                            "Height": 0.15,
+                            "Length": 0.15,
+                            "Volume": 1.0,
                             "PowerPlant": {
                               "Output": 720.0
                             },
@@ -1025,37 +1087,25 @@
                 ]
               },
               {
-                "Name": "skirting_rear",
-                "MaximumDamage": 200.0,
-                "Parts": [
-                  {
-                    "Name": "tail_lights",
-                    "MaximumDamage": 200.0
-                  }
-                ]
-              },
-              {
                 "Name": "hardpoint_cargogrid_rear",
                 "Port": {
                   "PortName": "hardpoint_cargogrid_rear",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "DRAK_Mule_CargoGrid_Rear",
                   "InstalledItem": {
                     "ClassName": "DRAK_Mule_CargoGrid_Rear",
                     "Size": 1,
                     "Grade": 1,
-                    "Type": "Cargo.UNDEFINED",
+                    "Type": "CargoGrid.UNDEFINED",
                     "Name": "DRAK_Mule_CargoGrid_Rear",
                     "Manufacturer": {
                       "Code": "DRAK",
                       "Name": "Drake Interplanetary"
                     },
-                    "CargoGrid": {
-                      "Capacity": 1.0,
-                      "Width": 1.25,
-                      "Height": 1.25,
-                      "Depth": 1.25
-                    },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "PowerConnection": {
                       "PowerBase": 0.0,
                       "PowerDraw": 1.0
@@ -1064,34 +1114,24 @@
                       "ThermalEnergyBase": 10.0,
                       "ThermalEnergyDraw": 20.0,
                       "CoolingRate": 1.0
+                    },
+                    "InventoryContainer": {
+                      "SCU": 0.0,
+                      "x": 1.25,
+                      "y": 1.25,
+                      "z": 1.25
                     }
                   },
                   "Types": [
-                    "Cargo"
+                    "CargoGrid"
                   ],
                   "Flags": [
                     "selfphys",
                     "uneditable"
                   ],
-                  "Category": "Cargo grids",
+                  "Category": "UNKNOWN",
                   "Uneditable": true
                 }
-              },
-              {
-                "Name": "Rear_Mechanism_Lower_mesh_01",
-                "MaximumDamage": 200.0
-              },
-              {
-                "Name": "Rear_Mechanism_Lower_mesh_03",
-                "MaximumDamage": 200.0
-              },
-              {
-                "Name": "Rear_Mechanism_Upper_mesh",
-                "MaximumDamage": 200.0
-              },
-              {
-                "Name": "Underside",
-                "MaximumDamage": 200.0
               },
               {
                 "Name": "sidetray_right",
@@ -1101,7 +1141,7 @@
                     "Name": "hardpoint_cargogrid_right_rear",
                     "Port": {
                       "PortName": "hardpoint_cargogrid_right_rear",
-                      "Size": 1,
+                      "Size": 0,
                       "Loadout": "Cargo_Slot_DRAK_Mule_1Slot",
                       "InstalledItem": {
                         "ClassName": "Cargo_Slot_DRAK_Mule_1Slot",
@@ -1109,6 +1149,10 @@
                         "Grade": 1,
                         "Type": "Usable.UNDEFINED",
                         "Name": "Cargo_Slot_DRAK_Mule_1Slot",
+                        "Width": 0.15,
+                        "Height": 0.15,
+                        "Length": 0.15,
+                        "Volume": 1.0,
                         "Durability": {
                           "Health": 1.0
                         },
@@ -1143,7 +1187,7 @@
                     "Name": "hardpoint_cargogrid_right_middle",
                     "Port": {
                       "PortName": "hardpoint_cargogrid_right_middle",
-                      "Size": 1,
+                      "Size": 0,
                       "Loadout": "Cargo_Slot_DRAK_Mule_1Slot",
                       "InstalledItem": {
                         "ClassName": "Cargo_Slot_DRAK_Mule_1Slot",
@@ -1151,6 +1195,10 @@
                         "Grade": 1,
                         "Type": "Usable.UNDEFINED",
                         "Name": "Cargo_Slot_DRAK_Mule_1Slot",
+                        "Width": 0.15,
+                        "Height": 0.15,
+                        "Length": 0.15,
+                        "Volume": 1.0,
                         "Durability": {
                           "Health": 1.0
                         },
@@ -1185,7 +1233,7 @@
                     "Name": "hardpoint_cargogrid_right_front",
                     "Port": {
                       "PortName": "hardpoint_cargogrid_right_front",
-                      "Size": 1,
+                      "Size": 0,
                       "Loadout": "Cargo_Slot_DRAK_Mule_1Slot",
                       "InstalledItem": {
                         "ClassName": "Cargo_Slot_DRAK_Mule_1Slot",
@@ -1193,6 +1241,10 @@
                         "Grade": 1,
                         "Type": "Usable.UNDEFINED",
                         "Name": "Cargo_Slot_DRAK_Mule_1Slot",
+                        "Width": 0.15,
+                        "Height": 0.15,
+                        "Length": 0.15,
+                        "Volume": 1.0,
                         "Durability": {
                           "Health": 1.0
                         },
@@ -1234,7 +1286,7 @@
                     "Name": "hardpoint_cargogrid_left_front",
                     "Port": {
                       "PortName": "hardpoint_cargogrid_left_front",
-                      "Size": 1,
+                      "Size": 0,
                       "Loadout": "Cargo_Slot_DRAK_Mule_1Slot",
                       "InstalledItem": {
                         "ClassName": "Cargo_Slot_DRAK_Mule_1Slot",
@@ -1242,6 +1294,10 @@
                         "Grade": 1,
                         "Type": "Usable.UNDEFINED",
                         "Name": "Cargo_Slot_DRAK_Mule_1Slot",
+                        "Width": 0.15,
+                        "Height": 0.15,
+                        "Length": 0.15,
+                        "Volume": 1.0,
                         "Durability": {
                           "Health": 1.0
                         },
@@ -1276,7 +1332,7 @@
                     "Name": "hardpoint_cargogrid_left_middle",
                     "Port": {
                       "PortName": "hardpoint_cargogrid_left_middle",
-                      "Size": 1,
+                      "Size": 0,
                       "Loadout": "Cargo_Slot_DRAK_Mule_1Slot",
                       "InstalledItem": {
                         "ClassName": "Cargo_Slot_DRAK_Mule_1Slot",
@@ -1284,6 +1340,10 @@
                         "Grade": 1,
                         "Type": "Usable.UNDEFINED",
                         "Name": "Cargo_Slot_DRAK_Mule_1Slot",
+                        "Width": 0.15,
+                        "Height": 0.15,
+                        "Length": 0.15,
+                        "Volume": 1.0,
                         "Durability": {
                           "Health": 1.0
                         },
@@ -1318,7 +1378,7 @@
                     "Name": "hardpoint_cargogrid_left_rear",
                     "Port": {
                       "PortName": "hardpoint_cargogrid_left_rear",
-                      "Size": 1,
+                      "Size": 0,
                       "Loadout": "Cargo_Slot_DRAK_Mule_1Slot",
                       "InstalledItem": {
                         "ClassName": "Cargo_Slot_DRAK_Mule_1Slot",
@@ -1326,6 +1386,10 @@
                         "Grade": 1,
                         "Type": "Usable.UNDEFINED",
                         "Name": "Cargo_Slot_DRAK_Mule_1Slot",
+                        "Width": 0.15,
+                        "Height": 0.15,
+                        "Length": 0.15,
+                        "Volume": 1.0,
                         "Durability": {
                           "Health": 1.0
                         },
@@ -1366,27 +1430,21 @@
             "Parts": [
               {
                 "Name": "Entry_Door_Lower",
-                "Parts": [
-                  {
-                    "Name": "Entry_Door_Lower_mesh"
-                  }
-                ]
+                "MaximumDamage": 200.0
               },
               {
                 "Name": "Door_Arms",
+                "MaximumDamage": 200.0,
                 "Parts": [
                   {
                     "Name": "Entry_Door_Upper_node",
-                    "Parts": [
-                      {
-                        "Name": "Entry_Door_Upper_node_mesh"
-                      }
-                    ]
+                    "MaximumDamage": 200.0
                   }
                 ]
               },
               {
-                "Name": "Seat_Hatch"
+                "Name": "Seat_Hatch",
+                "MaximumDamage": 200.0
               }
             ]
           },
@@ -1394,7 +1452,7 @@
             "Name": "hardpoint_fuel_port",
             "Port": {
               "PortName": "hardpoint_fuel_port",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Fuel_Port_PLACEHOLDER_Mule",
               "InstalledItem": {
                 "ClassName": "Fuel_Port_PLACEHOLDER_Mule",
@@ -1402,6 +1460,10 @@
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
                 "Name": "Fuel_Port_PLACEHOLDER_Mule",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 100.0
                 },

@@ -43,6 +43,16 @@
             "Localization": {
               "Name": "@item_Name_OPS_Pants_01_01_01",
               "Description": "@item_Desc_OPS_Pants_01_01_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 7300.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.308,
+              "y": 0.109,
+              "z": 0.256
             }
           }
         },
@@ -179,11 +189,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "3afdb4b4-7f94-4166-9479-7160053c6422"
         }
       },
       "ClassName": "ops_pants_01_01_01",
       "__ref": "f0a14e29-c9a5-4b47-b682-1e2dc204b2bf",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.001,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

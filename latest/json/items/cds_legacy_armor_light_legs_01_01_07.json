@@ -52,6 +52,16 @@
             "Localization": {
               "Name": "@item_Name_cds_legacy_armor_light_legs_01_01_07",
               "Description": "@item_Desc_cds_legacy_light_armor_01_legs"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 72000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.44,
+              "y": 0.257,
+              "z": 0.907
             }
           }
         },
@@ -340,6 +350,9 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "2d7026a3-e423-4966-be48-45135c457c1f"
         }
       },
       "ClassName": "cds_legacy_armor_light_legs_01_01_07",
@@ -372,5 +385,11 @@
       "Multiplier": 0.7,
       "Threshold": 0
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.0025,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

@@ -12,7 +12,7 @@
         "Name": "landingpad_helper",
         "Port": {
           "PortName": "landingpad_helper",
-          "Size": 1,
+          "Size": 0,
           "Types": [
             "LandingSystem"
           ],
@@ -27,7 +27,7 @@
         "Name": "hardpoint_int_main",
         "Port": {
           "PortName": "hardpoint_int_main",
-          "Size": 1,
+          "Size": 0,
           "Types": [
             "Room"
           ],
@@ -86,14 +86,18 @@
             "Name": "hardpoint_controller_door",
             "Port": {
               "PortName": "hardpoint_controller_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Door",
               "InstalledItem": {
                 "ClassName": "Controller_Door",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -110,7 +114,7 @@
             "Name": "hardpoint_door_ramp",
             "Port": {
               "PortName": "hardpoint_door_ramp",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Door"
               ],
@@ -125,7 +129,7 @@
             "Name": "hardpoint_armor",
             "Port": {
               "PortName": "hardpoint_armor",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ARMR_TMBL_Cyclone_TR",
               "InstalledItem": {
                 "ClassName": "ARMR_TMBL_Cyclone_TR",
@@ -140,6 +144,10 @@
                 "Tags": [
                   "TMBL_Cyclone"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.9,
@@ -170,7 +178,7 @@
             "Name": "hardpoint_paint",
             "Port": {
               "PortName": "hardpoint_paint",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Paints"
               ],
@@ -181,7 +189,7 @@
             "Name": "hardpoint_dashboard_passenger",
             "Port": {
               "PortName": "hardpoint_dashboard_passenger",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "TMBL_Cyclone_SCItem_Dashboard_Passenger",
               "InstalledItem": {
                 "ClassName": "TMBL_Cyclone_SCItem_Dashboard_Passenger",
@@ -193,6 +201,10 @@
                   "Code": "TMBL",
                   "Name": "Tumbril Land Systems"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "hardpoint_cockpit_radar",
@@ -218,7 +230,7 @@
             "Name": "hardpoint_seat_access",
             "Port": {
               "PortName": "hardpoint_seat_access",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "TMBL_Cyclone_SCItem_SeatAccess",
               "InstalledItem": {
                 "ClassName": "TMBL_Cyclone_SCItem_SeatAccess",
@@ -229,6 +241,16 @@
                 "Manufacturer": {
                   "Code": "TMBL",
                   "Name": "Tumbril Land Systems"
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
+                "InventoryContainer": {
+                  "SCU": 0.1,
+                  "x": 1.2,
+                  "y": 1.0,
+                  "z": 1.0
                 }
               },
               "Types": [
@@ -241,7 +263,7 @@
             "Name": "hardpoint_selfdestruct",
             "Port": {
               "PortName": "hardpoint_selfdestruct",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "VHCL_SelfDestruct_10s",
               "InstalledItem": {
                 "ClassName": "VHCL_SelfDestruct_10s",
@@ -256,7 +278,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SelfDestruct"
@@ -273,14 +299,18 @@
             "Name": "hardpoint_controller_light",
             "Port": {
               "PortName": "hardpoint_controller_light",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Light",
               "InstalledItem": {
                 "ClassName": "Controller_Light",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -297,14 +327,18 @@
             "Name": "hardpoint_controller_comms",
             "Port": {
               "PortName": "hardpoint_controller_comms",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Comms",
               "InstalledItem": {
                 "ClassName": "Controller_Comms",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -321,14 +355,18 @@
             "Name": "hardpoint_controller_weapon",
             "Port": {
               "PortName": "hardpoint_controller_weapon",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Weapon_Vehicle",
               "InstalledItem": {
                 "ClassName": "Controller_Weapon_Vehicle",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "WeaponController.UNDEFINED",
-                "Name": "WEAPONS"
+                "Name": "WEAPONS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "WeaponController"
@@ -345,7 +383,7 @@
             "Name": "hardpoint_controller_shield",
             "Port": {
               "PortName": "hardpoint_controller_shield",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Shield_TMBL_Cyclone",
               "InstalledItem": {
                 "ClassName": "Controller_Shield_TMBL_Cyclone",
@@ -355,7 +393,11 @@
                 "Name": "SHIELDS",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "ShieldController"
@@ -372,14 +414,18 @@
             "Name": "hardpoint_controller_cooler",
             "Port": {
               "PortName": "hardpoint_controller_cooler",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Cooler",
               "InstalledItem": {
                 "ClassName": "Controller_Cooler",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -396,14 +442,18 @@
             "Name": "hardpoint_controller_energy",
             "Port": {
               "PortName": "hardpoint_controller_energy",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Energy",
               "InstalledItem": {
                 "ClassName": "Controller_Energy",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -420,7 +470,7 @@
             "Name": "hardpoint_weapon_regen_pool",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -436,7 +486,7 @@
             "Name": "hardpoint_controller_capacitor_assignment",
             "Port": {
               "PortName": "hardpoint_controller_capacitor_assignment",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_CapacitorAssignment",
               "InstalledItem": {
                 "ClassName": "Controller_CapacitorAssignment",
@@ -446,7 +496,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"
@@ -463,7 +517,7 @@
             "Name": "hardpoint_controller_wheel",
             "Port": {
               "PortName": "hardpoint_controller_wheel",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Wheel_TMBL_Cyclone",
               "InstalledItem": {
                 "ClassName": "Controller_Wheel_TMBL_Cyclone",
@@ -474,6 +528,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerConnection": {
                   "PowerBase": 10.0,
                   "PowerDraw": 50.0
@@ -494,7 +552,7 @@
             "Name": "hardpoint_scanner",
             "Port": {
               "PortName": "hardpoint_scanner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_scanner",
               "InstalledItem": {
                 "ClassName": "test_scanner",
@@ -505,6 +563,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Scanner": {
                   "Range": 0.0
                 }
@@ -524,7 +586,7 @@
             "Name": "hardpoint_ping",
             "Port": {
               "PortName": "hardpoint_ping",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Ping"
               ],
@@ -540,7 +602,7 @@
             "Name": "hardpoint_transponder",
             "Port": {
               "PortName": "hardpoint_transponder",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Transponder"
               ],
@@ -556,7 +618,7 @@
             "Name": "hardpoint_fuel_intake",
             "Port": {
               "PortName": "hardpoint_fuel_intake",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "FuelIntake"
               ],
@@ -585,15 +647,19 @@
                   "Code": "SECO",
                   "Name": "Seal Corporation"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Shield": {
                   "Health": 750.0,
                   "Regeneration": 187.5,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -656,6 +722,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -716,6 +786,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -777,6 +851,10 @@
                   "Code": "LPLT",
                   "Name": "Lightning Power Ltd."
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "PowerPlant": {
                   "Output": 610.0
                 },
@@ -807,7 +885,7 @@
             "Name": "hardpoint_seat_passenger",
             "Port": {
               "PortName": "hardpoint_seat_passenger",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "TMBL_Cyclone_SCItem_Seat_Passenger",
               "InstalledItem": {
                 "ClassName": "TMBL_Cyclone_SCItem_Seat_Passenger",
@@ -818,7 +896,11 @@
                 "Manufacturer": {
                   "Code": "TMBL",
                   "Name": "Tumbril Land Systems"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Seat"
@@ -834,7 +916,7 @@
             "Name": "hardpoint_fuel_tank",
             "Port": {
               "PortName": "hardpoint_fuel_tank",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "FuelTank"
               ],
@@ -850,7 +932,7 @@
             "Name": "hardpoint_module_attach",
             "Port": {
               "PortName": "hardpoint_module_attach",
-              "Size": 6,
+              "Size": 0,
               "Loadout": "TMBL_Cyclone_Module_MT",
               "InstalledItem": {
                 "ClassName": "TMBL_Cyclone_Module_MT",
@@ -865,6 +947,10 @@
                 "Tags": [
                   "TMBL_Cyclone_Module"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -882,7 +968,7 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "WeaponGun.Gun",
-                      "Name": "9-Series Longsword Cannon",
+                      "Name": "9-Series Longsword Cannon",
                       "Description": "Manufacturer: KnightBridge Arms\nItem Type: Ballistic Cannon\nSize: 1\n\nThe entry level autocannon of the KnightBridge Arms Sword-line, the 9-Series Longsword fires a ballistic round designed for use against a variety of armored hostiles while allowing pilots to keep a healthy distance from targets.",
                       "Manufacturer": {
                         "Code": "KBAR",
@@ -894,6 +980,10 @@
                         "flightReady",
                         "weaponMountUsable"
                       ],
+                      "Width": 0.4466009,
+                      "Height": 1.105504,
+                      "Length": 0.801895,
+                      "Volume": 84000.0,
                       "Durability": {
                         "Health": 850.0,
                         "Lifetime": 20.0
@@ -970,6 +1060,10 @@
                         "Code": "TMBL",
                         "Name": "Tumbril Land Systems"
                       },
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "Durability": {
                         "Health": 200.0
                       },
@@ -1099,6 +1193,10 @@
                       "Tags": [
                         "flightReady"
                       ],
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "Durability": {
                         "Lifetime": 720.0
                       },
@@ -1161,6 +1259,10 @@
                         "flightReady",
                         "Cyclone_MT"
                       ],
+                      "Width": 0.6699014,
+                      "Height": 1.202842,
+                      "Length": 4.422015,
+                      "Volume": 756000.0,
                       "Durability": {
                         "Health": 200.0
                       },
@@ -1198,6 +1300,10 @@
                               "EM",
                               "flightReady"
                             ],
+                            "Width": 1.0,
+                            "Height": 1.0,
+                            "Length": 2.0,
+                            "Volume": 2000000.0,
                             "Durability": {
                               "Health": 10.0
                             },
@@ -1232,6 +1338,10 @@
                               "EM",
                               "flightReady"
                             ],
+                            "Width": 1.0,
+                            "Height": 1.0,
+                            "Length": 2.0,
+                            "Volume": 2000000.0,
                             "Durability": {
                               "Health": 10.0
                             },
@@ -1277,6 +1387,10 @@
                         "flightReady",
                         "Cyclone_MT"
                       ],
+                      "Width": 0.6699014,
+                      "Height": 1.202842,
+                      "Length": 4.422015,
+                      "Volume": 756000.0,
                       "Durability": {
                         "Health": 200.0
                       },
@@ -1314,6 +1428,10 @@
                               "EM",
                               "flightReady"
                             ],
+                            "Width": 1.0,
+                            "Height": 1.0,
+                            "Length": 2.0,
+                            "Volume": 2000000.0,
                             "Durability": {
                               "Health": 10.0
                             },
@@ -1348,6 +1466,10 @@
                               "EM",
                               "flightReady"
                             ],
+                            "Width": 1.0,
+                            "Height": 1.0,
+                            "Length": 2.0,
+                            "Volume": 2000000.0,
                             "Durability": {
                               "Health": 10.0
                             },
@@ -1389,6 +1511,10 @@
                         "Code": "JOK",
                         "Name": "Joker Engineering"
                       },
+                      "Width": 0.2233005,
+                      "Height": 0.801895,
+                      "Length": 2.211008,
+                      "Volume": 84000.0,
                       "Durability": {
                         "Health": 1000.0
                       },
@@ -1449,6 +1575,10 @@
                         "Code": "JOK",
                         "Name": "Joker Engineering"
                       },
+                      "Width": 0.2233005,
+                      "Height": 0.801895,
+                      "Length": 2.211008,
+                      "Volume": 84000.0,
                       "Durability": {
                         "Health": 1000.0
                       },
@@ -1503,7 +1633,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "MissileController.UNDEFINED",
-                      "Name": "MISSILES"
+                      "Name": "MISSILES",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "MissileController"
@@ -1518,7 +1652,7 @@
               },
               "Types": [
                 "TurretBase.MannedTurret",
-                "Container.Cargo"
+                "Container.CargoGrid"
               ],
               "Flags": [
                 "$uneditable"
@@ -1531,7 +1665,7 @@
             "Name": "hardpoint_seat_driver",
             "Port": {
               "PortName": "hardpoint_seat_driver",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "TMBL_Cyclone_SCItem_Seat_Driver",
               "InstalledItem": {
                 "ClassName": "TMBL_Cyclone_SCItem_Seat_Driver",
@@ -1542,7 +1676,11 @@
                 "Manufacturer": {
                   "Code": "TMBL",
                   "Name": "Tumbril Land Systems"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Seat"
@@ -1558,7 +1696,7 @@
             "Name": "hardpoint_dashboard_driver",
             "Port": {
               "PortName": "hardpoint_dashboard_driver",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "TMBL_Cyclone_SCItem_Dashboard_Driver",
               "InstalledItem": {
                 "ClassName": "TMBL_Cyclone_SCItem_Dashboard_Driver",
@@ -1570,6 +1708,10 @@
                   "Code": "TMBL",
                   "Name": "Tumbril Land Systems"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "hardpoint_cockpit_radar",
@@ -1608,6 +1750,10 @@
                   "Code": "JSPN",
                   "Name": "J-Span"
                 },
+                "Width": 0.2233005,
+                "Height": 0.4009475,
+                "Length": 1.105504,
+                "Volume": 21000.0,
                 "Cooler": {
                   "Rate": 100000.0
                 },
@@ -1638,7 +1784,7 @@
             "Name": "hardpoint_controller_flight",
             "Port": {
               "PortName": "hardpoint_controller_flight",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "FlightController"
               ],
@@ -1654,7 +1800,7 @@
             "Name": "hardpoint_interior",
             "Port": {
               "PortName": "hardpoint_interior",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Room"
               ],
@@ -1669,7 +1815,7 @@
             "Name": "hardpoint_lights",
             "Port": {
               "PortName": "hardpoint_lights",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "MultiLight"
               ],
@@ -1684,7 +1830,7 @@
             "Name": "hardpoint_weapon_rack_left",
             "Port": {
               "PortName": "hardpoint_weapon_rack_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Weapon_Rack_TMBL_Cyclone_1_Slot_Left",
               "InstalledItem": {
                 "ClassName": "Weapon_Rack_TMBL_Cyclone_1_Slot_Left",
@@ -1692,6 +1838,10 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Weapon_Rack_TMBL_Cyclone_1_Slot_Left",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$proxy_weapon_01",
@@ -1717,7 +1867,7 @@
             "Name": "hardpoint_weapon_rack_right",
             "Port": {
               "PortName": "hardpoint_weapon_rack_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Weapon_Rack_TMBL_Cyclone_1_Slot_Right",
               "InstalledItem": {
                 "ClassName": "Weapon_Rack_TMBL_Cyclone_1_Slot_Right",
@@ -1725,6 +1875,10 @@
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
                 "Name": "Weapon_Rack_TMBL_Cyclone_1_Slot_Right",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$proxy_weapon_01",
@@ -1750,7 +1904,7 @@
             "Name": "hardpoint_controller_missile",
             "Port": {
               "PortName": "hardpoint_controller_missile",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "MissileController"
               ],
@@ -1766,7 +1920,7 @@
             "Name": "hardpoint_cockpit_flair",
             "Port": {
               "PortName": "hardpoint_cockpit_flair",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Cockpit.Flair_Static"
               ],

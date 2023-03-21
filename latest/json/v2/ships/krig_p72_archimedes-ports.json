@@ -2,7 +2,7 @@
   "PilotHardpoints": [
     {
       "PortName": "hardpoint_weapon_gun_centermount",
-      "Size": 2,
+      "Size": 0,
       "Types": [
         "WeaponGun.NoseMounted"
       ],
@@ -31,6 +31,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -66,6 +70,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -188,6 +196,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -223,6 +235,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -345,6 +361,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -380,6 +400,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -502,6 +526,10 @@
           "gimbalMount",
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 100.0,
           "Lifetime": 720.0
@@ -537,6 +565,10 @@
                 "flightReady",
                 "weaponMountUsable"
               ],
+              "Width": 0.4466009,
+              "Height": 1.105504,
+              "Length": 0.801895,
+              "Volume": 84000.0,
               "Durability": {
                 "Health": 525.0,
                 "Lifetime": 20.0
@@ -651,7 +683,7 @@
   "Countermeasures": [
     {
       "PortName": "hardpoint_countermeasure_launcher_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_CML_Flare",
       "InstalledItem": {
         "ClassName": "ORIG_M50_CML_Flare",
@@ -664,6 +696,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -711,7 +747,7 @@
     },
     {
       "PortName": "hardpoint_countermeasure_launcher_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "ORIG_M50_CML_Chaff",
       "InstalledItem": {
         "ClassName": "ORIG_M50_CML_Chaff",
@@ -724,6 +760,10 @@
           "Code": "ORIG",
           "Name": "Origin Jumpworks"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Durability": {
           "Health": 1000.0
         },
@@ -773,7 +813,7 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "SHLD_YORM_S01_Targa_SCItem",
       "InstalledItem": {
         "ClassName": "SHLD_YORM_S01_Targa_SCItem",
@@ -786,15 +826,19 @@
           "Code": "YORM",
           "Name": "Yorm"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Shield": {
           "Health": 1500.0,
           "Regeneration": 375.0,
-          "DownedDelay": 5.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
-              "Minimum": 0.5,
-              "Maximum": 0.95
+              "Minimum": 0.0,
+              "Maximum": 0.3
             },
             "Energy": {
               "Minimum": 1.0,
@@ -819,7 +863,7 @@
           }
         },
         "Durability": {
-          "Health": 93.75,
+          "Health": 1054.0,
           "Lifetime": 10.0
         },
         "PowerConnection": {
@@ -844,7 +888,7 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_power_plant",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "POWR_AEGS_S01_Charger_SCItem",
       "InstalledItem": {
         "ClassName": "POWR_AEGS_S01_Charger_SCItem",
@@ -857,11 +901,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "PowerPlant": {
           "Output": 2944.9
         },
         "Durability": {
-          "Health": 700.0,
+          "Health": 1500.0,
           "Lifetime": 21.0
         },
         "PowerConnection": {
@@ -886,7 +934,7 @@
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -899,11 +947,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -926,7 +978,7 @@
     },
     {
       "PortName": "hardpoint_cooler_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
         "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
@@ -939,11 +991,15 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 84000.0,
         "Cooler": {
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1750.0,
+          "Health": 1500.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -970,7 +1026,7 @@
   "MainThrusters": [
     {
       "PortName": "hardpoint_engine_left",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Main",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Main",
@@ -982,6 +1038,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 602855.6,
           "FuelRate": 9.3625E-06,
@@ -1016,7 +1076,7 @@
     },
     {
       "PortName": "hardpoint_engine_right",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Main",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Main",
@@ -1028,6 +1088,10 @@
           "Code": "KRI",
           "Name": "Kruger Intergalatic"
         },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 602855.6,
           "FuelRate": 9.3625E-06,
@@ -1064,7 +1128,7 @@
   "RetroThrusters": [
     {
       "PortName": "hardpoint_thruster_lower_center_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Retro_02",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Retro_02",
@@ -1072,6 +1136,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Retro_02",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 126798.0,
           "FuelRate": 9.3625E-06,
@@ -1105,7 +1173,7 @@
     },
     {
       "PortName": "hardpoint_thruster_upper_left_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Retro_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Retro_01",
@@ -1113,6 +1181,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Retro_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 126798.0,
           "FuelRate": 9.3625E-06,
@@ -1147,7 +1219,7 @@
     },
     {
       "PortName": "hardpoint_thruster_upper_right_retro",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Retro_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Retro_01",
@@ -1155,6 +1227,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Retro_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 126798.0,
           "FuelRate": 9.3625E-06,
@@ -1192,7 +1268,7 @@
   "ManeuveringThrusters": [
     {
       "PortName": "hardpoint_thruster_front_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1200,6 +1276,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1231,7 +1311,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1239,6 +1319,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1270,7 +1354,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1278,6 +1362,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1309,7 +1397,7 @@
     },
     {
       "PortName": "hardpoint_thruster_front_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1317,6 +1405,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1348,7 +1440,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_right_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
@@ -1356,6 +1448,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 82072.73,
           "FuelRate": 3.125E-06,
@@ -1388,7 +1484,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_right_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
@@ -1396,6 +1492,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 82072.73,
           "FuelRate": 3.125E-06,
@@ -1428,7 +1528,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_left_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
@@ -1436,6 +1536,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 82072.73,
           "FuelRate": 3.125E-06,
@@ -1468,7 +1572,7 @@
     },
     {
       "PortName": "hardpoint_thruster_wing_left_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
@@ -1476,6 +1580,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_02",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 82072.73,
           "FuelRate": 3.125E-06,
@@ -1508,7 +1616,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1516,6 +1624,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1548,7 +1660,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1556,6 +1668,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1588,7 +1704,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_bottom",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1596,6 +1712,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1628,7 +1748,7 @@
     },
     {
       "PortName": "hardpoint_thruster_rear_top",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
@@ -1636,6 +1756,10 @@
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
         "Name": "KRIG_P72_Archimedes_Thruster_Mav_Fixed_01",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Thruster": {
           "ThrustCapacity": 164638.0,
           "FuelRate": 3.125E-06,
@@ -1670,7 +1794,7 @@
   "HydrogenFuelTanks": [
     {
       "PortName": "hardpoint_fuel_tank_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "HTNK_KRIG_P52_Merlin",
@@ -1681,6 +1805,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 7500.0
         }
@@ -1697,7 +1825,7 @@
     },
     {
       "PortName": "hardpoint_fuel_tank_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "HTNK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "HTNK_KRIG_P52_Merlin",
@@ -1708,6 +1836,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelTank": {
           "Capacity": 7500.0
         }
@@ -1726,7 +1858,7 @@
   "HydogenFuelIntakes": [
     {
       "PortName": "hardpoint_archimedes_intake",
-      "Size": 2,
+      "Size": 0,
       "Loadout": "KRIG_P72_Archimedes_Intake",
       "InstalledItem": {
         "ClassName": "KRIG_P72_Archimedes_Intake",
@@ -1741,6 +1873,10 @@
         "Tags": [
           "Archimedes"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Health": 250.0
         },
@@ -1768,7 +1904,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_right",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "INTK_KRIG_P52_Merlin",
@@ -1779,6 +1915,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1804,7 +1944,7 @@
     },
     {
       "PortName": "hardpoint_fuel_intake_left",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "INTK_KRIG_P52_Merlin",
       "InstalledItem": {
         "ClassName": "INTK_KRIG_P52_Merlin",
@@ -1815,6 +1955,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "HydrogenFuelIntake": {
           "Rate": 0.0
         },
@@ -1856,6 +2000,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Durability": {
           "Lifetime": 720.0
         },
@@ -1901,7 +2049,7 @@
     },
     {
       "PortName": "hardpoint_scanner",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_scanner",
       "InstalledItem": {
         "ClassName": "test_scanner",
@@ -1912,6 +2060,10 @@
         "Tags": [
           "flightReady"
         ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
         "Scanner": {
           "Range": 0.0
         }
@@ -1928,7 +2080,7 @@
     },
     {
       "PortName": "hardpoint_ping",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "test_ping_S0",
       "InstalledItem": {
         "ClassName": "test_ping_S0",
@@ -1939,7 +2091,11 @@
         "Description": "Ping",
         "Tags": [
           "flightReady"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "Ping"

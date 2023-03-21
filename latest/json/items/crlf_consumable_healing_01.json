@@ -21,6 +21,12 @@
         },
         {
           "value": "59ca5e36-b9a2-4459-ad0e-5745bcf5d899"
+        },
+        {
+          "value": "f9c18d22-2a19-431a-822a-af7dcd3a7392"
+        },
+        {
+          "value": "1dc33a95-594a-4c79-bdde-9558e1a1f9d1"
         }
       ],
       "Components": {
@@ -37,6 +43,16 @@
             "Localization": {
               "Name": "@item_Namecrlf_consumable_healing_01",
               "Description": "@item_Desccrlf_consumable_healing_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 180.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.0348,
+              "y": 0.15,
+              "z": 0.0336
             }
           }
         },
@@ -45,7 +61,12 @@
           "subtype": "272ed87a-a60f-4a7f-a978-49d2ca220781",
           "name": "@item_Namecrlf_consumable_healing_01",
           "description": "@item_Desccrlf_consumable_healing_01",
-          "IsUnrefinedElement": false
+          "IsUnrefinedElement": false,
+          "occupancy": {
+            "SMicroCargoUnit": {
+              "microSCU": 550.0
+            }
+          }
         },
         "SEntityInteractableParams": {
           "Interactable": {
@@ -205,6 +226,17 @@
                 "available": true
               }
             ]
+          }
+        },
+        "SCItemConsumableParams": {
+          "containerTypeTag": "injection",
+          "oneShotConsume": true,
+          "canBeReclosed": false,
+          "discardWhenConsumed": true,
+          "consumableVolume": {
+            "SMicroCargoUnit": {
+              "microSCU": 30.0
+            }
           }
         }
       },

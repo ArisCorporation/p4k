@@ -16,6 +16,10 @@
     "flightReady",
     "weaponMountUsable"
   ],
+  "Width": 0.4466009,
+  "Height": 0.801895,
+  "Length": 3.316511,
+  "Volume": 252000.0,
   "Durability": {
     "Health": 850.0,
     "Lifetime": 20.0
@@ -35,7 +39,9 @@
       "Range": 1540.0000000000002,
       "Size": 1.0,
       "Capacity": 0.0,
-      "ImpactDamage": {},
+      "ImpactDamage": {
+        "Energy": 0.0001
+      },
       "DetonationDamage": {
         "Distortion": 42.0
       }
@@ -49,9 +55,11 @@
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
+          "Energy": 0.0001,
           "Distortion": 42.0
         },
         "DamagePerSecond": {
+          "Energy": 0.0004916666666666667,
           "Distortion": 206.5
         }
       }
@@ -68,7 +76,9 @@
     "Range": 1540.0000000000002,
     "Size": 1.0,
     "Capacity": 0.0,
-    "ImpactDamage": {},
+    "ImpactDamage": {
+      "Energy": 0.0001
+    },
     "DetonationDamage": {
       "Distortion": 42.0
     }
@@ -90,7 +100,11 @@
         },
         "Tags": [
           "uneditable"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "WeaponAttachment.Barrel"
@@ -112,7 +126,11 @@
         },
         "Tags": [
           "uneditable"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "WeaponAttachment.FiringMechanism"
@@ -134,7 +152,11 @@
         },
         "Tags": [
           "uneditable"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "WeaponAttachment.PowerArray"
@@ -156,7 +178,11 @@
         },
         "Tags": [
           "uneditable"
-        ]
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
       },
       "Types": [
         "WeaponAttachment.Ventilation"

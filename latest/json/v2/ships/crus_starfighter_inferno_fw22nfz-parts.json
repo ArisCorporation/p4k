@@ -7,14 +7,18 @@
         "Name": "landingpad_helper",
         "Port": {
           "PortName": "landingpad_helper",
-          "Size": 1,
+          "Size": 0,
           "Loadout": "Default_LandingSystem",
           "InstalledItem": {
             "ClassName": "Default_LandingSystem",
             "Size": 1,
             "Grade": 1,
             "Type": "LandingSystem.UNDEFINED",
-            "Name": "Default_LandingSystem"
+            "Name": "Default_LandingSystem",
+            "Width": 0.15,
+            "Height": 0.15,
+            "Length": 0.15,
+            "Volume": 1.0
           },
           "Types": [
             "LandingSystem"
@@ -38,7 +42,7 @@
                 "Name": "hardpoint_cooler_03",
                 "Port": {
                   "PortName": "hardpoint_cooler_03",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "COOL_AEGS_S02_Arctic_SCItem",
                   "InstalledItem": {
                     "ClassName": "COOL_AEGS_S02_Arctic_SCItem",
@@ -51,11 +55,15 @@
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
                     },
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "Cooler": {
                       "Rate": 5200000.0
                     },
                     "Durability": {
-                      "Health": 1750.0,
+                      "Health": 3000.0,
                       "Lifetime": 88.0
                     },
                     "PowerConnection": {
@@ -80,7 +88,7 @@
             "Name": "hardpoint_shield_generator_A",
             "Port": {
               "PortName": "hardpoint_shield_generator_A",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
@@ -93,15 +101,19 @@
                   "Code": "GODI",
                   "Name": "Gorgon Defender Industries"
                 },
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "Shield": {
                   "Health": 9000.0,
                   "Regeneration": 500.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -126,7 +138,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 375.0,
+                  "Health": 2320.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -149,7 +161,7 @@
             "Name": "hardpoint_shield_generator_B",
             "Port": {
               "PortName": "hardpoint_shield_generator_B",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
               "InstalledItem": {
                 "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
@@ -162,15 +174,19 @@
                   "Code": "GODI",
                   "Name": "Gorgon Defender Industries"
                 },
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "Shield": {
                   "Health": 9000.0,
                   "Regeneration": 500.0,
-                  "DownedDelay": 5.0,
+                  "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
                     "Physical": {
-                      "Minimum": 0.5,
-                      "Maximum": 0.95
+                      "Minimum": 0.0,
+                      "Maximum": 0.3
                     },
                     "Energy": {
                       "Minimum": 1.0,
@@ -195,7 +211,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 375.0,
+                  "Health": 2320.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -222,7 +238,7 @@
                 "Name": "hardpoint_thruster_mav_wing_right_bottom",
                 "Port": {
                   "PortName": "hardpoint_thruster_mav_wing_right_bottom",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -234,6 +250,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1632208.0,
                       "FuelRate": 3.125E-06,
@@ -270,7 +290,7 @@
                 "Name": "hardpoint_thruster_mav_wing_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_mav_wing_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -282,6 +302,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1632208.0,
                       "FuelRate": 3.125E-06,
@@ -333,7 +357,7 @@
                 "Name": "hardpoint_thruster_mav_wing_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_mav_wing_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -345,6 +369,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1632208.0,
                       "FuelRate": 3.125E-06,
@@ -379,7 +407,7 @@
                 "Name": "hardpoint_thruster_mav_wing_left_bottom",
                 "Port": {
                   "PortName": "hardpoint_thruster_mav_wing_left_bottom",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Thruster_Mav",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -391,6 +419,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 1632208.0,
                       "FuelRate": 3.125E-06,
@@ -428,7 +460,7 @@
             "Name": "hardpoint_quantum_drive",
             "Port": {
               "PortName": "hardpoint_quantum_drive",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "QDRV_WETK_S02_Crossfield_SCItem",
               "InstalledItem": {
                 "ClassName": "QDRV_WETK_S02_Crossfield_SCItem",
@@ -441,6 +473,10 @@
                   "Code": "WETK",
                   "Name": "Wei-Tek"
                 },
+                "Width": 0.4466009,
+                "Height": 0.801895,
+                "Length": 3.316511,
+                "Volume": 252000.0,
                 "QuantumDrive": {
                   "FuelRate": 2.0709999999999998E-08,
                   "JumpRange": 3.402823E+38,
@@ -460,7 +496,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 2700.0,
+                  "Health": 2320.0,
                   "Lifetime": 41.6
                 },
                 "PowerConnection": {
@@ -483,7 +519,7 @@
             "Name": "hardpoint_weapon_s7",
             "Port": {
               "PortName": "hardpoint_weapon_s7",
-              "Size": 7,
+              "Size": 0,
               "Loadout": "BEHR_BallisticGatling_S7",
               "InstalledItem": {
                 "ClassName": "BEHR_BallisticGatling_S7",
@@ -502,6 +538,10 @@
                   "flightReady",
                   "weaponMountUsable"
                 ],
+                "Width": 1.786404,
+                "Height": 2.806632,
+                "Length": 13.26605,
+                "Volume": 14200000.0,
                 "Durability": {
                   "Health": 6750.0,
                   "Lifetime": 20.0
@@ -569,6 +609,10 @@
                       "Tags": [
                         "uneditable"
                       ],
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "Durability": {
                         "Health": 1.0
                       }
@@ -595,6 +639,10 @@
                       "Tags": [
                         "uneditable"
                       ],
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "Durability": {
                         "Health": 1.0
                       }
@@ -621,6 +669,10 @@
                       "Tags": [
                         "uneditable"
                       ],
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "Durability": {
                         "Health": 1.0
                       }
@@ -647,6 +699,10 @@
                       "Tags": [
                         "uneditable"
                       ],
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0,
                       "Durability": {
                         "Health": 1.0
                       }
@@ -672,7 +728,7 @@
             "Name": "hardpoint_weapon_regen_pool_turrets",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool_turrets",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Turret_S1",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Turret_S1",
@@ -680,6 +736,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Turret_S1",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 20000,
@@ -701,7 +761,7 @@
             "Name": "hardpoint_weapon_regen_pool",
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "WeaponRegenPool_Crew_HeavyFighter",
               "InstalledItem": {
                 "ClassName": "WeaponRegenPool_Crew_HeavyFighter",
@@ -709,6 +769,10 @@
                 "Grade": 1,
                 "Type": "WeaponRegenPool.UNDEFINED",
                 "Name": "WeaponRegenPool_Crew_HeavyFighter",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "WeaponRegenPool": {
                   "RegenFillRate": 3000.0,
                   "AmmoLoad": 10000,
@@ -730,7 +794,7 @@
             "Name": "hardpoint_thruster_mav_tail_top_right",
             "Port": {
               "PortName": "hardpoint_thruster_mav_tail_top_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -742,6 +806,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -776,7 +844,7 @@
             "Name": "hardpoint_thruster_mav_tail_top_left",
             "Port": {
               "PortName": "hardpoint_thruster_mav_tail_top_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -788,6 +856,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -822,7 +894,7 @@
             "Name": "hardpoint_thruster_mav_tail_bottom_left",
             "Port": {
               "PortName": "hardpoint_thruster_mav_tail_bottom_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -834,6 +906,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -868,7 +944,7 @@
             "Name": "hardpoint_thruster_mav_nose_top_right",
             "Port": {
               "PortName": "hardpoint_thruster_mav_nose_top_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -880,6 +956,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -914,7 +994,7 @@
             "Name": "hardpoint_thruster_mav_nose_top_left",
             "Port": {
               "PortName": "hardpoint_thruster_mav_nose_top_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -926,6 +1006,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -960,7 +1044,7 @@
             "Name": "hardpoint_thruster_mav_nose_bottom_right",
             "Port": {
               "PortName": "hardpoint_thruster_mav_nose_bottom_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -972,6 +1056,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -1006,7 +1094,7 @@
             "Name": "hardpoint_thruster_mav_nose_bottom_left",
             "Port": {
               "PortName": "hardpoint_thruster_mav_nose_bottom_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -1018,6 +1106,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -1052,7 +1144,7 @@
             "Name": "hardpoint_selfdestruct",
             "Port": {
               "PortName": "hardpoint_selfdestruct",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "VHCL_SelfDestruct_10s",
               "InstalledItem": {
                 "ClassName": "VHCL_SelfDestruct_10s",
@@ -1067,7 +1159,11 @@
                 },
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "SelfDestruct"
@@ -1084,7 +1180,7 @@
             "Name": "hardpoint_seat_access",
             "Port": {
               "PortName": "hardpoint_seat_access",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_SCItem_SeatAccess",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_SCItem_SeatAccess",
@@ -1095,6 +1191,16 @@
                 "Manufacturer": {
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
+                "InventoryContainer": {
+                  "SCU": 1.0,
+                  "x": 5.0,
+                  "y": 5.0,
+                  "z": 5.0
                 }
               },
               "Types": [
@@ -1111,7 +1217,7 @@
             "Name": "hardpoint_cockpit_flair",
             "Port": {
               "PortName": "hardpoint_cockpit_flair",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Flair_Cockpit.Flair_Static"
               ],
@@ -1122,7 +1228,7 @@
             "Name": "hardpoint_seat",
             "Port": {
               "PortName": "hardpoint_seat",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_SCItem_Seat_Pilot",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_SCItem_Seat_Pilot",
@@ -1133,7 +1239,11 @@
                 "Manufacturer": {
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
-                }
+                },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Seat"
@@ -1150,7 +1260,7 @@
             "Name": "hardpoint_retro_thruster_right",
             "Port": {
               "PortName": "hardpoint_retro_thruster_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Retro",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Retro",
@@ -1162,6 +1272,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 4646127.0,
                   "FuelRate": 7.04375E-06,
@@ -1199,7 +1313,7 @@
             "Name": "hardpoint_retro_thruster_left",
             "Port": {
               "PortName": "hardpoint_retro_thruster_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Retro",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Retro",
@@ -1211,6 +1325,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 4646127.0,
                   "FuelRate": 7.04375E-06,
@@ -1248,7 +1366,7 @@
             "Name": "hardpoint_quantum_fuel_tank_right",
             "Port": {
               "PortName": "hardpoint_quantum_fuel_tank_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "QTNK_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "QTNK_CRUS_Starfighter",
@@ -1259,6 +1377,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 2500.0
                 }
@@ -1278,7 +1400,7 @@
             "Name": "hardpoint_quantum_fuel_tank_left",
             "Port": {
               "PortName": "hardpoint_quantum_fuel_tank_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "QTNK_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "QTNK_CRUS_Starfighter",
@@ -1289,6 +1411,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "QuantumFuelTank": {
                   "Capacity": 2500.0
                 }
@@ -1308,7 +1434,7 @@
             "Name": "hardpoint_paint",
             "Port": {
               "PortName": "hardpoint_paint",
-              "Size": 1,
+              "Size": 0,
               "Types": [
                 "Paints"
               ],
@@ -1319,7 +1445,7 @@
             "Name": "hardpoint_missile_launcher_right_s05",
             "Port": {
               "PortName": "hardpoint_missile_launcher_right_s05",
-              "Size": 5,
+              "Size": 0,
               "Loadout": "MRCK_S05_BEHR_Quad_S03",
               "InstalledItem": {
                 "ClassName": "MRCK_S05_BEHR_Quad_S03",
@@ -1335,6 +1461,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 1.116502,
+                "Height": 2.004737,
+                "Length": 8.84403,
+                "Volume": 4200000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -1372,6 +1502,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1406,6 +1540,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1440,6 +1578,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1474,6 +1616,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1504,7 +1650,7 @@
             "Name": "hardpoint_missile_launcher_left_s05",
             "Port": {
               "PortName": "hardpoint_missile_launcher_left_s05",
-              "Size": 5,
+              "Size": 0,
               "Loadout": "MRCK_S05_BEHR_Quad_S03",
               "InstalledItem": {
                 "ClassName": "MRCK_S05_BEHR_Quad_S03",
@@ -1520,6 +1666,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 1.116502,
+                "Height": 2.004737,
+                "Length": 8.84403,
+                "Volume": 4200000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -1557,6 +1707,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1591,6 +1745,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1625,6 +1783,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1659,6 +1821,10 @@
                         "IR",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1689,7 +1855,7 @@
             "Name": "hardpoint_missile_launcher",
             "Port": {
               "PortName": "hardpoint_missile_launcher",
-              "Size": 7,
+              "Size": 0,
               "Loadout": "MRCK_S07_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "MRCK_S07_CRUS_Starfighter",
@@ -1705,6 +1871,10 @@
                 "Tags": [
                   "Starfighter_MissileRack"
                 ],
+                "Width": 1.786404,
+                "Height": 2.806632,
+                "Length": 13.26605,
+                "Volume": 14200000.0,
                 "Durability": {
                   "Health": 200.0
                 },
@@ -1742,6 +1912,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1776,6 +1950,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1810,6 +1988,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1844,6 +2026,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1878,6 +2064,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1912,6 +2102,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1946,6 +2140,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -1980,6 +2178,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -2014,6 +2216,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -2048,6 +2254,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -2082,6 +2292,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -2116,6 +2330,10 @@
                         "CS",
                         "flightReady"
                       ],
+                      "Width": 1.0,
+                      "Height": 1.0,
+                      "Length": 3.0,
+                      "Volume": 3000000.0,
                       "Durability": {
                         "Health": 10.0
                       },
@@ -2152,7 +2370,7 @@
             "Name": "hardpoint_gun_rack",
             "Port": {
               "PortName": "hardpoint_gun_rack",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Weapon_Rack_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "Weapon_Rack_CRUS_Starfighter",
@@ -2160,6 +2378,10 @@
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
                 "Name": "Weapon_Rack_CRUS_Starfighter",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ports": [
                   {
                     "PortName": "$IP_rifle_01",
@@ -2217,7 +2439,7 @@
             "Name": "hardpoint_fuel_tank_right",
             "Port": {
               "PortName": "hardpoint_fuel_tank_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "HTNK_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "HTNK_CRUS_Starfighter",
@@ -2228,6 +2450,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 225000.0
                 }
@@ -2247,7 +2473,7 @@
             "Name": "hardpoint_fuel_tank_left",
             "Port": {
               "PortName": "hardpoint_fuel_tank_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "HTNK_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "HTNK_CRUS_Starfighter",
@@ -2258,6 +2484,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelTank": {
                   "Capacity": 225000.0
                 }
@@ -2277,7 +2507,7 @@
             "Name": "hardpoint_fuel_intake_right",
             "Port": {
               "PortName": "hardpoint_fuel_intake_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "INTK_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "INTK_CRUS_Starfighter",
@@ -2288,6 +2518,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelIntake": {
                   "Rate": 0.0
                 },
@@ -2316,7 +2550,7 @@
             "Name": "hardpoint_fuel_intake_left",
             "Port": {
               "PortName": "hardpoint_fuel_intake_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "INTK_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "INTK_CRUS_Starfighter",
@@ -2327,6 +2561,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "HydrogenFuelIntake": {
                   "Rate": 0.0
                 },
@@ -2355,7 +2593,7 @@
             "Name": "hardpoint_dashboard",
             "Port": {
               "PortName": "hardpoint_dashboard",
-              "Size": 4,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_SCItem_Dashboard",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_SCItem_Dashboard",
@@ -2367,6 +2605,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Health": 1.0
                 },
@@ -2393,7 +2635,11 @@
                       "Manufacturer": {
                         "Code": "ANVL",
                         "Name": "Anvil Aerospace"
-                      }
+                      },
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Types": [
                       "Display"
@@ -2409,7 +2655,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "Display.UNDEFINED",
-                      "Name": "Projector_HUD_Generic"
+                      "Name": "Projector_HUD_Generic",
+                      "Width": 0.15,
+                      "Height": 0.15,
+                      "Length": 0.15,
+                      "Volume": 1.0
                     },
                     "Category": "UNKNOWN"
                   }
@@ -2425,7 +2675,7 @@
             "Name": "hardpoint_countermeasure_launcher_right",
             "Port": {
               "PortName": "hardpoint_countermeasure_launcher_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_CML_Flare",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_CML_Flare",
@@ -2438,6 +2688,10 @@
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -2489,7 +2743,7 @@
             "Name": "hardpoint_countermeasure_launcher_left",
             "Port": {
               "PortName": "hardpoint_countermeasure_launcher_left",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_CML_Chaff",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_CML_Chaff",
@@ -2502,6 +2756,10 @@
                   "Code": "JOK",
                   "Name": "Joker Engineering"
                 },
+                "Width": 0.2233005,
+                "Height": 0.801895,
+                "Length": 2.211008,
+                "Volume": 84000.0,
                 "Durability": {
                   "Health": 1000.0
                 },
@@ -2553,14 +2811,18 @@
             "Name": "hardpoint_controller_weapon",
             "Port": {
               "PortName": "hardpoint_controller_weapon",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Weapon",
               "InstalledItem": {
                 "ClassName": "Controller_Weapon",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "WeaponController.UNDEFINED",
-                "Name": "WEAPONS"
+                "Name": "WEAPONS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "WeaponController"
@@ -2577,7 +2839,7 @@
             "Name": "hardpoint_controller_shield",
             "Port": {
               "PortName": "hardpoint_controller_shield",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Shield_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "Controller_Shield_CRUS_Starfighter",
@@ -2587,7 +2849,11 @@
                 "Name": "SHIELDS",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "ShieldController"
@@ -2601,26 +2867,10 @@
             }
           },
           {
-            "Name": "hardpoint_controller_scanner",
-            "Port": {
-              "PortName": "hardpoint_controller_scanner",
-              "Size": 1,
-              "Types": [
-                "Scanner"
-              ],
-              "Flags": [
-                "invisible",
-                "uneditable"
-              ],
-              "Category": "Scanners",
-              "Uneditable": true
-            }
-          },
-          {
             "Name": "hardpoint_controller_flight",
             "Port": {
               "PortName": "hardpoint_controller_flight",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Flight_CRUS_Starfighter",
               "InstalledItem": {
                 "ClassName": "Controller_Flight_CRUS_Starfighter",
@@ -2632,9 +2882,16 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Ifcs": {
-                  "MaxSpeed": 170.0,
-                  "MaxAfterburnSpeed": 1120.0
+                  "MaxSpeed": 1120.0,
+                  "MaxAfterburnSpeed": 0.0,
+                  "Pitch": 30.0,
+                  "Yaw": 30.0,
+                  "Roll": 115.0
                 }
               },
               "Types": [
@@ -2652,14 +2909,18 @@
             "Name": "hardpoint_controller_energy",
             "Port": {
               "PortName": "hardpoint_controller_energy",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Energy",
               "InstalledItem": {
                 "ClassName": "Controller_Energy",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "EnergyController.UNDEFINED",
-                "Name": "POWER"
+                "Name": "POWER",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "EnergyController"
@@ -2676,14 +2937,18 @@
             "Name": "hardpoint_controller_door",
             "Port": {
               "PortName": "hardpoint_controller_door",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Door",
               "InstalledItem": {
                 "ClassName": "Controller_Door",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DoorController.UNDEFINED",
-                "Name": "SECURITY"
+                "Name": "SECURITY",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "DoorController"
@@ -2700,14 +2965,18 @@
             "Name": "hardpoint_controller_cooler",
             "Port": {
               "PortName": "hardpoint_controller_cooler",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Cooler",
               "InstalledItem": {
                 "ClassName": "Controller_Cooler",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CoolerController.UNDEFINED",
-                "Name": "HEAT"
+                "Name": "HEAT",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CoolerController"
@@ -2724,14 +2993,18 @@
             "Name": "hardpoint_controller_comms",
             "Port": {
               "PortName": "hardpoint_controller_comms",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Comms",
               "InstalledItem": {
                 "ClassName": "Controller_Comms",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "CommsController.UNDEFINED",
-                "Name": "COMMS"
+                "Name": "COMMS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CommsController"
@@ -2748,7 +3021,7 @@
             "Name": "hardpoint_controller_capacitor_assignment",
             "Port": {
               "PortName": "hardpoint_controller_capacitor_assignment",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_CapacitorAssignment",
               "InstalledItem": {
                 "ClassName": "Controller_CapacitorAssignment",
@@ -2758,7 +3031,11 @@
                 "Name": "Controller_CapacitorAssignment",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "CapacitorAssignmentController"
@@ -2779,7 +3056,7 @@
             "Name": "hardpoint_radar",
             "Port": {
               "PortName": "hardpoint_radar",
-              "Size": 2,
+              "Size": 0,
               "Loadout": "RADR_GRNP_S02_Epier",
               "InstalledItem": {
                 "ClassName": "RADR_GRNP_S02_Epier",
@@ -2791,6 +3068,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Durability": {
                   "Lifetime": 720.0
                 },
@@ -2838,7 +3119,7 @@
             "Name": "hardpoint_ping",
             "Port": {
               "PortName": "hardpoint_ping",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_ping",
               "InstalledItem": {
                 "ClassName": "test_ping",
@@ -2849,7 +3130,11 @@
                 "Description": "Ping",
                 "Tags": [
                   "flightReady"
-                ]
+                ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "Ping"
@@ -2866,7 +3151,7 @@
             "Name": "hardpoint_scanner",
             "Port": {
               "PortName": "hardpoint_scanner",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "test_scanner",
               "InstalledItem": {
                 "ClassName": "test_scanner",
@@ -2877,6 +3162,10 @@
                 "Tags": [
                   "flightReady"
                 ],
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Scanner": {
                   "Range": 0.0
                 }
@@ -2896,14 +3185,18 @@
             "Name": "hardpoint_controller_missile",
             "Port": {
               "PortName": "hardpoint_controller_missile",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Missile",
               "InstalledItem": {
                 "ClassName": "Controller_Missile",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "MissileController.UNDEFINED",
-                "Name": "MISSILES"
+                "Name": "MISSILES",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "MissileController"
@@ -2923,7 +3216,7 @@
             "Name": "hardpoint_thruster_mav_tail_bottom_right",
             "Port": {
               "PortName": "hardpoint_thruster_mav_tail_bottom_right",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "CRUS_Starfighter_Thruster_Mav",
               "InstalledItem": {
                 "ClassName": "CRUS_Starfighter_Thruster_Mav",
@@ -2935,6 +3228,10 @@
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
                 },
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Thruster": {
                   "ThrustCapacity": 1632208.0,
                   "FuelRate": 3.125E-06,
@@ -2973,7 +3270,7 @@
                 "Name": "hardpoint_cooler_02",
                 "Port": {
                   "PortName": "hardpoint_cooler_02",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "COOL_AEGS_S02_Arctic_SCItem",
                   "InstalledItem": {
                     "ClassName": "COOL_AEGS_S02_Arctic_SCItem",
@@ -2986,11 +3283,15 @@
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
                     },
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "Cooler": {
                       "Rate": 5200000.0
                     },
                     "Durability": {
-                      "Health": 1750.0,
+                      "Health": 3000.0,
                       "Lifetime": 88.0
                     },
                     "PowerConnection": {
@@ -3013,7 +3314,7 @@
                 "Name": "hardpoint_nacelle_right",
                 "Port": {
                   "PortName": "hardpoint_nacelle_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Ballistic_Nacelle_Right",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Ballistic_Nacelle_Right",
@@ -3025,6 +3326,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 0.0,
                     "Durability": {
                       "Health": 2000.0
                     }
@@ -3043,7 +3348,7 @@
                 "Name": "hardpoint_thruster_main_right",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_right",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Thruster_Main_Right",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Thruster_Main_Right",
@@ -3055,6 +3360,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 14183790.0,
                       "FuelRate": 1.25E-05,
@@ -3090,7 +3399,7 @@
                 "Name": "hardpoint_powerplant_02",
                 "Port": {
                   "PortName": "hardpoint_powerplant_02",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "POWR_AEGS_S02_Maelstrom_SCItem",
                   "InstalledItem": {
                     "ClassName": "POWR_AEGS_S02_Maelstrom_SCItem",
@@ -3103,11 +3412,15 @@
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
                     },
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "PowerPlant": {
                       "Output": 9375.0
                     },
                     "Durability": {
-                      "Health": 1800.0,
+                      "Health": 3000.0,
                       "Lifetime": 35.2
                     },
                     "PowerConnection": {
@@ -3136,7 +3449,7 @@
                 "Name": "hardpoint_cooler_01",
                 "Port": {
                   "PortName": "hardpoint_cooler_01",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "COOL_AEGS_S02_Arctic_SCItem",
                   "InstalledItem": {
                     "ClassName": "COOL_AEGS_S02_Arctic_SCItem",
@@ -3149,11 +3462,15 @@
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
                     },
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "Cooler": {
                       "Rate": 5200000.0
                     },
                     "Durability": {
-                      "Health": 1750.0,
+                      "Health": 3000.0,
                       "Lifetime": 88.0
                     },
                     "PowerConnection": {
@@ -3176,7 +3493,7 @@
                 "Name": "hardpoint_nacelle_left",
                 "Port": {
                   "PortName": "hardpoint_nacelle_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Ballistic_Nacelle_Left",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Ballistic_Nacelle_Left",
@@ -3188,6 +3505,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 0.0,
                     "Durability": {
                       "Health": 2000.0
                     }
@@ -3206,7 +3527,7 @@
                 "Name": "hardpoint_thruster_main_left",
                 "Port": {
                   "PortName": "hardpoint_thruster_main_left",
-                  "Size": 1,
+                  "Size": 0,
                   "Loadout": "CRUS_Starfighter_Thruster_Main_Left",
                   "InstalledItem": {
                     "ClassName": "CRUS_Starfighter_Thruster_Main_Left",
@@ -3218,6 +3539,10 @@
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
                     },
+                    "Width": 0.15,
+                    "Height": 0.15,
+                    "Length": 0.15,
+                    "Volume": 1.0,
                     "Thruster": {
                       "ThrustCapacity": 14183790.0,
                       "FuelRate": 7.04375E-06,
@@ -3253,7 +3578,7 @@
                 "Name": "hardpoint_powerplant_01",
                 "Port": {
                   "PortName": "hardpoint_powerplant_01",
-                  "Size": 2,
+                  "Size": 0,
                   "Loadout": "POWR_AEGS_S02_Maelstrom_SCItem",
                   "InstalledItem": {
                     "ClassName": "POWR_AEGS_S02_Maelstrom_SCItem",
@@ -3266,11 +3591,15 @@
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
                     },
+                    "Width": 0.4466009,
+                    "Height": 0.801895,
+                    "Length": 3.316511,
+                    "Volume": 252000.0,
                     "PowerPlant": {
                       "Output": 9375.0
                     },
                     "Durability": {
-                      "Health": 1800.0,
+                      "Health": 3000.0,
                       "Lifetime": 35.2
                     },
                     "PowerConnection": {
@@ -3295,14 +3624,18 @@
             "Name": "hardpoint_controller_light",
             "Port": {
               "PortName": "hardpoint_controller_light",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "Controller_Light",
               "InstalledItem": {
                 "ClassName": "Controller_Light",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "LightController.UNDEFINED",
-                "Name": "LIGHTS"
+                "Name": "LIGHTS",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0
               },
               "Types": [
                 "LightController"
@@ -3319,7 +3652,7 @@
             "Name": "hardpoint_armor",
             "Port": {
               "PortName": "hardpoint_armor",
-              "Size": 1,
+              "Size": 0,
               "Loadout": "ARMR_CRUS_Starfighter_Inferno",
               "InstalledItem": {
                 "ClassName": "ARMR_CRUS_Starfighter_Inferno",
@@ -3327,10 +3660,14 @@
                 "Grade": 1,
                 "Type": "Armor.Medium",
                 "Name": "ARMR_CRUS_Starfighter_Inferno",
+                "Width": 0.15,
+                "Height": 0.15,
+                "Length": 0.15,
+                "Volume": 1.0,
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.9,
-                    "Energy": 0.9,
+                    "Physical": 0.5,
+                    "Energy": 1.0,
                     "Distortion": 1.0,
                     "Thermal": 1.0,
                     "Biochemical": 1.0

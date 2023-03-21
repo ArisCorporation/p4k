@@ -40,6 +40,16 @@
             "Localization": {
               "Name": "@item_Name_DMC_Pants_03_01_01",
               "Description": "@item_Desc_DMC_Pants_03_01_01"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 7300.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.308,
+              "y": 0.109,
+              "z": 0.256
             }
           }
         },
@@ -176,11 +186,20 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "1f5246a7-9ddd-4557-a7a9-ec5cc752f096"
         }
       },
       "ClassName": "dmc_pants_03_01_01",
       "__ref": "40d587f0-3929-4fef-b46b-4c3585f81a2e",
       "__type": "EntityClassDefinition"
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.0005,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }

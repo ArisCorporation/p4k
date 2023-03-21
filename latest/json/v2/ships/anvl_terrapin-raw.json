@@ -3,9 +3,20 @@
     "StaticEntityClassData": {
       "DefaultEntitlementEntityParams": {
         "entitlementPolicy": "8a1fdd48-7896-4774-a110-2466190e1a07"
+      },
+      "SEntityInsuranceProperties": {
+        "shipInsuranceParams": {
+          "shipEntityClassName": "ANVL_Terrapin",
+          "baseWaitTimeMinutes": 7.875,
+          "mandatoryWaitTimeMinutes": 2.625,
+          "baseExpeditingFee": 3940.0
+        }
       }
     },
     "tags": [
+      {
+        "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
+      },
       {
         "value": "2edce6b3-40ee-4d68-9c92-ab68be6ab433"
       },
@@ -36,7 +47,12 @@
         "vehicleCareer": "@vehicle_focus_support",
         "vehicleCareerRef": "90be8892-b27f-49e6-a2e1-b13801bf4bd5",
         "vehicleRole": "@vehicle_class_pathfinder",
-        "vehicleRoleRef": "8f440187-1d52-41d8-a0f5-b1ce0d34e6bf"
+        "vehicleRoleRef": "8f440187-1d52-41d8-a0f5-b1ce0d34e6bf",
+        "maxBoundingBoxSize": {
+          "x": 16.5,
+          "y": 20.0,
+          "z": 7.5
+        }
       },
       "SEntityComponentDefaultLoadoutParams": {
         "loadout": {
@@ -349,12 +365,12 @@
               },
               {
                 "itemPortName": "hardpoint_weapon_rack_forward",
-                "entityClassName": "Weapon_Rack_Single_AEGS_tec_wall",
+                "entityClassName": "Weapon_Rack_ANVL_Terrapin",
                 "loadout": {}
               },
               {
                 "itemPortName": "hardpoint_weapon_rack_aft",
-                "entityClassName": "Weapon_Rack_Single_AEGS_tec_wall",
+                "entityClassName": "Weapon_Rack_ANVL_Terrapin",
                 "loadout": {}
               },
               {
@@ -419,6 +435,16 @@
           "Localization": {
             "Name": "@vehicle_NameANVL_Terrapin",
             "Description": "@vehicle_DescANVL_Terrapin"
+          },
+          "inventoryOccupancyVolume": {
+            "SMicroCargoUnit": {
+              "microSCU": 1.0
+            }
+          },
+          "inventoryOccupancyDimensions": {
+            "x": 0.15,
+            "y": 0.15,
+            "z": 0.15
           }
         }
       },
@@ -613,8 +639,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "uneditable",
                   "Types": [
                     {
@@ -638,8 +664,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "Self Destruct",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -660,8 +686,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable left",
                   "Types": [
@@ -691,8 +717,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable right",
                   "Types": [
@@ -722,8 +748,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "Landing System",
                   "flags": "uneditable",
                   "Types": [
@@ -738,8 +764,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameCooler02",
                   "flags": "right",
                   "requiredTags": "",
@@ -766,8 +792,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameCooler01",
                   "flags": "left",
                   "requiredTags": "",
@@ -794,8 +820,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "uneditable",
                   "Types": [
                     {
@@ -810,8 +836,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameTurret02",
                   "flags": "uneditable",
                   "Types": [
@@ -856,8 +882,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameFuelIntake01",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -886,8 +912,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameAvionics01",
                   "flags": "uneditable",
                   "Types": [
@@ -920,8 +946,8 @@
                     "damagemax": 0.0,
                     "class": "ItemPort",
                     "ItemPort": {
-                      "minsize": 3,
-                      "maxsize": 3,
+                      "minsize": 0,
+                      "maxsize": 0,
                       "display_name": "port_NameThrustMain01",
                       "flags": "uneditable front_left",
                       "Types": [
@@ -953,8 +979,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable",
                   "Types": [
@@ -988,8 +1014,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable maneuver orientation +X +Z",
                   "Types": [
@@ -1023,8 +1049,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameFuelIntake01",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1053,8 +1079,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameFuelTank01",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1079,8 +1105,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameFuelTank01",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1139,8 +1165,8 @@
                     "damagemax": 0.0,
                     "class": "ItemPort",
                     "ItemPort": {
-                      "minsize": 3,
-                      "maxsize": 3,
+                      "minsize": 0,
+                      "maxsize": 0,
                       "display_name": "port_NameThrustMain01",
                       "flags": "uneditable front_right",
                       "Types": [
@@ -1178,8 +1204,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "uneditable",
                   "Types": [
                     {
@@ -1219,8 +1245,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NamePowerplant01",
                   "flags": "",
                   "Types": [
@@ -1246,8 +1272,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameShieldGen01",
                   "flags": "",
                   "Types": [
@@ -1277,8 +1303,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameShieldGen02",
                   "flags": "",
                   "Types": [
@@ -1308,8 +1334,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1332,8 +1358,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1376,8 +1402,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1419,8 +1445,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1457,8 +1483,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1497,8 +1523,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameBed",
                   "flags": "uneditable",
                   "Types": [
@@ -1524,8 +1550,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "uneditable"
                 }
               },
@@ -1534,8 +1560,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "",
                   "Types": [
                     {
@@ -1550,8 +1576,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameRadar",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1580,8 +1606,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameCooler03",
                   "flags": "invisible",
                   "requiredTags": "",
@@ -1608,8 +1634,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "Armor Slot",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1624,8 +1650,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1662,8 +1688,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1692,8 +1718,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1716,8 +1742,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "uneditable",
                   "Types": [
                     {
@@ -1732,8 +1758,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "uneditable",
                   "Types": [
                     {
@@ -1748,8 +1774,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1763,8 +1789,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "Weapon Regen Pool",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1789,8 +1815,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "Weapon Regen Pool",
                   "flags": "invisible uneditable",
                   "Types": [
@@ -1815,8 +1841,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -1833,43 +1859,35 @@
                 "DetachPart": [
                   {
                     "name": "Leg_rear_Right",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Leg_rear_Left",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Front_right_leg",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Front_left_leg",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Flap_Top_right",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Flap_Top_left",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Vent_flap_top_right",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Vent_flap_top_left",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Body_Bottom",
@@ -1877,18 +1895,15 @@
                   },
                   {
                     "name": "Nose",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Tail",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Body",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   }
                 ]
               },
@@ -1913,8 +1928,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable",
                   "Types": [
@@ -1948,8 +1963,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable",
                   "Types": [
@@ -1983,8 +1998,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_Flair01",
                   "flags": "",
                   "requiredTags": "",
@@ -2001,8 +2016,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_Flair02",
                   "flags": "",
                   "requiredTags": "",
@@ -2019,8 +2034,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameSeatPilot",
                   "flags": "uneditable",
                   "Types": [
@@ -2061,8 +2076,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "uneditable",
                   "Types": [
                     {
@@ -2096,8 +2111,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 3,
-                  "maxsize": 3,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameWeaponNose",
                   "flags": "$uneditable",
                   "Types": [
@@ -2131,8 +2146,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -2157,8 +2172,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -2182,8 +2197,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -2207,8 +2222,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "flags": "invisible uneditable",
                   "Types": [
                     {
@@ -2235,43 +2250,35 @@
                 "DetachPart": [
                   {
                     "name": "Leg_rear_Right",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Leg_rear_Left",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Front_right_leg",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Front_left_leg",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Flap_Top_right",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Flap_Top_left",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Vent_flap_top_right",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Vent_flap_top_left",
-                    "damagemax": 0.0,
-                    "Probability": 0.5
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Body_Bottom",
@@ -2279,18 +2286,15 @@
                   },
                   {
                     "name": "Nose",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Tail",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Body",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   }
                 ]
               },
@@ -2315,8 +2319,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable rear left",
                   "Types": [
@@ -2353,8 +2357,8 @@
                     "damagemax": 0.0,
                     "class": "ItemPort",
                     "ItemPort": {
-                      "minsize": 2,
-                      "maxsize": 2,
+                      "minsize": 0,
+                      "maxsize": 0,
                       "display_name": "port_NameThrustManoeuv01",
                       "flags": "uneditable",
                       "Types": [
@@ -2402,8 +2406,8 @@
                     "damagemax": 0.0,
                     "class": "ItemPort",
                     "ItemPort": {
-                      "minsize": 3,
-                      "maxsize": 3,
+                      "minsize": 0,
+                      "maxsize": 0,
                       "display_name": "port_NameThrustMain01",
                       "flags": "uneditable main rear rear_left",
                       "Types": [
@@ -2435,8 +2439,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable rear right",
                   "Types": [
@@ -2487,8 +2491,8 @@
                     "damagemax": 0.0,
                     "class": "ItemPort",
                     "ItemPort": {
-                      "minsize": 2,
-                      "maxsize": 2,
+                      "minsize": 0,
+                      "maxsize": 0,
                       "display_name": "port_NameThrustManoeuv01",
                       "flags": "uneditable",
                       "Types": [
@@ -2522,8 +2526,8 @@
                     "damagemax": 0.0,
                     "class": "ItemPort",
                     "ItemPort": {
-                      "minsize": 3,
-                      "maxsize": 3,
+                      "minsize": 0,
+                      "maxsize": 0,
                       "display_name": "port_NameThrustMain01",
                       "flags": "uneditable main rear rear_right",
                       "Types": [
@@ -2569,8 +2573,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameQDrive",
                   "flags": "invisible",
                   "requiredTags": "",
@@ -2597,8 +2601,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 1,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameQFuelTank",
                   "flags": "invisible uneditable",
                   "requiredTags": "",
@@ -2621,8 +2625,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable",
                   "Types": [
@@ -2656,8 +2660,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 2,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameThrustManoeuv01",
                   "flags": "uneditable left",
                   "Types": [
@@ -2691,8 +2695,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameCountermeasure02",
                   "flags": "right uneditable",
                   "Types": [
@@ -2718,8 +2722,8 @@
                 "damagemax": 0.0,
                 "class": "ItemPort",
                 "ItemPort": {
-                  "minsize": 1,
-                  "maxsize": 2,
+                  "minsize": 0,
+                  "maxsize": 0,
                   "display_name": "port_NameCountermeasure01",
                   "flags": "left uneditable",
                   "Types": [
@@ -2748,63 +2752,51 @@
                 "DetachPart": [
                   {
                     "name": "Leg_rear_Right",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Leg_rear_Left",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Front_right_leg",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Front_left_leg",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Flap_Top_right",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Flap_Top_left",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Vent_flap_top_right",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Vent_flap_top_left",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Body_Bottom",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Nose",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Tail",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   },
                   {
                     "name": "Body",
-                    "damagemax": 0.0,
-                    "Probability": 1.0
+                    "damagemax": 0.0
                   }
                 ]
               },

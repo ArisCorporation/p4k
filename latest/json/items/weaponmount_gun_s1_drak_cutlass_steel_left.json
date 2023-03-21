@@ -10,7 +10,7 @@
               "entries": [
                 {
                   "itemPortName": "weapon",
-                  "entityClassName": "GATS_BallisticGatling_Mounted_S1",
+                  "entityClassName": "GATS_BallisticGatling_Mounted_S1_DRAK_Cutlass_Steel",
                   "loadout": {}
                 },
                 {
@@ -34,12 +34,22 @@
             "Size": 1,
             "Grade": 1,
             "Manufacturer": "00000000-0000-0000-0000-000000000000",
-            "Tags": "",
-            "RequiredTags": "",
+            "Tags": "DRAK_Cutlass_Steel",
+            "RequiredTags": "DRAK_Cutlass_Steel",
             "DisplayType": "",
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -226,7 +236,7 @@
               "Name": "weapon",
               "DisplayName": "",
               "PortTags": "",
-              "RequiredPortTags": "",
+              "RequiredPortTags": "DRAK_Cutlass_Steel",
               "Flags": "uneditable",
               "MinSize": 1,
               "MaxSize": 1,

@@ -24,6 +24,12 @@
             "Localization": {
               "Name": "@LOC_PLACEHOLDER",
               "Description": "@LOC_EMPTY"
+            },
+            "inventoryOccupancyVolume": {},
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
             }
           }
         },
@@ -57,9 +63,26 @@
                 "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
+              },
+              {
+                "Name": "Open",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_open_storage",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": false,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
               }
             ]
           }
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "056b9d2c-c0ce-444f-8298-5cbf6721e6ad"
         }
       },
       "ClassName": "Seat_Chair_Anim_Valkyrie_ANVL",

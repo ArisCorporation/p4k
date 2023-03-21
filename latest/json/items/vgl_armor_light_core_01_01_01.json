@@ -55,6 +55,16 @@
             "Localization": {
               "Name": "@item_Name_vgl_armor_light_core_01_01_01",
               "Description": "@item_Desc_vgl_armor_light_core_01_01_Shared"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 67000.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.411,
+              "y": 0.367,
+              "z": 0.597
             }
           }
         },
@@ -390,6 +400,9 @@
               ]
             }
           ]
+        },
+        "SCItemInventoryContainerComponentParams": {
+          "containerParams": "7d596a29-41de-463c-80cb-83cd22533c05"
         }
       },
       "ClassName": "vgl_armor_light_core_01_01_01",
@@ -422,5 +435,11 @@
       "Multiplier": 0.7,
       "Threshold": 0
     }
+  },
+  "inventoryContainer": {
+    "SCU": 0.005,
+    "x": 0.365,
+    "y": 0.365,
+    "z": 0.1825
   }
 }
