@@ -1,0 +1,174 @@
+{
+  "ClassName": "JOKR_DistortionCannon_S2",
+  "Size": 2,
+  "Grade": 1,
+  "Type": "WeaponGun.Gun",
+  "Classification": "Ship.Weapon.Gun",
+  "Name": "Suckerpunch-L Cannon",
+  "Description": "Manufacturer: Joker Engineering\nItem Type: Distortion Cannon\nSize: 2\n\nSilently strike from afar with the Suckerpunch. Joker's long-range size two distortion cannon drains a target's power system, leaving them helpless to defend against what you have planned next. An ideal choice for law enforcement, bounty hunters, and other non-lethal operations.",
+  "Manufacturer": {
+    "Code": "JOK",
+    "Name": "Joker Engineering"
+  },
+  "Tags": [
+    "JOKR",
+    "DistortionCannon",
+    "flightReady",
+    "weaponMountUsable"
+  ],
+  "Width": 0.4466009,
+  "Height": 0.801895,
+  "Length": 3.316511,
+  "Volume": 252000.0,
+  "Durability": {
+    "Health": 850.0,
+    "Lifetime": 20.0
+  },
+  "PowerConnection": {
+    "PowerBase": 230.0,
+    "PowerDraw": 230.0
+  },
+  "HeatConnection": {
+    "ThermalEnergyBase": 100.0,
+    "ThermalEnergyDraw": 200.0,
+    "CoolingRate": 92.5
+  },
+  "Weapon": {
+    "Ammunition": {
+      "Speed": 700.0,
+      "Range": 1225.0,
+      "Size": 1.0,
+      "Capacity": 0.0,
+      "ImpactDamage": {},
+      "DetonationDamage": {
+        "Energy": 0.0001,
+        "Distortion": 180.0
+      }
+    },
+    "Modes": [
+      {
+        "Name": "Single",
+        "LocalisedName": "[AUTO]",
+        "RoundsPerMinute": 84.0,
+        "FireType": "sequence",
+        "AmmoPerShot": 1.0,
+        "PelletsPerShot": 1.0,
+        "DamagePerShot": {
+          "Energy": 0.0001,
+          "Distortion": 180.0
+        },
+        "DamagePerSecond": {
+          "Energy": 0.00014,
+          "Distortion": 251.99999999999997
+        }
+      }
+    ],
+    "Consumption": {
+      "RequestedRegenPerSec": 1260.0,
+      "Cooldown": 1.0,
+      "CostPerBullet": 90.0,
+      "RequestedAmmoLoad": 7560.0
+    }
+  },
+  "Ammunition": {
+    "Speed": 700.0,
+    "Range": 1225.0,
+    "Size": 1.0,
+    "Capacity": 0.0,
+    "ImpactDamage": {},
+    "DetonationDamage": {
+      "Energy": 0.0001,
+      "Distortion": 180.0
+    }
+  },
+  "Ports": [
+    {
+      "PortName": "BAR1",
+      "Size": 1,
+      "Loadout": "JOKR_DistortionCannon_Barrel_S2",
+      "InstalledItem": {
+        "ClassName": "JOKR_DistortionCannon_Barrel_S2",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponAttachment.Barrel",
+        "Name": "JOKR_DistortionCannon_Barrel_S2",
+        "Tags": [
+          "uneditable"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
+      },
+      "Types": [
+        "WeaponAttachment.Barrel"
+      ]
+    },
+    {
+      "PortName": "MEC",
+      "Size": 1,
+      "Loadout": "JOKR_DistortionCannon_FiringMechanism_S2",
+      "InstalledItem": {
+        "ClassName": "JOKR_DistortionCannon_FiringMechanism_S2",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponAttachment.FiringMechanism",
+        "Name": "JOKR_DistortionCannon_FiringMechanism_S2",
+        "Tags": [
+          "uneditable"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
+      },
+      "Types": [
+        "WeaponAttachment.FiringMechanism"
+      ]
+    },
+    {
+      "PortName": "POW",
+      "Size": 1,
+      "Loadout": "JOKR_DistortionCannon_PowerArray_S2",
+      "InstalledItem": {
+        "ClassName": "JOKR_DistortionCannon_PowerArray_S2",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "WeaponAttachment.PowerArray",
+        "Name": "JOKR_DistortionCannon_PowerArray_S2",
+        "Tags": [
+          "uneditable"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
+      },
+      "Types": [
+        "WeaponAttachment.PowerArray"
+      ]
+    },
+    {
+      "PortName": "VEN",
+      "Size": 1,
+      "Loadout": "JOKR_DistortionCannon_Ventilation_S2",
+      "InstalledItem": {
+        "ClassName": "JOKR_DistortionCannon_Ventilation_S2",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponAttachment.Ventilation",
+        "Name": "JOKR_DistortionCannon_Ventilation_S2",
+        "Tags": [
+          "uneditable"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0
+      },
+      "Types": [
+        "WeaponAttachment.Ventilation"
+      ]
+    }
+  ]
+}

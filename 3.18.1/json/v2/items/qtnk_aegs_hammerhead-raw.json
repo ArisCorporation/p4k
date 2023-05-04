@@ -1,0 +1,40 @@
+{
+  "StaticEntityClassData": {},
+  "tags": [],
+  "Components": {
+    "SAttachableComponentParams": {
+      "AttachDef": {
+        "Type": "QuantumFuelTank",
+        "SubType": "QuantumFuel",
+        "Size": 1,
+        "Grade": 1,
+        "Manufacturer": "00000000-0000-0000-0000-000000000000",
+        "Tags": "flightReady",
+        "RequiredTags": "",
+        "DisplayType": "",
+        "Localization": {
+          "Name": "@refueling_ui_General_InternalTank",
+          "Description": "@LOC_EMPTY"
+        },
+        "inventoryOccupancyVolume": {
+          "SMicroCargoUnit": {
+            "microSCU": 1.0
+          }
+        },
+        "inventoryOccupancyDimensions": {
+          "x": 0.15,
+          "y": 0.15,
+          "z": 0.15
+        }
+      }
+    },
+    "SCItemFuelTankParams": {
+      "fillRate": 10000.0,
+      "drainRate": 10000.0,
+      "capacity": 11000.0
+    }
+  },
+  "ClassName": "QTNK_AEGS_Hammerhead",
+  "__ref": "d99c21a3-b1c9-4bb2-85aa-333d947d1906",
+  "__type": "EntityClassDefinition"
+}

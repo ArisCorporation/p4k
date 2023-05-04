@@ -1,0 +1,159 @@
+{
+  "ClassName": "CNOU_Mustang_Cargo_Rack",
+  "Size": 4,
+  "Grade": 1,
+  "Type": "Container.Cargo",
+  "Name": "CNOU_Mustang_Cargo_Rack",
+  "Manufacturer": {
+    "Code": "CNOU",
+    "Name": "Consolidated Outland"
+  },
+  "Width": 0.15,
+  "Height": 0.15,
+  "Length": 0.15,
+  "Volume": 1.0,
+  "Durability": {
+    "Health": 350.0
+  },
+  "Ports": [
+    {
+      "PortName": "hardpoint_cargo_grid",
+      "Size": 1,
+      "Loadout": "CNOU_Mustang_CargoGrid_Main",
+      "InstalledItem": {
+        "ClassName": "CNOU_Mustang_CargoGrid_Main",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "CNOU_Mustang_CargoGrid_Main",
+        "Manufacturer": {
+          "Code": "CNOU",
+          "Name": "Consolidated Outland"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 1.25,
+          "z": 1.25
+        }
+      },
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_cargo_box_01",
+      "Size": 1,
+      "Loadout": "CNOU_Mustang_Cargo_Box_Fake",
+      "InstalledItem": {
+        "ClassName": "CNOU_Mustang_Cargo_Box_Fake",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Cargo.UNDEFINED",
+        "Name": "CNOU_Mustang_Cargo_Box_Fake",
+        "Manufacturer": {
+          "Code": "CNOU",
+          "Name": "Consolidated Outland"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Durability": {
+          "Health": 800.0
+        },
+        "Ports": [
+          {
+            "PortName": "hardpoint_front_door",
+            "Size": 0,
+            "Loadout": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+            "InstalledItem": {
+              "ClassName": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Cargo.UNDEFINED",
+              "Name": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            }
+          },
+          {
+            "PortName": "hardpoint_rear_door",
+            "Size": 0,
+            "Loadout": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+            "InstalledItem": {
+              "ClassName": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Cargo.UNDEFINED",
+              "Name": "SimpleOpenableObject_CNOU_Mustang_CargoBox_Door",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            }
+          }
+        ]
+      },
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_cargo_box_02",
+      "Size": 1,
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_cargo_box_03",
+      "Size": 1,
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Uneditable": true
+    },
+    {
+      "PortName": "hardpoint_cargo_box_04",
+      "Size": 1,
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "uneditable"
+      ],
+      "Uneditable": true
+    }
+  ]
+}
