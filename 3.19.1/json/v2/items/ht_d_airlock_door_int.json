@@ -1,0 +1,93 @@
+{
+  "ClassName": "Ht_D_Airlock_Door_Int",
+  "Size": 1,
+  "Grade": 1,
+  "Type": "Door.AirlockPart",
+  "Name": "Ht_D_Airlock_Door_Int",
+  "Width": 0.15,
+  "Height": 0.15,
+  "Length": 0.15,
+  "Volume": 1.0,
+  "PowerConnection": {
+    "PowerBase": 0.0,
+    "PowerDraw": 1.0
+  },
+  "Ports": [
+    {
+      "PortName": "control_panel_a",
+      "Size": 10,
+      "Loadout": "Ht_D_AirlockInteractionPanel",
+      "InstalledItem": {
+        "ClassName": "Ht_D_AirlockInteractionPanel",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "ControlPanel.DoorPart",
+        "Name": "Ht_D_AirlockInteractionPanel",
+        "Tags": [
+          "DoorInteractionPanel"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Ports": [
+          {
+            "PortName": "Screen",
+            "Size": 5,
+            "Loadout": "Ht_AirlockDoorPanelScreen",
+            "InstalledItem": {
+              "ClassName": "Ht_AirlockDoorPanelScreen",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Misc.UNDEFINED",
+              "Name": "Ht_AirlockDoorPanelScreen",
+              "Tags": [
+                "AirlockControlUI"
+              ],
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1.0
+            }
+          }
+        ]
+      },
+      "Types": [
+        "ControlPanel.DoorPart"
+      ]
+    },
+    {
+      "PortName": "charge_handle_a",
+      "Size": 10,
+      "Types": [
+        "Misc.DoorPart"
+      ]
+    },
+    {
+      "PortName": "proximity_sensor",
+      "Size": 2,
+      "Loadout": "DoorProximitySensorItem_Ht_Airlock",
+      "InstalledItem": {
+        "ClassName": "DoorProximitySensorItem_Ht_Airlock",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Sensor.DoorPart",
+        "Name": "DoorProximitySensorItem_Ht_Airlock",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1.0,
+        "Durability": {
+          "Health": 99.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        }
+      },
+      "Types": [
+        "Sensor.DoorPart"
+      ]
+    }
+  ]
+}
