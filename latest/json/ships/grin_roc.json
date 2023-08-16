@@ -8,9 +8,9 @@
         "SEntityInsuranceProperties": {
           "shipInsuranceParams": {
             "shipEntityClassName": "GRIN_ROC",
-            "baseWaitTimeMinutes": 0.23625,
-            "mandatoryWaitTimeMinutes": 0.0,
-            "baseExpeditingFee": 120.0
+            "baseWaitTimeMinutes": 3.54,
+            "mandatoryWaitTimeMinutes": 1.11,
+            "baseExpeditingFee": 1460.0
           }
         }
       },
@@ -72,7 +72,17 @@
                 {
                   "itemPortName": "hardpoint_dashboard_driver",
                   "entityClassName": "GRIN_ROC_Dashboard_Driver",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "itemport_miningHUD",
+                          "entityClassName": "Projector_HUD_Mining_ROC",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_seat_access",
