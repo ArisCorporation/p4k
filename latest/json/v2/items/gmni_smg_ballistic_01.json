@@ -1,0 +1,138 @@
+{
+  "UUID": "8e3e44bd-d289-4a8c-b2e6-289746b02d27",
+  "ClassName": "gmni_smg_ballistic_01",
+  "Size": 2,
+  "Grade": 1,
+  "Type": "WeaponPersonal.Medium",
+  "Classification": "FPS.Weapon.Medium",
+  "Name": "C54 SMG",
+  "Description": "Manufacturer: Gemini\nItem Type: SMG\nClass: Ballistic\n\nMagazine Size: 40\nRate Of Fire: 1,100 rpm\nEffective Range: 35m\n\nAttachments: Barrel (S1), Optics (S1), Underbarrel (S1)\n\nEasy to handle and a beauty to behold with its purple accented styling, the C54 is a sleek and precisely balanced SMG from Gemini. Its lightweight polymer frame and ergonomic design makes it ideal for close quarter engagements. The C54 is capable of firing 10mm rounds on full auto to provide maximum support and target saturation to ensure that any engagement ends quick.",
+  "Manufacturer": {
+    "Code": "GEM",
+    "Name": "Gemini"
+  },
+  "Tags": [
+    "stocked",
+    "smg",
+    "gmni_smg_ballistic_01"
+  ],
+  "Width": 0.0471,
+  "Height": 0.2594,
+  "Length": 0.7026,
+  "Volume": 0.007699999999999999,
+  "DimensionOverrides": {
+    "Width": 0.38,
+    "Height": 0.38,
+    "Depth": 0.8
+  },
+  "Durability": {
+    "Lifetime": 0.0
+  },
+  "Weapon": {
+    "Ammunition": {
+      "Speed": 500.0,
+      "Range": 950.0,
+      "Size": 1.0,
+      "ImpactDamage": {
+        "Physical": 4.935
+      }
+    },
+    "Modes": [
+      {
+        "Name": "Rapid",
+        "LocalisedName": "[AUTO]",
+        "RoundsPerMinute": 925.0,
+        "FireType": "rapid",
+        "AmmoPerShot": 1.0,
+        "PelletsPerShot": 1.0,
+        "DamagePerShot": {
+          "Physical": 4.935
+        },
+        "DamagePerSecond": {
+          "Physical": 76.08125
+        }
+      }
+    ]
+  },
+  "Ammunition": {
+    "Speed": 500.0,
+    "Range": 950.0,
+    "Size": 1.0,
+    "ImpactDamage": {
+      "Physical": 4.935
+    }
+  },
+  "Ports": [
+    {
+      "PortName": "magazine_attach",
+      "Size": 1,
+      "Loadout": "gmni_smg_ballistic_01_mag",
+      "InstalledItem": {
+        "UUID": "3f4a69ef-0bcf-4cd6-a272-782f6641c242",
+        "ClassName": "gmni_smg_ballistic_01_mag",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponAttachment.Magazine",
+        "Name": "C54 SMG Magazine (40 cap)",
+        "Description": "Item Type: Magazine \nCapacity: 40\n\nThis magazine for the C54 SMG holds forty 10mm rounds.",
+        "Manufacturer": {
+          "Code": "GEM",
+          "Name": "Gemini"
+        },
+        "Tags": [
+          "gmni_smg_ballistic_01"
+        ],
+        "Width": 0.0339876,
+        "Height": 0.2206837,
+        "Length": 0.08141628,
+        "Volume": 0.00061,
+        "Ammunition": {
+          "Speed": 500.0,
+          "Range": 950.0,
+          "Size": 1.0,
+          "Capacity": 40.0,
+          "ImpactDamage": {
+            "Physical": 4.935
+          }
+        }
+      },
+      "Types": [
+        "WeaponAttachment.Magazine"
+      ]
+    },
+    {
+      "PortName": "optics_attach",
+      "Size": 1,
+      "Types": [
+        "WeaponAttachment.IronSight"
+      ],
+      "Flags": [
+        "inventory"
+      ]
+    },
+    {
+      "PortName": "barrel_attach",
+      "Size": 1,
+      "Types": [
+        "WeaponAttachment.Barrel"
+      ],
+      "Flags": [
+        "inventory"
+      ]
+    },
+    {
+      "PortName": "underbarrel_attach",
+      "Size": 1,
+      "Types": [
+        "WeaponAttachment.BottomAttachment"
+      ],
+      "Flags": [
+        "inventory"
+      ]
+    },
+    {
+      "PortName": "item_grab",
+      "Size": 0
+    }
+  ]
+}

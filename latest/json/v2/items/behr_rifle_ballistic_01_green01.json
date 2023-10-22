@@ -1,0 +1,152 @@
+{
+  "UUID": "992e922f-8c21-41dd-b1b6-c2753c74c97b",
+  "ClassName": "behr_rifle_ballistic_01_green01",
+  "Size": 2,
+  "Grade": 1,
+  "Type": "WeaponPersonal.Medium",
+  "Classification": "FPS.Weapon.Medium",
+  "Name": "P4-AR “Warhawk” Rifle",
+  "Description": "Manufacturer: Behring\nItem Type: Assault Rifle\nClass: Ballistic\n\nMagazine Size: 30\nRate Of Fire: 550 rpm\nEffective Range: 50 m\n\nAttachments: Optics (S2), Barrel (S2), Underbarrel (S2)\n\nBehring's classic P4-AR rifle features a collapsible stock and shortened barrel, making it an ideal choice for close-quarter firefights. Its accuracy and general ease of use make it universally valued among security, military and civilian users.",
+  "Manufacturer": {
+    "Code": "BEH",
+    "Name": "Behring"
+  },
+  "Tags": [
+    "stocked",
+    "behr_rifle_ballistic_01",
+    "rifle"
+  ],
+  "Width": 0.0811,
+  "Height": 0.2487,
+  "Length": 0.8528,
+  "Volume": 0.013,
+  "DimensionOverrides": {
+    "Width": 0.38,
+    "Height": 0.38,
+    "Depth": 1.1
+  },
+  "Durability": {
+    "Lifetime": 0.0
+  },
+  "Weapon": {
+    "Ammunition": {
+      "Speed": 550.0,
+      "Range": 1100.0,
+      "Size": 1.0,
+      "ImpactDamage": {
+        "Physical": 5.0
+      }
+    },
+    "Modes": [
+      {
+        "Name": "Rapid",
+        "LocalisedName": "[AUTO]",
+        "RoundsPerMinute": 810.0,
+        "FireType": "rapid",
+        "AmmoPerShot": 1.0,
+        "PelletsPerShot": 1.0,
+        "DamagePerShot": {
+          "Physical": 5.0
+        },
+        "DamagePerSecond": {
+          "Physical": 67.5
+        }
+      },
+      {
+        "Name": "Single",
+        "LocalisedName": "[SEMI]",
+        "RoundsPerMinute": 810.0,
+        "FireType": "single",
+        "AmmoPerShot": 1.0,
+        "PelletsPerShot": 1.0,
+        "DamagePerShot": {
+          "Physical": 5.0
+        },
+        "DamagePerSecond": {
+          "Physical": 67.5
+        }
+      }
+    ]
+  },
+  "Ammunition": {
+    "Speed": 550.0,
+    "Range": 1100.0,
+    "Size": 1.0,
+    "ImpactDamage": {
+      "Physical": 5.0
+    }
+  },
+  "Ports": [
+    {
+      "PortName": "magazine_attach",
+      "Size": 1,
+      "Loadout": "behr_rifle_ballistic_01_mag",
+      "InstalledItem": {
+        "UUID": "1f8845fb-22de-4c73-b6e6-ed1d1b066808",
+        "ClassName": "behr_rifle_ballistic_01_mag",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponAttachment.Magazine",
+        "Name": "P4-AR Magazine (30 cap)",
+        "Description": "Item Type: Magazine\nCapacity: 30\n\nThis magazine for the Behring P4-AR rifle holds thirty 5.56mm cartridges.",
+        "Manufacturer": {
+          "Code": "BEH",
+          "Name": "Behring"
+        },
+        "Tags": [
+          "behr_rifle_ballistic_01"
+        ],
+        "Width": 0.0339876,
+        "Height": 0.2206837,
+        "Length": 0.08141628,
+        "Volume": 0.00061,
+        "Ammunition": {
+          "Speed": 550.0,
+          "Range": 1100.0,
+          "Size": 1.0,
+          "Capacity": 30.0,
+          "ImpactDamage": {
+            "Physical": 5.0
+          }
+        }
+      },
+      "Types": [
+        "WeaponAttachment.Magazine"
+      ]
+    },
+    {
+      "PortName": "optics_attach",
+      "Size": 2,
+      "Types": [
+        "WeaponAttachment.IronSight"
+      ],
+      "Flags": [
+        "inventory"
+      ]
+    },
+    {
+      "PortName": "barrel_attach",
+      "Size": 2,
+      "Types": [
+        "WeaponAttachment.Barrel"
+      ],
+      "Flags": [
+        "inventory"
+      ]
+    },
+    {
+      "PortName": "underbarrel_attach",
+      "Size": 2,
+      "Types": [
+        "WeaponAttachment.BottomAttachment"
+      ],
+      "Flags": [
+        "inventory"
+      ]
+    },
+    {
+      "PortName": "item_grab",
+      "Size": 0
+    }
+  ]
+}

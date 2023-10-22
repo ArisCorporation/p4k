@@ -1,0 +1,84 @@
+{
+  "UUID": "85fd75f8-6c6c-4d3f-839f-988ae7660617",
+  "ClassName": "KBAR_BallisticCannon_S1",
+  "Size": 1,
+  "Grade": 1,
+  "Type": "WeaponGun.Gun",
+  "Classification": "Ship.Weapon.Gun",
+  "Name": "9-Series Longsword Cannon",
+  "Description": "Manufacturer: KnightBridge Arms\nItem Type: Ballistic Cannon\nSize: 1\n\nThe entry level autocannon of the KnightBridge Arms Sword-line, the 9-Series Longsword fires a ballistic round designed for use against a variety of armored hostiles while allowing pilots to keep a healthy distance from targets.",
+  "Manufacturer": {
+    "Code": "KBAR",
+    "Name": "KnightBridge Arms"
+  },
+  "Tags": [
+    "KBAR",
+    "BallisticCannon",
+    "flightReady",
+    "weaponMountUsable"
+  ],
+  "Width": 0.4466009,
+  "Height": 1.105504,
+  "Length": 0.801895,
+  "Volume": 0.08399999999999999,
+  "DimensionOverrides": {
+    "Width": 0.38,
+    "Height": 0.38,
+    "Depth": 0.7
+  },
+  "Durability": {
+    "Health": 850.0,
+    "Lifetime": 20.0
+  },
+  "PowerConnection": {
+    "PowerBase": 30.0,
+    "PowerDraw": 50.0
+  },
+  "HeatConnection": {
+    "ThermalEnergyBase": 100.0,
+    "ThermalEnergyDraw": 200.0,
+    "CoolingRate": 49.189
+  },
+  "Weapon": {
+    "Ammunition": {
+      "Speed": 700.0,
+      "Range": 1225.0,
+      "Size": 1.0,
+      "Capacity": 240.0,
+      "ImpactDamage": {
+        "Physical": 106.25
+      }
+    },
+    "Modes": [
+      {
+        "Name": "Single",
+        "LocalisedName": "[AUTO]",
+        "RoundsPerMinute": 240.0,
+        "FireType": "sequence",
+        "AmmoPerShot": 1.0,
+        "PelletsPerShot": 1.0,
+        "DamagePerShot": {
+          "Physical": 106.25
+        },
+        "DamagePerSecond": {
+          "Physical": 425.0
+        }
+      }
+    ]
+  },
+  "Ammunition": {
+    "Speed": 700.0,
+    "Range": 1225.0,
+    "Size": 1.0,
+    "Capacity": 240.0,
+    "ImpactDamage": {
+      "Physical": 106.25
+    }
+  },
+  "Ports": [
+    {
+      "PortName": "magazine_attach",
+      "Size": 0
+    }
+  ]
+}
