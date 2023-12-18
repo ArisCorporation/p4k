@@ -1,0 +1,90 @@
+{
+  "UUID": "e350773c-9131-4974-b624-e6b9e7c7200d",
+  "ClassName": "VNCL_PlasmaCannon_S2",
+  "Size": 2,
+  "Grade": 1,
+  "Type": "WeaponGun.Gun",
+  "Classification": "Ship.Weapon.Gun",
+  "Name": "'WHIP' Cannon",
+  "Description": "'WHIP' Cannon",
+  "Manufacturer": {
+    "Code": "VNC",
+    "Name": "Vanduul"
+  },
+  "Tags": [
+    "VNCL",
+    "PlasmaCannon",
+    "flightReady",
+    "weaponMountUsable"
+  ],
+  "Width": 0.4466009,
+  "Height": 0.801895,
+  "Length": 3.316511,
+  "Volume": 0.252,
+  "DimensionOverrides": {
+    "Width": 0.38,
+    "Height": 0.38,
+    "Depth": 0.7
+  },
+  "Durability": {
+    "Health": 850.0,
+    "Lifetime": 20.0
+  },
+  "PowerConnection": {
+    "PowerBase": 220.0,
+    "PowerDraw": 220.0
+  },
+  "HeatConnection": {
+    "ThermalEnergyBase": 100.0,
+    "ThermalEnergyDraw": 200.0,
+    "CoolingRate": 103.3
+  },
+  "Weapon": {
+    "Ammunition": {
+      "Speed": 1400.0,
+      "Range": 1540.0000000000002,
+      "Size": 2.0,
+      "Capacity": 0.0,
+      "ImpactDamage": {
+        "Energy": 110.0
+      }
+    },
+    "Modes": [
+      {
+        "Name": "Single",
+        "LocalisedName": "[AUTO]",
+        "RoundsPerMinute": 220.0,
+        "FireType": "sequence",
+        "AmmoPerShot": 1.0,
+        "PelletsPerShot": 1.0,
+        "DamagePerShot": {
+          "Energy": 110.0
+        },
+        "DamagePerSecond": {
+          "Energy": 403.3333333333333
+        }
+      }
+    ],
+    "Consumption": {
+      "RequestedRegenPerSec": 2016.67,
+      "Cooldown": 1.0,
+      "CostPerBullet": 110.0,
+      "RequestedAmmoLoad": 12100.0
+    }
+  },
+  "Ammunition": {
+    "Speed": 1400.0,
+    "Range": 1540.0000000000002,
+    "Size": 2.0,
+    "Capacity": 0.0,
+    "ImpactDamage": {
+      "Energy": 110.0
+    }
+  },
+  "Ports": [
+    {
+      "PortName": "magazine_attach",
+      "Size": 0
+    }
+  ]
+}

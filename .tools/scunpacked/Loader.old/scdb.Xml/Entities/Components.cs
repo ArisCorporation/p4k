@@ -2,6 +2,7 @@ namespace scdb.Xml.Entities
 {
 	public class Components
 	{
+		public SEntityPhysicsControllerParams SEntityPhysicsControllerParams;
 		public VehicleComponentParams VehicleComponentParams;
 		public SEntityComponentDefaultLoadoutParams SEntityComponentDefaultLoadoutParams;
 		public SAttachableComponentParams SAttachableComponentParams;
@@ -40,7 +41,11 @@ namespace scdb.Xml.Entities
 		public SCItemWeaponRegenPoolComponentParams SCItemWeaponRegenPoolComponentParams;
 		public MaxBoundingBoxSize maxBoundingBoxSize;
 		public SInventoryParams SInventoryParams;
+		public ResourceContainer ResourceContainer;
 		public SCItemInventoryContainerComponentParams SCItemInventoryContainerComponentParams;
 		public SCItemConsumableParams SCItemConsumableParams;
+		public SCItemExplosiveParams SCItemExplosiveParams;
+		public EntityComponentAttachableModifierParams EntityComponentAttachableModifierParams;
+		public SWeaponModifierComponentParams SWeaponModifierComponentParams;
 	}
 }

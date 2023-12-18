@@ -44,7 +44,6 @@ namespace Loader
 			"flair_surface",
 			"flair_wall",
 			"removablechip",
-			"shopdisplay"
 		};
 
 		public ItemLoader(ItemBuilder itemBuilder, ManufacturerService manufacturerSvc, EntityService entitySvc, AmmoService ammoSvc, ItemInstaller itemInstaller, LoadoutLoader loadoutLoader, InventoryContainerService inventoryContainerSvc)
@@ -107,6 +106,7 @@ namespace Loader
 				var stdItem = itemBuilder.BuildItem(entity);
 				var loadout = loadoutLoader.Load(entity);
 				itemInstaller.InstallLoadout(stdItem, loadout);
+				itemInstaller.InstallLoadout(entity, loadout);
 
 				stdItem.Classification = item.classification;
 				item.stdItem = stdItem;
