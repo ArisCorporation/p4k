@@ -135,10 +135,10 @@
       "MisfireMaxTemperature": 600.0
     },
     "SDistortionParams": {
-      "DecayRate": 24.0,
-      "Maximum": 540.0,
+      "DecayRate": 500000.0,
+      "Maximum": 500000.0,
       "OverloadRatio": 0.0,
-      "RecoveryRatio": 0.52,
+      "RecoveryRatio": 0.0,
       "RecoveryTime": 0.0
     },
     "SAmmoContainerComponentParams": {
@@ -387,7 +387,7 @@
               "unit": "RPM",
               "weaponAction": {
                 "SWeaponActionFireSingleParams": {
-                  "heatPerShot": 1000.0,
+                  "heatPerShot": 20.0,
                   "fireRate": 850.0,
                   "launchParams": {
                     "SProjectileLauncher": {
@@ -413,7 +413,7 @@
               "unit": "RPM",
               "weaponAction": {
                 "SWeaponActionFireSingleParams": {
-                  "heatPerShot": 1000.0,
+                  "heatPerShot": 20.0,
                   "fireRate": 850.0,
                   "launchParams": {
                     "SProjectileLauncher": {
@@ -439,7 +439,7 @@
               "unit": "RPM",
               "weaponAction": {
                 "SWeaponActionFireSingleParams": {
-                  "heatPerShot": 1000.0,
+                  "heatPerShot": 20.0,
                   "fireRate": 850.0,
                   "launchParams": {
                     "SProjectileLauncher": {
@@ -469,7 +469,7 @@
       "weaponRegenConsumerParams": [
         {
           "requestedRegenPerSec": 1687.5,
-          "regenerationCooldown": 1.0,
+          "regenerationCooldown": 0.25,
           "regenerationCostPerBullet": 28.59,
           "requestedAmmoLoad": 10125.0
         }

@@ -38,7 +38,7 @@ if "%1" == "" (
   if exist latest\ (
     powershell write-host -fore DarkYellow changing latest version...
 
-    set /p Build=<latest\version.txt
+    set /p Build=latest\version.txt
     rename latest %Build%
   ) else (
     powershell write-host -fore DarkYellow creating latest version...
