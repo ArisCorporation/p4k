@@ -35,13 +35,46 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 1000.0,
-      "Range": 2000.0,
+      "UUID": "7073eab2-7a2e-4258-84e3-d83c2ae41c7a",
+      "Type": "AmmoParams",
+      "Speed": 500.0,
+      "Range": 1000.0,
       "Size": 1.0,
       "ImpactDamage": {
         "Energy": 100.0,
         "Distortion": 35.0,
         "Stun": 10.0
+      },
+      "BulletImpulseFalloff": {
+        "MinDistance": 0.0,
+        "DropFalloff": 0.005,
+        "MaxFalloff": 0.3
+      },
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {
+        "ResidualChargeMultiplier": 0.65,
+        "MaximumJumps": 3.0,
+        "JumpRange": 3.8
+      },
+      "DamageDropMinDistance": {
+        "Energy": 350.0,
+        "Distortion": 350.0,
+        "Stun": 350.0
+      },
+      "DamageDropPerMeter": {
+        "Energy": 0.01,
+        "Distortion": 0.01,
+        "Stun": 0.01
+      },
+      "DamageDropMinDamage": {
+        "Energy": 30.0,
+        "Distortion": 20.0,
+        "Stun": 6.0
       }
     },
     "Modes": [
@@ -66,13 +99,46 @@
     ]
   },
   "Ammunition": {
-    "Speed": 1000.0,
-    "Range": 2000.0,
+    "UUID": "7073eab2-7a2e-4258-84e3-d83c2ae41c7a",
+    "Type": "AmmoParams",
+    "Speed": 500.0,
+    "Range": 1000.0,
     "Size": 1.0,
     "ImpactDamage": {
       "Energy": 100.0,
       "Distortion": 35.0,
       "Stun": 10.0
+    },
+    "BulletImpulseFalloff": {
+      "MinDistance": 0.0,
+      "DropFalloff": 0.005,
+      "MaxFalloff": 0.3
+    },
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {
+      "ResidualChargeMultiplier": 0.65,
+      "MaximumJumps": 3.0,
+      "JumpRange": 3.8
+    },
+    "DamageDropMinDistance": {
+      "Energy": 350.0,
+      "Distortion": 350.0,
+      "Stun": 350.0
+    },
+    "DamageDropPerMeter": {
+      "Energy": 0.01,
+      "Distortion": 0.01,
+      "Stun": 0.01
+    },
+    "DamageDropMinDamage": {
+      "Energy": 30.0,
+      "Distortion": 20.0,
+      "Stun": 6.0
     }
   },
   "Ports": [
@@ -100,14 +166,47 @@
         "Length": 0.08062783,
         "Volume": 0.00047999999999999996,
         "Ammunition": {
-          "Speed": 1000.0,
-          "Range": 2000.0,
+          "UUID": "7073eab2-7a2e-4258-84e3-d83c2ae41c7a",
+          "Type": "AmmoParams",
+          "Speed": 500.0,
+          "Range": 1000.0,
           "Size": 1.0,
           "Capacity": 8.0,
           "ImpactDamage": {
             "Energy": 100.0,
             "Distortion": 35.0,
             "Stun": 10.0
+          },
+          "BulletImpulseFalloff": {
+            "MinDistance": 0.0,
+            "DropFalloff": 0.005,
+            "MaxFalloff": 0.3
+          },
+          "BulletPierceability": {
+            "DamageFalloffLevel1": 0.0,
+            "DamageFalloffLevel2": 0.0,
+            "DamageFalloffLevel3": 0.0,
+            "MaxPenetrationThickness": 0.5
+          },
+          "BulletElectron": {
+            "ResidualChargeMultiplier": 0.65,
+            "MaximumJumps": 3.0,
+            "JumpRange": 3.8
+          },
+          "DamageDropMinDistance": {
+            "Energy": 350.0,
+            "Distortion": 350.0,
+            "Stun": 350.0
+          },
+          "DamageDropPerMeter": {
+            "Energy": 0.01,
+            "Distortion": 0.01,
+            "Stun": 0.01
+          },
+          "DamageDropMinDamage": {
+            "Energy": 30.0,
+            "Distortion": 20.0,
+            "Stun": 6.0
           }
         }
       },
@@ -126,7 +225,7 @@
         "Grade": 1,
         "Type": "WeaponAttachment.IronSight",
         "Name": "Omarof (16x Telescopic)",
-        "Description": "Manufacturer: Lightning Bolt Company \nType: Telescopic\nAttachment Point: Optic  \nMagnification: 16x\nSize: 3\n\nGet a crystal clear view of distant targets with this powerful telescopic scope from Lightning Bolt Company. Designed specifically for the Atzkav Sniper Rifle, the Omarof uses ultra-precise laser etched lenses that are then multi-coated to allow for high light transmission, wide sight picture and crisp colors, providing strikingly sharp images across significant distances.",
+        "Description": "Manufacturer: Lightning Bolt Company \nType: Telescopic\nAttachment Point: Optic  \nMagnification: 16x\nAim Time: +0%\nSize: 3\n\nGet a crystal clear view of distant targets with this powerful telescopic scope from Lightning Bolt Company. Designed specifically for the Atzkav Sniper Rifle, the Omarof uses ultra-precise laser etched lenses that are then multi-coated to allow for high light transmission, wide sight picture and crisp colors, providing strikingly sharp images across significant distances.",
         "Manufacturer": {
           "Code": "",
           "Name": "@LOC_PLACEHOLDER"

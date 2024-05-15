@@ -42,11 +42,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+            "Type": "AmmoParams",
             "Speed": 65.0,
             "Range": 520.0,
             "Size": 0.0,
             "Capacity": 12.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -62,11 +70,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+          "Type": "AmmoParams",
           "Speed": 65.0,
           "Range": 520.0,
           "Size": 0.0,
           "Capacity": 12.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -112,11 +128,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+            "Type": "AmmoParams",
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
             "Capacity": 4.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -132,11 +156,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+          "Type": "AmmoParams",
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
           "Capacity": 4.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -1606,11 +1638,11 @@
           "Health": 1000.0
         },
         "InventoryContainer": {
-          "SCU": 0.075,
+          "SCU": 0.39,
           "x": 1.2,
           "y": 1.0,
           "z": 1.0,
-          "unit": 6.0
+          "unit": 0.0
         }
       },
       "Types": [
@@ -1658,6 +1690,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {

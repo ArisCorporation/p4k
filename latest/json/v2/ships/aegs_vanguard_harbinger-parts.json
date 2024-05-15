@@ -5,7 +5,7 @@
     "Parts": [
       {
         "Name": "Nose",
-        "MaximumDamage": 9600.0,
+        "MaximumDamage": 10000.0,
         "Parts": [
           {
             "Name": "interior_cockpit",
@@ -55,147 +55,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose",
               "Size": 0,
-              "Loadout": "Mount_Gimbal_S5",
-              "InstalledItem": {
-                "UUID": "99e0ea17-45fc-4700-8607-ab879d05a284",
-                "ClassName": "Mount_Gimbal_S5",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "Turret.GunTurret",
-                "Name": "VariPuck S5 Gimbal Mount",
-                "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 5\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-                "Manufacturer": {
-                  "Code": "FFSY",
-                  "Name": "Flashfire Systems"
-                },
-                "Tags": [
-                  "gimbalMount",
-                  "flightReady"
-                ],
-                "Width": 1.116502,
-                "Height": 2.004737,
-                "Length": 8.84403,
-                "Volume": 4.2,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.38
-                },
-                "Durability": {
-                  "Health": 400.0,
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 33.75
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_class_2",
-                    "Size": 4,
-                    "Loadout": "BEHR_BallisticCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "6635dc5f-dfcd-4b72-9d9d-8d3620820352",
-                      "ClassName": "BEHR_BallisticCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "C-788 Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Ballistic Cannon\nSize: 4\n\nHurtling high caliber rounds with devastating velocity, Behring’s C-788 Ballistic Autocannon was built to punch through ship armor. Extremely durable with exceptional heat resistance, the “Combine” can handle a heavy workload that, even with the weapon’s slower rate of fire, makes it an ideal choice for taking on larger, less maneuverable targets.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "BallisticCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 70.0,
-                        "PowerDraw": 100.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 188.0
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 0.0,
-                          "Capacity": 100.0,
-                          "ImpactDamage": {
-                            "Physical": 1.0
-                          },
-                          "DetonationDamage": {
-                            "Physical": 105.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 50.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Physical": 106.0
-                            },
-                            "DamagePerSecond": {
-                              "Physical": 88.33333333333334
-                            }
-                          }
-                        ]
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 0.0,
-                        "Capacity": 100.0,
-                        "ImpactDamage": {
-                          "Physical": 1.0
-                        },
-                        "DetonationDamage": {
-                          "Physical": 105.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.Gun",
                 "Turret.GunTurret",
@@ -226,6 +85,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -290,84 +150,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_001",
               "Size": 0,
-              "Loadout": "BEHR_BallisticCannon_VNG_S2",
-              "InstalledItem": {
-                "UUID": "8115a034-92bf-4766-b0ce-408398ddc7e7",
-                "ClassName": "BEHR_BallisticCannon_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "CVSA Cannon",
-                "Description": "Manufacturer: Behring\nItem Type: Ballistic Cannon\nSize: 2\n\nBehring designed the CVSA to be their Vanguard only ballistic cannon variant. This weapon features a slower rate of fire delivers a higher velocity round that is ideal for dealing major damage to targets at medium to long ranges. ",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 550.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 40.0,
-                  "PowerDraw": 60.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 109.2308
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 700.0,
-                    "Range": 1225.0,
-                    "Size": 1.0,
-                    "Capacity": 220.0,
-                    "ImpactDamage": {
-                      "Physical": 143.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[AUTO]",
-                      "RoundsPerMinute": 220.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Physical": 143.0
-                      },
-                      "DamagePerSecond": {
-                        "Physical": 524.3333333333333
-                      }
-                    }
-                  ]
-                },
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 1225.0,
-                  "Size": 1.0,
-                  "Capacity": 220.0,
-                  "ImpactDamage": {
-                    "Physical": 143.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -379,84 +161,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_002",
               "Size": 0,
-              "Loadout": "BEHR_BallisticCannon_VNG_S2",
-              "InstalledItem": {
-                "UUID": "8115a034-92bf-4766-b0ce-408398ddc7e7",
-                "ClassName": "BEHR_BallisticCannon_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "CVSA Cannon",
-                "Description": "Manufacturer: Behring\nItem Type: Ballistic Cannon\nSize: 2\n\nBehring designed the CVSA to be their Vanguard only ballistic cannon variant. This weapon features a slower rate of fire delivers a higher velocity round that is ideal for dealing major damage to targets at medium to long ranges. ",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 550.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 40.0,
-                  "PowerDraw": 60.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 109.2308
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 700.0,
-                    "Range": 1225.0,
-                    "Size": 1.0,
-                    "Capacity": 220.0,
-                    "ImpactDamage": {
-                      "Physical": 143.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[AUTO]",
-                      "RoundsPerMinute": 220.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Physical": 143.0
-                      },
-                      "DamagePerSecond": {
-                        "Physical": 524.3333333333333
-                      }
-                    }
-                  ]
-                },
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 1225.0,
-                  "Size": 1.0,
-                  "Capacity": 220.0,
-                  "ImpactDamage": {
-                    "Physical": 143.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -468,84 +172,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_003",
               "Size": 0,
-              "Loadout": "BEHR_BallisticCannon_VNG_S2",
-              "InstalledItem": {
-                "UUID": "8115a034-92bf-4766-b0ce-408398ddc7e7",
-                "ClassName": "BEHR_BallisticCannon_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "CVSA Cannon",
-                "Description": "Manufacturer: Behring\nItem Type: Ballistic Cannon\nSize: 2\n\nBehring designed the CVSA to be their Vanguard only ballistic cannon variant. This weapon features a slower rate of fire delivers a higher velocity round that is ideal for dealing major damage to targets at medium to long ranges. ",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 550.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 40.0,
-                  "PowerDraw": 60.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 109.2308
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 700.0,
-                    "Range": 1225.0,
-                    "Size": 1.0,
-                    "Capacity": 220.0,
-                    "ImpactDamage": {
-                      "Physical": 143.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[AUTO]",
-                      "RoundsPerMinute": 220.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Physical": 143.0
-                      },
-                      "DamagePerSecond": {
-                        "Physical": 524.3333333333333
-                      }
-                    }
-                  ]
-                },
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 1225.0,
-                  "Size": 1.0,
-                  "Capacity": 220.0,
-                  "ImpactDamage": {
-                    "Physical": 143.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -557,84 +183,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_004",
               "Size": 0,
-              "Loadout": "BEHR_BallisticCannon_VNG_S2",
-              "InstalledItem": {
-                "UUID": "8115a034-92bf-4766-b0ce-408398ddc7e7",
-                "ClassName": "BEHR_BallisticCannon_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "CVSA Cannon",
-                "Description": "Manufacturer: Behring\nItem Type: Ballistic Cannon\nSize: 2\n\nBehring designed the CVSA to be their Vanguard only ballistic cannon variant. This weapon features a slower rate of fire delivers a higher velocity round that is ideal for dealing major damage to targets at medium to long ranges. ",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 550.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 40.0,
-                  "PowerDraw": 60.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 109.2308
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 700.0,
-                    "Range": 1225.0,
-                    "Size": 1.0,
-                    "Capacity": 220.0,
-                    "ImpactDamage": {
-                      "Physical": 143.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[AUTO]",
-                      "RoundsPerMinute": 220.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Physical": 143.0
-                      },
-                      "DamagePerSecond": {
-                        "Physical": 524.3333333333333
-                      }
-                    }
-                  ]
-                },
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 1225.0,
-                  "Size": 1.0,
-                  "Capacity": 220.0,
-                  "ImpactDamage": {
-                    "Physical": 143.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -665,7 +213,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Vanguard_SCItem_SeatAccess",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -780,20 +328,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1022.0,
-                  "ScmSpeed": 171.0,
-                  "Pitch": 32.0,
+                  "MaxSpeed": 1100.0,
+                  "ScmSpeed": 210.0,
+                  "Pitch": 38.0,
                   "Yaw": 32.0,
                   "Roll": 120.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 2800.0,
-                    "CapacitorAfterburnerIdleCost": 20.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.1,
-                    "CapacitorRegenDelayAfterUse": 3.0,
-                    "CapacitorRegenPerSec": 100.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 0.7,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -1093,8 +641,8 @@
             }
           }
         ],
-        "ShipDestructionDamage": 9600.0,
-        "PartDetachDamage": 9600.0
+        "ShipDestructionDamage": 10000.0,
+        "PartDetachDamage": 10000.0
       },
       {
         "Name": "Body",
@@ -1430,206 +978,6 @@
             "Port": {
               "PortName": "hardpoint_turret",
               "Size": 0,
-              "Loadout": "AEGS_Vanguard_Harbinger_SCItem_Turret",
-              "InstalledItem": {
-                "UUID": "632fdd8d-cad8-4e92-bf9d-ee4fcf832bfd",
-                "ClassName": "AEGS_Vanguard_Harbinger_SCItem_Turret",
-                "Size": 6,
-                "Grade": 1,
-                "Type": "TurretBase.MannedTurret",
-                "Name": "Manned Turret",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0,
-                  "Lifetime": 25.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "turret_left",
-                    "Size": 3,
-                    "Loadout": "RPOD_S3_FSKI_9x_S3",
-                    "InstalledItem": {
-                      "UUID": "4312c1a5-f575-4e06-9892-2c5270982e9e",
-                      "ClassName": "RPOD_S3_FSKI_9x_S3",
-                      "Size": 3,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Rocket",
-                      "Name": "Jericho XL",
-                      "Description": "Item Type: Rocket Pod\nManufacturer: Hurston Dynamics\nSize: 3\nRockets: 18xS1\n\nThe Jericho XL rocket pod from Hurston Dynamics is compatible with any size three hardpoint and capable of carrying eighteen S1 rockets.",
-                      "Manufacturer": {
-                        "Code": "FSKI",
-                        "Name": "Aegis Dynamics"
-                      },
-                      "Tags": [
-                        "flightReady"
-                      ],
-                      "Width": 0.6699014,
-                      "Height": 1.202842,
-                      "Length": 4.422015,
-                      "Volume": 0.756,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 0.7
-                      },
-                      "Durability": {
-                        "Health": 1000.0,
-                        "Lifetime": 1440.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 146.0,
-                        "PowerDraw": 377.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 10.0,
-                        "ThermalEnergyDraw": 20.0,
-                        "CoolingRate": 1.0
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 2100.0,
-                          "Size": 0.0,
-                          "Capacity": 18.0,
-                          "ImpactDamage": {},
-                          "DetonationDamage": {
-                            "Physical": 150.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 60.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Physical": 150.0
-                            },
-                            "DamagePerSecond": {
-                              "Physical": 150.0
-                            }
-                          }
-                        ]
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 2100.0,
-                        "Size": 0.0,
-                        "Capacity": 18.0,
-                        "ImpactDamage": {},
-                        "DetonationDamage": {
-                          "Physical": 150.0
-                        }
-                      }
-                    },
-                    "Types": [
-                      "WeaponGun.Gun",
-                      "WeaponGun.Rocket"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "turret_right",
-                    "Size": 3,
-                    "Loadout": "RPOD_S3_FSKI_9x_S3",
-                    "InstalledItem": {
-                      "UUID": "4312c1a5-f575-4e06-9892-2c5270982e9e",
-                      "ClassName": "RPOD_S3_FSKI_9x_S3",
-                      "Size": 3,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Rocket",
-                      "Name": "Jericho XL",
-                      "Description": "Item Type: Rocket Pod\nManufacturer: Hurston Dynamics\nSize: 3\nRockets: 18xS1\n\nThe Jericho XL rocket pod from Hurston Dynamics is compatible with any size three hardpoint and capable of carrying eighteen S1 rockets.",
-                      "Manufacturer": {
-                        "Code": "FSKI",
-                        "Name": "Aegis Dynamics"
-                      },
-                      "Tags": [
-                        "flightReady"
-                      ],
-                      "Width": 0.6699014,
-                      "Height": 1.202842,
-                      "Length": 4.422015,
-                      "Volume": 0.756,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 0.7
-                      },
-                      "Durability": {
-                        "Health": 1000.0,
-                        "Lifetime": 1440.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 146.0,
-                        "PowerDraw": 377.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 10.0,
-                        "ThermalEnergyDraw": 20.0,
-                        "CoolingRate": 1.0
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 2100.0,
-                          "Size": 0.0,
-                          "Capacity": 18.0,
-                          "ImpactDamage": {},
-                          "DetonationDamage": {
-                            "Physical": 150.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 60.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Physical": 150.0
-                            },
-                            "DamagePerSecond": {
-                              "Physical": 150.0
-                            }
-                          }
-                        ]
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 2100.0,
-                        "Size": 0.0,
-                        "Capacity": 18.0,
-                        "ImpactDamage": {},
-                        "DetonationDamage": {
-                          "Physical": 150.0
-                        }
-                      }
-                    },
-                    "Types": [
-                      "WeaponGun.Gun",
-                      "WeaponGun.Rocket"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "TurretBase.MannedTurret"
               ],
@@ -1804,14 +1152,14 @@
                     "Cooldown": 22.14,
                     "Stage1AccelerationRate": 1102001.0,
                     "State2AccelerationRate": 14156580.0,
-                    "SpoolUpTime": 2.0
+                    "SpoolUpTime": 5.0
                   },
                   "SplineJump": {
                     "Speed": 400000.0,
                     "Cooldown": 22.14,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 2.0
+                    "SpoolUpTime": 5.0
                   }
                 },
                 "Durability": {
@@ -1826,7 +1174,22 @@
                   "ThermalEnergyBase": 116625.0,
                   "ThermalEnergyDraw": 116625.0,
                   "CoolingRate": 197.0238
-                }
+                },
+                "Ports": [
+                  {
+                    "PortName": "hardpoint_Jump_Drive",
+                    "Size": 2,
+                    "Types": [
+                      "JumpDrive.JumpDrive"
+                    ],
+                    "Flags": [
+                      "uneditable",
+                      "invisible"
+                    ],
+                    "Category": "UNKNOWN",
+                    "Uneditable": true
+                  }
+                ]
               },
               "Types": [
                 "QuantumDrive.QDrive"
@@ -2155,8 +1518,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 7100.0,
-                  "Regeneration": 450.0,
+                  "Health": 6000.0,
+                  "Regeneration": 400.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -2234,8 +1597,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 7100.0,
-                  "Regeneration": 450.0,
+                  "Health": 6000.0,
+                  "Regeneration": 400.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -2298,6 +1661,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Eclipse - Decoy Launcher",
+                "Description": "Aegis Eclipse - Decoy Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2320,11 +1684,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                    "Type": "AmmoParams",
                     "Speed": 65.0,
                     "Range": 520.0,
                     "Size": 0.0,
                     "Capacity": 48.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2340,11 +1712,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                  "Type": "AmmoParams",
                   "Speed": 65.0,
                   "Range": 520.0,
                   "Size": 0.0,
                   "Capacity": 48.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2371,6 +1751,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Eclipse - Noise Launcher",
+                "Description": "Aegis Eclipse - Noise Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2393,11 +1774,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 5.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2413,11 +1802,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 5.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2444,6 +1841,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "RSI Self Destruct Long",
+                "Description": "RSI Self Destruct Long",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -2491,6 +1889,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.5,
@@ -2551,24 +1952,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_HeavyFighter",
-              "InstalledItem": {
-                "UUID": "9427bda1-a163-4655-98a9-32f30de74d4e",
-                "ClassName": "WeaponRegenPool_Crew_HeavyFighter",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_HeavyFighter",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 10000,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -2592,7 +1975,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Vanguard_SCItem_SeatAccess_Turret",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2630,6 +2013,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -2714,7 +2098,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_AEGS_Vanguard",
+                "Name": "Door Control",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -3508,14 +2892,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_01",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Main_01",
                   "InstalledItem": {
-                    "UUID": "2f705928-ed1b-4090-b987-06956afec140",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_01",
+                    "UUID": "436e33e3-18a4-44f4-95f7-6d7cc3b9963f",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Main_01",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_01",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Main_01",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3525,10 +2909,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 5324742.0,
+                      "ThrustCapacity": 6933326.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 32.61404475
+                      "MaxThrustFuelRate": 42.46662175
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -3703,14 +3087,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_FR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3720,10 +3104,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -3758,14 +3142,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_FR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3775,10 +3159,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -3813,14 +3197,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_RR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3830,10 +3214,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -3868,14 +3252,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_RR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3885,10 +3269,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -3922,14 +3306,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_RR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3939,10 +3323,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -3977,14 +3361,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_middle_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_02",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Main_02",
                   "InstalledItem": {
-                    "UUID": "6359df14-70d4-4dc8-af91-0207b0e0ba28",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_02",
+                    "UUID": "05a58687-abf0-44a9-8e7a-3247d95fb86d",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Main_02",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_02",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Main_02",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3994,10 +3378,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3448401.0,
+                      "ThrustCapacity": 3920000.0,
                       "FuelRate": 9.1875E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 31.6821841875
+                      "MaxThrustFuelRate": 36.015
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -4029,14 +3413,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Retro",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Retro",
                   "InstalledItem": {
-                    "UUID": "aab3551c-0979-4f42-996a-a89c83c78ad6",
-                    "ClassName": "AEGS_Vanguard_Thruster_Retro",
+                    "UUID": "4e0a1136-fcda-470d-a550-322ab22a18a6",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Retro",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Retro",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Retro",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4046,10 +3430,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3513015.0,
+                      "ThrustCapacity": 4223679.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 21.517216875
+                      "MaxThrustFuelRate": 25.870033875
                     },
                     "Durability": {
                       "Health": 15250.0,
@@ -4121,14 +3505,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_01",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Main_01",
                   "InstalledItem": {
-                    "UUID": "2f705928-ed1b-4090-b987-06956afec140",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_01",
+                    "UUID": "436e33e3-18a4-44f4-95f7-6d7cc3b9963f",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Main_01",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_01",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Main_01",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4138,10 +3522,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 5324742.0,
+                      "ThrustCapacity": 6933326.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 32.61404475
+                      "MaxThrustFuelRate": 42.46662175
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -4174,14 +3558,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_RL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4191,10 +3575,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4229,14 +3613,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_FL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4246,10 +3630,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4284,14 +3668,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_RL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4301,10 +3685,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4338,14 +3722,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_FL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4355,10 +3739,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4393,14 +3777,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_RL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "59d49f56-370a-4235-ab8f-bf4cdd749645",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4410,10 +3794,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3677046.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.49076875
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4448,14 +3832,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_middle_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_02",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Main_02",
                   "InstalledItem": {
-                    "UUID": "6359df14-70d4-4dc8-af91-0207b0e0ba28",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_02",
+                    "UUID": "05a58687-abf0-44a9-8e7a-3247d95fb86d",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Main_02",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_02",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Main_02",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4465,10 +3849,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3448401.0,
+                      "ThrustCapacity": 3920000.0,
                       "FuelRate": 9.1875E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 31.6821841875
+                      "MaxThrustFuelRate": 36.015
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -4643,14 +4027,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Retro",
+                  "Loadout": "AEGS_Vanguard_Harbinger_Thruster_Retro",
                   "InstalledItem": {
-                    "UUID": "aab3551c-0979-4f42-996a-a89c83c78ad6",
-                    "ClassName": "AEGS_Vanguard_Thruster_Retro",
+                    "UUID": "4e0a1136-fcda-470d-a550-322ab22a18a6",
+                    "ClassName": "AEGS_Vanguard_Harbinger_Thruster_Retro",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Retro",
+                    "Name": "AEGS_Vanguard_Harbinger_Thruster_Retro",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4660,10 +4044,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3513015.0,
+                      "ThrustCapacity": 4223679.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 21.517216875
+                      "MaxThrustFuelRate": 25.870033875
                     },
                     "Durability": {
                       "Health": 15250.0,
@@ -4746,7 +4130,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Weapon_Rack_AEGS_Vanguard",
+                "Name": "Weapon Rack",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -4845,24 +4229,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool_turrets",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Turret_S1",
-              "InstalledItem": {
-                "UUID": "c181a828-9eb2-42ed-859e-d4bee560f2b3",
-                "ClassName": "WeaponRegenPool_Turret_S1",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Turret_S1",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 20000,
-                  "RespectsCapacitorAssignments": false
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],

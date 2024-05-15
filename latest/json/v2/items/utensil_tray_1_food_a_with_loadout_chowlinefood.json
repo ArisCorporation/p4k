@@ -30,7 +30,8 @@
         "Type": "Food.Consumable",
         "Name": "Food_bowl_puree_01_c",
         "Manufacturer": {
-          "Code": "GENF"
+          "Code": "GENF",
+          "Name": "Consumable"
         },
         "Width": 0.1165,
         "Height": 0.1125,
@@ -46,7 +47,7 @@
           "oneShotConsume": false,
           "containerClosed": false,
           "canBeReclosed": false,
-          "discardWhenConsumed": false,
+          "discardWhenConsumed": true,
           "consumeVolume": 1.0
         },
         "Ports": [
@@ -94,7 +95,8 @@
         "Type": "Drink.UNDEFINED",
         "Name": "Drink_cup_coffee_1_a",
         "Manufacturer": {
-          "Code": "GEND"
+          "Code": "GEND",
+          "Name": "Consumable"
         },
         "Width": 0.0957,
         "Height": 0.1254,

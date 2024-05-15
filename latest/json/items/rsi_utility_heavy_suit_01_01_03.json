@@ -79,7 +79,7 @@
             "inventoryOccupancyDimensions": {
               "x": 0.785,
               "y": 0.572,
-              "z": 1.594
+              "z": 0.9
             },
             "inventoryOccupancyDimensionsUIOverride": {
               "Vec3": {
@@ -164,10 +164,24 @@
                 "available": true
               },
               {
-                "Name": "OpenExternalInventory",
+                "Name": "OpenInventoryUI",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_open",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": false,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
+              },
+              {
+                "Name": "OpenLootingUI",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_loot",
                 "DisplayType": "Show",
                 "GenericCursor": "SingleAction",
                 "FocusModeOnly": false,
@@ -187,7 +201,7 @@
           }
         },
         "SCItemSuitArmorParams": {
-          "damageResistance": "00000000-0000-0000-0000-000000000000"
+          "damageResistance": "48b29539-4f56-4bc2-b844-7031ea03e949"
         },
         "SItemPortContainerComponentParams": {
           "PortFlags": "",
@@ -817,11 +831,11 @@
               ]
             },
             {
-              "Name": "helmethook_attach",
+              "Name": "helmethook_attach_PLACEHOLDER",
               "DisplayName": "helmethook_attach",
               "PortTags": "",
               "RequiredPortTags": "",
-              "Flags": "body_attach nophys inventory heldEntity attach_helmet",
+              "Flags": "body_attach nophys heldEntity attach_helmet invisible inventory",
               "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
@@ -835,6 +849,21 @@
             }
           ]
         },
+        "ResourceContainer": {
+          "capacity": {
+            "SMicroCargoUnit": {
+              "microSCU": 100.0
+            }
+          },
+          "inclusiveResources": [
+            {
+              "value": "12181a14-034b-4deb-92b7-2faf2cfd182b"
+            }
+          ],
+          "exclusiveResources": [],
+          "inclusiveGroups": [],
+          "exclusiveGroups": []
+        },
         "SCItemInventoryContainerComponentParams": {
           "containerParams": "4e5ed51a-a32c-48f2-952d-6c83f6c81eaa"
         }
@@ -842,6 +871,32 @@
       "ClassName": "rsi_utility_heavy_suit_01_01_03",
       "__ref": "ffd31f88-ee9f-4c03-b3d7-520e550629a1",
       "__type": "EntityClassDefinition"
+    }
+  },
+  "damageResistances": {
+    "PhysicalResistance": {
+      "Multiplier": 0.6,
+      "Threshold": 0
+    },
+    "EnergyResistance": {
+      "Multiplier": 0.6,
+      "Threshold": 0
+    },
+    "DistortionResistance": {
+      "Multiplier": 0.6,
+      "Threshold": 0
+    },
+    "ThermalResistance": {
+      "Multiplier": 0.6,
+      "Threshold": 0
+    },
+    "BiochemicalResistance": {
+      "Multiplier": 0.6,
+      "Threshold": 0
+    },
+    "StunResistance": {
+      "Multiplier": 0.4,
+      "Threshold": 0
     }
   },
   "inventoryContainer": {

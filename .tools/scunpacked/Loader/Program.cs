@@ -19,6 +19,7 @@ namespace Loader
 			bool doItems = true;
 			bool doShops = true;
 			bool doStarmap = true;
+			bool doMissions = true;
 			bool noCache = false;
 			string typeFilter = null;
 			string shipFilter = null;
@@ -32,6 +33,7 @@ namespace Loader
 				{ "noitems", v => doItems = false },
 				{ "noshops", v => doShops = false },
 				{ "nomap", v => doStarmap = false },
+				{ "nomissions", v => doMissions = false },
 				{ "nocache", v => noCache = true },
 				{ "types=", v => typeFilter = v },
 				{ "ships=", v=> shipFilter = v }
@@ -93,6 +95,27 @@ namespace Loader
 			var manufacturerIndex = manufacturerLoader.Load();
 			var manufacturerSvc = new ManufacturerService(manufacturerIndex);
 
+			// Loot
+			Console.WriteLine("Load Loot Archetypes");
+			var lootLoader = new LootLoader
+			{
+				OutputFolder = outputRoot,
+				DataRoot = scDataRoot
+			};
+			var lootArchetypes = lootLoader.LoadArchetypes();
+			var lootTables = lootLoader.LoadTables();
+			var lootSvc = new LootService(lootArchetypes, lootTables);
+
+			// Factions
+			Console.WriteLine("Load Factions");
+			var factionLoader = new FactionLoader
+			{
+				OutputFolder = outputRoot,
+				DataRoot = scDataRoot,
+				locService = localisationSvc
+			};
+			var factions = factionLoader.LoadFactions();
+
 			// Ammunition
 			Console.WriteLine("Load Ammunition");
 			var ammoLoader = new AmmoLoader
@@ -113,6 +136,32 @@ namespace Loader
 			// //var insuranceSvc = new InsuranceService(insurancePrices);
 			// var insuranceSvc = new InsuranceService(null);
 
+
+			// Missions
+			if (doMissions)
+			{
+				Console.WriteLine("Load Missions");
+				var missionLoader = new MissionLoader
+				{
+					OutputFolder = outputRoot,
+					DataRoot = scDataRoot,
+					locService = localisationSvc
+				};
+				var missions = missionLoader.LoadMissions();
+				missionLoader.LoadMissionTypes();
+				missionLoader.LoadMissionGiver();
+
+				var rewardsLoader = new RewardLoader
+				{
+					OutputFolder = outputRoot,
+					DataRoot = scDataRoot,
+					locService = localisationSvc
+				};
+				rewardsLoader.LoadRewards();
+				rewardsLoader.LoadStandings();
+				rewardsLoader.LoadScopes();
+			}
+
 			// PersonalInventories
 			Console.WriteLine("Load PersonalInventories");
 			var inventoryLoader = new InventoryContainerLoader()
@@ -127,12 +176,17 @@ namespace Loader
 			var loadoutLoader = new LoadoutLoader(xmlLoadoutLoader, manualLoadoutLoader);
 			var itemBuilder = new ItemBuilder(localisationSvc, manufacturerSvc, ammoSvc, entitySvc, inventorySvc);
 			var itemInstaller = new ItemInstaller(entitySvc, loadoutLoader, itemBuilder);
+			var meleeLoader = new MeleeCombatLoader{
+				OutputFolder = outputRoot,
+				DataRoot = scDataRoot
+			};;
+			var meleeConfigSvc = new MeleeCombatService(meleeLoader.Load());
 
 			// Items
 			if (doItems)
 			{
 				Console.WriteLine("Load Items");
-				var itemLoader = new ItemLoader(itemBuilder, manufacturerSvc, entitySvc, ammoSvc, itemInstaller, loadoutLoader, inventorySvc)
+				var itemLoader = new ItemLoader(itemBuilder, manufacturerSvc, entitySvc, ammoSvc, itemInstaller, loadoutLoader, inventorySvc, meleeConfigSvc)
 				{
 					OutputFolder = outputRoot,
 					DataRoot = scDataRoot,

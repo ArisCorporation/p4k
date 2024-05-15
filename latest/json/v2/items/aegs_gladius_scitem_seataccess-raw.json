@@ -3,6 +3,12 @@
   "tags": [
     {
       "value": "d0f848d9-f9ff-42ff-839c-f6331708cca2"
+    },
+    {
+      "value": "94b8e3ee-4692-4fe3-a73d-ebc73b9bb4f3"
+    },
+    {
+      "value": "02af2eee-b979-40e5-b999-68b976c05bbf"
     }
   ],
   "Components": {
@@ -26,7 +32,7 @@
         "RequiredTags": "",
         "DisplayType": "",
         "Localization": {
-          "Name": "@LOC_PLACEHOLDER",
+          "Name": "@item_Name_SeatAccess_GenericExterior",
           "Description": "@LOC_EMPTY"
         },
         "inventoryOccupancyVolume": {
@@ -438,11 +444,11 @@
             "available": true
           },
           {
-            "Name": "Inventory_Open",
+            "Name": "Storage_Open",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@interaction_open",
-            "DisplayType": "Show",
+            "DisplayType": "Hide",
             "GenericCursor": "SingleAction",
             "FocusModeOnly": false,
             "Sendable": false,
@@ -452,11 +458,11 @@
             "available": true
           },
           {
-            "Name": "Inventory_Close",
+            "Name": "Storage_Close",
             "RoomTag": "00000000-0000-0000-0000-000000000000",
             "UsableTag": "00000000-0000-0000-0000-000000000000",
             "DisplayName": "@interaction_close",
-            "DisplayType": "Show",
+            "DisplayType": "Hide",
             "GenericCursor": "SingleAction",
             "FocusModeOnly": false,
             "Sendable": false,
@@ -632,12 +638,40 @@
             "LockedByLinks": false,
             "RequiresAuthorizedUser": false,
             "available": true
+          },
+          {
+            "Name": "Loot",
+            "RoomTag": "00000000-0000-0000-0000-000000000000",
+            "UsableTag": "00000000-0000-0000-0000-000000000000",
+            "DisplayName": "@interaction_loot",
+            "DisplayType": "Show",
+            "GenericCursor": "SingleAction",
+            "FocusModeOnly": false,
+            "Sendable": true,
+            "Linkable": true,
+            "LockedByLinks": false,
+            "RequiresAuthorizedUser": false,
+            "available": true
+          },
+          {
+            "Name": "OpenInventory",
+            "RoomTag": "00000000-0000-0000-0000-000000000000",
+            "UsableTag": "00000000-0000-0000-0000-000000000000",
+            "DisplayName": "@interaction_open_storage",
+            "DisplayType": "Show",
+            "GenericCursor": "SingleAction",
+            "FocusModeOnly": false,
+            "Sendable": true,
+            "Linkable": true,
+            "LockedByLinks": false,
+            "RequiresAuthorizedUser": false,
+            "available": true
           }
         ]
       }
     },
     "SCItemInventoryContainerComponentParams": {
-      "containerParams": "07b72e0c-74a4-4f62-81b5-da31c2afcb86"
+      "containerParams": "43ef139d-c341-4b57-8443-d51ee10f3b4c"
     }
   },
   "ClassName": "AEGS_Gladius_SCItem_SeatAccess",

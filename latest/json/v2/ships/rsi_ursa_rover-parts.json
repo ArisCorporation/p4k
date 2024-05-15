@@ -399,6 +399,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -453,7 +454,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "RSI_Ursa_Rover_SCItem_SeatAccess",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -708,7 +709,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "RSI_Ursa_Ramp",
+                "Name": "Door Control",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -845,7 +846,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "RSI_Ursa_SideDoor",
+                "Name": "Door Control",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -854,9 +855,6 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
-                "Durability": {
-                  "Health": 200.0
-                },
                 "PowerConnection": {
                   "PowerBase": 0.0,
                   "PowerDraw": 1.0
@@ -957,6 +955,24 @@
                       "Decal.DoorPart"
                     ],
                     "Category": "Door attachments"
+                  },
+                  {
+                    "PortName": "button_exterior",
+                    "Size": 0,
+                    "Loadout": "ControlPanel_Screen_DoorControl_Physical_Ursa_Rover",
+                    "Types": [
+                      "ControlPanel.DoorPart"
+                    ],
+                    "Category": "Door attachments"
+                  },
+                  {
+                    "PortName": "button_interior",
+                    "Size": 0,
+                    "Loadout": "ControlPanel_Screen_DoorControl_Physical_Ursa_Rover",
+                    "Types": [
+                      "ControlPanel.DoorPart"
+                    ],
+                    "Category": "Door attachments"
                   }
                 ]
               },
@@ -983,6 +999,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "RSI Self Destruct Long",
+                "Description": "RSI Self Destruct Long",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -1078,45 +1095,71 @@
                       },
                       "Weapon": {
                         "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
+                          "UUID": "a6621417-3895-401b-b538-b7fff623ea98",
+                          "Type": "AmmoParams",
+                          "Speed": 1800.0,
+                          "Range": 1998.0000000000002,
                           "Size": 1.0,
                           "Capacity": 0.0,
                           "ImpactDamage": {
-                            "Energy": 28.0
-                          }
+                            "Energy": 18.0
+                          },
+                          "BulletImpulseFalloff": {},
+                          "BulletPierceability": {
+                            "DamageFalloffLevel1": 0.0,
+                            "DamageFalloffLevel2": 0.0,
+                            "DamageFalloffLevel3": 0.0,
+                            "MaxPenetrationThickness": 0.5
+                          },
+                          "BulletElectron": {},
+                          "DamageDropMinDistance": {},
+                          "DamageDropPerMeter": {},
+                          "DamageDropMinDamage": {}
                         },
                         "Modes": [
                           {
                             "Name": "Single",
                             "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 720.0,
+                            "RoundsPerMinute": 750.0,
                             "FireType": "sequence",
                             "AmmoPerShot": 1.0,
                             "PelletsPerShot": 1.0,
                             "DamagePerShot": {
-                              "Energy": 28.0
+                              "Energy": 18.0
                             },
                             "DamagePerSecond": {
-                              "Energy": 336.0
+                              "Energy": 225.0
                             }
                           }
                         ],
                         "Consumption": {
-                          "RequestedRegenPerSec": 1680.0,
-                          "Cooldown": 0.75,
-                          "CostPerBullet": 28.0,
-                          "RequestedAmmoLoad": 10080.0
+                          "RequestedRegenPerSec": 1125.0,
+                          "Cooldown": 0.25,
+                          "CostPerBullet": 18.0,
+                          "RequestedAmmoLoad": 6750.0
                         }
                       },
                       "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
+                        "UUID": "a6621417-3895-401b-b538-b7fff623ea98",
+                        "Type": "AmmoParams",
+                        "Speed": 1800.0,
+                        "Range": 1998.0000000000002,
                         "Size": 1.0,
                         "Capacity": 0.0,
                         "ImpactDamage": {
-                          "Energy": 28.0
-                        }
+                          "Energy": 18.0
+                        },
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {
+                          "DamageFalloffLevel1": 0.0,
+                          "DamageFalloffLevel2": 0.0,
+                          "DamageFalloffLevel3": 0.0,
+                          "MaxPenetrationThickness": 0.5
+                        },
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Ports": [
                         {
@@ -1207,45 +1250,71 @@
                       },
                       "Weapon": {
                         "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
+                          "UUID": "a6621417-3895-401b-b538-b7fff623ea98",
+                          "Type": "AmmoParams",
+                          "Speed": 1800.0,
+                          "Range": 1998.0000000000002,
                           "Size": 1.0,
                           "Capacity": 0.0,
                           "ImpactDamage": {
-                            "Energy": 28.0
-                          }
+                            "Energy": 18.0
+                          },
+                          "BulletImpulseFalloff": {},
+                          "BulletPierceability": {
+                            "DamageFalloffLevel1": 0.0,
+                            "DamageFalloffLevel2": 0.0,
+                            "DamageFalloffLevel3": 0.0,
+                            "MaxPenetrationThickness": 0.5
+                          },
+                          "BulletElectron": {},
+                          "DamageDropMinDistance": {},
+                          "DamageDropPerMeter": {},
+                          "DamageDropMinDamage": {}
                         },
                         "Modes": [
                           {
                             "Name": "Single",
                             "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 720.0,
+                            "RoundsPerMinute": 750.0,
                             "FireType": "sequence",
                             "AmmoPerShot": 1.0,
                             "PelletsPerShot": 1.0,
                             "DamagePerShot": {
-                              "Energy": 28.0
+                              "Energy": 18.0
                             },
                             "DamagePerSecond": {
-                              "Energy": 336.0
+                              "Energy": 225.0
                             }
                           }
                         ],
                         "Consumption": {
-                          "RequestedRegenPerSec": 1680.0,
-                          "Cooldown": 0.75,
-                          "CostPerBullet": 28.0,
-                          "RequestedAmmoLoad": 10080.0
+                          "RequestedRegenPerSec": 1125.0,
+                          "Cooldown": 0.25,
+                          "CostPerBullet": 18.0,
+                          "RequestedAmmoLoad": 6750.0
                         }
                       },
                       "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
+                        "UUID": "a6621417-3895-401b-b538-b7fff623ea98",
+                        "Type": "AmmoParams",
+                        "Speed": 1800.0,
+                        "Range": 1998.0000000000002,
                         "Size": 1.0,
                         "Capacity": 0.0,
                         "ImpactDamage": {
-                          "Energy": 28.0
-                        }
+                          "Energy": 18.0
+                        },
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {
+                          "DamageFalloffLevel1": 0.0,
+                          "DamageFalloffLevel2": 0.0,
+                          "DamageFalloffLevel3": 0.0,
+                          "MaxPenetrationThickness": 0.5
+                        },
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Ports": [
                         {
@@ -1500,6 +1569,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {

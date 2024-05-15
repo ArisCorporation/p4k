@@ -38,43 +38,69 @@
   "HeatConnection": {
     "ThermalEnergyBase": 100.0,
     "ThermalEnergyDraw": 200.0,
-    "CoolingRate": 78.8
+    "CoolingRate": 100.0
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 1400.0,
-      "Range": 1540.0000000000002,
+      "UUID": "8f192685-2019-49dc-81af-bf0c45d3f514",
+      "Type": "AmmoParams",
+      "Speed": 1200.0,
+      "Range": 2304.0,
       "Size": 1.0,
-      "Capacity": 295.0,
+      "Capacity": 1200.0,
       "ImpactDamage": {
-        "Physical": 35.2
-      }
+        "Physical": 22.5
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Rapid",
         "LocalisedName": "[AUTO]",
-        "RoundsPerMinute": 1100.0,
+        "RoundsPerMinute": 1200.0,
         "FireType": "rapid",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 35.2
+          "Physical": 22.5
         },
         "DamagePerSecond": {
-          "Physical": 645.3333333333334
+          "Physical": 450.0
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 1400.0,
-    "Range": 1540.0000000000002,
+    "UUID": "8f192685-2019-49dc-81af-bf0c45d3f514",
+    "Type": "AmmoParams",
+    "Speed": 1200.0,
+    "Range": 2304.0,
     "Size": 1.0,
-    "Capacity": 295.0,
+    "Capacity": 1200.0,
     "ImpactDamage": {
-      "Physical": 35.2
-    }
+      "Physical": 22.5
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {

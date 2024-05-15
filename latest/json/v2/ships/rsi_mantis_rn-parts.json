@@ -5,7 +5,7 @@
     "Parts": [
       {
         "Name": "body_main",
-        "MaximumDamage": 3600.0,
+        "MaximumDamage": 2626.0,
         "Parts": [
           {
             "Name": "hardpoint_paint",
@@ -47,10 +47,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1865655.0,
-                      "FuelRate": 3.125E-06,
+                      "ThrustCapacity": 2540000.0,
+                      "FuelRate": 1.25E-05,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.8301718750000004
+                      "MaxThrustFuelRate": 31.75
                     },
                     "Durability": {
                       "Health": 6500.0,
@@ -100,6 +100,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "RSI Decoy Ammo Box",
+                    "Description": "RSI Decoy Ammo Box",
                     "Manufacturer": {
                       "Code": "RSI",
                       "Name": "Roberts Space Industries"
@@ -122,11 +123,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                        "Type": "AmmoParams",
                         "Speed": 65.0,
                         "Range": 520.0,
                         "Size": 0.0,
                         "Capacity": 48.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -142,11 +151,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                      "Type": "AmmoParams",
                       "Speed": 65.0,
                       "Range": 520.0,
                       "Size": 0.0,
                       "Capacity": 48.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -173,6 +190,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "RSI Noise Launcher",
+                    "Description": "RSI Noise Launcher",
                     "Manufacturer": {
                       "Code": "RSI",
                       "Name": "Roberts Space Industries"
@@ -195,11 +213,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                        "Type": "AmmoParams",
                         "Speed": 180.0,
                         "Range": 144.0,
                         "Size": 0.0,
                         "Capacity": 5.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -215,11 +241,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                      "Type": "AmmoParams",
                       "Speed": 180.0,
                       "Range": 144.0,
                       "Size": 0.0,
                       "Capacity": 5.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -238,204 +272,6 @@
                 "Port": {
                   "PortName": "hardpoint_weapon_left",
                   "Size": 0,
-                  "Loadout": "KRON_LaserCannon_S3",
-                  "InstalledItem": {
-                    "UUID": "3a5bd643-3c3e-42fb-87ce-2a44b976555d",
-                    "ClassName": "KRON_LaserCannon_S3",
-                    "Size": 3,
-                    "Grade": 1,
-                    "Type": "WeaponGun.Gun",
-                    "Name": "FL-33 Cannon",
-                    "Description": "Manufacturer: Kroneg\nItem Type: Laser Cannon\nSize: 3\n\nDeliver massive damage from a distance with Kroneg's FL line of laser cannons. Embodying Kroneg's practical design philosophy, the FL-33 remains one of the most reliable and destructive size three laser cannons currently available.  ",
-                    "Manufacturer": {
-                      "Code": "KRON",
-                      "Name": "Kroneg"
-                    },
-                    "Tags": [
-                      "KRON",
-                      "LaserCannon",
-                      "flightReady",
-                      "weaponMountUsable"
-                    ],
-                    "Width": 0.6699014,
-                    "Height": 1.202842,
-                    "Length": 4.422015,
-                    "Volume": 0.756,
-                    "DimensionOverrides": {
-                      "Width": 0.38,
-                      "Height": 0.38,
-                      "Depth": 0.7
-                    },
-                    "Durability": {
-                      "Health": 1024.0,
-                      "Lifetime": 20.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 240.0,
-                      "PowerDraw": 240.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 100.0,
-                      "ThermalEnergyDraw": 200.0,
-                      "CoolingRate": 145.0
-                    },
-                    "Weapon": {
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 150.0
-                        }
-                      },
-                      "Modes": [
-                        {
-                          "Name": "Single",
-                          "LocalisedName": "[AUTO]",
-                          "RoundsPerMinute": 200.0,
-                          "FireType": "sequence",
-                          "AmmoPerShot": 1.0,
-                          "PelletsPerShot": 1.0,
-                          "DamagePerShot": {
-                            "Energy": 150.0
-                          },
-                          "DamagePerSecond": {
-                            "Energy": 500.0
-                          }
-                        }
-                      ],
-                      "Consumption": {
-                        "RequestedRegenPerSec": 2500.0,
-                        "Cooldown": 1.25,
-                        "CostPerBullet": 75.0,
-                        "RequestedAmmoLoad": 15000.0
-                      }
-                    },
-                    "Ammunition": {
-                      "Speed": 700.0,
-                      "Range": 1225.0,
-                      "Size": 3.0,
-                      "Capacity": 0.0,
-                      "ImpactDamage": {
-                        "Energy": 150.0
-                      }
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "BAR1",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_Barrel_S3",
-                        "InstalledItem": {
-                          "UUID": "9a0f26d5-f4c5-4c69-8b21-44334469a481",
-                          "ClassName": "KRON_LaserCannon_Barrel_S3",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "WeaponAttachment.Barrel",
-                          "Name": "KRON_LaserCannon_Barrel_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.Barrel"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "MEC",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_FiringMechanism_S3",
-                        "InstalledItem": {
-                          "UUID": "72326367-0f76-4d8b-bad9-f722892553d7",
-                          "ClassName": "KRON_LaserCannon_FiringMechanism_S3",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "WeaponAttachment.FiringMechanism",
-                          "Name": "KRON_LaserCannon_FiringMechanism_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.FiringMechanism"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "POW",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_PowerArray_S3",
-                        "InstalledItem": {
-                          "UUID": "5a6a892f-14c8-4359-88a0-55d1070595f3",
-                          "ClassName": "KRON_LaserCannon_PowerArray_S3",
-                          "Size": 3,
-                          "Grade": 3,
-                          "Type": "WeaponAttachment.PowerArray",
-                          "Name": "KRON_LaserCannon_PowerArray_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.PowerArray"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "VEN",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_Ventilation_S3",
-                        "InstalledItem": {
-                          "UUID": "4f963d23-b8bd-4fa0-b1d3-0358cb4d1919",
-                          "ClassName": "KRON_LaserCannon_Ventilation_S3",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "WeaponAttachment.Ventilation",
-                          "Name": "KRON_LaserCannon_Ventilation_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.Ventilation"
-                        ],
-                        "Category": "Weapon attachments"
-                      }
-                    ]
-                  },
                   "Types": [
                     "Turret.Gun",
                     "Turret.GunTurret",
@@ -452,204 +288,6 @@
                 "Port": {
                   "PortName": "hardpoint_weapon_right",
                   "Size": 0,
-                  "Loadout": "KRON_LaserCannon_S3",
-                  "InstalledItem": {
-                    "UUID": "3a5bd643-3c3e-42fb-87ce-2a44b976555d",
-                    "ClassName": "KRON_LaserCannon_S3",
-                    "Size": 3,
-                    "Grade": 1,
-                    "Type": "WeaponGun.Gun",
-                    "Name": "FL-33 Cannon",
-                    "Description": "Manufacturer: Kroneg\nItem Type: Laser Cannon\nSize: 3\n\nDeliver massive damage from a distance with Kroneg's FL line of laser cannons. Embodying Kroneg's practical design philosophy, the FL-33 remains one of the most reliable and destructive size three laser cannons currently available.  ",
-                    "Manufacturer": {
-                      "Code": "KRON",
-                      "Name": "Kroneg"
-                    },
-                    "Tags": [
-                      "KRON",
-                      "LaserCannon",
-                      "flightReady",
-                      "weaponMountUsable"
-                    ],
-                    "Width": 0.6699014,
-                    "Height": 1.202842,
-                    "Length": 4.422015,
-                    "Volume": 0.756,
-                    "DimensionOverrides": {
-                      "Width": 0.38,
-                      "Height": 0.38,
-                      "Depth": 0.7
-                    },
-                    "Durability": {
-                      "Health": 1024.0,
-                      "Lifetime": 20.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 240.0,
-                      "PowerDraw": 240.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 100.0,
-                      "ThermalEnergyDraw": 200.0,
-                      "CoolingRate": 145.0
-                    },
-                    "Weapon": {
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 150.0
-                        }
-                      },
-                      "Modes": [
-                        {
-                          "Name": "Single",
-                          "LocalisedName": "[AUTO]",
-                          "RoundsPerMinute": 200.0,
-                          "FireType": "sequence",
-                          "AmmoPerShot": 1.0,
-                          "PelletsPerShot": 1.0,
-                          "DamagePerShot": {
-                            "Energy": 150.0
-                          },
-                          "DamagePerSecond": {
-                            "Energy": 500.0
-                          }
-                        }
-                      ],
-                      "Consumption": {
-                        "RequestedRegenPerSec": 2500.0,
-                        "Cooldown": 1.25,
-                        "CostPerBullet": 75.0,
-                        "RequestedAmmoLoad": 15000.0
-                      }
-                    },
-                    "Ammunition": {
-                      "Speed": 700.0,
-                      "Range": 1225.0,
-                      "Size": 3.0,
-                      "Capacity": 0.0,
-                      "ImpactDamage": {
-                        "Energy": 150.0
-                      }
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "BAR1",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_Barrel_S3",
-                        "InstalledItem": {
-                          "UUID": "9a0f26d5-f4c5-4c69-8b21-44334469a481",
-                          "ClassName": "KRON_LaserCannon_Barrel_S3",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "WeaponAttachment.Barrel",
-                          "Name": "KRON_LaserCannon_Barrel_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.Barrel"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "MEC",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_FiringMechanism_S3",
-                        "InstalledItem": {
-                          "UUID": "72326367-0f76-4d8b-bad9-f722892553d7",
-                          "ClassName": "KRON_LaserCannon_FiringMechanism_S3",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "WeaponAttachment.FiringMechanism",
-                          "Name": "KRON_LaserCannon_FiringMechanism_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.FiringMechanism"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "POW",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_PowerArray_S3",
-                        "InstalledItem": {
-                          "UUID": "5a6a892f-14c8-4359-88a0-55d1070595f3",
-                          "ClassName": "KRON_LaserCannon_PowerArray_S3",
-                          "Size": 3,
-                          "Grade": 3,
-                          "Type": "WeaponAttachment.PowerArray",
-                          "Name": "KRON_LaserCannon_PowerArray_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.PowerArray"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "VEN",
-                        "Size": 1,
-                        "Loadout": "KRON_LaserCannon_Ventilation_S3",
-                        "InstalledItem": {
-                          "UUID": "4f963d23-b8bd-4fa0-b1d3-0358cb4d1919",
-                          "ClassName": "KRON_LaserCannon_Ventilation_S3",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "WeaponAttachment.Ventilation",
-                          "Name": "KRON_LaserCannon_Ventilation_S3",
-                          "Manufacturer": {
-                            "Code": "KRON",
-                            "Name": "Kroneg"
-                          },
-                          "Tags": [
-                            "uneditable"
-                          ],
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06
-                        },
-                        "Types": [
-                          "WeaponAttachment.Ventilation"
-                        ],
-                        "Category": "Weapon attachments"
-                      }
-                    ]
-                  },
                   "Types": [
                     "Turret.Gun",
                     "Turret.GunTurret",
@@ -692,10 +330,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1865655.0,
-                      "FuelRate": 3.125E-06,
+                      "ThrustCapacity": 2540000.0,
+                      "FuelRate": 1.25E-05,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.8301718750000004
+                      "MaxThrustFuelRate": 31.75
                     },
                     "Durability": {
                       "Health": 6500.0,
@@ -805,10 +443,10 @@
                                 "Length": 0.15,
                                 "Volume": 1E-06,
                                 "Thruster": {
-                                  "ThrustCapacity": 11198620.0,
-                                  "FuelRate": 9.275E-06,
+                                  "ThrustCapacity": 16790000.0,
+                                  "FuelRate": 1.25E-05,
                                   "Type": "Main",
-                                  "MaxThrustFuelRate": 103.8672005
+                                  "MaxThrustFuelRate": 209.875
                                 },
                                 "Durability": {
                                   "Health": 7500.0,
@@ -860,10 +498,10 @@
                                 "Length": 0.15,
                                 "Volume": 1E-06,
                                 "Thruster": {
-                                  "ThrustCapacity": 1865655.0,
-                                  "FuelRate": 3.125E-06,
+                                  "ThrustCapacity": 2540000.0,
+                                  "FuelRate": 1.25E-05,
                                   "Type": "Maneuver",
-                                  "MaxThrustFuelRate": 5.8301718750000004
+                                  "MaxThrustFuelRate": 31.75
                                 },
                                 "Durability": {
                                   "Health": 6500.0,
@@ -918,10 +556,10 @@
                                 "Length": 0.15,
                                 "Volume": 1E-06,
                                 "Thruster": {
-                                  "ThrustCapacity": 4228330.0,
-                                  "FuelRate": 9.275E-06,
+                                  "ThrustCapacity": 3970000.0,
+                                  "FuelRate": 1.25E-05,
                                   "Type": "Maneuver",
-                                  "MaxThrustFuelRate": 39.217760750000004
+                                  "MaxThrustFuelRate": 49.625
                                 },
                                 "Durability": {
                                   "Health": 6950.0,
@@ -979,10 +617,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 1865655.0,
-                          "FuelRate": 3.125E-06,
+                          "ThrustCapacity": 2540000.0,
+                          "FuelRate": 1.25E-05,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 5.8301718750000004
+                          "MaxThrustFuelRate": 31.75
                         },
                         "Durability": {
                           "Health": 6500.0,
@@ -1218,10 +856,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1865655.0,
-                      "FuelRate": 3.125E-06,
+                      "ThrustCapacity": 2540000.0,
+                      "FuelRate": 1.25E-05,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.8301718750000004
+                      "MaxThrustFuelRate": 31.75
                     },
                     "Durability": {
                       "Health": 6500.0,
@@ -1295,10 +933,10 @@
                                 "Length": 0.15,
                                 "Volume": 1E-06,
                                 "Thruster": {
-                                  "ThrustCapacity": 4228330.0,
-                                  "FuelRate": 9.275E-06,
+                                  "ThrustCapacity": 3970000.0,
+                                  "FuelRate": 1.25E-05,
                                   "Type": "Maneuver",
-                                  "MaxThrustFuelRate": 39.217760750000004
+                                  "MaxThrustFuelRate": 49.625
                                 },
                                 "Durability": {
                                   "Health": 6950.0,
@@ -1350,10 +988,10 @@
                                 "Length": 0.15,
                                 "Volume": 1E-06,
                                 "Thruster": {
-                                  "ThrustCapacity": 11198620.0,
-                                  "FuelRate": 9.275E-06,
+                                  "ThrustCapacity": 16790000.0,
+                                  "FuelRate": 1.25E-05,
                                   "Type": "Main",
-                                  "MaxThrustFuelRate": 103.8672005
+                                  "MaxThrustFuelRate": 209.875
                                 },
                                 "Durability": {
                                   "Health": 7500.0,
@@ -1405,10 +1043,10 @@
                                 "Length": 0.15,
                                 "Volume": 1E-06,
                                 "Thruster": {
-                                  "ThrustCapacity": 1865655.0,
-                                  "FuelRate": 3.125E-06,
+                                  "ThrustCapacity": 2540000.0,
+                                  "FuelRate": 1.25E-05,
                                   "Type": "Maneuver",
-                                  "MaxThrustFuelRate": 5.8301718750000004
+                                  "MaxThrustFuelRate": 31.75
                                 },
                                 "Durability": {
                                   "Health": 6500.0,
@@ -1469,10 +1107,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 1865655.0,
-                          "FuelRate": 3.125E-06,
+                          "ThrustCapacity": 2540000.0,
+                          "FuelRate": 1.25E-05,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 5.8301718750000004
+                          "MaxThrustFuelRate": 31.75
                         },
                         "Durability": {
                           "Health": 6500.0,
@@ -1708,10 +1346,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1865655.0,
-                      "FuelRate": 3.125E-06,
+                      "ThrustCapacity": 2540000.0,
+                      "FuelRate": 1.25E-05,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.8301718750000004
+                      "MaxThrustFuelRate": 31.75
                     },
                     "Durability": {
                       "Health": 6500.0,
@@ -1779,18 +1417,18 @@
                     "Cooldown": 12.0,
                     "Stage1AccelerationRate": 610000.0,
                     "State2AccelerationRate": 3575323.0,
-                    "SpoolUpTime": 2.25
+                    "SpoolUpTime": 2.0
                   },
                   "SplineJump": {
                     "Speed": 500000.0,
                     "Cooldown": 10.0,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 5.0
+                    "SpoolUpTime": 2.0
                   }
                 },
                 "Durability": {
-                  "Health": 1125.0,
+                  "Health": 180.0,
                   "Lifetime": 6.5
                 },
                 "PowerConnection": {
@@ -1810,7 +1448,8 @@
                       "JumpDrive.JumpDrive"
                     ],
                     "Flags": [
-                      "uneditable"
+                      "uneditable",
+                      "invisible"
                     ],
                     "Category": "UNKNOWN",
                     "Uneditable": true
@@ -1855,7 +1494,7 @@
                 },
                 "Shield": {
                   "Health": 1500.0,
-                  "Regeneration": 375.0,
+                  "Regeneration": 100.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -1886,7 +1525,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 1054.0,
+                  "Health": 216.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -1937,7 +1576,7 @@
                 },
                 "Shield": {
                   "Health": 1500.0,
-                  "Regeneration": 375.0,
+                  "Regeneration": 100.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -1968,7 +1607,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 1054.0,
+                  "Health": 216.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -2003,6 +1642,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "RSI Self Destruct Long",
+                "Description": "RSI Self Destruct Long",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -2121,7 +1761,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "RSI_Mantis_SeatAccess",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -2165,18 +1805,21 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
-                    "Physical": 0.47,
-                    "Energy": 1.0,
-                    "Distortion": 1.0,
+                    "Physical": 0.5,
+                    "Energy": 0.95,
+                    "Distortion": 0.95,
                     "Thermal": 1.0,
                     "Biochemical": 1.0
                   },
                   "SignalMultipliers": {
-                    "CrossSection": 1.0,
-                    "Infrared": 1.0,
-                    "Electromagnetic": 1.0
+                    "CrossSection": 1.2,
+                    "Infrared": 1.2,
+                    "Electromagnetic": 1.2
                   }
                 }
               },
@@ -2311,24 +1954,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_Dogfighter",
-              "InstalledItem": {
-                "UUID": "7cf171a5-8fc4-4562-926f-7b7d26ad2f97",
-                "ClassName": "WeaponRegenPool_Crew_Dogfighter",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_Dogfighter",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 4500,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -2406,20 +2031,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1320.0,
-                  "ScmSpeed": 168.0,
-                  "Pitch": 40.0,
-                  "Yaw": 37.0,
-                  "Roll": 175.0,
+                  "MaxSpeed": 1393.0,
+                  "ScmSpeed": 236.0,
+                  "Pitch": 50.0,
+                  "Yaw": 42.0,
+                  "Roll": 160.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 1800.0,
-                    "CapacitorAfterburnerIdleCost": 20.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.1,
-                    "CapacitorRegenDelayAfterUse": 2.0,
-                    "CapacitorRegenPerSec": 100.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 0.4,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -2555,7 +2180,7 @@
                   "Rate": 260000.0
                 },
                 "Durability": {
-                  "Health": 1500.0,
+                  "Health": 162.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -2608,7 +2233,7 @@
                   "Rate": 260000.0
                 },
                 "Durability": {
-                  "Health": 1500.0,
+                  "Health": 162.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -2642,7 +2267,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "RSI_Mantis_Door_Lift",
+                "Name": "Door Control",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -2669,7 +2294,7 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "RSI_Phoenix_Door_Switch_Elevator_Upper",
+                      "Name": "Door Control",
                       "Manufacturer": {
                         "Code": "RSI",
                         "Name": "Roberts Space Industries"
@@ -2724,7 +2349,7 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "RSI_Phoenix_Door_Switch_Elevator_Lower",
+                      "Name": "Door Control",
                       "Manufacturer": {
                         "Code": "RSI",
                         "Name": "Roberts Space Industries"
@@ -3041,7 +2666,7 @@
                   "Output": 4000.0
                 },
                 "Durability": {
-                  "Health": 1500.0,
+                  "Health": 270.0,
                   "Lifetime": 22.0
                 },
                 "PowerConnection": {
@@ -3100,7 +2725,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "QuantumFuelTank": {
-                  "Capacity": 1000.0
+                  "Capacity": 2950.0
                 }
               },
               "Types": [
@@ -3136,6 +2761,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 180.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -3220,8 +2846,8 @@
             }
           }
         ],
-        "ShipDestructionDamage": 3600.0,
-        "PartDetachDamage": 3600.0
+        "ShipDestructionDamage": 2626.0,
+        "PartDetachDamage": 2626.0
       },
       {
         "Name": "landingpad_helper",

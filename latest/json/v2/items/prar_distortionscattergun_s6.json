@@ -41,52 +41,78 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 800.0,
-      "Range": 400.0,
+      "UUID": "f32b100f-077f-46cd-99cd-c315dfbeb648",
+      "Type": "AmmoParams",
+      "Speed": 700.0,
+      "Range": 1400.0,
       "Size": 1.0,
       "Capacity": 10.0,
       "ImpactDamage": {
         "Energy": 0.0001
       },
       "DetonationDamage": {
-        "Distortion": 100.0
-      }
+        "Distortion": 130.0
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Single",
         "LocalisedName": "[SEMI]",
-        "RoundsPerMinute": 75.0,
+        "RoundsPerMinute": 60.0,
         "FireType": "single",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 8.0,
         "DamagePerShot": {
           "Energy": 0.0008,
-          "Distortion": 800.0
+          "Distortion": 1040.0
         },
         "DamagePerSecond": {
-          "Energy": 0.001,
-          "Distortion": 1000.0
+          "Energy": 0.0008,
+          "Distortion": 1040.0
         }
       }
     ],
     "Consumption": {
-      "RequestedRegenPerSec": 5000.0,
-      "Cooldown": 2.0,
-      "CostPerBullet": 800.0,
-      "RequestedAmmoLoad": 30000.0
+      "RequestedRegenPerSec": 10600.0,
+      "Cooldown": 1.5,
+      "CostPerBullet": 265.0,
+      "RequestedAmmoLoad": 63600.0
     }
   },
   "Ammunition": {
-    "Speed": 800.0,
-    "Range": 400.0,
+    "UUID": "f32b100f-077f-46cd-99cd-c315dfbeb648",
+    "Type": "AmmoParams",
+    "Speed": 700.0,
+    "Range": 1400.0,
     "Size": 1.0,
     "Capacity": 10.0,
     "ImpactDamage": {
       "Energy": 0.0001
     },
     "DetonationDamage": {
-      "Distortion": 100.0
-    }
+      "Distortion": 130.0
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   }
 }

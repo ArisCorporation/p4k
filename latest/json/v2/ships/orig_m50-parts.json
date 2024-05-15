@@ -74,7 +74,7 @@
       },
       {
         "Name": "Body",
-        "MaximumDamage": 1700.0,
+        "MaximumDamage": 800.0,
         "Parts": [
           {
             "Name": "hardpoint_quantum_fuel_tank",
@@ -146,14 +146,14 @@
                     "Cooldown": 5.7,
                     "Stage1AccelerationRate": 637000.5,
                     "State2AccelerationRate": 2110434.0,
-                    "SpoolUpTime": 6.0
+                    "SpoolUpTime": 2.0
                   },
                   "SplineJump": {
                     "Speed": 500000.0,
                     "Cooldown": 10.0,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 5.0
+                    "SpoolUpTime": 2.0
                   }
                 },
                 "Durability": {
@@ -177,7 +177,8 @@
                       "JumpDrive.JumpDrive"
                     ],
                     "Flags": [
-                      "uneditable"
+                      "uneditable",
+                      "invisible"
                     ],
                     "Category": "UNKNOWN",
                     "Uneditable": true
@@ -206,6 +207,7 @@
                 "Grade": 1,
                 "Type": "Armor.Medium",
                 "Name": "M50 Ship Armor",
+                "Description": "M50 Ship Armor",
                 "Manufacturer": {
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
@@ -217,6 +219,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.48,
@@ -311,6 +316,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Origin Jumpworks Noise Launcher",
+                "Description": "Origin Jumpworks Noise Launcher",
                 "Manufacturer": {
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
@@ -333,11 +339,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                    "Type": "AmmoParams",
                     "Speed": 65.0,
                     "Range": 520.0,
                     "Size": 0.0,
                     "Capacity": 24.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -353,11 +367,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                  "Type": "AmmoParams",
                   "Speed": 65.0,
                   "Range": 520.0,
                   "Size": 0.0,
                   "Capacity": 24.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -384,6 +406,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Origin Jumpworks Noise Launcher",
+                "Description": "Origin Jumpworks Noise Launcher",
                 "Manufacturer": {
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
@@ -406,11 +429,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 2.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -426,11 +457,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 2.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -470,10 +509,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 720445.5,
+                      "ThrustCapacity": 984000.0,
                       "FuelRate": 9.8875E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 7.12340488125
+                      "MaxThrustFuelRate": 9.7293
                     },
                     "Durability": {
                       "Health": 7250.0,
@@ -517,124 +556,6 @@
                 "Port": {
                   "PortName": "hardpoint_weapon_gun_class1_left_wing",
                   "Size": 0,
-                  "Loadout": "BEHR_LaserCannon_S2",
-                  "InstalledItem": {
-                    "UUID": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
-                    "ClassName": "BEHR_LaserCannon_S2",
-                    "Size": 2,
-                    "Grade": 1,
-                    "Type": "WeaponGun.Gun",
-                    "Name": "M4A Cannon",
-                    "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 2\n\nThe M4A is Behring's second tier laser autocannon. Its bigger size means more power consumption in exchange for packing a bigger punch. Fire rate and power efficiency are comparable to the M3A model.",
-                    "Manufacturer": {
-                      "Code": "BEH",
-                      "Name": "Behring"
-                    },
-                    "Tags": [
-                      "BEHR",
-                      "LaserCannon",
-                      "flightReady",
-                      "weaponMountUsable"
-                    ],
-                    "Width": 0.4466009,
-                    "Height": 0.801895,
-                    "Length": 3.316511,
-                    "Volume": 0.252,
-                    "DimensionOverrides": {
-                      "Width": 0.38,
-                      "Height": 0.38,
-                      "Depth": 0.7
-                    },
-                    "Durability": {
-                      "Health": 850.0,
-                      "Lifetime": 20.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 230.0,
-                      "PowerDraw": 230.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 100.0,
-                      "ThermalEnergyDraw": 200.0,
-                      "CoolingRate": 100.95
-                    },
-                    "Weapon": {
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 2.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 110.0
-                        }
-                      },
-                      "Modes": [
-                        {
-                          "Name": "Single",
-                          "LocalisedName": "[AUTO]",
-                          "RoundsPerMinute": 220.0,
-                          "FireType": "sequence",
-                          "AmmoPerShot": 1.0,
-                          "PelletsPerShot": 1.0,
-                          "DamagePerShot": {
-                            "Energy": 110.0
-                          },
-                          "DamagePerSecond": {
-                            "Energy": 403.3333333333333
-                          }
-                        }
-                      ],
-                      "Consumption": {
-                        "RequestedRegenPerSec": 2016.67,
-                        "Cooldown": 1.0,
-                        "CostPerBullet": 55.0,
-                        "RequestedAmmoLoad": 12100.0
-                      }
-                    },
-                    "Ammunition": {
-                      "Speed": 700.0,
-                      "Range": 1225.0,
-                      "Size": 2.0,
-                      "Capacity": 0.0,
-                      "ImpactDamage": {
-                        "Energy": 110.0
-                      }
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "BAR1",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.Barrel"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "MEC",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.FiringMechanism"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "POW",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.PowerArray"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "VEN",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.Ventilation"
-                        ],
-                        "Category": "Weapon attachments"
-                      }
-                    ]
-                  },
                   "Types": [
                     "WeaponGun.Gun",
                     "Turret.GunTurret"
@@ -757,124 +678,6 @@
                 "Port": {
                   "PortName": "hardpoint_weapon_gun_class1_right_wing",
                   "Size": 0,
-                  "Loadout": "BEHR_LaserCannon_S2",
-                  "InstalledItem": {
-                    "UUID": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
-                    "ClassName": "BEHR_LaserCannon_S2",
-                    "Size": 2,
-                    "Grade": 1,
-                    "Type": "WeaponGun.Gun",
-                    "Name": "M4A Cannon",
-                    "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 2\n\nThe M4A is Behring's second tier laser autocannon. Its bigger size means more power consumption in exchange for packing a bigger punch. Fire rate and power efficiency are comparable to the M3A model.",
-                    "Manufacturer": {
-                      "Code": "BEH",
-                      "Name": "Behring"
-                    },
-                    "Tags": [
-                      "BEHR",
-                      "LaserCannon",
-                      "flightReady",
-                      "weaponMountUsable"
-                    ],
-                    "Width": 0.4466009,
-                    "Height": 0.801895,
-                    "Length": 3.316511,
-                    "Volume": 0.252,
-                    "DimensionOverrides": {
-                      "Width": 0.38,
-                      "Height": 0.38,
-                      "Depth": 0.7
-                    },
-                    "Durability": {
-                      "Health": 850.0,
-                      "Lifetime": 20.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 230.0,
-                      "PowerDraw": 230.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 100.0,
-                      "ThermalEnergyDraw": 200.0,
-                      "CoolingRate": 100.95
-                    },
-                    "Weapon": {
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 2.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 110.0
-                        }
-                      },
-                      "Modes": [
-                        {
-                          "Name": "Single",
-                          "LocalisedName": "[AUTO]",
-                          "RoundsPerMinute": 220.0,
-                          "FireType": "sequence",
-                          "AmmoPerShot": 1.0,
-                          "PelletsPerShot": 1.0,
-                          "DamagePerShot": {
-                            "Energy": 110.0
-                          },
-                          "DamagePerSecond": {
-                            "Energy": 403.3333333333333
-                          }
-                        }
-                      ],
-                      "Consumption": {
-                        "RequestedRegenPerSec": 2016.67,
-                        "Cooldown": 1.0,
-                        "CostPerBullet": 55.0,
-                        "RequestedAmmoLoad": 12100.0
-                      }
-                    },
-                    "Ammunition": {
-                      "Speed": 700.0,
-                      "Range": 1225.0,
-                      "Size": 2.0,
-                      "Capacity": 0.0,
-                      "ImpactDamage": {
-                        "Energy": 110.0
-                      }
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "BAR1",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.Barrel"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "MEC",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.FiringMechanism"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "POW",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.PowerArray"
-                        ],
-                        "Category": "Weapon attachments"
-                      },
-                      {
-                        "PortName": "VEN",
-                        "Size": 2,
-                        "Types": [
-                          "WeaponAttachment.Ventilation"
-                        ],
-                        "Category": "Weapon attachments"
-                      }
-                    ]
-                  },
                   "Types": [
                     "WeaponGun.Gun",
                     "Turret.GunTurret"
@@ -1014,10 +817,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 720445.5,
+                  "ThrustCapacity": 984000.0,
                   "FuelRate": 9.8875E-06,
                   "Type": "Main",
-                  "MaxThrustFuelRate": 7.12340488125
+                  "MaxThrustFuelRate": 9.7293
                 },
                 "Durability": {
                   "Health": 7250.0,
@@ -1050,14 +853,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_rear_right_bottom",
               "Size": 0,
-              "Loadout": "ORIG_M50_Thruster_Mav_Joint",
+              "Loadout": "ORIG_M50_Thruster_Mav_Joint_Bottom",
               "InstalledItem": {
-                "UUID": "35f5f80f-0cbd-475a-a0a6-9dcfb9731d17",
-                "ClassName": "ORIG_M50_Thruster_Mav_Joint",
+                "UUID": "fd88eae1-968c-4b89-a941-72dff40cf869",
+                "ClassName": "ORIG_M50_Thruster_Mav_Joint_Bottom",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "ORIG_M50_Thruster_Mav_Joint",
+                "Name": "ORIG_M50_Thruster_Mav_Joint_Bottom",
                 "Manufacturer": {
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
@@ -1103,14 +906,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_rear_right_side",
               "Size": 0,
-              "Loadout": "ORIG_M50_Thruster_Mav_Joint",
+              "Loadout": "ORIG_M50_Thruster_Mav_Joint_Up",
               "InstalledItem": {
                 "UUID": "35f5f80f-0cbd-475a-a0a6-9dcfb9731d17",
-                "ClassName": "ORIG_M50_Thruster_Mav_Joint",
+                "ClassName": "ORIG_M50_Thruster_Mav_Joint_Up",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "ORIG_M50_Thruster_Mav_Joint",
+                "Name": "ORIG_M50_Thruster_Mav_Joint_Up",
                 "Manufacturer": {
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
@@ -1156,14 +959,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_rear_left_bottom",
               "Size": 0,
-              "Loadout": "ORIG_M50_Thruster_Mav_Joint",
+              "Loadout": "ORIG_M50_Thruster_Mav_Joint_Bottom",
               "InstalledItem": {
-                "UUID": "35f5f80f-0cbd-475a-a0a6-9dcfb9731d17",
-                "ClassName": "ORIG_M50_Thruster_Mav_Joint",
+                "UUID": "fd88eae1-968c-4b89-a941-72dff40cf869",
+                "ClassName": "ORIG_M50_Thruster_Mav_Joint_Bottom",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "ORIG_M50_Thruster_Mav_Joint",
+                "Name": "ORIG_M50_Thruster_Mav_Joint_Bottom",
                 "Manufacturer": {
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
@@ -1209,14 +1012,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_rear_left_side",
               "Size": 0,
-              "Loadout": "ORIG_M50_Thruster_Mav_Joint",
+              "Loadout": "ORIG_M50_Thruster_Mav_Joint_Up",
               "InstalledItem": {
                 "UUID": "35f5f80f-0cbd-475a-a0a6-9dcfb9731d17",
-                "ClassName": "ORIG_M50_Thruster_Mav_Joint",
+                "ClassName": "ORIG_M50_Thruster_Mav_Joint_Up",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "ORIG_M50_Thruster_Mav_Joint",
+                "Name": "ORIG_M50_Thruster_Mav_Joint_Up",
                 "Manufacturer": {
                   "Code": "ORIG",
                   "Name": "Origin Jumpworks"
@@ -1299,7 +1102,7 @@
           },
           {
             "Name": "Nose",
-            "MaximumDamage": 1500.0,
+            "MaximumDamage": 800.0,
             "Parts": [
               {
                 "Name": "Canopy",
@@ -1624,6 +1427,7 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Durability": {
+                      "Health": 1000.0,
                       "Lifetime": 720.0
                     },
                     "PowerConnection": {
@@ -1679,7 +1483,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "ORIG_m50_SeatAccess",
+                    "Name": "Access",
                     "Manufacturer": {
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
@@ -1692,7 +1496,7 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "InventoryContainer": {
-                      "SCU": 0.15,
+                      "SCU": 0.43,
                       "x": 2.0,
                       "y": 2.0,
                       "z": 2.0,
@@ -1743,24 +1547,6 @@
                 "Port": {
                   "PortName": "hardpoint_weapon_regen_pool",
                   "Size": 0,
-                  "Loadout": "WeaponRegenPool_Crew_Dogfighter",
-                  "InstalledItem": {
-                    "UUID": "7cf171a5-8fc4-4562-926f-7b7d26ad2f97",
-                    "ClassName": "WeaponRegenPool_Crew_Dogfighter",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponRegenPool.UNDEFINED",
-                    "Name": "WeaponRegenPool_Crew_Dogfighter",
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "WeaponRegenPool": {
-                      "RegenFillRate": 3000.0,
-                      "AmmoLoad": 4500,
-                      "RespectsCapacitorAssignments": true
-                    }
-                  },
                   "Types": [
                     "WeaponRegenPool"
                   ],
@@ -1870,20 +1656,20 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Ifcs": {
-                      "MaxSpeed": 1343.0,
-                      "ScmSpeed": 246.0,
-                      "Pitch": 50.0,
-                      "Yaw": 56.0,
-                      "Roll": 220.0,
+                      "MaxSpeed": 1450.0,
+                      "ScmSpeed": 280.0,
+                      "Pitch": 55.0,
+                      "Yaw": 55.0,
+                      "Roll": 200.0,
                       "Afterburner": {
                         "SpoolUpTime": 0.0,
                         "CapacitorThresholdRatio": 0.25,
-                        "CapacitorMax": 1800.0,
-                        "CapacitorAfterburnerIdleCost": 20.0,
-                        "CapacitorAfterburnerLinearCost": 1.0,
-                        "CapacitorAfterburnerAngularCost": 0.1,
-                        "CapacitorRegenDelayAfterUse": 2.0,
-                        "CapacitorRegenPerSec": 100.0
+                        "CapacitorMax": 25.0,
+                        "CapacitorAfterburnerIdleCost": 1.0,
+                        "CapacitorAfterburnerLinearCost": 0.0,
+                        "CapacitorAfterburnerAngularCost": 0.0,
+                        "CapacitorRegenDelayAfterUse": 0.2,
+                        "CapacitorRegenPerSec": 0.75
                       }
                     }
                   },
@@ -1940,6 +1726,7 @@
                     "Grade": 1,
                     "Type": "SelfDestruct.UNDEFINED",
                     "Name": "RSI Self Destruct",
+                    "Description": "RSI Self Destruct",
                     "Manufacturer": {
                       "Code": "RSI",
                       "Name": "Roberts Space Industries"
@@ -2117,7 +1904,7 @@
                     },
                     "Shield": {
                       "Health": 1500.0,
-                      "Regeneration": 375.0,
+                      "Regeneration": 100.0,
                       "DownedDelay": 10.0,
                       "DamagedDelay": 5.0,
                       "Absorption": {
@@ -2199,7 +1986,7 @@
                     },
                     "Shield": {
                       "Health": 1500.0,
-                      "Regeneration": 375.0,
+                      "Regeneration": 100.0,
                       "DownedDelay": 10.0,
                       "DamagedDelay": 5.0,
                       "Absorption": {
@@ -2314,14 +2101,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_front_left_bottom",
                   "Size": 0,
-                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
+                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed_Bottom",
                   "InstalledItem": {
-                    "UUID": "edc76e6e-3e56-41ae-a332-2bb976e6d345",
-                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
+                    "UUID": "868ce6db-490a-4871-b93f-df4d63b91cb0",
+                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed_Bottom",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "ORIG_M50_Thruster_Mav_Fixed",
+                    "Name": "ORIG_M50_Thruster_Mav_Fixed_Bottom",
                     "Manufacturer": {
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
@@ -2331,10 +2118,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 128231.2,
+                      "ThrustCapacity": 335800.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 0.40072250000000004
+                      "MaxThrustFuelRate": 1.049375
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -2366,14 +2153,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_front_left_side",
                   "Size": 0,
-                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
+                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed_Lateral",
                   "InstalledItem": {
                     "UUID": "edc76e6e-3e56-41ae-a332-2bb976e6d345",
-                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
+                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed_Lateral",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "ORIG_M50_Thruster_Mav_Fixed",
+                    "Name": "ORIG_M50_Thruster_Mav_Fixed_Lateral",
                     "Manufacturer": {
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
@@ -2383,10 +2170,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 128231.2,
+                      "ThrustCapacity": 468000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 0.40072250000000004
+                      "MaxThrustFuelRate": 1.4625000000000001
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -2418,14 +2205,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_front_left_top",
                   "Size": 0,
-                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
+                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed_Up",
                   "InstalledItem": {
-                    "UUID": "edc76e6e-3e56-41ae-a332-2bb976e6d345",
-                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
+                    "UUID": "be496162-7c8a-461f-832e-b2a7f899ae83",
+                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed_Up",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "ORIG_M50_Thruster_Mav_Fixed",
+                    "Name": "ORIG_M50_Thruster_Mav_Fixed_Up",
                     "Manufacturer": {
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
@@ -2470,14 +2257,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_front_right_bottom",
                   "Size": 0,
-                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
+                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed_Bottom",
                   "InstalledItem": {
-                    "UUID": "edc76e6e-3e56-41ae-a332-2bb976e6d345",
-                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
+                    "UUID": "868ce6db-490a-4871-b93f-df4d63b91cb0",
+                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed_Bottom",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "ORIG_M50_Thruster_Mav_Fixed",
+                    "Name": "ORIG_M50_Thruster_Mav_Fixed_Bottom",
                     "Manufacturer": {
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
@@ -2487,10 +2274,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 128231.2,
+                      "ThrustCapacity": 335800.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 0.40072250000000004
+                      "MaxThrustFuelRate": 1.049375
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -2522,14 +2309,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_front_right_side",
                   "Size": 0,
-                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
+                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed_Lateral",
                   "InstalledItem": {
                     "UUID": "edc76e6e-3e56-41ae-a332-2bb976e6d345",
-                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
+                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed_Lateral",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "ORIG_M50_Thruster_Mav_Fixed",
+                    "Name": "ORIG_M50_Thruster_Mav_Fixed_Lateral",
                     "Manufacturer": {
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
@@ -2539,10 +2326,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 128231.2,
+                      "ThrustCapacity": 468000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 0.40072250000000004
+                      "MaxThrustFuelRate": 1.4625000000000001
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -2574,14 +2361,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_front_right_top",
                   "Size": 0,
-                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed",
+                  "Loadout": "ORIG_M50_Thruster_Mav_Fixed_Up",
                   "InstalledItem": {
-                    "UUID": "edc76e6e-3e56-41ae-a332-2bb976e6d345",
-                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed",
+                    "UUID": "be496162-7c8a-461f-832e-b2a7f899ae83",
+                    "ClassName": "ORIG_M50_Thruster_Mav_Fixed_Up",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "ORIG_M50_Thruster_Mav_Fixed",
+                    "Name": "ORIG_M50_Thruster_Mav_Fixed_Up",
                     "Manufacturer": {
                       "Code": "ORIG",
                       "Name": "Origin Jumpworks"
@@ -2643,10 +2430,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 355035.4,
+                      "ThrustCapacity": 191500.0,
                       "FuelRate": 9.8875E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 3.5104125175000003
+                      "MaxThrustFuelRate": 1.89345625
                     },
                     "Durability": {
                       "Health": 7150.0,
@@ -2695,10 +2482,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 355035.4,
+                      "ThrustCapacity": 191500.0,
                       "FuelRate": 9.8875E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 3.5104125175000003
+                      "MaxThrustFuelRate": 1.89345625
                     },
                     "Durability": {
                       "Health": 7150.0,
@@ -2869,8 +2656,8 @@
             "MaximumDamage": 200.0
           }
         ],
-        "ShipDestructionDamage": 1700.0,
-        "PartDetachDamage": 1700.0
+        "ShipDestructionDamage": 800.0,
+        "PartDetachDamage": 800.0
       }
     ]
   }

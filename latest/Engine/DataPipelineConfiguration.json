@@ -22,7 +22,7 @@
       "MetaDataExtension": "meshsetup",
       "OutputExtension": "cgf",
       "Converter": "rc/rc.exe",
-      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /SplitLODs=0 /ComputeSubsetTexelDensity=1 /CompactVertexStreams=1 /VertexPositionFormat=\"int16\" /VertexIndexFormat=\"u16\" /bakesdf=1 /auto_bake_sdf_file=Data/sdf_auto_bake_rules.conf /PhysMeshRemoveIsolatedVertices=1 /PhysMeshMaxSize=1024.0 /PhysicalizedRenderGeoms=1 /GeneratePBM=1 /GeneratePBM_ForceEnable=0 /GeneratePBM_ForceUVDensity=0.65 /GeneratePBM_DebugDDS=%generateDebugPBM",
+      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /SplitLODs=0 /ComputeSubsetTexelDensity=1 /CompactVertexStreams=1 /VertexPositionFormat=\"int16\" /VertexIndexFormat=\"u16\" /bakesdf=1 /auto_bake_sdf_file=%projectDirData/sdf_auto_bake_rules.conf /PhysMeshRemoveIsolatedVertices=1 /PhysMeshMaxSize=1024.0 /PhysicalizedRenderGeoms=1 /GeneratePBM=1 /GeneratePBM_ForceEnable=0 /GeneratePBM_ForceUVDensity=0.65 /GeneratePBM_DebugDDS=%generateDebugPBM",
       "EngineSettings": "RC_Parameters",
       "FinalBuildFile": true
     },
@@ -39,6 +39,15 @@
       "InputExtension": "skin",
       "MetaDataExtension": "",
       "OutputExtension": "skin",
+      "Converter": "rc/rc.exe",
+      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /release",
+      "EngineSettings": "RC_Parameters",
+      "FinalBuildFile": true
+    },
+    {
+      "InputExtension": "chr",
+      "MetaDataExtension": "",
+      "OutputExtension": "chr",
       "Converter": "rc/rc.exe",
       "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /release",
       "EngineSettings": "RC_Parameters",

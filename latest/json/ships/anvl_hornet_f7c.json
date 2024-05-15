@@ -19,6 +19,9 @@
           "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
         },
         {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
           "value": "9314b308-b5dd-44ce-8e81-61e1764cbd57"
         },
         {
@@ -32,6 +35,9 @@
         },
         {
           "value": "3069fb30-e0e6-4fd1-a25b-13152bf970f3"
+        },
+        {
+          "value": "aad21c30-ad5a-47e2-a899-199fcc77aaf7"
         }
       ],
       "Components": {
@@ -43,7 +49,7 @@
           "dogfightEnabled": 1,
           "unmovable": 0,
           "isGravlevVehicle": false,
-          "incomingDamageModifierToAI": 1.0,
+          "incomingDamageModifierToAI": 0.0,
           "emergencyStatusDamageThreshold": 0.1,
           "crewSize": 1,
           "vehicleName": "@vehicle_NameANVL_Hornet_F7C",
@@ -52,7 +58,7 @@
           "vehicleCareerRef": "2bf4345e-cf3c-4ecb-91ce-f9daa8ff47f8",
           "vehicleRole": "@vehicle_class_mediumfighter",
           "vehicleRoleRef": "43eaf464-2452-491b-8cc0-443f6ac39613",
-          "inventoryContainerParams": "00000000-0000-0000-0000-000000000000",
+          "inventoryContainerParams": "3f6304af-a8c0-45cd-86fd-ba35f4b61b05",
           "maxBoundingBoxSize": {
             "x": 25.5,
             "y": 28.25,
@@ -275,17 +281,37 @@
                 },
                 {
                   "itemPortName": "hardpoint_class_2_left_wing",
-                  "entityClassName": "KLWE_LaserRepeater_S3",
-                  "loadout": {}
+                  "entityClassName": "",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_class_2",
+                          "entityClassName": "",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_class_2_right_wing",
-                  "entityClassName": "KLWE_LaserRepeater_S3",
-                  "loadout": {}
+                  "entityClassName": "",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_class_2",
+                          "entityClassName": "",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_class_4_center",
-                  "entityClassName": "ANVL_Hornet_F7C_Cargo_Mod",
+                  "entityClassName": "",
                   "loadout": {}
                 },
                 {
@@ -385,7 +411,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "WeaponRegenPool_Crew_MultiRoleFighter",
+                  "entityClassName": "",
                   "loadout": {}
                 },
                 {
@@ -672,10 +698,9 @@
           "Parts": [
             {
               "name": "Body",
-              "damageMax": 4000.0,
+              "damageMax": 3500.0,
               "damagemax": 0.0,
               "class": "AnimatedJoint",
-              "detachRatio": 1.0,
               "Parts": [
                 {
                   "name": "landingpad_helper",
@@ -1298,6 +1323,27 @@
                           }
                         ]
                       }
+                    },
+                    {
+                      "name": "thrust_vector_flap_c",
+                      "damageMax": 50.0,
+                      "damagemax": 0.0,
+                      "class": "AnimatedJoint",
+                      "detachRatio": 1.0
+                    },
+                    {
+                      "name": "thrust_vector_flap_b",
+                      "damageMax": 50.0,
+                      "damagemax": 0.0,
+                      "class": "AnimatedJoint",
+                      "detachRatio": 1.0
+                    },
+                    {
+                      "name": "thrust_vector_flap_a",
+                      "damageMax": 50.0,
+                      "damagemax": 0.0,
+                      "class": "AnimatedJoint",
+                      "detachRatio": 1.0
                     }
                   ]
                 },
@@ -1625,7 +1671,7 @@
                 },
                 {
                   "name": "Nose",
-                  "damageMax": 4000.0,
+                  "damageMax": 3500.0,
                   "damagemax": 0.0,
                   "class": "AnimatedJoint",
                   "Parts": [
@@ -1727,8 +1773,7 @@
                       "name": "Canopy",
                       "damageMax": 80.0,
                       "damagemax": 0.0,
-                      "class": "AnimatedJoint",
-                      "detachRatio": 1.0
+                      "class": "AnimatedJoint"
                     },
                     {
                       "name": "interior_cockpit",
@@ -2346,6 +2391,13 @@
                       "detachRatio": 1.0,
                       "Parts": [
                         {
+                          "name": "LG_Door_Rear_R",
+                          "damageMax": 100.0,
+                          "damagemax": 0.0,
+                          "class": "AnimatedJoint",
+                          "detachRatio": 1.0
+                        },
+                        {
                           "name": "hardpoint_class_2_right_wing",
                           "damagemax": 0.0,
                           "class": "ItemPort",
@@ -2394,14 +2446,19 @@
                             }
                           }
                         }
+                      ],
+                      "DamageBehaviors": [
+                        {
+                          "class": "DetachPart",
+                          "damageRatioMin": 1.0,
+                          "DetachPart": [
+                            {
+                              "name": "LG_Door_Rear_R",
+                              "damagemax": 0.0
+                            }
+                          ]
+                        }
                       ]
-                    },
-                    {
-                      "name": "LG_Door_Rear_R",
-                      "damageMax": 100.0,
-                      "damagemax": 0.0,
-                      "class": "AnimatedJoint",
-                      "detachRatio": 1.0
                     }
                   ]
                 },
@@ -2424,6 +2481,13 @@
                       "class": "AnimatedJoint",
                       "detachRatio": 1.0,
                       "Parts": [
+                        {
+                          "name": "LG_Door_Rear_L",
+                          "damageMax": 100.0,
+                          "damagemax": 0.0,
+                          "class": "AnimatedJoint",
+                          "detachRatio": 1.0
+                        },
                         {
                           "name": "hardpoint_class_2_left_wing",
                           "damagemax": 0.0,
@@ -2473,14 +2537,19 @@
                             }
                           }
                         }
+                      ],
+                      "DamageBehaviors": [
+                        {
+                          "class": "DetachPart",
+                          "damageRatioMin": 1.0,
+                          "DetachPart": [
+                            {
+                              "name": "LG_Door_Rear_L",
+                              "damagemax": 0.0
+                            }
+                          ]
+                        }
                       ]
-                    },
-                    {
-                      "name": "LG_Door_Rear_L",
-                      "damageMax": 100.0,
-                      "damagemax": 0.0,
-                      "class": "AnimatedJoint",
-                      "detachRatio": 1.0
                     }
                   ]
                 },
@@ -2542,7 +2611,35 @@
                       "damagemax": 0.0
                     },
                     {
+                      "name": "thrust_vector_flap_a",
+                      "damagemax": 0.0
+                    },
+                    {
+                      "name": "thrust_vector_flap_b",
+                      "damagemax": 0.0
+                    },
+                    {
+                      "name": "thrust_vector_flap_c",
+                      "damagemax": 0.0
+                    },
+                    {
+                      "name": "IntakeLeft",
+                      "damagemax": 0.0
+                    },
+                    {
+                      "name": "IntakeRight",
+                      "damagemax": 0.0
+                    },
+                    {
+                      "name": "Canopy",
+                      "damagemax": 0.0
+                    },
+                    {
                       "name": "Nose",
+                      "damagemax": 0.0
+                    },
+                    {
+                      "name": "Body",
                       "damagemax": 0.0
                     }
                   ]
@@ -2595,29 +2692,70 @@
               "value": "0.46,0.41,0.35"
             },
             {
-              "idRef": "modShipGeometry",
-              "name": "filename",
-              "value": "Objects/Spaceships/Ships/ANVL/Hornet/F7A/ANVL_Hornet_F7A.cga"
+              "idRef": "modShip_Base",
+              "name": "mass",
+              "value": "73317.0"
+            }
+          ]
+        },
+        {
+          "name": "F7C_Mk2",
+          "patchFile": "Modifications/ANVL_Hornet_F7A",
+          "Elems": [
+            {
+              "idRef": "modVehicleClass",
+              "name": "displayname",
+              "value": "Anvil Hornet F7C Mk2"
             },
             {
-              "idRef": "modHoloGeometry_Default",
-              "name": "name",
-              "value": "Objects/Spaceships/Ships/ANVL/Hornet/F7A/ANVL_Hornet_F7A.cga"
+              "idRef": "modVehicleClass",
+              "name": "landingOffset",
+              "value": "0,-0.5,-3.62"
             },
             {
-              "idRef": "modHoloGeometry_OverDragging",
-              "name": "name",
-              "value": "Objects/Spaceships/Ships/ANVL/Hornet/F7A/ANVL_Hornet_F7A.cga"
-            },
-            {
-              "idRef": "modHoloGeometry_ItemPreviewA",
-              "name": "name",
-              "value": "Objects/Spaceships/Ships/ANVL/Hornet/F7A/ANVL_Hornet_F7A.cga"
+              "idRef": "modVehicleClass",
+              "name": "crossSectionMultiplier",
+              "value": "0.46,0.41,0.35"
             },
             {
               "idRef": "modShip_Base",
               "name": "mass",
               "value": "73317.0"
+            },
+            {
+              "idRef": "modPortPowerPlant01",
+              "name": "minSize",
+              "value": "1"
+            },
+            {
+              "idRef": "modPortPowerPlant01",
+              "name": "maxSize",
+              "value": "1"
+            },
+            {
+              "idRef": "modPartPowerPlant02",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPortMissilesLeft",
+              "name": "minSize",
+              "value": "3"
+            },
+            {
+              "idRef": "modPortMissilesLeft",
+              "name": "maxSize",
+              "value": "3"
+            },
+            {
+              "idRef": "modPortMissilesRight",
+              "name": "minSize",
+              "value": "3"
+            },
+            {
+              "idRef": "modPortMissilesRight",
+              "name": "maxSize",
+              "value": "3"
             }
           ]
         },
@@ -3330,29 +3468,39 @@
           "Elems": [
             {
               "idRef": "modWeaponSizeWing",
-              "name": "maxsize",
+              "name": "minSize",
+              "value": "4"
+            },
+            {
+              "idRef": "modWeaponSizeWing",
+              "name": "maxSize",
               "value": "4"
             },
             {
               "idRef": "modWeaponSizeBay",
-              "name": "maxsize",
+              "name": "minSize",
+              "value": "3"
+            },
+            {
+              "idRef": "modWeaponSizeBay",
+              "name": "maxSize",
               "value": "3"
             }
           ]
         },
         {
           "name": "CalMason_New",
-          "patchFile": "Modifications/ANVL_Hornet_F7X.xml",
+          "patchFile": "Modifications/ANVL_Hornet_F7X",
           "Elems": [
-            {
-              "idRef": "modVehicleClass",
-              "name": "landingOffset",
-              "value": "0,-0.5,-3.616"
-            },
             {
               "idRef": "modVehicleClass",
               "name": "displayname",
               "value": "Anvil Hornet F7A"
+            },
+            {
+              "idRef": "modVehicleClass",
+              "name": "landingOffset",
+              "value": "0,-0.5,-3.616"
             },
             {
               "idRef": "modVehicleClass",
@@ -3362,7 +3510,7 @@
             {
               "idRef": "modDeathMask",
               "name": "helper",
-              "value": "ANVL_Hornet_F7X.xml"
+              "value": "anvl_hornet_f7x"
             },
             {
               "idRef": "modPowerPlantItemPort",

@@ -41,39 +41,65 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 700.0,
-      "Range": 1225.0,
+      "UUID": "bfcc6ff6-7b62-4ff6-86c3-130e027e0ab9",
+      "Type": "AmmoParams",
+      "Speed": 3000.0,
+      "Range": 1200.0,
       "Size": 2.0,
-      "Capacity": 110.0,
+      "Capacity": 70.0,
       "ImpactDamage": {
-        "Physical": 220.0
-      }
+        "Physical": 525.0
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
-        "Name": "Single",
-        "LocalisedName": "[SEMI]",
-        "RoundsPerMinute": 110.0,
-        "FireType": "single",
+        "Name": "Charge",
+        "LocalisedName": "[CHARGE]",
+        "RoundsPerMinute": 30.0,
+        "FireType": "charged",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 220.0
+          "Physical": 525.0
         },
         "DamagePerSecond": {
-          "Physical": 403.3333333333333
+          "Physical": 262.5
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 700.0,
-    "Range": 1225.0,
+    "UUID": "bfcc6ff6-7b62-4ff6-86c3-130e027e0ab9",
+    "Type": "AmmoParams",
+    "Speed": 3000.0,
+    "Range": 1200.0,
     "Size": 2.0,
-    "Capacity": 110.0,
+    "Capacity": 70.0,
     "ImpactDamage": {
-      "Physical": 220.0
-    }
+      "Physical": 525.0
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {

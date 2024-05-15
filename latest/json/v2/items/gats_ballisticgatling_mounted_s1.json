@@ -33,43 +33,69 @@
   "HeatConnection": {
     "ThermalEnergyBase": 100.0,
     "ThermalEnergyDraw": 200.0,
-    "CoolingRate": 49.189
+    "CoolingRate": 100.0
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 1400.0,
-      "Range": 1540.0000000000002,
+      "UUID": "41188185-2e00-42d0-9bea-76f09836e564",
+      "Type": "AmmoParams",
+      "Speed": 1600.0,
+      "Range": 2000.0,
       "Size": 1.0,
-      "Capacity": 320.0,
+      "Capacity": 1067.0,
       "ImpactDamage": {
-        "Physical": 27.2
-      }
+        "Physical": 8.4
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Rapid",
         "LocalisedName": "[AUTO]",
-        "RoundsPerMinute": 1200.0,
+        "RoundsPerMinute": 1600.0,
         "FireType": "rapid",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 27.2
+          "Physical": 8.4
         },
         "DamagePerSecond": {
-          "Physical": 544.0
+          "Physical": 224.00000000000003
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 1400.0,
-    "Range": 1540.0000000000002,
+    "UUID": "41188185-2e00-42d0-9bea-76f09836e564",
+    "Type": "AmmoParams",
+    "Speed": 1600.0,
+    "Range": 2000.0,
     "Size": 1.0,
-    "Capacity": 320.0,
+    "Capacity": 1067.0,
     "ImpactDamage": {
-      "Physical": 27.2
-    }
+      "Physical": 8.4
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {
@@ -191,7 +217,7 @@
         "Grade": 1,
         "Type": "WeaponAttachment.IronSight",
         "Name": "Gamma (1x Holographic)",
-        "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
+        "Description": "Manufacturer: NV-TAC\nType: Projection \nAttachment Point: Optic\nMagnification: 1x\nAim Time: +15%\nSize: 1\n\nWhether under the blazing sun or on the dark side of a moon, the NV-TAC Gamma projects an easy to see reticle to help ensure your shot finds its mark.",
         "Manufacturer": {
           "Code": "NVTC",
           "Name": "@LOC_PLACEHOLDER"

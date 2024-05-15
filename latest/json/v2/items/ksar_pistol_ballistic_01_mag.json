@@ -19,12 +19,35 @@
   "Length": 0.04452299,
   "Volume": 0.00021999999999999998,
   "Ammunition": {
+    "UUID": "5aee0506-745d-408e-b1e4-bdae85b01a35",
+    "Type": "AmmoParams",
     "Speed": 550.0,
     "Range": 1100.0,
     "Size": 1.0,
     "Capacity": 6.0,
     "ImpactDamage": {
-      "Physical": 40.0
+      "Physical": 60.0
+    },
+    "BulletImpulseFalloff": {
+      "MinDistance": 0.0,
+      "DropFalloff": 0.04,
+      "MaxFalloff": 0.3383
+    },
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {
+      "Physical": 55.0
+    },
+    "DamageDropPerMeter": {
+      "Physical": 0.2
+    },
+    "DamageDropMinDamage": {
+      "Physical": 35.0
     }
   }
 }

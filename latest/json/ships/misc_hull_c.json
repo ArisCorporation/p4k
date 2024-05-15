@@ -19,6 +19,9 @@
           "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
         },
         {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
           "value": "434af56b-80a5-4e0d-a004-fe22c07ebacd"
         },
         {
@@ -26,6 +29,12 @@
         },
         {
           "value": "5b886b3e-c917-4558-ae8e-1402b0529da4"
+        },
+        {
+          "value": "503443c0-b6d1-4539-b493-688117334ff1"
+        },
+        {
+          "value": "091c54fe-8a0f-45bd-af8b-4767e4d08669"
         }
       ],
       "Components": {
@@ -37,7 +46,7 @@
           "dogfightEnabled": 1,
           "unmovable": 0,
           "isGravlevVehicle": false,
-          "incomingDamageModifierToAI": 1.0,
+          "incomingDamageModifierToAI": 0.0,
           "emergencyStatusDamageThreshold": 0.25,
           "crewSize": 1,
           "vehicleName": "@vehicle_NameMISC_Hull_C",
@@ -46,7 +55,7 @@
           "vehicleCareerRef": "00000000-0000-0000-0000-000000000000",
           "vehicleRole": "@vehicle_class_heavyfreight",
           "vehicleRoleRef": "00000000-0000-0000-0000-000000000000",
-          "inventoryContainerParams": "4b2dbad4-ca1c-4016-9d1c-7850f565a160",
+          "inventoryContainerParams": "38fed17c-864c-4a0b-8782-66f8dee118b4",
           "maxBoundingBoxSize": {
             "x": 36.05,
             "y": 91.17,
@@ -479,7 +488,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_thruster_top_front_left",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small_Top",
                   "loadout": {}
                 },
                 {
@@ -489,7 +498,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_thruster_top_front_right",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small_Top",
                   "loadout": {}
                 },
                 {
@@ -529,7 +538,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_thruster_top_rear_left",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Top",
                   "loadout": {}
                 },
                 {
@@ -539,12 +548,12 @@
                 },
                 {
                   "itemPortName": "hardpoint_thruster_bottom_rear_left",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Bottom",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_thruster_top_rear_right",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Top",
                   "loadout": {}
                 },
                 {
@@ -554,7 +563,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_thruster_bottom_rear_right",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Bottom",
                   "loadout": {}
                 },
                 {
@@ -574,7 +583,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "WeaponRegenPool_Crew_Hull_C",
+                  "entityClassName": "",
                   "loadout": {}
                 },
                 {
@@ -589,7 +598,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                  "entityClassName": "WeaponRegenPool_Turret_Hull_C",
+                  "entityClassName": "",
                   "loadout": {}
                 },
                 {
@@ -677,6 +686,11 @@
                           "itemPortName": "hardpoint_rear_quantum_tank",
                           "entityClassName": "QTNK_MISC_Hull_C",
                           "loadout": {}
+                        },
+                        {
+                          "itemPortName": "hardpoint_door_airlock_rear",
+                          "entityClassName": "Door_Ship_Exterior_Hull_C_Rear_Airlock",
+                          "loadout": {}
                         }
                       ]
                     }
@@ -684,19 +698,39 @@
                 },
                 {
                   "itemPortName": "hardpoint_turret_front_top",
-                  "entityClassName": "MISC_Hull_C_SCItem_Remote_Turret",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "KLWE_LaserRepeater_S3",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         },
                         {
                           "itemPortName": "turret_right",
-                          "entityClassName": "KLWE_LaserRepeater_S3",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
@@ -704,19 +738,39 @@
                 },
                 {
                   "itemPortName": "hardpoint_turret_rear_top",
-                  "entityClassName": "MISC_Hull_C_SCItem_Remote_Turret_Rear",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "KLWE_LaserRepeater_S3",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         },
                         {
                           "itemPortName": "turret_right",
-                          "entityClassName": "KLWE_LaserRepeater_S3",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
@@ -724,18 +778,18 @@
                 },
                 {
                   "itemPortName": "hardpoint_turret_nose",
-                  "entityClassName": "MISC_Hull_C_Nose_Turret",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "hardpoint_left",
-                          "entityClassName": "KLWE_LaserRepeater_S3",
+                          "entityClassName": "",
                           "loadout": {}
                         },
                         {
                           "itemPortName": "hardpoint_right",
-                          "entityClassName": "KLWE_LaserRepeater_S3",
+                          "entityClassName": "",
                           "loadout": {}
                         }
                       ]
@@ -780,8 +834,18 @@
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "GRIN_TractorBeam_S2",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
@@ -810,8 +874,18 @@
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "GRIN_TractorBeam_S2",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
@@ -830,8 +904,18 @@
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "GRIN_TractorBeam_S2",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
@@ -850,8 +934,18 @@
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "GRIN_TractorBeam_S2",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
@@ -899,12 +993,12 @@
                 },
                 {
                   "itemPortName": "hardpoint_thruster_top_mid_left",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small_Top",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_thruster_top_mid_right",
-                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small",
+                  "entityClassName": "MISC_Hull_C_Thruster_Mav_Fixed_Small_Top",
                   "loadout": {}
                 },
                 {
@@ -1303,7 +1397,7 @@
           "Parts": [
             {
               "name": "Body",
-              "damageMax": 37500.0,
+              "damageMax": 60000.0,
               "damagemax": 0.0,
               "class": "AnimatedJoint",
               "Parts": [
@@ -1680,7 +1774,7 @@
                 },
                 {
                   "name": "Nose",
-                  "damageMax": 12000.0,
+                  "damageMax": 30000.0,
                   "damagemax": 0.0,
                   "class": "AnimatedJoint",
                   "Parts": [
@@ -3978,7 +4072,7 @@
                         },
                         {
                           "name": "Rear",
-                          "damageMax": 18500.0,
+                          "damageMax": 20500.0,
                           "damagemax": 0.0,
                           "class": "AnimatedJoint",
                           "Parts": [

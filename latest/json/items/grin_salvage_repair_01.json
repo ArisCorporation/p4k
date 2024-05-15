@@ -71,6 +71,7 @@
       "SAmmoContainerComponentParams": {
         "initialAmmoCount": 50.0,
         "maxAmmoCount": 50.0,
+        "maxRestockCount": 3.0,
         "ammoParamsRecord": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce"
       },
       "SEntityInteractableParams": {
@@ -213,20 +214,73 @@
   "ammo": {
     "size": 1,
     "lifetime": 4.0,
-    "speed": 600.0,
+    "speed": 1200.0,
     "projectileParams": {
       "BulletProjectileParams": {
+        "impactRadius": 0.0,
+        "minImpactRadius": 0.0,
+        "ignitionChanceOverride": -1.0,
+        "keepAliveOnZeroDamage": 0.0,
+        "hitType": "bullet",
         "damage": [
           {
             "DamagePhysical": 0.0,
-            "DamageEnergy": 15.0,
+            "DamageEnergy": 19.0,
             "DamageDistortion": 0.0,
             "DamageThermal": 0.0,
             "DamageBiochemical": 0.0,
             "DamageStun": 0.0
           }
         ],
-        "detonationParams": {}
+        "damageDropParams": {
+          "BulletDamageDropParams": {
+            "damageDropMinDistance": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 0.0,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            },
+            "damageDropPerMeter": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 0.0,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            },
+            "damageDropMinDamage": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 0.0,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            }
+          }
+        },
+        "detonationParams": {},
+        "impulseFalloffParams": {
+          "BulletImpulseFalloffParams": {
+            "minDistance": 0.0,
+            "dropFalloff": 0.0025,
+            "maxFalloff": 0.5
+          }
+        },
+        "pierceabilityParams": {
+          "damageFalloffLevel1": 0.0,
+          "damageFalloffLevel2": 0.0,
+          "damageFalloffLevel3": 0.0,
+          "maxPenetrationThickness": 0.3
+        },
+        "electronParams": {}
       }
     },
     "ClassName": "klwe_rifle_energy_01_ammo_laser",
@@ -360,12 +414,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -405,12 +462,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.1,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -450,12 +510,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.2,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -495,12 +558,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.5,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -540,12 +606,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -586,16 +655,16 @@
             {
               "salvageRepairMode": "Salvage",
               "toggle": true,
-              "salvageCanFireOnFull": false,
+              "salvageCanFireOnFull": true,
               "salvageRepairAmmoType": "Salvage",
               "batteryAmmoType": "Primary",
               "minEnergyDraw": 0.0,
               "maxEnergyDraw": 0.0,
-              "materialEfficiency": 1.0,
-              "maxVehicleDamageRatio": 0.9,
+              "materialEfficiency": 0.7,
+              "maxVehicleDamageRatio": 0.95,
               "repairedMaterialRatio": 1.0,
-              "maxHealthRepairRate": 10.0,
-              "healthToAmmoRatio": 0.5,
+              "maxHealthRepairRate": 20.0,
+              "healthToAmmoRatio": 0.75,
               "heatPerSecond": 0.0,
               "wearPerSecond": 0.0,
               "hitRadius": 0.0,
@@ -617,10 +686,10 @@
               "minEnergyDraw": 0.0,
               "maxEnergyDraw": 0.0,
               "materialEfficiency": 1.0,
-              "maxVehicleDamageRatio": 1.0,
+              "maxVehicleDamageRatio": 0.95,
               "repairedMaterialRatio": 1.0,
-              "maxHealthRepairRate": 100.0,
-              "healthToAmmoRatio": 0.1,
+              "maxHealthRepairRate": 20.0,
+              "healthToAmmoRatio": 0.75,
               "heatPerSecond": 0.0,
               "wearPerSecond": 0.0,
               "hitRadius": 0.0,
@@ -886,6 +955,13 @@
               "EquippedItemUuid": "891a1422-3980-4756-84b2-04dd07ad7177"
             }
           ]
+        },
+        "SMeleeWeaponComponentParams": {
+          "canBeUsedForTakeDown": false,
+          "canBlock": false,
+          "canBeUsedInProne": false,
+          "canDodge": false,
+          "meleeCombatConfig": "00000000-0000-0000-0000-000000000000"
         }
       },
       "ClassName": "grin_salvage_repair_01",

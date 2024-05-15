@@ -2,7 +2,14 @@
   "Raw": {
     "Entity": {
       "StaticEntityClassData": {},
-      "tags": [],
+      "tags": [
+        {
+          "value": "94b8e3ee-4692-4fe3-a73d-ebc73b9bb4f3"
+        },
+        {
+          "value": "02af2eee-b979-40e5-b999-68b976c05bbf"
+        }
+      ],
       "Components": {
         "SEntityPhysicsControllerParams": {
           "PhysType": {
@@ -31,7 +38,7 @@
             "RequiredTags": "",
             "DisplayType": "",
             "Localization": {
-              "Name": "@LOC_PLACEHOLDER",
+              "Name": "@item_displayType_bed_medical",
               "Description": "@LOC_EMPTY"
             },
             "inventoryOccupancyVolume": {
@@ -107,7 +114,7 @@
                 "available": true
               },
               {
-                "Name": "OpenExternalInventory",
+                "Name": "OpenInventoryUI",
                 "RoomTag": "00000000-0000-0000-0000-000000000000",
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@interaction_open",
@@ -182,6 +189,20 @@
                 "UsableTag": "00000000-0000-0000-0000-000000000000",
                 "DisplayName": "@usable_use",
                 "DisplayType": "Hide",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": false,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
+              },
+              {
+                "Name": "OpenLootingUI",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_loot",
+                "DisplayType": "Show",
                 "GenericCursor": "SingleAction",
                 "FocusModeOnly": false,
                 "Sendable": false,

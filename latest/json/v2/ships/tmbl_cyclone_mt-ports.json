@@ -73,43 +73,69 @@
               "HeatConnection": {
                 "ThermalEnergyBase": 100.0,
                 "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 49.189
+                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 1225.0,
+                  "UUID": "6764916d-2c17-40f7-81b8-2cffa0bdf85f",
+                  "Type": "AmmoParams",
+                  "Speed": 1600.0,
+                  "Range": 2000.0,
                   "Size": 1.0,
-                  "Capacity": 240.0,
+                  "Capacity": 433.0,
                   "ImpactDamage": {
-                    "Physical": 106.25
-                  }
+                    "Physical": 54.0
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 },
                 "Modes": [
                   {
                     "Name": "Single",
                     "LocalisedName": "[AUTO]",
-                    "RoundsPerMinute": 240.0,
+                    "RoundsPerMinute": 250.0,
                     "FireType": "sequence",
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Physical": 106.25
+                      "Physical": 54.0
                     },
                     "DamagePerSecond": {
-                      "Physical": 425.0
+                      "Physical": 225.00000000000003
                     }
                   }
                 ]
               },
               "Ammunition": {
-                "Speed": 700.0,
-                "Range": 1225.0,
+                "UUID": "6764916d-2c17-40f7-81b8-2cffa0bdf85f",
+                "Type": "AmmoParams",
+                "Speed": 1600.0,
+                "Range": 2000.0,
                 "Size": 1.0,
-                "Capacity": 240.0,
+                "Capacity": 433.0,
                 "ImpactDamage": {
-                  "Physical": 106.25
-                }
+                  "Physical": 54.0
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
               },
               "Ports": [
                 {
@@ -134,7 +160,7 @@
               "Size": 1,
               "Grade": 1,
               "Type": "Door.UNDEFINED",
-              "Name": "TMBL_Cyclone_Ramp_TR",
+              "Name": "Door Control",
               "Manufacturer": {
                 "Code": "TMBL",
                 "Name": "Tumbril Land Systems"
@@ -278,6 +304,7 @@
               "Length": 0.15,
               "Volume": 1E-06,
               "Durability": {
+                "Health": 1000.0,
                 "Lifetime": 720.0
               },
               "PowerConnection": {
@@ -623,6 +650,7 @@
               "Grade": 1,
               "Type": "WeaponDefensive.CountermeasureLauncher",
               "Name": "Joker Defcon Flares Ammo",
+              "Description": "Joker Defcon Flares Ammo",
               "Manufacturer": {
                 "Code": "JOK",
                 "Name": "Joker Engineering"
@@ -645,11 +673,19 @@
               },
               "Weapon": {
                 "Ammunition": {
+                  "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                  "Type": "AmmoParams",
                   "Speed": 90.0,
                   "Range": 1080.0,
                   "Size": 0.0,
                   "Capacity": 25.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 },
                 "Modes": [
                   {
@@ -665,11 +701,19 @@
                 ]
               },
               "Ammunition": {
+                "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                "Type": "AmmoParams",
                 "Speed": 90.0,
                 "Range": 1080.0,
                 "Size": 0.0,
                 "Capacity": 25.0,
-                "ImpactDamage": {}
+                "ImpactDamage": {},
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {},
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
               }
             },
             "Types": [
@@ -692,6 +736,7 @@
               "Grade": 1,
               "Type": "WeaponDefensive.CountermeasureLauncher",
               "Name": "Joker Defcon - Noise Launcher",
+              "Description": "Joker Defcon - Noise Launcher",
               "Manufacturer": {
                 "Code": "JOK",
                 "Name": "Joker Engineering"
@@ -714,11 +759,19 @@
               },
               "Weapon": {
                 "Ammunition": {
+                  "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 10.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 },
                 "Modes": [
                   {
@@ -734,11 +787,19 @@
                 ]
               },
               "Ammunition": {
+                "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                "Type": "AmmoParams",
                 "Speed": 180.0,
                 "Range": 144.0,
                 "Size": 0.0,
                 "Capacity": 10.0,
-                "ImpactDamage": {}
+                "ImpactDamage": {},
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {},
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
               }
             },
             "Types": [
@@ -1099,6 +1160,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon Flares Ammo",
+        "Description": "Joker Defcon Flares Ammo",
         "Manufacturer": {
           "Code": "JOK",
           "Name": "Joker Engineering"
@@ -1121,11 +1183,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+            "Type": "AmmoParams",
             "Speed": 90.0,
             "Range": 1080.0,
             "Size": 0.0,
             "Capacity": 25.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -1141,11 +1211,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+          "Type": "AmmoParams",
           "Speed": 90.0,
           "Range": 1080.0,
           "Size": 0.0,
           "Capacity": 25.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -1168,6 +1246,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Noise Launcher",
+        "Description": "Joker Defcon - Noise Launcher",
         "Manufacturer": {
           "Code": "JOK",
           "Name": "Joker Engineering"
@@ -1190,11 +1269,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+            "Type": "AmmoParams",
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
             "Capacity": 10.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -1210,11 +1297,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+          "Type": "AmmoParams",
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
           "Capacity": 10.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -1510,6 +1605,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -1572,6 +1668,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -1634,6 +1731,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {

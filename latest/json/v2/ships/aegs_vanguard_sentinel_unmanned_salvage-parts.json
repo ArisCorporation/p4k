@@ -55,254 +55,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose",
               "Size": 0,
-              "Loadout": "Mount_Gimbal_S5",
-              "InstalledItem": {
-                "UUID": "99e0ea17-45fc-4700-8607-ab879d05a284",
-                "ClassName": "Mount_Gimbal_S5",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "Turret.GunTurret",
-                "Name": "VariPuck S5 Gimbal Mount",
-                "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 5\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-                "Manufacturer": {
-                  "Code": "FFSY",
-                  "Name": "Flashfire Systems"
-                },
-                "Tags": [
-                  "gimbalMount",
-                  "flightReady"
-                ],
-                "Width": 1.116502,
-                "Height": 2.004737,
-                "Length": 8.84403,
-                "Volume": 4.2,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.38
-                },
-                "Durability": {
-                  "Health": 400.0,
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 33.75
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_class_2",
-                    "Size": 4,
-                    "Loadout": "HRST_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "8d868b78-eccd-4ba5-a4a5-57e2f20bdc35",
-                      "ClassName": "HRST_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "Attrition-4 Repeater",
-                      "Description": "Manufacturer: Hurston Dynamics\nItem Type: Laser Repeater\nSize: 4\n\nHurston Dynamics has fully integrated it's cascade laser technology into their Attrition-line of repeaters. The size four Attrition-4 is no exception, operating at peak performance when near its maximum thermal capacity.",
-                      "Manufacturer": {
-                        "Code": "HRST",
-                        "Name": "Hurston Dynamics"
-                      },
-                      "Tags": [
-                        "HRST",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 216.5
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 1.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 1.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Loadout": "HRST_LaserRepeater_Barrel_S4",
-                          "InstalledItem": {
-                            "UUID": "fadfa113-d0c5-4444-8848-dd8490f5878b",
-                            "ClassName": "HRST_LaserRepeater_Barrel_S4",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.Barrel",
-                            "Name": "HRST_LaserRepeater_Barrel_S4",
-                            "Manufacturer": {
-                              "Code": "HRST",
-                              "Name": "Hurston Dynamics"
-                            },
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Loadout": "HRST_LaserRepeater_FiringMechanism_S4",
-                          "InstalledItem": {
-                            "UUID": "c765f8cd-ac40-4b77-851f-0f68876428e0",
-                            "ClassName": "HRST_LaserRepeater_FiringMechanism_S4",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.FiringMechanism",
-                            "Name": "HRST_LaserRepeater_FiringMechanism_S4",
-                            "Manufacturer": {
-                              "Code": "HRST",
-                              "Name": "Hurston Dynamics"
-                            },
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Loadout": "HRST_LaserRepeater_PowerArray_S4",
-                          "InstalledItem": {
-                            "UUID": "b78037d8-b7c3-4434-acee-186110eba41b",
-                            "ClassName": "HRST_LaserRepeater_PowerArray_S4",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.PowerArray",
-                            "Name": "HRST_LaserRepeater_PowerArray_S4",
-                            "Manufacturer": {
-                              "Code": "HRST",
-                              "Name": "Hurston Dynamics"
-                            },
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Loadout": "HRST_LaserRepeater_Ventilation_S4",
-                          "InstalledItem": {
-                            "UUID": "17340e60-6b59-441a-af6b-3abb3692c610",
-                            "ClassName": "HRST_LaserRepeater_Ventilation_S4",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.Ventilation",
-                            "Name": "HRST_LaserRepeater_Ventilation_S4",
-                            "Manufacturer": {
-                              "Code": "HRST",
-                              "Name": "Hurston Dynamics"
-                            },
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.Gun",
                 "Turret.GunTurret",
@@ -333,6 +85,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -397,98 +150,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_001",
               "Size": 0,
-              "Loadout": "BEHR_DistortionRepeater_VNG_S2",
-              "InstalledItem": {
-                "UUID": "d60d2103-fdc4-446e-8a3b-0af114f2e23e",
-                "ClassName": "BEHR_DistortionRepeater_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "ATVS Repeater",
-                "Description": "Manufacturer: Behring\nItem Type: Distortion Repeater\nSize: 2\n\nMess with an aggressor's electrical system with the ATVS from Behring. This disruptive, non-lethal distortion repeater is only compatible with the nose-mount on the Aegis Vanguard.",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 850.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 190.0,
-                  "PowerDraw": 190.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 83.33334
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 1400.0,
-                    "Range": 1540.0000000000002,
-                    "Size": 1.0,
-                    "Capacity": 0.0,
-                    "ImpactDamage": {
-                      "Energy": 0.0001
-                    },
-                    "DetonationDamage": {
-                      "Distortion": 48.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[SEMI]",
-                      "RoundsPerMinute": 295.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Energy": 0.0001,
-                        "Distortion": 48.0
-                      },
-                      "DamagePerSecond": {
-                        "Energy": 0.0004916666666666667,
-                        "Distortion": 236.0
-                      }
-                    }
-                  ],
-                  "Consumption": {
-                    "RequestedRegenPerSec": 1180.0,
-                    "Cooldown": 1.0,
-                    "CostPerBullet": 48.0,
-                    "RequestedAmmoLoad": 7080.0
-                  }
-                },
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 48.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -500,98 +161,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_002",
               "Size": 0,
-              "Loadout": "BEHR_DistortionRepeater_VNG_S2",
-              "InstalledItem": {
-                "UUID": "d60d2103-fdc4-446e-8a3b-0af114f2e23e",
-                "ClassName": "BEHR_DistortionRepeater_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "ATVS Repeater",
-                "Description": "Manufacturer: Behring\nItem Type: Distortion Repeater\nSize: 2\n\nMess with an aggressor's electrical system with the ATVS from Behring. This disruptive, non-lethal distortion repeater is only compatible with the nose-mount on the Aegis Vanguard.",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 850.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 190.0,
-                  "PowerDraw": 190.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 83.33334
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 1400.0,
-                    "Range": 1540.0000000000002,
-                    "Size": 1.0,
-                    "Capacity": 0.0,
-                    "ImpactDamage": {
-                      "Energy": 0.0001
-                    },
-                    "DetonationDamage": {
-                      "Distortion": 48.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[SEMI]",
-                      "RoundsPerMinute": 295.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Energy": 0.0001,
-                        "Distortion": 48.0
-                      },
-                      "DamagePerSecond": {
-                        "Energy": 0.0004916666666666667,
-                        "Distortion": 236.0
-                      }
-                    }
-                  ],
-                  "Consumption": {
-                    "RequestedRegenPerSec": 1180.0,
-                    "Cooldown": 1.0,
-                    "CostPerBullet": 48.0,
-                    "RequestedAmmoLoad": 7080.0
-                  }
-                },
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 48.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -603,98 +172,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_003",
               "Size": 0,
-              "Loadout": "BEHR_DistortionRepeater_VNG_S2",
-              "InstalledItem": {
-                "UUID": "d60d2103-fdc4-446e-8a3b-0af114f2e23e",
-                "ClassName": "BEHR_DistortionRepeater_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "ATVS Repeater",
-                "Description": "Manufacturer: Behring\nItem Type: Distortion Repeater\nSize: 2\n\nMess with an aggressor's electrical system with the ATVS from Behring. This disruptive, non-lethal distortion repeater is only compatible with the nose-mount on the Aegis Vanguard.",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 850.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 190.0,
-                  "PowerDraw": 190.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 83.33334
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 1400.0,
-                    "Range": 1540.0000000000002,
-                    "Size": 1.0,
-                    "Capacity": 0.0,
-                    "ImpactDamage": {
-                      "Energy": 0.0001
-                    },
-                    "DetonationDamage": {
-                      "Distortion": 48.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[SEMI]",
-                      "RoundsPerMinute": 295.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Energy": 0.0001,
-                        "Distortion": 48.0
-                      },
-                      "DamagePerSecond": {
-                        "Energy": 0.0004916666666666667,
-                        "Distortion": 236.0
-                      }
-                    }
-                  ],
-                  "Consumption": {
-                    "RequestedRegenPerSec": 1180.0,
-                    "Cooldown": 1.0,
-                    "CostPerBullet": 48.0,
-                    "RequestedAmmoLoad": 7080.0
-                  }
-                },
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 48.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -706,98 +183,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_gun_nose_fixed_004",
               "Size": 0,
-              "Loadout": "BEHR_DistortionRepeater_VNG_S2",
-              "InstalledItem": {
-                "UUID": "d60d2103-fdc4-446e-8a3b-0af114f2e23e",
-                "ClassName": "BEHR_DistortionRepeater_VNG_S2",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "ATVS Repeater",
-                "Description": "Manufacturer: Behring\nItem Type: Distortion Repeater\nSize: 2\n\nMess with an aggressor's electrical system with the ATVS from Behring. This disruptive, non-lethal distortion repeater is only compatible with the nose-mount on the Aegis Vanguard.",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "flightReady",
-                  "weaponMountUsable",
-                  "VanguardNose",
-                  "AEGS_Vanguard_Base"
-                ],
-                "Width": 0.4466009,
-                "Height": 0.801895,
-                "Length": 3.316511,
-                "Volume": 0.252,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 850.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 190.0,
-                  "PowerDraw": 190.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 83.33334
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 1400.0,
-                    "Range": 1540.0000000000002,
-                    "Size": 1.0,
-                    "Capacity": 0.0,
-                    "ImpactDamage": {
-                      "Energy": 0.0001
-                    },
-                    "DetonationDamage": {
-                      "Distortion": 48.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[SEMI]",
-                      "RoundsPerMinute": 295.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Energy": 0.0001,
-                        "Distortion": 48.0
-                      },
-                      "DamagePerSecond": {
-                        "Energy": 0.0004916666666666667,
-                        "Distortion": 236.0
-                      }
-                    }
-                  ],
-                  "Consumption": {
-                    "RequestedRegenPerSec": 1180.0,
-                    "Cooldown": 1.0,
-                    "CostPerBullet": 48.0,
-                    "RequestedAmmoLoad": 7080.0
-                  }
-                },
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 48.0
-                  }
-                }
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -828,7 +213,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Vanguard_SCItem_SeatAccess",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -943,20 +328,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1022.0,
-                  "ScmSpeed": 171.0,
-                  "Pitch": 32.0,
+                  "MaxSpeed": 1100.0,
+                  "ScmSpeed": 210.0,
+                  "Pitch": 38.0,
                   "Yaw": 32.0,
                   "Roll": 120.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 2800.0,
-                    "CapacitorAfterburnerIdleCost": 20.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.1,
-                    "CapacitorRegenDelayAfterUse": 3.0,
-                    "CapacitorRegenPerSec": 100.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 0.7,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -1231,7 +616,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Vanguard_Sentinel_SCItem_Engineer_Console_SeatAccess",
+                "Name": "Station",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -1555,436 +940,6 @@
             "Port": {
               "PortName": "hardpoint_turret",
               "Size": 0,
-              "Loadout": "AEGS_Vanguard_SCItem_Turret",
-              "InstalledItem": {
-                "UUID": "171c3bcf-ec19-4a36-b60a-701dbfebc17b",
-                "ClassName": "AEGS_Vanguard_SCItem_Turret",
-                "Size": 6,
-                "Grade": 1,
-                "Type": "TurretBase.MannedTurret",
-                "Name": "Manned Turret",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0,
-                  "Lifetime": 25.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "turret_left",
-                    "Size": 2,
-                    "Loadout": "JOKR_DistortionCannon_S2",
-                    "InstalledItem": {
-                      "UUID": "70a98c94-9252-4fd3-a673-5a584339e273",
-                      "ClassName": "JOKR_DistortionCannon_S2",
-                      "Size": 2,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "Suckerpunch-L Cannon",
-                      "Description": "Manufacturer: Joker Engineering\nItem Type: Distortion Cannon\nSize: 2\n\nSilently strike from afar with the Suckerpunch. Joker's long-range size two distortion cannon drains a target's power system, leaving them helpless to defend against what you have planned next. An ideal choice for law enforcement, bounty hunters, and other non-lethal operations.",
-                      "Manufacturer": {
-                        "Code": "JOK",
-                        "Name": "Joker Engineering"
-                      },
-                      "Tags": [
-                        "JOKR",
-                        "DistortionCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.4466009,
-                      "Height": 0.801895,
-                      "Length": 3.316511,
-                      "Volume": 0.252,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 0.7
-                      },
-                      "Durability": {
-                        "Health": 850.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 230.0,
-                        "PowerDraw": 230.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 92.5
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 1.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 0.0001
-                          },
-                          "DetonationDamage": {
-                            "Energy": 0.0001,
-                            "Distortion": 180.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 84.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 0.0002,
-                              "Distortion": 180.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 0.00028,
-                              "Distortion": 251.99999999999997
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 1260.0,
-                          "Cooldown": 1.0,
-                          "CostPerBullet": 90.0,
-                          "RequestedAmmoLoad": 7560.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 1.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 0.0001
-                        },
-                        "DetonationDamage": {
-                          "Energy": 0.0001,
-                          "Distortion": 180.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_Barrel_S2",
-                          "InstalledItem": {
-                            "UUID": "318457f6-8e03-4fd8-af22-2eff4a63f501",
-                            "ClassName": "JOKR_DistortionCannon_Barrel_S2",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.Barrel",
-                            "Name": "JOKR_DistortionCannon_Barrel_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_FiringMechanism_S2",
-                          "InstalledItem": {
-                            "UUID": "9b89f35a-b643-4f36-a182-27d058646f8b",
-                            "ClassName": "JOKR_DistortionCannon_FiringMechanism_S2",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.FiringMechanism",
-                            "Name": "JOKR_DistortionCannon_FiringMechanism_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_PowerArray_S2",
-                          "InstalledItem": {
-                            "UUID": "f73942ed-d8b7-4d11-9e35-68e1afd70438",
-                            "ClassName": "JOKR_DistortionCannon_PowerArray_S2",
-                            "Size": 3,
-                            "Grade": 3,
-                            "Type": "WeaponAttachment.PowerArray",
-                            "Name": "JOKR_DistortionCannon_PowerArray_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_Ventilation_S2",
-                          "InstalledItem": {
-                            "UUID": "8648f277-ce62-43fb-bac2-ef5c0aff18cb",
-                            "ClassName": "JOKR_DistortionCannon_Ventilation_S2",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.Ventilation",
-                            "Name": "JOKR_DistortionCannon_Ventilation_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun",
-                      "WeaponGun.Rocket"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "turret_right",
-                    "Size": 2,
-                    "Loadout": "JOKR_DistortionCannon_S2",
-                    "InstalledItem": {
-                      "UUID": "70a98c94-9252-4fd3-a673-5a584339e273",
-                      "ClassName": "JOKR_DistortionCannon_S2",
-                      "Size": 2,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "Suckerpunch-L Cannon",
-                      "Description": "Manufacturer: Joker Engineering\nItem Type: Distortion Cannon\nSize: 2\n\nSilently strike from afar with the Suckerpunch. Joker's long-range size two distortion cannon drains a target's power system, leaving them helpless to defend against what you have planned next. An ideal choice for law enforcement, bounty hunters, and other non-lethal operations.",
-                      "Manufacturer": {
-                        "Code": "JOK",
-                        "Name": "Joker Engineering"
-                      },
-                      "Tags": [
-                        "JOKR",
-                        "DistortionCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.4466009,
-                      "Height": 0.801895,
-                      "Length": 3.316511,
-                      "Volume": 0.252,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 0.7
-                      },
-                      "Durability": {
-                        "Health": 850.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 230.0,
-                        "PowerDraw": 230.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 92.5
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 1.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 0.0001
-                          },
-                          "DetonationDamage": {
-                            "Energy": 0.0001,
-                            "Distortion": 180.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 84.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 0.0002,
-                              "Distortion": 180.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 0.00028,
-                              "Distortion": 251.99999999999997
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 1260.0,
-                          "Cooldown": 1.0,
-                          "CostPerBullet": 90.0,
-                          "RequestedAmmoLoad": 7560.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 1.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 0.0001
-                        },
-                        "DetonationDamage": {
-                          "Energy": 0.0001,
-                          "Distortion": 180.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_Barrel_S2",
-                          "InstalledItem": {
-                            "UUID": "318457f6-8e03-4fd8-af22-2eff4a63f501",
-                            "ClassName": "JOKR_DistortionCannon_Barrel_S2",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.Barrel",
-                            "Name": "JOKR_DistortionCannon_Barrel_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_FiringMechanism_S2",
-                          "InstalledItem": {
-                            "UUID": "9b89f35a-b643-4f36-a182-27d058646f8b",
-                            "ClassName": "JOKR_DistortionCannon_FiringMechanism_S2",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.FiringMechanism",
-                            "Name": "JOKR_DistortionCannon_FiringMechanism_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_PowerArray_S2",
-                          "InstalledItem": {
-                            "UUID": "f73942ed-d8b7-4d11-9e35-68e1afd70438",
-                            "ClassName": "JOKR_DistortionCannon_PowerArray_S2",
-                            "Size": 3,
-                            "Grade": 3,
-                            "Type": "WeaponAttachment.PowerArray",
-                            "Name": "JOKR_DistortionCannon_PowerArray_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Loadout": "JOKR_DistortionCannon_Ventilation_S2",
-                          "InstalledItem": {
-                            "UUID": "8648f277-ce62-43fb-bac2-ef5c0aff18cb",
-                            "ClassName": "JOKR_DistortionCannon_Ventilation_S2",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "WeaponAttachment.Ventilation",
-                            "Name": "JOKR_DistortionCannon_Ventilation_S2",
-                            "Tags": [
-                              "uneditable"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06
-                          },
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun",
-                      "WeaponGun.Rocket"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "TurretBase.MannedTurret"
               ],
@@ -2159,14 +1114,14 @@
                     "Cooldown": 21.6,
                     "Stage1AccelerationRate": 937000.5,
                     "State2AccelerationRate": 1300094.0,
-                    "SpoolUpTime": 6.75
+                    "SpoolUpTime": 5.0
                   },
                   "SplineJump": {
                     "Speed": 400000.0,
                     "Cooldown": 21.6,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 6.75
+                    "SpoolUpTime": 5.0
                   }
                 },
                 "Durability": {
@@ -2181,7 +1136,22 @@
                   "ThermalEnergyBase": 14750.0,
                   "ThermalEnergyDraw": 14750.0,
                   "CoolingRate": 29.45355
-                }
+                },
+                "Ports": [
+                  {
+                    "PortName": "hardpoint_Jump_Drive",
+                    "Size": 2,
+                    "Types": [
+                      "JumpDrive.JumpDrive"
+                    ],
+                    "Flags": [
+                      "uneditable",
+                      "invisible"
+                    ],
+                    "Category": "UNKNOWN",
+                    "Uneditable": true
+                  }
+                ]
               },
               "Types": [
                 "QuantumDrive.QDrive"
@@ -2510,8 +1480,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 9900.0,
-                  "Regeneration": 550.0,
+                  "Health": 6000.0,
+                  "Regeneration": 400.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -2589,8 +1559,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 9900.0,
-                  "Regeneration": 550.0,
+                  "Health": 6000.0,
+                  "Regeneration": 400.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -2653,6 +1623,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Eclipse - Decoy Launcher",
+                "Description": "Aegis Eclipse - Decoy Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2675,11 +1646,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                    "Type": "AmmoParams",
                     "Speed": 65.0,
                     "Range": 520.0,
                     "Size": 0.0,
                     "Capacity": 48.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2695,11 +1674,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                  "Type": "AmmoParams",
                   "Speed": 65.0,
                   "Range": 520.0,
                   "Size": 0.0,
                   "Capacity": 48.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2726,6 +1713,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Eclipse - Noise Launcher",
+                "Description": "Aegis Eclipse - Noise Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2748,11 +1736,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 5.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2768,11 +1764,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 5.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2799,6 +1803,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "RSI Self Destruct Long",
+                "Description": "RSI Self Destruct Long",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -2846,6 +1851,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.5,
@@ -2906,24 +1914,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_HeavyFighter",
-              "InstalledItem": {
-                "UUID": "9427bda1-a163-4655-98a9-32f30de74d4e",
-                "ClassName": "WeaponRegenPool_Crew_HeavyFighter",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_HeavyFighter",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 10000,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -2947,7 +1937,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Vanguard_SCItem_SeatAccess_Turret",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2985,6 +1975,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -3069,7 +2060,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_AEGS_Vanguard",
+                "Name": "Door Control",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -3747,14 +2738,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_01",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Main_01",
                   "InstalledItem": {
-                    "UUID": "2f705928-ed1b-4090-b987-06956afec140",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_01",
+                    "UUID": "29959bf0-9ed7-4737-92f2-728b7e6d65c3",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Main_01",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_01",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Main_01",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3764,10 +2755,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 5324742.0,
+                      "ThrustCapacity": 6977170.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 32.61404475
+                      "MaxThrustFuelRate": 42.73516625
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -3942,14 +2933,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_FR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -3959,10 +2950,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -3997,14 +2988,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_FR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4014,10 +3005,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4052,14 +3043,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_RR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4069,10 +3060,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4107,14 +3098,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_RR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4124,10 +3115,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4161,14 +3152,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_RR",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4178,10 +3169,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4216,14 +3207,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_middle_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_02",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Main_02",
                   "InstalledItem": {
-                    "UUID": "6359df14-70d4-4dc8-af91-0207b0e0ba28",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_02",
+                    "UUID": "f1c75690-7674-4287-82e6-5643e8538689",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Main_02",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_02",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Main_02",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4233,10 +3224,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3448401.0,
+                      "ThrustCapacity": 3590266.0,
                       "FuelRate": 9.1875E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 31.6821841875
+                      "MaxThrustFuelRate": 32.985568875
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -4268,14 +3259,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Retro",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Retro",
                   "InstalledItem": {
-                    "UUID": "aab3551c-0979-4f42-996a-a89c83c78ad6",
-                    "ClassName": "AEGS_Vanguard_Thruster_Retro",
+                    "UUID": "a1ccf90c-8ab2-485d-a7bc-5022775eafb8",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Retro",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Retro",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Retro",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4285,10 +3276,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3513015.0,
+                      "ThrustCapacity": 4113055.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 21.517216875
+                      "MaxThrustFuelRate": 25.192461875
                     },
                     "Durability": {
                       "Health": 15250.0,
@@ -4360,14 +3351,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_01",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Main_01",
                   "InstalledItem": {
-                    "UUID": "2f705928-ed1b-4090-b987-06956afec140",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_01",
+                    "UUID": "29959bf0-9ed7-4737-92f2-728b7e6d65c3",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Main_01",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_01",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Main_01",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4377,10 +3368,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 5324742.0,
+                      "ThrustCapacity": 6977170.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 32.61404475
+                      "MaxThrustFuelRate": 42.73516625
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -4413,14 +3404,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_RL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4430,10 +3421,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4468,14 +3459,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_FL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4485,10 +3476,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4523,14 +3514,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_RL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4540,10 +3531,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4577,14 +3568,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_FL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4594,10 +3585,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4632,14 +3623,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_RL",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Mav_Joint",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                   "InstalledItem": {
-                    "UUID": "61c284b4-ed81-4bb7-abee-786ff41057be",
-                    "ClassName": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "UUID": "35637c5d-d85a-4a8a-9733-89094c39565c",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Size": 2,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Mav_Joint",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Mav_Joint",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4649,10 +3640,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1586393.0,
+                      "ThrustCapacity": 3578290.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 4.957478125000001
+                      "MaxThrustFuelRate": 11.18215625
                     },
                     "Durability": {
                       "Health": 14350.0,
@@ -4687,14 +3678,14 @@
                 "Port": {
                   "PortName": "hardpoint_engine_middle_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Main_02",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Main_02",
                   "InstalledItem": {
-                    "UUID": "6359df14-70d4-4dc8-af91-0207b0e0ba28",
-                    "ClassName": "AEGS_Vanguard_Thruster_Main_02",
+                    "UUID": "f1c75690-7674-4287-82e6-5643e8538689",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Main_02",
                     "Size": 4,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Main_02",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Main_02",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4704,10 +3695,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3448401.0,
+                      "ThrustCapacity": 3590266.0,
                       "FuelRate": 9.1875E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 31.6821841875
+                      "MaxThrustFuelRate": 32.985568875
                     },
                     "Durability": {
                       "Health": 16500.0,
@@ -4882,14 +3873,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_retro_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Vanguard_Thruster_Retro",
+                  "Loadout": "AEGS_Vanguard_Sentinel_Thruster_Retro",
                   "InstalledItem": {
-                    "UUID": "aab3551c-0979-4f42-996a-a89c83c78ad6",
-                    "ClassName": "AEGS_Vanguard_Thruster_Retro",
+                    "UUID": "a1ccf90c-8ab2-485d-a7bc-5022775eafb8",
+                    "ClassName": "AEGS_Vanguard_Sentinel_Thruster_Retro",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "AEGS_Vanguard_Thruster_Retro",
+                    "Name": "AEGS_Vanguard_Sentinel_Thruster_Retro",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -4899,10 +3890,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3513015.0,
+                      "ThrustCapacity": 4113055.0,
                       "FuelRate": 6.125E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 21.517216875
+                      "MaxThrustFuelRate": 25.192461875
                     },
                     "Durability": {
                       "Health": 15250.0,

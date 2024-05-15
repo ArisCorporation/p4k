@@ -5,6 +5,11 @@
     "speed": 50.0,
     "projectileParams": {
       "BulletProjectileParams": {
+        "impactRadius": 0.0,
+        "minImpactRadius": 0.0,
+        "ignitionChanceOverride": -1.0,
+        "keepAliveOnZeroDamage": 0.0,
+        "hitType": "bullet",
         "damage": [
           {
             "DamagePhysical": 20.0,
@@ -15,12 +20,46 @@
             "DamageStun": 0.0
           }
         ],
+        "damageDropParams": {
+          "BulletDamageDropParams": {
+            "damageDropMinDistance": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 0.0,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            },
+            "damageDropPerMeter": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 0.0,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            },
+            "damageDropMinDamage": {
+              "DamageInfo": {
+                "DamagePhysical": 2.0,
+                "DamageEnergy": 0.0,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            }
+          }
+        },
         "detonationParams": {
           "ProjectileDetonationParams": {
             "explosionParams": {
               "friendlyFire": "None",
-              "minRadius": 0.75,
-              "maxRadius": 2.5,
+              "minRadius": 5.0,
+              "maxRadius": 8.0,
               "soundRadius": 50.0,
               "minPhysRadius": 2.5,
               "maxPhysRadius": 3.5,
@@ -35,7 +74,7 @@
               "hitType": "explosion",
               "damage": [
                 {
-                  "DamagePhysical": 5.5,
+                  "DamagePhysical": 10.0,
                   "DamageEnergy": 0.0,
                   "DamageDistortion": 0.0,
                   "DamageThermal": 0.0,
@@ -45,7 +84,21 @@
               ]
             }
           }
-        }
+        },
+        "impulseFalloffParams": {
+          "BulletImpulseFalloffParams": {
+            "minDistance": 0.0,
+            "dropFalloff": 0.001,
+            "maxFalloff": 0.001
+          }
+        },
+        "pierceabilityParams": {
+          "damageFalloffLevel1": 75.0,
+          "damageFalloffLevel2": 50.0,
+          "damageFalloffLevel3": 35.0,
+          "maxPenetrationThickness": 2.5
+        },
+        "electronParams": {}
       }
     },
     "ClassName": "apar_special_ballistic_01_ammo_20mm",
@@ -125,6 +178,7 @@
         "SAmmoContainerComponentParams": {
           "initialAmmoCount": 5.0,
           "maxAmmoCount": 5.0,
+          "maxRestockCount": 3.0,
           "ammoParamsRecord": "5faf80b7-df84-4bda-866c-a47e54b53601"
         },
         "SEntityInteractableParams": {

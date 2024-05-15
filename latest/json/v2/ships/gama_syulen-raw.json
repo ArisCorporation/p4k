@@ -18,10 +18,19 @@
         "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
       },
       {
+        "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+      },
+      {
+        "value": "503443c0-b6d1-4539-b493-688117334ff1"
+      },
+      {
         "value": "546320ee-f027-4b16-ac2c-77186012655f"
       },
       {
         "value": "bbb12457-d667-480c-acc7-4dd41bc1f73f"
+      },
+      {
+        "value": "fc15a078-1cb7-4219-b30a-1347cdfb00db"
       }
     ],
     "Components": {
@@ -33,16 +42,16 @@
         "dogfightEnabled": 1,
         "unmovable": 0,
         "isGravlevVehicle": false,
-        "incomingDamageModifierToAI": 1.0,
+        "incomingDamageModifierToAI": 0.0,
         "emergencyStatusDamageThreshold": 0.25,
         "crewSize": 1,
         "vehicleName": "@vehicle_NameGAMA_Syulen",
         "vehicleDescription": "@vehicle_DescGAMA_Syulen",
         "vehicleCareer": "@item_ShipFocus_Starter",
-        "vehicleCareerRef": "00000000-0000-0000-0000-000000000000",
+        "vehicleCareerRef": "17924962-38db-4bd7-a6ae-7c54d925519f",
         "vehicleRole": "@item_ShipFocus_Starter",
-        "vehicleRoleRef": "00000000-0000-0000-0000-000000000000",
-        "inventoryContainerParams": "2243f613-073e-446f-a941-6287a9742fc6",
+        "vehicleRoleRef": "bc5f32d6-ed12-42d9-a71e-56b2d0dd19ba",
+        "inventoryContainerParams": "366b095a-6cee-43b9-a728-00bee8e49c3a",
         "maxBoundingBoxSize": {
           "x": 0.0,
           "y": 0.0,
@@ -80,7 +89,7 @@
               },
               {
                 "itemPortName": "hardpoint_controller_scanner",
-                "entityClassName": "test_scanner",
+                "entityClassName": "",
                 "loadout": {}
               },
               {
@@ -150,7 +159,7 @@
               },
               {
                 "itemPortName": "hardpoint_ping",
-                "entityClassName": "test_ping",
+                "entityClassName": "",
                 "loadout": {}
               },
               {
@@ -235,7 +244,7 @@
               },
               {
                 "itemPortName": "hardpoint_wings_large_left_thruster_mav_left",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Bottom",
                 "loadout": {}
               },
               {
@@ -255,7 +264,7 @@
               },
               {
                 "itemPortName": "hardpoint_wings_large_right_thruster_mav_right",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Bottom",
                 "loadout": {}
               },
               {
@@ -380,22 +389,52 @@
               },
               {
                 "itemPortName": "hardpoint_weapon_bottom",
-                "entityClassName": "KLWE_LaserRepeater_S3",
-                "loadout": {}
+                "entityClassName": "",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_weapon_Left",
-                "entityClassName": "KLWE_LaserRepeater_S3",
-                "loadout": {}
+                "entityClassName": "",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_weapon_right",
-                "entityClassName": "KLWE_LaserRepeater_S3",
-                "loadout": {}
+                "entityClassName": "",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_body_mid_left_bottom_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Bottom",
                 "loadout": {}
               },
               {
@@ -410,7 +449,7 @@
               },
               {
                 "itemPortName": "hardpoint_body_mid_right_bottom_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Bottom",
                 "loadout": {}
               },
               {
@@ -425,12 +464,12 @@
               },
               {
                 "itemPortName": "hardpoint_body_rear_left_bottom_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Bottom",
                 "loadout": {}
               },
               {
                 "itemPortName": "hardpoint_body_rear_left_mid_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Top",
                 "loadout": {}
               },
               {
@@ -445,7 +484,7 @@
               },
               {
                 "itemPortName": "hardpoint_body_rear_right_mid_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Top",
                 "loadout": {}
               },
               {
@@ -455,7 +494,7 @@
               },
               {
                 "itemPortName": "hardpoint_body_front_left_bottom_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Bottom",
                 "loadout": {}
               },
               {
@@ -465,12 +504,12 @@
               },
               {
                 "itemPortName": "hardpoint_body_front_left_top_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Top",
                 "loadout": {}
               },
               {
                 "itemPortName": "hardpoint_body_front_right_bottom_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Bottom",
                 "loadout": {}
               },
               {
@@ -480,12 +519,12 @@
               },
               {
                 "itemPortName": "hardpoint_body_front_right_top_thruster_mav",
-                "entityClassName": "GAMA_Syulen_Thruster_Mav",
+                "entityClassName": "GAMA_Syulen_Thruster_Mav_Top",
                 "loadout": {}
               },
               {
                 "itemPortName": "hardpoint_weapon_regen_pool",
-                "entityClassName": "WeaponRegenPool_Crew_Dogfighter",
+                "entityClassName": "",
                 "loadout": {}
               },
               {
@@ -800,7 +839,7 @@
         "Parts": [
           {
             "name": "Body",
-            "damageMax": 3500.0,
+            "damageMax": 2000.0,
             "damagemax": 0.0,
             "class": "AnimatedJoint",
             "Parts": [
@@ -1209,6 +1248,12 @@
                     "max": 15
                   }
                 }
+              },
+              {
+                "name": "Mesh_Front",
+                "damageMax": 500.0,
+                "damagemax": 0.0,
+                "class": "AnimatedJoint"
               },
               {
                 "name": "hardpoint_airlock_ramp",
@@ -3342,7 +3387,7 @@
                   "requiredTags": "",
                   "Types": [
                     {
-                      "type": "MainThruster",
+                      "type": "ManneuverThruster",
                       "subtypes": ""
                     }
                   ],
@@ -3374,7 +3419,7 @@
                   "requiredTags": "",
                   "Types": [
                     {
-                      "type": "MainThruster",
+                      "type": "ManneuverThruster",
                       "subtypes": ""
                     }
                   ],
@@ -3406,7 +3451,7 @@
                   "requiredTags": "",
                   "Types": [
                     {
-                      "type": "MainThruster",
+                      "type": "ManneuverThruster",
                       "subtypes": ""
                     }
                   ],

@@ -37,42 +37,68 @@
   "HeatConnection": {
     "ThermalEnergyBase": 100.0,
     "ThermalEnergyDraw": 200.0,
-    "CoolingRate": 126.6667
+    "CoolingRate": 100.0
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 1400.0,
-      "Range": 1540.0000000000002,
+      "UUID": "5c5356d0-626c-4c4f-9b7a-5d5097898a50",
+      "Type": "AmmoParams",
+      "Speed": 1200.0,
+      "Range": 2304.0,
       "Size": 1.0,
-      "Capacity": 165.0,
+      "Capacity": 1000.0,
       "ImpactDamage": {
-        "Physical": 66.0
-      }
+        "Physical": 54.0
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Single",
         "LocalisedName": "[SEMI]",
-        "RoundsPerMinute": 600.0,
+        "RoundsPerMinute": 500.0,
         "FireType": "sequence",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 66.0
+          "Physical": 54.0
         },
         "DamagePerSecond": {
-          "Physical": 660.0
+          "Physical": 450.00000000000006
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 1400.0,
-    "Range": 1540.0000000000002,
+    "UUID": "5c5356d0-626c-4c4f-9b7a-5d5097898a50",
+    "Type": "AmmoParams",
+    "Speed": 1200.0,
+    "Range": 2304.0,
     "Size": 1.0,
-    "Capacity": 165.0,
+    "Capacity": 1000.0,
     "ImpactDamage": {
-      "Physical": 66.0
-    }
+      "Physical": 54.0
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   }
 }

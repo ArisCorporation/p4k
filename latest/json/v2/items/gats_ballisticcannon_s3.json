@@ -37,17 +37,30 @@
   "HeatConnection": {
     "ThermalEnergyBase": 10.0,
     "ThermalEnergyDraw": 20.0,
-    "CoolingRate": 122.5
+    "CoolingRate": 100.0
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 700.0,
-      "Range": 1225.0,
+      "UUID": "5c27d801-ef80-4efe-8583-41fb955babad",
+      "Type": "AmmoParams",
+      "Speed": 1600.0,
+      "Range": 2608.0,
       "Size": 1.0,
-      "Capacity": 200.0,
+      "Capacity": 500.0,
       "ImpactDamage": {
-        "Physical": 187.5
-      }
+        "Physical": 151.8
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
@@ -58,22 +71,35 @@
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 187.5
+          "Physical": 151.8
         },
         "DamagePerSecond": {
-          "Physical": 625.0
+          "Physical": 506.00000000000006
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 700.0,
-    "Range": 1225.0,
+    "UUID": "5c27d801-ef80-4efe-8583-41fb955babad",
+    "Type": "AmmoParams",
+    "Speed": 1600.0,
+    "Range": 2608.0,
     "Size": 1.0,
-    "Capacity": 200.0,
+    "Capacity": 500.0,
     "ImpactDamage": {
-      "Physical": 187.5
-    }
+      "Physical": 151.8
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {

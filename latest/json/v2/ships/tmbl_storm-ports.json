@@ -83,19 +83,32 @@
               },
               "Weapon": {
                 "Ammunition": {
+                  "UUID": "c645cca6-f1fa-4649-a8e8-e17fa70bb9c4",
+                  "Type": "AmmoParams",
                   "Speed": 1000.0,
                   "Range": 5000.0,
                   "Size": 1.0,
                   "Capacity": 0.0,
                   "ImpactDamage": {
                     "Energy": 350.0
-                  }
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 },
                 "Modes": [
                   {
                     "Name": "Single",
                     "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
+                    "RoundsPerMinute": 350.0,
                     "FireType": "sequence",
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
@@ -103,25 +116,38 @@
                       "Energy": 350.0
                     },
                     "DamagePerSecond": {
-                      "Energy": 2916.666666666667
+                      "Energy": 2041.6666666666665
                     }
                   }
                 ],
                 "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
+                  "RequestedRegenPerSec": 4200.0,
+                  "Cooldown": 0.75,
+                  "CostPerBullet": 144.7,
+                  "RequestedAmmoLoad": 25200.0
                 }
               },
               "Ammunition": {
+                "UUID": "c645cca6-f1fa-4649-a8e8-e17fa70bb9c4",
+                "Type": "AmmoParams",
                 "Speed": 1000.0,
                 "Range": 5000.0,
                 "Size": 1.0,
                 "Capacity": 0.0,
                 "ImpactDamage": {
                   "Energy": 350.0
-                }
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
               },
               "Ports": [
                 {
@@ -278,6 +304,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Decoy Launcher",
+        "Description": "Joker Defcon - Decoy Launcher",
         "Manufacturer": {
           "Code": "TMBL",
           "Name": "Tumbril Land Systems"
@@ -300,11 +327,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+            "Type": "AmmoParams",
             "Speed": 65.0,
             "Range": 520.0,
             "Size": 0.0,
             "Capacity": 48.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -320,11 +355,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+          "Type": "AmmoParams",
           "Speed": 65.0,
           "Range": 520.0,
           "Size": 0.0,
           "Capacity": 48.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -347,6 +390,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Noise Launcher",
+        "Description": "Joker Defcon - Noise Launcher",
         "Manufacturer": {
           "Code": "TMBL",
           "Name": "Tumbril Land Systems"
@@ -369,11 +413,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9728a980-3c5f-4863-a62c-84afc0e954d7",
+            "Type": "AmmoParams",
             "Speed": 250.0,
             "Range": 625.0,
             "Size": 0.0,
             "Capacity": 5.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -389,11 +441,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9728a980-3c5f-4863-a62c-84afc0e954d7",
+          "Type": "AmmoParams",
           "Speed": 250.0,
           "Range": 625.0,
           "Size": 0.0,
           "Capacity": 5.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -416,6 +476,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Noise Launcher",
+        "Description": "Joker Defcon - Noise Launcher",
         "Manufacturer": {
           "Code": "TMBL",
           "Name": "Tumbril Land Systems"
@@ -438,11 +499,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9728a980-3c5f-4863-a62c-84afc0e954d7",
+            "Type": "AmmoParams",
             "Speed": 250.0,
             "Range": 625.0,
             "Size": 0.0,
             "Capacity": 5.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -458,11 +527,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9728a980-3c5f-4863-a62c-84afc0e954d7",
+          "Type": "AmmoParams",
           "Speed": 250.0,
           "Range": 625.0,
           "Size": 0.0,
           "Capacity": 5.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -485,6 +562,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Decoy Launcher",
+        "Description": "Joker Defcon - Decoy Launcher",
         "Manufacturer": {
           "Code": "TMBL",
           "Name": "Tumbril Land Systems"
@@ -507,11 +585,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+            "Type": "AmmoParams",
             "Speed": 65.0,
             "Range": 520.0,
             "Size": 0.0,
             "Capacity": 48.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -527,11 +613,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+          "Type": "AmmoParams",
           "Speed": 65.0,
           "Range": 520.0,
           "Size": 0.0,
           "Capacity": 48.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -879,6 +973,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {

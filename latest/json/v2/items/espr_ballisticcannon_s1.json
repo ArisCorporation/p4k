@@ -37,43 +37,69 @@
   "HeatConnection": {
     "ThermalEnergyBase": 100.0,
     "ThermalEnergyDraw": 200.0,
-    "CoolingRate": 61.81
+    "CoolingRate": 100.0
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 700.0,
-      "Range": 1225.0,
+      "UUID": "891a0ee2-e030-4a55-841d-5ea3d9264f38",
+      "Type": "AmmoParams",
+      "Speed": 900.0,
+      "Range": 1998.0000000000002,
       "Size": 1.0,
-      "Capacity": 240.0,
+      "Capacity": 217.0,
       "ImpactDamage": {
-        "Physical": 106.25
-      }
+        "Physical": 225.0
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Single",
         "LocalisedName": "[AUTO]",
-        "RoundsPerMinute": 240.0,
+        "RoundsPerMinute": 100.0,
         "FireType": "sequence",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 106.25
+          "Physical": 225.0
         },
         "DamagePerSecond": {
-          "Physical": 425.0
+          "Physical": 375.0
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 700.0,
-    "Range": 1225.0,
+    "UUID": "891a0ee2-e030-4a55-841d-5ea3d9264f38",
+    "Type": "AmmoParams",
+    "Speed": 900.0,
+    "Range": 1998.0000000000002,
     "Size": 1.0,
-    "Capacity": 240.0,
+    "Capacity": 217.0,
     "ImpactDamage": {
-      "Physical": 106.25
-    }
+      "Physical": 225.0
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {

@@ -3,257 +3,6 @@
     {
       "PortName": "hardpoint_Right_Wing_Weapon",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S3",
-      "InstalledItem": {
-        "UUID": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
-        "ClassName": "Mount_Gimbal_S3",
-        "Size": 3,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S3 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 3\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
-        "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.38
-        },
-        "Durability": {
-          "Health": 150.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 15.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 2,
-            "Loadout": "ASAD_DistortionRepeater_S2",
-            "InstalledItem": {
-              "UUID": "a5ade53b-9c40-477a-aaf8-78b6ef485283",
-              "ClassName": "ASAD_DistortionRepeater_S2",
-              "Size": 2,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "DR Model-XJ2 Repeater",
-              "Description": "Manufacturer: Associated Science & Development\nItem Type: Distortion Repeater\nSize: 2\n\nAdvancing the field of distortion weapons, the DR Model-XJ2 repeater from ASD provides tactical energy disruption that will severely limit any targeted ships operational capacity.",
-              "Manufacturer": {
-                "Code": "ASAD"
-              },
-              "Tags": [
-                "ASAD",
-                "DistortionRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 0.801895,
-              "Length": 3.316511,
-              "Volume": 0.252,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 850.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 190.0,
-                "PowerDraw": 190.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 94.74356
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 42.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 295.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 0.0001,
-                      "Distortion": 42.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 0.0004916666666666667,
-                      "Distortion": 206.5
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 1032.5,
-                  "Cooldown": 1.0,
-                  "CostPerBullet": 42.0,
-                  "RequestedAmmoLoad": 6195.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 0.0001
-                },
-                "DetonationDamage": {
-                  "Distortion": 42.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_Barrel_S2",
-                  "InstalledItem": {
-                    "UUID": "748bba37-0b33-4d68-a7d9-5c39bc87ffd1",
-                    "ClassName": "ASAD_DistortionRepeater_Barrel_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Barrel",
-                    "Name": "ASAD_DistortionRepeater_Barrel_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_FiringMechanism_S2",
-                  "InstalledItem": {
-                    "UUID": "8e0a1b4f-5bca-4a81-8b2f-c6ae7dd2ef0b",
-                    "ClassName": "ASAD_DistortionRepeater_FiringMechanism_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.FiringMechanism",
-                    "Name": "ASAD_DistortionRepeater_FiringMechanism_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_PowerArray_S2",
-                  "InstalledItem": {
-                    "UUID": "1ca2ffb7-915a-43e4-ab8e-0d84a15a92ac",
-                    "ClassName": "ASAD_DistortionRepeater_PowerArray_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.PowerArray",
-                    "Name": "ASAD_DistortionRepeater_PowerArray_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_Ventilation_S2",
-                  "InstalledItem": {
-                    "UUID": "a007f0bf-ab4b-43dc-9fc7-aae884a32c9c",
-                    "ClassName": "ASAD_DistortionRepeater_Ventilation_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Ventilation",
-                    "Name": "ASAD_DistortionRepeater_Ventilation_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -263,262 +12,6 @@
     {
       "PortName": "hardpoint_Right_Body_Weapon",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S3",
-      "InstalledItem": {
-        "UUID": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
-        "ClassName": "Mount_Gimbal_S3",
-        "Size": 3,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S3 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 3\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
-        "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.38
-        },
-        "Durability": {
-          "Health": 150.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 15.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 2,
-            "Loadout": "GATS_BallisticGatling_S2",
-            "InstalledItem": {
-              "UUID": "7034e330-3d22-4e89-83cb-c01815dbb875",
-              "ClassName": "GATS_BallisticGatling_S2",
-              "Size": 2,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "Scorpion GT-215 Gatling",
-              "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 2\n\nThe Scorpion GT-215 is a hydraulically-driven Gatling-type rotary cannon designed to deliver smaller rounds at a very high rate of fire. The Scorpion is designed to shred armor on very fast targets, sacrificing power for absolute saturation of the target area.",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "GATS",
-                "BallisticGatling",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 0.801895,
-              "Length": 3.316511,
-              "Volume": 0.252,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 850.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 40.0,
-                "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 78.57
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 295.0,
-                  "ImpactDamage": {
-                    "Physical": 35.2
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Rapid",
-                    "LocalisedName": "[AUTO]",
-                    "RoundsPerMinute": 1100.0,
-                    "FireType": "rapid",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Physical": 35.2
-                    },
-                    "DamagePerSecond": {
-                      "Physical": 645.3333333333334
-                    }
-                  },
-                  {
-                    "Name": "RapidTestFire",
-                    "LocalisedName": "[AUTO]",
-                    "RoundsPerMinute": 1100.0,
-                    "FireType": "rapid",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Physical": 35.2
-                    },
-                    "DamagePerSecond": {
-                      "Physical": 645.3333333333334
-                    }
-                  }
-                ]
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 295.0,
-                "ImpactDamage": {
-                  "Physical": 35.2
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_Barrel_S2",
-                  "InstalledItem": {
-                    "UUID": "8eb90cbc-056b-47df-8150-3f2fadc06d00",
-                    "ClassName": "GATS_BallisticGatling_Barrel_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Barrel",
-                    "Name": "GATS_BallisticGatling_Barrel_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_FiringMechanism_S2",
-                  "InstalledItem": {
-                    "UUID": "85d5d735-373d-46eb-9ade-531221c20cef",
-                    "ClassName": "GATS_BallisticGatling_FiringMechanism_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.FiringMechanism",
-                    "Name": "GATS_BallisticGatling_FiringMechanism_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_PowerArray_S2",
-                  "InstalledItem": {
-                    "UUID": "caa703b5-265e-4b88-b3c7-b8473cd3bf8e",
-                    "ClassName": "GATS_BallisticGatling_PowerArray_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.PowerArray",
-                    "Name": "GATS_BallisticGatling_PowerArray_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_Ventilation_S2",
-                  "InstalledItem": {
-                    "UUID": "ac8c15b2-4e46-4523-8671-cee943031741",
-                    "ClassName": "GATS_BallisticGatling_Ventilation_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Ventilation",
-                    "Name": "GATS_BallisticGatling_Ventilation_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -528,262 +21,6 @@
     {
       "PortName": "hardpoint_Left_Body_Weapon",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S3",
-      "InstalledItem": {
-        "UUID": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
-        "ClassName": "Mount_Gimbal_S3",
-        "Size": 3,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S3 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 3\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
-        "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.38
-        },
-        "Durability": {
-          "Health": 150.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 15.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 2,
-            "Loadout": "GATS_BallisticGatling_S2",
-            "InstalledItem": {
-              "UUID": "7034e330-3d22-4e89-83cb-c01815dbb875",
-              "ClassName": "GATS_BallisticGatling_S2",
-              "Size": 2,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "Scorpion GT-215 Gatling",
-              "Description": "Manufacturer: Gallenson Tactical Systems\nItem Type: Ballistic Gatling\nSize: 2\n\nThe Scorpion GT-215 is a hydraulically-driven Gatling-type rotary cannon designed to deliver smaller rounds at a very high rate of fire. The Scorpion is designed to shred armor on very fast targets, sacrificing power for absolute saturation of the target area.",
-              "Manufacturer": {
-                "Code": "GAT",
-                "Name": "Gallenson Tactical Systems"
-              },
-              "Tags": [
-                "GATS",
-                "BallisticGatling",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 0.801895,
-              "Length": 3.316511,
-              "Volume": 0.252,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 850.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 40.0,
-                "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 78.57
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 295.0,
-                  "ImpactDamage": {
-                    "Physical": 35.2
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Rapid",
-                    "LocalisedName": "[AUTO]",
-                    "RoundsPerMinute": 1100.0,
-                    "FireType": "rapid",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Physical": 35.2
-                    },
-                    "DamagePerSecond": {
-                      "Physical": 645.3333333333334
-                    }
-                  },
-                  {
-                    "Name": "RapidTestFire",
-                    "LocalisedName": "[AUTO]",
-                    "RoundsPerMinute": 1100.0,
-                    "FireType": "rapid",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Physical": 35.2
-                    },
-                    "DamagePerSecond": {
-                      "Physical": 645.3333333333334
-                    }
-                  }
-                ]
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 295.0,
-                "ImpactDamage": {
-                  "Physical": 35.2
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_Barrel_S2",
-                  "InstalledItem": {
-                    "UUID": "8eb90cbc-056b-47df-8150-3f2fadc06d00",
-                    "ClassName": "GATS_BallisticGatling_Barrel_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Barrel",
-                    "Name": "GATS_BallisticGatling_Barrel_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_FiringMechanism_S2",
-                  "InstalledItem": {
-                    "UUID": "85d5d735-373d-46eb-9ade-531221c20cef",
-                    "ClassName": "GATS_BallisticGatling_FiringMechanism_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.FiringMechanism",
-                    "Name": "GATS_BallisticGatling_FiringMechanism_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_PowerArray_S2",
-                  "InstalledItem": {
-                    "UUID": "caa703b5-265e-4b88-b3c7-b8473cd3bf8e",
-                    "ClassName": "GATS_BallisticGatling_PowerArray_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.PowerArray",
-                    "Name": "GATS_BallisticGatling_PowerArray_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Loadout": "GATS_BallisticGatling_Ventilation_S2",
-                  "InstalledItem": {
-                    "UUID": "ac8c15b2-4e46-4523-8671-cee943031741",
-                    "ClassName": "GATS_BallisticGatling_Ventilation_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Ventilation",
-                    "Name": "GATS_BallisticGatling_Ventilation_S2",
-                    "Manufacturer": {
-                      "Code": "GAT",
-                      "Name": "Gallenson Tactical Systems"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -793,257 +30,6 @@
     {
       "PortName": "hardpoint_Left_Wing_Weapon",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S3",
-      "InstalledItem": {
-        "UUID": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
-        "ClassName": "Mount_Gimbal_S3",
-        "Size": 3,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S3 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 3\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
-        "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.38
-        },
-        "Durability": {
-          "Health": 150.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 15.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 2,
-            "Loadout": "ASAD_DistortionRepeater_S2",
-            "InstalledItem": {
-              "UUID": "a5ade53b-9c40-477a-aaf8-78b6ef485283",
-              "ClassName": "ASAD_DistortionRepeater_S2",
-              "Size": 2,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "DR Model-XJ2 Repeater",
-              "Description": "Manufacturer: Associated Science & Development\nItem Type: Distortion Repeater\nSize: 2\n\nAdvancing the field of distortion weapons, the DR Model-XJ2 repeater from ASD provides tactical energy disruption that will severely limit any targeted ships operational capacity.",
-              "Manufacturer": {
-                "Code": "ASAD"
-              },
-              "Tags": [
-                "ASAD",
-                "DistortionRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 0.801895,
-              "Length": 3.316511,
-              "Volume": 0.252,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 850.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 190.0,
-                "PowerDraw": 190.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 94.74356
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 42.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 295.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 0.0001,
-                      "Distortion": 42.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 0.0004916666666666667,
-                      "Distortion": 206.5
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 1032.5,
-                  "Cooldown": 1.0,
-                  "CostPerBullet": 42.0,
-                  "RequestedAmmoLoad": 6195.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 0.0001
-                },
-                "DetonationDamage": {
-                  "Distortion": 42.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_Barrel_S2",
-                  "InstalledItem": {
-                    "UUID": "748bba37-0b33-4d68-a7d9-5c39bc87ffd1",
-                    "ClassName": "ASAD_DistortionRepeater_Barrel_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Barrel",
-                    "Name": "ASAD_DistortionRepeater_Barrel_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_FiringMechanism_S2",
-                  "InstalledItem": {
-                    "UUID": "8e0a1b4f-5bca-4a81-8b2f-c6ae7dd2ef0b",
-                    "ClassName": "ASAD_DistortionRepeater_FiringMechanism_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.FiringMechanism",
-                    "Name": "ASAD_DistortionRepeater_FiringMechanism_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_PowerArray_S2",
-                  "InstalledItem": {
-                    "UUID": "1ca2ffb7-915a-43e4-ab8e-0d84a15a92ac",
-                    "ClassName": "ASAD_DistortionRepeater_PowerArray_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.PowerArray",
-                    "Name": "ASAD_DistortionRepeater_PowerArray_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Loadout": "ASAD_DistortionRepeater_Ventilation_S2",
-                  "InstalledItem": {
-                    "UUID": "a007f0bf-ab4b-43dc-9fc7-aae884a32c9c",
-                    "ClassName": "ASAD_DistortionRepeater_Ventilation_S2",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "WeaponAttachment.Ventilation",
-                    "Name": "ASAD_DistortionRepeater_Ventilation_S2",
-                    "Manufacturer": {
-                      "Code": "ASAD"
-                    },
-                    "Tags": [
-                      "uneditable"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -1055,290 +41,6 @@
     {
       "PortName": "hardpoint_turret",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_SCItem_Turret_Black",
-      "InstalledItem": {
-        "UUID": "7cb7dafc-d9c8-40de-8dc6-8b85bc0c48a5",
-        "ClassName": "DRAK_Cutlass_SCItem_Turret_Black",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "TurretBase.MannedTurret",
-        "Name": "Manned Turret",
-        "Manufacturer": {
-          "Code": "DRAK",
-          "Name": "Drake Interplanetary"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 25.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 2.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_weapon_left",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "hardpoint_weapon_right",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "TurretBase.MannedTurret"
       ],
@@ -2737,6 +1439,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Aegis Gladius - Decoy Launcher",
+        "Description": "Aegis Gladius - Decoy Launcher",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -2759,11 +1462,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+            "Type": "AmmoParams",
             "Speed": 65.0,
             "Range": 520.0,
             "Size": 0.0,
             "Capacity": 48.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -2779,11 +1490,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+          "Type": "AmmoParams",
           "Speed": 65.0,
           "Range": 520.0,
           "Size": 0.0,
           "Capacity": 48.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -2807,6 +1526,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Noise Launcher",
+        "Description": "Joker Defcon - Noise Launcher",
         "Manufacturer": {
           "Code": "JOK",
           "Name": "Joker Engineering"
@@ -2829,11 +1549,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+            "Type": "AmmoParams",
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
             "Capacity": 5.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -2849,11 +1577,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+          "Type": "AmmoParams",
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
           "Capacity": 5.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -2894,8 +1630,8 @@
           "Depth": 0.38
         },
         "Shield": {
-          "Health": 9000.0,
-          "Regeneration": 500.0,
+          "Health": 6000.0,
+          "Regeneration": 400.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -3136,14 +1872,14 @@
             "Cooldown": 39.6,
             "Stage1AccelerationRate": 600000.0,
             "State2AccelerationRate": 7704260.0,
-            "SpoolUpTime": 7.75
+            "SpoolUpTime": 5.0
           },
           "SplineJump": {
             "Speed": 400000.0,
             "Cooldown": 39.6,
             "Stage1AccelerationRate": 250.0,
             "State2AccelerationRate": 50000.0,
-            "SpoolUpTime": 7.75
+            "SpoolUpTime": 5.0
           }
         },
         "Durability": {
@@ -3158,7 +1894,22 @@
           "ThermalEnergyBase": 81362.0,
           "ThermalEnergyDraw": 81362.0,
           "CoolingRate": 109.1805
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "hardpoint_Jump_Drive",
+            "Size": 2,
+            "Types": [
+              "JumpDrive.JumpDrive"
+            ],
+            "Flags": [
+              "uneditable",
+              "invisible"
+            ],
+            "Category": "UNKNOWN",
+            "Uneditable": true
+          }
+        ]
       },
       "Types": [
         "QuantumDrive.QDrive"
@@ -3207,14 +1958,14 @@
     {
       "PortName": "hardpoint_Main_Thruster_Left",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Main",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Main",
       "InstalledItem": {
-        "UUID": "95536ade-bd7c-406b-b56d-f301aceca36a",
-        "ClassName": "DRAK_Cutlass_Thruster_Main",
+        "UUID": "ba38063a-50b3-4170-b768-e197c52cff22",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Main",
         "Size": 4,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "DRAK_Cutlass_Thruster_Main",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Main",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3224,10 +1975,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 6937529.0,
+          "ThrustCapacity": 8056979.0,
           "FuelRate": 1.05E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 72.8440545
+          "MaxThrustFuelRate": 84.59827949999999
         },
         "Durability": {
           "Health": 11500.0,
@@ -3255,14 +2006,14 @@
     {
       "PortName": "hardpoint_Main_Thruster_Right",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Main",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Main",
       "InstalledItem": {
-        "UUID": "95536ade-bd7c-406b-b56d-f301aceca36a",
-        "ClassName": "DRAK_Cutlass_Thruster_Main",
+        "UUID": "ba38063a-50b3-4170-b768-e197c52cff22",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Main",
         "Size": 4,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "DRAK_Cutlass_Thruster_Main",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Main",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3272,10 +2023,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 6937529.0,
+          "ThrustCapacity": 8056979.0,
           "FuelRate": 1.05E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 72.8440545
+          "MaxThrustFuelRate": 84.59827949999999
         },
         "Durability": {
           "Health": 11500.0,
@@ -3305,14 +2056,14 @@
     {
       "PortName": "hardpoint_Main_Retro_Left",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Retro",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Retro",
       "InstalledItem": {
-        "UUID": "2a30fbef-8479-4f19-9c0b-34b37adae545",
-        "ClassName": "DRAK_Cutlass_Thruster_Retro",
+        "UUID": "1c58c3be-3344-4a8b-a476-5b500cb11df4",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Retro",
         "Size": 4,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "DRAK_Cutlass_Thruster_Retro",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Retro",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3322,10 +2073,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1999364.0,
+          "ThrustCapacity": 960000.0,
           "FuelRate": 1.05E-05,
           "Type": "Retro",
-          "MaxThrustFuelRate": 20.993322
+          "MaxThrustFuelRate": 10.08
         },
         "Durability": {
           "Health": 12340.0,
@@ -3354,14 +2105,14 @@
     {
       "PortName": "hardpoint_Main_Retro_Right",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Retro",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Retro",
       "InstalledItem": {
-        "UUID": "2a30fbef-8479-4f19-9c0b-34b37adae545",
-        "ClassName": "DRAK_Cutlass_Thruster_Retro",
+        "UUID": "1c58c3be-3344-4a8b-a476-5b500cb11df4",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Retro",
         "Size": 4,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "DRAK_Cutlass_Thruster_Retro",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Retro",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3371,10 +2122,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1999364.0,
+          "ThrustCapacity": 960000.0,
           "FuelRate": 1.05E-05,
           "Type": "Retro",
-          "MaxThrustFuelRate": 20.993322
+          "MaxThrustFuelRate": 10.08
         },
         "Durability": {
           "Health": 12340.0,
@@ -3406,14 +2157,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Front",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3423,10 +2174,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3454,14 +2205,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Front",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3471,10 +2222,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3502,14 +2253,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Outer_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3519,10 +2270,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3550,14 +2301,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Wing_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "4efa736b-9f2f-458d-acfa-d9def3daf36c",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3567,10 +2318,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2800496.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.0062
         },
         "Durability": {
           "Health": 10240.0,
@@ -3598,14 +2349,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Wing_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "9ebaf310-2a4b-43fe-9c2f-8d9daf47539d",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3615,10 +2366,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 1550602.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 19.382525
         },
         "Durability": {
           "Health": 10240.0,
@@ -3646,14 +2397,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Outer_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3663,10 +2414,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3694,14 +2445,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Wing_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "9ebaf310-2a4b-43fe-9c2f-8d9daf47539d",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3711,10 +2462,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 1550602.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 19.382525
         },
         "Durability": {
           "Health": 10240.0,
@@ -3742,14 +2493,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Outer_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3759,10 +2510,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3790,14 +2541,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Outer_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3807,10 +2558,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3838,14 +2589,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Wing_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "4efa736b-9f2f-458d-acfa-d9def3daf36c",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3855,10 +2606,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2800496.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.0062
         },
         "Durability": {
           "Health": 10240.0,
@@ -3886,14 +2637,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Tail",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3903,10 +2654,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3934,14 +2685,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Tail",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3951,10 +2702,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -3982,14 +2733,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Rear_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Top",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "d8a87992-9295-48a7-a7c3-084c68e50176",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Top",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -3999,10 +2750,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 1225476.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 15.31845
         },
         "Durability": {
           "Health": 10240.0,
@@ -4034,14 +2785,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Rear_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Bot",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "bd7859de-8583-41fe-86fa-badc598ec538",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Bot",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Bot",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4086,14 +2837,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Front_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Top",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "44e7ce92-a4c9-4b80-b555-31cd147ca871",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Top",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4138,14 +2889,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Front_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Bot",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "0240384a-8c27-41c3-9b99-1968b990bf3c",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Bot",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Bot",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4155,10 +2906,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 1225478.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 15.318475000000001
         },
         "Durability": {
           "Health": 10240.0,
@@ -4190,14 +2941,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Rear_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Top",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "d8a87992-9295-48a7-a7c3-084c68e50176",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Top",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4207,10 +2958,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 1225476.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 15.31845
         },
         "Durability": {
           "Health": 10240.0,
@@ -4242,14 +2993,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Rear_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Bot",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "bd7859de-8583-41fe-86fa-badc598ec538",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Bot",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Rear_Bot",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4294,14 +3045,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Front_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Top",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "44e7ce92-a4c9-4b80-b555-31cd147ca871",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Top",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4346,14 +3097,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Front_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Bot",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "0240384a-8c27-41c3-9b99-1968b990bf3c",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Bot",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_Front_Bot",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4363,10 +3114,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 1225478.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 15.318475000000001
         },
         "Durability": {
           "Health": 10240.0,
@@ -4398,14 +3149,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Center_Top",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "9ebaf310-2a4b-43fe-9c2f-8d9daf47539d",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_2",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4415,10 +3166,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 1550602.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 19.382525
         },
         "Durability": {
           "Health": 10240.0,
@@ -4446,14 +3197,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Rear",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4463,10 +3214,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -4494,14 +3245,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Rear",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4511,10 +3262,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -4542,14 +3293,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Left_Center",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4559,10 +3310,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -4590,14 +3341,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Right_Center",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "f631ae50-1ecc-4df9-8f44-3e8e918fd2f1",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_3",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4607,10 +3358,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2808603.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.1075375
         },
         "Durability": {
           "Health": 10240.0,
@@ -4638,14 +3389,14 @@
     {
       "PortName": "hardpoint_Man_Thruster_Center_Bot",
       "Size": 0,
-      "Loadout": "DRAK_Cutlass_Thruster_Maneuver",
+      "Loadout": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
       "InstalledItem": {
-        "UUID": "13eee13d-a9a1-4aad-9a33-ffc87f4912c6",
-        "ClassName": "DRAK_Cutlass_Thruster_Maneuver",
+        "UUID": "4efa736b-9f2f-458d-acfa-d9def3daf36c",
+        "ClassName": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "DRAK_Cutlass_Thruster_Maneuver",
+        "Name": "DRAK_Cutlass_Blue_Thruster_Maneuver_1",
         "Manufacturer": {
           "Code": "DRAK",
           "Name": "Drake Interplanetary"
@@ -4655,10 +3406,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1225477.0,
+          "ThrustCapacity": 2800496.0,
           "FuelRate": 1.25E-05,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 15.3184625
+          "MaxThrustFuelRate": 35.0062
         },
         "Durability": {
           "Health": 10240.0,
@@ -4856,8 +3607,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "QuantumInterdiction": {
-          "JammingRange": 2000.0,
-          "InterdictionRange": 20000.0
+          "JammingRange": 4000.0,
+          "InterdictionRange": 1.0
         },
         "PowerConnection": {
           "PowerBase": 500.0,
@@ -4974,6 +3725,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 360.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5036,6 +3788,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 360.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5137,6 +3890,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 360.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {

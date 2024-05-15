@@ -44,7 +44,7 @@
       },
       {
         "Name": "nose",
-        "MaximumDamage": 1500.0,
+        "MaximumDamage": 2000.0,
         "Parts": [
           {
             "Name": "canopy",
@@ -379,20 +379,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1315.0,
-                  "ScmSpeed": 225.0,
-                  "Pitch": 46.0,
-                  "Yaw": 42.0,
-                  "Roll": 155.0,
+                  "MaxSpeed": 1175.0,
+                  "ScmSpeed": 222.0,
+                  "Pitch": 65.0,
+                  "Yaw": 48.0,
+                  "Roll": 178.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 1800.0,
-                    "CapacitorAfterburnerIdleCost": 20.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.1,
-                    "CapacitorRegenDelayAfterUse": 2.0,
-                    "CapacitorRegenPerSec": 100.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 0.2,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -441,24 +441,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_Dogfighter",
-              "InstalledItem": {
-                "UUID": "7cf171a5-8fc4-4562-926f-7b7d26ad2f97",
-                "ClassName": "WeaponRegenPool_Crew_Dogfighter",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_Dogfighter",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 4500,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -607,6 +589,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.46,
@@ -732,7 +717,7 @@
                 },
                 "Shield": {
                   "Health": 1500.0,
-                  "Regeneration": 375.0,
+                  "Regeneration": 100.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -763,7 +748,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 1054.0,
+                  "Health": 216.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -814,7 +799,7 @@
                 },
                 "Shield": {
                   "Health": 1500.0,
-                  "Regeneration": 375.0,
+                  "Regeneration": 100.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -845,7 +830,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 1054.0,
+                  "Health": 216.0,
                   "Lifetime": 20.0
                 },
                 "PowerConnection": {
@@ -938,10 +923,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1114319.0,
+                      "ThrustCapacity": 1450000.0,
                       "FuelRate": 6.55375E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 7.30296814625
+                      "MaxThrustFuelRate": 9.5029375
                     },
                     "Durability": {
                       "Health": 6780.0,
@@ -990,10 +975,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3256278.0,
+                      "ThrustCapacity": 4100000.0,
                       "FuelRate": 6.55375E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 21.3408319425
+                      "MaxThrustFuelRate": 26.870375
                     },
                     "Durability": {
                       "Health": 7500.0,
@@ -1043,10 +1028,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 904066.5,
+                      "ThrustCapacity": 5100000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 2.8252078125
+                      "MaxThrustFuelRate": 15.9375
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -1098,10 +1083,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 889769.1,
+                      "ThrustCapacity": 1060000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 2.7805284375
+                      "MaxThrustFuelRate": 3.3125
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -1140,124 +1125,6 @@
                     "Port": {
                       "PortName": "hardpoint_weapon_wing_top_left",
                       "Size": 0,
-                      "Loadout": "BEHR_LaserCannon_S2",
-                      "InstalledItem": {
-                        "UUID": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
-                        "ClassName": "BEHR_LaserCannon_S2",
-                        "Size": 2,
-                        "Grade": 1,
-                        "Type": "WeaponGun.Gun",
-                        "Name": "M4A Cannon",
-                        "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 2\n\nThe M4A is Behring's second tier laser autocannon. Its bigger size means more power consumption in exchange for packing a bigger punch. Fire rate and power efficiency are comparable to the M3A model.",
-                        "Manufacturer": {
-                          "Code": "BEH",
-                          "Name": "Behring"
-                        },
-                        "Tags": [
-                          "BEHR",
-                          "LaserCannon",
-                          "flightReady",
-                          "weaponMountUsable"
-                        ],
-                        "Width": 0.4466009,
-                        "Height": 0.801895,
-                        "Length": 3.316511,
-                        "Volume": 0.252,
-                        "DimensionOverrides": {
-                          "Width": 0.38,
-                          "Height": 0.38,
-                          "Depth": 0.7
-                        },
-                        "Durability": {
-                          "Health": 850.0,
-                          "Lifetime": 20.0
-                        },
-                        "PowerConnection": {
-                          "PowerBase": 230.0,
-                          "PowerDraw": 230.0
-                        },
-                        "HeatConnection": {
-                          "ThermalEnergyBase": 100.0,
-                          "ThermalEnergyDraw": 200.0,
-                          "CoolingRate": 100.95
-                        },
-                        "Weapon": {
-                          "Ammunition": {
-                            "Speed": 700.0,
-                            "Range": 1225.0,
-                            "Size": 2.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 110.0
-                            }
-                          },
-                          "Modes": [
-                            {
-                              "Name": "Single",
-                              "LocalisedName": "[AUTO]",
-                              "RoundsPerMinute": 220.0,
-                              "FireType": "sequence",
-                              "AmmoPerShot": 1.0,
-                              "PelletsPerShot": 1.0,
-                              "DamagePerShot": {
-                                "Energy": 110.0
-                              },
-                              "DamagePerSecond": {
-                                "Energy": 403.3333333333333
-                              }
-                            }
-                          ],
-                          "Consumption": {
-                            "RequestedRegenPerSec": 2016.67,
-                            "Cooldown": 1.0,
-                            "CostPerBullet": 55.0,
-                            "RequestedAmmoLoad": 12100.0
-                          }
-                        },
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 2.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 110.0
-                          }
-                        },
-                        "Ports": [
-                          {
-                            "PortName": "BAR1",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Barrel"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "MEC",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.FiringMechanism"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "POW",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.PowerArray"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "VEN",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Ventilation"
-                            ],
-                            "Category": "Weapon attachments"
-                          }
-                        ]
-                      },
                       "Types": [
                         "Turret.GunTurret",
                         "WeaponGun.Gun"
@@ -1270,124 +1137,6 @@
                     "Port": {
                       "PortName": "hardpoint_weapon_wing_bottom_left",
                       "Size": 0,
-                      "Loadout": "BEHR_LaserCannon_S2",
-                      "InstalledItem": {
-                        "UUID": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
-                        "ClassName": "BEHR_LaserCannon_S2",
-                        "Size": 2,
-                        "Grade": 1,
-                        "Type": "WeaponGun.Gun",
-                        "Name": "M4A Cannon",
-                        "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 2\n\nThe M4A is Behring's second tier laser autocannon. Its bigger size means more power consumption in exchange for packing a bigger punch. Fire rate and power efficiency are comparable to the M3A model.",
-                        "Manufacturer": {
-                          "Code": "BEH",
-                          "Name": "Behring"
-                        },
-                        "Tags": [
-                          "BEHR",
-                          "LaserCannon",
-                          "flightReady",
-                          "weaponMountUsable"
-                        ],
-                        "Width": 0.4466009,
-                        "Height": 0.801895,
-                        "Length": 3.316511,
-                        "Volume": 0.252,
-                        "DimensionOverrides": {
-                          "Width": 0.38,
-                          "Height": 0.38,
-                          "Depth": 0.7
-                        },
-                        "Durability": {
-                          "Health": 850.0,
-                          "Lifetime": 20.0
-                        },
-                        "PowerConnection": {
-                          "PowerBase": 230.0,
-                          "PowerDraw": 230.0
-                        },
-                        "HeatConnection": {
-                          "ThermalEnergyBase": 100.0,
-                          "ThermalEnergyDraw": 200.0,
-                          "CoolingRate": 100.95
-                        },
-                        "Weapon": {
-                          "Ammunition": {
-                            "Speed": 700.0,
-                            "Range": 1225.0,
-                            "Size": 2.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 110.0
-                            }
-                          },
-                          "Modes": [
-                            {
-                              "Name": "Single",
-                              "LocalisedName": "[AUTO]",
-                              "RoundsPerMinute": 220.0,
-                              "FireType": "sequence",
-                              "AmmoPerShot": 1.0,
-                              "PelletsPerShot": 1.0,
-                              "DamagePerShot": {
-                                "Energy": 110.0
-                              },
-                              "DamagePerSecond": {
-                                "Energy": 403.3333333333333
-                              }
-                            }
-                          ],
-                          "Consumption": {
-                            "RequestedRegenPerSec": 2016.67,
-                            "Cooldown": 1.0,
-                            "CostPerBullet": 55.0,
-                            "RequestedAmmoLoad": 12100.0
-                          }
-                        },
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 2.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 110.0
-                          }
-                        },
-                        "Ports": [
-                          {
-                            "PortName": "BAR1",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Barrel"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "MEC",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.FiringMechanism"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "POW",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.PowerArray"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "VEN",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Ventilation"
-                            ],
-                            "Category": "Weapon attachments"
-                          }
-                        ]
-                      },
                       "Types": [
                         "Turret.GunTurret",
                         "WeaponGun.Gun"
@@ -1419,124 +1168,6 @@
                     "Port": {
                       "PortName": "hardpoint_weapon_wing_top_right",
                       "Size": 0,
-                      "Loadout": "BEHR_LaserCannon_S2",
-                      "InstalledItem": {
-                        "UUID": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
-                        "ClassName": "BEHR_LaserCannon_S2",
-                        "Size": 2,
-                        "Grade": 1,
-                        "Type": "WeaponGun.Gun",
-                        "Name": "M4A Cannon",
-                        "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 2\n\nThe M4A is Behring's second tier laser autocannon. Its bigger size means more power consumption in exchange for packing a bigger punch. Fire rate and power efficiency are comparable to the M3A model.",
-                        "Manufacturer": {
-                          "Code": "BEH",
-                          "Name": "Behring"
-                        },
-                        "Tags": [
-                          "BEHR",
-                          "LaserCannon",
-                          "flightReady",
-                          "weaponMountUsable"
-                        ],
-                        "Width": 0.4466009,
-                        "Height": 0.801895,
-                        "Length": 3.316511,
-                        "Volume": 0.252,
-                        "DimensionOverrides": {
-                          "Width": 0.38,
-                          "Height": 0.38,
-                          "Depth": 0.7
-                        },
-                        "Durability": {
-                          "Health": 850.0,
-                          "Lifetime": 20.0
-                        },
-                        "PowerConnection": {
-                          "PowerBase": 230.0,
-                          "PowerDraw": 230.0
-                        },
-                        "HeatConnection": {
-                          "ThermalEnergyBase": 100.0,
-                          "ThermalEnergyDraw": 200.0,
-                          "CoolingRate": 100.95
-                        },
-                        "Weapon": {
-                          "Ammunition": {
-                            "Speed": 700.0,
-                            "Range": 1225.0,
-                            "Size": 2.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 110.0
-                            }
-                          },
-                          "Modes": [
-                            {
-                              "Name": "Single",
-                              "LocalisedName": "[AUTO]",
-                              "RoundsPerMinute": 220.0,
-                              "FireType": "sequence",
-                              "AmmoPerShot": 1.0,
-                              "PelletsPerShot": 1.0,
-                              "DamagePerShot": {
-                                "Energy": 110.0
-                              },
-                              "DamagePerSecond": {
-                                "Energy": 403.3333333333333
-                              }
-                            }
-                          ],
-                          "Consumption": {
-                            "RequestedRegenPerSec": 2016.67,
-                            "Cooldown": 1.0,
-                            "CostPerBullet": 55.0,
-                            "RequestedAmmoLoad": 12100.0
-                          }
-                        },
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 2.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 110.0
-                          }
-                        },
-                        "Ports": [
-                          {
-                            "PortName": "BAR1",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Barrel"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "MEC",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.FiringMechanism"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "POW",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.PowerArray"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "VEN",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Ventilation"
-                            ],
-                            "Category": "Weapon attachments"
-                          }
-                        ]
-                      },
                       "Types": [
                         "Turret.GunTurret",
                         "WeaponGun.Gun"
@@ -1549,124 +1180,6 @@
                     "Port": {
                       "PortName": "hardpoint_weapon_wing_bottom_right",
                       "Size": 0,
-                      "Loadout": "BEHR_LaserCannon_S2",
-                      "InstalledItem": {
-                        "UUID": "2756f5f1-ef1e-454a-a171-9a5bd40e3a9d",
-                        "ClassName": "BEHR_LaserCannon_S2",
-                        "Size": 2,
-                        "Grade": 1,
-                        "Type": "WeaponGun.Gun",
-                        "Name": "M4A Cannon",
-                        "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 2\n\nThe M4A is Behring's second tier laser autocannon. Its bigger size means more power consumption in exchange for packing a bigger punch. Fire rate and power efficiency are comparable to the M3A model.",
-                        "Manufacturer": {
-                          "Code": "BEH",
-                          "Name": "Behring"
-                        },
-                        "Tags": [
-                          "BEHR",
-                          "LaserCannon",
-                          "flightReady",
-                          "weaponMountUsable"
-                        ],
-                        "Width": 0.4466009,
-                        "Height": 0.801895,
-                        "Length": 3.316511,
-                        "Volume": 0.252,
-                        "DimensionOverrides": {
-                          "Width": 0.38,
-                          "Height": 0.38,
-                          "Depth": 0.7
-                        },
-                        "Durability": {
-                          "Health": 850.0,
-                          "Lifetime": 20.0
-                        },
-                        "PowerConnection": {
-                          "PowerBase": 230.0,
-                          "PowerDraw": 230.0
-                        },
-                        "HeatConnection": {
-                          "ThermalEnergyBase": 100.0,
-                          "ThermalEnergyDraw": 200.0,
-                          "CoolingRate": 100.95
-                        },
-                        "Weapon": {
-                          "Ammunition": {
-                            "Speed": 700.0,
-                            "Range": 1225.0,
-                            "Size": 2.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 110.0
-                            }
-                          },
-                          "Modes": [
-                            {
-                              "Name": "Single",
-                              "LocalisedName": "[AUTO]",
-                              "RoundsPerMinute": 220.0,
-                              "FireType": "sequence",
-                              "AmmoPerShot": 1.0,
-                              "PelletsPerShot": 1.0,
-                              "DamagePerShot": {
-                                "Energy": 110.0
-                              },
-                              "DamagePerSecond": {
-                                "Energy": 403.3333333333333
-                              }
-                            }
-                          ],
-                          "Consumption": {
-                            "RequestedRegenPerSec": 2016.67,
-                            "Cooldown": 1.0,
-                            "CostPerBullet": 55.0,
-                            "RequestedAmmoLoad": 12100.0
-                          }
-                        },
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 2.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 110.0
-                          }
-                        },
-                        "Ports": [
-                          {
-                            "PortName": "BAR1",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Barrel"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "MEC",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.FiringMechanism"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "POW",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.PowerArray"
-                            ],
-                            "Category": "Weapon attachments"
-                          },
-                          {
-                            "PortName": "VEN",
-                            "Size": 2,
-                            "Types": [
-                              "WeaponAttachment.Ventilation"
-                            ],
-                            "Category": "Weapon attachments"
-                          }
-                        ]
-                      },
                       "Types": [
                         "Turret.GunTurret",
                         "WeaponGun.Gun"
@@ -1699,10 +1212,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1114319.0,
+                      "ThrustCapacity": 1450000.0,
                       "FuelRate": 6.55375E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 7.30296814625
+                      "MaxThrustFuelRate": 9.5029375
                     },
                     "Durability": {
                       "Health": 6780.0,
@@ -1751,10 +1264,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3256278.0,
+                      "ThrustCapacity": 4100000.0,
                       "FuelRate": 6.55375E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 21.3408319425
+                      "MaxThrustFuelRate": 26.870375
                     },
                     "Durability": {
                       "Health": 7500.0,
@@ -1804,10 +1317,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 904066.5,
+                      "ThrustCapacity": 5100000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 2.8252078125
+                      "MaxThrustFuelRate": 15.9375
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -1859,10 +1372,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 889769.1,
+                      "ThrustCapacity": 1060000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 2.7805284375
+                      "MaxThrustFuelRate": 3.3125
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -1905,196 +1418,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_nose_right",
               "Size": 0,
-              "Loadout": "JOKR_DistortionCannon_S1",
-              "InstalledItem": {
-                "UUID": "d195eb47-24b8-45c0-a4d0-1771d60dc1a8",
-                "ClassName": "JOKR_DistortionCannon_S1",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "Suckerpunch Cannon",
-                "Description": "Manufacturer: Joker Engineering\nItem Type: Distortion Cannon\nSize: 1\n\nThe geniuses over at Joker have done it again. The Suckerpunch Distortion autocannon is a long-range weapon that drains your target's power supply rather than damaging the physical body of the ship, making it ideal for law-enforcement or other applications.",
-                "Manufacturer": {
-                  "Code": "JOK",
-                  "Name": "Joker Engineering"
-                },
-                "Tags": [
-                  "JOKR",
-                  "DistortionCannon",
-                  "flightReady",
-                  "weaponMountUsable"
-                ],
-                "Width": 0.4466009,
-                "Height": 1.105504,
-                "Length": 0.801895,
-                "Volume": 0.08399999999999999,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 550.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 220.0,
-                  "PowerDraw": 220.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 58.57
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 700.0,
-                    "Range": 1225.0,
-                    "Size": 1.0,
-                    "Capacity": 0.0,
-                    "ImpactDamage": {
-                      "Energy": 0.0001
-                    },
-                    "DetonationDamage": {
-                      "Distortion": 120.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[AUTO]",
-                      "RoundsPerMinute": 93.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Energy": 0.0001,
-                        "Distortion": 120.0
-                      },
-                      "DamagePerSecond": {
-                        "Energy": 0.000155,
-                        "Distortion": 186.0
-                      }
-                    }
-                  ],
-                  "Consumption": {
-                    "RequestedRegenPerSec": 930.0,
-                    "Cooldown": 0.75,
-                    "CostPerBullet": 60.0,
-                    "RequestedAmmoLoad": 5580.0
-                  }
-                },
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 1225.0,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 120.0
-                  }
-                },
-                "Ports": [
-                  {
-                    "PortName": "BAR1",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_Barrel_S1",
-                    "InstalledItem": {
-                      "UUID": "7f31d915-b0f2-4237-b2bd-13091b0fbf23",
-                      "ClassName": "JOKR_DistortionCannon_Barrel_S1",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.Barrel",
-                      "Name": "JOKR_DistortionCannon_Barrel_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.Barrel"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "MEC",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_FiringMechanism_S1",
-                    "InstalledItem": {
-                      "UUID": "08ee6c17-ad99-43f4-ba80-4089f40601ca",
-                      "ClassName": "JOKR_DistortionCannon_FiringMechanism_S1",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.FiringMechanism",
-                      "Name": "JOKR_DistortionCannon_FiringMechanism_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.FiringMechanism"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "POW",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_PowerArray_S1",
-                    "InstalledItem": {
-                      "UUID": "59f24a20-d9cf-4615-b0d2-2cb9c26fe08b",
-                      "ClassName": "JOKR_DistortionCannon_PowerArray_S1",
-                      "Size": 3,
-                      "Grade": 3,
-                      "Type": "WeaponAttachment.PowerArray",
-                      "Name": "JOKR_DistortionCannon_PowerArray_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.PowerArray"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "VEN",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_Ventilation_S1",
-                    "InstalledItem": {
-                      "UUID": "6c06d2b8-58e1-49b2-8a99-59a37f4fbb15",
-                      "ClassName": "JOKR_DistortionCannon_Ventilation_S1",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.Ventilation",
-                      "Name": "JOKR_DistortionCannon_Ventilation_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.Ventilation"
-                    ],
-                    "Category": "Weapon attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.GunTurret",
                 "WeaponGun.Gun"
@@ -2107,196 +1430,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_nose_left",
               "Size": 0,
-              "Loadout": "JOKR_DistortionCannon_S1",
-              "InstalledItem": {
-                "UUID": "d195eb47-24b8-45c0-a4d0-1771d60dc1a8",
-                "ClassName": "JOKR_DistortionCannon_S1",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "Suckerpunch Cannon",
-                "Description": "Manufacturer: Joker Engineering\nItem Type: Distortion Cannon\nSize: 1\n\nThe geniuses over at Joker have done it again. The Suckerpunch Distortion autocannon is a long-range weapon that drains your target's power supply rather than damaging the physical body of the ship, making it ideal for law-enforcement or other applications.",
-                "Manufacturer": {
-                  "Code": "JOK",
-                  "Name": "Joker Engineering"
-                },
-                "Tags": [
-                  "JOKR",
-                  "DistortionCannon",
-                  "flightReady",
-                  "weaponMountUsable"
-                ],
-                "Width": 0.4466009,
-                "Height": 1.105504,
-                "Length": 0.801895,
-                "Volume": 0.08399999999999999,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.7
-                },
-                "Durability": {
-                  "Health": 550.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 220.0,
-                  "PowerDraw": 220.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 58.57
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 700.0,
-                    "Range": 1225.0,
-                    "Size": 1.0,
-                    "Capacity": 0.0,
-                    "ImpactDamage": {
-                      "Energy": 0.0001
-                    },
-                    "DetonationDamage": {
-                      "Distortion": 120.0
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Single",
-                      "LocalisedName": "[AUTO]",
-                      "RoundsPerMinute": 93.0,
-                      "FireType": "sequence",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Energy": 0.0001,
-                        "Distortion": 120.0
-                      },
-                      "DamagePerSecond": {
-                        "Energy": 0.000155,
-                        "Distortion": 186.0
-                      }
-                    }
-                  ],
-                  "Consumption": {
-                    "RequestedRegenPerSec": 930.0,
-                    "Cooldown": 0.75,
-                    "CostPerBullet": 60.0,
-                    "RequestedAmmoLoad": 5580.0
-                  }
-                },
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 1225.0,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 0.0001
-                  },
-                  "DetonationDamage": {
-                    "Distortion": 120.0
-                  }
-                },
-                "Ports": [
-                  {
-                    "PortName": "BAR1",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_Barrel_S1",
-                    "InstalledItem": {
-                      "UUID": "7f31d915-b0f2-4237-b2bd-13091b0fbf23",
-                      "ClassName": "JOKR_DistortionCannon_Barrel_S1",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.Barrel",
-                      "Name": "JOKR_DistortionCannon_Barrel_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.Barrel"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "MEC",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_FiringMechanism_S1",
-                    "InstalledItem": {
-                      "UUID": "08ee6c17-ad99-43f4-ba80-4089f40601ca",
-                      "ClassName": "JOKR_DistortionCannon_FiringMechanism_S1",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.FiringMechanism",
-                      "Name": "JOKR_DistortionCannon_FiringMechanism_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.FiringMechanism"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "POW",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_PowerArray_S1",
-                    "InstalledItem": {
-                      "UUID": "59f24a20-d9cf-4615-b0d2-2cb9c26fe08b",
-                      "ClassName": "JOKR_DistortionCannon_PowerArray_S1",
-                      "Size": 3,
-                      "Grade": 3,
-                      "Type": "WeaponAttachment.PowerArray",
-                      "Name": "JOKR_DistortionCannon_PowerArray_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.PowerArray"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "VEN",
-                    "Size": 1,
-                    "Loadout": "JOKR_DistortionCannon_Ventilation_S1",
-                    "InstalledItem": {
-                      "UUID": "6c06d2b8-58e1-49b2-8a99-59a37f4fbb15",
-                      "ClassName": "JOKR_DistortionCannon_Ventilation_S1",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.Ventilation",
-                      "Name": "JOKR_DistortionCannon_Ventilation_S1",
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "WeaponAttachment.Ventilation"
-                    ],
-                    "Category": "Weapon attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.GunTurret",
                 "WeaponGun.Gun"
@@ -2353,12 +1486,12 @@
             }
           }
         ],
-        "ShipDestructionDamage": 1500.0,
-        "PartDetachDamage": 1500.0
+        "ShipDestructionDamage": 2000.0,
+        "PartDetachDamage": 2000.0
       },
       {
         "Name": "body",
-        "MaximumDamage": 1500.0,
+        "MaximumDamage": 2000.0,
         "Parts": [
           {
             "Name": "hardpoint_mav_thruster_body_right",
@@ -2382,10 +1515,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 889769.1,
+                  "ThrustCapacity": 1060000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 2.7805284375
+                  "MaxThrustFuelRate": 3.3125
                 },
                 "Durability": {
                   "Health": 6000.0,
@@ -2436,10 +1569,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 889769.1,
+                  "ThrustCapacity": 1060000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 2.7805284375
+                  "MaxThrustFuelRate": 3.3125
                 },
                 "Durability": {
                   "Health": 6000.0,
@@ -2490,10 +1623,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 889769.1,
+                  "ThrustCapacity": 1060000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 2.7805284375
+                  "MaxThrustFuelRate": 3.3125
                 },
                 "Durability": {
                   "Health": 6000.0,
@@ -2557,14 +1690,14 @@
                     "Cooldown": 12.0,
                     "Stage1AccelerationRate": 810000.0,
                     "State2AccelerationRate": 2731149.0,
-                    "SpoolUpTime": 5.5
+                    "SpoolUpTime": 2.0
                   },
                   "SplineJump": {
                     "Speed": 500000.0,
                     "Cooldown": 10.0,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 5.0
+                    "SpoolUpTime": 2.0
                   }
                 },
                 "Durability": {
@@ -2588,7 +1721,8 @@
                       "JumpDrive.JumpDrive"
                     ],
                     "Flags": [
-                      "uneditable"
+                      "uneditable",
+                      "invisible"
                     ],
                     "Category": "UNKNOWN",
                     "Uneditable": true
@@ -2625,7 +1759,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "QuantumFuelTank": {
-                  "Capacity": 583.33
+                  "Capacity": 612.4965
                 }
               },
               "Types": [
@@ -2661,6 +1795,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -2717,6 +1852,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "RSI Self Destruct",
+                "Description": "RSI Self Destruct",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -2771,7 +1907,7 @@
                   "Rate": 260000.0
                 },
                 "Durability": {
-                  "Health": 1500.0,
+                  "Health": 162.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -2824,7 +1960,7 @@
                   "Rate": 260000.0
                 },
                 "Durability": {
-                  "Health": 1500.0,
+                  "Health": 162.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -2873,7 +2009,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "ANVL_Hawk_SeatAccess",
+                "Name": "Access",
                 "Manufacturer": {
                   "Code": "ANVL",
                   "Name": "Anvil Aerospace"
@@ -2883,7 +2019,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "InventoryContainer": {
-                  "SCU": 0.25,
+                  "SCU": 0.65,
                   "x": 2.0,
                   "y": 2.0,
                   "z": 2.0,
@@ -3004,10 +2140,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 904066.5,
+                      "ThrustCapacity": 5100000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 2.8252078125
+                      "MaxThrustFuelRate": 15.9375
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -3072,11 +2208,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                        "Type": "AmmoParams",
                         "Speed": 65.0,
                         "Range": 520.0,
                         "Size": 0.0,
                         "Capacity": 48.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -3092,11 +2236,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                      "Type": "AmmoParams",
                       "Speed": 65.0,
                       "Range": 520.0,
                       "Size": 0.0,
                       "Capacity": 48.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -3146,11 +2298,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                        "Type": "AmmoParams",
                         "Speed": 180.0,
                         "Range": 144.0,
                         "Size": 0.0,
                         "Capacity": 5.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -3166,11 +2326,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                      "Type": "AmmoParams",
                       "Speed": 180.0,
                       "Range": 144.0,
                       "Size": 0.0,
                       "Capacity": 5.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -3206,10 +2374,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 904066.5,
+                      "ThrustCapacity": 5100000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 2.8252078125
+                      "MaxThrustFuelRate": 15.9375
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -3260,10 +2428,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 904066.5,
+                      "ThrustCapacity": 5100000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 2.8252078125
+                      "MaxThrustFuelRate": 15.9375
                     },
                     "Durability": {
                       "Health": 6000.0,
@@ -3334,7 +2502,7 @@
                       "Output": 4000.0
                     },
                     "Durability": {
-                      "Health": 1500.0,
+                      "Health": 270.0,
                       "Lifetime": 22.0
                     },
                     "PowerConnection": {
@@ -3406,7 +2574,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_ANVL_Hawk_Bounty_Pod",
+                    "Name": "Door Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -3525,7 +2693,7 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "ControlPanel.DoorPart",
-                          "Name": "ControlPanel_Screen_DoorControl_Physical_Hawk",
+                          "Name": "Door Control",
                           "Width": 0.15,
                           "Height": 0.15,
                           "Length": 0.15,
@@ -3598,8 +2766,8 @@
             "Name": "tail_connection"
           }
         ],
-        "ShipDestructionDamage": 1500.0,
-        "PartDetachDamage": 1500.0
+        "ShipDestructionDamage": 2000.0,
+        "PartDetachDamage": 2000.0
       }
     ]
   }

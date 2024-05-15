@@ -119,8 +119,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 9000.0,
-                  "Regeneration": 500.0,
+                  "Health": 6000.0,
+                  "Regeneration": 400.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -198,8 +198,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 9000.0,
-                  "Regeneration": 500.0,
+                  "Health": 6000.0,
+                  "Regeneration": 400.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -275,10 +275,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1632208.0,
+                      "ThrustCapacity": 2217000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.10065
+                      "MaxThrustFuelRate": 6.9281250000000005
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -328,10 +328,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1632208.0,
+                      "ThrustCapacity": 2217000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.10065
+                      "MaxThrustFuelRate": 6.9281250000000005
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -396,10 +396,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1632208.0,
+                      "ThrustCapacity": 2217000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.10065
+                      "MaxThrustFuelRate": 6.9281250000000005
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -447,10 +447,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1632208.0,
+                      "ThrustCapacity": 2217000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 5.10065
+                      "MaxThrustFuelRate": 6.9281250000000005
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -514,14 +514,14 @@
                     "Cooldown": 21.6,
                     "Stage1AccelerationRate": 1080000.0,
                     "State2AccelerationRate": 13867670.0,
-                    "SpoolUpTime": 2.25
+                    "SpoolUpTime": 5.0
                   },
                   "SplineJump": {
                     "Speed": 400000.0,
                     "Cooldown": 21.6,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 2.25
+                    "SpoolUpTime": 5.0
                   }
                 },
                 "Durability": {
@@ -536,7 +536,22 @@
                   "ThermalEnergyBase": 110136.0,
                   "ThermalEnergyDraw": 110136.0,
                   "CoolingRate": 181.3015
-                }
+                },
+                "Ports": [
+                  {
+                    "PortName": "hardpoint_Jump_Drive",
+                    "Size": 2,
+                    "Types": [
+                      "JumpDrive.JumpDrive"
+                    ],
+                    "Flags": [
+                      "uneditable",
+                      "invisible"
+                    ],
+                    "Category": "UNKNOWN",
+                    "Uneditable": true
+                  }
+                ]
               },
               "Types": [
                 "QuantumDrive.QDrive"
@@ -549,210 +564,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_s7",
               "Size": 0,
-              "Loadout": "BEHR_BallisticGatling_S7",
-              "InstalledItem": {
-                "UUID": "51264411-1e57-48b9-b1d8-6fab4fb3a687",
-                "ClassName": "BEHR_BallisticGatling_S7",
-                "Size": 7,
-                "Grade": 1,
-                "Type": "WeaponGun.Gun",
-                "Name": "SF7B Gatling",
-                "Description": "Manufacturer: Behring\nItem Type: Ballistic Gatling\nSize: 7\n\nSlug it out with large spacecraft and swiftly shred smaller ships with the SF7B ballistic Gatling. Built specifically for the Ares Inferno Star Fighter, the weapon seamlessly integrates into the body of the ship. The weapon's impressive rate of fire unleashes high-density rounds that tear through armor and shields, making it a perfect choice for situations where target saturation is key.",
-                "Manufacturer": {
-                  "Code": "BEH",
-                  "Name": "Behring"
-                },
-                "Tags": [
-                  "BEHR",
-                  "BallisticGatling",
-                  "flightReady",
-                  "weaponMountUsable"
-                ],
-                "Width": 1.786404,
-                "Height": 2.806632,
-                "Length": 13.26605,
-                "Volume": 14.2,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 1.5
-                },
-                "Durability": {
-                  "Health": 6750.0,
-                  "Lifetime": 20.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 100.0,
-                  "PowerDraw": 120.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 100.0,
-                  "ThermalEnergyDraw": 200.0,
-                  "CoolingRate": 600.0
-                },
-                "Weapon": {
-                  "Ammunition": {
-                    "Speed": 700.0,
-                    "Range": 2800.0,
-                    "Size": 7.0,
-                    "Capacity": 3800.0,
-                    "ImpactDamage": {
-                      "Physical": 218.75
-                    }
-                  },
-                  "Modes": [
-                    {
-                      "Name": "Rapid",
-                      "LocalisedName": "[AUTO]",
-                      "RoundsPerMinute": 1300.0,
-                      "FireType": "rapid",
-                      "AmmoPerShot": 1.0,
-                      "PelletsPerShot": 1.0,
-                      "DamagePerShot": {
-                        "Physical": 218.75
-                      },
-                      "DamagePerSecond": {
-                        "Physical": 4739.583333333334
-                      }
-                    }
-                  ]
-                },
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 2800.0,
-                  "Size": 7.0,
-                  "Capacity": 3800.0,
-                  "ImpactDamage": {
-                    "Physical": 218.75
-                  }
-                },
-                "Ports": [
-                  {
-                    "PortName": "BAR1",
-                    "Size": 4,
-                    "Loadout": "BEHR_BallisticGatling_Barrel_S7",
-                    "InstalledItem": {
-                      "UUID": "d38823dd-9f28-40a1-a40b-9d10e9aec835",
-                      "ClassName": "BEHR_BallisticGatling_Barrel_S7",
-                      "Size": 7,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.Barrel",
-                      "Name": "BEHR_BallisticGatling_Barrel_S7",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06,
-                      "Durability": {
-                        "Health": 1.0
-                      }
-                    },
-                    "Types": [
-                      "WeaponAttachment.Barrel"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "MEC",
-                    "Size": 7,
-                    "Loadout": "BEHR_BallisticGatling_FiringMechanism_S7",
-                    "InstalledItem": {
-                      "UUID": "e13cb553-bf8f-4570-bf91-d8a3991e26c2",
-                      "ClassName": "BEHR_BallisticGatling_FiringMechanism_S7",
-                      "Size": 7,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.FiringMechanism",
-                      "Name": "BEHR_BallisticGatling_FiringMechanism_S7",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06,
-                      "Durability": {
-                        "Health": 1.0
-                      }
-                    },
-                    "Types": [
-                      "WeaponAttachment.FiringMechanism"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "POW",
-                    "Size": 7,
-                    "Loadout": "BEHR_BallisticGatling_PowerArray_S7",
-                    "InstalledItem": {
-                      "UUID": "e6beaa69-902c-4ffb-bed8-3e0ef5a0271d",
-                      "ClassName": "BEHR_BallisticGatling_PowerArray_S7",
-                      "Size": 7,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.PowerArray",
-                      "Name": "BEHR_BallisticGatling_PowerArray_S7",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06,
-                      "Durability": {
-                        "Health": 1.0
-                      }
-                    },
-                    "Types": [
-                      "WeaponAttachment.PowerArray"
-                    ],
-                    "Category": "Weapon attachments"
-                  },
-                  {
-                    "PortName": "VEN",
-                    "Size": 7,
-                    "Loadout": "BEHR_BallisticGatling_Ventilation_S7",
-                    "InstalledItem": {
-                      "UUID": "9c845c8e-b1c7-40a7-ba3b-d1a5f916fdd6",
-                      "ClassName": "BEHR_BallisticGatling_Ventilation_S7",
-                      "Size": 7,
-                      "Grade": 1,
-                      "Type": "WeaponAttachment.Ventilation",
-                      "Name": "BEHR_BallisticGatling_Ventilation_S7",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "uneditable"
-                      ],
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06,
-                      "Durability": {
-                        "Health": 1.0
-                      }
-                    },
-                    "Types": [
-                      "WeaponAttachment.Ventilation"
-                    ],
-                    "Category": "Weapon attachments"
-                  }
-                ]
-              },
               "Types": [
                 "WeaponGun.Gun"
               ],
@@ -802,24 +613,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_HeavyFighter",
-              "InstalledItem": {
-                "UUID": "9427bda1-a163-4655-98a9-32f30de74d4e",
-                "ClassName": "WeaponRegenPool_Crew_HeavyFighter",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_HeavyFighter",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 10000,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -853,10 +646,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -904,10 +697,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -955,10 +748,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1006,10 +799,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1057,10 +850,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1108,10 +901,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1159,10 +952,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1201,6 +994,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "RSI Self Destruct",
+                "Description": "RSI Self Destruct",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -1236,7 +1030,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "CRUS_Starfighter_SCItem_SeatAccess",
+                "Name": "Access",
                 "Manufacturer": {
                   "Code": "CRUS",
                   "Name": "Crusader Industries"
@@ -1246,10 +1040,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "InventoryContainer": {
-                  "SCU": 1.0,
-                  "x": 5.0,
-                  "y": 5.0,
-                  "z": 5.0,
+                  "SCU": 0.86,
+                  "x": 2.0,
+                  "y": 2.0,
+                  "z": 2.0,
                   "unit": 0.0
                 }
               },
@@ -1329,10 +1123,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 4646127.0,
+                  "ThrustCapacity": 5800000.0,
                   "FuelRate": 7.04375E-06,
                   "Type": "Retro",
-                  "MaxThrustFuelRate": 32.72615705625
+                  "MaxThrustFuelRate": 40.85375
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1383,10 +1177,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 4646127.0,
+                  "ThrustCapacity": 5800000.0,
                   "FuelRate": 7.04375E-06,
                   "Type": "Retro",
-                  "MaxThrustFuelRate": 32.72615705625
+                  "MaxThrustFuelRate": 40.85375
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -2571,7 +2365,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Weapon_Rack_CRUS_Starfighter",
+                "Name": "Weapon Rack",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -2885,6 +2679,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Gladius - Decoy Launcher",
+                "Description": "Aegis Gladius - Decoy Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2907,11 +2702,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                    "Type": "AmmoParams",
                     "Speed": 65.0,
                     "Range": 520.0,
                     "Size": 0.0,
                     "Capacity": 48.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2927,11 +2730,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                  "Type": "AmmoParams",
                   "Speed": 65.0,
                   "Range": 520.0,
                   "Size": 0.0,
                   "Capacity": 48.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2958,6 +2769,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon - Noise Launcher",
+                "Description": "Joker Defcon - Noise Launcher",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -2980,11 +2792,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 5.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -3000,11 +2820,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 5.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -3101,20 +2929,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1120.0,
-                  "ScmSpeed": 170.0,
-                  "Pitch": 30.0,
-                  "Yaw": 30.0,
-                  "Roll": 115.0,
+                  "MaxSpeed": 1100.0,
+                  "ScmSpeed": 210.0,
+                  "Pitch": 43.0,
+                  "Yaw": 38.0,
+                  "Roll": 120.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 1800.0,
-                    "CapacitorAfterburnerIdleCost": 20.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.1,
-                    "CapacitorRegenDelayAfterUse": 2.0,
-                    "CapacitorRegenPerSec": 100.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 0.7,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -3303,6 +3131,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -3431,10 +3260,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 1632208.0,
+                  "ThrustCapacity": 2217000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 5.10065
+                  "MaxThrustFuelRate": 6.9281250000000005
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -3571,10 +3400,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 14183790.0,
-                      "FuelRate": 1.25E-05,
+                      "ThrustCapacity": 14910000.0,
+                      "FuelRate": 7.04375E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 177.29737500000002
+                      "MaxThrustFuelRate": 105.0223125
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -3764,10 +3593,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 14183790.0,
+                      "ThrustCapacity": 14910000.0,
                       "FuelRate": 7.04375E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 99.9070708125
+                      "MaxThrustFuelRate": 105.0223125
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -3892,6 +3721,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.5,

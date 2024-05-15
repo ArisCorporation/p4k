@@ -18,16 +18,25 @@
         "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
       },
       {
+        "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+      },
+      {
         "value": "ef734509-be28-47c9-87df-2775db104d38"
       },
       {
         "value": "7eba1c36-a94a-45ef-bb21-15168cdb8f2a"
       },
       {
+        "value": "503443c0-b6d1-4539-b493-688117334ff1"
+      },
+      {
         "value": "158e870d-6de2-4f6e-9e70-094cbe2b53c1"
       },
       {
         "value": "dfe438a4-43d9-44c9-9780-b18b4e1d0521"
+      },
+      {
+        "value": "0c4a0821-5d30-4ea0-896d-10b6c667f42d"
       }
     ],
     "Components": {
@@ -39,7 +48,7 @@
         "dogfightEnabled": 1,
         "unmovable": 0,
         "isGravlevVehicle": false,
-        "incomingDamageModifierToAI": 1.0,
+        "incomingDamageModifierToAI": 0.0,
         "emergencyStatusDamageThreshold": 0.1,
         "crewSize": 1,
         "vehicleName": "@vehicle_NameANVL_Valkyrie",
@@ -48,7 +57,7 @@
         "vehicleCareerRef": "2bf4345e-cf3c-4ecb-91ce-f9daa8ff47f8",
         "vehicleRole": "@vehicle_class_dropship",
         "vehicleRoleRef": "6bb18c06-2cb7-46a2-a9b0-46ba37604073",
-        "inventoryContainerParams": "4b2dbad4-ca1c-4016-9d1c-7850f565a160",
+        "inventoryContainerParams": "571752ce-d873-463c-bb64-bb64f98ee582",
         "maxBoundingBoxSize": {
           "x": 38.0,
           "y": 48.0,
@@ -271,7 +280,7 @@
               },
               {
                 "itemPortName": "hardpoint_thruster_side_front_left",
-                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint",
+                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint_Side",
                 "loadout": {}
               },
               {
@@ -286,7 +295,7 @@
               },
               {
                 "itemPortName": "hardpoint_thruster_side_front_right",
-                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint",
+                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint_Side",
                 "loadout": {}
               },
               {
@@ -301,7 +310,7 @@
               },
               {
                 "itemPortName": "hardpoint_thruster_side_rear_left",
-                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint",
+                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint_Side",
                 "loadout": {}
               },
               {
@@ -316,7 +325,7 @@
               },
               {
                 "itemPortName": "hardpoint_thruster_side_rear_right",
-                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint",
+                "entityClassName": "ANVL_Valkyrie_Thruster_Mav_Joint_Side",
                 "loadout": {}
               },
               {
@@ -366,18 +375,18 @@
               },
               {
                 "itemPortName": "hardpoint_turret_pilot",
-                "entityClassName": "ANVL_Valkyrie_Nose_Turret",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "hardpoint_left",
-                        "entityClassName": "KLWE_LaserRepeater_S2",
+                        "entityClassName": "",
                         "loadout": {}
                       },
                       {
                         "itemPortName": "hardpoint_right",
-                        "entityClassName": "KLWE_LaserRepeater_S2",
+                        "entityClassName": "",
                         "loadout": {}
                       }
                     ]
@@ -386,14 +395,24 @@
               },
               {
                 "itemPortName": "hardpoint_weapon_wing_left",
-                "entityClassName": "ANVL_Valkyrie_SCItem_Remote_Turret_Left",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "turret_gun",
-                        "entityClassName": "KLWE_LaserRepeater_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -401,14 +420,24 @@
               },
               {
                 "itemPortName": "hardpoint_weapon_wing_right",
-                "entityClassName": "ANVL_Valkyrie_SCItem_Remote_Turret_Right",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "turret_gun",
-                        "entityClassName": "KLWE_LaserRepeater_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -416,19 +445,39 @@
               },
               {
                 "itemPortName": "hardpoint_turret_top",
-                "entityClassName": "ANVL_Valkyrie_Turret_Top",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "turret_left",
-                        "entityClassName": "KLWE_LaserRepeater_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       },
                       {
                         "itemPortName": "turret_right",
-                        "entityClassName": "KLWE_LaserRepeater_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -446,19 +495,39 @@
               },
               {
                 "itemPortName": "hardpoint_turret_bottom",
-                "entityClassName": "ANVL_Valkyrie_Turret_Bubble",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "hardpoint_weapon_left",
-                        "entityClassName": "KLWE_LaserRepeater_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       },
                       {
                         "itemPortName": "hardpoint_weapon_right",
-                        "entityClassName": "KLWE_LaserRepeater_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -506,14 +575,24 @@
               },
               {
                 "itemPortName": "hardpoint_turret_door_right",
-                "entityClassName": "ANVL_Valkyrie_Turret_Door_Right",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "hardpoint_turret_weapon",
-                        "entityClassName": "GATS_BallisticGatling_S1",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -521,14 +600,24 @@
               },
               {
                 "itemPortName": "hardpoint_turret_door_left",
-                "entityClassName": "ANVL_Valkyrie_Turret_Door_Left",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "hardpoint_turret_weapon",
-                        "entityClassName": "GATS_BallisticGatling_S1",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -2086,6 +2175,10 @@
                           "defaultPriority": "no_control"
                         },
                         {
+                          "itemType": "Turret",
+                          "defaultPriority": "no_control"
+                        },
+                        {
                           "itemType": "WeaponGun",
                           "defaultPriority": "no_control"
                         }
@@ -2307,6 +2400,10 @@
                       "PriorityGroups": [
                         {
                           "itemType": "TurretBase",
+                          "defaultPriority": "no_control"
+                        },
+                        {
+                          "itemType": "Turret",
                           "defaultPriority": "no_control"
                         },
                         {

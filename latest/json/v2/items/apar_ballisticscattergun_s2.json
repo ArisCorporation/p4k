@@ -41,38 +41,64 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 800.0,
-      "Range": 400.0,
+      "UUID": "ca1f431d-cc4d-47d0-a20f-2d2f223e9c88",
+      "Type": "AmmoParams",
+      "Speed": 1000.0,
+      "Range": 2000.0,
       "Size": 1.0,
-      "Capacity": 85.0,
+      "Capacity": 90.0,
       "ImpactDamage": {
-        "Physical": 54.0
-      }
+        "Physical": 70.0
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Single",
         "LocalisedName": "[SEMI]",
-        "RoundsPerMinute": 85.0,
+        "RoundsPerMinute": 60.0,
         "FireType": "single",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 8.0,
         "DamagePerShot": {
-          "Physical": 432.0
+          "Physical": 560.0
         },
         "DamagePerSecond": {
-          "Physical": 612.0
+          "Physical": 560.0
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 800.0,
-    "Range": 400.0,
+    "UUID": "ca1f431d-cc4d-47d0-a20f-2d2f223e9c88",
+    "Type": "AmmoParams",
+    "Speed": 1000.0,
+    "Range": 2000.0,
     "Size": 1.0,
-    "Capacity": 85.0,
+    "Capacity": 90.0,
     "ImpactDamage": {
-      "Physical": 54.0
-    }
+      "Physical": 70.0
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   }
 }

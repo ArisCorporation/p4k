@@ -5,7 +5,7 @@
     "Parts": [
       {
         "Name": "nose",
-        "MaximumDamage": 2500.0,
+        "MaximumDamage": 2000.0,
         "Parts": [
           {
             "Name": "hardpoint_weapon_nose",
@@ -86,8 +86,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 1350.0,
-                  "Regeneration": 340.0,
+                  "Health": 1500.0,
+                  "Regeneration": 100.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -168,8 +168,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 1350.0,
-                  "Regeneration": 340.0,
+                  "Health": 1500.0,
+                  "Regeneration": 100.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -305,6 +305,7 @@
                 "Grade": 1,
                 "Type": "Armor.Medium",
                 "Name": "Mustang Gamma Ship Armor",
+                "Description": "Mustang Gamma Ship Armor",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -316,6 +317,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.47,
@@ -489,24 +493,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_Dogfighter",
-              "InstalledItem": {
-                "UUID": "7cf171a5-8fc4-4562-926f-7b7d26ad2f97",
-                "ClassName": "WeaponRegenPool_Crew_Dogfighter",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_Dogfighter",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 4500,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -584,20 +570,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1341.0,
-                  "ScmSpeed": 241.0,
-                  "Pitch": 54.0,
-                  "Yaw": 54.0,
-                  "Roll": 245.0,
+                  "MaxSpeed": 1200.0,
+                  "ScmSpeed": 225.0,
+                  "Pitch": 47.0,
+                  "Yaw": 52.0,
+                  "Roll": 150.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 1800.0,
-                    "CapacitorAfterburnerIdleCost": 20.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.1,
-                    "CapacitorRegenDelayAfterUse": 2.0,
-                    "CapacitorRegenPerSec": 100.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 0.2,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -932,7 +918,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "CNOU_Mustang_SeatAccess",
+                "Name": "Access",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -942,7 +928,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "InventoryContainer": {
-                  "SCU": 0.25,
+                  "SCU": 0.0,
                   "x": 2.0,
                   "y": 2.0,
                   "z": 2.0,
@@ -975,14 +961,14 @@
             "Port": {
               "PortName": "hardpoint_mav_thruster_front_upper_left",
               "Size": 0,
-              "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+              "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
               "InstalledItem": {
-                "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "UUID": "63c24488-246f-4bdd-ac29-82ec52a9baeb",
+                "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -992,10 +978,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 574838.9,
+                  "ThrustCapacity": 1308743.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 1.7963715625
+                  "MaxThrustFuelRate": 4.089821875
                 },
                 "Durability": {
                   "Health": 8150.0,
@@ -1030,14 +1016,14 @@
             "Port": {
               "PortName": "hardpoint_mav_thruster_front_bottom",
               "Size": 0,
-              "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+              "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
               "InstalledItem": {
-                "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "UUID": "f9e6b97d-4114-42cb-b25f-2d22ff40decc",
+                "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -1047,10 +1033,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 574838.9,
+                  "ThrustCapacity": 226055.6,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 1.7963715625
+                  "MaxThrustFuelRate": 0.70642375
                 },
                 "Durability": {
                   "Health": 8150.0,
@@ -1084,14 +1070,14 @@
             "Port": {
               "PortName": "hardpoint_mav_thruster_front_lower_left",
               "Size": 0,
-              "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+              "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
               "InstalledItem": {
-                "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "UUID": "63c24488-246f-4bdd-ac29-82ec52a9baeb",
+                "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -1101,10 +1087,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 574838.9,
+                  "ThrustCapacity": 1308743.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 1.7963715625
+                  "MaxThrustFuelRate": 4.089821875
                 },
                 "Durability": {
                   "Health": 8150.0,
@@ -1139,14 +1125,14 @@
             "Port": {
               "PortName": "hardpoint_mav_thruster_front_lower_right",
               "Size": 0,
-              "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+              "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
               "InstalledItem": {
-                "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "UUID": "63c24488-246f-4bdd-ac29-82ec52a9baeb",
+                "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -1156,10 +1142,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 574838.9,
+                  "ThrustCapacity": 1308743.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 1.7963715625
+                  "MaxThrustFuelRate": 4.089821875
                 },
                 "Durability": {
                   "Health": 8150.0,
@@ -1194,14 +1180,14 @@
             "Port": {
               "PortName": "hardpoint_mav_thruster_front_upper_right",
               "Size": 0,
-              "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+              "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
               "InstalledItem": {
-                "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "UUID": "63c24488-246f-4bdd-ac29-82ec52a9baeb",
+                "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -1211,10 +1197,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 574838.9,
+                  "ThrustCapacity": 1308743.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 1.7963715625
+                  "MaxThrustFuelRate": 4.089821875
                 },
                 "Durability": {
                   "Health": 8150.0,
@@ -1293,8 +1279,8 @@
             }
           }
         ],
-        "ShipDestructionDamage": 2500.0,
-        "PartDetachDamage": 2500.0
+        "ShipDestructionDamage": 2000.0,
+        "PartDetachDamage": 2000.0
       },
       {
         "Name": "landingpad_helper",
@@ -1330,21 +1316,21 @@
         "Parts": [
           {
             "Name": "nacelle_left",
-            "MaximumDamage": 1200.0,
+            "MaximumDamage": 2000.0,
             "Parts": [
               {
                 "Name": "hardpoint_main_thruster_left",
                 "Port": {
                   "PortName": "hardpoint_main_thruster_left",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Main",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Main",
                   "InstalledItem": {
-                    "UUID": "2fa95b33-a972-45b3-b567-4f567b3cde66",
-                    "ClassName": "CNOU_Mustang_Thruster_Main",
+                    "UUID": "19c8ca9f-9f24-442a-b556-85c9e91258d6",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Main",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Main",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Main",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -1354,10 +1340,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1949095.0,
+                      "ThrustCapacity": 2055498.0,
                       "FuelRate": 9.275E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 18.077856125
+                      "MaxThrustFuelRate": 19.06474395
                     },
                     "Durability": {
                       "Health": 9150.0,
@@ -1390,14 +1376,14 @@
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_rear_left_bottom",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                   "InstalledItem": {
-                    "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                    "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "UUID": "f9e6b97d-4114-42cb-b25f-2d22ff40decc",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -1407,10 +1393,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 574838.9,
+                      "ThrustCapacity": 226055.6,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 1.7963715625
+                      "MaxThrustFuelRate": 0.70642375
                     },
                     "Durability": {
                       "Health": 8150.0,
@@ -1444,14 +1430,14 @@
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_rear_left_top",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                   "InstalledItem": {
-                    "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                    "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "UUID": "3374c895-9116-4d33-8c09-06a5bdb1073c",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -1461,10 +1447,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 574838.9,
+                      "ThrustCapacity": 261748.6,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 1.7963715625
+                      "MaxThrustFuelRate": 0.8179643750000001
                     },
                     "Durability": {
                       "Health": 8150.0,
@@ -1498,14 +1484,14 @@
                 "Port": {
                   "PortName": "hardpoint_retro_thruster_left",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Retro",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Retro",
                   "InstalledItem": {
-                    "UUID": "0cca00a9-487c-4343-a07c-7f8d8128d45f",
-                    "ClassName": "CNOU_Mustang_Thruster_Retro",
+                    "UUID": "1508f2ba-d1e6-4c92-a502-1a22e76b7b46",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Retro",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Retro",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Retro",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -1515,10 +1501,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 728808.7,
+                      "ThrustCapacity": 710815.4,
                       "FuelRate": 9.275E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 6.7597006925
+                      "MaxThrustFuelRate": 6.592812835
                     },
                     "Durability": {
                       "Health": 8900.0,
@@ -1558,174 +1544,6 @@
                         "Port": {
                           "PortName": "hardpoint_weapon_wing_left",
                           "Size": 0,
-                          "Loadout": "Mount_Gimbal_S1",
-                          "InstalledItem": {
-                            "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-                            "ClassName": "Mount_Gimbal_S1",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "Turret.GunTurret",
-                            "Name": "VariPuck S1 Gimbal Mount",
-                            "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-                            "Manufacturer": {
-                              "Code": "FFSY",
-                              "Name": "Flashfire Systems"
-                            },
-                            "Tags": [
-                              "gimbalMount",
-                              "flightReady"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06,
-                            "DimensionOverrides": {
-                              "Width": 0.15,
-                              "Height": 0.15,
-                              "Depth": 0.15
-                            },
-                            "Durability": {
-                              "Health": 100.0,
-                              "Lifetime": 720.0
-                            },
-                            "PowerConnection": {
-                              "PowerBase": 0.0,
-                              "PowerDraw": 10.0
-                            },
-                            "HeatConnection": {
-                              "ThermalEnergyBase": 10.0,
-                              "ThermalEnergyDraw": 20.0,
-                              "CoolingRate": 1.0
-                            },
-                            "Ports": [
-                              {
-                                "PortName": "hardpoint_class_2",
-                                "Size": 1,
-                                "Loadout": "BEHR_LaserCannon_S1",
-                                "InstalledItem": {
-                                  "UUID": "42e2ddb1-7397-4299-88ee-2ddfaa0efc67",
-                                  "ClassName": "BEHR_LaserCannon_S1",
-                                  "Size": 1,
-                                  "Grade": 1,
-                                  "Type": "WeaponGun.Gun",
-                                  "Name": "M3A Cannon",
-                                  "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 1\n\nThe M3A is Behring's entry level laser autocannon. The autocannon configuration offers modest damage per projectile and a fairly low rate of fire. As the most basic offering in Behring's weapons lineup, it features low power consumption, but poor power efficiency. It makes up ground for its shortcomings by being cheap, a feature many pilots are looking for when outfitting their ships on a budget.",
-                                  "Manufacturer": {
-                                    "Code": "BEH",
-                                    "Name": "Behring"
-                                  },
-                                  "Tags": [
-                                    "BEHR",
-                                    "LaserCannon",
-                                    "flightReady",
-                                    "weaponMountUsable"
-                                  ],
-                                  "Width": 0.4466009,
-                                  "Height": 1.105504,
-                                  "Length": 0.801895,
-                                  "Volume": 0.08399999999999999,
-                                  "DimensionOverrides": {
-                                    "Width": 0.38,
-                                    "Height": 0.38,
-                                    "Depth": 0.7
-                                  },
-                                  "Durability": {
-                                    "Health": 550.0,
-                                    "Lifetime": 20.0
-                                  },
-                                  "PowerConnection": {
-                                    "PowerBase": 220.0,
-                                    "PowerDraw": 220.0
-                                  },
-                                  "HeatConnection": {
-                                    "ThermalEnergyBase": 100.0,
-                                    "ThermalEnergyDraw": 200.0,
-                                    "CoolingRate": 61.8181
-                                  },
-                                  "Weapon": {
-                                    "Ammunition": {
-                                      "Speed": 700.0,
-                                      "Range": 1225.0,
-                                      "Size": 1.0,
-                                      "Capacity": 0.0,
-                                      "ImpactDamage": {
-                                        "Energy": 85.0
-                                      }
-                                    },
-                                    "Modes": [
-                                      {
-                                        "Name": "Single",
-                                        "LocalisedName": "[AUTO]",
-                                        "RoundsPerMinute": 240.0,
-                                        "FireType": "sequence",
-                                        "AmmoPerShot": 1.0,
-                                        "PelletsPerShot": 1.0,
-                                        "DamagePerShot": {
-                                          "Energy": 85.0
-                                        },
-                                        "DamagePerSecond": {
-                                          "Energy": 340.0
-                                        }
-                                      }
-                                    ],
-                                    "Consumption": {
-                                      "RequestedRegenPerSec": 1700.0,
-                                      "Cooldown": 0.75,
-                                      "CostPerBullet": 43.0,
-                                      "RequestedAmmoLoad": 10200.0
-                                    }
-                                  },
-                                  "Ammunition": {
-                                    "Speed": 700.0,
-                                    "Range": 1225.0,
-                                    "Size": 1.0,
-                                    "Capacity": 0.0,
-                                    "ImpactDamage": {
-                                      "Energy": 85.0
-                                    }
-                                  },
-                                  "Ports": [
-                                    {
-                                      "PortName": "BAR1",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.Barrel"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    },
-                                    {
-                                      "PortName": "MEC",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.FiringMechanism"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    },
-                                    {
-                                      "PortName": "POW",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.PowerArray"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    },
-                                    {
-                                      "PortName": "VEN",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.Ventilation"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    }
-                                  ]
-                                },
-                                "Types": [
-                                  "WeaponGun.Gun"
-                                ],
-                                "Category": "Weapon hardpoints"
-                              }
-                            ]
-                          },
                           "Types": [
                             "Turret.GunTurret",
                             "WeaponGun.Gun"
@@ -1768,14 +1586,14 @@
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_rear_left_side",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
-                    "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                    "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "UUID": "63c24488-246f-4bdd-ac29-82ec52a9baeb",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -1785,10 +1603,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 574838.9,
+                      "ThrustCapacity": 1308743.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 1.7963715625
+                      "MaxThrustFuelRate": 4.089821875
                     },
                     "Durability": {
                       "Health": 8150.0,
@@ -1818,7 +1636,7 @@
                 }
               }
             ],
-            "PartDetachDamage": 1200.0
+            "PartDetachDamage": 2000.0
           },
           {
             "Name": "hardpoint_cargo_module",
@@ -1943,14 +1761,14 @@
                     "Cooldown": 12.0,
                     "Stage1AccelerationRate": 810000.0,
                     "State2AccelerationRate": 2731149.0,
-                    "SpoolUpTime": 5.5
+                    "SpoolUpTime": 2.0
                   },
                   "SplineJump": {
                     "Speed": 500000.0,
                     "Cooldown": 10.0,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 5.0
+                    "SpoolUpTime": 2.0
                   }
                 },
                 "Durability": {
@@ -1975,7 +1793,8 @@
                       "JumpDrive.JumpDrive"
                     ],
                     "Flags": [
-                      "uneditable"
+                      "uneditable",
+                      "invisible"
                     ],
                     "Category": "UNKNOWN",
                     "Uneditable": true
@@ -2068,6 +1887,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -2124,6 +1944,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "RSI Self Destruct",
+                "Description": "RSI Self Destruct",
                 "Manufacturer": {
                   "Code": "RSI",
                   "Name": "Roberts Space Industries"
@@ -2160,6 +1981,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon - Noise Launcher",
+                "Description": "Joker Defcon - Noise Launcher",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -2182,11 +2004,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 5.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2202,11 +2032,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 5.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2233,6 +2071,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Gladius - Decoy Launcher",
+                "Description": "Aegis Gladius - Decoy Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2255,11 +2094,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                    "Type": "AmmoParams",
                     "Speed": 65.0,
                     "Range": 520.0,
                     "Size": 0.0,
                     "Capacity": 48.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2275,11 +2122,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                  "Type": "AmmoParams",
                   "Speed": 65.0,
                   "Range": 520.0,
                   "Size": 0.0,
                   "Capacity": 48.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2404,14 +2259,14 @@
             "Port": {
               "PortName": "hardpoint_main_thruster_center",
               "Size": 0,
-              "Loadout": "CNOU_Mustang_Thruster_Aux",
+              "Loadout": "CNOU_Mustang_Gamma_Thruster_Aux",
               "InstalledItem": {
-                "UUID": "9973aae2-1e6b-4b61-b072-2681302b11d3",
-                "ClassName": "CNOU_Mustang_Thruster_Aux",
+                "UUID": "5d6f6fd3-edfe-442d-b578-806b2a527ab8",
+                "ClassName": "CNOU_Mustang_Gamma_Thruster_Aux",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "MainThruster.FixedThruster",
-                "Name": "CNOU_Mustang_Thruster_Aux",
+                "Name": "CNOU_Mustang_Gamma_Thruster_Aux",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -2425,10 +2280,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 464991.0,
+                  "ThrustCapacity": 0.0,
                   "FuelRate": 1.25E-05,
                   "Type": "Main",
-                  "MaxThrustFuelRate": 5.812387500000001
+                  "MaxThrustFuelRate": 0.0
                 },
                 "Durability": {
                   "Health": 9150.0,
@@ -2472,14 +2327,14 @@
             "Port": {
               "PortName": "hardpoint_mav_thruster_rear_top",
               "Size": 0,
-              "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+              "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
               "InstalledItem": {
-                "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "UUID": "3374c895-9116-4d33-8c09-06a5bdb1073c",
+                "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.FixedThruster",
-                "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                 "Manufacturer": {
                   "Code": "CNOU",
                   "Name": "Consolidated Outland"
@@ -2489,10 +2344,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 574838.9,
+                  "ThrustCapacity": 261748.6,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 1.7963715625
+                  "MaxThrustFuelRate": 0.8179643750000001
                 },
                 "Durability": {
                   "Health": 8150.0,
@@ -2545,14 +2400,14 @@
                 "Port": {
                   "PortName": "hardpoint_main_thruster_right",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Main",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Main",
                   "InstalledItem": {
-                    "UUID": "2fa95b33-a972-45b3-b567-4f567b3cde66",
-                    "ClassName": "CNOU_Mustang_Thruster_Main",
+                    "UUID": "19c8ca9f-9f24-442a-b556-85c9e91258d6",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Main",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "MainThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Main",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Main",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -2562,10 +2417,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1949095.0,
+                      "ThrustCapacity": 2055498.0,
                       "FuelRate": 9.275E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 18.077856125
+                      "MaxThrustFuelRate": 19.06474395
                     },
                     "Durability": {
                       "Health": 9150.0,
@@ -2598,14 +2453,14 @@
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_rear_right_bottom",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                   "InstalledItem": {
-                    "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                    "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "UUID": "f9e6b97d-4114-42cb-b25f-2d22ff40decc",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Up",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -2615,10 +2470,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 574838.9,
+                      "ThrustCapacity": 226055.6,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 1.7963715625
+                      "MaxThrustFuelRate": 0.70642375
                     },
                     "Durability": {
                       "Health": 8150.0,
@@ -2652,14 +2507,14 @@
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_rear_right_top",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                   "InstalledItem": {
-                    "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                    "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "UUID": "3374c895-9116-4d33-8c09-06a5bdb1073c",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01_Down",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -2669,10 +2524,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 574838.9,
+                      "ThrustCapacity": 261748.6,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 1.7963715625
+                      "MaxThrustFuelRate": 0.8179643750000001
                     },
                     "Durability": {
                       "Health": 8150.0,
@@ -2706,14 +2561,14 @@
                 "Port": {
                   "PortName": "hardpoint_retro_thruster_right",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Retro",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Retro",
                   "InstalledItem": {
-                    "UUID": "0cca00a9-487c-4343-a07c-7f8d8128d45f",
-                    "ClassName": "CNOU_Mustang_Thruster_Retro",
+                    "UUID": "1508f2ba-d1e6-4c92-a502-1a22e76b7b46",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Retro",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Retro",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Retro",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -2723,10 +2578,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 728808.7,
+                      "ThrustCapacity": 710815.4,
                       "FuelRate": 9.275E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 6.7597006925
+                      "MaxThrustFuelRate": 6.592812835
                     },
                     "Durability": {
                       "Health": 8900.0,
@@ -2766,174 +2621,6 @@
                         "Port": {
                           "PortName": "hardpoint_weapon_wing_right",
                           "Size": 0,
-                          "Loadout": "Mount_Gimbal_S1",
-                          "InstalledItem": {
-                            "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-                            "ClassName": "Mount_Gimbal_S1",
-                            "Size": 1,
-                            "Grade": 1,
-                            "Type": "Turret.GunTurret",
-                            "Name": "VariPuck S1 Gimbal Mount",
-                            "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-                            "Manufacturer": {
-                              "Code": "FFSY",
-                              "Name": "Flashfire Systems"
-                            },
-                            "Tags": [
-                              "gimbalMount",
-                              "flightReady"
-                            ],
-                            "Width": 0.15,
-                            "Height": 0.15,
-                            "Length": 0.15,
-                            "Volume": 1E-06,
-                            "DimensionOverrides": {
-                              "Width": 0.15,
-                              "Height": 0.15,
-                              "Depth": 0.15
-                            },
-                            "Durability": {
-                              "Health": 100.0,
-                              "Lifetime": 720.0
-                            },
-                            "PowerConnection": {
-                              "PowerBase": 0.0,
-                              "PowerDraw": 10.0
-                            },
-                            "HeatConnection": {
-                              "ThermalEnergyBase": 10.0,
-                              "ThermalEnergyDraw": 20.0,
-                              "CoolingRate": 1.0
-                            },
-                            "Ports": [
-                              {
-                                "PortName": "hardpoint_class_2",
-                                "Size": 1,
-                                "Loadout": "BEHR_LaserCannon_S1",
-                                "InstalledItem": {
-                                  "UUID": "42e2ddb1-7397-4299-88ee-2ddfaa0efc67",
-                                  "ClassName": "BEHR_LaserCannon_S1",
-                                  "Size": 1,
-                                  "Grade": 1,
-                                  "Type": "WeaponGun.Gun",
-                                  "Name": "M3A Cannon",
-                                  "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 1\n\nThe M3A is Behring's entry level laser autocannon. The autocannon configuration offers modest damage per projectile and a fairly low rate of fire. As the most basic offering in Behring's weapons lineup, it features low power consumption, but poor power efficiency. It makes up ground for its shortcomings by being cheap, a feature many pilots are looking for when outfitting their ships on a budget.",
-                                  "Manufacturer": {
-                                    "Code": "BEH",
-                                    "Name": "Behring"
-                                  },
-                                  "Tags": [
-                                    "BEHR",
-                                    "LaserCannon",
-                                    "flightReady",
-                                    "weaponMountUsable"
-                                  ],
-                                  "Width": 0.4466009,
-                                  "Height": 1.105504,
-                                  "Length": 0.801895,
-                                  "Volume": 0.08399999999999999,
-                                  "DimensionOverrides": {
-                                    "Width": 0.38,
-                                    "Height": 0.38,
-                                    "Depth": 0.7
-                                  },
-                                  "Durability": {
-                                    "Health": 550.0,
-                                    "Lifetime": 20.0
-                                  },
-                                  "PowerConnection": {
-                                    "PowerBase": 220.0,
-                                    "PowerDraw": 220.0
-                                  },
-                                  "HeatConnection": {
-                                    "ThermalEnergyBase": 100.0,
-                                    "ThermalEnergyDraw": 200.0,
-                                    "CoolingRate": 61.8181
-                                  },
-                                  "Weapon": {
-                                    "Ammunition": {
-                                      "Speed": 700.0,
-                                      "Range": 1225.0,
-                                      "Size": 1.0,
-                                      "Capacity": 0.0,
-                                      "ImpactDamage": {
-                                        "Energy": 85.0
-                                      }
-                                    },
-                                    "Modes": [
-                                      {
-                                        "Name": "Single",
-                                        "LocalisedName": "[AUTO]",
-                                        "RoundsPerMinute": 240.0,
-                                        "FireType": "sequence",
-                                        "AmmoPerShot": 1.0,
-                                        "PelletsPerShot": 1.0,
-                                        "DamagePerShot": {
-                                          "Energy": 85.0
-                                        },
-                                        "DamagePerSecond": {
-                                          "Energy": 340.0
-                                        }
-                                      }
-                                    ],
-                                    "Consumption": {
-                                      "RequestedRegenPerSec": 1700.0,
-                                      "Cooldown": 0.75,
-                                      "CostPerBullet": 43.0,
-                                      "RequestedAmmoLoad": 10200.0
-                                    }
-                                  },
-                                  "Ammunition": {
-                                    "Speed": 700.0,
-                                    "Range": 1225.0,
-                                    "Size": 1.0,
-                                    "Capacity": 0.0,
-                                    "ImpactDamage": {
-                                      "Energy": 85.0
-                                    }
-                                  },
-                                  "Ports": [
-                                    {
-                                      "PortName": "BAR1",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.Barrel"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    },
-                                    {
-                                      "PortName": "MEC",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.FiringMechanism"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    },
-                                    {
-                                      "PortName": "POW",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.PowerArray"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    },
-                                    {
-                                      "PortName": "VEN",
-                                      "Size": 1,
-                                      "Types": [
-                                        "WeaponAttachment.Ventilation"
-                                      ],
-                                      "Category": "Weapon attachments"
-                                    }
-                                  ]
-                                },
-                                "Types": [
-                                  "WeaponGun.Gun"
-                                ],
-                                "Category": "Weapon hardpoints"
-                              }
-                            ]
-                          },
                           "Types": [
                             "Turret.GunTurret",
                             "WeaponGun.Gun"
@@ -2976,14 +2663,14 @@
                 "Port": {
                   "PortName": "hardpoint_mav_thruster_rear_right_side",
                   "Size": 0,
-                  "Loadout": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                  "Loadout": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                   "InstalledItem": {
-                    "UUID": "2789551d-aaa0-4e93-9003-832d84a891f6",
-                    "ClassName": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "UUID": "63c24488-246f-4bdd-ac29-82ec52a9baeb",
+                    "ClassName": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                     "Size": 1,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FixedThruster",
-                    "Name": "CNOU_Mustang_Thruster_Mav_Fixed_01",
+                    "Name": "CNOU_Mustang_Gamma_Thruster_Mav_Fixed_01",
                     "Manufacturer": {
                       "Code": "CNOU",
                       "Name": "Consolidated Outland"
@@ -2993,10 +2680,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 574838.9,
+                      "ThrustCapacity": 1308743.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 1.7963715625
+                      "MaxThrustFuelRate": 4.089821875
                     },
                     "Durability": {
                       "Health": 8150.0,

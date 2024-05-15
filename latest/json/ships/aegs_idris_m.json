@@ -19,6 +19,9 @@
           "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
         },
         {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
           "value": "b0f055b9-9586-4d10-82ee-1d822953c956"
         },
         {
@@ -26,6 +29,12 @@
         },
         {
           "value": "e655b1dc-b1fa-4edc-8e7a-d7307807c614"
+        },
+        {
+          "value": "503443c0-b6d1-4539-b493-688117334ff1"
+        },
+        {
+          "value": "091c54fe-8a0f-45bd-af8b-4767e4d08669"
         },
         {
           "value": "55bcb157-1e5c-427e-9a99-76b384d5eead"
@@ -43,7 +52,7 @@
           "dogfightEnabled": 0,
           "unmovable": 0,
           "isGravlevVehicle": false,
-          "incomingDamageModifierToAI": 1.0,
+          "incomingDamageModifierToAI": 0.0,
           "emergencyStatusDamageThreshold": 0.15,
           "crewSize": 1,
           "vehicleName": "@vehicle_NameAEGS_Idris",
@@ -1312,7 +1321,7 @@
                         "minsize": 0,
                         "maxsize": 0,
                         "display_name": "port_NameTurret010",
-                        "flags": "uneditable lower",
+                        "flags": "$uneditable lower",
                         "Types": [
                           {
                             "type": "Turret",
@@ -1475,7 +1484,7 @@
                         "minsize": 0,
                         "maxsize": 0,
                         "display_name": "port_NameTurret09",
-                        "flags": "uneditable lower",
+                        "flags": "$uneditable lower",
                         "Types": [
                           {
                             "type": "Turret",
@@ -2199,7 +2208,7 @@
                     "minsize": 0,
                     "maxsize": 0,
                     "display_name": "port_NameTurret06",
-                    "flags": "uneditable",
+                    "flags": "$uneditable",
                     "Types": [
                       {
                         "type": "TurretBase",
@@ -2318,7 +2327,7 @@
                     "minsize": 0,
                     "maxsize": 0,
                     "display_name": "port_NameTurret05",
-                    "flags": "uneditable",
+                    "flags": "$uneditable",
                     "Types": [
                       {
                         "type": "TurretBase",
@@ -2565,50 +2574,6 @@
                   }
                 },
                 {
-                  "name": "hardpoint_controller_weapon_missiles",
-                  "damagemax": 0.0,
-                  "class": "ItemPort",
-                  "ItemPort": {
-                    "minsize": 0,
-                    "maxsize": 0,
-                    "flags": "invisible uneditable",
-                    "Types": [
-                      {
-                        "type": "WeaponController"
-                      }
-                    ],
-                    "Connections": [
-                      {
-                        "pipeClass": "Power",
-                        "pipe": "MainPower"
-                      },
-                      {
-                        "pipeClass": "Heat",
-                        "pipe": "MainHeat"
-                      }
-                    ],
-                    "ControllerDef": {
-                      "controllableTags": "WeaponsSeat",
-                      "UsableDef": {
-                        "PriorityGroups": [
-                          {
-                            "itemType": "Turret",
-                            "defaultPriority": "no_control"
-                          },
-                          {
-                            "itemType": "WeaponGun",
-                            "defaultPriority": "no_control"
-                          },
-                          {
-                            "itemType": "WeaponDefensive",
-                            "defaultPriority": "no_control"
-                          }
-                        ]
-                      }
-                    }
-                  }
-                },
-                {
                   "name": "hardpoint_landingpad_03",
                   "damagemax": 0.0,
                   "class": "ItemPort",
@@ -2674,6 +2639,10 @@
                           },
                           {
                             "itemType": "Seataccess",
+                            "defaultPriority": "exclusive_control"
+                          },
+                          {
+                            "itemType": "DockingAnimator",
                             "defaultPriority": "exclusive_control"
                           }
                         ]
@@ -2784,7 +2753,7 @@
                         "minsize": 0,
                         "maxsize": 0,
                         "display_name": "port_NameTurret01",
-                        "flags": "uneditable",
+                        "flags": "$uneditable",
                         "Types": [
                           {
                             "type": "TurretBase",
@@ -2959,7 +2928,7 @@
                       "ItemPort": {
                         "minsize": 0,
                         "maxsize": 0,
-                        "flags": "$uneditable",
+                        "flags": "$uneditable dockingport2",
                         "Types": [
                           {
                             "type": "DockingAnimator"
@@ -2969,6 +2938,68 @@
                     },
                     {
                       "name": "hardpoint_door_airlock_front_right",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "flags": "$uneditable dockingport3",
+                        "Types": [
+                          {
+                            "type": "DockingAnimator"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "name": "hardpoint_docking_collar_left",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "display_name": "@dockingcollar_left",
+                        "flags": "$uneditable dockingport2",
+                        "Types": [
+                          {
+                            "type": "DockingCollar"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "name": "hardpoint_docking_collar_right",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "display_name": "@dockingcollar_right",
+                        "flags": "$uneditable dockingport3",
+                        "Types": [
+                          {
+                            "type": "DockingCollar"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "name": "hardpoint_door_airlock_inner_left",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "flags": "$uneditable",
+                        "Types": [
+                          {
+                            "type": "DockingAnimator"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "name": "hardpoint_door_airlock_inner_right",
                       "damagemax": 0.0,
                       "class": "ItemPort",
                       "ItemPort": {
@@ -3301,102 +3332,6 @@
                   "class": "AnimatedJoint",
                   "Parts": [
                     {
-                      "name": "hardpoint_brig_controller_chair",
-                      "damagemax": 0.0,
-                      "class": "ItemPort",
-                      "ItemPort": {
-                        "minsize": 0,
-                        "maxsize": 0,
-                        "flags": "seat uneditable",
-                        "Types": [
-                          {
-                            "type": "Seat"
-                          }
-                        ],
-                        "Connections": [
-                          {
-                            "pipeClass": "Power",
-                            "pipe": "MainPower"
-                          },
-                          {
-                            "pipeClass": "Heat",
-                            "pipe": "MainHeat"
-                          }
-                        ],
-                        "ControllerDef": {
-                          "controllableTags": "SecurityRoomSeat",
-                          "UsableDef": {
-                            "PriorityGroups": [
-                              {
-                                "itemType": "LightController"
-                              },
-                              {
-                                "itemType": "SeatDashboard",
-                                "defaultPriority": "no_control"
-                              },
-                              {
-                                "itemType": "Seat",
-                                "defaultPriority": "no_control"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    },
-                    {
-                      "name": "hardpoint_seat_access_brig",
-                      "damagemax": 0.0,
-                      "class": "ItemPort",
-                      "ItemPort": {
-                        "minsize": 0,
-                        "maxsize": 0,
-                        "flags": "",
-                        "Types": [
-                          {
-                            "type": "SeatAccess"
-                          }
-                        ],
-                        "Connections": [
-                          {
-                            "pipeClass": "Power",
-                            "pipe": "MainPower"
-                          },
-                          {
-                            "pipeClass": "Heat",
-                            "pipe": "MainHeat"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "name": "hardpoint_brig_controller_dashboard",
-                      "damagemax": 0.0,
-                      "class": "ItemPort",
-                      "ItemPort": {
-                        "minsize": 0,
-                        "maxsize": 0,
-                        "flags": "",
-                        "Types": [
-                          {
-                            "type": "SeatDashboard"
-                          }
-                        ],
-                        "Connections": [
-                          {
-                            "pipeClass": "Power",
-                            "pipe": "MainPower"
-                          },
-                          {
-                            "pipeClass": "Heat",
-                            "pipe": "MainHeat"
-                          }
-                        ],
-                        "ControllerDef": {
-                          "controllableTags": "SecurityDashBoard"
-                        }
-                      }
-                    },
-                    {
                       "name": "animated_left_stairs",
                       "damagemax": 0.0,
                       "class": "ItemPort",
@@ -3477,7 +3412,7 @@
                         "minsize": 0,
                         "maxsize": 0,
                         "display_name": "port_NameTurret02",
-                        "flags": "uneditable",
+                        "flags": "$uneditable",
                         "Types": [
                           {
                             "type": "TurretBase",
@@ -3701,7 +3636,7 @@
                         "minsize": 0,
                         "maxsize": 0,
                         "display_name": "port_NameTurret07",
-                        "flags": "uneditable",
+                        "flags": "$uneditable",
                         "Types": [
                           {
                             "type": "TurretBase",
@@ -3754,6 +3689,102 @@
                           "max": 180
                         }
                       }
+                    },
+                    {
+                      "name": "hardpoint_brig_controller_chair",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "flags": "seat uneditable",
+                        "Types": [
+                          {
+                            "type": "Seat"
+                          }
+                        ],
+                        "Connections": [
+                          {
+                            "pipeClass": "Power",
+                            "pipe": "MainPower"
+                          },
+                          {
+                            "pipeClass": "Heat",
+                            "pipe": "MainHeat"
+                          }
+                        ],
+                        "ControllerDef": {
+                          "controllableTags": "SecurityRoomSeat",
+                          "UsableDef": {
+                            "PriorityGroups": [
+                              {
+                                "itemType": "LightController"
+                              },
+                              {
+                                "itemType": "SeatDashboard",
+                                "defaultPriority": "no_control"
+                              },
+                              {
+                                "itemType": "Seat",
+                                "defaultPriority": "no_control"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "name": "hardpoint_seat_access_brig",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "flags": "",
+                        "Types": [
+                          {
+                            "type": "SeatAccess"
+                          }
+                        ],
+                        "Connections": [
+                          {
+                            "pipeClass": "Power",
+                            "pipe": "MainPower"
+                          },
+                          {
+                            "pipeClass": "Heat",
+                            "pipe": "MainHeat"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "name": "hardpoint_brig_controller_dashboard",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "flags": "",
+                        "Types": [
+                          {
+                            "type": "SeatDashboard"
+                          }
+                        ],
+                        "Connections": [
+                          {
+                            "pipeClass": "Power",
+                            "pipe": "MainPower"
+                          },
+                          {
+                            "pipeClass": "Heat",
+                            "pipe": "MainHeat"
+                          }
+                        ],
+                        "ControllerDef": {
+                          "controllableTags": "SecurityDashBoard"
+                        }
+                      }
                     }
                   ],
                   "DamageBehaviors": []
@@ -3781,7 +3812,7 @@
                   "ItemPort": {
                     "minsize": 0,
                     "maxsize": 0,
-                    "flags": "uneditable dockingport1",
+                    "flags": "uneditable dockingport4",
                     "Types": [
                       {
                         "type": "Door",
@@ -3830,7 +3861,7 @@
                     "minsize": 0,
                     "maxsize": 0,
                     "display_name": "port_NameTurret011",
-                    "flags": "uneditable lower",
+                    "flags": "$uneditable lower",
                     "Types": [
                       {
                         "type": "Turret",
@@ -4343,66 +4374,6 @@
                         ],
                         "ControllerDef": {
                           "controllableTags": "pilotSeat"
-                        }
-                      }
-                    },
-                    {
-                      "name": "hardpoint_radar_copilot",
-                      "damagemax": 0.0,
-                      "class": "ItemPort",
-                      "ItemPort": {
-                        "minsize": 0,
-                        "maxsize": 0,
-                        "display_name": "port_NameRadar",
-                        "flags": "invisible uneditable",
-                        "Types": [
-                          {
-                            "type": "Radar",
-                            "subtypes": "ShortRangeRadar,MidRangeRadar"
-                          }
-                        ],
-                        "Connections": [
-                          {
-                            "pipeClass": "Power",
-                            "pipe": "MainPower"
-                          },
-                          {
-                            "pipeClass": "Heat",
-                            "pipe": "MainHeat"
-                          }
-                        ],
-                        "ControllerDef": {
-                          "controllableTags": "CopilotSeat"
-                        }
-                      }
-                    },
-                    {
-                      "name": "hardpoint_radar_weapons",
-                      "damagemax": 0.0,
-                      "class": "ItemPort",
-                      "ItemPort": {
-                        "minsize": 0,
-                        "maxsize": 0,
-                        "display_name": "port_NameRadar",
-                        "flags": "invisible uneditable",
-                        "Types": [
-                          {
-                            "type": "Radar",
-                            "subtypes": "ShortRangeRadar,MidRangeRadar"
-                          }
-                        ],
-                        "Connections": [
-                          {
-                            "pipeClass": "Power",
-                            "pipe": "MainPower"
-                          },
-                          {
-                            "pipeClass": "Heat",
-                            "pipe": "MainHeat"
-                          }
-                        ],
-                        "ControllerDef": {
-                          "controllableTags": "WeaponsSeat"
                         }
                       }
                     },
@@ -5314,6 +5285,66 @@
                       "damageMax": 200.0,
                       "damagemax": 0.0,
                       "class": "AnimatedJoint"
+                    },
+                    {
+                      "name": "hardpoint_radar_copilot",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "display_name": "port_NameRadar",
+                        "flags": "invisible uneditable",
+                        "Types": [
+                          {
+                            "type": "Radar",
+                            "subtypes": "ShortRangeRadar,MidRangeRadar"
+                          }
+                        ],
+                        "Connections": [
+                          {
+                            "pipeClass": "Power",
+                            "pipe": "MainPower"
+                          },
+                          {
+                            "pipeClass": "Heat",
+                            "pipe": "MainHeat"
+                          }
+                        ],
+                        "ControllerDef": {
+                          "controllableTags": "CopilotSeat"
+                        }
+                      }
+                    },
+                    {
+                      "name": "hardpoint_radar_weapons",
+                      "damagemax": 0.0,
+                      "class": "ItemPort",
+                      "ItemPort": {
+                        "minsize": 0,
+                        "maxsize": 0,
+                        "display_name": "port_NameRadar",
+                        "flags": "invisible uneditable",
+                        "Types": [
+                          {
+                            "type": "Radar",
+                            "subtypes": "ShortRangeRadar,MidRangeRadar"
+                          }
+                        ],
+                        "Connections": [
+                          {
+                            "pipeClass": "Power",
+                            "pipe": "MainPower"
+                          },
+                          {
+                            "pipeClass": "Heat",
+                            "pipe": "MainHeat"
+                          }
+                        ],
+                        "ControllerDef": {
+                          "controllableTags": "WeaponsSeat"
+                        }
+                      }
                     }
                   ],
                   "DamageBehaviors": []
@@ -5637,7 +5668,7 @@
                             "minsize": 0,
                             "maxsize": 0,
                             "display_name": "port_NameTurret010",
-                            "flags": "uneditable lower",
+                            "flags": "$uneditable lower",
                             "Types": [
                               {
                                 "type": "Turret",
@@ -5859,7 +5890,7 @@
                             "minsize": 0,
                             "maxsize": 0,
                             "display_name": "port_NameTurret08",
-                            "flags": "uneditable",
+                            "flags": "$uneditable",
                             "Types": [
                               {
                                 "type": "TurretBase",
@@ -6101,7 +6132,7 @@
                         "minsize": 0,
                         "maxsize": 0,
                         "display_name": "port_NameTurret03",
-                        "flags": "uneditable",
+                        "flags": "$uneditable",
                         "Types": [
                           {
                             "type": "TurretBase",
@@ -6216,7 +6247,7 @@
                         "minsize": 0,
                         "maxsize": 0,
                         "display_name": "port_NameTurret07",
-                        "flags": "uneditable",
+                        "flags": "$uneditable",
                         "Types": [
                           {
                             "type": "TurretBase",
@@ -6482,21 +6513,6 @@
                   }
                 },
                 {
-                  "name": "hardpoint_door_rear",
-                  "damagemax": 0.0,
-                  "class": "ItemPort",
-                  "ItemPort": {
-                    "minsize": 0,
-                    "maxsize": 0,
-                    "flags": "$uneditable",
-                    "Types": [
-                      {
-                        "type": "Door"
-                      }
-                    ]
-                  }
-                },
-                {
                   "name": "hardpoint_controller_missile",
                   "damagemax": 0.0,
                   "class": "ItemPort",
@@ -6527,6 +6543,21 @@
                   }
                 },
                 {
+                  "name": "hardpoint_door_rear",
+                  "damagemax": 0.0,
+                  "class": "ItemPort",
+                  "ItemPort": {
+                    "minsize": 0,
+                    "maxsize": 0,
+                    "flags": "$uneditable",
+                    "Types": [
+                      {
+                        "type": "Door"
+                      }
+                    ]
+                  }
+                },
+                {
                   "name": "hardpoint_docking_collar_mpuv",
                   "damagemax": 0.0,
                   "class": "ItemPort",
@@ -6534,7 +6565,7 @@
                     "minsize": 0,
                     "maxsize": 0,
                     "display_name": "@dockingcollar_mpuv",
-                    "flags": "$uneditable dockingport1",
+                    "flags": "$uneditable dockingport4",
                     "Types": [
                       {
                         "type": "DockingCollar"
@@ -6721,6 +6752,50 @@
                     "Yaw": {
                       "min": -180,
                       "max": 180
+                    }
+                  }
+                },
+                {
+                  "name": "hardpoint_controller_weapon_missiles",
+                  "damagemax": 0.0,
+                  "class": "ItemPort",
+                  "ItemPort": {
+                    "minsize": 0,
+                    "maxsize": 0,
+                    "flags": "invisible uneditable",
+                    "Types": [
+                      {
+                        "type": "WeaponController"
+                      }
+                    ],
+                    "Connections": [
+                      {
+                        "pipeClass": "Power",
+                        "pipe": "MainPower"
+                      },
+                      {
+                        "pipeClass": "Heat",
+                        "pipe": "MainHeat"
+                      }
+                    ],
+                    "ControllerDef": {
+                      "controllableTags": "WeaponsSeat",
+                      "UsableDef": {
+                        "PriorityGroups": [
+                          {
+                            "itemType": "Turret",
+                            "defaultPriority": "no_control"
+                          },
+                          {
+                            "itemType": "WeaponGun",
+                            "defaultPriority": "no_control"
+                          },
+                          {
+                            "itemType": "WeaponDefensive",
+                            "defaultPriority": "no_control"
+                          }
+                        ]
+                      }
                     }
                   }
                 }

@@ -1,16 +1,23 @@
 {
   "ClassName": "ANVL_Hornet_F7C_Wildfire_CCI2953",
-  "Name": "Anvil F7C Hornet Wildfire",
-  "Description": "Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nCreated as part of the ‘Masters of Flight’ series in conjunction with the flight-sim Arena Commander, the Wildfire pays tribute to famed pilot Aria Reilly for her distinguished service with the legendary Squadron 42. This Hornet comes equipped with her own personally selected loadout preferences and a custom special edition livery honoring her iconic ship.",
+  "Name": "Anvil F7C Hornet Wildfire Mk I",
+  "Description": "Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nCreated as part of the ‘Masters of Flight’ series in conjunction with the flight-sim Arena Commander, the Wildfire pays tribute to famed pilot Aria Reilly for her distinguished service with the legendary Squadron 42. This F7C Hornet Mk I comes equipped with her own personally selected loadout preferences and a custom special edition livery honoring her iconic ship.",
   "Career": "Combat",
   "Role": "Medium Fighter",
   "Size": 2,
   "Cargo": 0.0,
+  "Inventory": {
+    "SCU": 0.65,
+    "x": 2.0,
+    "y": 2.0,
+    "z": 2.0,
+    "unit": 0.0
+  },
   "Crew": 1,
   "WeaponCrew": 0,
   "OperationsCrew": 0,
   "Mass": 74132.0,
-  "Health": 22380.0,
+  "Health": 21530.0,
   "Width": 25.5,
   "Height": 7.5,
   "Length": 28.25,
@@ -20,10 +27,12 @@
     "Name": "Anvil Aerospace"
   },
   "DamageBeforeDestruction": {
-    "Body": 4000.0
+    "Body": 3500.0
   },
   "DamageBeforeDetach": {
-    "Canopy": 80.0,
+    "thrust_vector_flap_c": 50.0,
+    "thrust_vector_flap_b": 50.0,
+    "thrust_vector_flap_a": 50.0,
     "WingRightRear": 800.0,
     "WingRight_Debris": 3000.0,
     "LG_Door_Rear_R": 100.0,
@@ -33,63 +42,63 @@
     "Tail_Debris": 2500.0
   },
   "FlightCharacteristics": {
-    "ScmSpeed": 192.0,
-    "MaxSpeed": 1229.0,
-    "ZeroToScm": 4.052160663589684,
-    "ZeroToMax": 25.93804924766522,
-    "ScmToZero": 13.860979864718237,
-    "MaxToZero": 88.72470965488912,
+    "ScmSpeed": 220.0,
+    "MaxSpeed": 1150.0,
+    "ZeroToScm": 4.511491009681881,
+    "ZeroToMax": 23.582793914246196,
+    "ScmToZero": 4.07726,
+    "MaxToZero": 21.31295,
     "Acceleration": {
-      "Main": 47.38212917498516,
-      "Retro": 13.851834565369881,
+      "Main": 48.764366265580314,
+      "Retro": 53.95780499649274,
       "Vtol": 0.0,
-      "Maneuvering": 94.65015377974423
+      "Maneuvering": 60.9723196460368
     },
     "AccelerationG": {
-      "Main": 4.831632452825546,
-      "Retro": 1.4124940052830102,
+      "Main": 4.972581407646777,
+      "Retro": 5.502164766414137,
       "Vtol": 0.0,
-      "Maneuvering": 9.651629477819554
+      "Maneuvering": 6.217446186047976
     },
-    "Pitch": 45.0,
-    "Yaw": 40.0,
+    "Pitch": 56.0,
+    "Yaw": 45.0,
     "Roll": 150.0
   },
   "Propulsion": {
     "FuelCapacity": 120000.0,
-    "FuelIntakeRate": 0.0,
+    "FuelIntakeRate": 36.0,
     "FuelUsage": {
-      "Main": 23.020256595,
-      "Retro": 6.729811250749999,
+      "Main": 23.69180625,
+      "Retro": 26.215,
       "Vtol": 0.0,
-      "Maneuvering": 21.926891250000004
+      "Maneuvering": 14.125
     },
     "ThrustCapacity": {
-      "Main": 3512532.0,
-      "Retro": 1026864.2,
+      "Main": 3615000.0,
+      "Retro": 4000000.0,
       "Vtol": 0.0,
-      "Maneuvering": 7016605.199999999
+      "Maneuvering": 4520000.0
     },
-    "IntakeToMainFuelRatio": 0.0,
-    "IntakeToTankCapacityRatio": 0.0,
-    "TimeForIntakesToFillTank": "Infinity",
-    "ManeuveringTimeTillEmpty": 3531.1043871311326
+    "IntakeToMainFuelRatio": 1.5195126796210399,
+    "IntakeToTankCapacityRatio": 0.0003,
+    "TimeForIntakesToFillTank": 3333.3333333333335,
+    "ManeuveringTimeTillEmpty": -22875.906547155937
   },
   "QuantumTravel": {
     "Speed": 138543800.0,
-    "SpoolTime": 5.0,
-    "FuelCapacity": 583.33,
-    "Range": 64003730524.46786,
+    "SpoolTime": 2.0,
+    "FuelCapacity": 612.4965,
+    "Range": 67203917050.691246,
     "PortOlisarToArcCorpTime": 302.62885145347536,
     "PortOlisarToArcCorpFuel": 382.12587765198,
-    "PortOlisarToArcCorpAndBack": 0.7632694278444891
+    "PortOlisarToArcCorpAndBack": 0.8014328992367136
   },
   "PilotHardpoints": [
     {
       "Size": 0,
-      "Turret": true,
+      "Fixed": true,
       "WeaponSizes": [
-        4
+        0
       ]
     },
     {

@@ -62,569 +62,6 @@
             "Port": {
               "PortName": "turret_side_back_right",
               "Size": 0,
-              "Loadout": "AEGS_Hammerhead_SCItem_Turret_Side_BackRight",
-              "InstalledItem": {
-                "UUID": "3614ff8a-d24d-4d56-84db-8efac6b6c70f",
-                "ClassName": "AEGS_Hammerhead_SCItem_Turret_Side_BackRight",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "TurretBase.MannedTurret",
-                "Name": "Manned Turret",
-                "Manufacturer": {
-                  "Code": "AEG",
-                  "Name": "Aegis Dynamics"
-                },
-                "Tags": [
-                  "flightReady"
-                ],
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0,
-                  "Lifetime": 25.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_weapon_left_upper",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_right_upper",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_left_lower",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_right_lower",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_OC",
-                    "Size": 1,
-                    "Loadout": "AEGS_Hammerhead_Side_Turret_Lighting",
-                    "InstalledItem": {
-                      "UUID": "be2fb35b-80ea-4baa-934c-fde6982ed111",
-                      "ClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "Room.UNDEFINED",
-                      "Name": "AEGS_Hammerhead_Side_Turret_Lighting",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06,
-                      "Durability": {
-                        "Health": 1.0
-                      }
-                    },
-                    "Types": [
-                      "Room"
-                    ],
-                    "Category": "Rooms"
-                  }
-                ]
-              },
               "Types": [
                 "TurretBase.MannedTurret"
               ],
@@ -640,569 +77,6 @@
             "Port": {
               "PortName": "turret_side_back_left",
               "Size": 0,
-              "Loadout": "AEGS_Hammerhead_SCItem_Turret_Side_BackLeft",
-              "InstalledItem": {
-                "UUID": "b497e796-4633-4093-a53d-494bdd24ab53",
-                "ClassName": "AEGS_Hammerhead_SCItem_Turret_Side_BackLeft",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "TurretBase.MannedTurret",
-                "Name": "Manned Turret",
-                "Manufacturer": {
-                  "Code": "AEG",
-                  "Name": "Aegis Dynamics"
-                },
-                "Tags": [
-                  "flightReady"
-                ],
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0,
-                  "Lifetime": 25.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_weapon_left_upper",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_right_upper",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_left_lower",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_right_lower",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_OC",
-                    "Size": 1,
-                    "Loadout": "AEGS_Hammerhead_Side_Turret_Lighting",
-                    "InstalledItem": {
-                      "UUID": "be2fb35b-80ea-4baa-934c-fde6982ed111",
-                      "ClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "Room.UNDEFINED",
-                      "Name": "AEGS_Hammerhead_Side_Turret_Lighting",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06,
-                      "Durability": {
-                        "Health": 1.0
-                      }
-                    },
-                    "Types": [
-                      "Room"
-                    ],
-                    "Category": "Rooms"
-                  }
-                ]
-              },
               "Types": [
                 "TurretBase.MannedTurret"
               ],
@@ -1218,545 +92,6 @@
             "Port": {
               "PortName": "turret_top",
               "Size": 0,
-              "Loadout": "AEGS_Hammerhead_SCItem_Turret_Top",
-              "InstalledItem": {
-                "UUID": "2228584b-0def-4713-8b40-1a9685f9a444",
-                "ClassName": "AEGS_Hammerhead_SCItem_Turret_Top",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "TurretBase.MannedTurret",
-                "Name": "Manned Turret",
-                "Manufacturer": {
-                  "Code": "AEG",
-                  "Name": "Aegis Dynamics"
-                },
-                "Tags": [
-                  "flightReady"
-                ],
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0,
-                  "Lifetime": 25.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_weapon_left_upper",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_right_upper",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_left_lower",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_right_lower",
-                    "Size": 4,
-                    "Loadout": "KLWE_LaserRepeater_S4",
-                    "InstalledItem": {
-                      "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                      "ClassName": "KLWE_LaserRepeater_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-447 Rhino Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 220.0,
-                        "PowerDraw": 220.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.974
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 1400.0,
-                          "Range": 1540.0000000000002,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 80.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 480.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 80.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 640.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3200.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 80.0,
-                          "RequestedAmmoLoad": 19200.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 1400.0,
-                        "Range": 1540.0000000000002,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 80.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "TurretBase.MannedTurret"
               ],
@@ -1779,7 +114,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_BackRight",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -1807,7 +142,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_BackLeft",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -1835,7 +170,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Top",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -1873,6 +208,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 180.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -1938,6 +274,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 180.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -2003,6 +340,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 180.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -2077,7 +415,7 @@
                   "Output": 37500.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 810.0,
                   "Lifetime": 60.0
                 },
                 "PowerConnection": {
@@ -2127,7 +465,7 @@
                   "Output": 37500.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 810.0,
                   "Lifetime": 60.0
                 },
                 "PowerConnection": {
@@ -2191,6 +529,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "Drake Caterpillar Self Destruct",
+                "Description": "Drake Caterpillar Self Destruct",
                 "Manufacturer": {
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
@@ -2236,6 +575,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 360.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -2300,20 +640,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1000.0,
-                  "ScmSpeed": 105.0,
+                  "MaxSpeed": 950.0,
+                  "ScmSpeed": 160.0,
                   "Pitch": 20.0,
                   "Yaw": 18.0,
-                  "Roll": 60.0,
+                  "Roll": 30.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 1500.0,
-                    "CapacitorAfterburnerIdleCost": 50.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.2,
-                    "CapacitorRegenDelayAfterUse": 5.0,
-                    "CapacitorRegenPerSec": 50.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 1.1,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -2562,7 +902,7 @@
                   "Rate": 10400000.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 486.0,
                   "Lifetime": 176.0
                 },
                 "PowerConnection": {
@@ -2612,7 +952,7 @@
                   "Rate": 10400000.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 486.0,
                   "Lifetime": 176.0
                 },
                 "PowerConnection": {
@@ -2698,14 +1038,14 @@
                     "Cooldown": 22.0,
                     "Stage1AccelerationRate": 600000.0,
                     "State2AccelerationRate": 4634678.0,
-                    "SpoolUpTime": 19.375
+                    "SpoolUpTime": 7.0
                   },
                   "SplineJump": {
                     "Speed": 400000.0,
                     "Cooldown": 22.0,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 19.375
+                    "SpoolUpTime": 7.0
                   }
                 },
                 "Durability": {
@@ -2720,7 +1060,22 @@
                   "ThermalEnergyBase": 181083.0,
                   "ThermalEnergyDraw": 181083.0,
                   "CoolingRate": 124.0
-                }
+                },
+                "Ports": [
+                  {
+                    "PortName": "hardpoint_Jump_Drive",
+                    "Size": 3,
+                    "Types": [
+                      "JumpDrive.JumpDrive"
+                    ],
+                    "Flags": [
+                      "uneditable",
+                      "invisible"
+                    ],
+                    "Category": "UNKNOWN",
+                    "Uneditable": true
+                  }
+                ]
               },
               "Types": [
                 "QuantumDrive.QDrive"
@@ -2792,7 +1147,7 @@
                 },
                 "Shield": {
                   "Health": 100000.0,
-                  "Regeneration": 1200.0,
+                  "Regeneration": 1600.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -2823,7 +1178,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 2500.0,
+                  "Health": 540.0,
                   "Lifetime": 80.0
                 },
                 "PowerConnection": {
@@ -2871,7 +1226,7 @@
                 },
                 "Shield": {
                   "Health": 100000.0,
-                  "Regeneration": 1200.0,
+                  "Regeneration": 1600.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -2902,7 +1257,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 2500.0,
+                  "Health": 540.0,
                   "Lifetime": 80.0
                 },
                 "PowerConnection": {
@@ -3045,7 +1400,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Captain_Room",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -3187,7 +1542,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Hammerhead_SCItem_Engineer_Access_Left",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -3215,7 +1570,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "AEGS_Hammerhead_SCItem_Engineer_Access_Right",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -5166,6 +3521,7 @@
                 "Grade": 1,
                 "Type": "Armor.Medium",
                 "Name": "Hammerhead Ship Armor",
+                "Description": "Hammerhead Ship Armor",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -5177,6 +3533,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.5,
@@ -5291,6 +3650,7 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Durability": {
+                      "Health": 180.0,
                       "Lifetime": 720.0
                     },
                     "PowerConnection": {
@@ -5346,7 +3706,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Bottom",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -5367,545 +3727,6 @@
                 "Port": {
                   "PortName": "turret_rear",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_SCItem_Turret_Rear",
-                  "InstalledItem": {
-                    "UUID": "7de3c63f-a8ef-4d7b-8022-97e189d33449",
-                    "ClassName": "AEGS_Hammerhead_SCItem_Turret_Rear",
-                    "Size": 5,
-                    "Grade": 1,
-                    "Type": "TurretBase.MannedTurret",
-                    "Name": "Manned Turret",
-                    "Manufacturer": {
-                      "Code": "AEG",
-                      "Name": "Aegis Dynamics"
-                    },
-                    "Tags": [
-                      "flightReady"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "Durability": {
-                      "Health": 2000.0,
-                      "Lifetime": 25.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 0.0,
-                      "PowerDraw": 2.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 10.0,
-                      "ThermalEnergyDraw": 20.0,
-                      "CoolingRate": 1.0
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "hardpoint_weapon_left_upper",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_right_upper",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_left_lower",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_right_lower",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      }
-                    ]
-                  },
                   "Types": [
                     "TurretBase.MannedTurret"
                   ],
@@ -5932,14 +3753,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_rear_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Right",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "cc741815-d17f-4579-8f78-715216a3ab00",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Right",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Right",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -5949,10 +3770,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 48000000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 150.0
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -5986,14 +3807,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_rear_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Left",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "91bbb14b-040c-4723-b362-6c0a7acbf05c",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Left",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Left",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6003,10 +3824,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 48000000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 150.0
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -6040,14 +3861,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_rear_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "4369917e-024c-4437-8a92-34888ba2e086",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6057,10 +3878,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29600000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.5
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -6094,14 +3915,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_rear_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "4369917e-024c-4437-8a92-34888ba2e086",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6111,10 +3932,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29600000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.5
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -6148,14 +3969,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_rear_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "0cbf9f9a-84c2-4f5b-bb82-bd3b80fc13be",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6165,10 +3986,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.1875
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -6202,14 +4023,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_rear_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "0cbf9f9a-84c2-4f5b-bb82-bd3b80fc13be",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6219,10 +4040,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.1875
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -6263,7 +4084,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_AEGS_Hammerhead_Elevator_Cargo",
+                    "Name": "Elevator Control",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6497,7 +4318,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "AEGS_Hammerhead_SCItem_Engineer_Access",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6525,7 +4346,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_AEGS_Hammerhead_Cargo",
+                    "Name": "Door Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -6659,6 +4480,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "Aegis Hammerhead - Decoy Launcher",
+                    "Description": "Aegis Hammerhead - Decoy Launcher",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6681,11 +4503,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                        "Type": "AmmoParams",
                         "Speed": 90.0,
                         "Range": 1080.0,
                         "Size": 0.0,
                         "Capacity": 25.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -6701,11 +4531,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                      "Type": "AmmoParams",
                       "Speed": 90.0,
                       "Range": 1080.0,
                       "Size": 0.0,
                       "Capacity": 25.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -6732,6 +4570,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "Aegis Hammerhead - Decoy Launcher",
+                    "Description": "Aegis Hammerhead - Decoy Launcher",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6754,11 +4593,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                        "Type": "AmmoParams",
                         "Speed": 90.0,
                         "Range": 1080.0,
                         "Size": 0.0,
                         "Capacity": 25.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -6774,11 +4621,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                      "Type": "AmmoParams",
                       "Speed": 90.0,
                       "Range": 1080.0,
                       "Size": 0.0,
                       "Capacity": 25.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -6810,7 +4665,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_FrontRight",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -6934,6 +4789,7 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Durability": {
+                      "Health": 180.0,
                       "Lifetime": 720.0
                     },
                     "PowerConnection": {
@@ -6999,6 +4855,7 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Durability": {
+                      "Health": 180.0,
                       "Lifetime": 720.0
                     },
                     "PowerConnection": {
@@ -7054,7 +4911,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Copilot",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -7168,7 +5025,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Pilot",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -7196,7 +5053,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_FrontLeft",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -7217,569 +5074,6 @@
                 "Port": {
                   "PortName": "turret_side_front_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_SCItem_Turret_Side_FrontLeft",
-                  "InstalledItem": {
-                    "UUID": "c2d1b008-c900-4d59-bc8f-b10f5b46cdf0",
-                    "ClassName": "AEGS_Hammerhead_SCItem_Turret_Side_FrontLeft",
-                    "Size": 5,
-                    "Grade": 1,
-                    "Type": "TurretBase.MannedTurret",
-                    "Name": "Manned Turret",
-                    "Manufacturer": {
-                      "Code": "AEG",
-                      "Name": "Aegis Dynamics"
-                    },
-                    "Tags": [
-                      "flightReady"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "Durability": {
-                      "Health": 2000.0,
-                      "Lifetime": 25.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 0.0,
-                      "PowerDraw": 2.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 10.0,
-                      "ThermalEnergyDraw": 20.0,
-                      "CoolingRate": 1.0
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "hardpoint_weapon_left_upper",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_right_upper",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_left_lower",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_right_lower",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_OC",
-                        "Size": 1,
-                        "Loadout": "AEGS_Hammerhead_Side_Turret_Lighting",
-                        "InstalledItem": {
-                          "UUID": "be2fb35b-80ea-4baa-934c-fde6982ed111",
-                          "ClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "Room.UNDEFINED",
-                          "Name": "AEGS_Hammerhead_Side_Turret_Lighting",
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06,
-                          "Durability": {
-                            "Health": 1.0
-                          }
-                        },
-                        "Types": [
-                          "Room"
-                        ],
-                        "Category": "Rooms"
-                      }
-                    ]
-                  },
                   "Types": [
                     "TurretBase.MannedTurret"
                   ],
@@ -7795,569 +5089,6 @@
                 "Port": {
                   "PortName": "turret_side_front_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_SCItem_Turret_Side_FrontRight",
-                  "InstalledItem": {
-                    "UUID": "982ce3ab-41f4-40bf-a833-6237e7a97893",
-                    "ClassName": "AEGS_Hammerhead_SCItem_Turret_Side_FrontRight",
-                    "Size": 5,
-                    "Grade": 1,
-                    "Type": "TurretBase.MannedTurret",
-                    "Name": "Manned Turret",
-                    "Manufacturer": {
-                      "Code": "AEG",
-                      "Name": "Aegis Dynamics"
-                    },
-                    "Tags": [
-                      "flightReady"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "Durability": {
-                      "Health": 2000.0,
-                      "Lifetime": 25.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 0.0,
-                      "PowerDraw": 2.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 10.0,
-                      "ThermalEnergyDraw": 20.0,
-                      "CoolingRate": 1.0
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "hardpoint_weapon_left_upper",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_right_upper",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_left_lower",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_weapon_right_lower",
-                        "Size": 4,
-                        "Loadout": "KLWE_LaserRepeater_S4",
-                        "InstalledItem": {
-                          "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
-                          "ClassName": "KLWE_LaserRepeater_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-447 Rhino Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 220.0,
-                            "PowerDraw": 220.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.974
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 80.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 480.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 80.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 640.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3200.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 80.0,
-                              "RequestedAmmoLoad": 19200.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 80.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "hardpoint_OC",
-                        "Size": 1,
-                        "Loadout": "AEGS_Hammerhead_Side_Turret_Lighting",
-                        "InstalledItem": {
-                          "UUID": "be2fb35b-80ea-4baa-934c-fde6982ed111",
-                          "ClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
-                          "Size": 1,
-                          "Grade": 1,
-                          "Type": "Room.UNDEFINED",
-                          "Name": "AEGS_Hammerhead_Side_Turret_Lighting",
-                          "Width": 0.15,
-                          "Height": 0.15,
-                          "Length": 0.15,
-                          "Volume": 1E-06,
-                          "Durability": {
-                            "Health": 1.0
-                          }
-                        },
-                        "Types": [
-                          "Room"
-                        ],
-                        "Category": "Rooms"
-                      }
-                    ]
-                  },
                   "Types": [
                     "TurretBase.MannedTurret"
                   ],
@@ -8401,10 +5132,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 37970060.0,
+                      "ThrustCapacity": 46500000.0,
                       "FuelRate": 5.1021240000000005E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 193.72795440744002
+                      "MaxThrustFuelRate": 237.24876600000002
                     },
                     "Durability": {
                       "Health": 23400.0,
@@ -8456,10 +5187,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 37970060.0,
+                      "ThrustCapacity": 46500000.0,
                       "FuelRate": 5.1021240000000005E-06,
                       "Type": "Retro",
-                      "MaxThrustFuelRate": 193.72795440744002
+                      "MaxThrustFuelRate": 237.24876600000002
                     },
                     "Durability": {
                       "Health": 23400.0,
@@ -8494,14 +5225,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_front_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "4369917e-024c-4437-8a92-34888ba2e086",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -8511,10 +5242,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29600000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.5
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -8548,14 +5279,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_front_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "4369917e-024c-4437-8a92-34888ba2e086",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Bottom",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -8565,10 +5296,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29600000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.5
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -8627,7 +5358,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "DockingAnimator.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_AEGS_Hammerhead_Airlock",
+                    "Name": "Door Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -8852,14 +5583,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_front_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Right",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "cc741815-d17f-4579-8f78-715216a3ab00",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Right",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Right",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -8869,10 +5600,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 48000000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 150.0
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -8906,14 +5637,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_front_right",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "0cbf9f9a-84c2-4f5b-bb82-bd3b80fc13be",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -8923,10 +5654,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.1875
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -8981,7 +5712,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_AEGS_Hammerhead_Elevator_Right",
+                    "Name": "Elevator Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -9111,7 +5842,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_AEGS_Hammerhead_Right",
+                    "Name": "Door Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -9245,6 +5976,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "Aegis Hammerhead - Noise Launcher",
+                    "Description": "Aegis Hammerhead - Noise Launcher",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -9267,11 +5999,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                        "Type": "AmmoParams",
                         "Speed": 180.0,
                         "Range": 144.0,
                         "Size": 0.0,
                         "Capacity": 12.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -9287,11 +6027,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                      "Type": "AmmoParams",
                       "Speed": 180.0,
                       "Range": 144.0,
                       "Size": 0.0,
                       "Capacity": 12.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -9316,14 +6064,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_side_front_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Left",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "91bbb14b-040c-4723-b362-6c0a7acbf05c",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Left",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Left",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -9333,10 +6081,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 48000000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 150.0
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -9370,14 +6118,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_top_front_left",
                   "Size": 0,
-                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                  "Loadout": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                   "InstalledItem": {
-                    "UUID": "77c569fd-6b5b-4426-86fb-6d363f4c696d",
-                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "UUID": "0cbf9f9a-84c2-4f5b-bb82-bd3b80fc13be",
+                    "ClassName": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.FlexThruster",
-                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed",
+                    "Name": "AEGS_Hammerhead_Thruster_Mav_Fixed_Top",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -9387,10 +6135,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 28767920.0,
+                      "ThrustCapacity": 29500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 89.89975
+                      "MaxThrustFuelRate": 92.1875
                     },
                     "Durability": {
                       "Health": 20000.0,
@@ -9460,7 +6208,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_AEGS_Hammerhead_Elevator_Left",
+                    "Name": "Elevator Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -9590,7 +6338,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_AEGS_Hammerhead_Left",
+                    "Name": "Door Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -9724,6 +6472,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "Aegis Hammerhead - Noise Launcher",
+                    "Description": "Aegis Hammerhead - Noise Launcher",
                     "Manufacturer": {
                       "Code": "AEG",
                       "Name": "Aegis Dynamics"
@@ -9746,11 +6495,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                        "Type": "AmmoParams",
                         "Speed": 180.0,
                         "Range": 144.0,
                         "Size": 0.0,
                         "Capacity": 12.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -9766,11 +6523,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                      "Type": "AmmoParams",
                       "Speed": 180.0,
                       "Range": 144.0,
                       "Size": 0.0,
                       "Capacity": 12.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -9812,10 +6577,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 61988780.0,
+                      "ThrustCapacity": 58150000.0,
                       "FuelRate": 5.1021240000000005E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 316.27444216872004
+                      "MaxThrustFuelRate": 296.68851060000003
                     },
                     "Durability": {
                       "Health": 25000.0,
@@ -9873,10 +6638,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 61988780.0,
+                      "ThrustCapacity": 58150000.0,
                       "FuelRate": 5.1021240000000005E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 316.27444216872004
+                      "MaxThrustFuelRate": 296.68851060000003
                     },
                     "Durability": {
                       "Health": 25000.0,
@@ -9934,10 +6699,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 61988780.0,
+                      "ThrustCapacity": 58150000.0,
                       "FuelRate": 5.1021240000000005E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 316.27444216872004
+                      "MaxThrustFuelRate": 296.68851060000003
                     },
                     "Durability": {
                       "Health": 25000.0,
@@ -9995,10 +6760,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 61988780.0,
+                      "ThrustCapacity": 58150000.0,
                       "FuelRate": 5.1021240000000005E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 316.27444216872004
+                      "MaxThrustFuelRate": 296.68851060000003
                     },
                     "Durability": {
                       "Health": 25000.0,
@@ -10064,24 +6829,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_Hammerhead",
-              "InstalledItem": {
-                "UUID": "8615b69f-bc0c-4bfe-a1f8-6378041cac42",
-                "ClassName": "WeaponRegenPool_Crew_Hammerhead",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_Hammerhead",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 4500,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -10105,7 +6852,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "DockingAnimator.UNDEFINED",
-                "Name": "Door_Ship_Exterior_AEGS_Hammerhead_Airlock_Door",
+                "Name": "Door Control",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,

@@ -9,6 +9,9 @@
       "value": "faa14f77-7943-4656-a131-f101693fef45"
     },
     {
+      "value": "1a1c31a2-ea76-4907-8dfc-cb3e3b4d0b6d"
+    },
+    {
       "value": "077071be-c789-4dce-a10e-f53d57c9477c"
     },
     {
@@ -110,12 +113,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 0.0,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -155,12 +161,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 0.1,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -200,12 +209,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 1.2,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -245,12 +257,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 1.5,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -290,12 +305,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 1.0,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -581,6 +599,13 @@
           "Types": []
         }
       ]
+    },
+    "SMeleeWeaponComponentParams": {
+      "canBeUsedForTakeDown": false,
+      "canBlock": false,
+      "canBeUsedInProne": false,
+      "canDodge": false,
+      "meleeCombatConfig": "00000000-0000-0000-0000-000000000000"
     }
   },
   "ClassName": "apar_special_ballistic_01",

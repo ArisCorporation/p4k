@@ -35,12 +35,29 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 600.0,
-      "Range": 2400.0,
+      "UUID": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce",
+      "Type": "AmmoParams",
+      "Speed": 1200.0,
+      "Range": 4800.0,
       "Size": 1.0,
       "ImpactDamage": {
-        "Energy": 15.0
-      }
+        "Energy": 19.0
+      },
+      "BulletImpulseFalloff": {
+        "MinDistance": 0.0,
+        "DropFalloff": 0.0025,
+        "MaxFalloff": 0.5
+      },
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.3
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
@@ -51,10 +68,10 @@
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Energy": 15.0
+          "Energy": 19.0
         },
         "DamagePerSecond": {
-          "Energy": 225.0
+          "Energy": 285.0
         }
       },
       {
@@ -65,21 +82,38 @@
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Energy": 15.0
+          "Energy": 19.0
         },
         "DamagePerSecond": {
-          "Energy": 206.25
+          "Energy": 261.25
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 600.0,
-    "Range": 2400.0,
+    "UUID": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce",
+    "Type": "AmmoParams",
+    "Speed": 1200.0,
+    "Range": 4800.0,
     "Size": 1.0,
     "ImpactDamage": {
-      "Energy": 15.0
-    }
+      "Energy": 19.0
+    },
+    "BulletImpulseFalloff": {
+      "MinDistance": 0.0,
+      "DropFalloff": 0.0025,
+      "MaxFalloff": 0.5
+    },
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.3
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {
@@ -106,13 +140,30 @@
         "Length": 0.08062783,
         "Volume": 0.00047999999999999996,
         "Ammunition": {
-          "Speed": 600.0,
-          "Range": 2400.0,
+          "UUID": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce",
+          "Type": "AmmoParams",
+          "Speed": 1200.0,
+          "Range": 4800.0,
           "Size": 1.0,
           "Capacity": 45.0,
           "ImpactDamage": {
-            "Energy": 15.0
-          }
+            "Energy": 19.0
+          },
+          "BulletImpulseFalloff": {
+            "MinDistance": 0.0,
+            "DropFalloff": 0.0025,
+            "MaxFalloff": 0.5
+          },
+          "BulletPierceability": {
+            "DamageFalloffLevel1": 0.0,
+            "DamageFalloffLevel2": 0.0,
+            "DamageFalloffLevel3": 0.0,
+            "MaxPenetrationThickness": 0.3
+          },
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [

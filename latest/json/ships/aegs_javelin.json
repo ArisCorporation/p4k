@@ -19,6 +19,9 @@
           "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
         },
         {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
           "value": "b0f055b9-9586-4d10-82ee-1d822953c956"
         },
         {
@@ -29,6 +32,12 @@
         },
         {
           "value": "bc3d019e-55fd-49f9-8720-498cda017307"
+        },
+        {
+          "value": "503443c0-b6d1-4539-b493-688117334ff1"
+        },
+        {
+          "value": "091c54fe-8a0f-45bd-af8b-4767e4d08669"
         },
         {
           "value": "c15b9451-5109-41da-8d75-2297fb2b59c4"
@@ -43,7 +52,7 @@
           "dogfightEnabled": 0,
           "unmovable": 0,
           "isGravlevVehicle": false,
-          "incomingDamageModifierToAI": 1.0,
+          "incomingDamageModifierToAI": 0.0,
           "emergencyStatusDamageThreshold": 0.25,
           "crewSize": 1,
           "vehicleName": "@vehicle_NameAEGS_Javelin",
@@ -3247,6 +3256,37 @@
                               }
                             },
                             {
+                              "name": "hardpoint_thruster_front_right_mid",
+                              "damagemax": 0.0,
+                              "class": "ItemPort",
+                              "ItemPort": {
+                                "minsize": 0,
+                                "maxsize": 0,
+                                "display_name": "port_NameThrustManoeuv02",
+                                "flags": "uneditable",
+                                "Types": [
+                                  {
+                                    "type": "ManneuverThruster",
+                                    "subtypes": ""
+                                  }
+                                ],
+                                "Connections": [
+                                  {
+                                    "pipeClass": "Power",
+                                    "pipe": "MainPower"
+                                  },
+                                  {
+                                    "pipeClass": "Heat",
+                                    "pipe": "MainHeat"
+                                  },
+                                  {
+                                    "pipeClass": "Fuel",
+                                    "pipe": "MainFuel"
+                                  }
+                                ]
+                              }
+                            },
+                            {
                               "name": "hardpoint_thruster_front_right_upper",
                               "damagemax": 0.0,
                               "class": "ItemPort",
@@ -3301,6 +3341,37 @@
                             },
                             {
                               "name": "hardpoint_thruster_front_left_upper",
+                              "damagemax": 0.0,
+                              "class": "ItemPort",
+                              "ItemPort": {
+                                "minsize": 0,
+                                "maxsize": 0,
+                                "display_name": "port_NameThrustManoeuv03",
+                                "flags": "uneditable",
+                                "Types": [
+                                  {
+                                    "type": "ManneuverThruster",
+                                    "subtypes": ""
+                                  }
+                                ],
+                                "Connections": [
+                                  {
+                                    "pipeClass": "Power",
+                                    "pipe": "MainPower"
+                                  },
+                                  {
+                                    "pipeClass": "Heat",
+                                    "pipe": "MainHeat"
+                                  },
+                                  {
+                                    "pipeClass": "Fuel",
+                                    "pipe": "MainFuel"
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "name": "hardpoint_thruster_front_left_mid",
                               "damagemax": 0.0,
                               "class": "ItemPort",
                               "ItemPort": {
@@ -4199,6 +4270,10 @@
                                 "defaultPriority": "no_control"
                               },
                               {
+                                "itemType": "Turret",
+                                "defaultPriority": "no_control"
+                              },
+                              {
                                 "itemType": "WeaponGun",
                                 "defaultPriority": "no_control"
                               },
@@ -4366,6 +4441,10 @@
                           "controllableTags": "TurretCLU",
                           "UsableDef": {
                             "PriorityGroups": [
+                              {
+                                "itemType": "Turret",
+                                "defaultPriority": "no_control"
+                              },
                               {
                                 "itemType": "TurretBase",
                                 "defaultPriority": "no_control"

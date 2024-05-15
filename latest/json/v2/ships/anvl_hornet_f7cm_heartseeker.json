@@ -1,16 +1,23 @@
 {
   "ClassName": "ANVL_Hornet_F7CM_Heartseeker",
-  "Name": "Anvil F7C-M Hornet Heartseeker",
-  "Description": "Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nDesigned for pilots whose true love is the pulse-pounding thrill of a harrowing dogfight, the limited-edition F7C-M Heartseeker is 'the one' for true combat die-hards. Loaded with top-of-the-line components and outfitted with four imposing Behring laser cannons, this fierce eradicator hones the legendary combat proficiency of the Super Hornet to give you the ultimate edge in space combat.",
+  "Name": "Anvil F7C-M Hornet Heartseeker Mk I",
+  "Description": "Manufacturer: Anvil Aerospace\nFocus: Medium Fighter\n\nDesigned for pilots whose true love is the pulse-pounding thrill of a harrowing dogfight, the limited-edition F7C-M Heartseeker Mk I is 'the one' for true combat die-hards. Loaded with top-of-the-line components and outfitted with four imposing Behring laser cannons, this fierce eradicator hones the legendary combat proficiency of the Super Hornet to give you the ultimate edge in space combat.",
   "Career": "Combat",
   "Role": "Medium Fighter",
   "Size": 2,
   "Cargo": 0.0,
+  "Inventory": {
+    "SCU": 1.29,
+    "x": 2.0,
+    "y": 2.0,
+    "z": 2.0,
+    "unit": 0.0
+  },
   "Crew": 1,
   "WeaponCrew": 0,
   "OperationsCrew": 0,
   "Mass": 78670.0,
-  "Health": 20660.0,
+  "Health": 23215.0,
   "Width": 25.5,
   "Height": 7.5,
   "Length": 28.25,
@@ -24,65 +31,73 @@
     "Nose": 3500.0
   },
   "DamageBeforeDetach": {
+    "thrust_vector_flap_c": 50.0,
+    "thrust_vector_flap_b": 50.0,
+    "thrust_vector_flap_a": 50.0,
     "Tail_Debris": 2500.0,
+    "$Physics_proxy_Tail_Debris": 1.0,
     "WingLeftRear": 800.0,
+    "$physics_proxy_WingLeftRear": 1.0,
     "WingLeft_Debris": 3000.0,
     "LG_Door_Rear_L": 100.0,
+    "$Physics_proxy_WingLeft_Debris": 1.0,
     "WingRightRear": 800.0,
+    "$Physics_proxy_WingRightRear": 1.0,
     "WingRight_Debris": 3000.0,
-    "LG_Door_Rear_R": 100.0
+    "LG_Door_Rear_R": 100.0,
+    "$Physics_proxy_WingRight_Debris": 1.0
   },
   "FlightCharacteristics": {
-    "ScmSpeed": 192.0,
-    "MaxSpeed": 1229.0,
-    "ZeroToScm": 4.300214204454223,
-    "ZeroToMax": 27.525850298303332,
-    "ScmToZero": 14.709481545855821,
-    "MaxToZero": 94.15600427008752,
+    "ScmSpeed": 220.0,
+    "MaxSpeed": 1150.0,
+    "ZeroToScm": 3.8503670745272522,
+    "ZeroToMax": 20.126918798665184,
+    "ScmToZero": 12.726029411764706,
+    "MaxToZero": 66.52242647058824,
     "Acceleration": {
-      "Main": 44.648938604296426,
-      "Retro": 13.052805389602135,
+      "Main": 57.13740943180374,
+      "Retro": 17.28740307614084,
       "Vtol": 0.0,
-      "Maneuvering": 89.19035464598957
+      "Maneuvering": 57.45519257658574
     },
     "AccelerationG": {
-      "Main": 4.552924583613364,
-      "Retro": 1.3310157061095729,
+      "Main": 5.826394180420868,
+      "Retro": 1.7628244906278934,
       "Vtol": 0.0,
-      "Maneuvering": 9.094884917372815
+      "Maneuvering": 5.85879904238094
     },
-    "Pitch": 45.0,
-    "Yaw": 40.0,
+    "Pitch": 56.0,
+    "Yaw": 45.0,
     "Roll": 150.0
   },
   "Propulsion": {
     "FuelCapacity": 135000.0,
-    "FuelIntakeRate": 0.0,
+    "FuelIntakeRate": 36.0,
     "FuelUsage": {
-      "Main": 23.020256595,
-      "Retro": 6.729811250749999,
+      "Main": 29.459106249999998,
+      "Retro": 8.9131,
       "Vtol": 0.0,
-      "Maneuvering": 21.926891250000004
+      "Maneuvering": 14.125
     },
     "ThrustCapacity": {
-      "Main": 3512532.0,
-      "Retro": 1026864.2,
+      "Main": 4495000.0,
+      "Retro": 1360000.0,
       "Vtol": 0.0,
-      "Maneuvering": 7016605.2
+      "Maneuvering": 4520000.0
     },
-    "IntakeToMainFuelRatio": 0.0,
-    "IntakeToTankCapacityRatio": 0.0,
-    "TimeForIntakesToFillTank": "Infinity",
-    "ManeuveringTimeTillEmpty": 3972.492435522524
+    "IntakeToMainFuelRatio": 1.2220330004071323,
+    "IntakeToTankCapacityRatio": 0.0002666666666666667,
+    "TimeForIntakesToFillTank": 3750.0,
+    "ManeuveringTimeTillEmpty": 258815.91717890758
   },
   "QuantumTravel": {
     "Speed": 138543800.0,
-    "SpoolTime": 5.0,
-    "FuelCapacity": 583.33,
-    "Range": 64003730524.46786,
+    "SpoolTime": 2.0,
+    "FuelCapacity": 612.4965,
+    "Range": 67203917050.691246,
     "PortOlisarToArcCorpTime": 302.62885145347536,
     "PortOlisarToArcCorpFuel": 382.12587765198,
-    "PortOlisarToArcCorpAndBack": 0.7632694278444891
+    "PortOlisarToArcCorpAndBack": 0.8014328992367136
   },
   "PilotHardpoints": [
     {
@@ -108,9 +123,9 @@
     },
     {
       "Size": 0,
-      "Turret": true,
+      "Fixed": true,
       "WeaponSizes": [
-        4
+        0
       ]
     }
   ],

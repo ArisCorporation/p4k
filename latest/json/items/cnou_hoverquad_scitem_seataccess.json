@@ -2,7 +2,14 @@
   "Raw": {
     "Entity": {
       "StaticEntityClassData": {},
-      "tags": [],
+      "tags": [
+        {
+          "value": "02af2eee-b979-40e5-b999-68b976c05bbf"
+        },
+        {
+          "value": "94b8e3ee-4692-4fe3-a73d-ebc73b9bb4f3"
+        }
+      ],
       "Components": {
         "SEntityPhysicsControllerParams": {
           "PhysType": {
@@ -24,7 +31,7 @@
             "RequiredTags": "",
             "DisplayType": "",
             "Localization": {
-              "Name": "@LOC_PLACEHOLDER",
+              "Name": "@item_Name_SeatAccess_GenericExterior",
               "Description": "@LOC_EMPTY"
             },
             "inventoryOccupancyVolume": {
@@ -266,6 +273,20 @@
                 "LockedByLinks": false,
                 "RequiresAuthorizedUser": false,
                 "available": true
+              },
+              {
+                "Name": "Loot",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@interaction_loot",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": true,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
               }
             ]
           }
@@ -280,10 +301,10 @@
     }
   },
   "inventoryContainer": {
-    "SCU": 0.09999999999999999,
+    "SCU": 0.6,
     "x": 1.2,
     "y": 1.0,
     "z": 1.0,
-    "unit": 6.0
+    "unit": 0.0
   }
 }

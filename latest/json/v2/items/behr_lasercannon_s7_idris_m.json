@@ -41,19 +41,32 @@
   },
   "Weapon": {
     "Ammunition": {
+      "UUID": "5773ca90-f917-47ed-849a-fa3d46395172",
+      "Type": "AmmoParams",
       "Speed": 800.0,
       "Range": 4000.0,
       "Size": 7.0,
       "Capacity": 0.0,
       "ImpactDamage": {
         "Energy": 7500.0
-      }
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Single",
         "LocalisedName": "[AUTO]",
-        "RoundsPerMinute": 50.0,
+        "RoundsPerMinute": 100.0,
         "FireType": "sequence",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
@@ -61,25 +74,38 @@
           "Energy": 7500.0
         },
         "DamagePerSecond": {
-          "Energy": 6250.0
+          "Energy": 12500.0
         }
       }
     ],
     "Consumption": {
-      "RequestedRegenPerSec": 12500.0,
-      "Cooldown": 2.25,
-      "CostPerBullet": 1500.0,
-      "RequestedAmmoLoad": 75000.0
+      "RequestedRegenPerSec": 21355.0,
+      "Cooldown": 0.75,
+      "CostPerBullet": 1281.0,
+      "RequestedAmmoLoad": 128130.0
     }
   },
   "Ammunition": {
+    "UUID": "5773ca90-f917-47ed-849a-fa3d46395172",
+    "Type": "AmmoParams",
     "Speed": 800.0,
     "Range": 4000.0,
     "Size": 7.0,
     "Capacity": 0.0,
     "ImpactDamage": {
       "Energy": 7500.0
-    }
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {

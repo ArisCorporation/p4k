@@ -71,6 +71,7 @@
       "SAmmoContainerComponentParams": {
         "initialAmmoCount": 12.0,
         "maxAmmoCount": 12.0,
+        "maxRestockCount": 3.0,
         "ammoParamsRecord": "745b77f9-7064-4d98-98a9-95cfe948605c"
       },
       "SEntityInteractableParams": {
@@ -216,17 +217,70 @@
     "speed": 300.0,
     "projectileParams": {
       "BulletProjectileParams": {
+        "impactRadius": 0.0,
+        "minImpactRadius": 0.0,
+        "ignitionChanceOverride": -1.0,
+        "keepAliveOnZeroDamage": 0.0,
+        "hitType": "bullet",
         "damage": [
           {
             "DamagePhysical": 0.0,
-            "DamageEnergy": 11.5,
+            "DamageEnergy": 10.0,
             "DamageDistortion": 0.0,
             "DamageThermal": 0.0,
             "DamageBiochemical": 0.0,
             "DamageStun": 0.0
           }
         ],
-        "detonationParams": {}
+        "damageDropParams": {
+          "BulletDamageDropParams": {
+            "damageDropMinDistance": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 14.0,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            },
+            "damageDropPerMeter": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 0.1,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            },
+            "damageDropMinDamage": {
+              "DamageInfo": {
+                "DamagePhysical": 0.0,
+                "DamageEnergy": 5.5,
+                "DamageDistortion": 0.0,
+                "DamageThermal": 0.0,
+                "DamageBiochemical": 0.0,
+                "DamageStun": 0.0
+              }
+            }
+          }
+        },
+        "detonationParams": {},
+        "impulseFalloffParams": {
+          "BulletImpulseFalloffParams": {
+            "minDistance": 0.0,
+            "dropFalloff": 0.01,
+            "maxFalloff": 0.01
+          }
+        },
+        "pierceabilityParams": {
+          "damageFalloffLevel1": 0.0,
+          "damageFalloffLevel2": 0.0,
+          "damageFalloffLevel3": 0.0,
+          "maxPenetrationThickness": 0.2
+        },
+        "electronParams": {}
       }
     },
     "ClassName": "ksar_shotgun_energy_01_ammo_plasma",
@@ -385,12 +439,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -430,12 +487,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.1,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -475,12 +535,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.2,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -520,12 +583,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.5,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -565,12 +631,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -612,7 +681,7 @@
               "chargeTime": 2.5,
               "overchargeTime": 5.0,
               "overchargedTime": 2.0,
-              "cooldownTime": 1.0,
+              "cooldownTime": 0.0,
               "weaponAction": {
                 "SWeaponActionFireSingleParams": {
                   "heatPerShot": 0.0,
@@ -620,13 +689,13 @@
                   "launchParams": {
                     "SProjectileLauncher": {
                       "ammoCost": 1.0,
-                      "pelletCount": 6.0,
+                      "pelletCount": 12.0,
                       "spreadParams": {
-                        "min": 4.0,
-                        "max": 5.5,
-                        "firstAttack": 2.5,
-                        "attack": 2.5,
-                        "decay": 3.0
+                        "min": 3.75,
+                        "max": 8.0,
+                        "firstAttack": 3.75,
+                        "attack": 6.0,
+                        "decay": 10.0
                       }
                     }
                   },
@@ -933,6 +1002,13 @@
               "Types": []
             }
           ]
+        },
+        "SMeleeWeaponComponentParams": {
+          "canBeUsedForTakeDown": false,
+          "canBlock": false,
+          "canBeUsedInProne": false,
+          "canDodge": false,
+          "meleeCombatConfig": "00000000-0000-0000-0000-000000000000"
         }
       },
       "ClassName": "ksar_shotgun_energy_01",

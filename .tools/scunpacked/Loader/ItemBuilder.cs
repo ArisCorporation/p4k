@@ -25,6 +25,8 @@ namespace Loader
 
 		public StandardisedItem BuildItem(EntityClassDefinition entity)
 		{
+			if (entity == null) return null;
+
 			var volume =
 				ConvertToSCU(entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyVolume) ?? 0;
 
@@ -32,16 +34,16 @@ namespace Loader
 			{
 				UUID = entity.__ref,
 				ClassName = entity.ClassName,
-				Size = entity.Components.SAttachableComponentParams?.AttachDef.Size ?? 0,
-				Grade = entity.Components.SAttachableComponentParams?.AttachDef.Grade ?? 0,
+				Size = entity.Components?.SAttachableComponentParams?.AttachDef?.Size ?? 0,
+				Grade = entity.Components?.SAttachableComponentParams?.AttachDef?.Grade ?? 0,
 				Width = entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyDimensions?.x ?? 0,
 				Length = entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyDimensions?.y ?? 0,
 				Height = entity.Components?.SAttachableComponentParams?.AttachDef?.inventoryOccupancyDimensions?.z ?? 0,
 				Volume = volume,
-				Type = BuildTypeName(entity.Components.SAttachableComponentParams?.AttachDef.Type, entity.Components.SAttachableComponentParams?.AttachDef.SubType),
-				Name = localisationSvc.GetText(entity.Components.SAttachableComponentParams?.AttachDef.Localization.Name, entity.ClassName),
-				Description = localisationSvc.GetText(entity.Components.SAttachableComponentParams?.AttachDef.Localization.Description),
-				Manufacturer = manufacturerSvc.GetManufacturer(entity.Components.SAttachableComponentParams?.AttachDef.Manufacturer, entity.ClassName),
+				Type = BuildTypeName(entity.Components?.SAttachableComponentParams?.AttachDef?.Type, entity.Components?.SAttachableComponentParams?.AttachDef?.SubType),
+				Name = localisationSvc.GetText(entity.Components?.SAttachableComponentParams?.AttachDef?.Localization?.Name, entity.ClassName),
+				Description = localisationSvc.GetText(entity.Components?.SAttachableComponentParams?.AttachDef?.Localization?.Description),
+				Manufacturer = manufacturerSvc.GetManufacturer(entity.Components?.SAttachableComponentParams?.AttachDef?.Manufacturer, entity.ClassName),
 				Ports = BuildPortList(entity),
 				Tags = BuildTagList(entity)
 			};
@@ -66,6 +68,7 @@ namespace Loader
 			stdItem.Weapon = BuildWeaponInfo(entity);
 			stdItem.Ammunition = BuildAmmunitionInfo(entity);
 			stdItem.Missile = BuildMissileInfo(entity);
+			stdItem.Bomb = BuildBombInfo(entity);
 			stdItem.Scanner = BuildScannerInfo(entity);
 			stdItem.Radar = BuildRadarInfo(entity);
 			stdItem.Ping = BuildPingInfo(entity);
@@ -104,7 +107,7 @@ namespace Loader
 		{
 			var ports = new List<StandardisedItemPort>();
 
-			if (entity.Components.SItemPortContainerComponentParams == null) return ports;
+			if (entity?.Components?.SItemPortContainerComponentParams == null) return ports;
 
 			foreach (var port in entity.Components.SItemPortContainerComponentParams.Ports)
 			{
@@ -541,12 +544,33 @@ namespace Loader
 
 			return new StandardisedAmmunition
 			{
+				UUID = ammo.__ref,
+				Type = ammo.__type,
 				Speed = ammo.speed,
 				Range = ammo.lifetime * ammo.speed,
 				Size = ammo.size,
 				ImpactDamage = ConvertDamage(impactDamage),
 				DetonationDamage = ConvertDamage(detonationDamage),
-				Capacity = item.Components.SAmmoContainerComponentParams?.maxAmmoCount
+				Capacity = item.Components.SAmmoContainerComponentParams?.maxAmmoCount ?? item.Components.SAmmoContainerComponentParams?.maxRestockCount,
+				BulletImpulseFalloff = new StandardisedBulletImpulseFalloff{
+					MinDistance = projectiles?.impulseFalloffParams?.BulletImpulseFalloffParams?.minDistance,
+					DropFalloff = projectiles?.impulseFalloffParams?.BulletImpulseFalloffParams?.dropFalloff,
+					MaxFalloff = projectiles?.impulseFalloffParams?.BulletImpulseFalloffParams?.maxFalloff,
+				},
+				BulletPierceability = new StandardisedBulletPierceability{
+					DamageFalloffLevel1 = projectiles?.pierceabilityParams?.damageFalloffLevel1,
+					DamageFalloffLevel2 = projectiles?.pierceabilityParams?.damageFalloffLevel2,
+					DamageFalloffLevel3 = projectiles?.pierceabilityParams?.damageFalloffLevel3,
+					MaxPenetrationThickness = projectiles?.pierceabilityParams?.maxPenetrationThickness,
+				},
+				BulletElectron = new StandardisedBulletElectron{
+					JumpRange = projectiles?.electronParams?.BulletElectronParams?.jumpRange,
+					MaximumJumps = projectiles?.electronParams?.BulletElectronParams?.maximumJumps,
+					ResidualChargeMultiplier = projectiles?.electronParams?.BulletElectronParams?.residualChargeMultiplier,
+				},
+				DamageDropMinDistance = ConvertDamage(Damage.FromDamageInfo(projectiles?.damageDropParams?.BulletDamageDropParams?.damageDropMinDistance?.DamageInfo ?? new DamageInfo())),
+				DamageDropPerMeter = ConvertDamage(Damage.FromDamageInfo(projectiles?.damageDropParams?.BulletDamageDropParams?.damageDropPerMeter?.DamageInfo ?? new DamageInfo())),
+				DamageDropMinDamage = ConvertDamage(Damage.FromDamageInfo(projectiles?.damageDropParams?.BulletDamageDropParams?.damageDropMinDamage?.DamageInfo ?? new DamageInfo())),
 			};
 		}
 
@@ -613,6 +637,19 @@ namespace Loader
 		StandardisedMissile BuildMissileInfo(EntityClassDefinition item)
 		{
 			var missile = item.Components.SCItemMissileParams;
+			if (missile == null) return null;
+
+			var info = new StandardisedMissile
+			{
+				Damage = ConvertDamage(missile.explosionParams.damage[0])
+			};
+
+			return info;
+		}
+
+		StandardisedMissile BuildBombInfo(EntityClassDefinition item)
+		{
+			var missile = item.Components.SCItemBombParams;
 			if (missile == null) return null;
 
 			var info = new StandardisedMissile

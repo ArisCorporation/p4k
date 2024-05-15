@@ -5,7 +5,7 @@
     "Parts": [
       {
         "Name": "nose",
-        "MaximumDamage": 20000.0,
+        "MaximumDamage": 30000.0,
         "Parts": [
           {
             "Name": "hardpoint_docking_collar",
@@ -19,7 +19,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_MISC_Starfarer_Airlock",
+                "Name": "Door Control",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -169,6 +169,7 @@
                 "Grade": 1,
                 "Type": "MissileLauncher.MissileRack",
                 "Name": "Aegis Gemini Missile Launcher",
+                "Description": "Aegis Gemini Missile Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -666,6 +667,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -879,10 +881,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 3859212.0,
+                  "ThrustCapacity": 11500000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.0600375
+                  "MaxThrustFuelRate": 35.9375
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -931,10 +933,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 3859212.0,
+                  "ThrustCapacity": 11500000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.0600375
+                  "MaxThrustFuelRate": 35.9375
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -996,242 +998,6 @@
             "Port": {
               "PortName": "hardpoint_sidecannon_right",
               "Size": 0,
-              "Loadout": "BEHR_PC2_Dual_S4",
-              "InstalledItem": {
-                "UUID": "f10376d0-7068-4124-adf5-aabea4b69c43",
-                "ClassName": "BEHR_PC2_Dual_S4",
-                "Size": 6,
-                "Grade": 1,
-                "Type": "Turret.NoseMounted",
-                "Name": "PC2 Dual S4 Mount",
-                "Tags": [
-                  "gimbalMount",
-                  "flightReady",
-                  "$MISC_Starfarer_Base"
-                ],
-                "Width": 0.8932018,
-                "Height": 1.60379,
-                "Length": 6.633023,
-                "Volume": 0.08399999999999999,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.38
-                },
-                "Durability": {
-                  "Health": 600.0,
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 60.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_weapon_01",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_02",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.NoseMounted"
               ],
@@ -1247,242 +1013,6 @@
             "Port": {
               "PortName": "hardpoint_sidecannon_left",
               "Size": 0,
-              "Loadout": "BEHR_PC2_Dual_S4",
-              "InstalledItem": {
-                "UUID": "f10376d0-7068-4124-adf5-aabea4b69c43",
-                "ClassName": "BEHR_PC2_Dual_S4",
-                "Size": 6,
-                "Grade": 1,
-                "Type": "Turret.NoseMounted",
-                "Name": "PC2 Dual S4 Mount",
-                "Tags": [
-                  "gimbalMount",
-                  "flightReady",
-                  "$MISC_Starfarer_Base"
-                ],
-                "Width": 0.8932018,
-                "Height": 1.60379,
-                "Length": 6.633023,
-                "Volume": 0.08399999999999999,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.38
-                },
-                "Durability": {
-                  "Health": 600.0,
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 60.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_weapon_01",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "hardpoint_weapon_02",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.NoseMounted"
               ],
@@ -1506,6 +1036,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "MISC Self Destruct",
+                "Description": "MISC Self Destruct",
                 "Manufacturer": {
                   "Code": "MIS",
                   "Name": "Musashi Industrial & Starflight Concern"
@@ -1652,20 +1183,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 889.0,
-                  "ScmSpeed": 88.0,
-                  "Pitch": 20.0,
-                  "Yaw": 20.0,
-                  "Roll": 35.0,
+                  "MaxSpeed": 890.0,
+                  "ScmSpeed": 110.0,
+                  "Pitch": 17.0,
+                  "Yaw": 17.0,
+                  "Roll": 27.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
-                    "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 1500.0,
-                    "CapacitorAfterburnerIdleCost": 50.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.2,
-                    "CapacitorRegenDelayAfterUse": 5.0,
-                    "CapacitorRegenPerSec": 50.0
+                    "CapacitorThresholdRatio": 0.1,
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 1.1,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -1721,7 +1252,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "MISC_Starfarer_Base_SCItem_SeatAccess",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "MIS",
                   "Name": "Musashi Industrial & Starflight Concern"
@@ -2130,8 +1661,8 @@
             }
           }
         ],
-        "ShipDestructionDamage": 20000.0,
-        "PartDetachDamage": 20000.0
+        "ShipDestructionDamage": 30000.0,
+        "PartDetachDamage": 30000.0
       },
       {
         "Name": "landingpad_helper",
@@ -2163,7 +1694,7 @@
       },
       {
         "Name": "body",
-        "MaximumDamage": 25000.0,
+        "MaximumDamage": 30000.0,
         "Parts": [
           {
             "Name": "hardpoint_paint",
@@ -2198,10 +1729,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 23934770.0,
+                  "ThrustCapacity": 36000000.0,
                   "FuelRate": 1.05875E-05,
                   "Type": "Main",
-                  "MaxThrustFuelRate": 253.409377375
+                  "MaxThrustFuelRate": 381.15
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -2258,7 +1789,7 @@
                   "Output": 37500.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 810.0,
                   "Lifetime": 60.0
                 },
                 "PowerConnection": {
@@ -2311,7 +1842,7 @@
                   "Rate": 10400000.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 486.0,
                   "Lifetime": 176.0
                 },
                 "PowerConnection": {
@@ -2364,7 +1895,7 @@
                   "Rate": 10400000.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 486.0,
                   "Lifetime": 176.0
                 },
                 "PowerConnection": {
@@ -2408,10 +1939,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 8826342.0,
+                  "ThrustCapacity": 35900000.0,
                   "FuelRate": 1.25E-05,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 110.32927500000001
+                  "MaxThrustFuelRate": 448.75
                 },
                 "Durability": {
                   "Health": 21178.0,
@@ -2461,10 +1992,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 8826342.0,
+                  "ThrustCapacity": 35900000.0,
                   "FuelRate": 1.25E-05,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 110.32927500000001
+                  "MaxThrustFuelRate": 448.75
                 },
                 "Durability": {
                   "Health": 21178.0,
@@ -2515,10 +2046,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 7888241.0,
+                  "ThrustCapacity": 13500000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 24.650753125
+                  "MaxThrustFuelRate": 42.1875
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -2567,10 +2098,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 7888241.0,
+                  "ThrustCapacity": 13500000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 24.650753125
+                  "MaxThrustFuelRate": 42.1875
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -2602,14 +2133,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_bottom_FL",
               "Size": 0,
-              "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+              "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
               "InstalledItem": {
-                "UUID": "974d2c36-2924-4cf0-8da0-cfc0451e7655",
-                "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                "UUID": "a84d4fcd-71de-44c7-87b1-c2a86b171ced",
+                "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                 "Size": 3,
                 "Grade": 1,
                 "Type": "ManneuverThruster.JointThruster",
-                "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                 "Manufacturer": {
                   "Code": "MIS",
                   "Name": "Musashi Industrial & Starflight Concern"
@@ -2619,10 +2150,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 7888241.0,
+                  "ThrustCapacity": 5750000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 24.650753125
+                  "MaxThrustFuelRate": 17.96875
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -2654,14 +2185,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_bottom_FR",
               "Size": 0,
-              "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+              "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
               "InstalledItem": {
-                "UUID": "974d2c36-2924-4cf0-8da0-cfc0451e7655",
-                "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                "UUID": "a84d4fcd-71de-44c7-87b1-c2a86b171ced",
+                "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                 "Size": 3,
                 "Grade": 1,
                 "Type": "ManneuverThruster.JointThruster",
-                "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                 "Manufacturer": {
                   "Code": "MIS",
                   "Name": "Musashi Industrial & Starflight Concern"
@@ -2671,10 +2202,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 7888241.0,
+                  "ThrustCapacity": 5750000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 24.650753125
+                  "MaxThrustFuelRate": 17.96875
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -2729,7 +2260,7 @@
                 },
                 "Shield": {
                   "Health": 100000.0,
-                  "Regeneration": 1200.0,
+                  "Regeneration": 1600.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -2760,7 +2291,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 2500.0,
+                  "Health": 540.0,
                   "Lifetime": 80.0
                 },
                 "PowerConnection": {
@@ -2822,286 +2353,6 @@
             "Port": {
               "PortName": "hardpoint_front_turret",
               "Size": 12,
-              "Loadout": "MISC_Starfarer_Gemini_SCItem_Turret_Large",
-              "InstalledItem": {
-                "UUID": "3a9fd190-fb3f-42c6-aa87-0c7e7e42ec10",
-                "ClassName": "MISC_Starfarer_Gemini_SCItem_Turret_Large",
-                "Size": 12,
-                "Grade": 1,
-                "Type": "TurretBase.MannedTurret",
-                "Name": "Manned Turret",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0,
-                  "Lifetime": 25.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "turret_left",
-                    "Size": 5,
-                    "Loadout": "KLWE_LaserRepeater_S5",
-                    "InstalledItem": {
-                      "UUID": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-                      "ClassName": "KLWE_LaserRepeater_S5",
-                      "Size": 5,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-557 Galdereen Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 5\n\nWith a bite as fearsome as its fanged namesake, the Klaus & Werner CF-557 Galdereen laser repeater is a solid choice for a wide range of vehicles thanks to its high rate of fire and consistent efficacy.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 1.116502,
-                      "Height": 2.004737,
-                      "Length": 8.84403,
-                      "Volume": 4.2,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 2640.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 500.0,
-                        "PowerDraw": 500.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 383.378
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 2800.0,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 270.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 225.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 270.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 1012.5
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 5062.5,
-                          "Cooldown": 1.75,
-                          "CostPerBullet": 270.0,
-                          "RequestedAmmoLoad": 30375.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 2800.0,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 270.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "turret_right",
-                    "Size": 5,
-                    "Loadout": "KLWE_LaserRepeater_S5",
-                    "InstalledItem": {
-                      "UUID": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-                      "ClassName": "KLWE_LaserRepeater_S5",
-                      "Size": 5,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "CF-557 Galdereen Repeater",
-                      "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 5\n\nWith a bite as fearsome as its fanged namesake, the Klaus & Werner CF-557 Galdereen laser repeater is a solid choice for a wide range of vehicles thanks to its high rate of fire and consistent efficacy.",
-                      "Manufacturer": {
-                        "Code": "KLA",
-                        "Name": "Klaus & Werner"
-                      },
-                      "Tags": [
-                        "KLWE",
-                        "LaserRepeater",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 1.116502,
-                      "Height": 2.004737,
-                      "Length": 8.84403,
-                      "Volume": 4.2,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 2640.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 500.0,
-                        "PowerDraw": 500.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 383.378
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 2800.0,
-                          "Size": 3.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 270.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[SEMI]",
-                            "RoundsPerMinute": 225.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 270.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 1012.5
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 5062.5,
-                          "Cooldown": 1.75,
-                          "CostPerBullet": 270.0,
-                          "RequestedAmmoLoad": 30375.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 2800.0,
-                        "Size": 3.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 270.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "BAR1",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Barrel"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "MEC",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.FiringMechanism"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "POW",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.PowerArray"
-                          ],
-                          "Category": "Weapon attachments"
-                        },
-                        {
-                          "PortName": "VEN",
-                          "Size": 1,
-                          "Types": [
-                            "WeaponAttachment.Ventilation"
-                          ],
-                          "Category": "Weapon attachments"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "TurretBase.MannedTurret"
               ],
@@ -3139,10 +2390,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 7888241.0,
+                      "ThrustCapacity": 13500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 24.650753125
+                      "MaxThrustFuelRate": 42.1875
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -3191,10 +2442,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 22428440.0,
+                      "ThrustCapacity": 35800000.0,
                       "FuelRate": 1.25E-05,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 280.3555
+                      "MaxThrustFuelRate": 447.5
                     },
                     "Durability": {
                       "Health": 22500.0,
@@ -3226,14 +2477,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_RR",
                   "Size": 0,
-                  "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                  "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                   "InstalledItem": {
-                    "UUID": "974d2c36-2924-4cf0-8da0-cfc0451e7655",
-                    "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                    "UUID": "a84d4fcd-71de-44c7-87b1-c2a86b171ced",
+                    "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                    "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                     "Manufacturer": {
                       "Code": "MIS",
                       "Name": "Musashi Industrial & Starflight Concern"
@@ -3243,10 +2494,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 7888241.0,
+                      "ThrustCapacity": 5750000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 24.650753125
+                      "MaxThrustFuelRate": 17.96875
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -3295,10 +2546,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3859212.0,
+                      "ThrustCapacity": 11500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 12.0600375
+                      "MaxThrustFuelRate": 35.9375
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -3329,285 +2580,6 @@
                 "Port": {
                   "PortName": "hardpoint_rear_right_turret",
                   "Size": 8,
-                  "Loadout": "MISC_Starfarer_Gemini_SCItem_Turret_Small_Right",
-                  "InstalledItem": {
-                    "UUID": "83a0c38e-83f6-4ebd-9d0e-6bc2e538fb7a",
-                    "ClassName": "MISC_Starfarer_Gemini_SCItem_Turret_Small_Right",
-                    "Size": 8,
-                    "Grade": 1,
-                    "Type": "TurretBase.MannedTurret",
-                    "Name": "Manned Turret",
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "Durability": {
-                      "Health": 1.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 0.0,
-                      "PowerDraw": 2.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 10.0,
-                      "ThermalEnergyDraw": 20.0,
-                      "CoolingRate": 1.0
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "turret_left",
-                        "Size": 3,
-                        "Loadout": "KLWE_LaserRepeater_S3",
-                        "InstalledItem": {
-                          "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-                          "ClassName": "KLWE_LaserRepeater_S3",
-                          "Size": 3,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-337 Panther Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.6699014,
-                          "Height": 1.202842,
-                          "Length": 4.422015,
-                          "Volume": 0.756,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 0.7
-                          },
-                          "Durability": {
-                            "Health": 1024.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 200.0,
-                            "PowerDraw": 200.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 100.0,
-                            "CoolingRate": 160.0
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 60.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 500.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 60.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 500.00000000000006
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 2500.0,
-                              "Cooldown": 1.25,
-                              "CostPerBullet": 60.0,
-                              "RequestedAmmoLoad": 15000.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 60.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "turret_right",
-                        "Size": 3,
-                        "Loadout": "KLWE_LaserRepeater_S3",
-                        "InstalledItem": {
-                          "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-                          "ClassName": "KLWE_LaserRepeater_S3",
-                          "Size": 3,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-337 Panther Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.6699014,
-                          "Height": 1.202842,
-                          "Length": 4.422015,
-                          "Volume": 0.756,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 0.7
-                          },
-                          "Durability": {
-                            "Health": 1024.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 200.0,
-                            "PowerDraw": 200.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 100.0,
-                            "CoolingRate": 160.0
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 60.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 500.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 60.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 500.00000000000006
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 2500.0,
-                              "Cooldown": 1.25,
-                              "CostPerBullet": 60.0,
-                              "RequestedAmmoLoad": 15000.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 60.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      }
-                    ]
-                  },
                   "Types": [
                     "TurretBase.MannedTurret"
                   ],
@@ -3642,6 +2614,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "Joker Defcon Flares Ammo",
+                    "Description": "Joker Defcon Flares Ammo",
                     "Manufacturer": {
                       "Code": "JOK",
                       "Name": "Joker Engineering"
@@ -3664,11 +2637,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                        "Type": "AmmoParams",
                         "Speed": 90.0,
                         "Range": 1080.0,
                         "Size": 0.0,
                         "Capacity": 25.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -3684,11 +2665,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                      "Type": "AmmoParams",
                       "Speed": 90.0,
                       "Range": 1080.0,
                       "Size": 0.0,
                       "Capacity": 25.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -3739,6 +2728,7 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Durability": {
+                      "Health": 1000.0,
                       "Lifetime": 720.0
                     },
                     "PowerConnection": {
@@ -3805,10 +2795,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 7735313.0,
+                      "ThrustCapacity": 13512500.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 24.172853125
+                      "MaxThrustFuelRate": 42.2265625
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -3864,10 +2854,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 22428440.0,
+                      "ThrustCapacity": 35800000.0,
                       "FuelRate": 1.25E-05,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 280.3555
+                      "MaxThrustFuelRate": 447.5
                     },
                     "Durability": {
                       "Health": 22500.0,
@@ -3899,14 +2889,14 @@
                 "Port": {
                   "PortName": "hardpoint_thruster_bottom_RL",
                   "Size": 0,
-                  "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                  "Loadout": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                   "InstalledItem": {
-                    "UUID": "974d2c36-2924-4cf0-8da0-cfc0451e7655",
-                    "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                    "UUID": "a84d4fcd-71de-44c7-87b1-c2a86b171ced",
+                    "ClassName": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                     "Size": 3,
                     "Grade": 1,
                     "Type": "ManneuverThruster.JointThruster",
-                    "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint",
+                    "Name": "MISC_Starfarer_Gemini_Thruster_Mav_Joint_Bottom",
                     "Manufacturer": {
                       "Code": "MIS",
                       "Name": "Musashi Industrial & Starflight Concern"
@@ -3916,10 +2906,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 7888241.0,
+                      "ThrustCapacity": 5750000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 24.650753125
+                      "MaxThrustFuelRate": 17.96875
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -3968,10 +2958,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 3859212.0,
+                      "ThrustCapacity": 11500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 12.0600375
+                      "MaxThrustFuelRate": 35.9375
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -4020,10 +3010,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 7888241.0,
+                      "ThrustCapacity": 13500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 24.650753125
+                      "MaxThrustFuelRate": 42.1875
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -4054,285 +3044,6 @@
                 "Port": {
                   "PortName": "hardpoint_rear_left_turret",
                   "Size": 8,
-                  "Loadout": "MISC_Starfarer_Gemini_SCItem_Turret_Small",
-                  "InstalledItem": {
-                    "UUID": "2df72c31-934f-44c0-b80d-66dd6d48d9dc",
-                    "ClassName": "MISC_Starfarer_Gemini_SCItem_Turret_Small",
-                    "Size": 8,
-                    "Grade": 1,
-                    "Type": "TurretBase.MannedTurret",
-                    "Name": "Manned Turret",
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "Durability": {
-                      "Health": 1.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 0.0,
-                      "PowerDraw": 2.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 10.0,
-                      "ThermalEnergyDraw": 20.0,
-                      "CoolingRate": 1.0
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "turret_left",
-                        "Size": 3,
-                        "Loadout": "KLWE_LaserRepeater_S3",
-                        "InstalledItem": {
-                          "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-                          "ClassName": "KLWE_LaserRepeater_S3",
-                          "Size": 3,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-337 Panther Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.6699014,
-                          "Height": 1.202842,
-                          "Length": 4.422015,
-                          "Volume": 0.756,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 0.7
-                          },
-                          "Durability": {
-                            "Health": 1024.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 200.0,
-                            "PowerDraw": 200.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 100.0,
-                            "CoolingRate": 160.0
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 60.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 500.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 60.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 500.00000000000006
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 2500.0,
-                              "Cooldown": 1.25,
-                              "CostPerBullet": 60.0,
-                              "RequestedAmmoLoad": 15000.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 60.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "turret_right",
-                        "Size": 3,
-                        "Loadout": "KLWE_LaserRepeater_S3",
-                        "InstalledItem": {
-                          "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-                          "ClassName": "KLWE_LaserRepeater_S3",
-                          "Size": 3,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "CF-337 Panther Repeater",
-                          "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-                          "Manufacturer": {
-                            "Code": "KLA",
-                            "Name": "Klaus & Werner"
-                          },
-                          "Tags": [
-                            "KLWE",
-                            "LaserRepeater",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.6699014,
-                          "Height": 1.202842,
-                          "Length": 4.422015,
-                          "Volume": 0.756,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 0.7
-                          },
-                          "Durability": {
-                            "Health": 1024.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 200.0,
-                            "PowerDraw": 200.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 100.0,
-                            "CoolingRate": 160.0
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 1400.0,
-                              "Range": 1540.0000000000002,
-                              "Size": 3.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 60.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[SEMI]",
-                                "RoundsPerMinute": 500.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 60.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 500.00000000000006
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 2500.0,
-                              "Cooldown": 1.25,
-                              "CostPerBullet": 60.0,
-                              "RequestedAmmoLoad": 15000.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 1400.0,
-                            "Range": 1540.0000000000002,
-                            "Size": 3.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 60.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "BAR1",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Barrel"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "MEC",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.FiringMechanism"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "POW",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.PowerArray"
-                              ],
-                              "Category": "Weapon attachments"
-                            },
-                            {
-                              "PortName": "VEN",
-                              "Size": 1,
-                              "Types": [
-                                "WeaponAttachment.Ventilation"
-                              ],
-                              "Category": "Weapon attachments"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      }
-                    ]
-                  },
                   "Types": [
                     "TurretBase.MannedTurret"
                   ],
@@ -4362,6 +3073,7 @@
                     "Grade": 1,
                     "Type": "WeaponDefensive.CountermeasureLauncher",
                     "Name": "Joker Defcon Flares Ammo",
+                    "Description": "Joker Defcon Flares Ammo",
                     "Manufacturer": {
                       "Code": "JOK",
                       "Name": "Joker Engineering"
@@ -4384,11 +3096,19 @@
                     },
                     "Weapon": {
                       "Ammunition": {
+                        "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                        "Type": "AmmoParams",
                         "Speed": 90.0,
                         "Range": 1080.0,
                         "Size": 0.0,
                         "Capacity": 25.0,
-                        "ImpactDamage": {}
+                        "ImpactDamage": {},
+                        "BulletImpulseFalloff": {},
+                        "BulletPierceability": {},
+                        "BulletElectron": {},
+                        "DamageDropMinDistance": {},
+                        "DamageDropPerMeter": {},
+                        "DamageDropMinDamage": {}
                       },
                       "Modes": [
                         {
@@ -4404,11 +3124,19 @@
                       ]
                     },
                     "Ammunition": {
+                      "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                      "Type": "AmmoParams",
                       "Speed": 90.0,
                       "Range": 1080.0,
                       "Size": 0.0,
                       "Capacity": 25.0,
-                      "ImpactDamage": {}
+                      "ImpactDamage": {},
+                      "BulletImpulseFalloff": {},
+                      "BulletPierceability": {},
+                      "BulletElectron": {},
+                      "DamageDropMinDistance": {},
+                      "DamageDropPerMeter": {},
+                      "DamageDropMinDamage": {}
                     }
                   },
                   "Types": [
@@ -4459,6 +3187,7 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Durability": {
+                      "Health": 1000.0,
                       "Lifetime": 720.0
                     },
                     "PowerConnection": {
@@ -4525,10 +3254,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 7735313.0,
+                      "ThrustCapacity": 13512500.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 24.172853125
+                      "MaxThrustFuelRate": 42.2265625
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -4592,18 +3321,18 @@
                     "Cooldown": 12.0,
                     "Stage1AccelerationRate": 1000080.0,
                     "State2AccelerationRate": 8342420.0,
-                    "SpoolUpTime": 5.625
+                    "SpoolUpTime": 7.0
                   },
                   "SplineJump": {
                     "Speed": 400000.0,
                     "Cooldown": 12.0,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 5.0
+                    "SpoolUpTime": 7.0
                   }
                 },
                 "Durability": {
-                  "Health": 5062.5,
+                  "Health": 540.0,
                   "Lifetime": 52.0
                 },
                 "PowerConnection": {
@@ -4614,7 +3343,22 @@
                   "ThermalEnergyBase": 242672.7,
                   "ThermalEnergyDraw": 242672.7,
                   "CoolingRate": 205.5703
-                }
+                },
+                "Ports": [
+                  {
+                    "PortName": "hardpoint_Jump_Drive",
+                    "Size": 3,
+                    "Types": [
+                      "JumpDrive.JumpDrive"
+                    ],
+                    "Flags": [
+                      "uneditable",
+                      "invisible"
+                    ],
+                    "Category": "UNKNOWN",
+                    "Uneditable": true
+                  }
+                ]
               },
               "Types": [
                 "QuantumDrive.QDrive"
@@ -4761,6 +3505,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon - Noise Launcher",
+                "Description": "Joker Defcon - Noise Launcher",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -4783,11 +3528,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 10.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -4803,11 +3556,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 10.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -4834,6 +3595,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon - Noise Launcher",
+                "Description": "Joker Defcon - Noise Launcher",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -4856,11 +3618,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 10.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -4876,11 +3646,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 10.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -4907,6 +3685,7 @@
                 "Grade": 1,
                 "Type": "Armor.Medium",
                 "Name": "Starfarer Gemini Ship Armor",
+                "Description": "Starfarer Gemini Ship Armor",
                 "Manufacturer": {
                   "Code": "MIS",
                   "Name": "Musashi Industrial & Starflight Concern"
@@ -4918,6 +3697,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.48,
@@ -5121,7 +3903,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "MISC_Starfarer_Base_SCItem_SeatAccess_Turret",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "MIS",
                   "Name": "Musashi Industrial & Starflight Concern"
@@ -5249,6 +4031,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -5304,7 +4087,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_Starfarer",
+                "Name": "Door Control",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5442,7 +4225,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Bed_Single_Starfarer_Captain",
+                "Name": "Bed",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5485,7 +4268,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Bed_Single_Starfarer_Crew",
+                "Name": "Bed",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5528,7 +4311,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Bed_Single_Starfarer_Crew",
+                "Name": "Bed",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5571,7 +4354,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Bed_Single_Starfarer_Crew",
+                "Name": "Bed",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5614,7 +4397,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Bed_Single_Starfarer_Crew",
+                "Name": "Bed",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5657,7 +4440,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Bed_Single_Starfarer_Crew",
+                "Name": "Bed",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5700,7 +4483,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Bed_Single_Starfarer_Crew",
+                "Name": "Bed",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5754,10 +4537,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 7787665.0,
+                  "ThrustCapacity": 13613120.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 24.336453125000002
+                  "MaxThrustFuelRate": 42.541000000000004
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -5807,10 +4590,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 7787665.0,
+                  "ThrustCapacity": 13613120.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 24.336453125000002
+                  "MaxThrustFuelRate": 42.541000000000004
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -5849,7 +4632,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_Starfarer_Ramp_Attachable",
+                "Name": "Door Control",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -6004,24 +4787,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_Starfarer",
-              "InstalledItem": {
-                "UUID": "ffd0afbd-24c8-457c-b997-cbd7f74de501",
-                "ClassName": "WeaponRegenPool_Crew_Starfarer",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_Starfarer",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 15000,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -6100,8 +4865,8 @@
             }
           }
         ],
-        "ShipDestructionDamage": 25000.0,
-        "PartDetachDamage": 25000.0
+        "ShipDestructionDamage": 30000.0,
+        "PartDetachDamage": 30000.0
       }
     ]
   }

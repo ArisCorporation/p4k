@@ -16,6 +16,9 @@
           "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
         },
         {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
           "value": "9314b308-b5dd-44ce-8e81-61e1764cbd57"
         },
         {
@@ -23,6 +26,9 @@
         },
         {
           "value": "370a5667-2763-4cf1-b272-a8ba069fe5c2"
+        },
+        {
+          "value": "aad21c30-ad5a-47e2-a899-199fcc77aaf7"
         },
         {
           "value": "bc8a01c9-686c-43e7-bacb-2e9117ee208b"
@@ -37,7 +43,7 @@
           "dogfightEnabled": 1,
           "unmovable": 0,
           "isGravlevVehicle": false,
-          "incomingDamageModifierToAI": 1.0,
+          "incomingDamageModifierToAI": 0.0,
           "emergencyStatusDamageThreshold": 0.1,
           "crewSize": 1,
           "vehicleName": "@vehicle_NameXNAA_SantokYai",
@@ -214,12 +220,12 @@
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_forward_left",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Retro",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_forward_right",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Retro",
                   "loadout": {}
                 },
                 {
@@ -244,52 +250,52 @@
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_backward_right",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Main",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_backward_left",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Main",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_downward_front",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Bottom",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_downward_rear",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Bottom",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_upward_front",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Top",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_upward_rear",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Top",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_upward_left",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Top",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_downward_left",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Bottom",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_downward_right",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Bottom",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_mav_thruster_upward_right",
-                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav",
+                  "entityClassName": "XNAA_SanTokYai_Thruster_Mav_Top",
                   "loadout": {}
                 },
                 {
@@ -329,13 +335,13 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_top_left",
-                  "entityClassName": "XNAA_SanTokYai_Mount_Gimbal",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "hardpoint_weapon",
-                          "entityClassName": "TOAG_LaserRepeater_S3",
+                          "entityClassName": "",
                           "loadout": {}
                         }
                       ]
@@ -344,13 +350,13 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_top_right",
-                  "entityClassName": "XNAA_SanTokYai_Mount_Gimbal",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "hardpoint_weapon",
-                          "entityClassName": "TOAG_LaserRepeater_S3",
+                          "entityClassName": "",
                           "loadout": {}
                         }
                       ]
@@ -359,13 +365,13 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_bottom_left",
-                  "entityClassName": "XNAA_SanTokYai_Mount_Gimbal",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "hardpoint_weapon",
-                          "entityClassName": "TOAG_LaserRepeater_S3",
+                          "entityClassName": "",
                           "loadout": {}
                         }
                       ]
@@ -374,13 +380,13 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_bottom_right",
-                  "entityClassName": "XNAA_SanTokYai_Mount_Gimbal",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "hardpoint_weapon",
-                          "entityClassName": "TOAG_LaserRepeater_S3",
+                          "entityClassName": "",
                           "loadout": {}
                         }
                       ]
@@ -484,7 +490,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "WeaponRegenPool_Crew_HeavyFighter",
+                  "entityClassName": "",
                   "loadout": {}
                 },
                 {

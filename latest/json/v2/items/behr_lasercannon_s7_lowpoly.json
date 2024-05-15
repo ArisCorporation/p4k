@@ -41,13 +41,26 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 700.0,
-      "Range": 2800.0,
+      "UUID": "8d7fa524-69be-4aa0-9cdb-f5e264d64dfc",
+      "Type": "AmmoParams",
+      "Speed": 1000.0,
+      "Range": 4000.0,
       "Size": 7.0,
       "Capacity": 0.0,
       "ImpactDamage": {
-        "Energy": 3000.0
-      }
+        "Energy": 2562.6
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
@@ -58,28 +71,41 @@
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Energy": 3000.0
+          "Energy": 2562.6
         },
         "DamagePerSecond": {
-          "Energy": 3000.0
+          "Energy": 2562.6
         }
       }
     ],
     "Consumption": {
-      "RequestedRegenPerSec": 12500.0,
-      "Cooldown": 2.25,
-      "CostPerBullet": 1500.0,
-      "RequestedAmmoLoad": 75000.0
+      "RequestedRegenPerSec": 21355.0,
+      "Cooldown": 0.75,
+      "CostPerBullet": 1281.0,
+      "RequestedAmmoLoad": 128130.0
     }
   },
   "Ammunition": {
-    "Speed": 700.0,
-    "Range": 2800.0,
+    "UUID": "8d7fa524-69be-4aa0-9cdb-f5e264d64dfc",
+    "Type": "AmmoParams",
+    "Speed": 1000.0,
+    "Range": 4000.0,
     "Size": 7.0,
     "Capacity": 0.0,
     "ImpactDamage": {
-      "Energy": 3000.0
-    }
+      "Energy": 2562.6
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {

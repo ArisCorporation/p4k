@@ -8,7 +8,8 @@
   "Name": "DR Model-XJ1 Repeater",
   "Description": "Manufacturer: Associated Science & Development\nItem Type: Distortion Repeater\nSize: 1\n\nPower is the life blood of every ship, and the DR Model-XJ1 from ASD is the ideal choice to bleed hostiles dry. This cutting-edge distortion repeater allows you to disrupt power on targets, disabling threats efficiently. ",
   "Manufacturer": {
-    "Code": "ASAD"
+    "Code": "ASAD",
+    "Name": "PH Associated Science and Development"
   },
   "Tags": [
     "ASAD",
@@ -40,53 +41,79 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 1400.0,
-      "Range": 1540.0000000000002,
+      "UUID": "0b4585ed-cec4-4da3-bdf5-3cfe20e72937",
+      "Type": "AmmoParams",
+      "Speed": 1300.0,
+      "Range": 2000.284,
       "Size": 1.0,
       "Capacity": 0.0,
       "ImpactDamage": {
         "Energy": 0.0001
       },
       "DetonationDamage": {
-        "Distortion": 30.0
-      }
+        "Distortion": 25.7
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
         "Name": "Single",
         "LocalisedName": "[SEMI]",
-        "RoundsPerMinute": 320.0,
+        "RoundsPerMinute": 400.0,
         "FireType": "sequence",
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
           "Energy": 0.0001,
-          "Distortion": 30.0
+          "Distortion": 25.7
         },
         "DamagePerSecond": {
-          "Energy": 0.0005333333333333334,
-          "Distortion": 160.0
+          "Energy": 0.0006666666666666668,
+          "Distortion": 171.33333333333334
         }
       }
     ],
     "Consumption": {
-      "RequestedRegenPerSec": 800.0,
+      "RequestedRegenPerSec": 1500.0,
       "Cooldown": 0.75,
-      "CostPerBullet": 30.0,
-      "RequestedAmmoLoad": 4800.0
+      "CostPerBullet": 45.0,
+      "RequestedAmmoLoad": 9000.0
     }
   },
   "Ammunition": {
-    "Speed": 1400.0,
-    "Range": 1540.0000000000002,
+    "UUID": "0b4585ed-cec4-4da3-bdf5-3cfe20e72937",
+    "Type": "AmmoParams",
+    "Speed": 1300.0,
+    "Range": 2000.284,
     "Size": 1.0,
     "Capacity": 0.0,
     "ImpactDamage": {
       "Energy": 0.0001
     },
     "DetonationDamage": {
-      "Distortion": 30.0
-    }
+      "Distortion": 25.7
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {
@@ -101,7 +128,8 @@
         "Type": "WeaponAttachment.Barrel",
         "Name": "ASAD_DistortionRepeater_Barrel_S1",
         "Manufacturer": {
-          "Code": "ASAD"
+          "Code": "ASAD",
+          "Name": "PH Associated Science and Development"
         },
         "Tags": [
           "uneditable"
@@ -127,7 +155,8 @@
         "Type": "WeaponAttachment.FiringMechanism",
         "Name": "ASAD_DistortionRepeater_FiringMechanism_S1",
         "Manufacturer": {
-          "Code": "ASAD"
+          "Code": "ASAD",
+          "Name": "PH Associated Science and Development"
         },
         "Tags": [
           "uneditable"
@@ -153,7 +182,8 @@
         "Type": "WeaponAttachment.PowerArray",
         "Name": "ASAD_DistortionRepeater_PowerArray_S1",
         "Manufacturer": {
-          "Code": "ASAD"
+          "Code": "ASAD",
+          "Name": "PH Associated Science and Development"
         },
         "Tags": [
           "uneditable"
@@ -179,7 +209,8 @@
         "Type": "WeaponAttachment.Ventilation",
         "Name": "ASAD_DistortionRepeater_Ventilation_S1",
         "Manufacturer": {
-          "Code": "ASAD"
+          "Code": "ASAD",
+          "Name": "PH Associated Science and Development"
         },
         "Tags": [
           "uneditable"

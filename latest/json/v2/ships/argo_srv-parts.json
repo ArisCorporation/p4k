@@ -5,7 +5,7 @@
     "Parts": [
       {
         "Name": "Body",
-        "MaximumDamage": 5500.0,
+        "MaximumDamage": 10000.0,
         "Parts": [
           {
             "Name": "hardpoint_thruster_FSR",
@@ -29,10 +29,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 2553320.0,
+                  "ThrustCapacity": 2975000.0,
                   "FuelRate": 5E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.7666
+                  "MaxThrustFuelRate": 14.875000000000002
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -80,10 +80,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 2553320.0,
+                  "ThrustCapacity": 2975000.0,
                   "FuelRate": 5E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.7666
+                  "MaxThrustFuelRate": 14.875000000000002
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -114,14 +114,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_FTR",
               "Size": 0,
-              "Loadout": "ARGO_SRV_Thruster_Mav",
+              "Loadout": "ARGO_SRV_Thruster_Mav_Top",
               "InstalledItem": {
-                "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                "ClassName": "ARGO_SRV_Thruster_Mav",
+                "UUID": "e14330aa-6469-40a2-8dfb-51ee671df2c7",
+                "ClassName": "ARGO_SRV_Thruster_Mav_Top",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.UNDEFINED",
-                "Name": "ARGO_SRV_Thruster_Mav",
+                "Name": "ARGO_SRV_Thruster_Mav_Top",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -131,10 +131,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 2553320.0,
+                  "ThrustCapacity": 2420000.0,
                   "FuelRate": 5E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.7666
+                  "MaxThrustFuelRate": 12.100000000000001
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -165,14 +165,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_FTL",
               "Size": 0,
-              "Loadout": "ARGO_SRV_Thruster_Mav",
+              "Loadout": "ARGO_SRV_Thruster_Mav_Top",
               "InstalledItem": {
-                "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                "ClassName": "ARGO_SRV_Thruster_Mav",
+                "UUID": "e14330aa-6469-40a2-8dfb-51ee671df2c7",
+                "ClassName": "ARGO_SRV_Thruster_Mav_Top",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.UNDEFINED",
-                "Name": "ARGO_SRV_Thruster_Mav",
+                "Name": "ARGO_SRV_Thruster_Mav_Top",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -182,10 +182,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 2553320.0,
+                  "ThrustCapacity": 2420000.0,
                   "FuelRate": 5E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.7666
+                  "MaxThrustFuelRate": 12.100000000000001
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -416,24 +416,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_SRV",
-              "InstalledItem": {
-                "UUID": "4e2b1876-4266-461b-a5d1-8ea08a500250",
-                "ClassName": "WeaponRegenPool_Crew_SRV",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_SRV",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 3000.0,
-                  "AmmoLoad": 3000,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -501,8 +483,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 9000.0,
-                  "Regeneration": 500.0,
+                  "Health": 6000.0,
+                  "Regeneration": 400.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -565,6 +547,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "MISC Self Destruct",
+                "Description": "MISC Self Destruct",
                 "Manufacturer": {
                   "Code": "MIS",
                   "Name": "Musashi Industrial & Starflight Concern"
@@ -610,6 +593,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 1000.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -722,14 +706,14 @@
                     "Cooldown": 37.8,
                     "Stage1AccelerationRate": 637000.5,
                     "State2AccelerationRate": 8185776.0,
-                    "SpoolUpTime": 8.0
+                    "SpoolUpTime": 5.0
                   },
                   "SplineJump": {
                     "Speed": 400000.0,
                     "Cooldown": 37.8,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 8.0
+                    "SpoolUpTime": 5.0
                   }
                 },
                 "Durability": {
@@ -744,7 +728,22 @@
                   "ThermalEnergyBase": 87468.0,
                   "ThermalEnergyDraw": 87468.0,
                   "CoolingRate": 115.1328
-                }
+                },
+                "Ports": [
+                  {
+                    "PortName": "hardpoint_Jump_Drive",
+                    "Size": 2,
+                    "Types": [
+                      "JumpDrive.JumpDrive"
+                    ],
+                    "Flags": [
+                      "uneditable",
+                      "invisible"
+                    ],
+                    "Category": "UNKNOWN",
+                    "Uneditable": true
+                  }
+                ]
               },
               "Types": [
                 "QuantumDrive.QDrive"
@@ -983,20 +982,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 1090.0,
-                  "ScmSpeed": 124.0,
-                  "Pitch": 42.0,
-                  "Yaw": 39.0,
-                  "Roll": 112.0,
+                  "MaxSpeed": 985.0,
+                  "ScmSpeed": 140.0,
+                  "Pitch": 30.0,
+                  "Yaw": 30.0,
+                  "Roll": 60.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 3000.0,
-                    "CapacitorAfterburnerIdleCost": 20.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.1,
-                    "CapacitorRegenDelayAfterUse": 3.0,
-                    "CapacitorRegenPerSec": 100.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 1.1,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -1140,6 +1139,7 @@
                 "Grade": 1,
                 "Type": "Armor.Medium",
                 "Name": "Argo MPUV Ship Armor",
+                "Description": "Argo MPUV Ship Armor",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -1151,6 +1151,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.45,
@@ -1267,7 +1270,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "SeatAccess.UNDEFINED",
-                "Name": "ARGO_SRV_SCItem_SeatAccess",
+                "Name": "Seat",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -1383,7 +1386,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "ARGO_SRV_Entrance_Lift",
+                "Name": "Door Control",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -1506,7 +1509,7 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_ARGO_SRV",
+                      "Name": "Door Control",
                       "Manufacturer": {
                         "Code": "ARGO",
                         "Name": "Argo Astronautics"
@@ -1531,7 +1534,7 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_ARGO_SRV",
+                      "Name": "Door Control",
                       "Manufacturer": {
                         "Code": "ARGO",
                         "Name": "Argo Astronautics"
@@ -1556,7 +1559,7 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_ARGO_SRV_Int",
+                      "Name": "Door Control",
                       "Manufacturer": {
                         "Code": "ARGO",
                         "Name": "Argo Astronautics"
@@ -1595,7 +1598,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "ARGO_SRV_Exterior_Door",
+                "Name": "Door Control",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -1764,14 +1767,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_FBR",
               "Size": 0,
-              "Loadout": "ARGO_SRV_Thruster_Mav",
+              "Loadout": "ARGO_SRV_Thruster_Mav_Bottom",
               "InstalledItem": {
-                "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                "ClassName": "ARGO_SRV_Thruster_Mav",
+                "UUID": "58e789b2-abf0-42ce-aed0-18b94374aa2a",
+                "ClassName": "ARGO_SRV_Thruster_Mav_Bottom",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.UNDEFINED",
-                "Name": "ARGO_SRV_Thruster_Mav",
+                "Name": "ARGO_SRV_Thruster_Mav_Bottom",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -1781,10 +1784,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 2553320.0,
+                  "ThrustCapacity": 2290000.0,
                   "FuelRate": 5E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.7666
+                  "MaxThrustFuelRate": 11.450000000000001
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -1815,14 +1818,14 @@
             "Port": {
               "PortName": "hardpoint_thruster_FBL",
               "Size": 0,
-              "Loadout": "ARGO_SRV_Thruster_Mav",
+              "Loadout": "ARGO_SRV_Thruster_Mav_Bottom",
               "InstalledItem": {
-                "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                "ClassName": "ARGO_SRV_Thruster_Mav",
+                "UUID": "58e789b2-abf0-42ce-aed0-18b94374aa2a",
+                "ClassName": "ARGO_SRV_Thruster_Mav_Bottom",
                 "Size": 1,
                 "Grade": 1,
                 "Type": "ManneuverThruster.UNDEFINED",
-                "Name": "ARGO_SRV_Thruster_Mav",
+                "Name": "ARGO_SRV_Thruster_Mav_Bottom",
                 "Manufacturer": {
                   "Code": "ARGO",
                   "Name": "Argo Astronautics"
@@ -1832,10 +1835,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 2553320.0,
+                  "ThrustCapacity": 2290000.0,
                   "FuelRate": 5E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 12.7666
+                  "MaxThrustFuelRate": 11.450000000000001
                 },
                 "Durability": {
                   "Health": 21000.0,
@@ -1887,10 +1890,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1248195.0,
+                      "ThrustCapacity": 287500.0,
                       "FuelRate": 5E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 6.240975000000001
+                      "MaxThrustFuelRate": 1.4375000000000002
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -1945,10 +1948,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1248195.0,
+                      "ThrustCapacity": 287500.0,
                       "FuelRate": 5E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 6.240975000000001
+                      "MaxThrustFuelRate": 1.4375000000000002
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -2003,10 +2006,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1248195.0,
+                      "ThrustCapacity": 287500.0,
                       "FuelRate": 5E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 6.240975000000001
+                      "MaxThrustFuelRate": 1.4375000000000002
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -2061,10 +2064,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 1248195.0,
+                      "ThrustCapacity": 287500.0,
                       "FuelRate": 5E-06,
                       "Type": "Main",
-                      "MaxThrustFuelRate": 6.240975000000001
+                      "MaxThrustFuelRate": 1.4375000000000002
                     },
                     "Durability": {
                       "Health": 21000.0,
@@ -2105,7 +2108,7 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Weapon_Rack_ARGO_SRV",
+                "Name": "Weapon Rack",
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -2256,6 +2259,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Gladius - Decoy Launcher",
+                "Description": "Aegis Gladius - Decoy Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2278,11 +2282,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                    "Type": "AmmoParams",
                     "Speed": 65.0,
                     "Range": 520.0,
                     "Size": 0.0,
                     "Capacity": 48.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2298,11 +2310,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+                  "Type": "AmmoParams",
                   "Speed": 65.0,
                   "Range": 520.0,
                   "Size": 0.0,
                   "Capacity": 48.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2334,6 +2354,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Aegis Gladius - Noise Launcher",
+                "Description": "Aegis Gladius - Noise Launcher",
                 "Manufacturer": {
                   "Code": "AEG",
                   "Name": "Aegis Dynamics"
@@ -2356,11 +2377,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 5.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2376,11 +2405,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 5.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2396,7 +2433,7 @@
           },
           {
             "Name": "Rear",
-            "MaximumDamage": 6500.0,
+            "MaximumDamage": 8500.0,
             "Parts": [
               {
                 "Name": "hardpoint_cargo_lift",
@@ -2410,7 +2447,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "ARGO_SRV_Cargo_Lift",
+                    "Name": "Door Control",
                     "Manufacturer": {
                       "Code": "ARGO",
                       "Name": "Argo Astronautics"
@@ -2579,7 +2616,7 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "ControlPanel.DoorPart",
-                          "Name": "ControlPanel_Screen_DoorControl_ARGO_SRV_Cargo",
+                          "Name": "Door Control",
                           "Manufacturer": {
                             "Code": "ARGO",
                             "Name": "Argo Astronautics"
@@ -2604,7 +2641,7 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "ControlPanel.DoorPart",
-                          "Name": "ControlPanel_Screen_DoorControl_ARGO_SRV_Cargo",
+                          "Name": "Door Control",
                           "Manufacturer": {
                             "Code": "ARGO",
                             "Name": "Argo Astronautics"
@@ -2643,7 +2680,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_ARGO_SRV_Fuelport",
+                    "Name": "Door Control",
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -2790,10 +2827,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 5736295.0,
+                          "ThrustCapacity": 7450000.0,
                           "FuelRate": 5E-06,
                           "Type": "Main",
-                          "MaxThrustFuelRate": 28.681475000000002
+                          "MaxThrustFuelRate": 37.25
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -2824,14 +2861,14 @@
                     "Port": {
                       "PortName": "hardpoint_thruster_RBR",
                       "Size": 3,
-                      "Loadout": "ARGO_SRV_Thruster_Mav",
+                      "Loadout": "ARGO_SRV_Thruster_Mav_Top",
                       "InstalledItem": {
-                        "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                        "ClassName": "ARGO_SRV_Thruster_Mav",
+                        "UUID": "e14330aa-6469-40a2-8dfb-51ee671df2c7",
+                        "ClassName": "ARGO_SRV_Thruster_Mav_Top",
                         "Size": 1,
                         "Grade": 1,
                         "Type": "ManneuverThruster.UNDEFINED",
-                        "Name": "ARGO_SRV_Thruster_Mav",
+                        "Name": "ARGO_SRV_Thruster_Mav_Top",
                         "Manufacturer": {
                           "Code": "ARGO",
                           "Name": "Argo Astronautics"
@@ -2841,10 +2878,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 2553320.0,
+                          "ThrustCapacity": 2420000.0,
                           "FuelRate": 5E-06,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 12.7666
+                          "MaxThrustFuelRate": 12.100000000000001
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -2892,10 +2929,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 4742420.0,
+                          "ThrustCapacity": 4580000.0,
                           "FuelRate": 5E-06,
                           "Type": "Retro",
-                          "MaxThrustFuelRate": 23.712100000000003
+                          "MaxThrustFuelRate": 22.900000000000002
                         },
                         "Durability": {
                           "Health": 22000.0,
@@ -2944,10 +2981,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 2553320.0,
+                          "ThrustCapacity": 2975000.0,
                           "FuelRate": 5E-06,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 12.7666
+                          "MaxThrustFuelRate": 14.875000000000002
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -2978,14 +3015,14 @@
                     "Port": {
                       "PortName": "hardpoint_thruster_RTR",
                       "Size": 3,
-                      "Loadout": "ARGO_SRV_Thruster_Mav",
+                      "Loadout": "ARGO_SRV_Thruster_Mav_Bottom",
                       "InstalledItem": {
-                        "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                        "ClassName": "ARGO_SRV_Thruster_Mav",
+                        "UUID": "58e789b2-abf0-42ce-aed0-18b94374aa2a",
+                        "ClassName": "ARGO_SRV_Thruster_Mav_Bottom",
                         "Size": 1,
                         "Grade": 1,
                         "Type": "ManneuverThruster.UNDEFINED",
-                        "Name": "ARGO_SRV_Thruster_Mav",
+                        "Name": "ARGO_SRV_Thruster_Mav_Bottom",
                         "Manufacturer": {
                           "Code": "ARGO",
                           "Name": "Argo Astronautics"
@@ -2995,10 +3032,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 2553320.0,
+                          "ThrustCapacity": 2290000.0,
                           "FuelRate": 5E-06,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 12.7666
+                          "MaxThrustFuelRate": 11.450000000000001
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -3058,10 +3095,10 @@
                             "Length": 0.15,
                             "Volume": 1E-06,
                             "Thruster": {
-                              "ThrustCapacity": 1247592.0,
+                              "ThrustCapacity": 287500.0,
                               "FuelRate": 5E-06,
                               "Type": "Main",
-                              "MaxThrustFuelRate": 6.23796
+                              "MaxThrustFuelRate": 1.4375000000000002
                             },
                             "Durability": {
                               "Health": 21000.0,
@@ -3124,10 +3161,10 @@
                             "Length": 0.15,
                             "Volume": 1E-06,
                             "Thruster": {
-                              "ThrustCapacity": 1248796.0,
+                              "ThrustCapacity": 287500.0,
                               "FuelRate": 5E-06,
                               "Type": "Main",
-                              "MaxThrustFuelRate": 6.2439800000000005
+                              "MaxThrustFuelRate": 1.4375000000000002
                             },
                             "Durability": {
                               "Health": 21000.0,
@@ -3185,10 +3222,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 5736295.0,
+                          "ThrustCapacity": 7450000.0,
                           "FuelRate": 5E-06,
                           "Type": "Main",
-                          "MaxThrustFuelRate": 28.681475000000002
+                          "MaxThrustFuelRate": 37.25
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -3219,14 +3256,14 @@
                     "Port": {
                       "PortName": "hardpoint_thruster_RBL",
                       "Size": 3,
-                      "Loadout": "ARGO_SRV_Thruster_Mav",
+                      "Loadout": "ARGO_SRV_Thruster_Mav_Top",
                       "InstalledItem": {
-                        "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                        "ClassName": "ARGO_SRV_Thruster_Mav",
+                        "UUID": "e14330aa-6469-40a2-8dfb-51ee671df2c7",
+                        "ClassName": "ARGO_SRV_Thruster_Mav_Top",
                         "Size": 1,
                         "Grade": 1,
                         "Type": "ManneuverThruster.UNDEFINED",
-                        "Name": "ARGO_SRV_Thruster_Mav",
+                        "Name": "ARGO_SRV_Thruster_Mav_Top",
                         "Manufacturer": {
                           "Code": "ARGO",
                           "Name": "Argo Astronautics"
@@ -3236,10 +3273,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 2553320.0,
+                          "ThrustCapacity": 2420000.0,
                           "FuelRate": 5E-06,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 12.7666
+                          "MaxThrustFuelRate": 12.100000000000001
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -3287,10 +3324,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 4742420.0,
+                          "ThrustCapacity": 4580000.0,
                           "FuelRate": 5E-06,
                           "Type": "Retro",
-                          "MaxThrustFuelRate": 23.712100000000003
+                          "MaxThrustFuelRate": 22.900000000000002
                         },
                         "Durability": {
                           "Health": 22000.0,
@@ -3339,10 +3376,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 2553320.0,
+                          "ThrustCapacity": 2975000.0,
                           "FuelRate": 5E-06,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 12.7666
+                          "MaxThrustFuelRate": 14.875000000000002
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -3373,14 +3410,14 @@
                     "Port": {
                       "PortName": "hardpoint_thruster_RTL",
                       "Size": 3,
-                      "Loadout": "ARGO_SRV_Thruster_Mav",
+                      "Loadout": "ARGO_SRV_Thruster_Mav_Bottom",
                       "InstalledItem": {
-                        "UUID": "4e9f70e0-2b80-4c8f-b826-47854b896f40",
-                        "ClassName": "ARGO_SRV_Thruster_Mav",
+                        "UUID": "58e789b2-abf0-42ce-aed0-18b94374aa2a",
+                        "ClassName": "ARGO_SRV_Thruster_Mav_Bottom",
                         "Size": 1,
                         "Grade": 1,
                         "Type": "ManneuverThruster.UNDEFINED",
-                        "Name": "ARGO_SRV_Thruster_Mav",
+                        "Name": "ARGO_SRV_Thruster_Mav_Bottom",
                         "Manufacturer": {
                           "Code": "ARGO",
                           "Name": "Argo Astronautics"
@@ -3390,10 +3427,10 @@
                         "Length": 0.15,
                         "Volume": 1E-06,
                         "Thruster": {
-                          "ThrustCapacity": 2553320.0,
+                          "ThrustCapacity": 2290000.0,
                           "FuelRate": 5E-06,
                           "Type": "Maneuver",
-                          "MaxThrustFuelRate": 12.7666
+                          "MaxThrustFuelRate": 11.450000000000001
                         },
                         "Durability": {
                           "Health": 21000.0,
@@ -3453,10 +3490,10 @@
                             "Length": 0.15,
                             "Volume": 1E-06,
                             "Thruster": {
-                              "ThrustCapacity": 1247592.0,
+                              "ThrustCapacity": 287500.0,
                               "FuelRate": 5E-06,
                               "Type": "Main",
-                              "MaxThrustFuelRate": 6.23796
+                              "MaxThrustFuelRate": 1.4375000000000002
                             },
                             "Durability": {
                               "Health": 21000.0,
@@ -3519,10 +3556,10 @@
                             "Length": 0.15,
                             "Volume": 1E-06,
                             "Thruster": {
-                              "ThrustCapacity": 1248796.0,
+                              "ThrustCapacity": 287500.0,
                               "FuelRate": 5E-06,
                               "Type": "Main",
-                              "MaxThrustFuelRate": 6.2439800000000005
+                              "MaxThrustFuelRate": 1.4375000000000002
                             },
                             "Durability": {
                               "Health": 21000.0,
@@ -3708,7 +3745,7 @@
             ]
           }
         ],
-        "ShipDestructionDamage": 5500.0
+        "ShipDestructionDamage": 10000.0
       }
     ]
   }

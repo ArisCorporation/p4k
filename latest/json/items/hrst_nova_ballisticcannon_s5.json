@@ -5,6 +5,11 @@
     "speed": 612.0,
     "projectileParams": {
       "BulletProjectileParams": {
+        "impactRadius": 7.0,
+        "minImpactRadius": 3.0,
+        "ignitionChanceOverride": -1.0,
+        "keepAliveOnZeroDamage": 0.0,
+        "hitType": "bullet",
         "damage": [
           {
             "DamagePhysical": 18500.0,
@@ -15,6 +20,7 @@
             "DamageStun": 0.0
           }
         ],
+        "damageDropParams": {},
         "detonationParams": {
           "ProjectileDetonationParams": {
             "explosionParams": {
@@ -45,7 +51,15 @@
               ]
             }
           }
-        }
+        },
+        "impulseFalloffParams": {},
+        "pierceabilityParams": {
+          "damageFalloffLevel1": 0.0,
+          "damageFalloffLevel2": 0.0,
+          "damageFalloffLevel3": 0.0,
+          "maxPenetrationThickness": 0.5
+        },
+        "electronParams": {}
       }
     },
     "ClassName": "HRST_Nova_BallisticCannon_S5_AMMO",
@@ -197,8 +211,9 @@
           "RecoveryTime": 0.0
         },
         "SAmmoContainerComponentParams": {
-          "initialAmmoCount": 40.0,
-          "maxAmmoCount": 40.0,
+          "initialAmmoCount": 60.0,
+          "maxAmmoCount": 60.0,
+          "maxRestockCount": 3.0,
           "ammoParamsRecord": "8a3f6c41-c87a-40a3-8596-89f2661f9eda"
         },
         "SCItemWeaponComponentParams": {
@@ -211,12 +226,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -256,12 +274,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.1,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -301,12 +322,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.2,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -346,12 +370,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.5,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -391,12 +418,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -449,8 +479,8 @@
                           "ammoCost": 1.0,
                           "pelletCount": 1.0,
                           "spreadParams": {
-                            "min": 0.0,
-                            "max": 0.25,
+                            "min": 0.4,
+                            "max": 0.4,
                             "firstAttack": 0.025,
                             "attack": 0.025,
                             "decay": 0.05

@@ -187,7 +187,7 @@
                   "Rate": 10400000.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 486.0,
                   "Lifetime": 176.0
                 },
                 "PowerConnection": {
@@ -237,7 +237,7 @@
                   "Rate": 10400000.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 486.0,
                   "Lifetime": 176.0
                 },
                 "PowerConnection": {
@@ -287,7 +287,7 @@
                   "Output": 37500.0
                 },
                 "Durability": {
-                  "Health": 4500.0,
+                  "Health": 810.0,
                   "Lifetime": 60.0
                 },
                 "PowerConnection": {
@@ -357,18 +357,18 @@
                     "Cooldown": 12.0,
                     "Stage1AccelerationRate": 1000080.0,
                     "State2AccelerationRate": 8342420.0,
-                    "SpoolUpTime": 5.625
+                    "SpoolUpTime": 7.0
                   },
                   "SplineJump": {
                     "Speed": 400000.0,
                     "Cooldown": 12.0,
                     "Stage1AccelerationRate": 250.0,
                     "State2AccelerationRate": 50000.0,
-                    "SpoolUpTime": 5.0
+                    "SpoolUpTime": 7.0
                   }
                 },
                 "Durability": {
-                  "Health": 5062.5,
+                  "Health": 540.0,
                   "Lifetime": 52.0
                 },
                 "PowerConnection": {
@@ -379,7 +379,22 @@
                   "ThermalEnergyBase": 242672.7,
                   "ThermalEnergyDraw": 242672.7,
                   "CoolingRate": 205.5703
-                }
+                },
+                "Ports": [
+                  {
+                    "PortName": "hardpoint_Jump_Drive",
+                    "Size": 3,
+                    "Types": [
+                      "JumpDrive.JumpDrive"
+                    ],
+                    "Flags": [
+                      "uneditable",
+                      "invisible"
+                    ],
+                    "Category": "UNKNOWN",
+                    "Uneditable": true
+                  }
+                ]
               },
               "Types": [
                 "QuantumDrive.QDrive"
@@ -555,8 +570,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 110000.0,
-                  "Regeneration": 1320.0,
+                  "Health": 100000.0,
+                  "Regeneration": 1600.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -587,7 +602,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 2500.0,
+                  "Health": 648.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -634,8 +649,8 @@
                   "Depth": 0.38
                 },
                 "Shield": {
-                  "Health": 110000.0,
-                  "Regeneration": 1320.0,
+                  "Health": 100000.0,
+                  "Regeneration": 1600.0,
                   "DownedDelay": 10.0,
                   "DamagedDelay": 5.0,
                   "Absorption": {
@@ -666,7 +681,7 @@
                   }
                 },
                 "Durability": {
-                  "Health": 2500.0,
+                  "Health": 648.0,
                   "Lifetime": 44.0
                 },
                 "PowerConnection": {
@@ -805,6 +820,7 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Durability": {
+                  "Health": 360.0,
                   "Lifetime": 720.0
                 },
                 "PowerConnection": {
@@ -1450,10 +1466,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1505,10 +1521,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1560,10 +1576,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1615,10 +1631,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1670,10 +1686,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1724,10 +1740,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1778,10 +1794,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1832,10 +1848,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1886,10 +1902,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 8842421.0,
+                  "ThrustCapacity": 6700000.0,
                   "FuelRate": 5.25E-06,
                   "Type": "Retro",
-                  "MaxThrustFuelRate": 46.422710249999994
+                  "MaxThrustFuelRate": 35.175
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -1939,10 +1955,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 8842421.0,
+                  "ThrustCapacity": 6700000.0,
                   "FuelRate": 5.25E-06,
                   "Type": "Retro",
-                  "MaxThrustFuelRate": 46.422710249999994
+                  "MaxThrustFuelRate": 35.175
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -2100,10 +2116,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 15191670.0,
+                  "ThrustCapacity": 11400000.0,
                   "FuelRate": 1.25E-05,
                   "Type": "Main",
-                  "MaxThrustFuelRate": 189.89587500000002
+                  "MaxThrustFuelRate": 142.5
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -2154,10 +2170,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 15191670.0,
+                  "ThrustCapacity": 11400000.0,
                   "FuelRate": 1.25E-05,
                   "Type": "Main",
-                  "MaxThrustFuelRate": 189.89587500000002
+                  "MaxThrustFuelRate": 142.5
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -2424,10 +2440,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -2479,10 +2495,10 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Thruster": {
-                  "ThrustCapacity": 20259760.0,
+                  "ThrustCapacity": 17300000.0,
                   "FuelRate": 3.125E-06,
                   "Type": "Maneuver",
-                  "MaxThrustFuelRate": 63.31175
+                  "MaxThrustFuelRate": 54.0625
                 },
                 "Durability": {
                   "Health": 22200.0,
@@ -2517,54 +2533,6 @@
             "Port": {
               "PortName": "hardpoint_remote_turret_rear_radar",
               "Size": 0,
-              "Loadout": "RADR_CHCO_S02_Surveyor",
-              "InstalledItem": {
-                "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-                "ClassName": "RADR_CHCO_S02_Surveyor",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "Radar.MidRangeRadar",
-                "Name": "Surveyor",
-                "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-                "Tags": [
-                  "flightReady"
-                ],
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.1,
-                  "PowerDraw": 1.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Radar": {
-                  "DetectionLifetime": 0.0,
-                  "AltitudeCeiling": 0.0,
-                  "CrossSectionOcclusion": false,
-                  "Signatures": []
-                },
-                "Ports": [
-                  {
-                    "PortName": "BatteryPort",
-                    "Size": 2,
-                    "Types": [
-                      "Battery"
-                    ],
-                    "Flags": [
-                      "invisible"
-                    ],
-                    "Category": "Batteries"
-                  }
-                ]
-              },
               "Types": [
                 "Radar.ShortRangeRadar",
                 "Radar.MidRangeRadar"
@@ -2611,54 +2579,6 @@
             "Port": {
               "PortName": "hardpoint_remote_turret_bottom_radar",
               "Size": 0,
-              "Loadout": "RADR_CHCO_S02_Surveyor",
-              "InstalledItem": {
-                "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-                "ClassName": "RADR_CHCO_S02_Surveyor",
-                "Size": 2,
-                "Grade": 1,
-                "Type": "Radar.MidRangeRadar",
-                "Name": "Surveyor",
-                "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-                "Tags": [
-                  "flightReady"
-                ],
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.1,
-                  "PowerDraw": 1.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Radar": {
-                  "DetectionLifetime": 0.0,
-                  "AltitudeCeiling": 0.0,
-                  "CrossSectionOcclusion": false,
-                  "Signatures": []
-                },
-                "Ports": [
-                  {
-                    "PortName": "BatteryPort",
-                    "Size": 2,
-                    "Types": [
-                      "Battery"
-                    ],
-                    "Flags": [
-                      "invisible"
-                    ],
-                    "Category": "Batteries"
-                  }
-                ]
-              },
               "Types": [
                 "Radar.ShortRangeRadar",
                 "Radar.MidRangeRadar"
@@ -2684,6 +2604,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon - Noise Launcher",
+                "Description": "Joker Defcon - Noise Launcher",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -2706,11 +2627,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 105.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2726,11 +2655,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 105.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2757,6 +2694,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon Flares Ammo",
+                "Description": "Joker Defcon Flares Ammo",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -2779,11 +2717,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                    "Type": "AmmoParams",
                     "Speed": 90.0,
                     "Range": 1080.0,
                     "Size": 0.0,
                     "Capacity": 135.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2799,11 +2745,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                  "Type": "AmmoParams",
                   "Speed": 90.0,
                   "Range": 1080.0,
                   "Size": 0.0,
                   "Capacity": 135.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2830,6 +2784,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon - Noise Launcher",
+                "Description": "Joker Defcon - Noise Launcher",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -2852,11 +2807,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                    "Type": "AmmoParams",
                     "Speed": 180.0,
                     "Range": 144.0,
                     "Size": 0.0,
                     "Capacity": 105.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2872,11 +2835,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+                  "Type": "AmmoParams",
                   "Speed": 180.0,
                   "Range": 144.0,
                   "Size": 0.0,
                   "Capacity": 105.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2903,6 +2874,7 @@
                 "Grade": 1,
                 "Type": "WeaponDefensive.CountermeasureLauncher",
                 "Name": "Joker Defcon Flares Ammo",
+                "Description": "Joker Defcon Flares Ammo",
                 "Manufacturer": {
                   "Code": "JOK",
                   "Name": "Joker Engineering"
@@ -2925,11 +2897,19 @@
                 },
                 "Weapon": {
                   "Ammunition": {
+                    "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                    "Type": "AmmoParams",
                     "Speed": 90.0,
                     "Range": 1080.0,
                     "Size": 0.0,
                     "Capacity": 135.0,
-                    "ImpactDamage": {}
+                    "ImpactDamage": {},
+                    "BulletImpulseFalloff": {},
+                    "BulletPierceability": {},
+                    "BulletElectron": {},
+                    "DamageDropMinDistance": {},
+                    "DamageDropPerMeter": {},
+                    "DamageDropMinDamage": {}
                   },
                   "Modes": [
                     {
@@ -2945,11 +2925,19 @@
                   ]
                 },
                 "Ammunition": {
+                  "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+                  "Type": "AmmoParams",
                   "Speed": 90.0,
                   "Range": 1080.0,
                   "Size": 0.0,
                   "Capacity": 135.0,
-                  "ImpactDamage": {}
+                  "ImpactDamage": {},
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {},
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 }
               },
               "Types": [
@@ -2968,147 +2956,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_top_left",
               "Size": 0,
-              "Loadout": "Mount_Gimbal_S5",
-              "InstalledItem": {
-                "UUID": "99e0ea17-45fc-4700-8607-ab879d05a284",
-                "ClassName": "Mount_Gimbal_S5",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "Turret.GunTurret",
-                "Name": "VariPuck S5 Gimbal Mount",
-                "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 5\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-                "Manufacturer": {
-                  "Code": "FFSY",
-                  "Name": "Flashfire Systems"
-                },
-                "Tags": [
-                  "gimbalMount",
-                  "flightReady"
-                ],
-                "Width": 1.116502,
-                "Height": 2.004737,
-                "Length": 8.84403,
-                "Volume": 4.2,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.38
-                },
-                "Durability": {
-                  "Health": 400.0,
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 33.75
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_class_2",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.Gun",
                 "Turret.GunTurret",
@@ -3122,147 +2969,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_top_right",
               "Size": 0,
-              "Loadout": "Mount_Gimbal_S5",
-              "InstalledItem": {
-                "UUID": "99e0ea17-45fc-4700-8607-ab879d05a284",
-                "ClassName": "Mount_Gimbal_S5",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "Turret.GunTurret",
-                "Name": "VariPuck S5 Gimbal Mount",
-                "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 5\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon one size smaller than the hardpoint it is mounting to.",
-                "Manufacturer": {
-                  "Code": "FFSY",
-                  "Name": "Flashfire Systems"
-                },
-                "Tags": [
-                  "gimbalMount",
-                  "flightReady"
-                ],
-                "Width": 1.116502,
-                "Height": 2.004737,
-                "Length": 8.84403,
-                "Volume": 4.2,
-                "DimensionOverrides": {
-                  "Width": 0.38,
-                  "Height": 0.38,
-                  "Depth": 0.38
-                },
-                "Durability": {
-                  "Health": 400.0,
-                  "Lifetime": 720.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 33.75
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "hardpoint_class_2",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.Gun",
                 "Turret.GunTurret",
@@ -3276,240 +2982,6 @@
             "Port": {
               "PortName": "hardpoint_remote_turret_bottom",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_SCItem_Remote_Turret_Main",
-              "InstalledItem": {
-                "UUID": "a0571aa6-f71f-4465-a38a-44005e372ccc",
-                "ClassName": "CRUS_Starlifter_SCItem_Remote_Turret_Main",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "Turret.GunTurret",
-                "Name": "Remote Turret",
-                "Description": "Remote Turret",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Tags": [
-                  "flightReady",
-                  "CRUS_Starlifter"
-                ],
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "turret_left",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "turret_right",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.GunTurret"
               ],
@@ -3537,6 +3009,9 @@
                 "Height": 0.15,
                 "Length": 0.15,
                 "Volume": 1E-06,
+                "Durability": {
+                  "Health": 1000.0
+                },
                 "Armour": {
                   "DamageMultipliers": {
                     "Physical": 0.45,
@@ -3575,6 +3050,7 @@
                 "Grade": 1,
                 "Type": "SelfDestruct.UNDEFINED",
                 "Name": "Drake Caterpillar Self Destruct",
+                "Description": "Drake Caterpillar Self Destruct",
                 "Manufacturer": {
                   "Code": "DRAK",
                   "Name": "Drake Interplanetary"
@@ -3736,20 +3212,20 @@
                 "Length": 0.15,
                 "Volume": 1E-06,
                 "Ifcs": {
-                  "MaxSpeed": 963.0,
-                  "ScmSpeed": 135.0,
-                  "Pitch": 28.0,
-                  "Yaw": 24.0,
-                  "Roll": 80.0,
+                  "MaxSpeed": 950.0,
+                  "ScmSpeed": 160.0,
+                  "Pitch": 20.0,
+                  "Yaw": 18.0,
+                  "Roll": 30.0,
                   "Afterburner": {
                     "SpoolUpTime": 0.0,
                     "CapacitorThresholdRatio": 0.25,
-                    "CapacitorMax": 1500.0,
-                    "CapacitorAfterburnerIdleCost": 50.0,
-                    "CapacitorAfterburnerLinearCost": 1.0,
-                    "CapacitorAfterburnerAngularCost": 0.2,
-                    "CapacitorRegenDelayAfterUse": 5.0,
-                    "CapacitorRegenPerSec": 50.0
+                    "CapacitorMax": 20.0,
+                    "CapacitorAfterburnerIdleCost": 1.0,
+                    "CapacitorAfterburnerLinearCost": 0.0,
+                    "CapacitorAfterburnerAngularCost": 0.0,
+                    "CapacitorRegenDelayAfterUse": 1.1,
+                    "CapacitorRegenPerSec": 0.75
                   }
                 }
               },
@@ -3969,240 +3445,6 @@
             "Port": {
               "PortName": "hardpoint_remote_turret_rear",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_SCItem_Remote_Turret_Rear",
-              "InstalledItem": {
-                "UUID": "6ff7b8e2-5dfc-4a5a-918f-69e8d2422a12",
-                "ClassName": "CRUS_Starlifter_SCItem_Remote_Turret_Rear",
-                "Size": 5,
-                "Grade": 1,
-                "Type": "Turret.GunTurret",
-                "Name": "Remote Turret",
-                "Description": "Remote Turret",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Tags": [
-                  "flightReady",
-                  "CRUS_Starlifter"
-                ],
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 2000.0
-                },
-                "PowerConnection": {
-                  "PowerBase": 0.0,
-                  "PowerDraw": 2.0
-                },
-                "HeatConnection": {
-                  "ThermalEnergyBase": 10.0,
-                  "ThermalEnergyDraw": 20.0,
-                  "CoolingRate": 1.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "turret_left",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  },
-                  {
-                    "PortName": "turret_right",
-                    "Size": 4,
-                    "Loadout": "BEHR_LaserCannon_S4",
-                    "InstalledItem": {
-                      "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                      "ClassName": "BEHR_LaserCannon_S4",
-                      "Size": 4,
-                      "Grade": 1,
-                      "Type": "WeaponGun.Gun",
-                      "Name": "M6A Cannon",
-                      "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                      "Manufacturer": {
-                        "Code": "BEH",
-                        "Name": "Behring"
-                      },
-                      "Tags": [
-                        "BEHR",
-                        "LaserCannon",
-                        "flightReady",
-                        "weaponMountUsable"
-                      ],
-                      "Width": 0.8932018,
-                      "Height": 1.60379,
-                      "Length": 6.633023,
-                      "Volume": 2.1,
-                      "DimensionOverrides": {
-                        "Width": 0.38,
-                        "Height": 0.38,
-                        "Depth": 1.0
-                      },
-                      "Durability": {
-                        "Health": 1650.0,
-                        "Lifetime": 20.0
-                      },
-                      "PowerConnection": {
-                        "PowerBase": 250.0,
-                        "PowerDraw": 250.0
-                      },
-                      "HeatConnection": {
-                        "ThermalEnergyBase": 100.0,
-                        "ThermalEnergyDraw": 200.0,
-                        "CoolingRate": 248.947
-                      },
-                      "Weapon": {
-                        "Ammunition": {
-                          "Speed": 700.0,
-                          "Range": 1225.0,
-                          "Size": 4.0,
-                          "Capacity": 0.0,
-                          "ImpactDamage": {
-                            "Energy": 210.0
-                          }
-                        },
-                        "Modes": [
-                          {
-                            "Name": "Single",
-                            "LocalisedName": "[AUTO]",
-                            "RoundsPerMinute": 180.0,
-                            "FireType": "sequence",
-                            "AmmoPerShot": 1.0,
-                            "PelletsPerShot": 1.0,
-                            "DamagePerShot": {
-                              "Energy": 210.0
-                            },
-                            "DamagePerSecond": {
-                              "Energy": 630.0
-                            }
-                          }
-                        ],
-                        "Consumption": {
-                          "RequestedRegenPerSec": 3150.0,
-                          "Cooldown": 1.5,
-                          "CostPerBullet": 105.0,
-                          "RequestedAmmoLoad": 18900.0
-                        }
-                      },
-                      "Ammunition": {
-                        "Speed": 700.0,
-                        "Range": 1225.0,
-                        "Size": 4.0,
-                        "Capacity": 0.0,
-                        "ImpactDamage": {
-                          "Energy": 210.0
-                        }
-                      },
-                      "Ports": [
-                        {
-                          "PortName": "magazine_attach",
-                          "Size": 0,
-                          "Category": "UNKNOWN"
-                        }
-                      ]
-                    },
-                    "Types": [
-                      "WeaponGun.Gun"
-                    ],
-                    "Category": "Weapon hardpoints"
-                  }
-                ]
-              },
               "Types": [
                 "Turret.GunTurret"
               ],
@@ -4304,7 +3546,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "CRUS_Starlifter_SCItem_SeatAccess_Copilot",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
@@ -4360,7 +3602,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "CRUS_Starlifter_SCItem_SeatAccess_Pilot",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
@@ -4516,7 +3758,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Usable.UNDEFINED",
-                    "Name": "Weapon_Rack_CRUS_Starlifter_Bridge_Weapon_Locker",
+                    "Name": "Weapon Rack",
+                    "Manufacturer": {
+                      "Code": "CRUS",
+                      "Name": "Crusader Industries"
+                    },
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -4548,7 +3794,11 @@
                           "Size": 1,
                           "Grade": 1,
                           "Type": "ControlPanel.DoorPart",
-                          "Name": "ControlPanel_Screen_DoorControl_Starlifter_Bridge_Armoury",
+                          "Name": "Door Control",
+                          "Manufacturer": {
+                            "Code": "CRUS",
+                            "Name": "Crusader Industries"
+                          },
                           "Width": 0.15,
                           "Height": 0.15,
                           "Length": 0.15,
@@ -4635,240 +3885,6 @@
                 "Port": {
                   "PortName": "hardpoint_bridge_remote_turret",
                   "Size": 0,
-                  "Loadout": "CRUS_Starlifter_SCItem_Remote_Turret_Nose",
-                  "InstalledItem": {
-                    "UUID": "b22c5a8d-3f04-43e2-8268-8233a2fca65d",
-                    "ClassName": "CRUS_Starlifter_SCItem_Remote_Turret_Nose",
-                    "Size": 5,
-                    "Grade": 1,
-                    "Type": "Turret.GunTurret",
-                    "Name": "Remote Turret",
-                    "Description": "Remote Turret",
-                    "Manufacturer": {
-                      "Code": "CRUS",
-                      "Name": "Crusader Industries"
-                    },
-                    "Tags": [
-                      "flightReady",
-                      "CRUS_Starlifter"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "Durability": {
-                      "Health": 2000.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 0.0,
-                      "PowerDraw": 2.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 10.0,
-                      "ThermalEnergyDraw": 20.0,
-                      "CoolingRate": 1.0
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "turret_left",
-                        "Size": 4,
-                        "Loadout": "BEHR_LaserCannon_S4",
-                        "InstalledItem": {
-                          "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                          "ClassName": "BEHR_LaserCannon_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "M6A Cannon",
-                          "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                          "Manufacturer": {
-                            "Code": "BEH",
-                            "Name": "Behring"
-                          },
-                          "Tags": [
-                            "BEHR",
-                            "LaserCannon",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 250.0,
-                            "PowerDraw": 250.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.947
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 700.0,
-                              "Range": 1225.0,
-                              "Size": 4.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 210.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[AUTO]",
-                                "RoundsPerMinute": 180.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 210.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 630.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3150.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 105.0,
-                              "RequestedAmmoLoad": 18900.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 700.0,
-                            "Range": 1225.0,
-                            "Size": 4.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 210.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "magazine_attach",
-                              "Size": 0,
-                              "Category": "UNKNOWN"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      },
-                      {
-                        "PortName": "turret_right",
-                        "Size": 4,
-                        "Loadout": "BEHR_LaserCannon_S4",
-                        "InstalledItem": {
-                          "UUID": "52c1793e-5610-4daa-aafe-a8cf55e60283",
-                          "ClassName": "BEHR_LaserCannon_S4",
-                          "Size": 4,
-                          "Grade": 1,
-                          "Type": "WeaponGun.Gun",
-                          "Name": "M6A Cannon",
-                          "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 4\n\nBehring's M6A is a versatile high velocity energy autocannon, designed to provide to keep your enemy at range without sacrificing your stopping power.",
-                          "Manufacturer": {
-                            "Code": "BEH",
-                            "Name": "Behring"
-                          },
-                          "Tags": [
-                            "BEHR",
-                            "LaserCannon",
-                            "flightReady",
-                            "weaponMountUsable"
-                          ],
-                          "Width": 0.8932018,
-                          "Height": 1.60379,
-                          "Length": 6.633023,
-                          "Volume": 2.1,
-                          "DimensionOverrides": {
-                            "Width": 0.38,
-                            "Height": 0.38,
-                            "Depth": 1.0
-                          },
-                          "Durability": {
-                            "Health": 1650.0,
-                            "Lifetime": 20.0
-                          },
-                          "PowerConnection": {
-                            "PowerBase": 250.0,
-                            "PowerDraw": 250.0
-                          },
-                          "HeatConnection": {
-                            "ThermalEnergyBase": 100.0,
-                            "ThermalEnergyDraw": 200.0,
-                            "CoolingRate": 248.947
-                          },
-                          "Weapon": {
-                            "Ammunition": {
-                              "Speed": 700.0,
-                              "Range": 1225.0,
-                              "Size": 4.0,
-                              "Capacity": 0.0,
-                              "ImpactDamage": {
-                                "Energy": 210.0
-                              }
-                            },
-                            "Modes": [
-                              {
-                                "Name": "Single",
-                                "LocalisedName": "[AUTO]",
-                                "RoundsPerMinute": 180.0,
-                                "FireType": "sequence",
-                                "AmmoPerShot": 1.0,
-                                "PelletsPerShot": 1.0,
-                                "DamagePerShot": {
-                                  "Energy": 210.0
-                                },
-                                "DamagePerSecond": {
-                                  "Energy": 630.0
-                                }
-                              }
-                            ],
-                            "Consumption": {
-                              "RequestedRegenPerSec": 3150.0,
-                              "Cooldown": 1.5,
-                              "CostPerBullet": 105.0,
-                              "RequestedAmmoLoad": 18900.0
-                            }
-                          },
-                          "Ammunition": {
-                            "Speed": 700.0,
-                            "Range": 1225.0,
-                            "Size": 4.0,
-                            "Capacity": 0.0,
-                            "ImpactDamage": {
-                              "Energy": 210.0
-                            }
-                          },
-                          "Ports": [
-                            {
-                              "PortName": "magazine_attach",
-                              "Size": 0,
-                              "Category": "UNKNOWN"
-                            }
-                          ]
-                        },
-                        "Types": [
-                          "WeaponGun.Gun"
-                        ],
-                        "Category": "Weapon hardpoints"
-                      }
-                    ]
-                  },
                   "Types": [
                     "Turret.GunTurret"
                   ],
@@ -4884,54 +3900,6 @@
                 "Port": {
                   "PortName": "hardpoint_bridge_remote_turret_radar",
                   "Size": 0,
-                  "Loadout": "RADR_CHCO_S02_Surveyor",
-                  "InstalledItem": {
-                    "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-                    "ClassName": "RADR_CHCO_S02_Surveyor",
-                    "Size": 2,
-                    "Grade": 1,
-                    "Type": "Radar.MidRangeRadar",
-                    "Name": "Surveyor",
-                    "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-                    "Tags": [
-                      "flightReady"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06,
-                    "Durability": {
-                      "Lifetime": 720.0
-                    },
-                    "PowerConnection": {
-                      "PowerBase": 0.1,
-                      "PowerDraw": 1.0
-                    },
-                    "HeatConnection": {
-                      "ThermalEnergyBase": 10.0,
-                      "ThermalEnergyDraw": 20.0,
-                      "CoolingRate": 1.0
-                    },
-                    "Radar": {
-                      "DetectionLifetime": 0.0,
-                      "AltitudeCeiling": 0.0,
-                      "CrossSectionOcclusion": false,
-                      "Signatures": []
-                    },
-                    "Ports": [
-                      {
-                        "PortName": "BatteryPort",
-                        "Size": 2,
-                        "Types": [
-                          "Battery"
-                        ],
-                        "Flags": [
-                          "invisible"
-                        ],
-                        "Category": "Batteries"
-                      }
-                    ]
-                  },
                   "Types": [
                     "Radar.ShortRangeRadar",
                     "Radar.MidRangeRadar"
@@ -4956,7 +3924,7 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "SeatAccess.UNDEFINED",
-                    "Name": "CRUS_Starlifter_SCItem_SeatAccess_Turret_Bridge",
+                    "Name": "Seat",
                     "Manufacturer": {
                       "Code": "CRUS",
                       "Name": "Crusader Industries"
@@ -5046,10 +4014,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 20237640.0,
+                      "ThrustCapacity": 5500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 63.242625000000004
+                      "MaxThrustFuelRate": 17.1875
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -5101,10 +4069,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 20237640.0,
+                      "ThrustCapacity": 5500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 63.242625000000004
+                      "MaxThrustFuelRate": 17.1875
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -5156,10 +4124,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 20237640.0,
+                      "ThrustCapacity": 5500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 63.242625000000004
+                      "MaxThrustFuelRate": 17.1875
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -5211,10 +4179,10 @@
                     "Length": 0.15,
                     "Volume": 1E-06,
                     "Thruster": {
-                      "ThrustCapacity": 20237640.0,
+                      "ThrustCapacity": 5500000.0,
                       "FuelRate": 3.125E-06,
                       "Type": "Maneuver",
-                      "MaxThrustFuelRate": 63.242625000000004
+                      "MaxThrustFuelRate": 17.1875
                     },
                     "Durability": {
                       "Health": 22200.0,
@@ -5295,7 +4263,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Weapon_Rack_Starlifter_Armory_Large_Alt",
+                "Name": "Weapon Rack",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5485,7 +4457,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Weapon_Rack_Starlifter_Armory_Large_Alt",
+                "Name": "Weapon Rack",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5675,7 +4651,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Weapon_Rack_Starlifter_Armory_Large_Special",
+                "Name": "Weapon Rack",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5721,7 +4701,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Usable.UNDEFINED",
-                "Name": "Weapon_Rack_Starlifter_Armory_Large_Special",
+                "Name": "Weapon Rack",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5796,7 +4780,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_CRUS_Starlifter_Front_Ramp",
+                "Name": "Door Control",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -5933,7 +4921,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_CRUS_Starlifter_Front_Door_Left",
+                    "Name": "Door Control",
+                    "Manufacturer": {
+                      "Code": "CRUS",
+                      "Name": "Crusader Industries"
+                    },
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -6130,7 +5122,11 @@
                     "Size": 1,
                     "Grade": 1,
                     "Type": "Door.UNDEFINED",
-                    "Name": "Door_Ship_Exterior_CRUS_Starlifter_Front_Door_Right",
+                    "Name": "Door Control",
+                    "Manufacturer": {
+                      "Code": "CRUS",
+                      "Name": "Crusader Industries"
+                    },
                     "Width": 0.15,
                     "Height": 0.15,
                     "Length": 0.15,
@@ -6323,7 +5319,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_CRUS_Starlifter_Door_Bottom",
+                "Name": "Door Control",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -6442,7 +5442,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Interior_Button",
+                      "Name": "Door Control",
+                      "Manufacturer": {
+                        "Code": "CRUS",
+                        "Name": "Crusader Industries"
+                      },
                       "Width": 0.15,
                       "Height": 0.15,
                       "Length": 0.15,
@@ -6463,7 +5467,7 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Exterior_Button",
+                      "Name": "Door Control",
                       "Width": 0.15,
                       "Height": 0.15,
                       "Length": 0.15,
@@ -6656,7 +5660,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_CRUS_Starlifter_Elevator_Door",
+                "Name": "Door Control",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -6782,56 +5790,6 @@
             "Port": {
               "PortName": "hardpoint_general_cargo_01",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_CargoGrid_Personal_Large",
-              "InstalledItem": {
-                "UUID": "1681575c-d425-45d3-a697-d301d1139370",
-                "ClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
-                "Name": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 1000.0
-                },
-                "InventoryContainer": {
-                  "SCU": 3.0,
-                  "x": 1.75,
-                  "y": 1.75,
-                  "z": 1.0,
-                  "unit": 0.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "IP_Button",
-                    "Size": 1,
-                    "Loadout": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                    "InstalledItem": {
-                      "UUID": "d1ccddf6-f89e-47a8-82c7-46667350dfda",
-                      "ClassName": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "ControlPanel.DoorPart"
-                    ],
-                    "Category": "Door attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Cargo"
               ],
@@ -6848,56 +5806,6 @@
             "Port": {
               "PortName": "hardpoint_general_cargo_02",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_CargoGrid_Personal_Large",
-              "InstalledItem": {
-                "UUID": "1681575c-d425-45d3-a697-d301d1139370",
-                "ClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
-                "Name": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 1000.0
-                },
-                "InventoryContainer": {
-                  "SCU": 3.0,
-                  "x": 1.75,
-                  "y": 1.75,
-                  "z": 1.0,
-                  "unit": 0.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "IP_Button",
-                    "Size": 1,
-                    "Loadout": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                    "InstalledItem": {
-                      "UUID": "d1ccddf6-f89e-47a8-82c7-46667350dfda",
-                      "ClassName": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "ControlPanel.DoorPart"
-                    ],
-                    "Category": "Door attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Cargo"
               ],
@@ -6914,56 +5822,6 @@
             "Port": {
               "PortName": "hardpoint_general_cargo_03",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_CargoGrid_Personal_Large",
-              "InstalledItem": {
-                "UUID": "1681575c-d425-45d3-a697-d301d1139370",
-                "ClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
-                "Name": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 1000.0
-                },
-                "InventoryContainer": {
-                  "SCU": 3.0,
-                  "x": 1.75,
-                  "y": 1.75,
-                  "z": 1.0,
-                  "unit": 0.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "IP_Button",
-                    "Size": 1,
-                    "Loadout": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                    "InstalledItem": {
-                      "UUID": "d1ccddf6-f89e-47a8-82c7-46667350dfda",
-                      "ClassName": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "ControlPanel.DoorPart"
-                    ],
-                    "Category": "Door attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Cargo"
               ],
@@ -6980,56 +5838,6 @@
             "Port": {
               "PortName": "hardpoint_general_cargo_04",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_CargoGrid_Personal_Large",
-              "InstalledItem": {
-                "UUID": "1681575c-d425-45d3-a697-d301d1139370",
-                "ClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
-                "Name": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 1000.0
-                },
-                "InventoryContainer": {
-                  "SCU": 3.0,
-                  "x": 1.75,
-                  "y": 1.75,
-                  "z": 1.0,
-                  "unit": 0.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "IP_Button",
-                    "Size": 1,
-                    "Loadout": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                    "InstalledItem": {
-                      "UUID": "d1ccddf6-f89e-47a8-82c7-46667350dfda",
-                      "ClassName": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "ControlPanel.DoorPart"
-                    ],
-                    "Category": "Door attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Cargo"
               ],
@@ -7046,56 +5854,6 @@
             "Port": {
               "PortName": "hardpoint_general_cargo_05",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_CargoGrid_Personal_Large",
-              "InstalledItem": {
-                "UUID": "1681575c-d425-45d3-a697-d301d1139370",
-                "ClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
-                "Name": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 1000.0
-                },
-                "InventoryContainer": {
-                  "SCU": 3.0,
-                  "x": 1.75,
-                  "y": 1.75,
-                  "z": 1.0,
-                  "unit": 0.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "IP_Button",
-                    "Size": 1,
-                    "Loadout": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                    "InstalledItem": {
-                      "UUID": "d1ccddf6-f89e-47a8-82c7-46667350dfda",
-                      "ClassName": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "ControlPanel.DoorPart"
-                    ],
-                    "Category": "Door attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Cargo"
               ],
@@ -7112,56 +5870,6 @@
             "Port": {
               "PortName": "hardpoint_general_cargo_06",
               "Size": 0,
-              "Loadout": "CRUS_Starlifter_CargoGrid_Personal_Large",
-              "InstalledItem": {
-                "UUID": "1681575c-d425-45d3-a697-d301d1139370",
-                "ClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "Cargo.UNDEFINED",
-                "Name": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                "Manufacturer": {
-                  "Code": "CRUS",
-                  "Name": "Crusader Industries"
-                },
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "Durability": {
-                  "Health": 1000.0
-                },
-                "InventoryContainer": {
-                  "SCU": 3.0,
-                  "x": 1.75,
-                  "y": 1.75,
-                  "z": 1.0,
-                  "unit": 0.0
-                },
-                "Ports": [
-                  {
-                    "PortName": "IP_Button",
-                    "Size": 1,
-                    "Loadout": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                    "InstalledItem": {
-                      "UUID": "d1ccddf6-f89e-47a8-82c7-46667350dfda",
-                      "ClassName": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Size": 1,
-                      "Grade": 1,
-                      "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Storage",
-                      "Width": 0.15,
-                      "Height": 0.15,
-                      "Length": 0.15,
-                      "Volume": 1E-06
-                    },
-                    "Types": [
-                      "ControlPanel.DoorPart"
-                    ],
-                    "Category": "Door attachments"
-                  }
-                ]
-              },
               "Types": [
                 "Cargo"
               ],
@@ -7178,24 +5886,6 @@
             "Port": {
               "PortName": "hardpoint_weapon_regen_pool",
               "Size": 0,
-              "Loadout": "WeaponRegenPool_Crew_Starlifter",
-              "InstalledItem": {
-                "UUID": "8c2e2f2d-9584-430d-af63-19e4247d395f",
-                "ClassName": "WeaponRegenPool_Crew_Starlifter",
-                "Size": 1,
-                "Grade": 1,
-                "Type": "WeaponRegenPool.UNDEFINED",
-                "Name": "WeaponRegenPool_Crew_Starlifter",
-                "Width": 0.15,
-                "Height": 0.15,
-                "Length": 0.15,
-                "Volume": 1E-06,
-                "WeaponRegenPool": {
-                  "RegenFillRate": 15000.0,
-                  "AmmoLoad": 45000,
-                  "RespectsCapacitorAssignments": true
-                }
-              },
               "Types": [
                 "WeaponRegenPool"
               ],
@@ -7219,7 +5909,11 @@
                 "Size": 1,
                 "Grade": 1,
                 "Type": "Door.UNDEFINED",
-                "Name": "Door_Ship_Exterior_CRUS_Starlifter_Rear_Ramp",
+                "Name": "Door Control",
+                "Manufacturer": {
+                  "Code": "CRUS",
+                  "Name": "Crusader Industries"
+                },
                 "Width": 0.15,
                 "Height": 0.15,
                 "Length": 0.15,
@@ -7338,7 +6032,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Interior_Button",
+                      "Name": "Door Control",
+                      "Manufacturer": {
+                        "Code": "CRUS",
+                        "Name": "Crusader Industries"
+                      },
                       "Width": 0.15,
                       "Height": 0.15,
                       "Length": 0.15,
@@ -7359,7 +6057,11 @@
                       "Size": 1,
                       "Grade": 1,
                       "Type": "ControlPanel.DoorPart",
-                      "Name": "ControlPanel_Screen_DoorControl_Starlifter_Interior_Button",
+                      "Name": "Door Control",
+                      "Manufacturer": {
+                        "Code": "CRUS",
+                        "Name": "Crusader Industries"
+                      },
                       "Width": 0.15,
                       "Height": 0.15,
                       "Length": 0.15,

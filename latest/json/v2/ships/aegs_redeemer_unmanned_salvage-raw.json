@@ -18,6 +18,12 @@
         "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
       },
       {
+        "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+      },
+      {
+        "value": "503443c0-b6d1-4539-b493-688117334ff1"
+      },
+      {
         "value": "8de9f567-b336-417a-afcb-2e897d1395d9"
       },
       {
@@ -25,6 +31,9 @@
       },
       {
         "value": "02389e4f-87bc-4f83-a4d5-bb0110fb9af9"
+      },
+      {
+        "value": "2e4ae4b8-f5e7-437c-8eb2-98d5be68a44f"
       },
       {
         "value": "546320ee-f027-4b16-ac2c-77186012655f"
@@ -45,7 +54,7 @@
         "dogfightEnabled": 0,
         "unmovable": 0,
         "isGravlevVehicle": false,
-        "incomingDamageModifierToAI": 1.0,
+        "incomingDamageModifierToAI": 0.0,
         "emergencyStatusDamageThreshold": 0.25,
         "crewSize": 4,
         "vehicleName": "@vehicle_NameAEGS_Redeemer",
@@ -54,7 +63,7 @@
         "vehicleCareerRef": "2bf4345e-cf3c-4ecb-91ce-f9daa8ff47f8",
         "vehicleRole": "@vehicle_class_gunship",
         "vehicleRoleRef": "43eaf464-2452-491b-8cc0-443f6ac39613",
-        "inventoryContainerParams": "e3aa4201-ad8c-4452-be8e-d5ba8db8beee",
+        "inventoryContainerParams": "558590e4-49f6-46e8-9182-8253f0c8a578",
         "maxBoundingBoxSize": {
           "x": 25.0,
           "y": 51.0,
@@ -487,19 +496,39 @@
               },
               {
                 "itemPortName": "hardpoint_turret_manned_front",
-                "entityClassName": "AEGS_Redeemer_Front_SCItem_Turret",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "turret_left",
-                        "entityClassName": "BEHR_BallisticGatling_S5",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       },
                       {
                         "itemPortName": "turret_right",
-                        "entityClassName": "BEHR_BallisticGatling_S5",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -517,19 +546,39 @@
               },
               {
                 "itemPortName": "hardpoint_turret_manned_rear",
-                "entityClassName": "AEGS_Redeemer_Rear_SCItem_Turret",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "turret_left",
-                        "entityClassName": "BEHR_BallisticGatling_S5",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       },
                       {
                         "itemPortName": "turret_right",
-                        "entityClassName": "BEHR_BallisticGatling_S5",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -547,18 +596,18 @@
               },
               {
                 "itemPortName": "hardpoint_turret_remote_front",
-                "entityClassName": "AEGS_Redeemer_SCItem_Remote_Turret_Front",
+                "entityClassName": "",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
                         "itemPortName": "turret_left",
-                        "entityClassName": "BEHR_LaserCannon_S3",
+                        "entityClassName": "",
                         "loadout": {}
                       },
                       {
                         "itemPortName": "turret_right",
-                        "entityClassName": "BEHR_LaserCannon_S3",
+                        "entityClassName": "",
                         "loadout": {}
                       }
                     ]
@@ -593,13 +642,33 @@
                     "entries": [
                       {
                         "itemPortName": "turret_left",
-                        "entityClassName": "BEHR_LaserCannon_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       },
                       {
                         "itemPortName": "turret_right",
-                        "entityClassName": "BEHR_LaserCannon_S3",
-                        "loadout": {}
+                        "entityClassName": "",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
                       }
                     ]
                   }
@@ -627,13 +696,33 @@
               },
               {
                 "itemPortName": "hardpoint_weapon_gun_left",
-                "entityClassName": "BEHR_BallisticCannon_S4",
-                "loadout": {}
+                "entityClassName": "",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_weapon_gun_right",
-                "entityClassName": "BEHR_BallisticCannon_S4",
-                "loadout": {}
+                "entityClassName": "",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "landingpad_helper",
@@ -1059,6 +1148,10 @@
                     "controllableTags": "manned_rear_turret",
                     "UsableDef": {
                       "PriorityGroups": [
+                        {
+                          "itemType": "Turret",
+                          "defaultPriority": "no_control"
+                        },
                         {
                           "itemType": "TurretBase",
                           "defaultPriority": "no_control"
@@ -2523,6 +2616,10 @@
                         "UsableDef": {
                           "PriorityGroups": [
                             {
+                              "itemType": "Turret",
+                              "defaultPriority": "no_control"
+                            },
+                            {
                               "itemType": "TurretBase",
                               "defaultPriority": "no_control"
                             },
@@ -3173,7 +3270,7 @@
                       "minsize": 0,
                       "maxsize": 0,
                       "display_name": "port_NameMissileRack01",
-                      "flags": "$uneditable right",
+                      "flags": "$uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",
@@ -3402,7 +3499,7 @@
                       "minsize": 0,
                       "maxsize": 0,
                       "display_name": "port_NameMissileRack02",
-                      "flags": "$uneditable left",
+                      "flags": "$uneditable",
                       "Types": [
                         {
                           "type": "MissileLauncher",

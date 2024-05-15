@@ -3,56 +3,6 @@
     {
       "PortName": "hardpoint_weapon_left",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S1",
-      "InstalledItem": {
-        "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-        "ClassName": "Mount_Gimbal_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S1 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
-        },
-        "Durability": {
-          "Health": 100.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 10.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 1,
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -65,56 +15,6 @@
     {
       "PortName": "hardpoint_weapon_right",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S1",
-      "InstalledItem": {
-        "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-        "ClassName": "Mount_Gimbal_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S1 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
-        },
-        "Durability": {
-          "Health": 100.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 10.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 1,
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -167,11 +67,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+            "Type": "AmmoParams",
             "Speed": 65.0,
             "Range": 520.0,
             "Size": 0.0,
             "Capacity": 5.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -187,11 +95,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+          "Type": "AmmoParams",
           "Speed": 65.0,
           "Range": 520.0,
           "Size": 0.0,
           "Capacity": 5.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -238,11 +154,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+            "Type": "AmmoParams",
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
             "Capacity": 1.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -258,11 +182,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+          "Type": "AmmoParams",
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
           "Capacity": 1.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -686,42 +618,7 @@
     {
       "PortName": "hardpoint_gravplate_rear_left",
       "Size": 0,
-      "Loadout": "XIAN_Nox_Thruster_Aux",
-      "InstalledItem": {
-        "UUID": "e30e0df8-641d-40ba-a0b0-2e2faa8a1978",
-        "ClassName": "XIAN_Nox_Thruster_Aux",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "XIAN_Nox_Thruster_Aux",
-        "Manufacturer": {
-          "Code": "",
-          "Name": "Aopoa"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Thruster": {
-          "ThrustCapacity": 3302.658,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.041283225
-        },
-        "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 3.0,
-          "PowerDraw": 5.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 30.0
-        }
-      },
+      "Loadout": "XIAN_Nox_Thruster_Aux_Left",
       "Types": [
         "ManneuverThruster"
       ],
@@ -879,42 +776,7 @@
     {
       "PortName": "hardpoint_gravplate_rear_right",
       "Size": 0,
-      "Loadout": "XIAN_Nox_Thruster_Aux",
-      "InstalledItem": {
-        "UUID": "e30e0df8-641d-40ba-a0b0-2e2faa8a1978",
-        "ClassName": "XIAN_Nox_Thruster_Aux",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "XIAN_Nox_Thruster_Aux",
-        "Manufacturer": {
-          "Code": "",
-          "Name": "Aopoa"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Thruster": {
-          "ThrustCapacity": 3302.658,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.041283225
-        },
-        "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 3.0,
-          "PowerDraw": 5.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 30.0
-        }
-      },
+      "Loadout": "XIAN_Nox_Thruster_Aux_Right",
       "Types": [
         "ManneuverThruster"
       ],
@@ -928,42 +790,7 @@
     {
       "PortName": "hardpoint_gravplate_center_right",
       "Size": 0,
-      "Loadout": "XIAN_Nox_Thruster_Aux",
-      "InstalledItem": {
-        "UUID": "e30e0df8-641d-40ba-a0b0-2e2faa8a1978",
-        "ClassName": "XIAN_Nox_Thruster_Aux",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "XIAN_Nox_Thruster_Aux",
-        "Manufacturer": {
-          "Code": "",
-          "Name": "Aopoa"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Thruster": {
-          "ThrustCapacity": 3302.658,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.041283225
-        },
-        "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 3.0,
-          "PowerDraw": 5.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 30.0
-        }
-      },
+      "Loadout": "XIAN_Nox_Thruster_Aux_Right",
       "Types": [
         "ManneuverThruster"
       ],
@@ -978,42 +805,7 @@
     {
       "PortName": "hardpoint_gravplate_front_left",
       "Size": 0,
-      "Loadout": "XIAN_Nox_Thruster_Aux",
-      "InstalledItem": {
-        "UUID": "e30e0df8-641d-40ba-a0b0-2e2faa8a1978",
-        "ClassName": "XIAN_Nox_Thruster_Aux",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "XIAN_Nox_Thruster_Aux",
-        "Manufacturer": {
-          "Code": "",
-          "Name": "Aopoa"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Thruster": {
-          "ThrustCapacity": 3302.658,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.041283225
-        },
-        "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 3.0,
-          "PowerDraw": 5.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 30.0
-        }
-      },
+      "Loadout": "XIAN_Nox_Thruster_Aux_Left",
       "Types": [
         "ManneuverThruster"
       ],
@@ -1028,42 +820,7 @@
     {
       "PortName": "hardpoint_gravplate_front_right",
       "Size": 0,
-      "Loadout": "XIAN_Nox_Thruster_Aux",
-      "InstalledItem": {
-        "UUID": "e30e0df8-641d-40ba-a0b0-2e2faa8a1978",
-        "ClassName": "XIAN_Nox_Thruster_Aux",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "XIAN_Nox_Thruster_Aux",
-        "Manufacturer": {
-          "Code": "",
-          "Name": "Aopoa"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Thruster": {
-          "ThrustCapacity": 3302.658,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.041283225
-        },
-        "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 3.0,
-          "PowerDraw": 5.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 30.0
-        }
-      },
+      "Loadout": "XIAN_Nox_Thruster_Aux_Right",
       "Types": [
         "ManneuverThruster"
       ],
@@ -1462,42 +1219,7 @@
     {
       "PortName": "hardpoint_gravplate_center_left",
       "Size": 0,
-      "Loadout": "XIAN_Nox_Thruster_Aux",
-      "InstalledItem": {
-        "UUID": "e30e0df8-641d-40ba-a0b0-2e2faa8a1978",
-        "ClassName": "XIAN_Nox_Thruster_Aux",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "ManneuverThruster.JointThruster",
-        "Name": "XIAN_Nox_Thruster_Aux",
-        "Manufacturer": {
-          "Code": "",
-          "Name": "Aopoa"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Thruster": {
-          "ThrustCapacity": 3302.658,
-          "FuelRate": 1.25E-05,
-          "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.041283225
-        },
-        "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 3.0,
-          "PowerDraw": 5.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 500.0,
-          "ThermalEnergyDraw": 1250.0,
-          "CoolingRate": 30.0
-        }
-      },
+      "Loadout": "XIAN_Nox_Thruster_Aux_Left",
       "Types": [
         "ManneuverThruster"
       ],
@@ -1683,6 +1405,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {

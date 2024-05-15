@@ -144,6 +144,7 @@
     "SAmmoContainerComponentParams": {
       "initialAmmoCount": 10.0,
       "maxAmmoCount": 10.0,
+      "maxRestockCount": 3.0,
       "ammoParamsRecord": "f32b100f-077f-46cd-99cd-c315dfbeb648"
     },
     "SCItemWeaponComponentParams": {
@@ -156,12 +157,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 0.0,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -201,12 +205,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 0.1,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -246,12 +253,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 1.2,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -291,12 +301,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 1.5,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -336,12 +349,15 @@
           "fireRate": 0.0,
           "fireRateMultiplier": 1.0,
           "damageMultiplier": 1.0,
+          "damageOverTimeMultiplier": 1.0,
+          "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
           "burstShots": 0.0,
           "ammoCost": 0.0,
           "ammoCostMultiplier": 1.0,
           "heatGenerationMultiplier": 1.0,
           "soundRadiusMultiplier": 1.0,
+          "chargeTimeMultiplier": 1.0,
           "useAlternateProjectileVisuals": false,
           "recoilModifier": {
             "angleRecoilStrengthMultiplier": 1.0,
@@ -380,15 +396,15 @@
       },
       "fireActions": [
         {
-          "heatPerShot": 70000.0,
-          "fireRate": 75.0,
+          "heatPerShot": 0.0,
+          "fireRate": 60.0,
           "launchParams": {
             "SProjectileLauncher": {
               "ammoCost": 1.0,
               "pelletCount": 8.0,
               "spreadParams": {
-                "min": 6.0,
-                "max": 11.0,
+                "min": 4.0,
+                "max": 4.0,
                 "firstAttack": 0.8,
                 "attack": 0.4,
                 "decay": 0.6
@@ -402,10 +418,10 @@
       ],
       "weaponRegenConsumerParams": [
         {
-          "requestedRegenPerSec": 5000.0,
-          "regenerationCooldown": 2.0,
-          "regenerationCostPerBullet": 800.0,
-          "requestedAmmoLoad": 30000.0
+          "requestedRegenPerSec": 10600.0,
+          "regenerationCooldown": 1.5,
+          "regenerationCostPerBullet": 265.0,
+          "requestedAmmoLoad": 63600.0
         }
       ]
     },

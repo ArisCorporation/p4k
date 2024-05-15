@@ -4,293 +4,6 @@
     {
       "PortName": "hardpoint_turret",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_SCItem_Turret",
-      "InstalledItem": {
-        "UUID": "2ce10451-22ae-4686-8eed-595dcf8188e7",
-        "ClassName": "AEGS_Reclaimer_SCItem_Turret",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "TurretBase.MannedTurret",
-        "Name": "Manned Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 25.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 2.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 5,
-            "Loadout": "KLWE_LaserRepeater_S5",
-            "InstalledItem": {
-              "UUID": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-              "ClassName": "KLWE_LaserRepeater_S5",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-557 Galdereen Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 5\n\nWith a bite as fearsome as its fanged namesake, the Klaus & Werner CF-557 Galdereen laser repeater is a solid choice for a wide range of vehicles thanks to its high rate of fire and consistent efficacy.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 1.116502,
-              "Height": 2.004737,
-              "Length": 8.84403,
-              "Volume": 4.2,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 1.0
-              },
-              "Durability": {
-                "Health": 2640.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 500.0,
-                "PowerDraw": 500.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 383.378
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 2800.0,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 270.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 225.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 270.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 1012.5
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 5062.5,
-                  "Cooldown": 1.75,
-                  "CostPerBullet": 270.0,
-                  "RequestedAmmoLoad": 30375.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 700.0,
-                "Range": 2800.0,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 270.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "turret_right",
-            "Size": 5,
-            "Loadout": "KLWE_LaserRepeater_S5",
-            "InstalledItem": {
-              "UUID": "4170fcb0-0cef-4228-a3d5-7efc41ba4ea3",
-              "ClassName": "KLWE_LaserRepeater_S5",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-557 Galdereen Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 5\n\nWith a bite as fearsome as its fanged namesake, the Klaus & Werner CF-557 Galdereen laser repeater is a solid choice for a wide range of vehicles thanks to its high rate of fire and consistent efficacy.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 1.116502,
-              "Height": 2.004737,
-              "Length": 8.84403,
-              "Volume": 4.2,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 1.0
-              },
-              "Durability": {
-                "Health": 2640.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 500.0,
-                "PowerDraw": 500.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 383.378
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 700.0,
-                  "Range": 2800.0,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 270.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 225.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 270.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 1012.5
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 5062.5,
-                  "Cooldown": 1.75,
-                  "CostPerBullet": 270.0,
-                  "RequestedAmmoLoad": 30375.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 700.0,
-                "Range": 2800.0,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 270.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "TurretBase.MannedTurret"
       ],
@@ -382,13 +95,30 @@
               },
               "Weapon": {
                 "Ammunition": {
-                  "Speed": 600.0,
-                  "Range": 2400.0,
+                  "UUID": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 4800.0,
                   "Size": 1.0,
                   "Capacity": 2147483647.0,
                   "ImpactDamage": {
-                    "Energy": 15.0
-                  }
+                    "Energy": 19.0
+                  },
+                  "BulletImpulseFalloff": {
+                    "MinDistance": 0.0,
+                    "DropFalloff": 0.0025,
+                    "MaxFalloff": 0.5
+                  },
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.3
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 },
                 "Modes": [
                   {
@@ -414,13 +144,30 @@
                 ]
               },
               "Ammunition": {
-                "Speed": 600.0,
-                "Range": 2400.0,
+                "UUID": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 4800.0,
                 "Size": 1.0,
                 "Capacity": 2147483647.0,
                 "ImpactDamage": {
-                  "Energy": 15.0
-                }
+                  "Energy": 19.0
+                },
+                "BulletImpulseFalloff": {
+                  "MinDistance": 0.0,
+                  "DropFalloff": 0.0025,
+                  "MaxFalloff": 0.5
+                },
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.3
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
               },
               "Ports": [
                 {
@@ -599,13 +346,30 @@
               },
               "Weapon": {
                 "Ammunition": {
-                  "Speed": 600.0,
-                  "Range": 2400.0,
+                  "UUID": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 4800.0,
                   "Size": 1.0,
                   "Capacity": 2147483647.0,
                   "ImpactDamage": {
-                    "Energy": 15.0
-                  }
+                    "Energy": 19.0
+                  },
+                  "BulletImpulseFalloff": {
+                    "MinDistance": 0.0,
+                    "DropFalloff": 0.0025,
+                    "MaxFalloff": 0.5
+                  },
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.3
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
                 },
                 "Modes": [
                   {
@@ -631,13 +395,30 @@
                 ]
               },
               "Ammunition": {
-                "Speed": 600.0,
-                "Range": 2400.0,
+                "UUID": "ee8f19ed-edd8-44ce-baa1-743afd10d5ce",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 4800.0,
                 "Size": 1.0,
                 "Capacity": 2147483647.0,
                 "ImpactDamage": {
-                  "Energy": 15.0
-                }
+                  "Energy": 19.0
+                },
+                "BulletImpulseFalloff": {
+                  "MinDistance": 0.0,
+                  "DropFalloff": 0.0025,
+                  "MaxFalloff": 0.5
+                },
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.3
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
               },
               "Ports": [
                 {
@@ -739,293 +520,6 @@
     {
       "PortName": "hardpoint_remote_turret_front_left",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_SCItem_Remote_Turret_Front_Left",
-      "InstalledItem": {
-        "UUID": "8efa5eac-5d2e-457a-8176-39cdba5094e3",
-        "ClassName": "AEGS_Reclaimer_SCItem_Remote_Turret_Front_Left",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "turret_right",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret"
       ],
@@ -1038,293 +532,6 @@
     {
       "PortName": "hardpoint_remote_turret_front_right",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_SCItem_Remote_Turret_Front_Right",
-      "InstalledItem": {
-        "UUID": "6d9dbe36-882b-41e4-a273-b68191854a8e",
-        "ClassName": "AEGS_Reclaimer_SCItem_Remote_Turret_Front_Right",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "turret_right",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret"
       ],
@@ -1337,293 +544,6 @@
     {
       "PortName": "hardpoint_remote_turret_top",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_SCItem_Remote_Turret_Top",
-      "InstalledItem": {
-        "UUID": "be5dc09d-583a-44e1-aed3-5bf094460c3a",
-        "ClassName": "AEGS_Reclaimer_SCItem_Remote_Turret_Top",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "turret_right",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret"
       ],
@@ -1636,293 +556,6 @@
     {
       "PortName": "hardpoint_remote_turret_bottom",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_SCItem_Remote_Turret_Bottom",
-      "InstalledItem": {
-        "UUID": "0ceecdc5-0c9c-41e6-971f-ebf48805957a",
-        "ClassName": "AEGS_Reclaimer_SCItem_Remote_Turret_Bottom",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "turret_right",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret"
       ],
@@ -1935,293 +568,6 @@
     {
       "PortName": "hardpoint_remote_turret_rear_left",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_SCItem_Remote_Turret_Rear_Left",
-      "InstalledItem": {
-        "UUID": "1418a786-f180-4c8a-9c5d-84c090c69b8e",
-        "ClassName": "AEGS_Reclaimer_SCItem_Remote_Turret_Rear_Left",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "turret_right",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret"
       ],
@@ -2234,293 +580,6 @@
     {
       "PortName": "hardpoint_remote_turret_rear_right",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_SCItem_Remote_Turret_Rear_Right",
-      "InstalledItem": {
-        "UUID": "c434c727-4e01-49dc-b6a5-ac4ba7bfe1df",
-        "ClassName": "AEGS_Reclaimer_SCItem_Remote_Turret_Rear_Right",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "turret_right",
-            "Size": 3,
-            "Loadout": "KLWE_LaserRepeater_S3",
-            "InstalledItem": {
-              "UUID": "bd13235d-1261-4b71-b32f-aed1a8beb526",
-              "ClassName": "KLWE_LaserRepeater_S3",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-337 Panther Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 3\n\nThe CF-337 Panther is the size three model in Klaus & Werner's laser repeater line. The Panther is a true fire-and-forget weapon with a respectable power consumption-to-damage ratio. Pilots who outfit their ships with Panthers rarely regret the decision.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.6699014,
-              "Height": 1.202842,
-              "Length": 4.422015,
-              "Volume": 0.756,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 1024.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 200.0,
-                "PowerDraw": 200.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 100.0,
-                "CoolingRate": 160.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 3.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 60.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 500.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 60.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 500.00000000000006
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 2500.0,
-                  "Cooldown": 1.25,
-                  "CostPerBullet": 60.0,
-                  "RequestedAmmoLoad": 15000.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 3.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 60.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret"
       ],
@@ -2643,10 +702,6 @@
         "Grade": 1,
         "Type": "SeatDashboard.UNDEFINED",
         "Name": "AEGS_Reclaimer_Dashboard_TractorBeam_Right",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -2679,7 +734,7 @@
         "Size": 1,
         "Grade": 1,
         "Type": "SeatAccess.UNDEFINED",
-        "Name": "AEGS_Reclaimer_SeatAccess_TractorBeam_Left",
+        "Name": "Seat",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -2704,7 +759,7 @@
         "Size": 1,
         "Grade": 1,
         "Type": "SeatAccess.UNDEFINED",
-        "Name": "AEGS_Reclaimer_SeatAccess_TractorBeam_Right",
+        "Name": "Seat",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -2733,6 +788,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Noise Launcher",
+        "Description": "Joker Defcon - Noise Launcher",
         "Manufacturer": {
           "Code": "JOK",
           "Name": "Joker Engineering"
@@ -2755,11 +811,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+            "Type": "AmmoParams",
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
             "Capacity": 10.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -2775,11 +839,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
+          "Type": "AmmoParams",
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
           "Capacity": 10.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -2803,6 +875,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon Flares Ammo",
+        "Description": "Joker Defcon Flares Ammo",
         "Manufacturer": {
           "Code": "JOK",
           "Name": "Joker Engineering"
@@ -2825,11 +898,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+            "Type": "AmmoParams",
             "Speed": 90.0,
             "Range": 1080.0,
             "Size": 0.0,
             "Capacity": 25.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -2845,11 +926,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "7b549a87-5904-4d4a-a6c1-34eaa043722d",
+          "Type": "AmmoParams",
           "Speed": 90.0,
           "Range": 1080.0,
           "Size": 0.0,
           "Capacity": 25.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -2891,7 +980,7 @@
         },
         "Shield": {
           "Health": 100000.0,
-          "Regeneration": 1200.0,
+          "Regeneration": 1600.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -2970,7 +1059,7 @@
         },
         "Shield": {
           "Health": 100000.0,
-          "Regeneration": 1200.0,
+          "Regeneration": 1600.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -3049,7 +1138,7 @@
         },
         "Shield": {
           "Health": 100000.0,
-          "Regeneration": 1200.0,
+          "Regeneration": 1600.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -3114,6 +1203,7 @@
         "Grade": 1,
         "Type": "PowerPlant.Power",
         "Name": "Main Powerplant",
+        "Description": "Aegis Idris Powerplant",
         "Width": 0.8932018,
         "Height": 1.60379,
         "Length": 6.633023,
@@ -3181,7 +1271,7 @@
           "Rate": 10400000.0
         },
         "Durability": {
-          "Health": 4500.0,
+          "Health": 486.0,
           "Lifetime": 176.0
         },
         "PowerConnection": {
@@ -3231,7 +1321,7 @@
           "Rate": 10400000.0
         },
         "Durability": {
-          "Health": 4500.0,
+          "Health": 486.0,
           "Lifetime": 176.0
         },
         "PowerConnection": {
@@ -3281,7 +1371,7 @@
           "Rate": 10400000.0
         },
         "Durability": {
-          "Health": 4500.0,
+          "Health": 486.0,
           "Lifetime": 176.0
         },
         "PowerConnection": {
@@ -3337,14 +1427,14 @@
             "Cooldown": 22.0,
             "Stage1AccelerationRate": 600000.0,
             "State2AccelerationRate": 4634678.0,
-            "SpoolUpTime": 19.375
+            "SpoolUpTime": 7.0
           },
           "SplineJump": {
             "Speed": 400000.0,
             "Cooldown": 22.0,
             "Stage1AccelerationRate": 250.0,
             "State2AccelerationRate": 50000.0,
-            "SpoolUpTime": 19.375
+            "SpoolUpTime": 7.0
           }
         },
         "Durability": {
@@ -3359,7 +1449,22 @@
           "ThermalEnergyBase": 181083.0,
           "ThermalEnergyDraw": 181083.0,
           "CoolingRate": 124.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "hardpoint_Jump_Drive",
+            "Size": 3,
+            "Types": [
+              "JumpDrive.JumpDrive"
+            ],
+            "Flags": [
+              "uneditable",
+              "invisible"
+            ],
+            "Category": "UNKNOWN",
+            "Uneditable": true
+          }
+        ]
       },
       "Types": [
         "QuantumDrive.QDrive"
@@ -3425,10 +1530,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 48933780.0,
+          "ThrustCapacity": 73000000.0,
           "FuelRate": 1.93875E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 948.70365975
+          "MaxThrustFuelRate": 1415.2875
         },
         "Durability": {
           "Health": 29000.0,
@@ -3475,10 +1580,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 48933780.0,
+          "ThrustCapacity": 73000000.0,
           "FuelRate": 1.93875E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 948.70365975
+          "MaxThrustFuelRate": 1415.2875
         },
         "Durability": {
           "Health": 29000.0,
@@ -3525,10 +1630,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 34753200.0,
+          "ThrustCapacity": 24500000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Main",
-          "MaxThrustFuelRate": 188.6577462
+          "MaxThrustFuelRate": 132.99824999999998
         },
         "Durability": {
           "Health": 28500.0,
@@ -3574,10 +1679,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 34753200.0,
+          "ThrustCapacity": 24500000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Main",
-          "MaxThrustFuelRate": 188.6577462
+          "MaxThrustFuelRate": 132.99824999999998
         },
         "Durability": {
           "Health": 28500.0,
@@ -3625,10 +1730,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 11698540.0,
+          "ThrustCapacity": 48750000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 63.50552439
+          "MaxThrustFuelRate": 264.639375
         },
         "Durability": {
           "Health": 28000.0,
@@ -3675,10 +1780,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 11698540.0,
+          "ThrustCapacity": 48750000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 63.50552439
+          "MaxThrustFuelRate": 264.639375
         },
         "Durability": {
           "Health": 28000.0,
@@ -3725,10 +1830,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 18702870.0,
+          "ThrustCapacity": 12250000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 101.528529795
+          "MaxThrustFuelRate": 66.49912499999999
         },
         "Durability": {
           "Health": 28000.0,
@@ -3774,10 +1879,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 18702870.0,
+          "ThrustCapacity": 12250000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 101.528529795
+          "MaxThrustFuelRate": 66.49912499999999
         },
         "Durability": {
           "Health": 28000.0,
@@ -3823,10 +1928,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 18702870.0,
+          "ThrustCapacity": 12250000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 101.528529795
+          "MaxThrustFuelRate": 66.49912499999999
         },
         "Durability": {
           "Health": 28000.0,
@@ -3872,10 +1977,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 18702870.0,
+          "ThrustCapacity": 12250000.0,
           "FuelRate": 5.4285E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 101.528529795
+          "MaxThrustFuelRate": 66.49912499999999
         },
         "Durability": {
           "Health": 28000.0,
@@ -3924,10 +2029,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24500000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.5625
         },
         "Durability": {
           "Health": 26500.0,
@@ -3973,10 +2078,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24500000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.5625
         },
         "Durability": {
           "Health": 26500.0,
@@ -4005,14 +2110,14 @@
     {
       "PortName": "hardpoint_thruster_front_right_top",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4022,10 +2127,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -4054,14 +2159,14 @@
     {
       "PortName": "hardpoint_thruster_front_left_top",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4071,10 +2176,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -4103,14 +2208,14 @@
     {
       "PortName": "hardpoint_thruster_front_left_bottom",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "e46991ad-6d7c-4f98-9be1-0165bd41f84f",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4120,10 +2225,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 48750000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 152.34375
         },
         "Durability": {
           "Health": 26500.0,
@@ -4152,14 +2257,14 @@
     {
       "PortName": "hardpoint_thruster_front_right_bottom",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "e46991ad-6d7c-4f98-9be1-0165bd41f84f",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4169,10 +2274,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 48750000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 152.34375
         },
         "Durability": {
           "Health": 26500.0,
@@ -4201,14 +2306,14 @@
     {
       "PortName": "hardpoint_thruster_outer_front_right",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4218,10 +2323,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -4250,14 +2355,14 @@
     {
       "PortName": "hardpoint_thruster_outer_front_left",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4267,10 +2372,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -4299,14 +2404,14 @@
     {
       "PortName": "hardpoint_thruster_back_right_top",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4316,10 +2421,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -4348,14 +2453,14 @@
     {
       "PortName": "hardpoint_thruster_back_left_top",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4365,10 +2470,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -4414,10 +2519,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 19586920.0,
+          "ThrustCapacity": 73000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 61.209125
+          "MaxThrustFuelRate": 228.125
         },
         "Durability": {
           "Health": 26500.0,
@@ -4463,10 +2568,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 19586920.0,
+          "ThrustCapacity": 73000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 61.209125
+          "MaxThrustFuelRate": 228.125
         },
         "Durability": {
           "Health": 26500.0,
@@ -4495,14 +2600,14 @@
     {
       "PortName": "hardpoint_thruster_back_right_bottom",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "e46991ad-6d7c-4f98-9be1-0165bd41f84f",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4512,10 +2617,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 48750000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 152.34375
         },
         "Durability": {
           "Health": 26500.0,
@@ -4544,14 +2649,14 @@
     {
       "PortName": "hardpoint_thruster_back_left_bottom",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "e46991ad-6d7c-4f98-9be1-0165bd41f84f",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Bottom",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4561,10 +2666,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 48750000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 152.34375
         },
         "Durability": {
           "Health": 26500.0,
@@ -4593,14 +2698,14 @@
     {
       "PortName": "hardpoint_thruster_outer_rear_right",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4610,10 +2715,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -4642,14 +2747,14 @@
     {
       "PortName": "hardpoint_thruster_outer_rear_left",
       "Size": 0,
-      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+      "Loadout": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
       "InstalledItem": {
-        "UUID": "e9bc25ee-c707-49da-9662-a3bc2c6a7b0f",
-        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "UUID": "438653d5-7916-4775-a7e0-b17a45d9c585",
+        "ClassName": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.FixedThruster",
-        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed",
+        "Name": "AEGS_Reclaimer_Thruster_Mav_Fixed_Top",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4659,10 +2764,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 35725710.0,
+          "ThrustCapacity": 24400000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 111.64284375000001
+          "MaxThrustFuelRate": 76.25
         },
         "Durability": {
           "Health": 26500.0,
@@ -5022,6 +3127,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5083,6 +3189,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5145,6 +3252,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5207,6 +3315,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5269,6 +3378,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5331,6 +3441,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5393,6 +3504,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5455,6 +3567,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5517,6 +3630,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5579,6 +3693,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5641,6 +3756,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {
@@ -5703,6 +3819,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 1000.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {

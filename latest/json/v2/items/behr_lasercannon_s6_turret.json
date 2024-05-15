@@ -41,13 +41,26 @@
   },
   "Weapon": {
     "Ammunition": {
+      "UUID": "75d0e269-21be-4f3c-bf37-6027a4d25b10",
+      "Type": "AmmoParams",
       "Speed": 1300.0,
       "Range": 7800.0,
       "Size": 6.0,
       "Capacity": 0.0,
       "ImpactDamage": {
         "Energy": 1000.0
-      }
+      },
+      "BulletImpulseFalloff": {},
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {},
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {}
     },
     "Modes": [
       {
@@ -66,20 +79,33 @@
       }
     ],
     "Consumption": {
-      "RequestedRegenPerSec": 10000.0,
-      "Cooldown": 2.0,
-      "CostPerBullet": 1000.0,
-      "RequestedAmmoLoad": 60000.0
+      "RequestedRegenPerSec": 14292.0,
+      "Cooldown": 0.75,
+      "CostPerBullet": 854.0,
+      "RequestedAmmoLoad": 85750.0
     }
   },
   "Ammunition": {
+    "UUID": "75d0e269-21be-4f3c-bf37-6027a4d25b10",
+    "Type": "AmmoParams",
     "Speed": 1300.0,
     "Range": 7800.0,
     "Size": 6.0,
     "Capacity": 0.0,
     "ImpactDamage": {
       "Energy": 1000.0
-    }
+    },
+    "BulletImpulseFalloff": {},
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {},
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {}
   },
   "Ports": [
     {

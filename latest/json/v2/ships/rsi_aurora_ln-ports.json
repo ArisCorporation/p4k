@@ -3,174 +3,6 @@
     {
       "PortName": "Hardpoint_Weapon_Nose_Right",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S1",
-      "InstalledItem": {
-        "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-        "ClassName": "Mount_Gimbal_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S1 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
-        },
-        "Durability": {
-          "Health": 100.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 10.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 1,
-            "Loadout": "KLWE_LaserRepeater_S1",
-            "InstalledItem": {
-              "UUID": "c9c2bb19-3298-448e-a117-043e082a1c74",
-              "ClassName": "KLWE_LaserRepeater_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-117 Bulldog Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 1\n\nFeaturing a three-barrel sequential fire design, the Klaus & Werner CF-117 Bulldog laser repeater is capable of delivering high velocity energy rounds while maintaining heat efficiency making it a favorite among new pilots who are outfitting their first ship.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 1.105504,
-              "Length": 0.801895,
-              "Volume": 0.08399999999999999,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 525.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 180.0,
-                "PowerDraw": 180.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 61.81
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 28.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 720.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 28.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 336.0
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 1680.0,
-                  "Cooldown": 0.75,
-                  "CostPerBullet": 28.0,
-                  "RequestedAmmoLoad": 10080.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 28.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -183,174 +15,6 @@
     {
       "PortName": "Hardpoint_Weapon_Nose_Left",
       "Size": 0,
-      "Loadout": "Mount_Gimbal_S1",
-      "InstalledItem": {
-        "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-        "ClassName": "Mount_Gimbal_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S1 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
-        },
-        "Durability": {
-          "Health": 100.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 10.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 1,
-            "Loadout": "KLWE_LaserRepeater_S1",
-            "InstalledItem": {
-              "UUID": "c9c2bb19-3298-448e-a117-043e082a1c74",
-              "ClassName": "KLWE_LaserRepeater_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-117 Bulldog Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 1\n\nFeaturing a three-barrel sequential fire design, the Klaus & Werner CF-117 Bulldog laser repeater is capable of delivering high velocity energy rounds while maintaining heat efficiency making it a favorite among new pilots who are outfitting their first ship.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 1.105504,
-              "Length": 0.801895,
-              "Volume": 0.08399999999999999,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 525.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 180.0,
-                "PowerDraw": 180.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 61.81
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 28.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 720.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 28.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 336.0
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 1680.0,
-                  "Cooldown": 0.75,
-                  "CostPerBullet": 28.0,
-                  "RequestedAmmoLoad": 10080.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 28.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "Turret.GunTurret",
         "WeaponGun.Gun"
@@ -363,174 +27,6 @@
     {
       "PortName": "Hardpoint_Weapon_Wing_Top_Left",
       "Size": 2,
-      "Loadout": "Mount_Gimbal_S1",
-      "InstalledItem": {
-        "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-        "ClassName": "Mount_Gimbal_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S1 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
-        },
-        "Durability": {
-          "Health": 100.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 10.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 1,
-            "Loadout": "KLWE_LaserRepeater_S1",
-            "InstalledItem": {
-              "UUID": "c9c2bb19-3298-448e-a117-043e082a1c74",
-              "ClassName": "KLWE_LaserRepeater_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-117 Bulldog Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 1\n\nFeaturing a three-barrel sequential fire design, the Klaus & Werner CF-117 Bulldog laser repeater is capable of delivering high velocity energy rounds while maintaining heat efficiency making it a favorite among new pilots who are outfitting their first ship.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 1.105504,
-              "Length": 0.801895,
-              "Volume": 0.08399999999999999,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 525.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 180.0,
-                "PowerDraw": 180.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 61.81
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 28.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 720.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 28.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 336.0
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 1680.0,
-                  "Cooldown": 0.75,
-                  "CostPerBullet": 28.0,
-                  "RequestedAmmoLoad": 10080.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 28.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "WeaponGun.Gun",
         "Turret.Gun",
@@ -544,174 +40,6 @@
     {
       "PortName": "Hardpoint_Weapon_Wing_Top_Right",
       "Size": 2,
-      "Loadout": "Mount_Gimbal_S1",
-      "InstalledItem": {
-        "UUID": "80ae6d83-7d8a-4357-b109-a0154418bae5",
-        "ClassName": "Mount_Gimbal_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "VariPuck S1 Gimbal Mount",
-        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 1\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. This special VariPuck will accept any weapon the same size as the hardpoint it is mounting to.",
-        "Manufacturer": {
-          "Code": "FFSY",
-          "Name": "Flashfire Systems"
-        },
-        "Tags": [
-          "gimbalMount",
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
-        },
-        "Durability": {
-          "Health": 100.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 10.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_class_2",
-            "Size": 1,
-            "Loadout": "KLWE_LaserRepeater_S1",
-            "InstalledItem": {
-              "UUID": "c9c2bb19-3298-448e-a117-043e082a1c74",
-              "ClassName": "KLWE_LaserRepeater_S1",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "CF-117 Bulldog Repeater",
-              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 1\n\nFeaturing a three-barrel sequential fire design, the Klaus & Werner CF-117 Bulldog laser repeater is capable of delivering high velocity energy rounds while maintaining heat efficiency making it a favorite among new pilots who are outfitting their first ship.",
-              "Manufacturer": {
-                "Code": "KLA",
-                "Name": "Klaus & Werner"
-              },
-              "Tags": [
-                "KLWE",
-                "LaserRepeater",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 0.4466009,
-              "Height": 1.105504,
-              "Length": 0.801895,
-              "Volume": 0.08399999999999999,
-              "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
-              },
-              "Durability": {
-                "Health": 525.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 180.0,
-                "PowerDraw": 180.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 61.81
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "Speed": 1400.0,
-                  "Range": 1540.0000000000002,
-                  "Size": 1.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 28.0
-                  }
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[SEMI]",
-                    "RoundsPerMinute": 720.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 28.0
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 336.0
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 1680.0,
-                  "Cooldown": 0.75,
-                  "CostPerBullet": 28.0,
-                  "RequestedAmmoLoad": 10080.0
-                }
-              },
-              "Ammunition": {
-                "Speed": 1400.0,
-                "Range": 1540.0000000000002,
-                "Size": 1.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 28.0
-                }
-              },
-              "Ports": [
-                {
-                  "PortName": "BAR1",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Barrel"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "MEC",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.FiringMechanism"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "POW",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.PowerArray"
-                  ],
-                  "Category": "Weapon attachments"
-                },
-                {
-                  "PortName": "VEN",
-                  "Size": 1,
-                  "Types": [
-                    "WeaponAttachment.Ventilation"
-                  ],
-                  "Category": "Weapon attachments"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
       "Types": [
         "WeaponGun.Gun",
         "Turret.Gun",
@@ -975,6 +303,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Aegis Gladius - Decoy Launcher",
+        "Description": "Aegis Gladius - Decoy Launcher",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -997,11 +326,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+            "Type": "AmmoParams",
             "Speed": 65.0,
             "Range": 520.0,
             "Size": 0.0,
             "Capacity": 48.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -1017,11 +354,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "9621efe3-86b7-4da3-ac4a-430394f53bf4",
+          "Type": "AmmoParams",
           "Speed": 65.0,
           "Range": 520.0,
           "Size": 0.0,
           "Capacity": 48.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -1045,6 +390,7 @@
         "Grade": 1,
         "Type": "WeaponDefensive.CountermeasureLauncher",
         "Name": "Joker Defcon - Noise Launcher",
+        "Description": "Joker Defcon - Noise Launcher",
         "Manufacturer": {
           "Code": "JOK",
           "Name": "Joker Engineering"
@@ -1067,11 +413,19 @@
         },
         "Weapon": {
           "Ammunition": {
+            "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+            "Type": "AmmoParams",
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
             "Capacity": 5.0,
-            "ImpactDamage": {}
+            "ImpactDamage": {},
+            "BulletImpulseFalloff": {},
+            "BulletPierceability": {},
+            "BulletElectron": {},
+            "DamageDropMinDistance": {},
+            "DamageDropPerMeter": {},
+            "DamageDropMinDamage": {}
           },
           "Modes": [
             {
@@ -1087,11 +441,19 @@
           ]
         },
         "Ammunition": {
+          "UUID": "fba15492-1bee-4ef0-8efd-815e3c500ea9",
+          "Type": "AmmoParams",
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
           "Capacity": 5.0,
-          "ImpactDamage": {}
+          "ImpactDamage": {},
+          "BulletImpulseFalloff": {},
+          "BulletPierceability": {},
+          "BulletElectron": {},
+          "DamageDropMinDistance": {},
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {}
         }
       },
       "Types": [
@@ -1132,8 +494,8 @@
           "Depth": 0.38
         },
         "Shield": {
-          "Health": 1350.0,
-          "Regeneration": 340.0,
+          "Health": 1500.0,
+          "Regeneration": 100.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1211,8 +573,8 @@
           "Depth": 0.38
         },
         "Shield": {
-          "Health": 1350.0,
-          "Regeneration": 340.0,
+          "Health": 1500.0,
+          "Regeneration": 100.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1349,7 +711,7 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1500.0,
+          "Health": 162.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -1399,7 +761,7 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 1500.0,
+          "Health": 162.0,
           "Lifetime": 44.0
         },
         "PowerConnection": {
@@ -1455,14 +817,14 @@
             "Cooldown": 9.4,
             "Stage1AccelerationRate": 920000.0,
             "State2AccelerationRate": 2284234.0,
-            "SpoolUpTime": 5.0
+            "SpoolUpTime": 2.0
           },
           "SplineJump": {
             "Speed": 500000.0,
             "Cooldown": 10.0,
             "Stage1AccelerationRate": 250.0,
             "State2AccelerationRate": 50000.0,
-            "SpoolUpTime": 5.0
+            "SpoolUpTime": 2.0
           }
         },
         "Durability": {
@@ -1487,7 +849,8 @@
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable"
+              "uneditable",
+              "invisible"
             ],
             "Category": "UNKNOWN",
             "Uneditable": true
@@ -1523,7 +886,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "QuantumFuelTank": {
-          "Capacity": 583.33
+          "Capacity": 670.8295
         }
       },
       "Types": [
@@ -1541,14 +904,14 @@
     {
       "PortName": "Hardpoint_Main_Thruster",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_LN_Main",
+      "Loadout": "RSI_Aurora_LN_Thruster_Main",
       "InstalledItem": {
         "UUID": "e28a26b3-6f95-432c-be9b-cc479dc1459c",
-        "ClassName": "RSI_Aurora_Thruster_LN_Main",
+        "ClassName": "RSI_Aurora_LN_Thruster_Main",
         "Size": 1,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "RSI_Aurora_Thruster_LN_Main",
+        "Name": "RSI_Aurora_LN_Thruster_Main",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1558,10 +921,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 2376642.0,
+          "ThrustCapacity": 3269697.0,
           "FuelRate": 9.275E-06,
           "Type": "Main",
-          "MaxThrustFuelRate": 22.04335455
+          "MaxThrustFuelRate": 30.326439675
         },
         "Durability": {
           "Health": 8750.0,
@@ -1591,14 +954,14 @@
     {
       "PortName": "Hardpoint_Retro_Thruster_Left",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_LN_Retro",
+      "Loadout": "RSI_Aurora_LN_Thruster_Retro",
       "InstalledItem": {
         "UUID": "a611004c-1a49-4264-b74d-3ffeabbdea3a",
-        "ClassName": "RSI_Aurora_Thruster_LN_Retro",
+        "ClassName": "RSI_Aurora_LN_Thruster_Retro",
         "Size": 1,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "RSI_Aurora_Thruster_LN_Retro",
+        "Name": "RSI_Aurora_LN_Thruster_Retro",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1608,10 +971,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 570495.2,
+          "ThrustCapacity": 520142.9,
           "FuelRate": 9.275E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 5.29134298
+          "MaxThrustFuelRate": 4.8243253975
         },
         "Durability": {
           "Health": 8000.0,
@@ -1643,14 +1006,14 @@
     {
       "PortName": "Hardpoint_Retro_Thruster_Right",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_LN_Retro_Right",
+      "Loadout": "RSI_Aurora_LN_Thruster_Retro",
       "InstalledItem": {
-        "UUID": "4cef6f66-b1f9-416a-b280-42604d485d00",
-        "ClassName": "RSI_Aurora_Thruster_LN_Retro_Right",
+        "UUID": "a611004c-1a49-4264-b74d-3ffeabbdea3a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Retro",
         "Size": 1,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "RSI_Aurora_Thruster_LN_Retro_Right",
+        "Name": "RSI_Aurora_LN_Thruster_Retro",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1660,10 +1023,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 570495.2,
+          "ThrustCapacity": 520142.9,
           "FuelRate": 9.275E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 5.29134298
+          "MaxThrustFuelRate": 4.8243253975
         },
         "Durability": {
           "Health": 8000.0,
@@ -1698,14 +1061,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_FT",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1715,10 +1078,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -1752,14 +1115,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_FB",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1769,10 +1132,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -1806,14 +1169,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_FL",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1823,10 +1186,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -1861,14 +1224,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_FR",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1878,10 +1241,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -1916,14 +1279,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_RT",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1933,10 +1296,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -1971,14 +1334,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_RL",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -1988,10 +1351,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -2026,14 +1389,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_RR",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -2043,10 +1406,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -2081,14 +1444,14 @@
     {
       "PortName": "Hardpoint_Mav_Thruster_RB",
       "Size": 0,
-      "Loadout": "RSI_Aurora_Thruster_Mav_Joint_01",
+      "Loadout": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
       "InstalledItem": {
-        "UUID": "0b31aa44-6cc5-4cec-88da-0f500507c489",
-        "ClassName": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "UUID": "80182ed5-3710-4f6f-93aa-dab00f9a2d8a",
+        "ClassName": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Size": 1,
         "Grade": 1,
         "Type": "ManneuverThruster.JointThruster",
-        "Name": "RSI_Aurora_Thruster_Mav_Joint_01",
+        "Name": "RSI_Aurora_LN_Thruster_Mav_Joint_01",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -2098,10 +1461,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 165320.2,
+          "ThrustCapacity": 247655.9,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 0.5166256250000001
+          "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
           "Health": 7150.0,
@@ -2307,6 +1670,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
+          "Health": 180.0,
           "Lifetime": 720.0
         },
         "PowerConnection": {

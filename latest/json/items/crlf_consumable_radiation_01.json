@@ -20,6 +20,9 @@
           "value": "698228ca-185d-4f01-bf2f-bd744131f333"
         },
         {
+          "value": "564097bf-f499-4f7d-8759-1c263bb67a13"
+        },
+        {
           "value": "9446d839-3a8b-4b8a-ace7-f1f0a084945f"
         },
         {
@@ -42,7 +45,7 @@
         "SAttachableComponentParams": {
           "AttachDef": {
             "Type": "FPS_Consumable",
-            "SubType": "MedPack",
+            "SubType": "Medical",
             "Size": 1,
             "Grade": 1,
             "Manufacturer": "dd55bc19-5212-4365-bbc8-73474f0257ed",
@@ -230,6 +233,13 @@
           "canBeReclosed": false,
           "discardWhenConsumed": true,
           "containerClosed": false
+        },
+        "SMeleeWeaponComponentParams": {
+          "canBeUsedForTakeDown": false,
+          "canBlock": false,
+          "canBeUsedInProne": true,
+          "canDodge": false,
+          "meleeCombatConfig": "bae1435d-8be6-4362-a009-28eb2c25e6ba"
         }
       },
       "ClassName": "crlf_consumable_radiation_01",

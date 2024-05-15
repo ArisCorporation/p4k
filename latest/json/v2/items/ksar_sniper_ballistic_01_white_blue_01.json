@@ -29,11 +29,32 @@
   },
   "Weapon": {
     "Ammunition": {
-      "Speed": 425.0,
-      "Range": 850.0,
+      "UUID": "61d7c50b-4d80-490d-9f20-3ba008407196",
+      "Type": "AmmoParams",
+      "Speed": 875.0,
+      "Range": 1750.0,
       "Size": 1.0,
       "ImpactDamage": {
-        "Physical": 48.0
+        "Physical": 45.0
+      },
+      "BulletImpulseFalloff": {
+        "MinDistance": 15.0,
+        "DropFalloff": 0.005,
+        "MaxFalloff": 0.3715
+      },
+      "BulletPierceability": {
+        "DamageFalloffLevel1": 0.0,
+        "DamageFalloffLevel2": 0.0,
+        "DamageFalloffLevel3": 0.0,
+        "MaxPenetrationThickness": 0.5
+      },
+      "BulletElectron": {},
+      "DamageDropMinDistance": {
+        "Physical": 150.0
+      },
+      "DamageDropPerMeter": {},
+      "DamageDropMinDamage": {
+        "Physical": 45.0
       }
     },
     "Modes": [
@@ -45,10 +66,10 @@
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 48.0
+          "Physical": 45.0
         },
         "DamagePerSecond": {
-          "Physical": 480.0
+          "Physical": 450.0
         }
       },
       {
@@ -59,20 +80,41 @@
         "AmmoPerShot": 1.0,
         "PelletsPerShot": 1.0,
         "DamagePerShot": {
-          "Physical": 48.0
+          "Physical": 45.0
         },
         "DamagePerSecond": {
-          "Physical": 48.0
+          "Physical": 45.0
         }
       }
     ]
   },
   "Ammunition": {
-    "Speed": 425.0,
-    "Range": 850.0,
+    "UUID": "61d7c50b-4d80-490d-9f20-3ba008407196",
+    "Type": "AmmoParams",
+    "Speed": 875.0,
+    "Range": 1750.0,
     "Size": 1.0,
     "ImpactDamage": {
-      "Physical": 48.0
+      "Physical": 45.0
+    },
+    "BulletImpulseFalloff": {
+      "MinDistance": 15.0,
+      "DropFalloff": 0.005,
+      "MaxFalloff": 0.3715
+    },
+    "BulletPierceability": {
+      "DamageFalloffLevel1": 0.0,
+      "DamageFalloffLevel2": 0.0,
+      "DamageFalloffLevel3": 0.0,
+      "MaxPenetrationThickness": 0.5
+    },
+    "BulletElectron": {},
+    "DamageDropMinDistance": {
+      "Physical": 150.0
+    },
+    "DamageDropPerMeter": {},
+    "DamageDropMinDamage": {
+      "Physical": 45.0
     }
   },
   "Ports": [
@@ -100,12 +142,33 @@
         "Length": 0.08141628,
         "Volume": 0.00061,
         "Ammunition": {
-          "Speed": 425.0,
-          "Range": 850.0,
+          "UUID": "61d7c50b-4d80-490d-9f20-3ba008407196",
+          "Type": "AmmoParams",
+          "Speed": 875.0,
+          "Range": 1750.0,
           "Size": 1.0,
           "Capacity": 12.0,
           "ImpactDamage": {
-            "Physical": 48.0
+            "Physical": 45.0
+          },
+          "BulletImpulseFalloff": {
+            "MinDistance": 15.0,
+            "DropFalloff": 0.005,
+            "MaxFalloff": 0.3715
+          },
+          "BulletPierceability": {
+            "DamageFalloffLevel1": 0.0,
+            "DamageFalloffLevel2": 0.0,
+            "DamageFalloffLevel3": 0.0,
+            "MaxPenetrationThickness": 0.5
+          },
+          "BulletElectron": {},
+          "DamageDropMinDistance": {
+            "Physical": 150.0
+          },
+          "DamageDropPerMeter": {},
+          "DamageDropMinDamage": {
+            "Physical": 45.0
           }
         }
       },
@@ -124,7 +187,7 @@
         "Grade": 1,
         "Type": "WeaponAttachment.IronSight",
         "Name": "Black Prism (8x Telescopic)",
-        "Description": "Manufacturer: Kastak Arms\nType: Telescopic  \nAttachment Point: Optic \nMagnification: 8x\nSize: 3\n\nDelivering accurate fire at long distances is a skill that comes with practice – and the use of a proper scope like Kastak Arms' Black Prism. Crafted with rugged, multi-coated crystalens to deliver bright, clear visuals, this 8x telescopic sight is completely at home on your favorite rifle.",
+        "Description": "Manufacturer: Kastak Arms\nType: Telescopic  \nAttachment Point: Optic \nMagnification: 8x\nAim Time: +0%\nSize: 3\n\nDelivering accurate fire at long distances is a skill that comes with practice – and the use of a proper scope like Kastak Arms' Black Prism. Crafted with rugged, multi-coated crystalens to deliver bright, clear visuals, this 8x telescopic sight is completely at home on your favorite rifle.",
         "Manufacturer": {
           "Code": "KSAR",
           "Name": "Kastak Arms"

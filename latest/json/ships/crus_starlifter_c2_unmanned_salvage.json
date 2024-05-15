@@ -19,6 +19,9 @@
           "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
         },
         {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
           "value": "63897a88-9b61-476d-94f4-1fe138ca648e"
         },
         {
@@ -29,6 +32,15 @@
         },
         {
           "value": "3b820f26-de66-41dd-aba5-adff60a2526b"
+        },
+        {
+          "value": "503443c0-b6d1-4539-b493-688117334ff1"
+        },
+        {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
+          "value": "226ae798-1dc4-4d3e-8679-e84c30973b86"
         },
         {
           "value": "02389e4f-87bc-4f83-a4d5-bb0110fb9af9"
@@ -52,7 +64,7 @@
           "dogfightEnabled": 0,
           "unmovable": 0,
           "isGravlevVehicle": false,
-          "incomingDamageModifierToAI": 1.0,
+          "incomingDamageModifierToAI": 0.0,
           "emergencyStatusDamageThreshold": 0.25,
           "crewSize": 2,
           "vehicleName": "@vehicle_NameCRUS_Starlifter_C2",
@@ -61,7 +73,7 @@
           "vehicleCareerRef": "d86d770d-1fc4-4525-b3b0-4f670a8a5634",
           "vehicleRole": "@vehicle_class_courier",
           "vehicleRoleRef": "4c0633a2-887f-4231-a40a-d366224f01d5",
-          "inventoryContainerParams": "484d2897-e12a-4b32-993a-aba97002cc26",
+          "inventoryContainerParams": "a1b12c2a-fc72-4ed2-8820-ce7ea4458164",
           "maxBoundingBoxSize": {
             "x": 94.0,
             "y": 70.0,
@@ -204,28 +216,43 @@
                 },
                 {
                   "itemPortName": "hardpoint_remote_turret_bottom",
-                  "entityClassName": "CRUS_Starlifter_SCItem_Remote_Turret_Main",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "BEHR_LaserCannon_S4",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         },
                         {
                           "itemPortName": "turret_right",
-                          "entityClassName": "BEHR_LaserCannon_S4",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
                   }
-                },
-                {
-                  "itemPortName": "hardpoint_remote_turret_bottom_radar",
-                  "entityClassName": "RADR_CHCO_S02_Surveyor",
-                  "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_power_plant_l",
@@ -234,19 +261,39 @@
                 },
                 {
                   "itemPortName": "hardpoint_remote_turret_rear",
-                  "entityClassName": "CRUS_Starlifter_SCItem_Remote_Turret_Rear",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "turret_right",
-                          "entityClassName": "BEHR_LaserCannon_S4",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         },
                         {
                           "itemPortName": "turret_left",
-                          "entityClassName": "BEHR_LaserCannon_S4",
-                          "loadout": {}
+                          "entityClassName": "",
+                          "loadout": {
+                            "SItemPortLoadoutManualParams": {
+                              "entries": [
+                                {
+                                  "itemPortName": "hardpoint_class_2",
+                                  "entityClassName": "",
+                                  "loadout": {}
+                                }
+                              ]
+                            }
+                          }
                         }
                       ]
                     }
@@ -255,11 +302,6 @@
                 {
                   "itemPortName": "hardpoint_remote_turret_rear_controller",
                   "entityClassName": "Controller_Weapon",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_remote_turret_rear_radar",
-                  "entityClassName": "RADR_CHCO_S02_Surveyor",
                   "loadout": {}
                 },
                 {
@@ -434,13 +476,13 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_top_left",
-                  "entityClassName": "Mount_Gimbal_S5",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "hardpoint_class_2",
-                          "entityClassName": "BEHR_LaserCannon_S4",
+                          "entityClassName": "",
                           "loadout": {}
                         }
                       ]
@@ -449,13 +491,13 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_top_right",
-                  "entityClassName": "Mount_Gimbal_S5",
+                  "entityClassName": "",
                   "loadout": {
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
                           "itemPortName": "hardpoint_class_2",
-                          "entityClassName": "BEHR_LaserCannon_S4",
+                          "entityClassName": "",
                           "loadout": {}
                         }
                       ]
@@ -558,36 +600,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_general_cargo_01",
-                  "entityClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_general_cargo_02",
-                  "entityClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_general_cargo_03",
-                  "entityClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_general_cargo_04",
-                  "entityClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_general_cargo_05",
-                  "entityClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_general_cargo_06",
-                  "entityClassName": "CRUS_Starlifter_CargoGrid_Personal_Large",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_Elevator_Exterior_Door",
                   "entityClassName": "Door_Ship_Exterior_CRUS_Starlifter_Elevator_Door",
                   "loadout": {}
@@ -599,7 +611,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "WeaponRegenPool_Crew_Starlifter",
+                  "entityClassName": "",
                   "loadout": {}
                 },
                 {
@@ -635,6 +647,71 @@
                 {
                   "itemPortName": "hardpoint_cockpit_flair_hang",
                   "entityClassName": "",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_cockpit",
+                  "entityClassName": "RELAY_shipItem_1slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_neck",
+                  "entityClassName": "RELAY_shipItem_2slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_central",
+                  "entityClassName": "RELAY_shipItem_3slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_rear_left",
+                  "entityClassName": "RELAY_shipItem_3slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_rear_right",
+                  "entityClassName": "RELAY_shipItem_3slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_habitation",
+                  "entityClassName": "RELAY_shipItem_1slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_turrets",
+                  "entityClassName": "RELAY_shipItem_1slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_cargo",
+                  "entityClassName": "RELAY_shipItem_2slot",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_lifesupport",
+                  "entityClassName": "LFSP_S02_Template",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_engineeringscreen",
+                  "entityClassName": "SoftLock_EngineeringScreen_A2_CitizenConDemo",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_lifesupport_tank",
+                  "entityClassName": "LFTK_S02_Template",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_battery_left",
+                  "entityClassName": "BATT_S03_CitizenConDemo",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_battery_right",
+                  "entityClassName": "BATT_S03_CitizenConDemo",
                   "loadout": {}
                 }
               ]
@@ -793,6 +870,177 @@
                   "SubTypes": []
                 }
               ]
+            },
+            {
+              "Name": "hardpoint_relay_cockpit",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_relay_neck",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_relay_central",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_relay_rear_left",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_relay_rear_right",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_relay_habitation",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_relay_turrets",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_relay_cargo",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_lifesupport",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 2,
+              "MaxSize": 2,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "LifeSupportGenerator",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_engineeringscreen",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 0,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "SeatDashboard",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_lifesupport_tank",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "uneditable",
+              "MinSize": 2,
+              "MaxSize": 2,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "LifeSupportCompressor",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_battery_left",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 0,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_battery_right",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 0,
+              "MaxSize": 0,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
             }
           ]
         }
@@ -926,7 +1174,10 @@
                             "pipeClass": "Heat",
                             "pipe": "MainHeat"
                           }
-                        ]
+                        ],
+                        "ControllerDef": {
+                          "controllableTags": "pilotseat_weapons"
+                        }
                       }
                     }
                   ]
@@ -962,7 +1213,10 @@
                             "pipeClass": "Heat",
                             "pipe": "MainHeat"
                           }
-                        ]
+                        ],
+                        "ControllerDef": {
+                          "controllableTags": "pilotseat_weapons"
+                        }
                       }
                     }
                   ]
@@ -3087,9 +3341,6 @@
                             "defaultPriority": "no_control"
                           },
                           {
-                            "itemType": "WeaponDefensive"
-                          },
-                          {
                             "itemType": "MissileLauncher"
                           },
                           {
@@ -3153,7 +3404,10 @@
                         "pipeClass": "Heat",
                         "pipe": "MainHeat"
                       }
-                    ]
+                    ],
+                    "ControllerDef": {
+                      "controllableTags": "pilotseat_weapons"
+                    }
                   }
                 },
                 {
@@ -3180,7 +3434,10 @@
                         "pipeClass": "Heat",
                         "pipe": "MainHeat"
                       }
-                    ]
+                    ],
+                    "ControllerDef": {
+                      "controllableTags": "pilotseat_weapons"
+                    }
                   }
                 },
                 {
@@ -3207,7 +3464,10 @@
                         "pipeClass": "Heat",
                         "pipe": "MainHeat"
                       }
-                    ]
+                    ],
+                    "ControllerDef": {
+                      "controllableTags": "pilotseat_weapons"
+                    }
                   }
                 },
                 {
@@ -3234,7 +3494,10 @@
                         "pipeClass": "Heat",
                         "pipe": "MainHeat"
                       }
-                    ]
+                    ],
+                    "ControllerDef": {
+                      "controllableTags": "pilotseat_weapons"
+                    }
                   }
                 },
                 {
@@ -5623,6 +5886,262 @@
               "idRef": "modPart_Tail_Right",
               "name": "damageMax",
               "value": "5220"
+            },
+            {
+              "idRef": "modPart_cargo_small_A2",
+              "name": "flags",
+              "value": ""
+            },
+            {
+              "idRef": "modPart_Paint",
+              "name": "portTags",
+              "value": "Paint_Starlifter"
+            }
+          ]
+        },
+        {
+          "name": "Starlifter_A2_AC_Engineer",
+          "patchFile": "",
+          "Elems": [
+            {
+              "idRef": "modPart_armory_cargo_01",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_armory_cargo_02",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_armory_cargo_03",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_power_plant_r_type",
+              "name": "type",
+              "value": "PowerPlant"
+            },
+            {
+              "idRef": "modPart_power_plant_r",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_power_plant_r",
+              "name": "flags",
+              "value": ""
+            },
+            {
+              "idRef": "modPart_cargo_large",
+              "name": "skipPart",
+              "value": "1"
+            },
+            {
+              "idRef": "modPart_cargo_small",
+              "name": "skipPart",
+              "value": "1"
+            },
+            {
+              "idRef": "modPart_forward_left_remote_turret_type",
+              "name": "type",
+              "value": "Turret"
+            },
+            {
+              "idRef": "modPart_forward_left_remote_turret_type",
+              "name": "subtypes",
+              "value": "GunTurret"
+            },
+            {
+              "idRef": "modPart_forward_left_remote_turret",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_left_remote_turret_controller",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_left_remote_turret_seat",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_left_remote_turret_seat_access",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_left_remote_turret_radar",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_right_remote_turret_type",
+              "name": "type",
+              "value": "Turret"
+            },
+            {
+              "idRef": "modPart_forward_right_remote_turret_type",
+              "name": "subtypes",
+              "value": "GunTurret"
+            },
+            {
+              "idRef": "modPart_forward_right_remote_turret",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_right_remote_turret_controller",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_right_remote_turret_seat",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_right_remote_turret_seat_access",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_forward_right_remote_turret_radar",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_left_remote_turret_type",
+              "name": "type",
+              "value": "Turret"
+            },
+            {
+              "idRef": "modPart_rear_left_remote_turret_type",
+              "name": "subtypes",
+              "value": "GunTurret"
+            },
+            {
+              "idRef": "modPart_rear_left_remote_turret",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_left_remote_turret_controller",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_left_remote_turret_seat",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_left_remote_turret_seat_access",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_left_remote_turret_radar",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_right_remote_turret_type",
+              "name": "type",
+              "value": "Turret"
+            },
+            {
+              "idRef": "modPart_rear_right_remote_turret_type",
+              "name": "subtypes",
+              "value": "GunTurret"
+            },
+            {
+              "idRef": "modPart_rear_right_remote_turret",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_right_remote_turret_controller",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_right_remote_turret_seat",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_right_remote_turret_seat_access",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_rear_right_remote_turret_radar",
+              "name": "skipPart",
+              "value": "0"
+            },
+            {
+              "idRef": "modPart_bomb_mechanism_left",
+              "name": "flags",
+              "value": "$uneditable"
+            },
+            {
+              "idRef": "modPart_bomb_mechanism_right",
+              "name": "flags",
+              "value": "$uneditable"
+            },
+            {
+              "idRef": "modPart_bomb_turret_controller",
+              "name": "flags",
+              "value": ""
+            },
+            {
+              "idRef": "modPart_bomb_turret",
+              "name": "flags",
+              "value": ""
+            },
+            {
+              "idRef": "modPart_bomb_console_access",
+              "name": "flags",
+              "value": ""
+            },
+            {
+              "idRef": "modPart_bomb_console",
+              "name": "flags",
+              "value": ""
+            },
+            {
+              "idRef": "modPart_Nose",
+              "name": "damageMax",
+              "value": "10150000"
+            },
+            {
+              "idRef": "modPart_Body",
+              "name": "damageMax",
+              "value": "65250000"
+            },
+            {
+              "idRef": "modPart_Wing_Right",
+              "name": "damageMax",
+              "value": "8845000"
+            },
+            {
+              "idRef": "modPart_Wing_Left",
+              "name": "damageMax",
+              "value": "8845000"
+            },
+            {
+              "idRef": "modPart_Tail_Left",
+              "name": "damageMax",
+              "value": "5220000"
+            },
+            {
+              "idRef": "modPart_Tail_Right",
+              "name": "damageMax",
+              "value": "5220000"
             },
             {
               "idRef": "modPart_cargo_small_A2",

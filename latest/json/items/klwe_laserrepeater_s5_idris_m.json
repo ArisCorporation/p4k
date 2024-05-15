@@ -1,10 +1,15 @@
 {
   "ammo": {
     "size": 3,
-    "lifetime": 4.0,
+    "lifetime": 1.83,
     "speed": 1800.0,
     "projectileParams": {
       "BulletProjectileParams": {
+        "impactRadius": 0.0,
+        "minImpactRadius": 0.0,
+        "ignitionChanceOverride": -1.0,
+        "keepAliveOnZeroDamage": 0.0,
+        "hitType": "bullet",
         "damage": [
           {
             "DamagePhysical": 0.0,
@@ -15,7 +20,16 @@
             "DamageStun": 0.0
           }
         ],
-        "detonationParams": {}
+        "damageDropParams": {},
+        "detonationParams": {},
+        "impulseFalloffParams": {},
+        "pierceabilityParams": {
+          "damageFalloffLevel1": 0.0,
+          "damageFalloffLevel2": 0.0,
+          "damageFalloffLevel3": 0.0,
+          "maxPenetrationThickness": 0.5
+        },
+        "electronParams": {}
       }
     },
     "ClassName": "KLWE_LaserRepeater_S5_AMMO_Idris_M",
@@ -169,6 +183,7 @@
         "SAmmoContainerComponentParams": {
           "initialAmmoCount": 0.0,
           "maxAmmoCount": 0.0,
+          "maxRestockCount": 3.0,
           "ammoParamsRecord": "7bf99f16-f5b8-453a-a410-d425b96be7c2"
         },
         "SCItemWeaponComponentParams": {
@@ -181,12 +196,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -226,12 +244,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 0.1,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -271,12 +292,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.2,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -316,12 +340,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.5,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -361,12 +388,15 @@
               "fireRate": 0.0,
               "fireRateMultiplier": 1.0,
               "damageMultiplier": 1.0,
+              "damageOverTimeMultiplier": 1.0,
+              "projectileSpeedMultiplier": 1.0,
               "pellets": 0.0,
               "burstShots": 0.0,
               "ammoCost": 0.0,
               "ammoCostMultiplier": 1.0,
               "heatGenerationMultiplier": 1.0,
               "soundRadiusMultiplier": 1.0,
+              "chargeTimeMultiplier": 1.0,
               "useAlternateProjectileVisuals": false,
               "recoilModifier": {
                 "angleRecoilStrengthMultiplier": 1.0,
@@ -408,18 +438,18 @@
               "mode": "Looping",
               "sequenceEntries": [
                 {
-                  "delay": 225.0,
+                  "delay": 750.0,
                   "unit": "RPM",
                   "weaponAction": {
                     "SWeaponActionFireSingleParams": {
-                      "heatPerShot": 10000.0,
-                      "fireRate": 225.0,
+                      "heatPerShot": 0.0,
+                      "fireRate": 750.0,
                       "launchParams": {
                         "SProjectileLauncher": {
                           "ammoCost": 1.0,
                           "pelletCount": 1.0,
                           "spreadParams": {
-                            "min": 0.0,
+                            "min": 0.6,
                             "max": 0.8,
                             "firstAttack": 0.022,
                             "attack": 0.022,
@@ -434,18 +464,18 @@
                   }
                 },
                 {
-                  "delay": 225.0,
+                  "delay": 750.0,
                   "unit": "RPM",
                   "weaponAction": {
                     "SWeaponActionFireSingleParams": {
-                      "heatPerShot": 10000.0,
-                      "fireRate": 225.0,
+                      "heatPerShot": 0.0,
+                      "fireRate": 750.0,
                       "launchParams": {
                         "SProjectileLauncher": {
                           "ammoCost": 1.0,
                           "pelletCount": 1.0,
                           "spreadParams": {
-                            "min": 0.0,
+                            "min": 0.6,
                             "max": 0.8,
                             "firstAttack": 0.022,
                             "attack": 0.022,
@@ -460,18 +490,18 @@
                   }
                 },
                 {
-                  "delay": 225.0,
+                  "delay": 750.0,
                   "unit": "RPM",
                   "weaponAction": {
                     "SWeaponActionFireSingleParams": {
-                      "heatPerShot": 10000.0,
-                      "fireRate": 225.0,
+                      "heatPerShot": 0.0,
+                      "fireRate": 750.0,
                       "launchParams": {
                         "SProjectileLauncher": {
                           "ammoCost": 1.0,
                           "pelletCount": 1.0,
                           "spreadParams": {
-                            "min": 0.0,
+                            "min": 0.6,
                             "max": 0.8,
                             "firstAttack": 0.022,
                             "attack": 0.022,
@@ -493,10 +523,10 @@
           ],
           "weaponRegenConsumerParams": [
             {
-              "requestedRegenPerSec": 5062.5,
-              "regenerationCooldown": 1.75,
-              "regenerationCostPerBullet": 270.0,
-              "requestedAmmoLoad": 30375.0
+              "requestedRegenPerSec": 5688.0,
+              "regenerationCooldown": 0.25,
+              "regenerationCostPerBullet": 91.0,
+              "requestedAmmoLoad": 34125.0
             }
           ]
         },
