@@ -92,7 +92,9 @@ namespace Loader
 		{
 			var tags = new List<string>();
 
-			var tagString = entity.Components.SAttachableComponentParams?.AttachDef.Tags;
+			if (entity?.Components?.SAttachableComponentParams?.AttachDef?.Tags == null) return tags;
+
+			var tagString = entity.Components?.SAttachableComponentParams?.AttachDef?.Tags;
 			if (tagString != null)
 			{
 				foreach (var tag in tagString.Split(" "))
@@ -109,7 +111,7 @@ namespace Loader
 
 			if (entity?.Components?.SItemPortContainerComponentParams == null) return ports;
 
-			foreach (var port in entity.Components.SItemPortContainerComponentParams.Ports)
+			foreach (var port in entity.Components?.SItemPortContainerComponentParams.Ports)
 			{
 				var stdPort = new StandardisedItemPort
 				{
@@ -165,7 +167,7 @@ namespace Loader
 
 		StandardisedShield BuildShieldInfo(EntityClassDefinition item)
 		{
-			var shield = item.Components.SCItemShieldGeneratorParams;
+			var shield = item.Components?.SCItemShieldGeneratorParams;
 			if (shield == null) return null;
 
 			return new StandardisedShield
@@ -188,7 +190,7 @@ namespace Loader
 
 		StandardisedQuantumDrive BuildQuantumDriveInfo(EntityClassDefinition item)
 		{
-			var qdComponent = item.Components.SCItemQuantumDriveParams;
+			var qdComponent = item.Components?.SCItemQuantumDriveParams;
 			if (qdComponent == null) return null;
 
 			return new StandardisedQuantumDrive
@@ -216,8 +218,8 @@ namespace Loader
 
 		StandardisedDurability BuildDurabilityInfo(EntityClassDefinition item)
 		{
-			var degradation = item.Components.SDegradationParams;
-			var health = item.Components.SHealthComponentParams;
+			var degradation = item.Components?.SDegradationParams;
+			var health = item.Components?.SHealthComponentParams;
 
 			if (degradation == null && health == null) return null;
 
@@ -230,8 +232,8 @@ namespace Loader
 
 		StandardisedPowerPlant BuildPowerPlantInfo(EntityClassDefinition item)
 		{
-			if (item.Components.SAttachableComponentParams?.AttachDef.Type != "PowerPlant") return null;
-			var powerPlant = item.Components.EntityComponentPowerConnection;
+			if (item.Components?.SAttachableComponentParams?.AttachDef.Type != "PowerPlant") return null;
+			var powerPlant = item.Components?.EntityComponentPowerConnection;
 			if (powerPlant == null) return null;
 
 			return new StandardisedPowerPlant
@@ -242,7 +244,7 @@ namespace Loader
 
 		StandardisedCooler BuildCoolerInfo(EntityClassDefinition item)
 		{
-			var cooler = item.Components.SCItemCoolerParams;
+			var cooler = item.Components?.SCItemCoolerParams;
 			if (cooler == null) return null;
 
 			return new StandardisedCooler
@@ -253,7 +255,7 @@ namespace Loader
 
 		StandardisedThruster BuildThrusterInfo(EntityClassDefinition item)
 		{
-			var thruster = item.Components.SCItemThrusterParams;
+			var thruster = item.Components?.SCItemThrusterParams;
 			if (thruster == null) return null;
 
 			return new StandardisedThruster
@@ -267,7 +269,7 @@ namespace Loader
 
 		StandardisedCargoGrid BuildCargoGridInfo(EntityClassDefinition item)
 		{
-			var cargo = item.Components.SCItemCargoGridParams;
+			var cargo = item.Components?.SCItemCargoGridParams;
 			if (cargo == null) return null;
 
 			return new StandardisedCargoGrid
@@ -282,10 +284,10 @@ namespace Loader
 
 		StandardisedFuelTank BuildQuantumFuelTankInfo(EntityClassDefinition item)
 		{
-			var tank = item.Components.SCItemFuelTankParams;
+			var tank = item.Components?.SCItemFuelTankParams;
 			if (tank == null) return null;
 
-			if (item.Components.SAttachableComponentParams.AttachDef.Type != "QuantumFuelTank") return null;
+			if (item.Components?.SAttachableComponentParams.AttachDef.Type != "QuantumFuelTank") return null;
 
 			return new StandardisedFuelTank
 			{
@@ -295,10 +297,10 @@ namespace Loader
 
 		StandardisedFuelTank BuildHydrogenFuelTankInfo(EntityClassDefinition item)
 		{
-			var tank = item.Components.SCItemFuelTankParams;
+			var tank = item.Components?.SCItemFuelTankParams;
 			if (tank == null) return null;
 
-			if (item.Components.SAttachableComponentParams.AttachDef.Type != "FuelTank") return null;
+			if (item.Components?.SAttachableComponentParams.AttachDef.Type != "FuelTank") return null;
 
 			return new StandardisedFuelTank
 			{
@@ -308,7 +310,7 @@ namespace Loader
 
 		StandardisedFuelIntake BuildHydrogenFuelIntakeInfo(EntityClassDefinition item)
 		{
-			var intake = item.Components.SCItemFuelIntakeParams;
+			var intake = item.Components?.SCItemFuelIntakeParams;
 			if (intake == null) return null;
 
 			return new StandardisedFuelIntake
@@ -319,7 +321,7 @@ namespace Loader
 
 		StandardisedArmour BuildArmourInfo(EntityClassDefinition item)
 		{
-			var armour = item.Components.SCItemVehicleArmorParams;
+			var armour = item.Components?.SCItemVehicleArmorParams;
 			if (armour == null) return null;
 
 			return new StandardisedArmour
@@ -345,7 +347,7 @@ namespace Loader
 
 		StandardisedEmp BuildEmpInfo(EntityClassDefinition item)
 		{
-			var emp = item.Components.SCItemEMPParams;
+			var emp = item.Components?.SCItemEMPParams;
 			if (emp == null) return null;
 
 			return new StandardisedEmp
@@ -359,10 +361,10 @@ namespace Loader
 
 		StandardisedMissileRack BuildMissileRackInfo(EntityClassDefinition item)
 		{
-			if (item.Components.SAttachableComponentParams?.AttachDef.Type != "MissileLauncher") return null;
-			if (item.Components.SAttachableComponentParams?.AttachDef.SubType != "MissileRack") return null;
+			if (item.Components?.SAttachableComponentParams?.AttachDef.Type != "MissileLauncher") return null;
+			if (item.Components?.SAttachableComponentParams?.AttachDef.SubType != "MissileRack") return null;
 
-			var rootPort = item.Components.SItemPortContainerComponentParams;
+			var rootPort = item.Components?.SItemPortContainerComponentParams;
 			if (rootPort == null) return null;
 
 			var rackPorts = rootPort.Ports;
@@ -377,7 +379,7 @@ namespace Loader
 
 		StandardisedQig BuildQigInfo(EntityClassDefinition item)
 		{
-			var qig = item.Components.SCItemQuantumInterdictionGeneratorParams;
+			var qig = item.Components?.SCItemQuantumInterdictionGeneratorParams;
 			if (qig == null) return null;
 
 			return new StandardisedQig
@@ -389,7 +391,7 @@ namespace Loader
 
 		StandardisedIfcs BuildIfcsInfo(EntityClassDefinition item)
 		{
-			var ifcs = item.Components.IFCSParams;
+			var ifcs = item.Components?.IFCSParams;
 			if (ifcs == null) return null;
 
 			return new StandardisedIfcs
@@ -415,7 +417,7 @@ namespace Loader
 
 		StandardisedCoolerConnection BuildHeatConnectionInfo(EntityClassDefinition item)
 		{
-			var heat = item.Components.EntityComponentHeatConnection;
+			var heat = item.Components?.EntityComponentHeatConnection;
 			if (heat == null) return null;
 
 			return new StandardisedCoolerConnection
@@ -428,7 +430,7 @@ namespace Loader
 
 		StandardisedPowerConnection BuildPowerConnectionInfo(EntityClassDefinition item)
 		{
-			var power = item.Components.EntityComponentPowerConnection;
+			var power = item.Components?.EntityComponentPowerConnection;
 			if (power == null) return null;
 
 			return new StandardisedPowerConnection
@@ -440,7 +442,7 @@ namespace Loader
 
 		StandardisedWeapon BuildWeaponInfo(EntityClassDefinition item)
 		{
-			var weapon = item.Components.SCItemWeaponComponentParams;
+			var weapon = item.Components?.SCItemWeaponComponentParams;
 			if (weapon == null) return null;
 
 			var info = new StandardisedWeapon
@@ -551,7 +553,7 @@ namespace Loader
 				Size = ammo.size,
 				ImpactDamage = ConvertDamage(impactDamage),
 				DetonationDamage = ConvertDamage(detonationDamage),
-				Capacity = item.Components.SAmmoContainerComponentParams?.maxAmmoCount ?? item.Components.SAmmoContainerComponentParams?.maxRestockCount,
+				Capacity = item.Components?.SAmmoContainerComponentParams?.maxAmmoCount ?? item.Components?.SAmmoContainerComponentParams?.maxRestockCount,
 				BulletImpulseFalloff = new StandardisedBulletImpulseFalloff{
 					MinDistance = projectiles?.impulseFalloffParams?.BulletImpulseFalloffParams?.minDistance,
 					DropFalloff = projectiles?.impulseFalloffParams?.BulletImpulseFalloffParams?.dropFalloff,
@@ -621,22 +623,22 @@ namespace Loader
 		AmmoParams GetAmmoParams(EntityClassDefinition item)
 		{
 			// If this a weapon that contains its own ammo, or if it is a magazine, then it will have an SCAmmoContainerComponentParams component.
-			var ammoRef = item.Components.SAmmoContainerComponentParams?.ammoParamsRecord;
+			var ammoRef = item.Components?.SAmmoContainerComponentParams?.ammoParamsRecord;
 			if (ammoRef != null) return ammoSvc.GetByReference(ammoRef);
 
 			// Otherwise if this is a weapon then SCItemWeaponComponentParams.ammoContainerRecord should be the reference of a magazine entity
-			var magRef = item.Components.SCItemWeaponComponentParams?.ammoContainerRecord;
+			var magRef = item.Components?.SCItemWeaponComponentParams?.ammoContainerRecord;
 			if (magRef == null) return null;
 			var mag = entitySvc.GetByReference(magRef);
 			if (mag == null) return null;
 
 			// And the magazine's SAmmoContainerComponentParams will tell us about the ammo
-			return ammoSvc.GetByReference(mag.Components.SAmmoContainerComponentParams.ammoParamsRecord);
+			return ammoSvc.GetByReference(mag.Components?.SAmmoContainerComponentParams.ammoParamsRecord);
 		}
 
 		StandardisedMissile BuildMissileInfo(EntityClassDefinition item)
 		{
-			var missile = item.Components.SCItemMissileParams;
+			var missile = item.Components?.SCItemMissileParams;
 			if (missile == null) return null;
 
 			var info = new StandardisedMissile
@@ -649,7 +651,7 @@ namespace Loader
 
 		StandardisedMissile BuildBombInfo(EntityClassDefinition item)
 		{
-			var missile = item.Components.SCItemBombParams;
+			var missile = item.Components?.SCItemBombParams;
 			if (missile == null) return null;
 
 			var info = new StandardisedMissile
@@ -662,7 +664,7 @@ namespace Loader
 
 		StandardisedScanner BuildScannerInfo(EntityClassDefinition item)
 		{
-			var scanner = item.Components.SSCItemScannerComponentParams;
+			var scanner = item.Components?.SSCItemScannerComponentParams;
 			if (scanner == null) return null;
 
 			var info = new StandardisedScanner
@@ -675,7 +677,7 @@ namespace Loader
 
 		StandardisedRadar BuildRadarInfo(EntityClassDefinition item)
 		{
-			var radar = item.Components.SCItemRadarComponentParams;
+			var radar = item.Components?.SCItemRadarComponentParams;
 			if (radar == null) return null;
 
 			var info = new StandardisedRadar
@@ -692,11 +694,11 @@ namespace Loader
 		List<StandardisedSignatureDetection> BuildDetectionSignatures(EntityClassDefinition item)
 		{
 			var detections = new List<StandardisedSignatureDetection>();
-			var signatureDetection = item.Components.SCItemRadarComponentParams.signatureDetection;
+			var signatureDetection = item.Components?.SCItemRadarComponentParams?.signatureDetection;
 
 			if (signatureDetection == null) return null;
 
-			foreach (var detection in item.Components.SCItemRadarComponentParams.signatureDetection)
+			foreach (var detection in item.Components?.SCItemRadarComponentParams.signatureDetection)
 			{
 				detections.Add(new StandardisedSignatureDetection
 				{
@@ -711,7 +713,7 @@ namespace Loader
 
 		StandardisedPing BuildPingInfo(EntityClassDefinition item)
 		{
-			var ping = item.Components.SSCItemPingComponentParams;
+			var ping = item.Components?.SSCItemPingComponentParams;
 			if (ping == null) return null;
 
 			var info = new StandardisedPing
@@ -725,7 +727,7 @@ namespace Loader
 
 		StandardisedWeaponRegenPool BuildWeaponRegenInfo(EntityClassDefinition item)
 		{
-			var regen = item.Components.SCItemWeaponRegenPoolComponentParams;
+			var regen = item.Components?.SCItemWeaponRegenPoolComponentParams;
 			if (regen == null) return null;
 
 			var info = new StandardisedWeaponRegenPool
@@ -740,7 +742,7 @@ namespace Loader
 
 		StandardisedInventoryContainer BuildPersonalInventoryInfo(EntityClassDefinition item)
 		{
-			var inventoryRef = item.Components.SCItemInventoryContainerComponentParams?.containerParams;
+			var inventoryRef = item.Components?.SCItemInventoryContainerComponentParams?.containerParams;
 			if (inventoryRef != null) return _inventoryContainerSvc.GetInventoryContainer(inventoryRef);
 
 			return null;
