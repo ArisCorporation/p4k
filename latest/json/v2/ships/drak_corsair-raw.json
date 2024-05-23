@@ -1,0 +1,1343 @@
+{
+  "Entity": {
+    "StaticEntityClassData": {
+      "DefaultEntitlementEntityParams": {
+        "entitlementPolicy": "8a1fdd48-7896-4774-a110-2466190e1a07"
+      },
+      "SEntityInsuranceProperties": {
+        "shipInsuranceParams": {
+          "shipEntityClassName": "DRAK_Corsair",
+          "baseWaitTimeMinutes": 17.01,
+          "mandatoryWaitTimeMinutes": 5.67,
+          "baseExpeditingFee": 6805.0
+        }
+      }
+    },
+    "tags": [
+      {
+        "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
+      },
+      {
+        "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+      },
+      {
+        "value": "63897a88-9b61-476d-94f4-1fe138ca648e"
+      },
+      {
+        "value": "5a206ca4-ad01-46b2-bc2b-59de612cf979"
+      },
+      {
+        "value": "503443c0-b6d1-4539-b493-688117334ff1"
+      },
+      {
+        "value": "33e0472e-e3ad-4701-951a-915bf5f8a691"
+      },
+      {
+        "value": "226ae798-1dc4-4d3e-8679-e84c30973b86"
+      }
+    ],
+    "Components": {
+      "VehicleComponentParams": {
+        "landingSystem": "1a6a3dd5-6b5c-4748-b882-837e43523844",
+        "manufacturer": "6116471c-891d-4830-8968-650b6deafc00",
+        "vehicleDefinition": "Scripts/Entities/Vehicles/Implementations/Xml/DRAK_Corsair.xml",
+        "modification": "",
+        "dogfightEnabled": 1,
+        "unmovable": 0,
+        "isGravlevVehicle": false,
+        "incomingDamageModifierToAI": 0.0,
+        "emergencyStatusDamageThreshold": 0.25,
+        "crewSize": 4,
+        "vehicleName": "@vehicle_NameDRAK_Corsair",
+        "vehicleDescription": "@vehicle_DescDRAK_Corsair",
+        "vehicleCareer": "@vehicle_focus_exploration",
+        "vehicleCareerRef": "605f6ca1-9eae-4d78-9f7f-71288d44dada",
+        "vehicleRole": "@vehicle_class_expedition",
+        "vehicleRoleRef": "bdf53a4c-0fce-442f-9222-e438792d7b75",
+        "inventoryContainerParams": "6abb4bb2-4539-4de1-ab8e-878565048c29",
+        "maxBoundingBoxSize": {
+          "x": 30.0,
+          "y": 53.0,
+          "z": 25.0
+        }
+      },
+      "SEntityComponentDefaultLoadoutParams": {
+        "loadout": {
+          "SItemPortLoadoutManualParams": {
+            "entries": [
+              {
+                "itemPortName": "hardpoint_paint",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_armor",
+                "entityClassName": "ARMR_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cockpit_selfdestruct",
+                "entityClassName": "VHCL_SelfDestruct_45s",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_comms",
+                "entityClassName": "Controller_Comms",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_cooler",
+                "entityClassName": "Controller_Cooler",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_door",
+                "entityClassName": "Controller_Door",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_energy",
+                "entityClassName": "Controller_Energy",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_flight",
+                "entityClassName": "Controller_Flight_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_light",
+                "entityClassName": "Controller_Light",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_shield",
+                "entityClassName": "Controller_Shield_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_weapon",
+                "entityClassName": "Controller_Weapon",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_weapon_co_pilot",
+                "entityClassName": "Controller_Weapon",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_capacitor_assignment",
+                "entityClassName": "Controller_CapacitorAssignment",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_fuel",
+                "entityClassName": "Controller_Fuel",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_controller_missile",
+                "entityClassName": "Controller_Missile",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_air_traffic_controller",
+                "entityClassName": "DRAK_Corsair_ShipATCDataManager",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_ping",
+                "entityClassName": "test_ping_S2",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_scanner",
+                "entityClassName": "test_scanner",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_ground_refueling_port",
+                "entityClassName": "DRAK_Corsair_Ground_Refueling_Port",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fuel_intake_left",
+                "entityClassName": "INTK_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fuel_intake_right",
+                "entityClassName": "INTK_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fuel_port",
+                "entityClassName": "DockingTube_Fuel_Ports_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fuel_tank_a",
+                "entityClassName": "HTNK_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fuel_tank_b",
+                "entityClassName": "HTNK_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_power_plant_a",
+                "entityClassName": "POWR_SASU_S02_DayBreak_SCItem",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_power_plant_b",
+                "entityClassName": "POWR_SASU_S02_DayBreak_SCItem",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cooler_a",
+                "entityClassName": "COOL_JSPN_S02_FrostStarEX_SCItem",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cooler_b",
+                "entityClassName": "COOL_JSPN_S02_FrostStarEX_SCItem",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_shield_generator_a",
+                "entityClassName": "SHLD_BEHR_S03_5CA_SCItem",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_quantum_drive",
+                "entityClassName": "QDRV_ARCC_S02_Torrent_SCItem",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_quantum_fuel_tank_a",
+                "entityClassName": "QTNK_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_quantum_fuel_tank_b",
+                "entityClassName": "QTNK_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_weapon_regen_pool_turrets",
+                "entityClassName": "WeaponRegenPool_Turret_S2",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_radar_turret_left",
+                "entityClassName": "",
+                "entityClassReference": "5b0d1308-b34a-4b55-94f5-7270e03ca82a",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_manned_turret_left",
+                "entityClassName": "",
+                "entityClassReference": "460303b8-2c17-4522-9630-1965f2f3b722",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_weapon_left",
+                        "entityClassName": "",
+                        "entityClassReference": "7fedca61-dfeb-4ecb-b421-e7c3ba55a584",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "entityClassReference": "5453a817-dfd4-4143-aa11-840ca428540c",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "itemPortName": "hardpoint_weapon_right",
+                        "entityClassName": "",
+                        "entityClassReference": "7fedca61-dfeb-4ecb-b421-e7c3ba55a584",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "entityClassReference": "5453a817-dfd4-4143-aa11-840ca428540c",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_manned_turret_door_left",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_manned_turret_airlock_left",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_seataccess_turret_left",
+                "entityClassName": "DRAK_Corsair_SeatAccess_Turret_Left",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_radar_turret_right",
+                "entityClassName": "",
+                "entityClassReference": "5b0d1308-b34a-4b55-94f5-7270e03ca82a",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_manned_turret_right",
+                "entityClassName": "",
+                "entityClassReference": "460303b8-2c17-4522-9630-1965f2f3b722",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_weapon_left",
+                        "entityClassName": "",
+                        "entityClassReference": "7fedca61-dfeb-4ecb-b421-e7c3ba55a584",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "entityClassReference": "5453a817-dfd4-4143-aa11-840ca428540c",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "itemPortName": "hardpoint_weapon_right",
+                        "entityClassName": "",
+                        "entityClassReference": "7fedca61-dfeb-4ecb-b421-e7c3ba55a584",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "entityClassReference": "5453a817-dfd4-4143-aa11-840ca428540c",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_manned_turret_door_right",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_manned_turret_airlock_right",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_seataccess_turret_right",
+                "entityClassName": "DRAK_Corsair_SeatAccess_Turret_Right",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_weapon_regen_pool",
+                "entityClassName": "",
+                "entityClassReference": "c7354cc1-a635-4488-85ba-df5466b8ff6e",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cockpit_flair",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cockpit_flair_hang",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_radar",
+                "entityClassName": "",
+                "entityClassReference": "5b0d1308-b34a-4b55-94f5-7270e03ca82a",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_pilot_seat",
+                "entityClassName": "DRAK_Corsair_Seat_Pilot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_pilot_seataccess",
+                "entityClassName": "DRAK_Corsair_SeatAccess_Pilot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_pilot_dashboard",
+                "entityClassName": "DRAK_Corsair_Dashboard_Pilot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "Display_HUD",
+                        "entityClassName": "Projector_HUD_Generic",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_radar_co_pilot",
+                "entityClassName": "RADR_WLOP_S02_Chernykh",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_co_pilot_seat",
+                "entityClassName": "DRAK_Corsair_Seat_Copilot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_co_pilot_seataccess",
+                "entityClassName": "DRAK_Corsair_SeatAccess_Copilot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_co_pilot_dashboard",
+                "entityClassName": "DRAK_Corsair_Dashboard_Copilot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "Display_HUD",
+                        "entityClassName": "Projector_HUD_Generic",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_main_thruster_a_left",
+                "entityClassName": "DRAK_Corsair_Thruster_Main_A",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_main_thruster_b_left",
+                "entityClassName": "DRAK_Corsair_Thruster_Aux_B",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_main_thruster_c_left",
+                "entityClassName": "DRAK_Corsair_Thruster_Aux_C",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_main_thruster_a_right",
+                "entityClassName": "DRAK_Corsair_Thruster_Main_A",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_main_thruster_b_right",
+                "entityClassName": "DRAK_Corsair_Thruster_Aux_B",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_main_thruster_c_right",
+                "entityClassName": "DRAK_Corsair_Thruster_Aux_C",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_retro_thruster_a_left",
+                "entityClassName": "DRAK_Corsair_Thruster_Retro_A",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_retro_thruster_b_left",
+                "entityClassName": "DRAK_Corsair_Thruster_Retro_B",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_retro_thruster_c_left",
+                "entityClassName": "DRAK_Corsair_Thruster_Retro_C",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_retro_thruster_a_right",
+                "entityClassName": "DRAK_Corsair_Thruster_Retro_A",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_retro_thruster_b_right",
+                "entityClassName": "DRAK_Corsair_Thruster_Retro_B",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_retro_thruster_c_right",
+                "entityClassName": "DRAK_Corsair_Thruster_Retro_C",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_left_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_left_bottom_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_left_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Up",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_left_top_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_right_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_right_bottom_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_right_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nose_right_top_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_left_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_left_bottom_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_left_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Up",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_left_top_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_right_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_right_bottom_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_right_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Up",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_body_right_top_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_left_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_left_bottom_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_left_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Up",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_left_top_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_right_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_right_bottom_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_right_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Up",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_tail_right_top_side",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nacelle_right_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Up",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nacelle_right_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nacelle_left_top",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Up",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_thruster_mav_nacelle_left_bottom",
+                "entityClassName": "DRAK_Corsair_Thruster_Mav_Bottom",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cm_launcher_left",
+                "entityClassName": "DRAK_Corsair_CML_Decoy",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cm_launcher_right",
+                "entityClassName": "DRAK_Corsair_CML_Chaff",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cheek_weapon_left",
+                "entityClassName": "",
+                "entityClassReference": "99e0ea17-45fc-4700-8607-ab879d05a284",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "entityClassReference": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_cheek_weapon_right",
+                "entityClassName": "",
+                "entityClassReference": "99e0ea17-45fc-4700-8607-ab879d05a284",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "entityClassReference": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_chin_weapon_right",
+                "entityClassName": "",
+                "entityClassReference": "99e0ea17-45fc-4700-8607-ab879d05a284",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "entityClassReference": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_chin_weapon_left",
+                "entityClassName": "",
+                "entityClassReference": "99e0ea17-45fc-4700-8607-ab879d05a284",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "entityClassReference": "b94c54b2-a70e-4f41-bc02-ed76be87e493",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_weapon_wing_bottom",
+                "entityClassName": "",
+                "entityClassReference": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "entityClassReference": "52c1793e-5610-4daa-aafe-a8cf55e60283",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_weapon_wing_top",
+                "entityClassName": "",
+                "entityClassReference": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_class_2",
+                        "entityClassName": "",
+                        "entityClassReference": "52c1793e-5610-4daa-aafe-a8cf55e60283",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_tail_turret",
+                "entityClassName": "",
+                "entityClassReference": "5ec6f19b-93ae-4830-9ae1-45993d579f46",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_weapon_left",
+                        "entityClassName": "",
+                        "entityClassReference": "7fedca61-dfeb-4ecb-b421-e7c3ba55a584",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "entityClassReference": "5453a817-dfd4-4143-aa11-840ca428540c",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "itemPortName": "hardpoint_weapon_right",
+                        "entityClassName": "",
+                        "entityClassReference": "7fedca61-dfeb-4ecb-b421-e7c3ba55a584",
+                        "loadout": {
+                          "SItemPortLoadoutManualParams": {
+                            "entries": [
+                              {
+                                "itemPortName": "hardpoint_class_2",
+                                "entityClassName": "",
+                                "entityClassReference": "5453a817-dfd4-4143-aa11-840ca428540c",
+                                "loadout": {}
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_wing_right_missile_mount_a",
+                "entityClassName": "MRCK_S04_BEHR_Dual_S03",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "missile_01_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "missile_02_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_wing_right_missile_mount_b",
+                "entityClassName": "MRCK_S04_BEHR_Dual_S03",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "missile_01_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "missile_02_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_wing_right_missile_mount_c",
+                "entityClassName": "MRCK_S04_BEHR_Dual_S03",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "missile_01_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "missile_02_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_wing_right_missile_mount_d",
+                "entityClassName": "MRCK_S04_BEHR_Dual_S03",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "missile_01_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "missile_02_attach",
+                        "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "itemPortName": "hardpoint_ramp",
+                "entityClassName": "DRAK_Corsair_Door_Ramp",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_elevator_door_ext_lower",
+                "entityClassName": "DRAK_Corsair_Elevator_Door_Ext_Lower",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_elevator_door_ext_upper",
+                "entityClassName": "DRAK_Corsair_Elevator_Door_Ext_Upper",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_docking_collar",
+                "entityClassName": "DRAK_Corsair_Docking_Collar",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_cargo_grid",
+                "entityClassName": "DRAK_Corsair_CargoGrid_Main",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_weapon_rack_03",
+                "entityClassName": "Weapon_Rack_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_weapon_rack_02",
+                "entityClassName": "Weapon_Rack_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_weapon_rack_01",
+                "entityClassName": "Weapon_Rack_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_weapon_rack_special",
+                "entityClassName": "Weapon_Rack_DRAK_Corsair_LargeWeapons",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_personal_storage_01",
+                "entityClassName": "PersonalStorage_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_personal_storage_02",
+                "entityClassName": "PersonalStorage_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_personal_storage_03",
+                "entityClassName": "PersonalStorage_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_personal_storage_04",
+                "entityClassName": "PersonalStorage_DRAK_Corsair",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_panel_exterior_right",
+                "entityClassName": "ControlPanel_Screen_DoorControl_Physical_Corsair_Ramp",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_panel_exterior_left",
+                "entityClassName": "ControlPanel_Screen_DoorControl_Physical_Corsair_Ramp",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fire_extinguisher_cockpit",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fire_extinguisher_messhall",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fire_extinguisher_engineering",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_fire_extinguisher_hold",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "landingpad_helper",
+                "entityClassName": "Default_LandingSystem",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_portal2_trigger",
+                "entityClassName": "DRAK_Corsair_Door_Ramp_Portal2_Trigger",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              }
+            ]
+          }
+        }
+      },
+      "SAttachableComponentParams": {
+        "AttachDef": {
+          "Type": "NOITEM_Vehicle",
+          "SubType": "Vehicle_Spaceship",
+          "Size": 4,
+          "Grade": 4,
+          "Manufacturer": "6116471c-891d-4830-8968-650b6deafc00",
+          "Tags": "DRAK_Corsair Ship_Dock_Refuel",
+          "RequiredTags": "",
+          "DisplayType": "",
+          "Localization": {
+            "Name": "@vehicle_NameDRAK_Corsair",
+            "Description": "@vehicle_DescDRAK_Corsair"
+          },
+          "inventoryOccupancyVolume": {
+            "SMicroCargoUnit": {
+              "microSCU": 1.0
+            }
+          },
+          "inventoryOccupancyDimensions": {
+            "x": 0.15,
+            "y": 0.15,
+            "z": 0.15
+          },
+          "inventoryOccupancyDimensionsUIOverride": {}
+        }
+      },
+      "SHealthComponentParams": {
+        "Health": 1.0,
+        "DetachFromItemPortOnDeath": false,
+        "DetachFromEntityOnDeath": false,
+        "PropagateExplosionDamageToChildren": false,
+        "IsSalvagable": true,
+        "IsRepairable": true,
+        "DamageResistances": {
+          "DamageResistance": {
+            "PhysicalResistance": {
+              "Multiplier": 1.0,
+              "Threshold": 0
+            },
+            "EnergyResistance": {
+              "Multiplier": 1.0,
+              "Threshold": 0
+            },
+            "DistortionResistance": {
+              "Multiplier": 1.0,
+              "Threshold": 0
+            },
+            "ThermalResistance": {
+              "Multiplier": 1.0,
+              "Threshold": 0
+            },
+            "BiochemicalResistance": {
+              "Multiplier": 1.0,
+              "Threshold": 0
+            },
+            "StunResistance": {
+              "Multiplier": 1.0,
+              "Threshold": 0
+            }
+          }
+        }
+      },
+      "SDegradationParams": {
+        "MaxLifetimeHours": 25.0,
+        "InitialAgeRatio": 0.0,
+        "DegradeOnlyWhenAttached": false
+      },
+      "SEntityInteractableParams": {
+        "Interactable": {
+          "SharedInteractions": [
+            {
+              "Name": "PowerOn",
+              "RoomTag": "00000000-0000-0000-0000-000000000000",
+              "UsableTag": "00000000-0000-0000-0000-000000000000",
+              "DisplayName": "@ui_interactor_power_on",
+              "DisplayType": "Show",
+              "GenericCursor": "SingleAction",
+              "FocusModeOnly": false,
+              "Sendable": false,
+              "Linkable": true,
+              "LockedByLinks": false,
+              "RequiresAuthorizedUser": false,
+              "available": true
+            },
+            {
+              "Name": "PowerOff",
+              "RoomTag": "00000000-0000-0000-0000-000000000000",
+              "UsableTag": "00000000-0000-0000-0000-000000000000",
+              "DisplayName": "@ui_interactor_power_off",
+              "DisplayType": "Show",
+              "GenericCursor": "SingleAction",
+              "FocusModeOnly": false,
+              "Sendable": false,
+              "Linkable": true,
+              "LockedByLinks": false,
+              "RequiresAuthorizedUser": false,
+              "available": true
+            },
+            {
+              "Name": "ShipTransformDeploy",
+              "RoomTag": "00000000-0000-0000-0000-000000000000",
+              "UsableTag": "00000000-0000-0000-0000-000000000000",
+              "DisplayName": "@ui_interactor_deploy",
+              "DisplayType": "Show",
+              "GenericCursor": "Button",
+              "FocusModeOnly": false,
+              "Sendable": true,
+              "Linkable": true,
+              "LockedByLinks": false,
+              "RequiresAuthorizedUser": false,
+              "available": true
+            },
+            {
+              "Name": "ShipTransformRetract",
+              "RoomTag": "00000000-0000-0000-0000-000000000000",
+              "UsableTag": "00000000-0000-0000-0000-000000000000",
+              "DisplayName": "@ui_interactor_retract",
+              "DisplayType": "Show",
+              "GenericCursor": "Button",
+              "FocusModeOnly": false,
+              "Sendable": true,
+              "Linkable": true,
+              "LockedByLinks": false,
+              "RequiresAuthorizedUser": false,
+              "available": true
+            },
+            {
+              "Name": "ShipTransformCycle",
+              "RoomTag": "00000000-0000-0000-0000-000000000000",
+              "UsableTag": "00000000-0000-0000-0000-000000000000",
+              "DisplayName": "@vehicle_interactor_TransformShip",
+              "DisplayType": "Show",
+              "GenericCursor": "SingleAction",
+              "FocusModeOnly": false,
+              "Sendable": true,
+              "Linkable": true,
+              "LockedByLinks": false,
+              "RequiresAuthorizedUser": false,
+              "available": true
+            },
+            {
+              "Name": "LandingLightsOn",
+              "RoomTag": "00000000-0000-0000-0000-000000000000",
+              "UsableTag": "00000000-0000-0000-0000-000000000000",
+              "DisplayName": "@usable_use",
+              "DisplayType": "Show",
+              "GenericCursor": "SingleAction",
+              "FocusModeOnly": false,
+              "Sendable": true,
+              "Linkable": true,
+              "LockedByLinks": false,
+              "RequiresAuthorizedUser": false,
+              "available": true
+            },
+            {
+              "Name": "LandingLightsOff",
+              "RoomTag": "00000000-0000-0000-0000-000000000000",
+              "UsableTag": "00000000-0000-0000-0000-000000000000",
+              "DisplayName": "@usable_use",
+              "DisplayType": "Show",
+              "GenericCursor": "SingleAction",
+              "FocusModeOnly": false,
+              "Sendable": true,
+              "Linkable": true,
+              "LockedByLinks": false,
+              "RequiresAuthorizedUser": false,
+              "available": true
+            }
+          ]
+        }
+      },
+      "SItemPortContainerComponentParams": {
+        "PortFlags": "",
+        "PortTags": "DRAK_Corsair",
+        "RequiredItemTags": "",
+        "Ports": [
+          {
+            "Name": "hardpoint_controller_fuel",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": []
+          },
+          {
+            "Name": "hardpoint_fuel_port",
+            "DisplayName": "",
+            "PortTags": "Ship_Dock_Refuel",
+            "RequiredPortTags": "",
+            "Flags": "dockingport1",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "DockingCollar",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_air_traffic_controller",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "AirTrafficController",
+                "SubTypes": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ClassName": "DRAK_Corsair",
+    "__ref": "e1afb014-fe71-4da9-89ae-c30fcf9c0782",
+    "__type": "EntityClassDefinition"
+  }
+}
