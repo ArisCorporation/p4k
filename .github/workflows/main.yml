@@ -21,9 +21,20 @@ jobs:
           rm -rf ./README.md
           rm -rf ./cover.png
           rm -rf ./run.bat
-          rm -rf ./latest/json/!(v2)
+          rm -rf ./latest/json/factions
+          rm -rf ./latest/json/items
+          rm -rf ./latest/json/loot
+          rm -rf ./latest/json/missions
+          rm -rf ./latest/json/reputation
+          rm -rf ./latest/json/ships
+          rm -rf ./latest/json/fps-items.json
+          rm -rf ./latest/json/items.json
+          rm -rf ./latest/json/labels.json
+          rm -rf ./latest/json/manufacturers.json
+          rm -rf ./latest/json/ship-items.json
+          rm -rf ./latest/json/ships.json
+          rm -rf ./latest/json/starmap.json
           rm -rf ./latest/json/v2/items
-          # rm -rf !(latest)
           ls -a
 
       - name: Archive objects
