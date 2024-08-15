@@ -40,7 +40,7 @@ jobs:
       - name: Archive objects
         run: |
           zip -0 -r latest-p4k-files.zip ./latest
-          zip -0 -r old-p4k-files.zip ./* -x "latest/"
+        # zip -0 -r old-p4k-files.zip ./* -x "latest/"
 
       - name: Upload latest-p4k-files
         uses: actions/upload-artifact@v4.3.1
@@ -50,13 +50,13 @@ jobs:
           retention-days: 1
           compression-level: 0
 
-      - name: Upload old-p4k-files
-        uses: actions/upload-artifact@v4.3.1
-        with:
-          name: old-p4k-files
-          path: old-p4k-files.zip
-          retention-days: 1
-          compression-level: 0
+      #- name: Upload old-p4k-files
+      #  uses: actions/upload-artifact@v4.3.1
+      #  with:
+      #    name: old-p4k-files
+      #    path: old-p4k-files.zip
+      #    retention-days: 1
+      #    compression-level: 0
 
   Sync-Latest-P4K-Files:
     runs-on: ubuntu-latest
@@ -82,35 +82,35 @@ jobs:
           output-file-url: false
           keep-file-fresh: true
 
-  Sync-Old-P4K-Files:
-    runs-on: ubuntu-latest
-    needs: Fetch
-    steps:
-      - name: Download Archive Artifact
-        uses: actions/download-artifact@v4.1.4
-        with:
-          name: old-p4k-files
+  #Sync-Old-P4K-Files:
+  #  runs-on: ubuntu-latest
+  #  needs: Fetch
+  #  steps:
+  #    - name: Download Archive Artifact
+  #      uses: actions/download-artifact@v4.1.4
+  #      with:
+  #        name: old-p4k-files
 
-      - name: Extract Archive
-        run: unzip -qq old-p4k-files.zip -d old-p4k-files
+  #    - name: Extract Archive
+  #      run: unzip -qq old-p4k-files.zip -d old-p4k-files
 
-      - name: Sync Old P4K Files
-        uses: ryand56/r2-upload-action@latest
-        with:
-          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
-          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          r2-bucket: ariscorp-p4k-files
-          source-dir: old-p4k-files
-          destination-dir: ./
-          output-file-url: false
+  #    - name: Sync Old P4K Files
+  #      uses: ryand56/r2-upload-action@latest
+  #      with:
+  #        r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+  #        r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+  #        r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+  #        r2-bucket: ariscorp-p4k-files
+  #        source-dir: old-p4k-files
+  #        destination-dir: ./
+  #        output-file-url: false
 
   Purge-Cache:
     runs-on: ubuntu-latest
     if: always() # always purge cache whenever it fails or succeed
     needs: [
       Sync-Latest-P4K-Files,
-      Sync-Old-P4K-Files
+      #Sync-Old-P4K-Files
     ]
     steps:
       - name: Purge Cloudflare cache
