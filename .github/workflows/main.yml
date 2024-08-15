@@ -1,12 +1,11 @@
-name: R2 Directory Synchronizer
-
+name: Sync to R2
 on:
   push:
-    branches:
-      - main # or specify the branches you want to trigger this action on
+    branches: ['main']
+  workflow_dispatch:
 
 jobs:
-  r2Backup:
+  Fetch:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -15,3 +14,68 @@ jobs:
       - name: Clean unused objects
         run: |
           ls
+          rm -rf ./.git
+          rm -rf ./.github
+          rm -rf ./.tools
+          rm -rf ./.gitignore
+          rm -rf ./README.md
+          rm -rf ./cover.png
+          rm -rf ./run.bat
+          # rm -rf !(latest)
+
+      - name: Archive objects
+        run: |
+          zip -0 -r p4k-files.zip ./*
+
+      - name: Upload p4k-files
+        uses: actions/upload-artifact@v4.3.1
+        with:
+          name: p4k-files
+          path: p4k-files.zip
+          retention-days: 1
+          compression-level: 0
+
+  Sync-P4K-Files:
+    runs-on: ubuntu-latest
+    needs: Fetch
+    steps:
+      - name: Download Archive Artifact
+        uses: actions/download-artifact@v4.1.4
+        with:
+          name: p4k-files
+
+      - name: Extract Archive
+        run: unzip -qq p4k-files.zip -d p4k-files
+
+      - name: Sync Root Folder
+        uses: ryand56/r2-upload-action@latest
+        with:
+          r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
+          r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          r2-bucket: ${{ secrets.R2_BUCKET }}
+          source-dir: p4k-files
+          destination-dir: ariscorp-p4k-files
+          output-file-url: false
+
+  Purge-Cache:
+    runs-on: ubuntu-latest
+    if: always() # always purge cache whenever it fails or succeed
+    needs:
+      [
+        Sync-Root,
+        Sync-Metadata,
+        Sync-Images,
+        Sync-ApplyUpdate,
+        Sync-Squirrel-Stable,
+        Sync-Squirrel-Preview,
+        Sync-Indexes-Hi3,
+        Sync-Indexes-HSR,
+      ]
+    steps:
+      - name: Purge Cloudflare cache
+        run: |
+          curl -X POST "https://api.cloudflare.com/client/v4/zones/89a78ad51ccd1b2a47cffe23b225575f/purge_cache" \
+              -H "Authorization: Bearer ${{ secrets.CF_PURGE_CACHE_TOKEN }}" \
+              -H "Content-Type: application/json" \
+              --data "{ \"purge_everything\": true }"
