@@ -1,0 +1,24 @@
+name: R2 Directory Synchronizer
+
+on:
+  push:
+    branches:
+      - main  # or specify the branches you want to trigger this action on
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: R2 Directory Synchronizer
+        uses: skymins04/r2-dir-upload@0.0.0.1
+        with:
+          accountid: ${{ secrets.R2_ACCOUNT_ID }}
+          accesskeyid: ${{ secrets.R2_ACCESS_KEY_ID }}
+          secretaccesskey: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          bucket: ariscorp-p4k-files
+          source: /latest
+          destination: /
