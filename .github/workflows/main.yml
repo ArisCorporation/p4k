@@ -40,7 +40,9 @@ jobs:
       - name: Archive objects
         run: |
           cd latest/json/v2
-          zip -0 -r ../../../latest-p4k-files.zip . ../../version.txt
+          zip -0 -r ../../../latest-p4k-files.zip .
+          cd ../../
+          zip -0 -r ../latest-p4k-files.zip version.txt
         # zip -0 -r latest-p4k-files.zip ./latest/json/*
         # zip -0 -r old-p4k-files.zip ./* -x "latest/"
 
