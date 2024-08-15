@@ -1,4 +1,4 @@
-name: Sync to R2
+name: Upload to R2
 on:
   push:
     branches: ['main']
@@ -13,7 +13,7 @@ jobs:
 
       - name: Clean unused objects
         run: |
-          ls
+          ls -a
           rm -rf ./.git
           rm -rf ./.github
           rm -rf ./.tools
@@ -22,6 +22,7 @@ jobs:
           rm -rf ./cover.png
           rm -rf ./run.bat
           # rm -rf !(latest)
+          ls -a
 
       - name: Archive objects
         run: |
@@ -47,15 +48,15 @@ jobs:
       - name: Extract Archive
         run: unzip -qq p4k-files.zip -d p4k-files
 
-      - name: Sync Root Folder
+      - name: Sync P4K Files
         uses: ryand56/r2-upload-action@latest
         with:
           r2-account-id: ${{ secrets.R2_ACCOUNT_ID }}
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          r2-bucket: ${{ secrets.R2_BUCKET }}
+          r2-bucket: ariscorp-p4k-files
           source-dir: p4k-files
-          destination-dir: ariscorp-p4k-files
+          destination-dir: /
           output-file-url: false
 
   Purge-Cache:
