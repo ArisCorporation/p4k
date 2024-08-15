@@ -3,22 +3,19 @@ name: R2 Directory Synchronizer
 on:
   push:
     branches:
-      - main  # or specify the branches you want to trigger this action on
+      - main # or specify the branches you want to trigger this action on
 
 jobs:
-  sync:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: R2 Directory Synchronizer
-        uses: skymins04/r2-dir-upload@0.0.0.1
-        with:
-          accountid: ${{ secrets.R2_ACCOUNT_ID }}
-          accesskeyid: ${{ secrets.R2_ACCESS_KEY_ID }}
-          secretaccesskey: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          bucket: ariscorp-p4k-files
-          source: /latest
-          destination: /
+  r2Backup:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v2
+    - name: R2 Backup
+      uses: JoseMoranUrena523/r2-backup@v1.0.0
+      env:
+        ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+        BUCKET_NAME: ariscorp-p4k-files
+        SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      with:
+        args: --overwrite --remove
