@@ -77,7 +77,7 @@ jobs:
           r2-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           r2-bucket: ariscorp-p4k-files
-          source-dir: latest-p4k-files/latest
+          source-dir: latest-p4k-files/latest/json
           destination-dir: ./
           output-file-url: false
           keep-file-fresh: true
