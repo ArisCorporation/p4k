@@ -50,9 +50,9 @@
             },
             "inventoryOccupancyDimensionsUIOverride": {
               "Vec3": {
-                "x": 0.38,
-                "y": 0.7,
-                "z": 0.38
+                "x": 0.75,
+                "y": 3.0,
+                "z": 0.75
               }
             }
           }
@@ -412,8 +412,8 @@
                           "ammoCost": 0.0,
                           "pelletCount": 1.0,
                           "spreadParams": {
-                            "min": 0.35,
-                            "max": 0.35,
+                            "min": 0.45,
+                            "max": 0.45,
                             "firstAttack": 0.025,
                             "attack": 0.025,
                             "decay": 0.05
@@ -465,5 +465,42 @@
       "__ref": "231fd67b-49a6-40e9-8eef-20268cfc0b2c",
       "__type": "EntityClassDefinition"
     }
+  },
+  "ammo": {
+    "size": 2,
+    "lifetime": 1.86,
+    "speed": 1400.0,
+    "projectileParams": {
+      "BulletProjectileParams": {
+        "impactRadius": 0.0,
+        "minImpactRadius": 0.0,
+        "ignitionChanceOverride": -1.0,
+        "keepAliveOnZeroDamage": 0.0,
+        "hitType": "bullet",
+        "damage": [
+          {
+            "DamagePhysical": 0.0,
+            "DamageEnergy": 243.0,
+            "DamageDistortion": 0.0,
+            "DamageThermal": 0.0,
+            "DamageBiochemical": 0.0,
+            "DamageStun": 0.0
+          }
+        ],
+        "damageDropParams": {},
+        "detonationParams": {},
+        "impulseFalloffParams": {},
+        "pierceabilityParams": {
+          "damageFalloffLevel1": 0.0,
+          "damageFalloffLevel2": 0.0,
+          "damageFalloffLevel3": 0.0,
+          "maxPenetrationThickness": 0.5
+        },
+        "electronParams": {}
+      }
+    },
+    "ClassName": "MXOX_NeutronCannon_S3_AMMO",
+    "__ref": "ee1d2847-2bcf-49f5-90fa-377cbaa7bbb4",
+    "__type": "AmmoParams"
   }
 }

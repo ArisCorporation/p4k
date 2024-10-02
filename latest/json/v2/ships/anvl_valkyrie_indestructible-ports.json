@@ -892,9 +892,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -974,9 +974,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -1058,9 +1058,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 6000.0,
@@ -1134,9 +1134,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 6000.0,
@@ -1212,9 +1212,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 9375.0
@@ -1259,9 +1259,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 9375.0
@@ -1308,9 +1308,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Cooler": {
           "Rate": 5200000.0
@@ -1355,9 +1355,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Cooler": {
           "Rate": 5200000.0
@@ -2544,6 +2544,48 @@
     }
   ],
   "InterdictionHardpoints": [],
-  "CargoGrids": [],
+  "CargoGrids": [
+    {
+      "PortName": "hardpoint_cargo_grid",
+      "Size": 1,
+      "Loadout": "ANVL_Valkyrie_CargoGrid",
+      "InstalledItem": {
+        "UUID": "90bf8f6d-b4a7-41bb-9678-b6fad483ed54",
+        "ClassName": "ANVL_Valkyrie_CargoGrid",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "ANVL_Valkyrie_CargoGrid",
+        "Manufacturer": {
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 6.25,
+          "y": 7.5,
+          "z": 1.25,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  ],
   "Avionics": []
 }

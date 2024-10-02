@@ -131,9 +131,9 @@
         "Length": 1.105504,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Durability": {
           "Health": 8000.0,
@@ -213,9 +213,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -295,9 +295,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -379,9 +379,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 1500.0,
@@ -455,9 +455,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 1500.0,
@@ -533,9 +533,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 4207.0
@@ -580,9 +580,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 4207.0
@@ -629,9 +629,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 400000.0
@@ -676,9 +676,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 400000.0
@@ -1753,6 +1753,47 @@
   ],
   "InterdictionHardpoints": [],
   "CargoGrids": [
+    {
+      "PortName": "hardpoint_cargogrid_main",
+      "Size": 1,
+      "Loadout": "DRAK_Vulture_CargoGrid_Main",
+      "InstalledItem": {
+        "UUID": "31d18ccc-9970-4414-a30c-d80b0013d0c5",
+        "ClassName": "DRAK_Vulture_CargoGrid_Main",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Vulture_CargoGrid_Main",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 2.5,
+          "y": 3.75,
+          "z": 2.5,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
     {
       "PortName": "hardpoint_personal_storage",
       "Size": 1,

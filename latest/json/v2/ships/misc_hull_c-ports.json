@@ -778,9 +778,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -860,9 +860,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -944,9 +944,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
         },
         "Shield": {
           "Health": 100000.0,
@@ -1020,9 +1020,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
         },
         "Shield": {
           "Health": 100000.0,
@@ -1107,9 +1107,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 1.5
         },
         "PowerPlant": {
           "Output": 37500.0
@@ -1156,9 +1156,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 11600000.0
@@ -1206,9 +1206,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 11600000.0
@@ -1276,9 +1276,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 3.0
         },
         "QuantumDrive": {
           "FuelRate": 3.864E-08,
@@ -3031,23 +3031,20 @@
   "InterdictionHardpoints": [],
   "CargoGrids": [
     {
-      "PortName": "hardpoint_cargo_strut_1",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1A",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "55958c2e-8739-45c6-8ebf-6519d06aae4b",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1A",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1A",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3057,69 +3054,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_2",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1B",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "162006b2-6f42-4d1b-a061-2161fa14e8ab",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1B",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1B",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3129,69 +3091,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_3",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1C",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "9fc56366-e8df-4ceb-b54a-f208182708da",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1C",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1C",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3201,69 +3128,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_4",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1D",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "0ca877ed-b2bd-4202-bac5-5bfeb8e9a6c7",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1D",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1D",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3273,69 +3165,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_5",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2A",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "871fb203-e895-45bb-bce8-2620c0260cac",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2A",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2A",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3345,69 +3202,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_6",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2B",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "9015695b-3ad1-4960-a7fb-bc66d3d522d8",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2B",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2B",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3417,69 +3239,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_7",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2C",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "87c4c397-bd47-4af4-a630-39730ed7ce44",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2C",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2C",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3489,69 +3276,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_8",
+      "PortName": "Hardpoint_Cargo",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2D",
+      "Loadout": "MISC_Hull_C_CargoGrid",
       "InstalledItem": {
-        "UUID": "43df2790-e6e3-4c3a-9d80-c0183e21ea71",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2D",
+        "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
+        "ClassName": "MISC_Hull_C_CargoGrid",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2D",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3561,69 +3313,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid",
-            "InstalledItem": {
-              "UUID": "683b73dc-cf13-41cd-896c-95c1ed9ab540",
-              "ClassName": "MISC_Hull_C_CargoGrid",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 10.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_1",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1A_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "f5a97a63-7cc5-4159-9cda-40683df5d9d1",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1A_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1A_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3633,69 +3350,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_2",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1B_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "f1311bc4-45f5-4ef1-9f74-8c8a9d7917e8",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1B_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1B_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3705,69 +3387,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_3",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1C_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "8a130b67-2ea5-4ab9-b764-8a77c559d9fc",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1C_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1C_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3777,69 +3424,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_4",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_1D_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "5b8f1da6-946f-4cc8-b8aa-1989907f3f49",
-        "ClassName": "MISC_Hull_C_FoldingStrut_1D_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_1D_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3849,69 +3461,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_5",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2A_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "e4c24413-ee8f-49cc-8ed4-22d6ea5bdfe3",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2A_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2A_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3921,69 +3498,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_6",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2B_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "f303fb72-4b9d-4ec4-8c28-5b93bce01926",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2B_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2B_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -3993,69 +3535,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_7",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2C_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "955fbffc-dcec-4a88-9196-f9b3da3ee07a",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2C_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2C_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -4065,69 +3572,34 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
-      "PortName": "hardpoint_cargo_strut_outer_8",
+      "PortName": "Hardpoint_Cargo2",
       "Size": 1,
-      "Loadout": "MISC_Hull_C_FoldingStrut_2D_Outer",
+      "Loadout": "MISC_Hull_C_CargoGrid_Outer",
       "InstalledItem": {
-        "UUID": "a11dbe7b-4105-43db-b645-98b9917b6925",
-        "ClassName": "MISC_Hull_C_FoldingStrut_2D_Outer",
+        "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
+        "ClassName": "MISC_Hull_C_CargoGrid_Outer",
         "Size": 1,
         "Grade": 1,
-        "Type": "Cargo.UNDEFINED",
-        "Name": "MISC_Hull_C_FoldingStrut_2D_Outer",
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "MISC_Hull_C_CargoGrid_Outer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0
-        },
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
@@ -4137,50 +3609,18 @@
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
         },
-        "Ports": [
-          {
-            "PortName": "Hardpoint_Cargo2",
-            "Size": 1,
-            "Loadout": "MISC_Hull_C_CargoGrid_Outer",
-            "InstalledItem": {
-              "UUID": "8ef22d40-2797-47b4-8e96-59e3f2bacf56",
-              "ClassName": "MISC_Hull_C_CargoGrid_Outer",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "CargoGrid.UNDEFINED",
-              "Name": "MISC_Hull_C_CargoGrid_Outer",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 0.0,
-                "PowerDraw": 1.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 10.0,
-                "ThermalEnergyDraw": 20.0,
-                "CoolingRate": 1.0
-              },
-              "InventoryContainer": {
-                "SCU": 0.0,
-                "x": 5.0,
-                "y": 10.0,
-                "z": 7.5,
-                "unit": 0.0
-              }
-            },
-            "Types": [
-              "CargoGrid"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 10.0,
+          "z": 7.5,
+          "unit": 0.0
+        }
       },
       "Types": [
-        "Cargo.UNDEFINED"
+        "CargoGrid"
       ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
       "PortName": "hardpoint_personal_storage_01",

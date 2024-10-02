@@ -74,9 +74,9 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 720.0
@@ -121,9 +121,9 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 720.0
@@ -170,9 +170,9 @@
         "Length": 1.105504,
         "Volume": 0.020999999999999998,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 100000.0
@@ -208,88 +208,45 @@
   "InterdictionHardpoints": [],
   "CargoGrids": [
     {
-      "PortName": "$proxy_cargo_01",
-      "Size": 4,
+      "PortName": "hardpoint_cargogrid_rear",
+      "Size": 1,
+      "Loadout": "DRAK_Mule_CargoGrid_Rear",
+      "InstalledItem": {
+        "UUID": "2b5aaa08-53ff-4ae9-84bc-c776bc414a32",
+        "ClassName": "DRAK_Mule_CargoGrid_Rear",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Mule_CargoGrid_Rear",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 1.25,
+          "z": 1.25,
+          "unit": 0.0
+        }
+      },
       "Types": [
-        "Cargo",
-        "Misc",
-        "Char_Armor_Arms",
-        "Char_Armor_Legs",
-        "Char_Armor_Torso",
-        "Char_Armor_Helmet",
-        "Container.Box"
+        "CargoGrid.UNDEFINED"
       ],
-      "Category": "Cargo grids"
-    },
-    {
-      "PortName": "$proxy_cargo_01",
-      "Size": 4,
-      "Types": [
-        "Cargo",
-        "Misc",
-        "Char_Armor_Arms",
-        "Char_Armor_Legs",
-        "Char_Armor_Torso",
-        "Char_Armor_Helmet",
-        "Container.Box"
-      ],
-      "Category": "Cargo grids"
-    },
-    {
-      "PortName": "$proxy_cargo_01",
-      "Size": 4,
-      "Types": [
-        "Cargo",
-        "Misc",
-        "Char_Armor_Arms",
-        "Char_Armor_Legs",
-        "Char_Armor_Torso",
-        "Char_Armor_Helmet",
-        "Container.Box"
-      ],
-      "Category": "Cargo grids"
-    },
-    {
-      "PortName": "$proxy_cargo_01",
-      "Size": 4,
-      "Types": [
-        "Cargo",
-        "Misc",
-        "Char_Armor_Arms",
-        "Char_Armor_Legs",
-        "Char_Armor_Torso",
-        "Char_Armor_Helmet",
-        "Container.Box"
-      ],
-      "Category": "Cargo grids"
-    },
-    {
-      "PortName": "$proxy_cargo_01",
-      "Size": 4,
-      "Types": [
-        "Cargo",
-        "Misc",
-        "Char_Armor_Arms",
-        "Char_Armor_Legs",
-        "Char_Armor_Torso",
-        "Char_Armor_Helmet",
-        "Container.Box"
-      ],
-      "Category": "Cargo grids"
-    },
-    {
-      "PortName": "$proxy_cargo_01",
-      "Size": 4,
-      "Types": [
-        "Cargo",
-        "Misc",
-        "Char_Armor_Arms",
-        "Char_Armor_Legs",
-        "Char_Armor_Torso",
-        "Char_Armor_Helmet",
-        "Container.Box"
-      ],
-      "Category": "Cargo grids"
+      "Category": "UNKNOWN"
     },
     {
       "PortName": "hardpoint_personal_inventory",

@@ -93,9 +93,9 @@
               "Length": 1.105504,
               "Volume": 0.08399999999999999,
               "DimensionOverrides": {
-                "Width": 0.7,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 1.5,
+                "Height": 0.75,
+                "Depth": 0.75
               },
               "Durability": {
                 "Health": 8000.0,
@@ -194,9 +194,9 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 720.0
@@ -241,9 +241,9 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 720.0
@@ -290,9 +290,9 @@
         "Length": 1.105504,
         "Volume": 0.020999999999999998,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 100000.0
@@ -326,6 +326,42 @@
   "HydrogenFuelTanks": [],
   "HydogenFuelIntakes": [],
   "InterdictionHardpoints": [],
-  "CargoGrids": [],
+  "CargoGrids": [
+    {
+      "PortName": "hardpoint_cargogrid_main",
+      "Size": 1,
+      "Loadout": "GRIN_ROC_DS_CargoGrid_Main",
+      "InstalledItem": {
+        "UUID": "f1c3b5c1-76b6-46ec-9436-7cd44d93e010",
+        "ClassName": "GRIN_ROC_DS_CargoGrid_Main",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "GRIN_ROC_DS_CargoGrid_Main",
+        "Manufacturer": {
+          "Code": "GRIN",
+          "Name": "Greycat Industrial"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 1000.0
+        },
+        "InventoryContainer": {
+          "SCU": 3.5,
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0,
+          "unit": 2.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  ],
   "Avionics": []
 }

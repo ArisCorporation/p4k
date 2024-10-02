@@ -62,9 +62,9 @@
               "Length": 1.105504,
               "Volume": 0.08399999999999999,
               "DimensionOverrides": {
-                "Width": 0.7,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 1050.0,
@@ -137,9 +137,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 1.5
         },
         "Durability": {
           "Health": 1050.0,
@@ -216,9 +216,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -298,9 +298,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -382,9 +382,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 1500.0,
@@ -460,9 +460,9 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "DimensionOverrides": {
-          "Width": 0.15,
-          "Height": 0.15,
-          "Depth": 0.15
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 610.0
@@ -509,9 +509,9 @@
         "Length": 1.105504,
         "Volume": 0.020999999999999998,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 100000.0
@@ -1521,7 +1521,78 @@
     }
   ],
   "InterdictionHardpoints": [],
-  "CargoGrids": [],
+  "CargoGrids": [
+    {
+      "PortName": "hardpoint_seat_access",
+      "Size": 0,
+      "Loadout": "ARGO_MPUV_1T_SCItem_SeatAccess",
+      "InstalledItem": {
+        "UUID": "ac368e03-e273-4200-b3ee-504b31fbbf48",
+        "ClassName": "ARGO_MPUV_1T_SCItem_SeatAccess",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "SeatAccess.UNDEFINED",
+        "Name": "ARGO_MPUV_1T_SCItem_SeatAccess",
+        "Manufacturer": {
+          "Code": "ARGO",
+          "Name": "Argo Astronautics"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "InventoryContainer": {
+          "SCU": 0.71,
+          "x": 2.0,
+          "y": 2.0,
+          "z": 2.0,
+          "unit": 0.0
+        }
+      },
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid",
+      "Size": 1,
+      "Loadout": "ARGO_MPUV_1T_CargoGrid_Main",
+      "InstalledItem": {
+        "UUID": "dd9e8af0-3a0a-4e3f-8b02-9726a245ef23",
+        "ClassName": "ARGO_MPUV_1T_CargoGrid_Main",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "ARGO_MPUV_1T_CargoGrid_Main",
+        "Manufacturer": {
+          "Code": "ARGO",
+          "Name": "Argo Astronautics"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 2.5,
+          "y": 5.0,
+          "z": 2.5,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  ],
   "Avionics": [
     {
       "PortName": "hardpoint_scanner",

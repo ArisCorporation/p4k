@@ -362,9 +362,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -444,9 +444,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -528,9 +528,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
         },
         "Shield": {
           "Health": 100000.0,
@@ -604,9 +604,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
         },
         "Shield": {
           "Health": 100000.0,
@@ -682,9 +682,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 1.5
         },
         "PowerPlant": {
           "Output": 50000.0
@@ -729,9 +729,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 1.5
         },
         "PowerPlant": {
           "Output": 50000.0
@@ -778,9 +778,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 16000000.0
@@ -825,9 +825,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 16000000.0
@@ -2665,6 +2665,581 @@
     }
   ],
   "InterdictionHardpoints": [],
-  "CargoGrids": [],
+  "CargoGrids": [
+    {
+      "PortName": "hardpoint_cargogrid_nose",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Nose",
+      "InstalledItem": {
+        "UUID": "3dd24ff5-0b82-4312-9eff-acc259d2aa3a",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Nose",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Nose",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 6.25,
+          "y": 5.0,
+          "z": 3.75,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_nose_access",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Nose_Access",
+      "InstalledItem": {
+        "UUID": "b6ac92b9-e3a6-4af2-9e0d-8ea39dc7d4e2",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Nose_Access",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Nose_Access",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 6.25,
+          "y": 2.5,
+          "z": 2.5,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_01",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module",
+      "InstalledItem": {
+        "UUID": "fff7646f-9007-4cb8-9b18-a2302afd6bee",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 7.5,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_01_walkway",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+      "InstalledItem": {
+        "UUID": "28c084c3-442d-4b33-8a35-a213a56e9d76",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 1.25,
+          "z": 2.5,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_01_ladder",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+      "InstalledItem": {
+        "UUID": "6e9dd6df-e80a-417e-9fa5-cd71149ca5fd",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 6.25,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_02",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module",
+      "InstalledItem": {
+        "UUID": "fff7646f-9007-4cb8-9b18-a2302afd6bee",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 7.5,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_02_walkway",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+      "InstalledItem": {
+        "UUID": "28c084c3-442d-4b33-8a35-a213a56e9d76",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 1.25,
+          "z": 2.5,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_02_ladder",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+      "InstalledItem": {
+        "UUID": "6e9dd6df-e80a-417e-9fa5-cd71149ca5fd",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 6.25,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_03",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module",
+      "InstalledItem": {
+        "UUID": "fff7646f-9007-4cb8-9b18-a2302afd6bee",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 7.5,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_03_walkway",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+      "InstalledItem": {
+        "UUID": "28c084c3-442d-4b33-8a35-a213a56e9d76",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 1.25,
+          "z": 2.5,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_03_ladder",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+      "InstalledItem": {
+        "UUID": "6e9dd6df-e80a-417e-9fa5-cd71149ca5fd",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 6.25,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_04",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module",
+      "InstalledItem": {
+        "UUID": "fff7646f-9007-4cb8-9b18-a2302afd6bee",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 7.5,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_04_walkway",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+      "InstalledItem": {
+        "UUID": "28c084c3-442d-4b33-8a35-a213a56e9d76",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Walkway",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 5.0,
+          "y": 1.25,
+          "z": 2.5,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_module_04_ladder",
+      "Size": 1,
+      "Loadout": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+      "InstalledItem": {
+        "UUID": "6e9dd6df-e80a-417e-9fa5-cd71149ca5fd",
+        "ClassName": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "DRAK_Caterpillar_CargoGrid_Module_Ladder",
+        "Manufacturer": {
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 6.25,
+          "z": 5.0,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  ],
   "Avionics": []
 }
