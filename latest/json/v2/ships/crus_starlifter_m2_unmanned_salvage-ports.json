@@ -614,9 +614,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -696,9 +696,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -778,9 +778,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -860,9 +860,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -944,9 +944,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
         },
         "Shield": {
           "Health": 100000.0,
@@ -1020,9 +1020,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
         },
         "Shield": {
           "Health": 100000.0,
@@ -1098,9 +1098,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 1.5
         },
         "PowerPlant": {
           "Output": 37500.0
@@ -1147,9 +1147,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 10400000.0
@@ -1194,9 +1194,9 @@
         "Length": 4.422015,
         "Volume": 0.756,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 3.0,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 10400000.0
@@ -2650,6 +2650,88 @@
   ],
   "InterdictionHardpoints": [],
   "CargoGrids": [
+    {
+      "PortName": "hardpoint_cargo_large",
+      "Size": 1,
+      "Loadout": "CRUS_Starlifter_CargoGrid_Large_M2",
+      "InstalledItem": {
+        "UUID": "6fe4ea07-9414-45d0-8953-203239236d30",
+        "ClassName": "CRUS_Starlifter_CargoGrid_Large_M2",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "CRUS_Starlifter_CargoGrid_Large_M2",
+        "Manufacturer": {
+          "Code": "CRUS",
+          "Name": "Crusader Industries"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 10.0,
+          "y": 18.75,
+          "z": 3.75,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargo_small",
+      "Size": 1,
+      "Loadout": "CRUS_Starlifter_CargoGrid_Small_M2",
+      "InstalledItem": {
+        "UUID": "243fa30c-dd5e-4a72-9e99-fbf9145fe910",
+        "ClassName": "CRUS_Starlifter_CargoGrid_Small_M2",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "CRUS_Starlifter_CargoGrid_Small_M2",
+        "Manufacturer": {
+          "Code": "CRUS",
+          "Name": "Crusader Industries"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 7.5,
+          "y": 11.25,
+          "z": 3.75,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
     {
       "PortName": "hardpoint_armory_cargo_01",
       "Size": 1,

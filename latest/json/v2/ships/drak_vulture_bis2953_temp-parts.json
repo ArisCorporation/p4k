@@ -249,9 +249,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 4207.0
@@ -299,9 +299,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 4207.0
@@ -370,9 +370,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 400000.0
@@ -420,9 +420,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 400000.0
@@ -494,9 +494,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 1500.0,
@@ -573,9 +573,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 1500.0,
@@ -993,9 +993,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "QuantumDrive": {
           "FuelRate": 5.8E-09,
@@ -2134,9 +2134,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -2219,9 +2219,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -2894,9 +2894,34 @@
     "Name": "hardpoint_fire_extinguisher",
     "Port": {
       "PortName": "hardpoint_fire_extinguisher",
-      "Size": 0,
+      "Size": 1,
       "Loadout": "Gadget_Cabinet_kegr_fire_extinguisher_NG_Flipped",
-      "Category": "DISABLED"
+      "InstalledItem": {
+        "UUID": "3d1b7e85-4bee-44a4-a602-2237dc1a2a94",
+        "ClassName": "Gadget_Cabinet_kegr_fire_extinguisher_NG_Flipped",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Usable.UNDEFINED",
+        "Name": "Gadget_Cabinet_kegr_fire_extinguisher_NG_Flipped",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Ports": [
+          {
+            "PortName": "cabinet_attach_loc",
+            "Size": 2,
+            "Types": [
+              "WeaponPersonal.Medium"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Usable.UNDEFINED"
+      ],
+      "Category": "Usables"
     }
   },
   {

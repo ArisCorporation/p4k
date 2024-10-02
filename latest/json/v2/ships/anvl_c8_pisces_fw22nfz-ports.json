@@ -42,9 +42,9 @@
         "Length": 2.211008,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 200.0
@@ -89,9 +89,9 @@
               "Length": 1.0,
               "Volume": 0.015625,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -138,9 +138,9 @@
         "Length": 2.211008,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 200.0
@@ -185,9 +185,9 @@
               "Length": 1.0,
               "Volume": 0.015625,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -259,9 +259,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 1500.0,
@@ -337,9 +337,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 4000.0
@@ -386,9 +386,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 260000.0
@@ -433,9 +433,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "Cooler": {
           "Rate": 260000.0
@@ -1305,6 +1305,171 @@
     }
   ],
   "InterdictionHardpoints": [],
-  "CargoGrids": [],
+  "CargoGrids": [
+    {
+      "PortName": "hardpoint_cargogrid_left",
+      "Size": 1,
+      "Loadout": "ANVL_Pisces_CargoGrid",
+      "InstalledItem": {
+        "UUID": "1a3a5169-3b90-46bc-b18f-7aae3ecf05ae",
+        "ClassName": "ANVL_Pisces_CargoGrid",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "ANVL_Pisces_CargoGrid",
+        "Manufacturer": {
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 1.25,
+          "z": 1.25,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_right",
+      "Size": 1,
+      "Loadout": "ANVL_Pisces_CargoGrid",
+      "InstalledItem": {
+        "UUID": "1a3a5169-3b90-46bc-b18f-7aae3ecf05ae",
+        "ClassName": "ANVL_Pisces_CargoGrid",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "ANVL_Pisces_CargoGrid",
+        "Manufacturer": {
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 1.25,
+          "z": 1.25,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_leftF",
+      "Size": 1,
+      "Loadout": "ANVL_Pisces_CargoGrid",
+      "InstalledItem": {
+        "UUID": "1a3a5169-3b90-46bc-b18f-7aae3ecf05ae",
+        "ClassName": "ANVL_Pisces_CargoGrid",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "ANVL_Pisces_CargoGrid",
+        "Manufacturer": {
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 1.25,
+          "z": 1.25,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_cargogrid_rightF",
+      "Size": 1,
+      "Loadout": "ANVL_Pisces_CargoGrid",
+      "InstalledItem": {
+        "UUID": "1a3a5169-3b90-46bc-b18f-7aae3ecf05ae",
+        "ClassName": "ANVL_Pisces_CargoGrid",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "CargoGrid.UNDEFINED",
+        "Name": "ANVL_Pisces_CargoGrid",
+        "Manufacturer": {
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 1.25,
+          "y": 1.25,
+          "z": 1.25,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "CargoGrid.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  ],
   "Avionics": []
 }

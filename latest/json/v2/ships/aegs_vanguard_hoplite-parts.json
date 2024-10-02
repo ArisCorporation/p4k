@@ -155,19 +155,19 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Ifcs": {
-          "MaxSpeed": 1100.0,
-          "ScmSpeed": 210.0,
-          "Pitch": 38.0,
-          "Yaw": 32.0,
-          "Roll": 120.0,
+          "MaxSpeed": 1114.6,
+          "ScmSpeed": 208.9,
+          "Pitch": 35.0,
+          "Yaw": 30.0,
+          "Roll": 105.3,
           "Afterburner": {
             "SpoolUpTime": 0.0,
-            "CapacitorThresholdRatio": 0.25,
+            "CapacitorThresholdRatio": 0.1,
             "CapacitorMax": 20.0,
             "CapacitorAfterburnerIdleCost": 1.0,
             "CapacitorAfterburnerLinearCost": 0.0,
             "CapacitorAfterburnerAngularCost": 0.0,
-            "CapacitorRegenDelayAfterUse": 0.7,
+            "CapacitorRegenDelayAfterUse": 0.9,
             "CapacitorRegenPerSec": 0.75
           }
         }
@@ -594,9 +594,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 9375.0
@@ -644,9 +644,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 0.75
         },
         "PowerPlant": {
           "Output": 9375.0
@@ -853,9 +853,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Cooler": {
           "Rate": 5200000.0
@@ -903,9 +903,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Cooler": {
           "Rate": 5200000.0
@@ -953,9 +953,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "QuantumDrive": {
           "FuelRate": 2.0709999999999998E-08,
@@ -1087,9 +1087,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 6000.0,
@@ -1166,9 +1166,9 @@
         "Length": 3.316511,
         "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 0.7,
-          "Height": 0.38,
-          "Depth": 0.38
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
           "Health": 6000.0,
@@ -1227,14 +1227,14 @@
     "Port": {
       "PortName": "hardpoint_armour",
       "Size": 1,
-      "Loadout": "ARMR_AEGS_Vanguard",
+      "Loadout": "ARMR_AEGS_Vanguard_Hoplite",
       "InstalledItem": {
-        "UUID": "e3f09e0c-909b-4c0c-bcc6-bc4750122594",
-        "ClassName": "ARMR_AEGS_Vanguard",
+        "UUID": "443252d0-295e-40b3-9502-b5ebe166d809",
+        "ClassName": "ARMR_AEGS_Vanguard_Hoplite",
         "Size": 1,
         "Grade": 1,
         "Type": "Armor.Medium",
-        "Name": "ARMR_AEGS_Vanguard",
+        "Name": "ARMR_AEGS_Vanguard_Hoplite",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -1252,15 +1252,15 @@
         "Armour": {
           "DamageMultipliers": {
             "Physical": 0.5,
-            "Energy": 1.0,
-            "Distortion": 1.0,
+            "Energy": 0.93,
+            "Distortion": 0.97,
             "Thermal": 1.0,
             "Biochemical": 1.0
           },
           "SignalMultipliers": {
-            "CrossSection": 1.0,
-            "Infrared": 1.0,
-            "Electromagnetic": 1.0
+            "CrossSection": 1.134,
+            "Infrared": 1.134,
+            "Electromagnetic": 1.134
           }
         }
       },
@@ -1292,10 +1292,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 6782914.0,
+          "ThrustCapacity": 7265403.0,
           "FuelRate": 6.125E-06,
           "Type": "Main",
-          "MaxThrustFuelRate": 41.545348249999996
+          "MaxThrustFuelRate": 44.500593375
         },
         "Durability": {
           "Health": 16500.0,
@@ -1339,10 +1339,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 6782914.0,
+          "ThrustCapacity": 7265403.0,
           "FuelRate": 6.125E-06,
           "Type": "Main",
-          "MaxThrustFuelRate": 41.545348249999996
+          "MaxThrustFuelRate": 44.500593375
         },
         "Durability": {
           "Health": 16500.0,
@@ -1480,10 +1480,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 4165811.0,
+          "ThrustCapacity": 2980282.0,
           "FuelRate": 6.125E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 25.515592375
+          "MaxThrustFuelRate": 18.25422725
         },
         "Durability": {
           "Health": 15250.0,
@@ -1527,10 +1527,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 4165811.0,
+          "ThrustCapacity": 2980282.0,
           "FuelRate": 6.125E-06,
           "Type": "Retro",
-          "MaxThrustFuelRate": 25.515592375
+          "MaxThrustFuelRate": 18.25422725
         },
         "Durability": {
           "Health": 15250.0,
@@ -1574,10 +1574,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1621,10 +1621,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1668,10 +1668,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1715,10 +1715,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1762,10 +1762,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1809,10 +1809,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1856,10 +1856,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1903,10 +1903,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1950,10 +1950,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -1997,10 +1997,10 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3625229.0,
+          "ThrustCapacity": 2034035.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 11.328840625
+          "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
           "Health": 14350.0,
@@ -2277,9 +2277,9 @@
         "Length": 6.633023,
         "Volume": 2.1,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 1.0
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 3.0
         },
         "Durability": {
           "Health": 200.0
@@ -2324,9 +2324,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2368,9 +2368,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2412,9 +2412,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2456,9 +2456,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2546,9 +2546,9 @@
         "Length": 6.633023,
         "Volume": 2.1,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 1.0
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 3.0
         },
         "Durability": {
           "Health": 200.0
@@ -2593,9 +2593,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2637,9 +2637,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2681,9 +2681,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2725,9 +2725,9 @@
               "Length": 2.0,
               "Volume": 0.03125,
               "DimensionOverrides": {
-                "Width": 0.38,
-                "Height": 0.38,
-                "Depth": 0.7
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Durability": {
                 "Health": 10.0
@@ -2812,9 +2812,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0
@@ -2897,9 +2897,9 @@
         "Length": 2.211008,
         "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 0.38,
-          "Height": 0.38,
-          "Depth": 0.7
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Durability": {
           "Health": 1000.0

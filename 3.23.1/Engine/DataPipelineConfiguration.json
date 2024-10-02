@@ -1,0 +1,57 @@
+{
+  "_Comments_": [
+    "This file is owned by the Graphics team and is used by the class CDataPipeline.",
+    "The file acts as a collection of supported conversions between file types and what arguments we give the ResourceCompiler when we're going from one file type to the next, e.g .TIF -> .DDS",
+    "Each file type is represented by IDataPipeline::FileType and is generated implicitly by the conversion processes below. Defining a conversion process using .TIF as a source and .DDS as a target will generate two file types: 'tif' and 'dds'",
+    "The parameter FinalBuildFile marks the target file type of the process as a file type which will be contained by the p4k in release builds. It's therefore possible to have to file types with the same extension as long as one of them is marked as 'FinalBuildFile' e.g DDS->DDS(final)",
+    "File types marked as 'FinalBuildFile' will, when compiled locally, end up in CryEngine/Editor/ResourceCache/...YourPath...",
+    "The long term plan is to have DevOps use this file as well. This way we can guarantee that what we're generating locally matches what we generate in the p4k."
+  ],
+  "Processes": [
+    {
+      "InputExtension": "cga",
+      "MetaDataExtension": "meshsetup",
+      "OutputExtension": "cga",
+      "Converter": "rc/rc.exe",
+      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /SplitLODs=0 /ComputeSubsetTexelDensity=1 /CompactVertexStreams=1 /VertexPositionFormat=\"int16\" /VertexIndexFormat=\"u16\" /GeneratePBM=1 /GeneratePBM_ForceEnable=1 /GeneratePBM_ForceUVDensity=0.65 /ReorderCGANodesParentToChildHierarchy=1 /GeneratePBM_DebugDDS=%generateDebugPBM /bakesdf=1 /PhysMeshRemoveIsolatedVertices=1 /PhysicalizedRenderGeoms=1",
+      "EngineSettings": "RC_Parameters",
+      "FinalBuildFile": true
+    },
+    {
+      "InputExtension": "cgf",
+      "MetaDataExtension": "meshsetup",
+      "OutputExtension": "cgf",
+      "Converter": "rc/rc.exe",
+      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /SplitLODs=0 /ComputeSubsetTexelDensity=1 /CompactVertexStreams=1 /VertexPositionFormat=\"int16\" /VertexIndexFormat=\"u16\" /bakesdf=1 /auto_bake_sdf_file=%projectDirData/sdf_auto_bake_rules.conf /PhysMeshRemoveIsolatedVertices=1 /PhysMeshMaxSize=1024.0 /PhysicalizedRenderGeoms=1 /GeneratePBM=1 /GeneratePBM_ForceEnable=0 /GeneratePBM_ForceUVDensity=0.65 /GeneratePBM_DebugDDS=%generateDebugPBM",
+      "EngineSettings": "RC_Parameters",
+      "FinalBuildFile": true
+    },
+    {
+      "InputExtension": "tif",
+      "MetaDataExtension": "",
+      "OutputExtension": "dds",
+      "Converter": "rc/rc.exe",
+      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /streaming=%notInEngineDir /refresh=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc",
+      "EngineSettings": "RC_Parameters",
+      "FinalBuildFile": true
+    },
+    {
+      "InputExtension": "skin",
+      "MetaDataExtension": "",
+      "OutputExtension": "skin",
+      "Converter": "rc/rc.exe",
+      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /release",
+      "EngineSettings": "RC_Parameters",
+      "FinalBuildFile": true
+    },
+    {
+      "InputExtension": "chr",
+      "MetaDataExtension": "",
+      "OutputExtension": "chr",
+      "Converter": "rc/rc.exe",
+      "CommandLine": "\"%source\" /UseOldPakSystem=%notp4k /userdialog=0 /refresh=1 /threads=1 %engineSettings /overwritefilename=\"%targetName\" /targetroot=\"%targetDir\" /p=pc /release",
+      "EngineSettings": "RC_Parameters",
+      "FinalBuildFile": true
+    }
+  ]
+}
