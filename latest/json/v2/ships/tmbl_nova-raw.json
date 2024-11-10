@@ -89,7 +89,43 @@
                     "entries": [
                       {
                         "itemPortName": "hardpoint_cockpit_radar",
-                        "entityClassName": "RADR_Display",
+                        "entityClassName": "Radar_Display_Nova",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_mfd_right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_mfd_left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_support_screen_right",
+                        "entityClassName": "Vehicle_Screen_Physical",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_support_screen_left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_annunciator_left",
+                        "entityClassName": "Vehicle_Screen_Physical",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_annunciator_right",
+                        "entityClassName": "Vehicle_Screen_Physical",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       }
@@ -107,7 +143,24 @@
                 "itemPortName": "hardpoint_dashboard_gunner",
                 "entityClassName": "TMBL_Nova_SCItem_Dashboard_Gunner",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "rtt_radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_remote_view",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_co-pilot_seat",
@@ -119,7 +172,42 @@
                 "itemPortName": "hardpoint_co-pilot_dashboard",
                 "entityClassName": "TMBL_Nova_SCItem_Dashboard_Passenger",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "rtt_mfd_right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_mfd_left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_support_screen_right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_annunciator_left",
+                        "entityClassName": "Vehicle_Screen_Physical",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "rtt_annunciator_right",
+                        "entityClassName": "Vehicle_Screen_Physical",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_controller_wheel",
@@ -147,18 +235,6 @@
               },
               {
                 "itemPortName": "hardpoint_radar",
-                "entityClassName": "RADR_GRNP_S00_Prevenir",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_radar_copilot",
-                "entityClassName": "RADR_GRNP_S00_Prevenir",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_radar_gunner",
                 "entityClassName": "RADR_GRNP_S00_Prevenir",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
@@ -491,7 +567,7 @@
               },
               {
                 "itemPortName": "hardpoint_rear_door",
-                "entityClassName": "TMBL_Nova_Ramp",
+                "entityClassName": "Door_RN_RoomConnector_Breachable_OpenReverse_IP_Nova",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -504,18 +580,6 @@
               {
                 "itemPortName": "hardpoint_weapon_rack",
                 "entityClassName": "Weapon_Rack_TMBL_Nova_4_Slot",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_weapon_regen_pool",
-                "entityClassName": "WeaponRegenPool_Crew_Nova",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                "entityClassName": "WeaponRegenPool_Turret_Nova",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -540,6 +604,12 @@
               {
                 "itemPortName": "hardpoint_cockpit_flair_hang",
                 "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_cockpit",
+                "entityClassName": "RELAY_3slot",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               }
@@ -611,7 +681,7 @@
         }
       },
       "SDegradationParams": {
-        "MaxLifetimeHours": 25.0,
+        "MaxLifetimeHours": 0.0,
         "InitialAgeRatio": 0.0,
         "DegradeOnlyWhenAttached": false
       },
@@ -653,7 +723,25 @@
         "PortFlags": "",
         "PortTags": "",
         "RequiredItemTags": "",
-        "Ports": []
+        "Ports": [
+          {
+            "Name": "hardpoint_relay_cockpit",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          }
+        ]
       }
     },
     "ClassName": "TMBL_Nova",

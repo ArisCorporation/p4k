@@ -62,8 +62,59 @@
         },
         "Ports": [
           {
-            "PortName": "hardpoint_cockpit_radar",
+            "PortName": "mfd_radar",
             "Size": 1,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "mfd_mainscreen",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "mfd_speedometerq",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical",
+            "InstalledItem": {
+              "UUID": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+              "ClassName": "Vehicle_Screen_Physical",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
             "Types": [
               "Display"
             ],
@@ -72,7 +123,36 @@
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "mfd_radar",
+        "Port": {
+          "PortName": "mfd_radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "mfd_mainscreen",
+        "Port": {
+          "PortName": "mfd_mainscreen",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "mfd_speedometerq",
+        "Port": {
+          "PortName": "mfd_speedometerq",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_access_driver",
@@ -212,8 +292,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -370,8 +450,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 23.0
+          "Health": 280.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -423,8 +503,8 @@
           },
           "SignalMultipliers": {
             "CrossSection": 1.0,
-            "Infrared": 0.73,
-            "Electromagnetic": 53.0
+            "Infrared": 0.7,
+            "Electromagnetic": 1.0
           }
         }
       },
@@ -810,22 +890,15 @@
     "Name": "hardpoint_computer",
     "Port": {
       "PortName": "hardpoint_computer",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COMP_WLOP_S00_Adze",
       "InstalledItem": {
         "UUID": "a6b4604a-358b-4ee7-8c0f-f3f43427154d",
         "ClassName": "COMP_WLOP_S00_Adze",
-        "Size": 1,
+        "Size": 0,
         "Grade": 1,
         "Type": "Misc.UNDEFINED",
         "Name": "COMP_WLOP_S00_Adze",
-        "Manufacturer": {
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "Tags": [
-          "ESPR_Talon_Base"
-        ],
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -871,8 +944,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -888,6 +961,51 @@
         "PowerPlant.Power"
       ],
       "Category": "Power plants"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cockpit",
+    "Port": {
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

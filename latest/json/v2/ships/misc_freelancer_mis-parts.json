@@ -13,24 +13,20 @@
     "Port": {
       "PortName": "hardpoint_door_rear",
       "Size": 1,
-      "Loadout": "Door_Ship_Exterior_MISC_Freelancer",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenReverse_Freelancer_Reardoor",
       "InstalledItem": {
-        "UUID": "d94dac13-8a1e-4b0f-acda-3d69467de886",
-        "ClassName": "Door_Ship_Exterior_MISC_Freelancer",
+        "UUID": "dcc5a87b-b048-4e8f-941c-cba1a7be4e9b",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenReverse_Freelancer_Reardoor",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
+        "Name": "Door_RN_RoomConnector_Breachable_OpenReverse_Freelancer_Reardoor",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -142,24 +138,20 @@
     "Port": {
       "PortName": "hardpoint_door_airlock",
       "Size": 1,
-      "Loadout": "Door_Ship_Exterior_Airlock_MISC_Freelancer",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenReverse_Freelancer_Airlock",
       "InstalledItem": {
-        "UUID": "842f9f66-327d-47de-b3ca-3c03e93e23bd",
-        "ClassName": "Door_Ship_Exterior_Airlock_MISC_Freelancer",
+        "UUID": "a230509d-8a57-4c2f-87e4-cbd32e2abda5",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenReverse_Freelancer_Airlock",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
+        "Name": "Door_RN_RoomConnector_Breachable_OpenReverse_Freelancer_Airlock",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -285,7 +277,7 @@
         "Volume": 1E-06,
         "Ifcs": {
           "MaxSpeed": 1010.0,
-          "ScmSpeed": 180.0,
+          "ScmSpeed": 197.0,
           "Pitch": 32.0,
           "Yaw": 32.0,
           "Roll": 105.0,
@@ -416,19 +408,6 @@
           {
             "PortName": "hardpoint_cockpit_radar",
             "Size": 1,
-            "Loadout": "RADR_Display",
-            "InstalledItem": {
-              "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-              "ClassName": "RADR_Display",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "RADR_Display",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
             "Types": [
               "Display"
             ],
@@ -437,19 +416,116 @@
           {
             "PortName": "Display_HUD",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_holo_pilot_front_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
             "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
+              "UUID": "9ddad4c1-08d8-44e9-8634-d2b0d5bd4be0",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
-              "Volume": 1E-06
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
             },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_holo_pilot_front_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+            "InstalledItem": {
+              "UUID": "e625fe25-8dcc-4140-b3f2-a55fc0754198",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "MFD_Screen_Pilot_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "MFD_Screen_Pilot_Left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_holo_annunciator_pilot_front_left",
+            "Size": 0,
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_holo_annunciator_pilot_front_right",
+            "Size": 0,
             "Category": "UNKNOWN"
           }
         ]
@@ -462,7 +538,7 @@
         "Port": {
           "PortName": "hardpoint_cockpit_radar",
           "Size": 0,
-          "Loadout": "RADR_Display",
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -471,7 +547,61 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_holo_pilot_front_right",
+        "Port": {
+          "PortName": "Screen_holo_pilot_front_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_holo_pilot_front_left",
+        "Port": {
+          "PortName": "Screen_holo_pilot_front_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "MFD_Screen_Pilot_Right",
+        "Port": {
+          "PortName": "MFD_Screen_Pilot_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "MFD_Screen_Pilot_Left",
+        "Port": {
+          "PortName": "MFD_Screen_Pilot_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_holo_annunciator_pilot_front_left",
+        "Port": {
+          "PortName": "screen_holo_annunciator_pilot_front_left",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_holo_annunciator_pilot_front_right",
+        "Port": {
+          "PortName": "screen_holo_annunciator_pilot_front_right",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       }
@@ -573,11 +703,149 @@
             "PortName": "Display_HUD",
             "Size": 1,
             "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "MFD_Screen_co_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "MFD_Screen_co_Left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_holo_copilot_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
+            "InstalledItem": {
+              "UUID": "9ddad4c1-08d8-44e9-8634-d2b0d5bd4be0",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_holo_copilot_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+            "InstalledItem": {
+              "UUID": "e625fe25-8dcc-4140-b3f2-a55fc0754198",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "Screen_holo_copilot_right",
+        "Port": {
+          "PortName": "Screen_holo_copilot_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_R",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_holo_copilot_left",
+        "Port": {
+          "PortName": "Screen_holo_copilot_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Freelancer_L",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "MFD_Screen_co_Right",
+        "Port": {
+          "PortName": "MFD_Screen_co_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "MFD_Screen_co_Left",
+        "Port": {
+          "PortName": "MFD_Screen_co_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_rear_left",
@@ -661,10 +929,48 @@
           "ThermalEnergyBase": 10.0,
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "Screen_holo_passanger_Main",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "Screen_holo_passanger_Main",
+        "Port": {
+          "PortName": "Screen_holo_passanger_Main",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_rear_right",
@@ -748,10 +1054,48 @@
           "ThermalEnergyBase": 10.0,
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "Screen_holo_passanger_Main",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "Screen_holo_passanger_Main",
+        "Port": {
+          "PortName": "Screen_holo_passanger_Main",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_esc_pod_upper_left",
@@ -1013,65 +1357,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret",
-    "Port": {
-      "PortName": "hardpoint_radar_turret",
-      "Size": 2,
-      "Loadout": "RADR_WLOP_S02_Chernykh",
-      "InstalledItem": {
-        "UUID": "5b0d1308-b34a-4b55-94f5-7270e03ca82a",
-        "ClassName": "RADR_WLOP_S02_Chernykh",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Chernykh",
-        "Description": "Item Type: Radar\nManufacturer: WillsOp\nSize: 2\nGrade: C\nClass: Civilian\n\nThe Chernykh is named after the famed 26th century engineer who designed some of the most prized radars of that era. This medium radar from WillsOp celebrates both the look and performance of those classic components.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 910.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -1316,8 +1603,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1356,7 +1643,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 187500.0
+          "Capacity": 290000.0
         }
       },
       "Types": [
@@ -1386,7 +1673,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 187500.0
+          "Capacity": 290000.0
         }
       },
       "Types": [
@@ -1525,8 +1812,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1575,8 +1862,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1625,10 +1912,10 @@
           "FuelRate": 2.0709999999999998E-08,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 235872000.0,
+            "Speed": 190000000.0,
             "Cooldown": 21.6,
-            "Stage1AccelerationRate": 1080000.0,
-            "State2AccelerationRate": 13867670.0,
+            "Stage1AccelerationRate": 350000.0,
+            "State2AccelerationRate": 15000000.0,
             "SpoolUpTime": 6.0
           },
           "SplineJump": {
@@ -1640,8 +1927,8 @@
           }
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 41.6
+          "Health": 1100.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.5,
@@ -1656,15 +1943,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 2,
+            "Loadout": "JDRV_TARS_S02_C_Explorer",
+            "InstalledItem": {
+              "UUID": "649c2450-0194-4a4d-99f3-38c16aacad53",
+              "ClassName": "JDRV_TARS_S02_C_Explorer",
+              "Size": 2,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Excelsior",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 2\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Excelsior jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 490.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 20.0,
+                "PowerDraw": 200.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -1672,7 +1983,18 @@
         "QuantumDrive.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "hardpoint_jump_drive",
+        "Port": {
+          "PortName": "hardpoint_jump_drive",
+          "Size": 2,
+          "Loadout": "JDRV_TARS_S02_C_Explorer",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_quantum_fuel_tank",
@@ -1756,8 +2078,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1788,8 +2110,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1835,8 +2157,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1867,8 +2189,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1963,8 +2285,7 @@
           "MaxThrustFuelRate": 78.02812499999999
         },
         "Durability": {
-          "Health": 15750.0,
-          "Lifetime": 720.0
+          "Health": 15750.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2006,8 +2327,7 @@
           "MaxThrustFuelRate": 78.02812499999999
         },
         "Durability": {
-          "Health": 15750.0,
-          "Lifetime": 720.0
+          "Health": 15750.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2053,8 +2373,7 @@
           "MaxThrustFuelRate": 19.533937499999997
         },
         "Durability": {
-          "Health": 14560.0,
-          "Lifetime": 720.0
+          "Health": 14560.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2100,8 +2419,7 @@
           "MaxThrustFuelRate": 19.533937499999997
         },
         "Durability": {
-          "Health": 14560.0,
-          "Lifetime": 720.0
+          "Health": 14560.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2147,8 +2465,7 @@
           "MaxThrustFuelRate": 5.671875
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2194,8 +2511,7 @@
           "MaxThrustFuelRate": 5.671875
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2241,8 +2557,7 @@
           "MaxThrustFuelRate": 5.671875
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2288,8 +2603,7 @@
           "MaxThrustFuelRate": 5.671875
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2335,8 +2649,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2382,8 +2695,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2429,8 +2741,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2476,8 +2787,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2523,8 +2833,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2570,8 +2879,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2617,8 +2925,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2664,8 +2971,7 @@
           "MaxThrustFuelRate": 4.25
         },
         "Durability": {
-          "Health": 13450.0,
-          "Lifetime": 720.0
+          "Health": 13450.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2839,8 +3145,8 @@
         "Name": "turret_left",
         "Port": {
           "PortName": "turret_left",
-          "Size": 0,
-          "Loadout": "",
+          "Size": 3,
+          "Loadout": "Mount_Gimbal_S3",
           "Types": [
             "TurretBase.MannedTurret"
           ],
@@ -2851,8 +3157,8 @@
             "Name": "hardpoint_class_2",
             "Port": {
               "PortName": "hardpoint_class_2",
-              "Size": 0,
-              "Loadout": "",
+              "Size": 3,
+              "Loadout": "KLWE_LaserRepeater_S3",
               "Category": "DISABLED"
             }
           }
@@ -2862,8 +3168,8 @@
         "Name": "turret_right",
         "Port": {
           "PortName": "turret_right",
-          "Size": 0,
-          "Loadout": "",
+          "Size": 3,
+          "Loadout": "Mount_Gimbal_S3",
           "Types": [
             "TurretBase.MannedTurret"
           ],
@@ -2874,12 +3180,57 @@
             "Name": "hardpoint_class_2",
             "Port": {
               "PortName": "hardpoint_class_2",
-              "Size": 0,
-              "Loadout": "",
+              "Size": 3,
+              "Loadout": "KLWE_LaserRepeater_S3",
               "Category": "DISABLED"
             }
           }
         ]
+      },
+      {
+        "Name": "Screen_Radar",
+        "Port": {
+          "PortName": "Screen_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Right_Top",
+        "Port": {
+          "PortName": "Screen_Right_Top",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Left_Top",
+        "Port": {
+          "PortName": "Screen_Left_Top",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Right_Bottom",
+        "Port": {
+          "PortName": "Screen_Right_Bottom",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Left_Bottom",
+        "Port": {
+          "PortName": "Screen_Left_Bottom",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
       }
     ]
   },
@@ -2960,9 +3311,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -3003,9 +3351,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3123,9 +3468,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -3166,9 +3508,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3286,9 +3625,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -3329,9 +3665,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3449,9 +3782,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -3492,9 +3822,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3706,651 +4033,6 @@
     }
   },
   {
-    "Name": "hardpoint_weapon_missilelauncher_left",
-    "Port": {
-      "PortName": "hardpoint_weapon_missilelauncher_left",
-      "Size": 5,
-      "Loadout": "MRCK_S05_MISC_Freelancer_MIS_Left",
-      "InstalledItem": {
-        "UUID": "2c0a8a0f-b754-4c31-840e-471a1b95111d",
-        "ClassName": "MRCK_S05_MISC_Freelancer_MIS_Left",
-        "Size": 5,
-        "Grade": 1,
-        "Type": "MissileLauncher.MissileRack",
-        "Name": "MISC Freelancer MIS Missile Launcher",
-        "Description": "MISC Freelancer MIS Missile Launcher",
-        "Manufacturer": {
-          "Code": "MIS",
-          "Name": "Musashi Industrial & Starflight Concern"
-        },
-        "Tags": [
-          "flightReady",
-          "$MISC_Freelancer_MIS"
-        ],
-        "Width": 1.116502,
-        "Height": 2.004737,
-        "Length": 8.84403,
-        "Volume": 4.2,
-        "DimensionOverrides": {
-          "Width": 0.75,
-          "Height": 0.75,
-          "Depth": 3.0
-        },
-        "Durability": {
-          "Health": 200.0
-        },
-        "MissileRack": {
-          "Count": 10,
-          "Size": 3
-        },
-        "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 20.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "missile_01_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_02_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_03_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_04_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_05_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_06_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_07_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_08_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_09_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          },
-          {
-            "PortName": "missile_10_attach_left",
-            "Size": 3,
-            "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-            "InstalledItem": {
-              "UUID": "9a741b0a-200d-4f1a-92a8-f917510804e1",
-              "ClassName": "MISL_S03_EM_FSKI_Thunderbolt",
-              "Size": 3,
-              "Grade": 1,
-              "Type": "Missile.Missile",
-              "Name": "Thunderbolt III Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Electromagnetic \nSize: 3\n\nThanks to the Firestorm Thunderbolt's agile frame and EM targeting system, this proximity missile is a solid choice for a wide variety of combat scenarios.",
-              "Manufacturer": {
-                "Code": "FSKI",
-                "Name": "Aegis Dynamics"
-              },
-              "Tags": [
-                "FSKI",
-                "EM",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 3.0,
-              "Volume": 0.046875,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 3276.372
-                }
-              }
-            },
-            "Types": [
-              "Missile.Missile"
-            ],
-            "Category": "Missiles"
-          }
-        ]
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    "Parts": [
-      {
-        "Name": "missile_01_attach_left",
-        "Port": {
-          "PortName": "missile_01_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_02_attach_left",
-        "Port": {
-          "PortName": "missile_02_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_03_attach_left",
-        "Port": {
-          "PortName": "missile_03_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_04_attach_left",
-        "Port": {
-          "PortName": "missile_04_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_05_attach_left",
-        "Port": {
-          "PortName": "missile_05_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_06_attach_left",
-        "Port": {
-          "PortName": "missile_06_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_07_attach_left",
-        "Port": {
-          "PortName": "missile_07_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_08_attach_left",
-        "Port": {
-          "PortName": "missile_08_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_09_attach_left",
-        "Port": {
-          "PortName": "missile_09_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      },
-      {
-        "Name": "missile_10_attach_left",
-        "Port": {
-          "PortName": "missile_10_attach_left",
-          "Size": 3,
-          "Loadout": "MISL_S03_EM_FSKI_Thunderbolt",
-          "Category": "DISABLED"
-        }
-      }
-    ]
-  },
-  {
-    "Name": "hardpoint_radar_02",
-    "Port": {
-      "PortName": "hardpoint_radar_02",
-      "Size": 2,
-      "Loadout": "RADR_WLOP_S02_Chernykh",
-      "InstalledItem": {
-        "UUID": "5b0d1308-b34a-4b55-94f5-7270e03ca82a",
-        "ClassName": "RADR_WLOP_S02_Chernykh",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Chernykh",
-        "Description": "Item Type: Radar\nManufacturer: WillsOp\nSize: 2\nGrade: C\nClass: Civilian\n\nThe Chernykh is named after the famed 26th century engineer who designed some of the most prized radars of that era. This medium radar from WillsOp celebrates both the look and performance of those classic components.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
     "Name": "hardpoint_shield_generator_03",
     "Port": {
       "PortName": "hardpoint_shield_generator_03",
@@ -4378,8 +4060,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -4410,8 +4092,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -4460,8 +4142,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -4477,6 +4159,67 @@
         "PowerPlant.Power"
       ],
       "Category": "Power plants"
+    }
+  },
+  {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 2,
+      "Loadout": "LFSP_TYDT_S02_ComfortAirPlus",
+      "InstalledItem": {
+        "UUID": "c50917d3-f453-4ca6-b753-1c506a6710e0",
+        "ClassName": "LFSP_TYDT_S02_ComfortAirPlus",
+        "Size": 2,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S02_ComfortAirPlus",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 700.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   },
   {
@@ -4557,9 +4300,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3276.372
@@ -4600,9 +4340,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4645,9 +4382,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3276.372
@@ -4688,9 +4422,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4733,9 +4464,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3276.372
@@ -4776,9 +4504,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4821,9 +4546,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3276.372
@@ -4864,9 +4586,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4909,9 +4628,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3276.372
@@ -4952,9 +4668,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -5095,8 +4808,7 @@
           "MaxThrustFuelRate": 19.533937499999997
         },
         "Durability": {
-          "Health": 14560.0,
-          "Lifetime": 720.0
+          "Health": 14560.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5142,8 +4854,7 @@
           "MaxThrustFuelRate": 19.533937499999997
         },
         "Durability": {
-          "Health": 14560.0,
-          "Lifetime": 720.0
+          "Health": 14560.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5180,47 +4891,6 @@
         "Volume": 1E-06
       },
       "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_S1",
-      "InstalledItem": {
-        "UUID": "c181a828-9eb2-42ed-859e-d4bee560f2b3",
-        "ClassName": "WeaponRegenPool_Turret_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_S1",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 20000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   },
   {
@@ -5342,6 +5012,96 @@
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cockpit",
+    "Port": {
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cargo_bay",
+    "Port": {
+      "PortName": "hardpoint_relay_cargo_bay",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

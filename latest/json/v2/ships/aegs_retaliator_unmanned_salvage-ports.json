@@ -1,58 +1,5 @@
 {
-  "PilotHardpoints": [
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Retaliator",
-      "InstalledItem": {
-        "UUID": "14743f08-fb14-4930-82c5-ec94b25cabb7",
-        "ClassName": "WeaponRegenPool_Crew_Retaliator",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Retaliator",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Retaliator",
-      "InstalledItem": {
-        "UUID": "49114a7f-3d7e-473e-8648-e02b8e2c07bb",
-        "ClassName": "WeaponRegenPool_Turret_Retaliator",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Retaliator",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  ],
+  "PilotHardpoints": [],
   "MannedTurrets": [
     {
       "PortName": "hardpoint_turret_fronttop",
@@ -70,8 +17,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 25.0
+          "Health": 8000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -114,7 +61,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -159,7 +106,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -316,7 +263,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -361,7 +308,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -506,6 +453,65 @@
                 "Health": 1.0
               }
             },
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Left_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Right_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Radar",
+            "Size": 3,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -531,8 +537,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 25.0
+          "Health": 8000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -575,7 +581,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -620,7 +626,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -777,7 +783,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -822,7 +828,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -967,6 +973,65 @@
                 "Health": 1.0
               }
             },
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Left_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Right_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Radar",
+            "Size": 3,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -992,8 +1057,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 25.0
+          "Health": 8000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1036,7 +1101,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -1081,7 +1146,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -1238,7 +1303,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -1283,7 +1348,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -1428,6 +1493,65 @@
                 "Health": 1.0
               }
             },
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Left_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Right_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Radar",
+            "Size": 3,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -1453,8 +1577,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 25.0
+          "Health": 8000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1497,7 +1621,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -1542,7 +1666,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -1699,7 +1823,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -1744,7 +1868,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -1890,6 +2014,65 @@
               }
             },
             "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Left_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Right_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Radar",
+            "Size": 3,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -1914,8 +2097,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 25.0
+          "Health": 8000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1958,7 +2141,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -2003,7 +2186,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -2160,7 +2343,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 720.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -2205,7 +2388,7 @@
                     },
                     "Durability": {
                       "Health": 1500.0,
-                      "Lifetime": 20.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 200.0,
@@ -2351,6 +2534,65 @@
               }
             },
             "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Left_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Right_Top",
+            "Size": 3,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Radar",
+            "Size": 3,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -2362,14 +2604,14 @@
     {
       "PortName": "hardpoint_relay_rear_turret_left",
       "Size": 1,
-      "Loadout": "RELAY_shipItem_2slot",
+      "Loadout": "RELAY_2slot",
       "InstalledItem": {
         "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
-        "ClassName": "RELAY_shipItem_2slot",
+        "ClassName": "RELAY_2slot",
         "Size": 1,
         "Grade": 1,
         "Type": "Relay.UNDEFINED",
-        "Name": "RELAY_shipItem_2slot",
+        "Name": "RELAY_2slot",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -2404,14 +2646,14 @@
     {
       "PortName": "hardpoint_relay_rear_turret_right",
       "Size": 1,
-      "Loadout": "RELAY_shipItem_2slot",
+      "Loadout": "RELAY_2slot",
       "InstalledItem": {
         "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
-        "ClassName": "RELAY_shipItem_2slot",
+        "ClassName": "RELAY_2slot",
         "Size": 1,
         "Grade": 1,
         "Type": "Relay.UNDEFINED",
-        "Name": "RELAY_shipItem_2slot",
+        "Name": "RELAY_2slot",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -2807,8 +3049,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -2839,8 +3081,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -2883,8 +3125,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -2915,8 +3157,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -2959,8 +3201,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -2991,8 +3233,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -3035,8 +3277,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -3067,8 +3309,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -3111,8 +3353,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -3143,8 +3385,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -3187,8 +3429,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -3219,8 +3461,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -3268,8 +3510,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -3315,8 +3557,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -3364,8 +3606,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -3411,8 +3653,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -3487,8 +3729,7 @@
           "MaxThrustFuelRate": 38.0975
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3527,8 +3768,7 @@
           "MaxThrustFuelRate": 21.770000000000003
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3569,8 +3809,7 @@
           "MaxThrustFuelRate": 27.37875
         },
         "Durability": {
-          "Health": 17250.0,
-          "Lifetime": 720.0
+          "Health": 17250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3613,8 +3852,7 @@
           "MaxThrustFuelRate": 27.37875
         },
         "Durability": {
-          "Health": 17250.0,
-          "Lifetime": 720.0
+          "Health": 17250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3659,8 +3897,7 @@
           "MaxThrustFuelRate": 2.8125
         },
         "Durability": {
-          "Health": 15500.0,
-          "Lifetime": 720.0
+          "Health": 15500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3703,8 +3940,7 @@
           "MaxThrustFuelRate": 2.8125
         },
         "Durability": {
-          "Health": 15500.0,
-          "Lifetime": 720.0
+          "Health": 15500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3747,8 +3983,7 @@
           "MaxThrustFuelRate": 2.875
         },
         "Durability": {
-          "Health": 15500.0,
-          "Lifetime": 720.0
+          "Health": 15500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3791,8 +4026,7 @@
           "MaxThrustFuelRate": 2.875
         },
         "Durability": {
-          "Health": 15500.0,
-          "Lifetime": 720.0
+          "Health": 15500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3835,8 +4069,7 @@
           "MaxThrustFuelRate": 2.875
         },
         "Durability": {
-          "Health": 15500.0,
-          "Lifetime": 720.0
+          "Health": 15500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3879,8 +4112,7 @@
           "MaxThrustFuelRate": 2.875
         },
         "Durability": {
-          "Health": 15500.0,
-          "Lifetime": 720.0
+          "Health": 15500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3921,8 +4153,7 @@
           "MaxThrustFuelRate": 14.0
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3961,8 +4192,7 @@
           "MaxThrustFuelRate": 14.0
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4001,8 +4231,7 @@
           "MaxThrustFuelRate": 7.2125
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4041,8 +4270,7 @@
           "MaxThrustFuelRate": 7.2125
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4081,8 +4309,7 @@
           "MaxThrustFuelRate": 8.40625
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4121,8 +4348,7 @@
           "MaxThrustFuelRate": 8.40625
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4161,8 +4387,7 @@
           "MaxThrustFuelRate": 14.0
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4201,8 +4426,7 @@
           "MaxThrustFuelRate": 14.0
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4241,8 +4465,7 @@
           "MaxThrustFuelRate": 7.2125
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4281,8 +4504,7 @@
           "MaxThrustFuelRate": 7.2125
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4321,8 +4543,7 @@
           "MaxThrustFuelRate": 8.40625
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4361,8 +4582,7 @@
           "MaxThrustFuelRate": 8.40625
         },
         "Durability": {
-          "Health": 16000.0,
-          "Lifetime": 720.0
+          "Health": 16000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

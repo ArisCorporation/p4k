@@ -57,10 +57,10 @@
           "crewSize": 1,
           "vehicleName": "@vehicle_NameAEGS_Javelin",
           "vehicleDescription": "@vehicle_DescAEGS_Javelin",
-          "vehicleCareer": "@LOC_PLACEHOLDER",
-          "vehicleCareerRef": "00000000-0000-0000-0000-000000000000",
+          "vehicleCareer": "@vehicle_class_destroyer",
+          "vehicleCareerRef": "2bf4345e-cf3c-4ecb-91ce-f9daa8ff47f8",
           "vehicleRole": "@vehicle_class_destroyer",
-          "vehicleRoleRef": "00000000-0000-0000-0000-000000000000",
+          "vehicleRoleRef": "30093844-6356-4df9-8473-dad8fc8ee1d4",
           "inventoryContainerParams": "8f4f7045-703a-4932-98c1-e2d56b0f89b1",
           "maxBoundingBoxSize": {
             "x": 0.0,
@@ -329,54 +329,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_turret_flu_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_clu_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_rlu_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_fru_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_cru_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_rru_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_nlu_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_nru_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_powerplant_01",
                   "entityClassName": "POWR_AEGS_S04_Idris_SCItem",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -452,7 +404,18 @@
                   "itemPortName": "hardpoint_quantum_drive",
                   "entityClassName": "QDRV_AEGS_S04_Javelin_SCItem",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_jump_drive",
+                          "entityClassName": "JDRV_AEGS_S04_Javelin_SCItem",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_quantum_fuel_tank",
@@ -1544,36 +1507,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_turret_nrl_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_nll_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_flc_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_clc_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_turret_rlc_radar",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_turret_remote_turret_top_controller",
                   "entityClassName": "Controller_Weapon",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -1582,18 +1515,6 @@
                 {
                   "itemPortName": "hardpoint_turret_remote_turret_bottom_controller",
                   "entityClassName": "Controller_Weapon",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_radar_turret_tail_upper",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_radar_turret_tail_lower",
-                  "entityClassName": "RADR_GRNP_S01_Ecouter",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 },
@@ -1734,18 +1655,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "WeaponRegenPool_Crew_Javelin",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                  "entityClassName": "WeaponRegenPool_Turret_Javelin",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_controller_capacitor_assignment",
                   "entityClassName": "Controller_CapacitorAssignment",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -1760,12 +1669,6 @@
                 {
                   "itemPortName": "hardpoint_fuel_port",
                   "entityClassName": "DockingTube_Fuel_Ports_AEGS_Javelin",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "interior_Bridge_Escape_Pod",
-                  "entityClassName": "MovableCinematicContainer_Javelin_Escape_Pod",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 },
@@ -1942,6 +1845,12 @@
                       ]
                     }
                   }
+                },
+                {
+                  "itemPortName": "hardpoint_lifesupport",
+                  "entityClassName": "LFSP_S04_AEGS_Javelin",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
                 }
               ]
             }
@@ -2011,7 +1920,7 @@
           }
         },
         "SDegradationParams": {
-          "MaxLifetimeHours": 25.0,
+          "MaxLifetimeHours": 0.0,
           "InitialAgeRatio": 0.0,
           "DegradeOnlyWhenAttached": false
         },
@@ -2079,6 +1988,23 @@
               "Types": [
                 {
                   "Type": "DockingCollar",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_lifesupport",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 4,
+              "MaxSize": 4,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "LifeSupportGenerator",
                   "SubTypes": []
                 }
               ]

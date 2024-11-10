@@ -29,26 +29,179 @@
     },
     {
       "PortName": "hardpoint_weapon_center",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
+      "Size": 5,
+      "Loadout": "ANVL_Hornet_F7C_Mk2_Cargo_Door",
+      "InstalledItem": {
+        "UUID": "d2f911b6-d68c-439e-b862-3ccd736366ab",
+        "ClassName": "ANVL_Hornet_F7C_Mk2_Cargo_Door",
+        "Size": 5,
+        "Grade": 1,
+        "Type": "Module.UNDEFINED",
+        "Name": "Stor*All Big Box Model H2",
+        "Description": "Manufacturer: Stor*All\nItem Type: Storage\n\nDesigned for the Hornet F7C Mk II, the Stor*All Big Box model H2 replaces the turret system of the military-spec craft with a respectable cargo hold.",
+        "Manufacturer": {
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "Tags": [
+          "ANVL_Hornet_Mk2_Center"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 200.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "control_panel_a",
+            "Size": 10,
+            "Types": [
+              "ControlPanel.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "control_panel_b",
+            "Size": 10,
+            "Types": [
+              "ControlPanel.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "charge_handle_a",
+            "Size": 10,
+            "Types": [
+              "Misc.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "charge_handle_b",
+            "Size": 10,
+            "Types": [
+              "Misc.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "close_button_a",
+            "Size": 10,
+            "Types": [
+              "Button.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "close_button_b",
+            "Size": 10,
+            "Types": [
+              "Button.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "proximity_sensor",
+            "Size": 2,
+            "Types": [
+              "Sensor.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "light_group_a",
+            "Size": 10,
+            "Types": [
+              "Lightgroup.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "light_group_b",
+            "Size": 10,
+            "Types": [
+              "Lightgroup.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "decal_front",
+            "Size": 1,
+            "Types": [
+              "Decal.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "decal_rear",
+            "Size": 1,
+            "Types": [
+              "Decal.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "decal_screen",
+            "Size": 1,
+            "Types": [
+              "Decal.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "hardpoint_scu",
+            "Size": 0,
+            "Loadout": "ANVL_Hornet_CargoGrid_F7C_Mk2",
+            "InstalledItem": {
+              "UUID": "2e32c134-5d48-4b8f-9e7e-7a3d679f21f4",
+              "ClassName": "ANVL_Hornet_CargoGrid_F7C_Mk2",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Cargo.UNDEFINED",
+              "Name": "ANVL_Hornet_CargoGrid_F7C_Mk2",
+              "Manufacturer": {
+                "Code": "ANVL",
+                "Name": "Anvil Aerospace"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 0.0,
+                "PowerDraw": 1.0
+              },
+              "HeatConnection": {
+                "ThermalEnergyBase": 10.0,
+                "ThermalEnergyDraw": 20.0,
+                "CoolingRate": 1.0
+              },
+              "InventoryContainer": {
+                "SCU": 0.0,
+                "x": 2.5,
+                "y": 1.25,
+                "z": 1.25,
+                "unit": 0.0
+              }
+            },
+            "Types": [
+              "Cargo"
+            ],
+            "Flags": [
+              "selfphys",
+              "uneditable"
+            ],
+            "Category": "Cargo grids",
+            "Uneditable": true
+          }
+        ]
+      },
       "Types": [
         "WeaponGun.Gun"
       ],
@@ -137,9 +290,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -180,9 +330,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -225,9 +372,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -268,9 +412,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -365,9 +506,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -408,9 +546,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -453,9 +588,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -496,9 +628,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -876,8 +1005,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1730.0,
+          "Regeneration": 115.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -908,8 +1037,8 @@
           }
         },
         "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
+          "Health": 630.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -952,8 +1081,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1730.0,
+          "Regeneration": 115.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -984,8 +1113,8 @@
           }
         },
         "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
+          "Health": 630.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -1033,8 +1162,8 @@
           "Output": 4000.0
         },
         "Durability": {
-          "Health": 432.0,
-          "Lifetime": 22.0
+          "Health": 820.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1080,8 +1209,8 @@
           "Output": 4000.0
         },
         "Durability": {
-          "Health": 432.0,
-          "Lifetime": 22.0
+          "Health": 820.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1129,8 +1258,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -1176,8 +1305,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -1255,8 +1384,7 @@
           "MaxThrustFuelRate": 39.371722500000004
         },
         "Durability": {
-          "Health": 9450.0,
-          "Lifetime": 720.0
+          "Health": 7000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1304,8 +1432,7 @@
           "MaxThrustFuelRate": 7.122065
         },
         "Durability": {
-          "Health": 8250.0,
-          "Lifetime": 720.0
+          "Health": 8250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1351,8 +1478,7 @@
           "MaxThrustFuelRate": 7.122065
         },
         "Durability": {
-          "Health": 8250.0,
-          "Lifetime": 720.0
+          "Health": 8250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1401,8 +1527,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1448,8 +1573,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1495,8 +1619,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1542,8 +1665,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1589,8 +1711,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1636,8 +1757,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1683,8 +1803,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1730,8 +1849,7 @@
           "MaxThrustFuelRate": 7.796931
         },
         "Durability": {
-          "Health": 7350.0,
-          "Lifetime": 720.0
+          "Health": 5000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1909,6 +2027,52 @@
         }
       },
       "Category": "UNKNOWN"
+    },
+    {
+      "PortName": "hardpoint_scu",
+      "Size": 0,
+      "Loadout": "ANVL_Hornet_CargoGrid_F7C_Mk2",
+      "InstalledItem": {
+        "UUID": "2e32c134-5d48-4b8f-9e7e-7a3d679f21f4",
+        "ClassName": "ANVL_Hornet_CargoGrid_F7C_Mk2",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Cargo.UNDEFINED",
+        "Name": "ANVL_Hornet_CargoGrid_F7C_Mk2",
+        "Manufacturer": {
+          "Code": "ANVL",
+          "Name": "Anvil Aerospace"
+        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "InventoryContainer": {
+          "SCU": 0.0,
+          "x": 2.5,
+          "y": 1.25,
+          "z": 1.25,
+          "unit": 0.0
+        }
+      },
+      "Types": [
+        "Cargo"
+      ],
+      "Flags": [
+        "selfphys",
+        "uneditable"
+      ],
+      "Category": "Cargo grids",
+      "Uneditable": true
     }
   ],
   "Avionics": []

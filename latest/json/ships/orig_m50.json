@@ -34,6 +34,9 @@
           "value": "9b4bf1d1-00a4-48f7-80eb-ff4a7151448c"
         },
         {
+          "value": "5c784de1-5354-4451-8edf-38e9421aa798"
+        },
+        {
           "value": "23eb1bc5-9f27-4114-a417-bd42fb4d0f0d"
         },
         {
@@ -96,13 +99,49 @@
                       "entries": [
                         {
                           "itemPortName": "hardpoint_cockpit_radar",
-                          "entityClassName": "ORIG_m50_RADR_Display",
+                          "entityClassName": "Radar_Display_ORIG_m50",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
                           "loadout": {}
                         },
                         {
                           "itemPortName": "Display_HUD",
-                          "entityClassName": "Projector_HUD_Generic",
+                          "entityClassName": "",
+                          "entityClassReference": "d16a670e-2d71-4793-84cf-db484e55728e",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "Screen_Annunciator_Left",
+                          "entityClassName": "Vehicle_Screen_Physical_Holo",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "Screen_Annunciator_Right",
+                          "entityClassName": "Vehicle_Screen_Physical_Holo",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "Screen_Left_RTT",
+                          "entityClassName": "Vehicle_Screen_MFD_Holographic_ORIG_M50_L",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "Screen_Right_RTT",
+                          "entityClassName": "Vehicle_Screen_MFD_Holographic_ORIG_M50_R",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "Screen_Bottom_Left_RTT_4by3",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "Screen_Bottom_Right_RTT_4by3",
+                          "entityClassName": "Vehicle_Screen_MFD",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
                           "loadout": {}
                         }
@@ -165,13 +204,7 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_shield_generator_left",
-                  "entityClassName": "SHLD_YORM_S01_Targa_SCItem",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_shield_generator_right",
+                  "itemPortName": "hardpoint_shield_generator",
                   "entityClassName": "SHLD_YORM_S01_Targa_SCItem",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
@@ -324,7 +357,18 @@
                   "itemPortName": "hardpoint_quantum_drive",
                   "entityClassName": "QDRV_ACAS_S01_LightFire_SCItem",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_jump_drive",
+                          "entityClassName": "JDRV_TARS_S01_C_Explorer",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_quantum_fuel_tank",
@@ -431,18 +475,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "",
-                  "entityClassReference": "d7abe094-bbbe-4278-9c6d-e4452f05052b",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                  "entityClassName": "",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_controller_capacitor_assignment",
                   "entityClassName": "Controller_CapacitorAssignment",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -469,6 +501,18 @@
                 {
                   "itemPortName": "hardpoint_cockpit_flair",
                   "entityClassName": "",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay",
+                  "entityClassName": "RELAY_1slot_slim",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_lifesupport",
+                  "entityClassName": "LFSP_TYDT_S01_ComfortAir",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 }
@@ -540,7 +584,7 @@
           }
         },
         "SDegradationParams": {
-          "MaxLifetimeHours": 25.0,
+          "MaxLifetimeHours": 0.0,
           "InitialAgeRatio": 0.0,
           "DegradeOnlyWhenAttached": false
         },
@@ -628,6 +672,35 @@
                   "SubTypes": []
                 }
               ]
+            },
+            {
+              "Name": "hardpoint_relay",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 0,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Relay",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_lifesupport",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
             }
           ]
         }

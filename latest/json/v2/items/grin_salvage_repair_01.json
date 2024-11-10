@@ -3,8 +3,8 @@
   "ClassName": "grin_salvage_repair_01",
   "Size": 2,
   "Grade": 1,
-  "Type": "WeaponPersonal.Medium",
-  "Classification": "FPS.Weapon.Medium",
+  "Type": "WeaponPersonal.Gadget",
+  "Classification": "FPS.Weapon.Gadget",
   "Name": "Cambio SRT",
   "Description": "Manufacturer: Greycat Industrial\nItem Type: Utility\nClass: Gadget\n\nCanister Size: Large\nRate of Fire: N / A (Beam)\nEffective Range: 5 m\n\nStrip salvage and make repairs with the Cambio, a dual purpose salvage and repair tool (SRT) designed to collect and convert alloys and polymers found in scrap into recycled material composite that can either be sold or used to make quick repairs. The Cambio SRT features rapid stripping speeds and an impressive battery life, making it an essential gadget for mechanics and spacefarers.",
   "Manufacturer": {
@@ -63,16 +63,6 @@
         "PelletsPerShot": 0.0,
         "DamagePerShot": {},
         "DamagePerSecond": {}
-      },
-      {
-        "Name": "Repair",
-        "LocalisedName": "Repair",
-        "RoundsPerMinute": 0.0,
-        "FireType": "Repair",
-        "AmmoPerShot": 0.0,
-        "PelletsPerShot": 0.0,
-        "DamagePerShot": {},
-        "DamagePerSecond": {}
       }
     ]
   },
@@ -119,7 +109,9 @@
           "Name": "Greycat Industrial"
         },
         "Tags": [
-          "grin_cutter_01"
+          "grin_cutter_01",
+          "grin_tractor_01",
+          "grin_salvage_repair_01"
         ],
         "Width": 0.045,
         "Height": 0.208,

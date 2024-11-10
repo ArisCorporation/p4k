@@ -1,41 +1,6 @@
 {
   "PilotHardpoints": [
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_SRV",
-      "InstalledItem": {
-        "UUID": "ae4f8234-348e-47fb-b2fc-b03d3620df5d",
-        "ClassName": "WeaponRegenPool_Turret_SRV",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_SRV",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapon_rack",
       "Size": 1,
       "Loadout": "Weapon_Rack_ARGO_SRV",
@@ -242,7 +207,7 @@
               "Length": 0.15,
               "Volume": 1E-06,
               "Durability": {
-                "Health": 2000.0
+                "Health": 6500.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -265,7 +230,7 @@
                     "Grade": 1,
                     "Type": "TowingBeam.UNDEFINED",
                     "Name": "SafeTow S3 Towing Beam",
-                    "Description": "Manufacturer: Greycat Industrial\nItem Type: Towing Beam\nMax Angle: 160°\nMax Range: 250 m\nFull Strength Distance: 200 m\n\nThe safe and secure choice of recovery teams across the empire, the SafeTow towing beam from Greycat Industrial boasts enough strength, power, and control to transport both heavy cargo and entire vehicles across the ‘verse.",
+                    "Description": "Manufacturer: Greycat Industrial\nItem Type: Towing Beam\nMax Angle: 160°\nMax Range: 250 m\nFull Strength Distance: 200 m\n\nThe safe and secure choice of recovery teams across the empire, the SafeTow towing beam from Greycat Industrial boasts enough strength, power, and control to transport both heavy cargo and vehicles across the ‘verse.",
                     "Manufacturer": {
                       "Code": "GRIN",
                       "Name": "Greycat Industrial"
@@ -285,7 +250,7 @@
                     },
                     "Durability": {
                       "Health": 1050.0,
-                      "Lifetime": 100.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 46.0,
@@ -528,8 +493,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4430.0,
+          "Regeneration": 269.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -560,8 +525,8 @@
           }
         },
         "Durability": {
-          "Health": 2320.0,
-          "Lifetime": 40.0
+          "Health": 700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -609,8 +574,8 @@
           "Output": 12500.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 40.0
+          "Health": 1100.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -658,8 +623,8 @@
           "Rate": 8000000.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 104.0
+          "Health": 710.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -734,8 +699,7 @@
           "MaxThrustFuelRate": 37.25
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -778,8 +742,7 @@
           "MaxThrustFuelRate": 37.25
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -824,8 +787,7 @@
           "MaxThrustFuelRate": 22.900000000000002
         },
         "Durability": {
-          "Health": 22000.0,
-          "Lifetime": 720.0
+          "Health": 22000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -868,8 +830,7 @@
           "MaxThrustFuelRate": 22.900000000000002
         },
         "Durability": {
-          "Health": 22000.0,
-          "Lifetime": 720.0
+          "Health": 22000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -914,8 +875,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -958,8 +918,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1002,8 +961,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1046,8 +1004,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1090,8 +1047,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1134,8 +1090,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1178,8 +1133,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1222,8 +1176,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1268,8 +1221,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1312,8 +1264,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1356,8 +1307,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1400,8 +1350,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1444,8 +1393,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1488,8 +1436,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1532,8 +1479,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1576,8 +1522,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1620,8 +1565,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1664,8 +1608,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1708,8 +1651,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1752,8 +1694,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

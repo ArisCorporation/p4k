@@ -18,18 +18,19 @@ hardpoint_refuel_port                             S0                            
 hardpoint_fuel_tank                               S0   FuelTank.Fuel                                     HTNK_ORIG_X1                                                     Fuel tanks                              
 hardpoint_powerplant                              S0   PowerPlant.Power                                  POWR_LPLT_S00_Radix_SCItem                                       Power plants                            
 hardpoint_cooler                                  S0   Cooler.UNDEFINED                                  COOL_WCPR_S00_Fridan_SCItem                                      Coolers                                 
-hardpoint_computer                                S1   Misc.UNDEFINED                                    COMP_WLOP_S00_Adze                                               UNKNOWN                                 
-hardpoint_weapon_regen_pool                       S1   WeaponGun.Gun                                     WeaponRegenPool_Crew_X1                                          Weapon hardpoints                       
+hardpoint_computer                                S0   Misc.UNDEFINED                                    COMP_WLOP_S00_Adze                                               UNKNOWN                                 
 hardpoint_cockpit_flair                           S0                                                                                                                      DISABLED                                
 hardpoint_cockpit_flair_hang                      S0                                                                                                                      DISABLED                                
 hardpoint_radar                                   S0                                                     RADR_WLOP_S00_Denning                                            UNKNOWN                                 
 hardpoint_pilot_seat                              S0                                                     ORIG_X1_SCItem_Seat_Pilot                                        UNKNOWN                                 
 hardpoint_pilot_seataccess                        S0                                                     ORIG_X1_SCItem_SeatAccess                                        UNKNOWN                                 
-hardpoint_dashboard                               S0                                                     ORIG_X1_SCItem_Dashboard_Pilot                                   UNKNOWN                                 
- Display_HUD                                      S1                                                     Projector_HUD_Pilot_X1                                           UNKNOWN                                 
- hardpoint_cockpit_radar                          S1   Display                                           RADR_Display                                                     UNKNOWN                                 
- Display_HUD                                      S0                                                     Projector_HUD_Pilot_X1                                           DISABLED                                
- hardpoint_cockpit_radar                          S0                                                     RADR_Display                                                     DISABLED                                
+hardpoint_dashboard                               S0                                                                                                                      DISABLED                                
+ Display_HUD                                      S0                                                                                                                      DISABLED                                
+ Radar_Helper                                     S0                                                                                                                      DISABLED                                
+ Screen_Left                                      S0                                                                                                                      DISABLED                                
+ Screen_Right                                     S0                                                                                                                      DISABLED                                
+ Screen_Annunciator_Left                          S0                                                                                                                      DISABLED                                
+ Screen_Annunciator_Right                         S0                                                                                                                      DISABLED                                
 hardpoint_thruster_main_right                     S1   MainThruster.FixedThruster                        ORIG_X1_Thruster_Main                                            Main thrusters                          
 hardpoint_thruster_main_left                      S1   MainThruster.FixedThruster                        ORIG_X1_Thruster_Main                                            Main thrusters                          
 hardpoint_thruster_retro_right                    S1   ManneuverThruster.FixedThruster                   ORIG_X1_Thruster_Retro                                           Retro thrusters                         
@@ -61,4 +62,6 @@ hardpoint_cm_right                                S0   WeaponDefensive.Counterme
 hardpoint_weapon                                  S1   WeaponGun.Gun                                     KLWE_LaserRepeater_S1                                            Weapon hardpoints                       
 hardpoint_personal_storage                        S1   Cargo.UNDEFINED                                   PersonalStorage_ORIG_X1                                          Cargo grids                             
 hardpoint_shield_generator                        S0   Shield.UNDEFINED                                  SHLD_SECO_S00_PIN_SCItem                                         Shield generators                       
+hardpoint_relay                                   S1   Relay.UNDEFINED                                   RELAY_1slot_slim                                                 UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
 

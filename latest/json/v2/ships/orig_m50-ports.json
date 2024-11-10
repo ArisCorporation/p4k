@@ -93,9 +93,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -189,9 +186,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -205,24 +199,6 @@
           }
         ]
       },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
       "Types": [
         "WeaponGun.Gun"
       ],
@@ -404,7 +380,7 @@
   ],
   "Shields": [
     {
-      "PortName": "hardpoint_shield_generator_left",
+      "PortName": "hardpoint_shield_generator",
       "Size": 1,
       "Loadout": "SHLD_YORM_S01_Targa_SCItem",
       "InstalledItem": {
@@ -429,8 +405,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 2240.0,
+          "Regeneration": 150.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -461,84 +437,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 10.0
-        },
-        "PowerConnection": {
-          "PowerBase": 200.0,
-          "PowerDraw": 250.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 5476.042,
-          "ThermalEnergyDraw": 7950.0,
-          "CoolingRate": 33.48304
-        }
-      },
-      "Types": [
-        "Shield.UNDEFINED"
-      ],
-      "Category": "Shield generators"
-    },
-    {
-      "PortName": "hardpoint_shield_generator_right",
-      "Size": 1,
-      "Loadout": "SHLD_YORM_S01_Targa_SCItem",
-      "InstalledItem": {
-        "UUID": "d0669062-2e64-41d4-beb2-d510588ca593",
-        "ClassName": "SHLD_YORM_S01_Targa_SCItem",
-        "Size": 1,
-        "Grade": 3,
-        "Type": "Shield.UNDEFINED",
-        "Name": "Targa",
-        "Description": "Item Type: Shield Generator\nManufacturer: YORM\nSize: 1\nGrade: C\nClass: Competition\n\nBased on Gotlieb Yorm’s original design, the Targa is a light, high performance, competition-grade generator that revolutionized racing. ",
-        "Manufacturer": {
-          "Code": "YORM",
-          "Name": "Yorm"
-        },
-        "Width": 0.2233005,
-        "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
-        "DimensionOverrides": {
-          "Width": 2.25,
-          "Height": 0.75,
-          "Depth": 2.25
-        },
-        "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
-          "DownedDelay": 10.0,
-          "DamagedDelay": 5.0,
-          "Absorption": {
-            "Physical": {
-              "Minimum": 0.0,
-              "Maximum": 0.3
-            },
-            "Energy": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Distortion": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Thermal": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Biochemical": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Stun": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            }
-          }
-        },
-        "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 10.0
+          "Health": 240.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -586,8 +486,8 @@
           "Output": 1472.45
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 19.0
+          "Health": 410.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -635,8 +535,8 @@
           "Rate": 232000.0
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 15.0
+          "Health": 210.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -682,8 +582,8 @@
           "Rate": 232000.0
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 15.0
+          "Health": 210.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -758,8 +658,7 @@
           "MaxThrustFuelRate": 9.7293
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -802,8 +701,7 @@
           "MaxThrustFuelRate": 9.7293
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -848,8 +746,7 @@
           "MaxThrustFuelRate": 1.89345625
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -892,8 +789,7 @@
           "MaxThrustFuelRate": 1.89345625
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -939,8 +835,7 @@
           "MaxThrustFuelRate": 0.40072250000000004
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -983,8 +878,7 @@
           "MaxThrustFuelRate": 1.4625000000000001
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1027,8 +921,7 @@
           "MaxThrustFuelRate": 1.049375
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1071,8 +964,7 @@
           "MaxThrustFuelRate": 0.40563468750000004
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1115,8 +1007,7 @@
           "MaxThrustFuelRate": 0.40563468750000004
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1159,8 +1050,7 @@
           "MaxThrustFuelRate": 0.40072250000000004
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1203,8 +1093,7 @@
           "MaxThrustFuelRate": 1.4625000000000001
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1247,8 +1136,7 @@
           "MaxThrustFuelRate": 1.049375
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1291,8 +1179,7 @@
           "MaxThrustFuelRate": 0.40563468750000004
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1335,8 +1222,7 @@
           "MaxThrustFuelRate": 0.40563468750000004
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 720.0
+          "Health": 6000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

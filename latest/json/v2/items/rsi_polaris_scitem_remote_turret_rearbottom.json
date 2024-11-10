@@ -19,7 +19,7 @@
   "Length": 0.15,
   "Volume": 1E-06,
   "Durability": {
-    "Health": 2000.0
+    "Health": 10000.0
   },
   "PowerConnection": {
     "PowerBase": 0.0,
@@ -35,29 +35,45 @@
       "PortName": "turret_bottom_left",
       "Size": 3,
       "Types": [
-        "WeaponGun.Gun"
-      ]
+        "Turret.GunTurret"
+      ],
+      "Flags": [
+        "$uneditable"
+      ],
+      "Uneditable": true
     },
     {
       "PortName": "turret_bottom_right",
       "Size": 3,
       "Types": [
-        "WeaponGun.Gun"
-      ]
+        "Turret.GunTurret"
+      ],
+      "Flags": [
+        "$uneditable"
+      ],
+      "Uneditable": true
     },
     {
       "PortName": "turret_top_right",
       "Size": 3,
       "Types": [
-        "WeaponGun.Gun"
-      ]
+        "Turret.GunTurret"
+      ],
+      "Flags": [
+        "$uneditable"
+      ],
+      "Uneditable": true
     },
     {
       "PortName": "turret_top_left",
       "Size": 3,
       "Types": [
-        "WeaponGun.Gun"
-      ]
+        "Turret.GunTurret"
+      ],
+      "Flags": [
+        "$uneditable"
+      ],
+      "Uneditable": true
     }
   ]
 }

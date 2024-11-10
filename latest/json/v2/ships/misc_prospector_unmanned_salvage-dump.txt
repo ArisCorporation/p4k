@@ -1,10 +1,20 @@
 MISC_Prospector_Unmanned_Salvage
 hardpoint_paint                                   S0                                                                                                                      DISABLED                                
 hardpoint_seat_pilot                              S0                                                     MISC_Prospector_SCItem_Seat                                      UNKNOWN                                 
- Radar_Helper                                     S1   Display                                           MISC_Prospector_RADR_Display                                     UNKNOWN                                 
- Display_HUD                                      S1                                                     Projector_HUD_Generic                                            UNKNOWN                                 
- Radar_Helper                                     S0                                                     MISC_Prospector_RADR_Display                                     DISABLED                                
- Display_HUD                                      S0                                                     Projector_HUD_Generic                                            DISABLED                                
+ Screen_Radar                                     S1   Display                                           Radar_Display_MISC_Prospector                                    UNKNOWN                                 
+ Display_HUD                                      S1                                                                                                                      UNKNOWN                                 
+ Screen_Support_Right                             S1   Display                                           Vehicle_Screen_MFD_Holographic_MISC_Prospector_MR                UNKNOWN                                 
+ Screen_Support_Left                              S1   Display                                           Vehicle_Screen_MFD_Holographic_MISC_Prospector_ML                UNKNOWN                                 
+ Screen_MFD_Lower_Right                           S1   Display                                           Vehicle_Screen_MFD_Holographic_MISC_Prospector_RR                UNKNOWN                                 
+ Screen_MFD_Lower_Left                            S1   Display                                           Vehicle_Screen_MFD_Holographic_MISC_Prospector_LL                UNKNOWN                                 
+ Screen_Annunciator                               S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ Screen_Radar                                     S0                                                     Radar_Display_MISC_Prospector                                    DISABLED                                
+ Display_HUD                                      S0                                                                                                                      DISABLED                                
+ Screen_Support_Right                             S0                                                     Vehicle_Screen_MFD_Holographic_MISC_Prospector_MR                DISABLED                                
+ Screen_Support_Left                              S0                                                     Vehicle_Screen_MFD_Holographic_MISC_Prospector_ML                DISABLED                                
+ Screen_MFD_Lower_Right                           S0                                                     Vehicle_Screen_MFD_Holographic_MISC_Prospector_RR                DISABLED                                
+ Screen_MFD_Lower_Left                            S0                                                     Vehicle_Screen_MFD_Holographic_MISC_Prospector_LL                DISABLED                                
+ Screen_Annunciator                               S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
 hardpoint_seat_access                             S0                                                     MISC_Prospector_SCItem_SeatAccess                                UNKNOWN                                 
 hardpoint_controller_comms                        S0                                                     Controller_Comms                                                 UNKNOWN                                 
 hardpoint_cockpit_radar                           S0                                                                                                                      DISABLED                                
@@ -25,11 +35,11 @@ hardpoint_fuel_intake                             S1   FuelIntake.Fuel          
 hardpoint_cooler                                  S2   Cooler.UNDEFINED                                  COOL_JUST_S02_Snowfall_SCItem                                    Coolers                                 
 hardpoint_controller_cooler                       S0                                                     Controller_Cooler                                                UNKNOWN                                 
 hardpoint_quantum_drive                           S1   QuantumDrive.UNDEFINED                            QDRV_JUST_S01_Goliath_SCItem                                     UNKNOWN                                 
- hardpoint_Jump_Drive                             S1   JumpDrive.JumpDrive                                                                                                UNKNOWN                                 
+ hardpoint_Jump_Drive                             S1   JumpDrive.JumpDrive                               JDRV_TARS_S01_C_Explorer                                         UNKNOWN                                 
+ hardpoint_jump_drive                             S1                                                     JDRV_TARS_S01_C_Explorer                                         DISABLED                                
 hardpoint_quantum_fuel_tank                       S1   QuantumFuelTank.QuantumFuel                       QTNK_MISC_Prospector                                             Quantum fuel tanks                      
 hardpoint_mining_arm                              S0                                                                                                                      DISABLED                                
  hardpoint_mining_laser                           S0                                                                                                                      DISABLED                                
-  hardpoint_mining_laser                          S1                                                     Mining_Laser_GRIN_Arbor_S1                                       DISABLED                                
 hardpoint_shield_generator                        S1   Shield.UNDEFINED                                  SHLD_BASL_S01_Bulwark_SCItem                                     Shield generators                       
 hardpoint_controller_shield                       S0                                                     Controller_Shield_MISC_Prospector                                UNKNOWN                                 
 hardpoint_armour                                  S1   Armor.Medium                                      ARMR_MISC_Prospector                                             Armor                                   
@@ -65,12 +75,19 @@ hardpoint_mining_pod_2                            S1   Container.Cargo          
 hardpoint_mining_pod_3                            S1   Container.Cargo                                   Cargo_Mining_Pod                                                 Cargo containers                        
 hardpoint_mining_pod_4                            S1   Container.Cargo                                   Cargo_Mining_Pod                                                 Cargo containers                        
 hardpoint_controller_missile                      S0                                                                                                                      DISABLED                                
-hardpoint_weapon_regen_pool                       S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
-hardpoint_weapon_regen_pool_turrets               S1   WeaponGun.Gun                                     WeaponRegenPool_Turret_Prospector                                Weapon hardpoints                       
 hardpoint_controller_capacitor_assignment         S0                                                     Controller_CapacitorAssignment                                   UNKNOWN                                 
 hardpoint_controller_fuel                         S0                                                     Controller_Fuel                                                  UNKNOWN                                 
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_MISC_Prospector                           UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
 hardpoint_air_traffic_controller                  S0                                                     MISC_Prospector_ShipATCDataManager                               UNKNOWN                                 
 hardpoint_cockpit_flair_hang                      S0                                                                                                                      DISABLED                                
+hardpoint_shield_generator_B                      S1   Shield.UNDEFINED                                  SHLD_BASL_S01_Bulwark_SCItem                                     Shield generators                       
+hardpoint_shield_generator_C                      S1   Shield.UNDEFINED                                  SHLD_BASL_S01_Bulwark_SCItem                                     Shield generators                       
+hardpoint_relay_cockpit                           S1   Relay.UNDEFINED                                   RELAY_2slot                                                      UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+hardpoint_lifesupport                             S1   LifeSupportGenerator.UNDEFINED                    LFSP_TYDT_S01_ComfortAir                                         UNKNOWN                                 
+ $slot_01                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_02                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_03                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
 

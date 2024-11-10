@@ -77,58 +77,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Ursa",
-      "InstalledItem": {
-        "UUID": "97502cac-ff50-4411-8aa7-13653fc9841f",
-        "ClassName": "WeaponRegenPool_Crew_Ursa",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Ursa",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Ursa",
-      "InstalledItem": {
-        "UUID": "355514e2-449e-48ac-9f9b-430fb2c1a444",
-        "ClassName": "WeaponRegenPool_Turret_Ursa",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Ursa",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   ],
   "MannedTurrets": [
@@ -189,16 +137,11 @@
               },
               "Durability": {
                 "Health": 550.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 30.0,
                 "PowerDraw": 40.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -209,7 +152,7 @@
                   "Size": 1.0,
                   "Capacity": 1067.0,
                   "ImpactDamage": {
-                    "Physical": 8.4
+                    "Physical": 7.56
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -232,10 +175,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Physical": 8.4
+                      "Physical": 7.56
                     },
                     "DamagePerSecond": {
-                      "Physical": 224.00000000000003
+                      "Physical": 201.6
                     }
                   }
                 ]
@@ -248,7 +191,7 @@
                 "Size": 1.0,
                 "Capacity": 1067.0,
                 "ImpactDamage": {
-                  "Physical": 8.4
+                  "Physical": 7.56
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -418,16 +361,11 @@
               },
               "Durability": {
                 "Health": 550.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 30.0,
                 "PowerDraw": 40.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -438,7 +376,7 @@
                   "Size": 1.0,
                   "Capacity": 1067.0,
                   "ImpactDamage": {
-                    "Physical": 8.4
+                    "Physical": 7.56
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -461,10 +399,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Physical": 8.4
+                      "Physical": 7.56
                     },
                     "DamagePerSecond": {
-                      "Physical": 224.00000000000003
+                      "Physical": 201.6
                     }
                   }
                 ]
@@ -477,7 +415,7 @@
                 "Size": 1.0,
                 "Capacity": 1067.0,
                 "ImpactDamage": {
-                  "Physical": 8.4
+                  "Physical": 7.56
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -656,8 +594,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -688,8 +626,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -737,8 +675,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -786,8 +724,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,

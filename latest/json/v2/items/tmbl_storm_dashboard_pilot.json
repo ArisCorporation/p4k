@@ -27,21 +27,36 @@
   },
   "Ports": [
     {
-      "PortName": "hardpoint_cockpit_radar",
+      "PortName": "Radar_Helper",
       "Size": 1,
-      "Loadout": "RADR_Display",
-      "InstalledItem": {
-        "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-        "ClassName": "RADR_Display",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Display.UNDEFINED",
-        "Name": "RADR_Display",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06
-      },
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Main_Left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Secondary_Left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Main_Right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Secondary_Right",
+      "Size": 1,
       "Types": [
         "Display"
       ]

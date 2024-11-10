@@ -27,8 +27,25 @@
   },
   "Ports": [
     {
-      "PortName": "HUD_Display",
-      "Size": 1
+      "PortName": "Afterburners",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Annunciator_Left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Annunciator_Right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
     },
     {
       "PortName": "MFD_Left",
@@ -52,22 +69,11 @@
       ]
     },
     {
-      "PortName": "Annunciator_Left",
+      "PortName": "Velocity",
       "Size": 1,
       "Types": [
         "Display"
       ]
-    },
-    {
-      "PortName": "Annunciator_Right",
-      "Size": 1,
-      "Types": [
-        "Display"
-      ]
-    },
-    {
-      "PortName": "Afterburners",
-      "Size": 1
     }
   ]
 }

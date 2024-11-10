@@ -47,7 +47,7 @@
       }
     },
     "SHealthComponentParams": {
-      "Health": 2000.0,
+      "Health": 12000.0,
       "DetachFromItemPortOnDeath": false,
       "DetachFromEntityOnDeath": false,
       "PropagateExplosionDamageToChildren": false,
@@ -179,8 +179,8 @@
           "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "$uneditable",
-          "MinSize": 3,
-          "MaxSize": 3,
+          "MinSize": 4,
+          "MaxSize": 4,
           "InteractionPointSize": -1.0,
           "DefaultWeaponGroup": "UNDEFINED",
           "Types": [
@@ -189,6 +189,14 @@
               "SubTypes": [
                 {
                   "value": "Gun"
+                }
+              ]
+            },
+            {
+              "Type": "Turret",
+              "SubTypes": [
+                {
+                  "value": "GunTurret"
                 }
               ]
             }

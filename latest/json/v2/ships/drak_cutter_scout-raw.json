@@ -54,9 +54,9 @@
         "vehicleName": "@vehicle_NameDRAK_Cutter_Scout",
         "vehicleDescription": "@vehicle_DescDRAK_Cutter_Scout",
         "vehicleCareer": "@item_ShipFocus_Starter",
-        "vehicleCareerRef": "00000000-0000-0000-0000-000000000000",
+        "vehicleCareerRef": "605f6ca1-9eae-4d78-9f7f-71288d44dada",
         "vehicleRole": "@item_ShipFocus_Scout",
-        "vehicleRoleRef": "00000000-0000-0000-0000-000000000000",
+        "vehicleRoleRef": "bc5f32d6-ed12-42d9-a71e-56b2d0dd19ba",
         "inventoryContainerParams": "8c70116e-ec9a-42a3-9fc6-2893b370c25b",
         "maxBoundingBoxSize": {
           "x": 16.0,
@@ -160,14 +160,38 @@
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
-                        "itemPortName": "Radar_Helper",
-                        "entityClassName": "",
+                        "itemPortName": "radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       },
                       {
                         "itemPortName": "Display_HUD",
-                        "entityClassName": "Projector_HUD_Generic",
+                        "entityClassName": "H_Dashboard_Projector_HUD_DRAK_Cutter",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "screen_top_right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "screen_top_left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "screen_bottom_left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Annunciator",
+                        "entityClassName": "Vehicle_Screen_Physical",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       }
@@ -219,7 +243,7 @@
               },
               {
                 "itemPortName": "hardpoint_ramp",
-                "entityClassName": "DRAK_Cutter_Ramp_Variant",
+                "entityClassName": "Door_RN_RoomConnector_Breachable_OpenReverse_Cutter_Ramp_Varient",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -237,7 +261,7 @@
               },
               {
                 "itemPortName": "hardpoint_lifesupport",
-                "entityClassName": "",
+                "entityClassName": "LFSP_TYDT_S01_ComfortAir",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -450,18 +474,6 @@
                 }
               },
               {
-                "itemPortName": "hardpoint_weapon_regen_pool",
-                "entityClassName": "",
-                "entityClassReference": "c7ef7e43-63fc-423b-9c95-7af75d8f540a",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                "entityClassName": "WeaponRegenPool_Turret_S1",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
                 "itemPortName": "hardpoint_missile_left",
                 "entityClassName": "MRCK_S02_BEHR_Single_S02",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -521,7 +533,7 @@
               },
               {
                 "itemPortName": "hardpoint_scout_battery",
-                "entityClassName": "BATT_AMRS_S01_FortCell",
+                "entityClassName": "",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -600,7 +612,7 @@
               {
                 "itemPortName": "hardpoint_cabinet_extinguisher_scout",
                 "entityClassName": "",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "entityClassReference": "c2a8a6dc-45be-42e1-bacf-45c035a4aedc",
                 "loadout": {}
               },
               {
@@ -613,7 +625,36 @@
                 "itemPortName": "hardpoint_scout_console",
                 "entityClassName": "DRAK_Cutter_Scout_Radar_Console",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "MFD_right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "MFD_center",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "MFD_top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_scout_console_seat_access",
@@ -642,6 +683,12 @@
               {
                 "itemPortName": "hardpoint_geo_thruster_addon_right",
                 "entityClassName": "DRAK_Cutter_Thruster_Addon_Scout_Right",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay",
+                "entityClassName": "RELAY_2slot_slim",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               }
@@ -713,7 +760,7 @@
         }
       },
       "SDegradationParams": {
-        "MaxLifetimeHours": 25.0,
+        "MaxLifetimeHours": 0.0,
         "InitialAgeRatio": 0.0,
         "DegradeOnlyWhenAttached": false
       },
@@ -826,6 +873,23 @@
             "Types": [
               {
                 "Type": "AirTrafficController",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
                 "SubTypes": []
               }
             ]

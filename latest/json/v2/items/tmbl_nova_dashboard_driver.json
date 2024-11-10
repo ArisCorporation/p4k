@@ -13,23 +13,61 @@
   "Height": 0.15,
   "Length": 0.15,
   "Volume": 1E-06,
+  "PowerConnection": {
+    "PowerBase": 0.0,
+    "PowerDraw": 1.0
+  },
+  "HeatConnection": {
+    "ThermalEnergyBase": 10.0,
+    "ThermalEnergyDraw": 20.0,
+    "CoolingRate": 1.0
+  },
   "Ports": [
     {
       "PortName": "hardpoint_cockpit_radar",
       "Size": 1,
-      "Loadout": "RADR_Display",
-      "InstalledItem": {
-        "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-        "ClassName": "RADR_Display",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Display.UNDEFINED",
-        "Name": "RADR_Display",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06
-      },
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "rtt_mfd_right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "rtt_mfd_left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "rtt_support_screen_right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "rtt_support_screen_left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "rtt_annunciator_left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "rtt_annunciator_right",
+      "Size": 1,
       "Types": [
         "Display"
       ]

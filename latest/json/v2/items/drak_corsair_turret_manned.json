@@ -14,8 +14,8 @@
   "Length": 0.15,
   "Volume": 1E-06,
   "Durability": {
-    "Health": 3000.0,
-    "Lifetime": 25.0
+    "Health": 6000.0,
+    "Lifetime": 0.0
   },
   "PowerConnection": {
     "PowerBase": 0.0,
@@ -44,8 +44,29 @@
       ]
     },
     {
-      "PortName": "dashboard",
-      "Size": 0
+      "PortName": "Display_HUD",
+      "Size": 1
+    },
+    {
+      "PortName": "Screen_Radar",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
     }
   ]
 }

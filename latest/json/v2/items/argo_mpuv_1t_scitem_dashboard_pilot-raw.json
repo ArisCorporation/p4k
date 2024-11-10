@@ -1657,16 +1657,55 @@
       "RequiredItemTags": "",
       "Ports": [
         {
-          "Name": "HUD_Display",
+          "Name": "Afterburners",
           "DisplayName": "",
           "PortTags": "",
           "RequiredPortTags": "",
           "Flags": "",
-          "MinSize": 0,
+          "MinSize": 1,
           "MaxSize": 1,
           "InteractionPointSize": -1.0,
           "DefaultWeaponGroup": "UNDEFINED",
-          "Types": []
+          "Types": [
+            {
+              "Type": "Display",
+              "SubTypes": []
+            }
+          ]
+        },
+        {
+          "Name": "Annunciator_Left",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 1,
+          "MaxSize": 1,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": [
+            {
+              "Type": "Display",
+              "SubTypes": []
+            }
+          ]
+        },
+        {
+          "Name": "Annunciator_Right",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 1,
+          "MaxSize": 1,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": [
+            {
+              "Type": "Display",
+              "SubTypes": []
+            }
+          ]
         },
         {
           "Name": "MFD_Left",
@@ -1720,7 +1759,7 @@
           ]
         },
         {
-          "Name": "Annunciator_Left",
+          "Name": "Velocity",
           "DisplayName": "",
           "PortTags": "",
           "RequiredPortTags": "",
@@ -1735,35 +1774,6 @@
               "SubTypes": []
             }
           ]
-        },
-        {
-          "Name": "Annunciator_Right",
-          "DisplayName": "",
-          "PortTags": "",
-          "RequiredPortTags": "",
-          "Flags": "",
-          "MinSize": 1,
-          "MaxSize": 1,
-          "InteractionPointSize": -1.0,
-          "DefaultWeaponGroup": "UNDEFINED",
-          "Types": [
-            {
-              "Type": "Display",
-              "SubTypes": []
-            }
-          ]
-        },
-        {
-          "Name": "Afterburners",
-          "DisplayName": "",
-          "PortTags": "",
-          "RequiredPortTags": "",
-          "Flags": "",
-          "MinSize": 1,
-          "MaxSize": 1,
-          "InteractionPointSize": -1.0,
-          "DefaultWeaponGroup": "UNDEFINED",
-          "Types": []
         }
       ]
     }

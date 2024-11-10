@@ -88,24 +88,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   ],
   "MannedTurrets": [
@@ -133,7 +115,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -149,9 +131,9 @@
             "PortName": "turret_weapon",
             "Size": 1,
             "Types": [
-              "TractorBeam"
+              "Turret.GunTurret"
             ],
-            "Category": "UNKNOWN"
+            "Category": "Weapon hardpoints"
           }
         ]
       },
@@ -262,9 +244,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -305,9 +284,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -350,9 +326,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -393,9 +366,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -491,9 +461,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -534,9 +501,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -579,9 +543,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -622,9 +583,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -870,8 +828,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 20.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -946,8 +904,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 20.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -1022,8 +980,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 20.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -1122,8 +1080,7 @@
           "MaxThrustFuelRate": 106.66250000000001
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 720.0
+          "Health": 4500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1169,8 +1126,7 @@
           "MaxThrustFuelRate": 106.66250000000001
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 720.0
+          "Health": 4500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1218,8 +1174,7 @@
           "MaxThrustFuelRate": 37.1
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 720.0
+          "Health": 4500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1265,8 +1220,7 @@
           "MaxThrustFuelRate": 37.1
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 720.0
+          "Health": 4500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1315,8 +1269,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1362,8 +1315,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1409,8 +1361,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1456,8 +1407,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1503,8 +1453,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1550,8 +1499,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1597,8 +1545,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1644,8 +1591,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1691,8 +1637,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1738,8 +1683,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1785,8 +1729,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1832,8 +1775,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 7250.0,
-          "Lifetime": 720.0
+          "Health": 7250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

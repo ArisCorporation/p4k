@@ -1,32 +1,6 @@
 {
   "PilotHardpoints": [
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Storm",
-      "InstalledItem": {
-        "UUID": "57d85c8f-3d4e-4cf2-8646-1e0800d1761b",
-        "ClassName": "WeaponRegenPool_Crew_Storm",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Storm",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapon_rack_geo",
       "Size": 1,
       "Loadout": "Weapon_Rack_TMBL_Storm_1Slot",
@@ -133,7 +107,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 200.0,
@@ -707,8 +681,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -739,8 +713,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -788,8 +762,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -837,8 +811,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,

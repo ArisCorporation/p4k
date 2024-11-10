@@ -61,32 +61,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Cyclone",
-      "InstalledItem": {
-        "UUID": "ce73b3bc-00b6-44c1-b38d-79e5c62aa828",
-        "ClassName": "WeaponRegenPool_Crew_Cyclone",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Cyclone",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   ],
   "MannedTurrets": [],
@@ -124,8 +98,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -156,8 +130,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -205,8 +179,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -254,8 +228,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -311,43 +285,6 @@
         }
       },
       "Category": "UNKNOWN"
-    },
-    {
-      "PortName": "hardpoint_cargo_grid",
-      "Size": 1,
-      "Loadout": "TMBL_Cyclone_CargoGrid_Main",
-      "InstalledItem": {
-        "UUID": "a65b8b6a-127a-476e-96d4-c438f2e1da07",
-        "ClassName": "TMBL_Cyclone_CargoGrid_Main",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "CargoGrid.UNDEFINED",
-        "Name": "TMBL_Cyclone_CargoGrid_Main",
-        "Manufacturer": {
-          "Code": "TMBL",
-          "Name": "Tumbril Land Systems"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "InventoryContainer": {
-          "SCU": 0.0,
-          "x": 1.25,
-          "y": 1.25,
-          "z": 1.25,
-          "unit": 0.0
-        }
-      },
-      "Types": [
-        "CargoGrid"
-      ],
-      "Flags": [
-        "selfphys",
-        "uneditable"
-      ],
-      "Category": "UNKNOWN",
-      "Uneditable": true
     }
   ],
   "Avionics": []

@@ -29,55 +29,52 @@
     "Port": {
       "PortName": "hardpoint_dashboard_driver",
       "Size": 0,
-      "Loadout": "ANVL_Spartan_SCItem_Dashboard_Driver",
-      "InstalledItem": {
-        "UUID": "2fb62910-ac97-4caa-b6f7-281bf6f26161",
-        "ClassName": "ANVL_Spartan_SCItem_Dashboard_Driver",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "SeatDashboard.UNDEFINED",
-        "Name": "ANVL_Spartan_SCItem_Dashboard_Driver",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Ports": [
-          {
-            "PortName": "hardpoint_cockpit_radar",
-            "Size": 1,
-            "Loadout": "RADR_Display",
-            "InstalledItem": {
-              "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-              "ClassName": "RADR_Display",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "RADR_Display",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
-            "Types": [
-              "Display"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
+      "Loadout": "",
+      "Category": "DISABLED"
     },
     "Parts": [
       {
-        "Name": "hardpoint_cockpit_radar",
+        "Name": "Screen_MFD_Radar",
         "Port": {
-          "PortName": "hardpoint_cockpit_radar",
+          "PortName": "Screen_MFD_Radar",
           "Size": 0,
-          "Loadout": "RADR_Display",
+          "Loadout": "Radar_Display_Screen_GroundVehicle",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_left",
+        "Port": {
+          "PortName": "Screen_MFD_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_right",
+        "Port": {
+          "PortName": "Screen_MFD_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_support_left",
+        "Port": {
+          "PortName": "Screen_support_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_support_right",
+        "Port": {
+          "PortName": "Screen_support_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
           "Category": "DISABLED"
         }
       }
@@ -221,8 +218,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 470.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -340,8 +337,8 @@
           "Output": 720.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 520.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -411,8 +408,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 23.0
+          "Health": 280.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -482,8 +479,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 674.0,
+          "Regeneration": 49.5,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -514,8 +511,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 11.0
+          "Health": 350.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -561,8 +558,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 674.0,
+          "Regeneration": 49.5,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -593,8 +590,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 11.0
+          "Health": 350.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -646,8 +643,8 @@
           },
           "SignalMultipliers": {
             "CrossSection": 1.0,
-            "Infrared": 2.05,
-            "Electromagnetic": 5.6
+            "Infrared": 0.85,
+            "Electromagnetic": 0.55
           }
         }
       },
@@ -738,16 +735,11 @@
               },
               "Durability": {
                 "Health": 850.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 40.0,
                 "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -967,16 +959,11 @@
               },
               "Durability": {
                 "Health": 850.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 40.0,
                 "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -1196,28 +1183,20 @@
     "Port": {
       "PortName": "hardpoint_door_ramp",
       "Size": 1,
-      "Loadout": "ANVL_Spartan_Side_Left_Entrance",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Left",
       "InstalledItem": {
-        "UUID": "47eb8d5f-dafc-4ab5-95c1-310e31fcc8ae",
-        "ClassName": "ANVL_Spartan_Side_Left_Entrance",
+        "UUID": "79bdaef0-0b27-45c2-a499-519afa2896a2",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Left",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Left",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -1384,28 +1363,20 @@
     "Port": {
       "PortName": "hardpoint_door_right_ramp",
       "Size": 1,
-      "Loadout": "ANVL_Spartan_Side_Right_Entrance",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Right",
       "InstalledItem": {
-        "UUID": "27e188f4-13f6-4dfd-9c06-9c139cc6c39c",
-        "ClassName": "ANVL_Spartan_Side_Right_Entrance",
+        "UUID": "7dfef519-e144-43d8-ba76-a1ea69968cab",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Right",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Right",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -1563,28 +1534,20 @@
     "Port": {
       "PortName": "hardpoint_rear_door",
       "Size": 1,
-      "Loadout": "ANVL_Spartan_Rear_Entrance",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Rear",
       "InstalledItem": {
-        "UUID": "662ea36c-c907-4ed6-bb8a-919e64ffe9d3",
-        "ClassName": "ANVL_Spartan_Rear_Entrance",
+        "UUID": "57a42cbd-5d96-4dba-9ba3-3b56071b08cf",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Rear",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Spartan_Rear",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -1804,64 +1767,6 @@
     }
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Ballista",
-      "InstalledItem": {
-        "UUID": "14e51388-8fac-48e1-b1e3-03c53424fcc2",
-        "ClassName": "WeaponRegenPool_Crew_Ballista",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Ballista",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Ballista",
-      "InstalledItem": {
-        "UUID": "6dd90669-b945-4a72-8932-02741b9a3aad",
-        "ClassName": "WeaponRegenPool_Turret_Ballista",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Ballista",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
     "Name": "hardpoint_controller_capacitor_assignment",
     "Port": {
       "PortName": "hardpoint_controller_capacitor_assignment",
@@ -1882,6 +1787,59 @@
         "Length": 0.15,
         "Volume": 1E-06
       },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_relay",
+    "Port": {
+      "PortName": "hardpoint_relay",
+      "Size": 1,
+      "Loadout": "RELAY_3slot_slim",
+      "InstalledItem": {
+        "UUID": "a1c1bb89-b476-4293-8898-d324ca44d681",
+        "ClassName": "RELAY_3slot_slim",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_3slot_slim",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 900.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
       "Category": "UNKNOWN"
     }
   },

@@ -120,9 +120,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -163,9 +160,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -208,9 +202,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -251,9 +242,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -348,9 +336,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -391,9 +376,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -488,9 +470,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2400.451
@@ -531,9 +510,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -576,9 +552,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2400.451
@@ -619,9 +592,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -716,9 +686,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -759,9 +726,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -846,24 +810,6 @@
       "Category": "Weapon hardpoints"
     },
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapon_emp",
       "Size": 4,
       "Loadout": "AEGS_EMP_Sentinel_S4",
@@ -890,7 +836,7 @@
         },
         "Durability": {
           "Health": 150.0,
-          "Lifetime": 1440.0
+          "Lifetime": 0.0
         },
         "Emp": {
           "ChargeTime": 26.0,
@@ -1124,8 +1070,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 3510.0,
+          "Regeneration": 213.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1156,8 +1102,8 @@
           }
         },
         "Durability": {
-          "Health": 2320.0,
-          "Lifetime": 17.0
+          "Health": 680.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1200,8 +1146,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 3510.0,
+          "Regeneration": 213.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1232,8 +1178,8 @@
           }
         },
         "Durability": {
-          "Health": 2320.0,
-          "Lifetime": 17.0
+          "Health": 680.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1281,8 +1227,8 @@
           "Output": 4687.5
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 28.8
+          "Health": 890.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1301,46 +1247,8 @@
     },
     {
       "PortName": "hardpoint_powerplant_rear",
-      "Size": 2,
-      "Loadout": "POWR_TYDT_S02_GammaMax_SCItem",
-      "InstalledItem": {
-        "UUID": "7efda460-54a9-4447-b74d-eaa25ea882cb",
-        "ClassName": "POWR_TYDT_S02_GammaMax_SCItem",
-        "Size": 2,
-        "Grade": 2,
-        "Type": "PowerPlant.Power",
-        "Name": "GammaMax",
-        "Description": "Item Type: Power Plant\nManufacturer: Tyler Design & Tech\nSize: 2\nGrade: B\nClass: Stealth\n\nA complete overhaul of the materials in the heatsinks dramatically decreased the emission level of the GammaMax. Few medium power plants run as quiet at the same price point of this one from Tyler Design & Tech.",
-        "Manufacturer": {
-          "Code": "TYDT",
-          "Name": "Tyler Design & Tech"
-        },
-        "Width": 0.4466009,
-        "Height": 0.801895,
-        "Length": 3.316511,
-        "Volume": 0.252,
-        "DimensionOverrides": {
-          "Width": 2.25,
-          "Height": 0.75,
-          "Depth": 0.75
-        },
-        "PowerPlant": {
-          "Output": 4687.5
-        },
-        "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 28.8
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 4687.5
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 43852.27,
-          "ThermalEnergyDraw": 53125.0,
-          "CoolingRate": 83.77525
-        }
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "PowerPlant.Power"
       ],
@@ -1377,8 +1285,8 @@
           "Rate": 2600000.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 20.0
+          "Health": 500.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1424,8 +1332,8 @@
           "Rate": 2600000.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 20.0
+          "Health": 500.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1500,8 +1408,7 @@
           "MaxThrustFuelRate": 45.961650875
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1544,8 +1451,7 @@
           "MaxThrustFuelRate": 45.961650875
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1588,8 +1494,7 @@
           "MaxThrustFuelRate": 32.985568875
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1632,8 +1537,7 @@
           "MaxThrustFuelRate": 32.985568875
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1678,8 +1582,7 @@
           "MaxThrustFuelRate": 25.559851625
         },
         "Durability": {
-          "Health": 15250.0,
-          "Lifetime": 720.0
+          "Health": 15250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1722,8 +1625,7 @@
           "MaxThrustFuelRate": 25.559851625
         },
         "Durability": {
-          "Health": 15250.0,
-          "Lifetime": 720.0
+          "Health": 15250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1769,8 +1671,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1813,8 +1714,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1857,8 +1757,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1901,8 +1800,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1945,8 +1843,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1989,8 +1886,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2033,8 +1929,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2077,8 +1972,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2121,8 +2015,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2165,8 +2058,7 @@
           "MaxThrustFuelRate": 11.9443
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

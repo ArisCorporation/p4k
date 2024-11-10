@@ -1,32 +1,6 @@
 {
   "PilotHardpoints": [
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_X1",
-      "InstalledItem": {
-        "UUID": "5c94970a-26ca-4410-afd4-681d484f7ea9",
-        "ClassName": "WeaponRegenPool_Crew_X1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_X1",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 1000,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapon",
       "Size": 1,
       "Loadout": "KLWE_LaserRepeater_S1",
@@ -59,7 +33,7 @@
         },
         "Durability": {
           "Health": 525.0,
-          "Lifetime": 20.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 180.0,
@@ -79,7 +53,7 @@
             "Size": 1.0,
             "Capacity": 0.0,
             "ImpactDamage": {
-              "Energy": 19.44
+              "Energy": 17.496
             },
             "BulletImpulseFalloff": {},
             "BulletPierceability": {
@@ -102,10 +76,10 @@
               "AmmoPerShot": 1.0,
               "PelletsPerShot": 1.0,
               "DamagePerShot": {
-                "Energy": 19.44
+                "Energy": 17.496
               },
               "DamagePerSecond": {
-                "Energy": 243.00000000000003
+                "Energy": 218.7
               }
             }
           ],
@@ -124,7 +98,7 @@
           "Size": 1.0,
           "Capacity": 0.0,
           "ImpactDamage": {
-            "Energy": 19.44
+            "Energy": 17.496
           },
           "BulletImpulseFalloff": {},
           "BulletPierceability": {
@@ -379,8 +353,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -411,8 +385,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -460,8 +434,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -509,8 +483,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -557,8 +531,7 @@
           "MaxThrustFuelRate": 0.759375
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -601,8 +574,7 @@
           "MaxThrustFuelRate": 0.759375
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -647,8 +619,7 @@
           "MaxThrustFuelRate": 0.84375
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -691,8 +662,7 @@
           "MaxThrustFuelRate": 0.84375
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -738,8 +708,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -782,8 +751,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -826,8 +794,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -870,8 +837,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -914,8 +880,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -958,8 +923,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1002,8 +966,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1046,8 +1009,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1090,8 +1052,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1134,8 +1095,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1178,8 +1138,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1222,8 +1181,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1266,8 +1224,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1310,8 +1267,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1354,8 +1310,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1398,8 +1353,7 @@
           "MaxThrustFuelRate": 0.055625
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1442,8 +1396,7 @@
           "MaxThrustFuelRate": 0.043750000000000004
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1486,8 +1439,7 @@
           "MaxThrustFuelRate": 0.043750000000000004
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1530,8 +1482,7 @@
           "MaxThrustFuelRate": 0.043750000000000004
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1574,8 +1525,7 @@
           "MaxThrustFuelRate": 0.043750000000000004
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1618,8 +1568,7 @@
           "MaxThrustFuelRate": 0.043750000000000004
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1662,8 +1611,7 @@
           "MaxThrustFuelRate": 0.043750000000000004
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1000.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,

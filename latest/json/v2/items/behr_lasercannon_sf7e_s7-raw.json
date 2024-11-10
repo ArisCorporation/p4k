@@ -117,9 +117,9 @@
       }
     },
     "SDegradationParams": {
-      "MaxLifetimeHours": 20.0,
+      "MaxLifetimeHours": 0.0,
       "InitialAgeRatio": 0.0,
-      "DegradeOnlyWhenAttached": true
+      "DegradeOnlyWhenAttached": false
     },
     "EntityComponentPowerConnection": {
       "PowerBase": 600.0,
@@ -181,7 +181,7 @@
         "noPowerStats": {
           "fireRate": 0.0,
           "fireRateMultiplier": 0.0,
-          "damageMultiplier": 1.0,
+          "damageMultiplier": 0.0,
           "damageOverTimeMultiplier": 1.0,
           "projectileSpeedMultiplier": 1.0,
           "pellets": 0.0,
@@ -228,7 +228,7 @@
         },
         "underpowerStats": {
           "fireRate": 0.0,
-          "fireRateMultiplier": 0.1,
+          "fireRateMultiplier": 1.0,
           "damageMultiplier": 1.0,
           "damageOverTimeMultiplier": 1.0,
           "projectileSpeedMultiplier": 1.0,
@@ -276,7 +276,7 @@
         },
         "overpowerStats": {
           "fireRate": 0.0,
-          "fireRateMultiplier": 1.2,
+          "fireRateMultiplier": 1.0,
           "damageMultiplier": 1.0,
           "damageOverTimeMultiplier": 1.0,
           "projectileSpeedMultiplier": 1.0,
@@ -324,7 +324,7 @@
         },
         "overclockStats": {
           "fireRate": 0.0,
-          "fireRateMultiplier": 1.5,
+          "fireRateMultiplier": 1.0,
           "damageMultiplier": 1.0,
           "damageOverTimeMultiplier": 1.0,
           "projectileSpeedMultiplier": 1.0,

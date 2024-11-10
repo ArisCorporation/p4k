@@ -31,50 +31,50 @@
   "FlightCharacteristics": {
     "ScmSpeed": 0.0,
     "MaxSpeed": 0.0,
-    "ZeroToScm": 0.0,
-    "ZeroToMax": 0.0,
-    "ScmToZero": 0.0,
-    "MaxToZero": 0.0,
+    "ZeroToScm": "NaN",
+    "ZeroToMax": "NaN",
+    "ScmToZero": "NaN",
+    "MaxToZero": "NaN",
     "Acceleration": {
-      "Main": "Infinity",
-      "Retro": "Infinity",
+      "Main": "NaN",
+      "Retro": "NaN",
       "Vtol": "NaN",
-      "Maneuvering": "Infinity"
+      "Maneuvering": "NaN"
     },
     "AccelerationG": {
-      "Main": "Infinity",
-      "Retro": "Infinity",
+      "Main": "NaN",
+      "Retro": "NaN",
       "Vtol": "NaN",
-      "Maneuvering": "Infinity"
+      "Maneuvering": "NaN"
     },
     "Pitch": 0.0,
     "Yaw": 0.0,
     "Roll": 0.0
   },
   "Propulsion": {
-    "FuelCapacity": 1045000.0,
-    "FuelIntakeRate": 18.0,
+    "FuelCapacity": 0.0,
+    "FuelIntakeRate": 0.0,
     "FuelUsage": {
-      "Main": 118.83165875,
-      "Retro": 39.210018925,
+      "Main": 0.0,
+      "Retro": 0.0,
       "Vtol": 0.0,
-      "Maneuvering": 49.779125
+      "Maneuvering": 0.0
     },
     "ThrustCapacity": {
-      "Main": 12692300.0,
-      "Retro": 4187986.0,
+      "Main": 0.0,
+      "Retro": 0.0,
       "Vtol": 0.0,
-      "Maneuvering": 15929320.0
+      "Maneuvering": 0.0
     },
-    "IntakeToMainFuelRatio": 0.15147478533366848,
-    "IntakeToTankCapacityRatio": 1.722488038277512E-05,
-    "TimeForIntakesToFillTank": 58055.555555555555,
-    "ManeuveringTimeTillEmpty": 8312.041432702834
+    "IntakeToMainFuelRatio": "NaN",
+    "IntakeToTankCapacityRatio": "NaN",
+    "TimeForIntakesToFillTank": "NaN",
+    "ManeuveringTimeTillEmpty": "NaN"
   },
   "QuantumTravel": {
     "Speed": 0.0,
     "SpoolTime": 0.0,
-    "FuelCapacity": 950.0,
+    "FuelCapacity": 0.0,
     "Range": 0.0,
     "PortOlisarToArcCorpTime": 0.0,
     "PortOlisarToArcCorpFuel": 0.0,
@@ -100,20 +100,6 @@
       "Fixed": true,
       "WeaponSizes": [
         0
-      ]
-    },
-    {
-      "Size": 1,
-      "Fixed": true,
-      "WeaponSizes": [
-        1
-      ]
-    },
-    {
-      "Size": 1,
-      "Fixed": true,
-      "WeaponSizes": [
-        1
       ]
     }
   ],

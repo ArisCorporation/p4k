@@ -108,14 +108,14 @@
           {
             "PortName": "hardpoint_cockpit_radar",
             "Size": 1,
-            "Loadout": "VNCL_Scythe_RADR_Display",
+            "Loadout": "Radar_Display_XNAA_Nox",
             "InstalledItem": {
-              "UUID": "c6840520-fe9f-4213-ab18-9606749297f2",
-              "ClassName": "VNCL_Scythe_RADR_Display",
+              "UUID": "ae18fef4-e273-4668-8b40-d96131a669a9",
+              "ClassName": "Radar_Display_XNAA_Nox",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "VNCL_Scythe_RADR_Display",
+              "Name": "Radar_Display_XNAA_Nox",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
@@ -129,19 +129,81 @@
           {
             "PortName": "Display_HUD",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Right_RTT",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_Nox_R",
             "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
+              "UUID": "06734348-3908-4f81-9952-8d3964e73934",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_Nox_R",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
+              "Name": "Vehicle_Screen_MFD_Holographic_Nox_R",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
-              "Volume": 1E-06
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
             },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Left_RTT",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_Nox_L",
+            "InstalledItem": {
+              "UUID": "85cfb788-5ac7-44f4-b92b-5e08154c939c",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_Nox_L",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_Nox_L",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Center_RTT",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_Nox_C",
+            "InstalledItem": {
+              "UUID": "92854604-b167-466b-9144-3b66a84e732b",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_Nox_C",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_Nox_C",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -154,7 +216,7 @@
         "Port": {
           "PortName": "hardpoint_cockpit_radar",
           "Size": 0,
-          "Loadout": "VNCL_Scythe_RADR_Display",
+          "Loadout": "Radar_Display_XNAA_Nox",
           "Category": "DISABLED"
         }
       },
@@ -163,7 +225,34 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Right_RTT",
+        "Port": {
+          "PortName": "Screen_Right_RTT",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_Nox_R",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Left_RTT",
+        "Port": {
+          "PortName": "Screen_Left_RTT",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_Nox_L",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Center_RTT",
+        "Port": {
+          "PortName": "Screen_Center_RTT",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_Nox_C",
           "Category": "DISABLED"
         }
       }
@@ -274,8 +363,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -345,8 +434,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -472,6 +561,15 @@
     }
   },
   {
+    "Name": "hardpoint_controller_door",
+    "Port": {
+      "PortName": "hardpoint_controller_door",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
     "Name": "hardpoint_radar",
     "Port": {
       "PortName": "hardpoint_radar",
@@ -493,8 +591,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -574,8 +672,7 @@
           "MaxThrustFuelRate": 1.7375
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 2750.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -621,8 +718,7 @@
           "MaxThrustFuelRate": 0.83875
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -668,8 +764,7 @@
           "MaxThrustFuelRate": 0.83875
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -715,8 +810,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -762,8 +856,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -809,8 +902,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -856,8 +948,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -903,8 +994,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -950,8 +1040,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -997,8 +1086,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1044,8 +1132,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1091,8 +1178,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1138,8 +1224,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1185,8 +1270,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1232,8 +1316,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1279,8 +1362,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1326,8 +1408,7 @@
           "MaxThrustFuelRate": 0.3025
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1373,8 +1454,7 @@
           "MaxThrustFuelRate": 0.041283225
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 2750.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1420,8 +1500,7 @@
           "MaxThrustFuelRate": 0.041283225
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 2750.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1467,8 +1546,7 @@
           "MaxThrustFuelRate": 0.041283225
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 2750.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1514,8 +1592,7 @@
           "MaxThrustFuelRate": 0.041283225
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 2750.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1561,8 +1638,7 @@
           "MaxThrustFuelRate": 0.041283225
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 2750.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -1608,8 +1684,7 @@
           "MaxThrustFuelRate": 0.041283225
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 2750.0
         },
         "PowerConnection": {
           "PowerBase": 3.0,
@@ -2005,35 +2080,6 @@
     }
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Nox",
-      "InstalledItem": {
-        "UUID": "19faf79a-a4fe-4625-85de-240d865d6100",
-        "ClassName": "WeaponRegenPool_Crew_Nox",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Nox",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 1000,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
     "Name": "hardpoint_controller_capacitor_assignment",
     "Port": {
       "PortName": "hardpoint_controller_capacitor_assignment",
@@ -2125,21 +2171,48 @@
     }
   },
   {
-    "Name": "",
+    "Name": "hardpoint_relay_cockpit",
     "Port": {
-      "PortName": "",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
-    }
-  },
-  {
-    "Name": "",
-    "Port": {
-      "PortName": "",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

@@ -92,9 +92,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -136,9 +133,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -152,24 +146,6 @@
           }
         ]
       },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
       "Types": [
         "WeaponGun.Gun"
       ],
@@ -408,8 +384,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 20.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -457,8 +433,8 @@
           "Output": 2103.5
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 20.0
+          "Health": 590.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -480,27 +456,25 @@
     {
       "PortName": "hardpoint_cooler_door_left",
       "Size": 1,
-      "Loadout": "Door_Ship_Automatic_Advanced_ORIG_100i_Cooler_Door_Left",
+      "Loadout": "Door_RN_NoRoomConnector_Breachable_OpenClose_IP_ORIG_100i_Cooler_Left",
       "InstalledItem": {
-        "UUID": "d62c36da-96e9-49a2-ba0c-3872dd0a1d8c",
-        "ClassName": "Door_Ship_Automatic_Advanced_ORIG_100i_Cooler_Door_Left",
+        "UUID": "07af82e1-74ec-4273-bd81-f1c12041b954",
+        "ClassName": "Door_RN_NoRoomConnector_Breachable_OpenClose_IP_ORIG_100i_Cooler_Left",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
+        "Name": "Door_RN_NoRoomConnector_Breachable_OpenClose_IP_ORIG_100i_Cooler_Left",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+        "Durability": {
+          "Health": 1000.0
         },
         "Ports": [
           {
             "PortName": "control_panel_a",
             "Size": 10,
-            "Loadout": "DoorInteractionPanel_Template",
             "Types": [
               "ControlPanel.DoorPart"
             ],
@@ -509,7 +483,6 @@
           {
             "PortName": "control_panel_b",
             "Size": 10,
-            "Loadout": "DoorInteractionPanel_Template",
             "Types": [
               "ControlPanel.DoorPart"
             ],
@@ -518,7 +491,6 @@
           {
             "PortName": "charge_handle_a",
             "Size": 10,
-            "Loadout": "DoorManualOverrideUnit_Template",
             "Types": [
               "Misc.DoorPart"
             ],
@@ -527,7 +499,6 @@
           {
             "PortName": "charge_handle_b",
             "Size": 10,
-            "Loadout": "DoorManualOverrideUnit_Template",
             "Types": [
               "Misc.DoorPart"
             ],
@@ -536,7 +507,6 @@
           {
             "PortName": "close_button_a",
             "Size": 10,
-            "Loadout": "DoorCloseButton_Template",
             "Types": [
               "Button.DoorPart"
             ],
@@ -545,7 +515,6 @@
           {
             "PortName": "close_button_b",
             "Size": 10,
-            "Loadout": "DoorCloseButton_Template",
             "Types": [
               "Button.DoorPart"
             ],
@@ -554,7 +523,6 @@
           {
             "PortName": "proximity_sensor",
             "Size": 2,
-            "Loadout": "DoorProximitySensorItem_Template",
             "Types": [
               "Sensor.DoorPart"
             ],
@@ -563,7 +531,6 @@
           {
             "PortName": "light_group_a",
             "Size": 10,
-            "Loadout": "DoorDefaultLightGroup_Template",
             "Types": [
               "Lightgroup.DoorPart"
             ],
@@ -572,7 +539,6 @@
           {
             "PortName": "light_group_b",
             "Size": 10,
-            "Loadout": "DoorDefaultLightGroup_Template",
             "Types": [
               "Lightgroup.DoorPart"
             ],
@@ -612,27 +578,25 @@
     {
       "PortName": "hardpoint_cooler_door_right",
       "Size": 1,
-      "Loadout": "Door_Ship_Automatic_Advanced_ORIG_100i_Cooler_Door_Right",
+      "Loadout": "Door_RN_NoRoomConnector_Breachable_OpenClose_IP_ORIG_100i_Cooler_Right",
       "InstalledItem": {
-        "UUID": "f43ef7e3-e009-4c1b-8b30-d3b6eb0fb0f3",
-        "ClassName": "Door_Ship_Automatic_Advanced_ORIG_100i_Cooler_Door_Right",
+        "UUID": "6c9ec12b-fd8f-4ecb-9ea1-374317a643fb",
+        "ClassName": "Door_RN_NoRoomConnector_Breachable_OpenClose_IP_ORIG_100i_Cooler_Right",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
+        "Name": "Door_RN_NoRoomConnector_Breachable_OpenClose_IP_ORIG_100i_Cooler_Right",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+        "Durability": {
+          "Health": 1000.0
         },
         "Ports": [
           {
             "PortName": "control_panel_a",
             "Size": 10,
-            "Loadout": "DoorInteractionPanel_Template",
             "Types": [
               "ControlPanel.DoorPart"
             ],
@@ -641,7 +605,6 @@
           {
             "PortName": "control_panel_b",
             "Size": 10,
-            "Loadout": "DoorInteractionPanel_Template",
             "Types": [
               "ControlPanel.DoorPart"
             ],
@@ -650,7 +613,6 @@
           {
             "PortName": "charge_handle_a",
             "Size": 10,
-            "Loadout": "DoorManualOverrideUnit_Template",
             "Types": [
               "Misc.DoorPart"
             ],
@@ -659,7 +621,6 @@
           {
             "PortName": "charge_handle_b",
             "Size": 10,
-            "Loadout": "DoorManualOverrideUnit_Template",
             "Types": [
               "Misc.DoorPart"
             ],
@@ -668,7 +629,6 @@
           {
             "PortName": "close_button_a",
             "Size": 10,
-            "Loadout": "DoorCloseButton_Template",
             "Types": [
               "Button.DoorPart"
             ],
@@ -677,7 +637,6 @@
           {
             "PortName": "close_button_b",
             "Size": 10,
-            "Loadout": "DoorCloseButton_Template",
             "Types": [
               "Button.DoorPart"
             ],
@@ -686,7 +645,6 @@
           {
             "PortName": "proximity_sensor",
             "Size": 2,
-            "Loadout": "DoorProximitySensorItem_Template",
             "Types": [
               "Sensor.DoorPart"
             ],
@@ -695,7 +653,6 @@
           {
             "PortName": "light_group_a",
             "Size": 10,
-            "Loadout": "DoorDefaultLightGroup_Template",
             "Types": [
               "Lightgroup.DoorPart"
             ],
@@ -704,7 +661,6 @@
           {
             "PortName": "light_group_b",
             "Size": 10,
-            "Loadout": "DoorDefaultLightGroup_Template",
             "Types": [
               "Lightgroup.DoorPart"
             ],
@@ -770,8 +726,8 @@
           "Rate": 200000.0
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 20.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -817,8 +773,8 @@
           "Rate": 200000.0
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 20.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -893,8 +849,7 @@
           "MaxThrustFuelRate": 37.273599999999995
         },
         "Durability": {
-          "Health": 1200.0,
-          "Lifetime": 720.0
+          "Health": 1200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -937,8 +892,7 @@
           "MaxThrustFuelRate": 37.273599999999995
         },
         "Durability": {
-          "Health": 1200.0,
-          "Lifetime": 720.0
+          "Health": 1200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -983,8 +937,7 @@
           "MaxThrustFuelRate": 7.91713468
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1027,8 +980,7 @@
           "MaxThrustFuelRate": 7.91713468
         },
         "Durability": {
-          "Health": 2150.0,
-          "Lifetime": 720.0
+          "Health": 2150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1074,8 +1026,7 @@
           "MaxThrustFuelRate": 2.328125
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1118,8 +1069,7 @@
           "MaxThrustFuelRate": 2.328125
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1162,8 +1112,7 @@
           "MaxThrustFuelRate": 2.3263028125000003
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1206,8 +1155,7 @@
           "MaxThrustFuelRate": 2.3263028125000003
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1250,8 +1198,7 @@
           "MaxThrustFuelRate": 1.6625
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1294,8 +1241,7 @@
           "MaxThrustFuelRate": 1.6625
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1338,8 +1284,7 @@
           "MaxThrustFuelRate": 2.328125
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1382,8 +1327,7 @@
           "MaxThrustFuelRate": 2.328125
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1426,8 +1370,7 @@
           "MaxThrustFuelRate": 4.875
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1470,8 +1413,7 @@
           "MaxThrustFuelRate": 4.875
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1514,8 +1456,7 @@
           "MaxThrustFuelRate": 1.6625
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1558,8 +1499,7 @@
           "MaxThrustFuelRate": 1.6625
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 720.0
+          "Health": 1500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

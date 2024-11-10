@@ -1,41 +1,5 @@
 {
-  "PilotHardpoints": [
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Scythe",
-      "InstalledItem": {
-        "UUID": "6e7f70ac-c7c2-4326-a0ff-390f0102ee18",
-        "ClassName": "WeaponRegenPool_Turret_Scythe",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Scythe",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  ],
+  "PilotHardpoints": [],
   "MannedTurrets": [],
   "RemoteTurrets": [],
   "MiningTurrets": [],
@@ -60,7 +24,8 @@
           "Name": "Vanduul"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "VNCL_Scythe_Base"
         ],
         "Width": 0.6699014,
         "Height": 1.202842,
@@ -118,9 +83,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2332.8
@@ -161,9 +123,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -206,9 +165,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2332.8
@@ -249,9 +205,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -288,7 +241,8 @@
           "Name": "Vanduul"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "VNCL_Scythe_Base"
         ],
         "Width": 0.6699014,
         "Height": 1.202842,
@@ -346,9 +300,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2332.8
@@ -389,9 +340,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -434,9 +382,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2332.8
@@ -477,9 +422,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -740,8 +682,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1730.0,
+          "Regeneration": 115.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -772,8 +714,8 @@
           }
         },
         "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
+          "Health": 630.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -816,8 +758,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1730.0,
+          "Regeneration": 115.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -848,8 +790,8 @@
           }
         },
         "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
+          "Health": 630.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -897,8 +839,8 @@
           "Output": 3365.6
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 23.0
+          "Health": 940.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -946,8 +888,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -993,8 +935,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -1070,8 +1012,7 @@
           "MaxThrustFuelRate": 48.099999999999994
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1114,8 +1055,7 @@
           "MaxThrustFuelRate": 48.099999999999994
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1160,8 +1100,7 @@
           "MaxThrustFuelRate": 19.42475
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1204,8 +1143,7 @@
           "MaxThrustFuelRate": 16.8762875
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1251,8 +1189,7 @@
           "MaxThrustFuelRate": 3.75
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1295,8 +1232,7 @@
           "MaxThrustFuelRate": 3.75
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1339,8 +1275,7 @@
           "MaxThrustFuelRate": 18.1321875
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1383,8 +1318,7 @@
           "MaxThrustFuelRate": 18.1321875
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1427,8 +1361,7 @@
           "MaxThrustFuelRate": 18.1321875
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1471,8 +1404,7 @@
           "MaxThrustFuelRate": 18.1321875
         },
         "Durability": {
-          "Health": 11200.0,
-          "Lifetime": 720.0
+          "Health": 11200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1515,8 +1447,7 @@
           "MaxThrustFuelRate": 16.6720625
         },
         "Durability": {
-          "Health": 12300.0,
-          "Lifetime": 720.0
+          "Health": 12300.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1559,8 +1490,7 @@
           "MaxThrustFuelRate": 16.6720625
         },
         "Durability": {
-          "Health": 12300.0,
-          "Lifetime": 720.0
+          "Health": 12300.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1603,8 +1533,7 @@
           "MaxThrustFuelRate": 34.0
         },
         "Durability": {
-          "Health": 12300.0,
-          "Lifetime": 720.0
+          "Health": 12300.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1647,8 +1576,7 @@
           "MaxThrustFuelRate": 33.9835
         },
         "Durability": {
-          "Health": 12300.0,
-          "Lifetime": 720.0
+          "Health": 12300.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1691,8 +1619,7 @@
           "MaxThrustFuelRate": 34.0
         },
         "Durability": {
-          "Health": 12300.0,
-          "Lifetime": 720.0
+          "Health": 12300.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1735,8 +1662,7 @@
           "MaxThrustFuelRate": 33.9835
         },
         "Durability": {
-          "Health": 12300.0,
-          "Lifetime": 720.0
+          "Health": 12300.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1774,7 +1700,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 522500.0
+          "Capacity": 110000.0
         }
       },
       "Types": [
@@ -1801,7 +1727,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 522500.0
+          "Capacity": 110000.0
         }
       },
       "Types": [

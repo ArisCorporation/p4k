@@ -2,11 +2,13 @@ AEGS_Eclipse_BIS2950
 hardpoint_paint                                   S0                                                                                                                      DISABLED                                
 hardpoint_seat_pilot                              S0                                                     AEGS_Eclipse_SCItem_Seat_Pilot                                   UNKNOWN                                 
 hardpoint_seat_access                             S0                                                     AEGS_Eclipse_SCItem_SeatAccess                                   UNKNOWN                                 
-hardpoint_dashboard                               S0                                                     AEGS_Eclipse_SCItem_Dashboard_Pilot                              UNKNOWN                                 
- Radar_Helper                                     S1   Display                                           AEGS_Eclipse_RADR_Display                                        UNKNOWN                                 
- Display_HUD                                      S1   Display                                           Projector_HUD_Generic                                            UNKNOWN                                 
- Radar_Helper                                     S0                                                     AEGS_Eclipse_RADR_Display                                        DISABLED                                
- Display_HUD                                      S0                                                     Projector_HUD_Generic                                            DISABLED                                
+hardpoint_dashboard                               S0                                                                                                                      DISABLED                                
+ Radar_Helper                                     S0                                                     Radar_Display_Eclipse                                            DISABLED                                
+ Display_HUD                                      S0                                                     H_Dashboard_Projector_HUD_AEGS_Eclipse                           DISABLED                                
+ RTT_SS_Left                                      S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ RTT_SS_Right                                     S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ RTT_SS_Mid                                       S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ RTT_Annunciator                                  S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
 hardpoint_controller_comms                        S0                                                     Controller_Comms                                                 UNKNOWN                                 
 hardpoint_selfdestruct                            S1   SelfDestruct.UNDEFINED                            VHCL_SelfDestruct_10s                                            Self destruct                           
 hardpoint_controller_energy                       S0                                                     Controller_Energy                                                UNKNOWN                                 
@@ -18,8 +20,6 @@ hardpoint_controller_missile                      S0                            
 hardpoint_controller_light                        S0                                                     Controller_Light                                                 UNKNOWN                                 
 hardpoint_controller_door                         S0                                                     Controller_Door                                                  UNKNOWN                                 
 hardpoint_radar                                   S1                                                     RADR_GRNP_S01_Ecouter                                            UNKNOWN                                 
-hardpoint_scanner                                 S0                                                     test_scanner                                                     DISABLED                                
-hardpoint_ping                                    S0                                                     test_ping                                                        DISABLED                                
 hardpoint_powerplant                              S1   PowerPlant.Power                                  POWR_TYDT_S01_DeltaMax_SCItem                                    Power plants                            
 hardpoint_fuel_tank_left                          S1   FuelTank.Fuel                                     HTNK_AEGS_Eclipse                                                Fuel tanks                              
 hardpoint_fuel_tank_right                         S1   FuelTank.Fuel                                     HTNK_AEGS_Eclipse                                                Fuel tanks                              
@@ -28,7 +28,8 @@ hardpoint_fuel_intake_right                       S1   FuelIntake.Fuel          
 hardpoint_cooler                                  S1   Cooler.UNDEFINED                                  COOL_TYDT_S01_VaporBlock_SCItem                                  Coolers                                 
 hardpoint_cooler_2                                S1   Cooler.UNDEFINED                                  COOL_TYDT_S01_VaporBlock_SCItem                                  Coolers                                 
 hardpoint_quantum_drive                           S1   QuantumDrive.UNDEFINED                            QDRV_RACO_S01_Drift_SCItem                                       UNKNOWN                                 
- hardpoint_Jump_Drive                             S1   JumpDrive.JumpDrive                                                                                                UNKNOWN                                 
+ hardpoint_Jump_Drive                             S1   JumpDrive.JumpDrive                               JDRV_TARS_S01_C_Explorer                                         UNKNOWN                                 
+ hardpoint_jump_drive                             S1                                                     JDRV_TARS_S01_C_Explorer                                         DISABLED                                
 hardpoint_quantum_fuel_tank_left                  S1   QuantumFuelTank.QuantumFuel                       QTNK_AEGS_Eclipse                                                Quantum fuel tanks                      
 hardpoint_quantum_fuel_tank_right                 S1   QuantumFuelTank.QuantumFuel                       QTNK_AEGS_Eclipse                                                Quantum fuel tanks                      
 hardpoint_armour                                  S1   Armor.Light                                       ARMR_AEGS_Eclipse                                                Armor                                   
@@ -60,13 +61,18 @@ hardpoint_torpedorack                             S9   MissileLauncher.MissileRa
  missile_03_attach                                S9                                                     MISL_S09_CS_TALN_Argos                                           DISABLED                                
 hardpoint_countermeasure_launcher_left            S1   WeaponDefensive.CountermeasureLauncher            AEGS_Eclipse_CML_Flare                                           Countermeasures                         
 hardpoint_countermeasure_launcher_right           S1   WeaponDefensive.CountermeasureLauncher            AEGS_Eclipse_CML_Chaff                                           Countermeasures                         
-hardpoint_weapon_regen_pool                       S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
 hardpoint_controller_capacitor_assignment         S0                                                     Controller_CapacitorAssignment                                   UNKNOWN                                 
-hardpoint_weapon_regen_turrets                    S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
 hardpoint_controller_fuel                         S0                                                     Controller_Fuel                                                  UNKNOWN                                 
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_AEGS_Eclipse                              UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
 hardpoint_air_traffic_controller                  S0                                                     AEGS_Eclipse_ShipATCDataManager                                  UNKNOWN                                 
 hardpoint_cockpit_flair                           S0                                                                                                                      DISABLED                                
 hardpoint_cockpit_flair_hang                      S0                                                                                                                      DISABLED                                
+hardpoint_relay                                   S1   Relay.UNDEFINED                                   RELAY_2slot_slim                                                 UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+hardpoint_lifesupport                             S1   LifeSupportGenerator.UNDEFINED                    LFSP_TYDT_S01_ComfortAir                                         UNKNOWN                                 
+ $slot_01                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_02                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_03                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
 

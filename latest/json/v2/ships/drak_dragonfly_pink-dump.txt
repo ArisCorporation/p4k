@@ -1,14 +1,29 @@
 DRAK_Dragonfly_Pink
 hardpoint_paint                                   S0                                                                                                                      DISABLED                                
-hardpoint_seat_pilot                              S0                                                     DRAK_Dragonfly_SCItem_Seat_Pilot_Pink                            UNKNOWN                                 
+hardpoint_Seat_Pilot                              S0                                                     DRAK_Dragonfly_SCItem_Seat_Pilot_Pink                            UNKNOWN                                 
 hardpoint_seat_access                             S0                                                     DRAK_Dragonfly_SCItem_SeatAccess                                 UNKNOWN                                 
+hardpoint_seat_access_pilot                       S0                                                     DRAK_Dragonfly_SCItem_SeatAccess_Pilot                           UNKNOWN                                 
 hardpoint_dashboard_pilot                         S0                                                     DRAK_Dragonfly_SCItem_Dashboard_Pilot_Pink                       UNKNOWN                                 
- Display_HUD                                      S1                                                     Projector_HUD_Generic                                            UNKNOWN                                 
- Display_HUD                                      S0                                                     Projector_HUD_Generic                                            DISABLED                                
+ Display_HUD                                      S1                                                                                                                      UNKNOWN                                 
+ Screen_Radar                                     S1   Display                                                                                                            UNKNOWN                                 
+ Screen_Left                                      S1   Display                                                                                                            UNKNOWN                                 
+ Screen_Center                                    S1   Display                                                                                                            UNKNOWN                                 
+ Screen_Right                                     S1   Display                                                                                                            UNKNOWN                                 
+ Screen_Right_Far                                 S1   Display                                                                                                            UNKNOWN                                 
+ Screen_Left_Far                                  S1   Display                                                                                                            UNKNOWN                                 
+                                                  S0   UNKNOWN                                                                                                            UNKNOWN                                 
+ Display_HUD                                      S0                                                                                                                      DISABLED                                
+ Screen_Radar                                     S0                                                                                                                      DISABLED                                
+ Screen_Left                                      S0                                                                                                                      DISABLED                                
+ Screen_Center                                    S0                                                                                                                      DISABLED                                
+ Screen_Right                                     S0                                                                                                                      DISABLED                                
+ Screen_Right_Far                                 S0                                                                                                                      DISABLED                                
+ Screen_Left_Far                                  S0                                                                                                                      DISABLED                                
 hardpoint_seat_copilot                            S0                                                     DRAK_Dragonfly_SCItem_Seat_CoPilot                               UNKNOWN                                 
 hardpoint_dashboard_copilot                       S0                                                     DRAK_Dragonfly_SCItem_Dashboard_CoPilot                          UNKNOWN                                 
 hardpoint_self_destruct_pilot                     S1   SelfDestruct.UNDEFINED                            VHCL_SelfDestruct_10s                                            Self destruct                           
 hardpoint_controller_comms                        S0                                                     Controller_Comms                                                 UNKNOWN                                 
+hardpoint_controller_door                         S0                                                                                                                      DISABLED                                
 hardpoint_controller_light                        S0                                                     Controller_Light                                                 UNKNOWN                                 
 hardpoint_radar                                   S0                                                     RADR_WLOP_S00_Denning                                            UNKNOWN                                 
 hardpoint_controller_flight                       S0                                                     Controller_Flight_DRAK_Dragonfly                                 UNKNOWN                                 
@@ -47,11 +62,12 @@ hardpoint_controller_weapon                       S0                            
 hardpoint_countermeasures_left                    S1   WeaponDefensive.CountermeasureLauncher            DRAK_Dragonfly_CML_Flare                                         Countermeasures                         
 hardpoint_countermeasures_right                   S1   WeaponDefensive.CountermeasureLauncher            DRAK_Dragonfly_CML_Chaff                                         Countermeasures                         
 hardpoint_controller_missile                      S0                                                                                                                      DISABLED                                
-hardpoint_weapon_regen_pool                       S1   WeaponGun.Gun                                     WeaponRegenPool_Crew_Dragonfly                                   Weapon hardpoints                       
-hardpoint_weapon_regen_pool_turrets               S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
 hardpoint_controller_capacitor_assignment         S0                                                     Controller_CapacitorAssignment                                   UNKNOWN                                 
 hardpoint_controller_fuel                         S0                                                     Controller_Fuel                                                  UNKNOWN                                 
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_DRAK_Dragonfly_Pink                       UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
 hardpoint_air_traffic_controller                  S0                                                     DRAK_Dragonfly_Pink_ShipATCDataManager                           UNKNOWN                                 
+hardpoint_relay_cockpit                           S1   Relay.UNDEFINED                                   RELAY_2slot                                                      UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
 

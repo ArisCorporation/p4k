@@ -45,9 +45,9 @@
         "vehicleName": "@vehicle_NameTMBL_Cyclone_RC",
         "vehicleDescription": "@vehicle_DescTMBL_Cyclone_RC",
         "vehicleCareer": "@vehicle_focus_ground",
-        "vehicleCareerRef": "00000000-0000-0000-0000-000000000000",
+        "vehicleCareerRef": "7e0ae04c-b425-4705-ab25-8ff17dd8660f",
         "vehicleRole": "@vehicle_class_racing",
-        "vehicleRoleRef": "00000000-0000-0000-0000-000000000000",
+        "vehicleRoleRef": "bff8de18-2081-4090-b783-adf175aa8059",
         "inventoryContainerParams": "3bf2d8d4-4002-4a3b-beba-863f20a730fb",
         "maxBoundingBoxSize": {
           "x": 8.75,
@@ -75,7 +75,36 @@
                 "itemPortName": "hardpoint_dashboard_driver",
                 "entityClassName": "TMBL_Cyclone_SCItem_Dashboard_Driver",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "pilot_support_screen_right",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "pilot_support_screen_left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "center_console_mfd",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "pilot_bespoke_dashboard",
+                        "entityClassName": "Vehicle_Screen_Physical",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_seat_passenger",
@@ -87,7 +116,30 @@
                 "itemPortName": "hardpoint_dashboard_passenger",
                 "entityClassName": "TMBL_Cyclone_SCItem_Dashboard_Passenger",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "screen_right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "screen_left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "screen_center",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_seat_access",
@@ -210,12 +262,6 @@
                 "loadout": {}
               },
               {
-                "itemPortName": "hardpoint_weapon_regen_pool",
-                "entityClassName": "WeaponRegenPool_Crew_Cyclone",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
                 "itemPortName": "hardpoint_controller_capacitor_assignment",
                 "entityClassName": "Controller_CapacitorAssignment",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -230,6 +276,12 @@
               {
                 "itemPortName": "hardpoint_cockpit_flair",
                 "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_cockpit",
+                "entityClassName": "RELAY_2slot",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               }
@@ -301,7 +353,7 @@
         }
       },
       "SDegradationParams": {
-        "MaxLifetimeHours": 25.0,
+        "MaxLifetimeHours": 0.0,
         "InitialAgeRatio": 0.0,
         "DegradeOnlyWhenAttached": false
       },
@@ -343,7 +395,25 @@
         "PortFlags": "",
         "PortTags": "TMBL_Cyclone",
         "RequiredItemTags": "",
-        "Ports": []
+        "Ports": [
+          {
+            "Name": "hardpoint_relay_cockpit",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          }
+        ]
       }
     },
     "ClassName": "TMBL_Cyclone_RC",

@@ -57,18 +57,19 @@
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
         "Ports": [
           {
-            "PortName": "hardpoint_cockpit_radar",
-            "Size": 1,
-            "Types": [
-              "Display"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
             "PortName": "itemport_scanningHUD",
-            "Size": 0,
+            "Size": 1,
             "Loadout": "Projector_HUD_Mining_ROCDS",
             "InstalledItem": {
               "UUID": "5d2c9019-540f-49d1-9a6f-c71350aab348",
@@ -83,6 +84,81 @@
               "Volume": 1E-06
             },
             "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_UI_Radar",
+            "Size": 1,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_UI_Top_Right",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_UI_Top_Left",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_UI_Bot_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_UI_Bot_Left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -95,6 +171,51 @@
           "PortName": "itemport_scanningHUD",
           "Size": 0,
           "Loadout": "Projector_HUD_Mining_ROCDS",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_UI_Radar",
+        "Port": {
+          "PortName": "Screen_UI_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_UI_Top_Right",
+        "Port": {
+          "PortName": "Screen_UI_Top_Right",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_UI_Top_Left",
+        "Port": {
+          "PortName": "Screen_UI_Top_Left",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_UI_Bot_Right",
+        "Port": {
+          "PortName": "Screen_UI_Bot_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_UI_Bot_Left",
+        "Port": {
+          "PortName": "Screen_UI_Bot_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
           "Category": "DISABLED"
         }
       }
@@ -238,8 +359,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 350.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -271,105 +392,6 @@
         ]
       },
       "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret",
-    "Port": {
-      "PortName": "hardpoint_radar_turret",
-      "Size": 0,
-      "Loadout": "RADR_CHCO_S00_SurveyorGo",
-      "InstalledItem": {
-        "UUID": "e5bccaed-85de-483b-b4b8-dfb62f085b43",
-        "ClassName": "RADR_CHCO_S00_SurveyorGo",
-        "Size": 0,
-        "Grade": 3,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor-Go",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 0\nGrade: C\nClass: Industrial\n\nThe SurveyorGo is a vehicle-sized version of Chimera Communications' popular line of radars.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_ping",
-    "Port": {
-      "PortName": "hardpoint_ping",
-      "Size": 0,
-      "Loadout": "test_ping_Prospector",
-      "Category": "DISABLED"
-    }
-  },
-  {
-    "Name": "hardpoint_ping_turret",
-    "Port": {
-      "PortName": "hardpoint_ping_turret",
-      "Size": 0,
-      "Loadout": "test_ping_Prospector",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    }
-  },
-  {
-    "Name": "hardpoint_scanner",
-    "Port": {
-      "PortName": "hardpoint_scanner",
-      "Size": 0,
-      "Loadout": "test_scanner",
-      "Category": "DISABLED"
-    }
-  },
-  {
-    "Name": "hardpoint_scanner_turret",
-    "Port": {
-      "PortName": "hardpoint_scanner_turret",
-      "Size": 0,
-      "Loadout": "test_scanner",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
     }
   },
   {
@@ -424,8 +446,8 @@
           "Output": 720.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -474,8 +496,8 @@
           "Output": 720.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -577,8 +599,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -654,8 +676,8 @@
           },
           "SignalMultipliers": {
             "CrossSection": 1.0,
-            "Infrared": 0.32,
-            "Electromagnetic": 0.32
+            "Infrared": 0.4,
+            "Electromagnetic": 0.4
           }
         }
       },
@@ -733,7 +755,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 2000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -777,7 +799,7 @@
               },
               "Durability": {
                 "Health": 8000.0,
-                "Lifetime": 100.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 1250.0,
@@ -820,7 +842,7 @@
           },
           {
             "PortName": "turret_screen",
-            "Size": 0,
+            "Size": 1,
             "Loadout": "Projector_HUD_Mining_ROCDS",
             "InstalledItem": {
               "UUID": "5d2c9019-540f-49d1-9a6f-c71350aab348",
@@ -936,6 +958,108 @@
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cockpit",
+    "Port": {
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_radar_turret",
+    "Port": {
+      "PortName": "hardpoint_radar_turret",
+      "Size": 0,
+      "Loadout": "RADR_S00_Fake",
+      "InstalledItem": {
+        "UUID": "1c7cba80-f570-4b4b-ba6d-35a2a121c78c",
+        "ClassName": "RADR_S00_Fake",
+        "Size": 0,
+        "Grade": 1,
+        "Type": "Radar.MidRangeRadar",
+        "Name": "RADR_S00_Fake",
+        "Description": "@LOC_PLACEHOLDER",
+        "Tags": [
+          "flightReady"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 1000.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Radar": {
+          "DetectionLifetime": 0.0,
+          "AltitudeCeiling": 0.0,
+          "CrossSectionOcclusion": false,
+          "Signatures": []
+        },
+        "Ports": [
+          {
+            "PortName": "BatteryPort",
+            "Size": 2,
+            "Types": [
+              "Battery"
+            ],
+            "Flags": [
+              "invisible"
+            ],
+            "Category": "Batteries"
+          }
+        ]
+      },
+      "Category": "UNKNOWN"
     }
   }
 ]

@@ -35,24 +35,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   ],
   "MannedTurrets": [],
@@ -137,9 +119,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2400.451
@@ -180,9 +159,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -225,9 +201,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2400.451
@@ -268,9 +241,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -484,8 +454,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1600.0,
+          "Regeneration": 107.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -516,8 +486,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 18.0
+          "Health": 550.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -560,8 +530,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1600.0,
+          "Regeneration": 107.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -592,8 +562,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 18.0
+          "Health": 550.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -641,8 +611,8 @@
           "Output": 2944.9
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 21.0
+          "Health": 710.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -690,8 +660,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -737,8 +707,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -813,8 +783,7 @@
           "MaxThrustFuelRate": 30.326439675
         },
         "Durability": {
-          "Health": 8750.0,
-          "Lifetime": 720.0
+          "Health": 8750.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -859,8 +828,7 @@
           "MaxThrustFuelRate": 4.8243253975
         },
         "Durability": {
-          "Health": 8000.0,
-          "Lifetime": 720.0
+          "Health": 8000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -880,14 +848,14 @@
     {
       "PortName": "Hardpoint_Retro_Thruster_Right",
       "Size": 1,
-      "Loadout": "RSI_Aurora_LN_Thruster_Retro",
+      "Loadout": "RSI_Aurora_Thruster_LN_Retro_Right",
       "InstalledItem": {
-        "UUID": "a611004c-1a49-4264-b74d-3ffeabbdea3a",
-        "ClassName": "RSI_Aurora_LN_Thruster_Retro",
+        "UUID": "4cef6f66-b1f9-416a-b280-42604d485d00",
+        "ClassName": "RSI_Aurora_Thruster_LN_Retro_Right",
         "Size": 1,
         "Grade": 1,
         "Type": "MainThruster.FixedThruster",
-        "Name": "RSI_Aurora_LN_Thruster_Retro",
+        "Name": "RSI_Aurora_Thruster_LN_Retro_Right",
         "Manufacturer": {
           "Code": "RSI",
           "Name": "Roberts Space Industries"
@@ -903,8 +871,7 @@
           "MaxThrustFuelRate": 4.8243253975
         },
         "Durability": {
-          "Health": 8000.0,
-          "Lifetime": 720.0
+          "Health": 8000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -950,8 +917,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -994,8 +960,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1038,8 +1003,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1082,8 +1046,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1126,8 +1089,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1170,8 +1132,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1214,8 +1175,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1258,8 +1218,7 @@
           "MaxThrustFuelRate": 0.7739246875
         },
         "Durability": {
-          "Health": 7150.0,
-          "Lifetime": 720.0
+          "Health": 7150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

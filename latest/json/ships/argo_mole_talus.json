@@ -162,15 +162,63 @@
                     "SItemPortLoadoutManualParams": {
                       "entries": [
                         {
-                          "itemPortName": "hardpoint_cockpit_radar",
+                          "itemPortName": "Display_HUD",
                           "entityClassName": "",
+                          "entityClassReference": "22b06d56-8534-4701-8285-445ccc646a54",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Radar",
+                          "entityClassName": "Radar_Display_Screen_Template",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
                           "loadout": {}
                         },
                         {
-                          "itemPortName": "Display_HUD",
-                          "entityClassName": "Projector_HUD_Pilot_MOLE",
+                          "itemPortName": "MFD_Right",
+                          "entityClassName": "Vehicle_Screen_MFD",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Middle",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Left",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_annunciator",
+                          "entityClassName": "Vehicle_Screen_Physical",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "status_right",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "HUD_Right",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "HUD_Left",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "status_left",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
                           "loadout": {}
                         }
                       ]
@@ -199,7 +247,72 @@
                   "itemPortName": "hardpoint_dashboard_copilot",
                   "entityClassName": "ARGO_MOLE_Dashboard_CoPilot",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "Display_HUD",
+                          "entityClassName": "",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Radar",
+                          "entityClassName": "Radar_Display_Screen_Template",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Right",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Middle",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Left",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_annunciator",
+                          "entityClassName": "Vehicle_Screen_Physical",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "status_right",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "HUD_Right",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "HUD_Left",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "status_left",
+                          "entityClassName": "",
+                          "entityClassReference": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_seat_access_copilot",
@@ -239,13 +352,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_shield_generator_left",
-                  "entityClassName": "SHLD_BEHR_S02_5MA_SCItem",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_shield_generator_right",
-                  "entityClassName": "SHLD_BEHR_S02_5MA_SCItem",
+                  "entityClassName": "SHLD_BEHR_S03_5CA_SCItem",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 },
@@ -259,7 +366,18 @@
                   "itemPortName": "hardpoint_quantum_drive",
                   "entityClassName": "QDRV_JUST_S02_Huracan_SCItem",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_jump_drive",
+                          "entityClassName": "JDRV_TARS_S02_C_Explorer",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_quantum_fuel_tank",
@@ -347,19 +465,8 @@
                         {
                           "itemPortName": "hardpoint_weapon_mining",
                           "entityClassName": "",
-                          "entityClassReference": "6b756217-01c9-44cd-89be-1d5d6c87673b",
-                          "loadout": {
-                            "SItemPortLoadoutManualParams": {
-                              "entries": [
-                                {
-                                  "itemPortName": "hardpoint_class_2",
-                                  "entityClassName": "",
-                                  "entityClassReference": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
-                                  "loadout": {}
-                                }
-                              ]
-                            }
-                          }
+                          "entityClassReference": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
+                          "loadout": {}
                         },
                         {
                           "itemPortName": "Mining_HUD",
@@ -368,8 +475,14 @@
                           "loadout": {}
                         },
                         {
-                          "itemPortName": "",
-                          "entityClassName": "",
+                          "itemPortName": "MFD_Right",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Left",
+                          "entityClassName": "Vehicle_Screen_MFD",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
                           "loadout": {}
                         }
@@ -393,23 +506,24 @@
                         {
                           "itemPortName": "hardpoint_weapon_mining",
                           "entityClassName": "",
-                          "entityClassReference": "6b756217-01c9-44cd-89be-1d5d6c87673b",
-                          "loadout": {
-                            "SItemPortLoadoutManualParams": {
-                              "entries": [
-                                {
-                                  "itemPortName": "hardpoint_class_2",
-                                  "entityClassName": "",
-                                  "entityClassReference": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
-                                  "loadout": {}
-                                }
-                              ]
-                            }
-                          }
+                          "entityClassReference": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
+                          "loadout": {}
                         },
                         {
                           "itemPortName": "Mining_HUD",
                           "entityClassName": "Projector_HUD_Mining_MOLE_Side",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Right",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Left",
+                          "entityClassName": "Vehicle_Screen_MFD",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
                           "loadout": {}
                         }
@@ -433,23 +547,24 @@
                         {
                           "itemPortName": "hardpoint_weapon_mining",
                           "entityClassName": "",
-                          "entityClassReference": "6b756217-01c9-44cd-89be-1d5d6c87673b",
-                          "loadout": {
-                            "SItemPortLoadoutManualParams": {
-                              "entries": [
-                                {
-                                  "itemPortName": "hardpoint_class_2",
-                                  "entityClassName": "",
-                                  "entityClassReference": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
-                                  "loadout": {}
-                                }
-                              ]
-                            }
-                          }
+                          "entityClassReference": "4435898e-a6cc-4f51-ab2a-805d0cf1a44a",
+                          "loadout": {}
                         },
                         {
                           "itemPortName": "Mining_HUD",
                           "entityClassName": "Projector_HUD_Mining_MOLE_Side",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Right",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "MFD_Left",
+                          "entityClassName": "Vehicle_Screen_MFD",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
                           "loadout": {}
                         }
@@ -620,24 +735,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_radar_cab_front",
-                  "entityClassName": "RADR_CHCO_S02_Surveyor",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_radar_cab_left",
-                  "entityClassName": "RADR_CHCO_S02_Surveyor",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_radar_cab_right",
-                  "entityClassName": "RADR_CHCO_S02_Surveyor",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_mining_pod_1",
                   "entityClassName": "Cargo_Mining_Pod_Mole",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -692,18 +789,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "",
-                  "entityClassReference": "63686a08-2371-4472-bcfb-3c7458220ab3",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                  "entityClassName": "",
-                  "entityClassReference": "54ce0783-0713-4d87-a6ee-6ccb23a27afd",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_controller_capacitor_assignment",
                   "entityClassName": "Controller_CapacitorAssignment",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -748,6 +833,60 @@
                 {
                   "itemPortName": "hardpoint_controller_mining_pilot",
                   "entityClassName": "Controller_Mining",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_bridge",
+                  "entityClassName": "RELAY_1slot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_engines",
+                  "entityClassName": "RELAY_2slot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_habitation",
+                  "entityClassName": "RELAY_1slot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_mining_turret",
+                  "entityClassName": "RELAY_1slot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_relay_engineering",
+                  "entityClassName": "RELAY_3slot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_lifesupport",
+                  "entityClassName": "LFSP_TYDT_S01_ComfortAir",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_radar_cab_front",
+                  "entityClassName": "RADR_S02_Fake",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_radar_cab_left",
+                  "entityClassName": "RADR_S02_Fake",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_radar_cab_right",
+                  "entityClassName": "RADR_S02_Fake",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 }
@@ -819,7 +958,7 @@
           }
         },
         "SDegradationParams": {
-          "MaxLifetimeHours": 25.0,
+          "MaxLifetimeHours": 0.0,
           "InitialAgeRatio": 0.0,
           "DegradeOnlyWhenAttached": false
         },
@@ -918,6 +1057,125 @@
               "Types": [
                 {
                   "Type": "AirTrafficController",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_relay_bridge",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Relay",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_relay_engines",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Relay",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_relay_habitation",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Relay",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_relay_mining_turret",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Relay",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_relay_engineering",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Relay",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_controller_mining_pilot",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "MiningController",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_lifesupport",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "invisible",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "LifeSupportGenerator",
                   "SubTypes": []
                 }
               ]

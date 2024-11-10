@@ -46,6 +46,9 @@
           "value": "226ae798-1dc4-4d3e-8679-e84c30973b86"
         },
         {
+          "value": "48340033-521d-4fa0-9f15-c3a05fe0e5a8"
+        },
+        {
           "value": "00000000-0000-0000-0000-000000000000"
         },
         {
@@ -223,7 +226,18 @@
                   "itemPortName": "hardpoint_quantum_drive",
                   "entityClassName": "",
                   "entityClassReference": "419bff00-12eb-43f7-b284-f8850519b9c6",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_jump_drive",
+                          "entityClassName": "JDRV_TARS_S03_C_Explorer",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_quantum_fuel_l",
@@ -587,7 +601,30 @@
                   "itemPortName": "hardpoint_dashboard_copilot",
                   "entityClassName": "CRUS_Starlifter_SCItem_Dashboard_CoPilot",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "screen_centre",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_left",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_right",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_dashboard_pilot",
@@ -598,13 +635,43 @@
                       "entries": [
                         {
                           "itemPortName": "radar_helper",
-                          "entityClassName": "CRUS_Starlifter_RADR_Display",
-                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "entityClassName": "",
+                          "entityClassReference": "d6f81e46-f873-46bc-8d69-1b34cc85370f",
                           "loadout": {}
                         },
                         {
                           "itemPortName": "Display_HUD",
-                          "entityClassName": "Projector_HUD_Generic",
+                          "entityClassName": "H_Dashboard_Projector_HUD_Generic",
+                          "entityClassReference": "69883881-14c8-4b30-8a4a-29b31080534b",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_top_right",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_top_left",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_secondary_1",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_secondary_2",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "screen_annunciator",
+                          "entityClassName": "Vehicle_Screen_Physical",
                           "entityClassReference": "00000000-0000-0000-0000-000000000000",
                           "loadout": {}
                         }
@@ -640,7 +707,18 @@
                   "itemPortName": "hardpoint_bridge_remote_turret_seat",
                   "entityClassName": "CRUS_Starlifter_SCItem_Turret_Seat_Bridge",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "Screen_MFD_Main",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_bridge_remote_turret_seat_access",
@@ -703,7 +781,18 @@
                   "itemPortName": "hardpoint_forward_left_remote_turret_seat",
                   "entityClassName": "CRUS_Starlifter_SCItem_Turret_Seat_Left",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "Screen_MFD_Main",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_forward_left_remote_turret_seat_access",
@@ -749,7 +838,18 @@
                   "itemPortName": "hardpoint_forward_right_remote_turret_seat",
                   "entityClassName": "CRUS_Starlifter_SCItem_Turret_Seat_Right",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "Screen_MFD_Main",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_forward_right_remote_turret_seat_access",
@@ -795,7 +895,18 @@
                   "itemPortName": "hardpoint_rear_left_remote_turret_seat",
                   "entityClassName": "CRUS_Starlifter_SCItem_Turret_Seat_Left",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "Screen_MFD_Main",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_rear_left_remote_turret_seat_access",
@@ -858,7 +969,18 @@
                   "itemPortName": "hardpoint_rear_right_remote_turret_seat",
                   "entityClassName": "CRUS_Starlifter_SCItem_Turret_Seat_Right",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "Screen_MFD_Main",
+                          "entityClassName": "Vehicle_Screen_MFD",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
                 },
                 {
                   "itemPortName": "hardpoint_rear_right_remote_turret_seat_access",
@@ -966,18 +1088,6 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_weapon_regen_pool",
-                  "entityClassName": "",
-                  "entityClassReference": "1af0628c-823b-45e1-ad43-32142f16a085",
-                  "loadout": {}
-                },
-                {
-                  "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                  "entityClassName": "WeaponRegenPool_Turret_Starlifter",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_controller_capacitor_assignment",
                   "entityClassName": "Controller_CapacitorAssignment",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -1063,7 +1173,7 @@
                 },
                 {
                   "itemPortName": "hardpoint_lifesupport",
-                  "entityClassName": "LFSP_S02_Template",
+                  "entityClassName": "LFSP_TYDT_S02_ComfortAirPlus",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 },
@@ -1074,20 +1184,14 @@
                   "loadout": {}
                 },
                 {
-                  "itemPortName": "hardpoint_lifesupport_tank",
-                  "entityClassName": "LFTK_S02_Template",
-                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                  "loadout": {}
-                },
-                {
                   "itemPortName": "hardpoint_battery_left",
-                  "entityClassName": "BATT_S03_CitizenConDemo",
+                  "entityClassName": "",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 },
                 {
                   "itemPortName": "hardpoint_battery_right",
-                  "entityClassName": "BATT_S03_CitizenConDemo",
+                  "entityClassName": "",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
                 },
@@ -1231,6 +1335,12 @@
                   "entityClassName": "CRUS_Starlifter_ShipATCDataManager",
                   "entityClassReference": "00000000-0000-0000-0000-000000000000",
                   "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_shield_generator_c",
+                  "entityClassName": "",
+                  "entityClassReference": "6a4d4eb2-dacd-4b04-b17f-e7a02ea7e744",
+                  "loadout": {}
                 }
               ]
             }
@@ -1300,7 +1410,7 @@
           }
         },
         "SDegradationParams": {
-          "MaxLifetimeHours": 25.0,
+          "MaxLifetimeHours": 0.0,
           "InitialAgeRatio": 0.0,
           "DegradeOnlyWhenAttached": false
         },
@@ -1395,7 +1505,7 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
+              "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
@@ -1407,7 +1517,7 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
+              "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
@@ -1419,7 +1529,7 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
+              "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
@@ -1431,7 +1541,7 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
+              "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
@@ -1455,7 +1565,7 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
+              "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
@@ -1467,7 +1577,7 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
+              "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
@@ -1479,7 +1589,7 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
+              "MinSize": 1,
               "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
@@ -1490,7 +1600,7 @@
               "DisplayName": "",
               "PortTags": "",
               "RequiredPortTags": "",
-              "Flags": "invisible uneditable",
+              "Flags": "",
               "MinSize": 2,
               "MaxSize": 2,
               "InteractionPointSize": -1.0,
@@ -1508,8 +1618,8 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
-              "MaxSize": 0,
+              "MinSize": 1,
+              "MaxSize": 1,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
               "Types": [
@@ -1531,7 +1641,7 @@
               "DefaultWeaponGroup": "UNDEFINED",
               "Types": [
                 {
-                  "Type": "LifeSupportCompressor",
+                  "Type": "LifeSupportTank",
                   "SubTypes": []
                 }
               ]
@@ -1542,14 +1652,26 @@
               "PortTags": "",
               "RequiredPortTags": "",
               "Flags": "",
-              "MinSize": 0,
-              "MaxSize": 0,
+              "MinSize": 3,
+              "MaxSize": 3,
               "InteractionPointSize": -1.0,
               "DefaultWeaponGroup": "UNDEFINED",
               "Types": []
             },
             {
               "Name": "hardpoint_battery_right",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 3,
+              "MaxSize": 3,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "engineeringBuff",
               "DisplayName": "",
               "PortTags": "",
               "RequiredPortTags": "",

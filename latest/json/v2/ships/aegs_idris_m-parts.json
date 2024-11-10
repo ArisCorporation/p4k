@@ -396,135 +396,6 @@
     }
   },
   {
-    "Name": "hardpoint_door_rear_turret_cover",
-    "Port": {
-      "PortName": "hardpoint_door_rear_turret_cover",
-      "Size": 1,
-      "Loadout": "Door_Ship_Exterior_Idris_Turret_Cover",
-      "InstalledItem": {
-        "UUID": "28440bb3-e39e-4d28-a0dd-94ac1331447b",
-        "ClassName": "Door_Ship_Exterior_Idris_Turret_Cover",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "control_panel_a",
-            "Size": 10,
-            "Types": [
-              "ControlPanel.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "control_panel_b",
-            "Size": 10,
-            "Types": [
-              "ControlPanel.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "charge_handle_a",
-            "Size": 10,
-            "Types": [
-              "Misc.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "charge_handle_b",
-            "Size": 10,
-            "Types": [
-              "Misc.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "close_button_a",
-            "Size": 10,
-            "Types": [
-              "Button.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "close_button_b",
-            "Size": 10,
-            "Types": [
-              "Button.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "proximity_sensor",
-            "Size": 2,
-            "Types": [
-              "Sensor.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "light_group_a",
-            "Size": 10,
-            "Types": [
-              "Lightgroup.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "light_group_b",
-            "Size": 10,
-            "Types": [
-              "Lightgroup.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "decal_front",
-            "Size": 1,
-            "Types": [
-              "Decal.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "decal_rear",
-            "Size": 1,
-            "Types": [
-              "Decal.DoorPart"
-            ],
-            "Category": "Door attachments"
-          },
-          {
-            "PortName": "decal_screen",
-            "Size": 1,
-            "Types": [
-              "Decal.DoorPart"
-            ],
-            "Category": "Door attachments"
-          }
-        ]
-      },
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    }
-  },
-  {
     "Name": "hardpoint_seat_captain",
     "Port": {
       "PortName": "hardpoint_seat_captain",
@@ -618,20 +489,42 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "touchscreen_main",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "touchscreen_main",
+        "Port": {
+          "PortName": "touchscreen_main",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Display_HUD",
+        "Port": {
+          "PortName": "Display_HUD",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_copilot_right",
@@ -671,6 +564,10 @@
         "Grade": 1,
         "Type": "SeatDashboard.UNDEFINED",
         "Name": "AEGS_Idris_SCItem_Dashboard_CoPilot",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -689,33 +586,42 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
-            "Size": 1,
-            "Types": [
-              "Seat"
-            ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
-          },
-          {
-            "PortName": "Display_HUD",
-            "Size": 1,
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "radar_helper",
+            "PortName": "touchscreen_main",
             "Size": 1,
             "Types": [
               "Display"
             ],
             "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "touchscreen_main",
+        "Port": {
+          "PortName": "touchscreen_main",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Display_HUD",
+        "Port": {
+          "PortName": "Display_HUD",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_bridge_mid_left",
@@ -777,20 +683,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_bridge_mid_right",
@@ -830,6 +749,10 @@
         "Grade": 1,
         "Type": "SeatDashboard.UNDEFINED",
         "Name": "AEGS_Idris_SCItem_Dashboard_Bridge_Right",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -848,20 +771,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_bridge_rear_left",
@@ -923,20 +859,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_bridge_rear_right",
@@ -976,6 +925,10 @@
         "Grade": 1,
         "Type": "SeatDashboard.UNDEFINED",
         "Name": "AEGS_Idris_SCItem_Dashboard_Bridge_Right",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -994,20 +947,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_rear_bridge_front_left",
@@ -1069,20 +1035,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_rear_bridge_front_right",
@@ -1122,6 +1101,10 @@
         "Grade": 1,
         "Type": "SeatDashboard.UNDEFINED",
         "Name": "AEGS_Idris_SCItem_Dashboard_Bridge_Right_Remote",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -1140,20 +1123,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_rear_bridge_back_left",
@@ -1215,20 +1211,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_rear_bridge_back_right",
@@ -1268,6 +1277,10 @@
         "Grade": 1,
         "Type": "SeatDashboard.UNDEFINED",
         "Name": "AEGS_Idris_SCItem_Dashboard_Bridge_Right_Remote_Back",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -1286,20 +1299,33 @@
         },
         "Ports": [
           {
-            "PortName": "SeatPort",
+            "PortName": "screen_lower",
             "Size": 1,
             "Types": [
-              "Seat"
+              "Display"
             ],
-            "Flags": [
-              "selfphys"
-            ],
-            "Category": "Seats"
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Display_HUD",
+            "Size": 1,
+            "Category": "UNKNOWN"
           }
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_lower",
+        "Port": {
+          "PortName": "screen_lower",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_access_captain",
@@ -1598,8 +1624,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 1700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1638,702 +1664,18 @@
     "Port": {
       "PortName": "Radar_Helper",
       "Size": 0,
-      "Loadout": "AEGS_Idris_RADR_Display",
+      "Loadout": "Radar_Display_Gladius_PU",
       "InstalledItem": {
-        "UUID": "11012ab2-2bc5-49e3-b129-9c311e9d93f5",
-        "ClassName": "AEGS_Idris_RADR_Display",
+        "UUID": "5f89f74d-396a-4009-8f43-b2fa58d5a417",
+        "ClassName": "Radar_Display_Gladius_PU",
         "Size": 1,
         "Grade": 1,
         "Type": "Display.UNDEFINED",
-        "Name": "AEGS_Idris_RADR_Display",
+        "Name": "Radar_Display_Gladius_PU",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_upper_left",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_upper_left",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_upper_right",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_upper_right",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_upper_rear_left",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_upper_rear_left",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_upper_rear_right",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_upper_rear_right",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_right_lower",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_right_lower",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_left_lower",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_left_lower",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_front_upper",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_front_upper",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_left_front",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_left_front",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret_right_front",
-    "Port": {
-      "PortName": "hardpoint_radar_turret_right_front",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_rear_tail_turret_radar_left",
-    "Port": {
-      "PortName": "hardpoint_rear_tail_turret_radar_left",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_rear_tail_turret_radar_right",
-    "Port": {
-      "PortName": "hardpoint_rear_tail_turret_radar_right",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_rear_turret_tail",
-    "Port": {
-      "PortName": "hardpoint_radar_rear_turret_tail",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
       },
       "Category": "UNKNOWN"
     }
@@ -2616,8 +1958,8 @@
           "Output": 250000.0
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 1440.0
+          "Health": 9500.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -2662,8 +2004,8 @@
           "Output": 250000.0
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 1440.0
+          "Health": 9500.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -2905,8 +2247,8 @@
           "Rate": 16000000.0
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 1080.0
+          "Health": 6200.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 64.0,
@@ -2950,8 +2292,8 @@
           "Rate": 16000000.0
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 1080.0
+          "Health": 6200.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 64.0,
@@ -3017,9 +2359,9 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 825565.0,
-          "Regeneration": 7045.6,
-          "DownedDelay": 67.5,
+          "Health": 1170000.0,
+          "Regeneration": 48300.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
@@ -3049,8 +2391,8 @@
           }
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 7300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 5520.0,
@@ -3095,9 +2437,9 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 825565.0,
-          "Regeneration": 7045.6,
-          "DownedDelay": 67.5,
+          "Health": 1170000.0,
+          "Regeneration": 48300.0,
+          "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
             "Physical": {
@@ -3127,8 +2469,8 @@
           }
         },
         "Durability": {
-          "Health": 2750.0,
-          "Lifetime": 720.0
+          "Health": 7300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 5520.0,
@@ -3255,8 +2597,7 @@
           "MaxThrustFuelRate": 2230.155
         },
         "Durability": {
-          "Health": 100000.0,
-          "Lifetime": 720.0
+          "Health": 100000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3302,8 +2643,7 @@
           "MaxThrustFuelRate": 2230.155
         },
         "Durability": {
-          "Health": 100000.0,
-          "Lifetime": 720.0
+          "Health": 100000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3345,8 +2685,7 @@
           "MaxThrustFuelRate": 1880.59875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3388,8 +2727,7 @@
           "MaxThrustFuelRate": 1880.59875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3435,8 +2773,7 @@
           "MaxThrustFuelRate": 1966.9125000000001
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3482,8 +2819,7 @@
           "MaxThrustFuelRate": 1966.9125000000001
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3529,8 +2865,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3576,8 +2911,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3623,8 +2957,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3670,8 +3003,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3717,8 +3049,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3764,8 +3095,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3811,8 +3141,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3858,8 +3187,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3905,8 +3233,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3952,8 +3279,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3999,8 +3325,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4046,8 +3371,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4093,8 +3417,7 @@
           "MaxThrustFuelRate": 470.351875
         },
         "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 720.0
+          "Health": 500000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4140,8 +3463,7 @@
           "MaxThrustFuelRate": 1808.46875
         },
         "Durability": {
-          "Health": 80000.0,
-          "Lifetime": 720.0
+          "Health": 80000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4187,8 +3509,7 @@
           "MaxThrustFuelRate": 1808.46875
         },
         "Durability": {
-          "Health": 80000.0,
-          "Lifetime": 720.0
+          "Health": 80000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -4232,10 +3553,10 @@
           "FuelRate": 6.13E-08,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 133904700.0,
+            "Speed": 300000000.0,
             "Cooldown": 92.07,
-            "Stage1AccelerationRate": 75000.0,
-            "State2AccelerationRate": 150000.0,
+            "Stage1AccelerationRate": 300000.0,
+            "State2AccelerationRate": 14000000.0,
             "SpoolUpTime": 9.0
           },
           "SplineJump": {
@@ -4247,8 +3568,8 @@
           }
         },
         "Durability": {
-          "Health": 4000.0,
-          "Lifetime": 1440.0
+          "Health": 8200.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 768.0,
@@ -4262,16 +3583,35 @@
         "Ports": [
           {
             "PortName": "hardpoint_Jump_Drive",
-            "Size": 0,
+            "Size": 4,
+            "Loadout": "JDRV_WETK_S04_Idris_SCItem",
+            "InstalledItem": {
+              "UUID": "af671ad3-d55d-44b3-8617-473bd3dc0da6",
+              "ClassName": "JDRV_WETK_S04_Idris_SCItem",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "JDRV_WETK_S04_Idris_SCItem",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 5700.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 80.0,
+                "PowerDraw": 800.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -4279,7 +3619,18 @@
         "QuantumDrive.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "hardpoint_jump_drive",
+        "Port": {
+          "PortName": "hardpoint_jump_drive",
+          "Size": 4,
+          "Loadout": "JDRV_WETK_S04_Idris_SCItem",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_quantum_fuel_tank",
@@ -4339,292 +3690,8 @@
     "Name": "hardpoint_front_turret",
     "Port": {
       "PortName": "hardpoint_front_turret",
-      "Size": 7,
-      "Loadout": "AEGS_Idris_SCItem_Turret_Large",
-      "InstalledItem": {
-        "UUID": "88a05104-18bc-4e2d-80ee-796691162c7c",
-        "ClassName": "AEGS_Idris_SCItem_Turret_Large",
-        "Size": 7,
-        "Grade": 1,
-        "Type": "TurretBase.MannedTurret",
-        "Name": "Manned Turret",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 500000.0,
-          "Lifetime": 25.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 2.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_weapon_left",
-            "Size": 7,
-            "Loadout": "BEHR_LaserCannon_S7",
-            "InstalledItem": {
-              "UUID": "af019617-94ee-4a91-b62b-124c93f2a45e",
-              "ClassName": "BEHR_LaserCannon_S7",
-              "Size": 7,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "M9A Cannon",
-              "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 7\n\nStrike at the very heart of your enemies with the devastating impact of Behring's M9A energy autocannon. When fully charged, the massive stopping power of this laser weapon has the potential to halt even capital ships in their tracks.",
-              "Manufacturer": {
-                "Code": "BEH",
-                "Name": "Behring"
-              },
-              "Tags": [
-                "BEHR",
-                "LaserCannon",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 1.786404,
-              "Height": 2.806632,
-              "Length": 13.26605,
-              "Volume": 14.2,
-              "DimensionOverrides": {
-                "Width": 1.5,
-                "Height": 1.5,
-                "Depth": 3.75
-              },
-              "Durability": {
-                "Health": 6750.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 600.0,
-                "PowerDraw": 650.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 700.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "UUID": "8d7fa524-69be-4aa0-9cdb-f5e264d64dfc",
-                  "Type": "AmmoParams",
-                  "Speed": 1000.0,
-                  "Range": 4000.0,
-                  "Size": 7.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 2306.34
-                  },
-                  "BulletImpulseFalloff": {},
-                  "BulletPierceability": {
-                    "DamageFalloffLevel1": 0.0,
-                    "DamageFalloffLevel2": 0.0,
-                    "DamageFalloffLevel3": 0.0,
-                    "MaxPenetrationThickness": 0.5
-                  },
-                  "BulletElectron": {},
-                  "DamageDropMinDistance": {},
-                  "DamageDropPerMeter": {},
-                  "DamageDropMinDamage": {}
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[AUTO]",
-                    "RoundsPerMinute": 100.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 2306.34
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 3843.9000000000005
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 21355.0,
-                  "Cooldown": 0.75,
-                  "CostPerBullet": 1281.0,
-                  "RequestedAmmoLoad": 128130.0
-                }
-              },
-              "Ammunition": {
-                "UUID": "8d7fa524-69be-4aa0-9cdb-f5e264d64dfc",
-                "Type": "AmmoParams",
-                "Speed": 1000.0,
-                "Range": 4000.0,
-                "Size": 7.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 2306.34
-                },
-                "BulletImpulseFalloff": {},
-                "BulletPierceability": {
-                  "DamageFalloffLevel1": 0.0,
-                  "DamageFalloffLevel2": 0.0,
-                  "DamageFalloffLevel3": 0.0,
-                  "MaxPenetrationThickness": 0.5
-                },
-                "BulletElectron": {},
-                "DamageDropMinDistance": {},
-                "DamageDropPerMeter": {},
-                "DamageDropMinDamage": {}
-              },
-              "Ports": [
-                {
-                  "PortName": "magazine_attach",
-                  "Size": 0,
-                  "Category": "UNKNOWN"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          },
-          {
-            "PortName": "hardpoint_weapon_right",
-            "Size": 7,
-            "Loadout": "BEHR_LaserCannon_S7",
-            "InstalledItem": {
-              "UUID": "af019617-94ee-4a91-b62b-124c93f2a45e",
-              "ClassName": "BEHR_LaserCannon_S7",
-              "Size": 7,
-              "Grade": 1,
-              "Type": "WeaponGun.Gun",
-              "Name": "M9A Cannon",
-              "Description": "Manufacturer: Behring\nItem Type: Laser Cannon\nSize: 7\n\nStrike at the very heart of your enemies with the devastating impact of Behring's M9A energy autocannon. When fully charged, the massive stopping power of this laser weapon has the potential to halt even capital ships in their tracks.",
-              "Manufacturer": {
-                "Code": "BEH",
-                "Name": "Behring"
-              },
-              "Tags": [
-                "BEHR",
-                "LaserCannon",
-                "flightReady",
-                "weaponMountUsable"
-              ],
-              "Width": 1.786404,
-              "Height": 2.806632,
-              "Length": 13.26605,
-              "Volume": 14.2,
-              "DimensionOverrides": {
-                "Width": 1.5,
-                "Height": 1.5,
-                "Depth": 3.75
-              },
-              "Durability": {
-                "Health": 6750.0,
-                "Lifetime": 20.0
-              },
-              "PowerConnection": {
-                "PowerBase": 600.0,
-                "PowerDraw": 650.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 700.0
-              },
-              "Weapon": {
-                "Ammunition": {
-                  "UUID": "8d7fa524-69be-4aa0-9cdb-f5e264d64dfc",
-                  "Type": "AmmoParams",
-                  "Speed": 1000.0,
-                  "Range": 4000.0,
-                  "Size": 7.0,
-                  "Capacity": 0.0,
-                  "ImpactDamage": {
-                    "Energy": 2306.34
-                  },
-                  "BulletImpulseFalloff": {},
-                  "BulletPierceability": {
-                    "DamageFalloffLevel1": 0.0,
-                    "DamageFalloffLevel2": 0.0,
-                    "DamageFalloffLevel3": 0.0,
-                    "MaxPenetrationThickness": 0.5
-                  },
-                  "BulletElectron": {},
-                  "DamageDropMinDistance": {},
-                  "DamageDropPerMeter": {},
-                  "DamageDropMinDamage": {}
-                },
-                "Modes": [
-                  {
-                    "Name": "Single",
-                    "LocalisedName": "[AUTO]",
-                    "RoundsPerMinute": 100.0,
-                    "FireType": "sequence",
-                    "AmmoPerShot": 1.0,
-                    "PelletsPerShot": 1.0,
-                    "DamagePerShot": {
-                      "Energy": 2306.34
-                    },
-                    "DamagePerSecond": {
-                      "Energy": 3843.9000000000005
-                    }
-                  }
-                ],
-                "Consumption": {
-                  "RequestedRegenPerSec": 21355.0,
-                  "Cooldown": 0.75,
-                  "CostPerBullet": 1281.0,
-                  "RequestedAmmoLoad": 128130.0
-                }
-              },
-              "Ammunition": {
-                "UUID": "8d7fa524-69be-4aa0-9cdb-f5e264d64dfc",
-                "Type": "AmmoParams",
-                "Speed": 1000.0,
-                "Range": 4000.0,
-                "Size": 7.0,
-                "Capacity": 0.0,
-                "ImpactDamage": {
-                  "Energy": 2306.34
-                },
-                "BulletImpulseFalloff": {},
-                "BulletPierceability": {
-                  "DamageFalloffLevel1": 0.0,
-                  "DamageFalloffLevel2": 0.0,
-                  "DamageFalloffLevel3": 0.0,
-                  "MaxPenetrationThickness": 0.5
-                },
-                "BulletElectron": {},
-                "DamageDropMinDistance": {},
-                "DamageDropPerMeter": {},
-                "DamageDropMinDamage": {}
-              },
-              "Ports": [
-                {
-                  "PortName": "magazine_attach",
-                  "Size": 0,
-                  "Category": "UNKNOWN"
-                }
-              ]
-            },
-            "Types": [
-              "WeaponGun.Gun"
-            ],
-            "Category": "Weapon hardpoints"
-          }
-        ]
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "TurretBase.MannedTurret"
       ],
@@ -4635,8 +3702,8 @@
         "Name": "hardpoint_weapon_left",
         "Port": {
           "PortName": "hardpoint_weapon_left",
-          "Size": 7,
-          "Loadout": "BEHR_LaserCannon_S7",
+          "Size": 0,
+          "Loadout": "",
           "Types": [
             "WeaponGun.Gun"
           ],
@@ -4647,8 +3714,8 @@
         "Name": "hardpoint_weapon_right",
         "Port": {
           "PortName": "hardpoint_weapon_right",
-          "Size": 7,
-          "Loadout": "BEHR_LaserCannon_S7",
+          "Size": 0,
+          "Loadout": "",
           "Types": [
             "WeaponGun.Gun"
           ],
@@ -4708,7 +3775,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 500000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -4753,7 +3820,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -4905,7 +3972,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -5109,7 +4176,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 500000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -5154,7 +4221,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -5306,7 +4373,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -5510,7 +4577,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 500000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -5555,7 +4622,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -5707,7 +4774,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -5911,7 +4978,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 500000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -5956,7 +5023,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -6108,7 +5175,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -6312,7 +5379,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 500000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -6357,7 +5424,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -6509,7 +5576,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -6713,7 +5780,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 500000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -6758,7 +5825,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -6910,7 +5977,7 @@
               },
               "Durability": {
                 "Health": 2640.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 500.0,
@@ -7089,67 +6156,157 @@
     }
   },
   {
+    "Name": "hardpoint_rear_turret_tail",
+    "Port": {
+      "PortName": "hardpoint_rear_turret_tail",
+      "Size": 5,
+      "Loadout": "Door_Ship_Exterior_Idris_Turret_Cover",
+      "InstalledItem": {
+        "UUID": "28440bb3-e39e-4d28-a0dd-94ac1331447b",
+        "ClassName": "Door_Ship_Exterior_Idris_Turret_Cover",
+        "Size": 5,
+        "Grade": 1,
+        "Type": "TurretBase.MannedTurret",
+        "Name": "Door Control",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 200.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "control_panel_a",
+            "Size": 10,
+            "Types": [
+              "ControlPanel.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "control_panel_b",
+            "Size": 10,
+            "Types": [
+              "ControlPanel.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "charge_handle_a",
+            "Size": 10,
+            "Types": [
+              "Misc.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "charge_handle_b",
+            "Size": 10,
+            "Types": [
+              "Misc.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "close_button_a",
+            "Size": 10,
+            "Types": [
+              "Button.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "close_button_b",
+            "Size": 10,
+            "Types": [
+              "Button.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "proximity_sensor",
+            "Size": 2,
+            "Types": [
+              "Sensor.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "light_group_a",
+            "Size": 10,
+            "Types": [
+              "Lightgroup.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "light_group_b",
+            "Size": 10,
+            "Types": [
+              "Lightgroup.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "decal_front",
+            "Size": 1,
+            "Types": [
+              "Decal.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "decal_rear",
+            "Size": 1,
+            "Types": [
+              "Decal.DoorPart"
+            ],
+            "Category": "Door attachments"
+          },
+          {
+            "PortName": "decal_screen",
+            "Size": 1,
+            "Types": [
+              "Decal.DoorPart"
+            ],
+            "Category": "Door attachments"
+          }
+        ]
+      },
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_rear_turret_tail_seataccess",
+    "Port": {
+      "PortName": "hardpoint_rear_turret_tail_seataccess",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
     "Name": "hardpoint_front_left_turret",
     "Port": {
       "PortName": "hardpoint_front_left_turret",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    }
-  },
-  {
-    "Name": "hardpoint_front_right_turret",
-    "Port": {
-      "PortName": "hardpoint_front_right_turret",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    }
-  },
-  {
-    "Name": "hardpoint_rear_tail_turret_right",
-    "Port": {
-      "PortName": "hardpoint_rear_tail_turret_right",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    }
-  },
-  {
-    "Name": "hardpoint_rear_tail_turret_left",
-    "Port": {
-      "PortName": "hardpoint_rear_tail_turret_left",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    }
-  },
-  {
-    "Name": "hardpoint_missile_launcher",
-    "Port": {
-      "PortName": "hardpoint_missile_launcher",
-      "Size": 8,
-      "Loadout": "MRCK_S08_AEGS_Idris",
+      "Size": 5,
+      "Loadout": "AEGS_Idris_SCItem_AI_Turret_Top_Left",
       "InstalledItem": {
-        "UUID": "d5a0f8c8-a60b-43ac-8d2a-e71ce1ad47fa",
-        "ClassName": "MRCK_S08_AEGS_Idris",
-        "Size": 8,
+        "UUID": "5ef2234d-bb9c-4730-bb00-416f0b0067de",
+        "ClassName": "AEGS_Idris_SCItem_AI_Turret_Top_Left",
+        "Size": 5,
         "Grade": 1,
-        "Type": "MissileLauncher.MissileRack",
-        "Name": "MRCK_S08_AEGS_Idris",
-        "Description": "@LOC_PLACEHOLDER",
+        "Type": "Turret.GunTurret",
+        "Name": "Remote Turret",
+        "Description": "Remote Turret",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -7157,25 +6314,16 @@
         "Tags": [
           "flightReady"
         ],
-        "Width": 2.902906,
-        "Height": 4.009475,
-        "Length": 22.11008,
-        "Volume": 54.599999999999994,
-        "DimensionOverrides": {
-          "Width": 0.75,
-          "Height": 0.75,
-          "Depth": 3.75
-        },
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
         "Durability": {
-          "Health": 5000.0
-        },
-        "MissileRack": {
-          "Count": 10,
-          "Size": 5
+          "Health": 214000.0
         },
         "PowerConnection": {
-          "PowerBase": 20.0,
-          "PowerDraw": 20.0
+          "PowerBase": 0.0,
+          "PowerDraw": 2.0
         },
         "HeatConnection": {
           "ThermalEnergyBase": 10.0,
@@ -7184,459 +6332,1430 @@
         },
         "Ports": [
           {
-            "PortName": "missile_attach_01",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
+            "PortName": "turret_left",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
             "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
               "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
               "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
               },
               "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
               ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
               "DimensionOverrides": {
                 "Width": 0.75,
                 "Height": 0.75,
-                "Depth": 3.0
+                "Depth": 2.25
               },
               "Durability": {
-                "Health": 10.0
+                "Health": 1650.0,
+                "Lifetime": 0.0
               },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
                 }
-              }
+              ]
             },
             "Types": [
-              "Missile.Torpedo"
+              "WeaponGun.Gun"
             ],
-            "Category": "UNKNOWN"
+            "Flags": [
+              "$uneditable"
+            ],
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
           },
           {
-            "PortName": "missile_attach_02",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
+            "PortName": "turret_right",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
             "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
               "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
               "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
               },
               "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
               ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
               "DimensionOverrides": {
                 "Width": 0.75,
                 "Height": 0.75,
-                "Depth": 3.0
+                "Depth": 2.25
               },
               "Durability": {
-                "Health": 10.0
+                "Health": 1650.0,
+                "Lifetime": 0.0
               },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
                 }
-              }
+              ]
             },
             "Types": [
-              "Missile.Torpedo"
+              "WeaponGun.Gun"
             ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_03",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
+            "Flags": [
+              "$uneditable"
             ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_04",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_05",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_06",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_07",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_08",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_09",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "missile_attach_10",
-            "Size": 5,
-            "Loadout": "MISL_S05_CS_TALN_Stalker",
-            "InstalledItem": {
-              "UUID": "9d2d7b0d-9f54-4fe1-8bff-c6ea2a5af5d3",
-              "ClassName": "MISL_S05_CS_TALN_Stalker",
-              "Size": 5,
-              "Grade": 1,
-              "Type": "Missile.Torpedo",
-              "Name": "Stalker V Missile",
-              "Description": "Manufacturer: Talon\nTracking Signal: Cross Section\nSize: 5\n\nWith dedicated cross section tracking, the Talon Stalker has endured over the years as a precision strike torpedo with maximum stopping power.",
-              "Manufacturer": {
-                "Code": "TALN",
-                "Name": "Talon"
-              },
-              "Tags": [
-                "TALN",
-                "CS",
-                "flightReady"
-              ],
-              "Width": 1.0,
-              "Height": 1.0,
-              "Length": 5.0,
-              "Volume": 0.078125,
-              "DimensionOverrides": {
-                "Width": 0.75,
-                "Height": 0.75,
-                "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
-              },
-              "Missile": {
-                "Damage": {
-                  "Physical": 17091.71
-                }
-              }
-            },
-            "Types": [
-              "Missile.Torpedo"
-            ],
-            "Category": "UNKNOWN"
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
           }
         ]
       },
       "Types": [
-        "MissileLauncher.MissileRack"
+        "TurretBase.MannedTurret"
       ],
-      "Category": "Missile racks"
+      "Category": "Manned turrets"
+    },
+    "Parts": [
+      {
+        "Name": "turret_left",
+        "Port": {
+          "PortName": "turret_left",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      },
+      {
+        "Name": "turret_right",
+        "Port": {
+          "PortName": "turret_right",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "hardpoint_front_right_turret",
+    "Port": {
+      "PortName": "hardpoint_front_right_turret",
+      "Size": 5,
+      "Loadout": "AEGS_Idris_SCItem_AI_Turret_Top_Right",
+      "InstalledItem": {
+        "UUID": "f4cbc8a8-4efd-4fb2-a1cf-7595d52ab334",
+        "ClassName": "AEGS_Idris_SCItem_AI_Turret_Top_Right",
+        "Size": 5,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "Remote Turret",
+        "Description": "Remote Turret",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Tags": [
+          "flightReady"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 214000.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 2.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "turret_left",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
+            "InstalledItem": {
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
+              "Manufacturer": {
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
+              },
+              "Tags": [
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 2.25
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Flags": [
+              "$uneditable"
+            ],
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
+          },
+          {
+            "PortName": "turret_right",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
+            "InstalledItem": {
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
+              "Manufacturer": {
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
+              },
+              "Tags": [
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 2.25
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Flags": [
+              "$uneditable"
+            ],
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
+          }
+        ]
+      },
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    },
+    "Parts": [
+      {
+        "Name": "turret_left",
+        "Port": {
+          "PortName": "turret_left",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      },
+      {
+        "Name": "turret_right",
+        "Port": {
+          "PortName": "turret_right",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "hardpoint_rear_tail_turret_right",
+    "Port": {
+      "PortName": "hardpoint_rear_tail_turret_right",
+      "Size": 5,
+      "Loadout": "AEGS_Idris_SCItem_AI_Turret_Bottom_Right",
+      "InstalledItem": {
+        "UUID": "4aacb927-f8b9-4769-bff3-af16c25e9e4b",
+        "ClassName": "AEGS_Idris_SCItem_AI_Turret_Bottom_Right",
+        "Size": 5,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "Remote Turret",
+        "Description": "Remote Turret",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Tags": [
+          "flightReady"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 214000.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 2.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "turret_left",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
+            "InstalledItem": {
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
+              "Manufacturer": {
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
+              },
+              "Tags": [
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 2.25
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Flags": [
+              "$uneditable"
+            ],
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
+          },
+          {
+            "PortName": "turret_right",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
+            "InstalledItem": {
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
+              "Manufacturer": {
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
+              },
+              "Tags": [
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 2.25
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Flags": [
+              "$uneditable"
+            ],
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
+          }
+        ]
+      },
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    },
+    "Parts": [
+      {
+        "Name": "turret_left",
+        "Port": {
+          "PortName": "turret_left",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      },
+      {
+        "Name": "turret_right",
+        "Port": {
+          "PortName": "turret_right",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "hardpoint_rear_tail_turret_left",
+    "Port": {
+      "PortName": "hardpoint_rear_tail_turret_left",
+      "Size": 5,
+      "Loadout": "AEGS_Idris_SCItem_AI_Turret_Bottom_Left",
+      "InstalledItem": {
+        "UUID": "11e88847-2825-4ed2-9821-6e489b59081a",
+        "ClassName": "AEGS_Idris_SCItem_AI_Turret_Bottom_Left",
+        "Size": 5,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "Remote Turret",
+        "Description": "Remote Turret",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Tags": [
+          "flightReady"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 214000.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 2.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "turret_left",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
+            "InstalledItem": {
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
+              "Manufacturer": {
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
+              },
+              "Tags": [
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 2.25
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Flags": [
+              "$uneditable"
+            ],
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
+          },
+          {
+            "PortName": "turret_right",
+            "Size": 4,
+            "Loadout": "APAR_BallisticGatling_S4",
+            "InstalledItem": {
+              "UUID": "df89e9ca-8a11-477c-8abd-f4837a277dbe",
+              "ClassName": "APAR_BallisticGatling_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "Revenant Gatling",
+              "Description": "Manufacturer: Apocalypse Arms\nItem Type: Ballistic Gatling\nSize: 4\n\nIf it ain’t broke, don’t fix it. And if you want it broke, aim a Revenant at it. Solidly built on a foundation of centuries-old tech, Apocalypse Arms puts an innovative spin on battle-tested designs to create a rugged ballistic Gatling that can steadily hurtle death across the void. Though it’s slow to spin up and cool down, the Revenant’s dependability makes it a favorite for those expecting to find trouble. ",
+              "Manufacturer": {
+                "Code": "APAR",
+                "Name": "Apocalypse Arms"
+              },
+              "Tags": [
+                "APAR",
+                "BallisticGatling",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 2.25
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 73.0,
+                "PowerDraw": 283.0
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                  "Type": "AmmoParams",
+                  "Speed": 1200.0,
+                  "Range": 3000.0,
+                  "Size": 1.0,
+                  "Capacity": 2000.0,
+                  "ImpactDamage": {
+                    "Physical": 63.3
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Rapid",
+                    "LocalisedName": "[AUTO]",
+                    "RoundsPerMinute": 1200.0,
+                    "FireType": "rapid",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Physical": 63.3
+                    },
+                    "DamagePerSecond": {
+                      "Physical": 1266.0
+                    }
+                  }
+                ]
+              },
+              "Ammunition": {
+                "UUID": "5eff2741-2fa6-4f29-a820-8886af83cb0b",
+                "Type": "AmmoParams",
+                "Speed": 1200.0,
+                "Range": 3000.0,
+                "Size": 1.0,
+                "Capacity": 2000.0,
+                "ImpactDamage": {
+                  "Physical": 63.3
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Flags": [
+              "$uneditable"
+            ],
+            "Category": "Weapon hardpoints",
+            "Uneditable": true
+          }
+        ]
+      },
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    },
+    "Parts": [
+      {
+        "Name": "turret_left",
+        "Port": {
+          "PortName": "turret_left",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      },
+      {
+        "Name": "turret_right",
+        "Port": {
+          "PortName": "turret_right",
+          "Size": 4,
+          "Loadout": "APAR_BallisticGatling_S4",
+          "Types": [
+            "TurretBase.MannedTurret"
+          ],
+          "Category": "Manned turrets"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "hardpoint_missile_launcher",
+    "Port": {
+      "PortName": "hardpoint_missile_launcher",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     },
     "Parts": [
       {
         "Name": "missile_attach_01",
         "Port": {
           "PortName": "missile_attach_01",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7644,8 +7763,8 @@
         "Name": "missile_attach_02",
         "Port": {
           "PortName": "missile_attach_02",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7653,8 +7772,8 @@
         "Name": "missile_attach_03",
         "Port": {
           "PortName": "missile_attach_03",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7662,8 +7781,8 @@
         "Name": "missile_attach_04",
         "Port": {
           "PortName": "missile_attach_04",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7671,8 +7790,8 @@
         "Name": "missile_attach_05",
         "Port": {
           "PortName": "missile_attach_05",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7680,8 +7799,8 @@
         "Name": "missile_attach_06",
         "Port": {
           "PortName": "missile_attach_06",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7689,8 +7808,8 @@
         "Name": "missile_attach_07",
         "Port": {
           "PortName": "missile_attach_07",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7698,8 +7817,8 @@
         "Name": "missile_attach_08",
         "Port": {
           "PortName": "missile_attach_08",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7707,8 +7826,8 @@
         "Name": "missile_attach_09",
         "Port": {
           "PortName": "missile_attach_09",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -7716,8 +7835,8 @@
         "Name": "missile_attach_10",
         "Port": {
           "PortName": "missile_attach_10",
-          "Size": 5,
-          "Loadout": "MISL_S05_CS_TALN_Stalker",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       }
@@ -7727,115 +7846,9 @@
     "Name": "hardpoint_nose_railgun",
     "Port": {
       "PortName": "hardpoint_nose_railgun",
-      "Size": 10,
-      "Loadout": "KLWE_MassDriver_S10",
-      "InstalledItem": {
-        "UUID": "26298097-2f16-4f25-b652-9c72170b5529",
-        "ClassName": "KLWE_MassDriver_S10",
-        "Size": 10,
-        "Grade": 1,
-        "Type": "WeaponGun.Gun",
-        "Name": "Destroyer Mass Driver Cannon",
-        "Description": "Idris Railgun Description",
-        "Manufacturer": {
-          "Code": "KLA",
-          "Name": "Klaus & Werner"
-        },
-        "Tags": [
-          "KLWE",
-          "MassDriver",
-          "flightReady",
-          "weaponMountUsable"
-        ],
-        "Width": 3.796108,
-        "Height": 4.81137,
-        "Length": 30.95411,
-        "Volume": 120.0,
-        "DimensionOverrides": {
-          "Width": 1.5,
-          "Height": 1.5,
-          "Depth": 3.75
-        },
-        "Durability": {
-          "Health": 427680.0,
-          "Lifetime": 20.0
-        },
-        "PowerConnection": {
-          "PowerBase": 594.0,
-          "PowerDraw": 500.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 44800.0,
-          "ThermalEnergyDraw": 44800.0,
-          "CoolingRate": 3018.357
-        },
-        "Weapon": {
-          "Ammunition": {
-            "UUID": "b9bcc6b8-1233-42c1-8a89-ed8bc7459fb5",
-            "Type": "AmmoParams",
-            "Speed": 5000.0,
-            "Range": 10000.0,
-            "Size": 1.0,
-            "Capacity": 18.0,
-            "ImpactDamage": {
-              "Physical": 144160.0
-            },
-            "BulletImpulseFalloff": {},
-            "BulletPierceability": {
-              "DamageFalloffLevel1": 0.0,
-              "DamageFalloffLevel2": 0.0,
-              "DamageFalloffLevel3": 0.0,
-              "MaxPenetrationThickness": 0.5
-            },
-            "BulletElectron": {},
-            "DamageDropMinDistance": {},
-            "DamageDropPerMeter": {},
-            "DamageDropMinDamage": {}
-          },
-          "Modes": [
-            {
-              "Name": "Charge",
-              "LocalisedName": "[CHARGE]",
-              "RoundsPerMinute": 6.0,
-              "FireType": "charged",
-              "AmmoPerShot": 1.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {
-                "Physical": 144160.0
-              },
-              "DamagePerSecond": {
-                "Physical": 14416.0
-              }
-            }
-          ]
-        },
-        "Ammunition": {
-          "UUID": "b9bcc6b8-1233-42c1-8a89-ed8bc7459fb5",
-          "Type": "AmmoParams",
-          "Speed": 5000.0,
-          "Range": 10000.0,
-          "Size": 1.0,
-          "Capacity": 18.0,
-          "ImpactDamage": {
-            "Physical": 144160.0
-          },
-          "BulletImpulseFalloff": {},
-          "BulletPierceability": {
-            "DamageFalloffLevel1": 0.0,
-            "DamageFalloffLevel2": 0.0,
-            "DamageFalloffLevel3": 0.0,
-            "MaxPenetrationThickness": 0.5
-          },
-          "BulletElectron": {},
-          "DamageDropMinDistance": {},
-          "DamageDropPerMeter": {},
-          "DamageDropMinDamage": {}
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     }
   },
   {
@@ -8097,217 +8110,27 @@
     "Name": "hardpoint_countermeasures_right_2",
     "Port": {
       "PortName": "hardpoint_countermeasures_right_2",
-      "Size": 1,
-      "Loadout": "AEGS_Idris_CML_Chaff",
-      "InstalledItem": {
-        "UUID": "6f1c5848-c01f-43fa-9b2a-00252fbd4d73",
-        "ClassName": "AEGS_Idris_CML_Chaff",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponDefensive.CountermeasureLauncher",
-        "Name": "Aegis Hammerhead - Noise Launcher",
-        "Description": "Aegis Hammerhead - Noise Launcher",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Width": 0.2233005,
-        "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
-        "DimensionOverrides": {
-          "Width": 0.75,
-          "Height": 0.75,
-          "Depth": 2.25
-        },
-        "Durability": {
-          "Health": 1000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 1.0,
-          "PowerDraw": 1.0
-        },
-        "Weapon": {
-          "Ammunition": {
-            "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
-            "Type": "AmmoParams",
-            "Speed": 180.0,
-            "Range": 144.0,
-            "Size": 0.0,
-            "Capacity": 300.0,
-            "ImpactDamage": {},
-            "BulletImpulseFalloff": {},
-            "BulletPierceability": {},
-            "BulletElectron": {},
-            "DamageDropMinDistance": {},
-            "DamageDropPerMeter": {},
-            "DamageDropMinDamage": {}
-          },
-          "Modes": [
-            {
-              "Name": "Single",
-              "LocalisedName": "[SEMI]",
-              "RoundsPerMinute": 50.0,
-              "FireType": "single",
-              "AmmoPerShot": 1.0,
-              "PelletsPerShot": 1.0,
-              "DamagePerShot": {},
-              "DamagePerSecond": {}
-            }
-          ]
-        },
-        "Ammunition": {
-          "UUID": "6c4fdf64-425c-4722-b286-dfedb06e8cfb",
-          "Type": "AmmoParams",
-          "Speed": 180.0,
-          "Range": 144.0,
-          "Size": 0.0,
-          "Capacity": 300.0,
-          "ImpactDamage": {},
-          "BulletImpulseFalloff": {},
-          "BulletPierceability": {},
-          "BulletElectron": {},
-          "DamageDropMinDistance": {},
-          "DamageDropPerMeter": {},
-          "DamageDropMinDamage": {}
-        }
-      },
-      "Types": [
-        "WeaponDefensive.CountermeasureLauncher"
-      ],
-      "Category": "Countermeasures"
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     }
   },
   {
     "Name": "hardpoint_hangar_weapon_locker_01",
     "Port": {
       "PortName": "hardpoint_hangar_weapon_locker_01",
-      "Size": 1,
-      "Loadout": "Weapon_Rack_Single_AEGS_tec_wall",
-      "InstalledItem": {
-        "UUID": "7bdce088-6a90-4ab9-a2f7-5a2956170768",
-        "ClassName": "Weapon_Rack_Single_AEGS_tec_wall",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Usable.UNDEFINED",
-        "Name": "Weapon Rack",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Ports": [
-          {
-            "PortName": "$IP_weapon_large_01",
-            "Size": 4,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_large_02",
-            "Size": 4,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_small_01",
-            "Size": 1,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_small_02",
-            "Size": 1,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_small_03",
-            "Size": 1,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Types": [
-        "Usable.UNDEFINED"
-      ],
-      "Category": "Usables"
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     }
   },
   {
     "Name": "hardpoint_hangar_weapon_locker_02",
     "Port": {
       "PortName": "hardpoint_hangar_weapon_locker_02",
-      "Size": 1,
-      "Loadout": "Weapon_Rack_Single_AEGS_tec_wall",
-      "InstalledItem": {
-        "UUID": "7bdce088-6a90-4ab9-a2f7-5a2956170768",
-        "ClassName": "Weapon_Rack_Single_AEGS_tec_wall",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Usable.UNDEFINED",
-        "Name": "Weapon Rack",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Ports": [
-          {
-            "PortName": "$IP_weapon_large_01",
-            "Size": 4,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_large_02",
-            "Size": 4,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_small_01",
-            "Size": 1,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_small_02",
-            "Size": 1,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "$IP_weapon_small_03",
-            "Size": 1,
-            "Types": [
-              "WeaponPersonal"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Types": [
-        "Usable.UNDEFINED"
-      ],
-      "Category": "Usables"
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     }
   },
   {
@@ -9430,6 +9253,27 @@
     }
   },
   {
+    "Name": "hardpoint_controller_missile",
+    "Port": {
+      "PortName": "hardpoint_controller_missile",
+      "Size": 0,
+      "Loadout": "Controller_Missile",
+      "InstalledItem": {
+        "UUID": "4750556e-1afc-45be-86f7-f7adbc1fb7aa",
+        "ClassName": "Controller_Missile",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "MissileController.UNDEFINED",
+        "Name": "MISSILES",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
     "Name": "hardpoint_brig_controller_chair",
     "Port": {
       "PortName": "hardpoint_brig_controller_chair",
@@ -9572,35 +9416,6 @@
     ]
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Idris",
-      "InstalledItem": {
-        "UUID": "682316a5-de11-4e02-a314-ce3592a2d85f",
-        "ClassName": "WeaponRegenPool_Crew_Idris",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Idris",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 100000,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
     "Name": "hardpoint_controller_capacitor_assignment",
     "Port": {
       "PortName": "hardpoint_controller_capacitor_assignment",
@@ -9622,77 +9437,6 @@
         "Volume": 1E-06
       },
       "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Idris",
-      "InstalledItem": {
-        "UUID": "56a7323f-4c0f-4aef-a3e9-fa18ac91a31a",
-        "ClassName": "WeaponRegenPool_Turret_Idris",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Idris",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 1000000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_controller_missile",
-    "Port": {
-      "PortName": "hardpoint_controller_missile",
-      "Size": 0,
-      "Loadout": "Controller_Missile",
-      "InstalledItem": {
-        "UUID": "4750556e-1afc-45be-86f7-f7adbc1fb7aa",
-        "ClassName": "Controller_Missile",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "MissileController.UNDEFINED",
-        "Name": "MISSILES",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_rear_turret_tail",
-    "Port": {
-      "PortName": "hardpoint_rear_turret_tail",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    }
-  },
-  {
-    "Name": "hardpoint_rear_turret_tail_seataccess",
-    "Port": {
-      "PortName": "hardpoint_rear_turret_tail_seataccess",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
     }
   },
   {
@@ -9772,6 +9516,825 @@
         "Volume": 1E-06
       },
       "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 4,
+      "Loadout": "LFSP_S04_AEGS_Idris",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_camera_turret_upper",
+    "Port": {
+      "PortName": "hardpoint_camera_turret_upper",
+      "Size": 4,
+      "Loadout": "AEGS_Idris_Remote_Camera_Turret_Upper",
+      "InstalledItem": {
+        "UUID": "cd66e83e-d139-4981-ba7a-4faf0e47a382",
+        "ClassName": "AEGS_Idris_Remote_Camera_Turret_Upper",
+        "Size": 4,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "Remote Turret",
+        "Description": "Remote Turret",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Tags": [
+          "flightReady",
+          "Idris_Base"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 2000.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 2.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "turret_left",
+            "Size": 3,
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Category": "Weapon hardpoints"
+          },
+          {
+            "PortName": "turret_right",
+            "Size": 3,
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Category": "Weapon hardpoints"
+          }
+        ]
+      },
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_camera_turret_lower",
+    "Port": {
+      "PortName": "hardpoint_camera_turret_lower",
+      "Size": 4,
+      "Loadout": "AEGS_Idris_Remote_Camera_Turret_Lower",
+      "InstalledItem": {
+        "UUID": "5b3f8f7b-f645-448b-ab16-642c57c49df3",
+        "ClassName": "AEGS_Idris_Remote_Camera_Turret_Lower",
+        "Size": 4,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "Remote Turret",
+        "Description": "Remote Turret",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Tags": [
+          "flightReady",
+          "Idris_Base"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 2000.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 2.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "turret_left",
+            "Size": 3,
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Category": "Weapon hardpoints"
+          },
+          {
+            "PortName": "turret_right",
+            "Size": 3,
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Category": "Weapon hardpoints"
+          }
+        ]
+      },
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_controller_weapon_missiles",
+    "Port": {
+      "PortName": "hardpoint_controller_weapon_missiles",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_docking_collar_left",
+    "Port": {
+      "PortName": "hardpoint_docking_collar_left",
+      "Size": 0,
+      "Loadout": "AEGS_Idris_M_PU_DockingTube_Template",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_docking_collar_right",
+    "Port": {
+      "PortName": "hardpoint_docking_collar_right",
+      "Size": 0,
+      "Loadout": "AEGS_Idris_M_PU_DockingTube_Template",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_01",
+    "Port": {
+      "PortName": "hardpoint_pdc_01",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_02",
+    "Port": {
+      "PortName": "hardpoint_pdc_02",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_03",
+    "Port": {
+      "PortName": "hardpoint_pdc_03",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_04",
+    "Port": {
+      "PortName": "hardpoint_pdc_04",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_05",
+    "Port": {
+      "PortName": "hardpoint_pdc_05",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_06",
+    "Port": {
+      "PortName": "hardpoint_pdc_06",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_07",
+    "Port": {
+      "PortName": "hardpoint_pdc_07",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_08",
+    "Port": {
+      "PortName": "hardpoint_pdc_08",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_09",
+    "Port": {
+      "PortName": "hardpoint_pdc_09",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_10",
+    "Port": {
+      "PortName": "hardpoint_pdc_10",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_11",
+    "Port": {
+      "PortName": "hardpoint_pdc_11",
+      "Size": 0,
+      "Loadout": "Turret_PDC_BEHR_A",
+      "Types": [
+        "TurretBase.MannedTurret"
+      ],
+      "Category": "Manned turrets"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_01_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_01_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_02_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_02_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_03_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_03_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_04_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_04_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_05_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_05_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_06_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_06_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_07_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_07_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_08_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_08_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_09_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_09_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_10_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_10_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_11_wc",
+    "Port": {
+      "PortName": "hardpoint_pdc_11_wc",
+      "Size": 0,
+      "Loadout": "Controller_Weapon",
+      "InstalledItem": {
+        "UUID": "c78851f1-ded8-4e8d-91ec-905e3dae075e",
+        "ClassName": "Controller_Weapon",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "WeaponController.UNDEFINED",
+        "Name": "WEAPONS",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_01_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_01_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_02_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_02_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_03_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_03_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_04_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_04_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_05_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_05_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_06_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_06_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_07_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_07_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_08_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_08_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_09_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_09_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_10_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_10_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_pdc_11_aim",
+    "Port": {
+      "PortName": "hardpoint_pdc_11_aim",
+      "Size": 1,
+      "Loadout": "AIModule_Unmanned_PU_PDC",
+      "InstalledItem": {
+        "UUID": "15881eca-d6f4-47fc-a5bb-633ca4bba06b",
+        "ClassName": "AIModule_Unmanned_PU_PDC",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "AIModule.UNDEFINED",
+        "Name": "AIModule_Unmanned_PU_PDC",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "AIModule.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_engineering_screen",
+    "Port": {
+      "PortName": "hardpoint_engineering_screen",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_engineering_screen2",
+    "Port": {
+      "PortName": "hardpoint_engineering_screen2",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     }
   }
 ]

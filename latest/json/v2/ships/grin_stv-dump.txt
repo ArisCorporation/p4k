@@ -2,7 +2,12 @@ GRIN_STV
 hardpoint_paint                                   S0                                                                                                                      DISABLED                                
 hardpoint_seat_driver                             S0                                                     GRIN_STV_Seat_Driver                                             UNKNOWN                                 
 hardpoint_dashboard_driver                        S0                                                     GRIN_STV_Dashboard_Driver                                        UNKNOWN                                 
- hardpoint_cockpit_radar                          S1   Display                                                                                                            UNKNOWN                                 
+ mfd_radar                                        S1   Display                                           Radar_Display_Screen_Template                                    UNKNOWN                                 
+ mfd_mainscreen                                   S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ mfd_speedometerq                                 S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ mfd_radar                                        S0                                                     Radar_Display_Screen_Template                                    DISABLED                                
+ mfd_mainscreen                                   S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ mfd_speedometerq                                 S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
 hardpoint_seat_access_driver                      S0                                                     GRIN_STV_SCItem_SeatAccess_Driver                                UNKNOWN                                 
 hardpoint_controller_wheel                        S0                                                     Controller_Wheel_GRIN_STV                                        UNKNOWN                                 
 hardpoint_controller_light                        S0                                                     Controller_Light                                                 UNKNOWN                                 
@@ -35,6 +40,9 @@ hardpoint_controller_fuel                         S0                            
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_GRIN_STV                                  UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
 hardpoint_air_traffic_controller                  S0                                                     GRIN_STV_ShipATCDataManager                                      UNKNOWN                                 
-hardpoint_computer                                S1   Misc.UNDEFINED                                    COMP_WLOP_S00_Adze                                               UNKNOWN                                 
+hardpoint_computer                                S0   Misc.UNDEFINED                                    COMP_WLOP_S00_Adze                                               UNKNOWN                                 
 hardpoint_power_plant                             S0   PowerPlant.Power                                  POWR_LPLT_S00_Radix_SCItem                                       Power plants                            
+hardpoint_relay_cockpit                           S1   Relay.UNDEFINED                                   RELAY_2slot                                                      UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
 

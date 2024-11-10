@@ -56,7 +56,7 @@
         "vehicleCareer": "@vehicle_focus_exploration",
         "vehicleCareerRef": "605f6ca1-9eae-4d78-9f7f-71288d44dada",
         "vehicleRole": "@vehicle_class_luxury",
-        "vehicleRoleRef": "00000000-0000-0000-0000-000000000000",
+        "vehicleRoleRef": "e23c9136-14ab-4814-8c99-50973444f9c4",
         "inventoryContainerParams": "81489cc5-9985-4ac4-ac24-2c9f14cd49fa",
         "maxBoundingBoxSize": {
           "x": 80.0,
@@ -68,6 +68,12 @@
         "loadout": {
           "SItemPortLoadoutManualParams": {
             "entries": [
+              {
+                "itemPortName": "hardpoint_paint",
+                "entityClassName": "",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
               {
                 "itemPortName": "hardpoint_seat_access_pilot",
                 "entityClassName": "ORIG_890J_Pilot_SeatAccess",
@@ -83,13 +89,49 @@
                     "entries": [
                       {
                         "itemPortName": "radar_helper",
-                        "entityClassName": "ORIG_890J_Hologlobe_RADR_Display",
+                        "entityClassName": "Radar_Display_ORIG_890",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       },
                       {
                         "itemPortName": "Display_HUD",
-                        "entityClassName": "Projector_HUD_Generic",
+                        "entityClassName": "",
+                        "entityClassReference": "083b0a84-46bb-4b06-ba3d-f62ba46c5576",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Support_Right",
+                        "entityClassName": "Vehicle_Screen_MFD_Holographic_ORIG_890J_T",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Support_Left",
+                        "entityClassName": "Vehicle_Screen_MFD_Holographic_ORIG_890J_T",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_MFD_Right",
+                        "entityClassName": "Vehicle_Screen_MFD_Holographic_ORIG_890J_B",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_MFD_Left",
+                        "entityClassName": "Vehicle_Screen_MFD_Holographic_ORIG_890J_B",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Annunciator_Right",
+                        "entityClassName": "Vehicle_Screen_Physical_Holo",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Annunciator_Left",
+                        "entityClassName": "Vehicle_Screen_Physical_Holo",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       }
@@ -119,7 +161,24 @@
                 "itemPortName": "hardpoint_seat_bridge_left",
                 "entityClassName": "ORIG_890J_Seat_Bridge_Left",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "Screen_Console",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_MFD",
+                        "entityClassName": "",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_seat_access_bridge_right",
@@ -131,19 +190,70 @@
                 "itemPortName": "hardpoint_seat_bridge_right",
                 "entityClassName": "ORIG_890J_Seat_Bridge_Right",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "Screen_Console",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_MFD",
+                        "entityClassName": "",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_seat_BB_Left",
                 "entityClassName": "ORIG_890J_Seat_BattleBridge_Left",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "Screen_Console",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_MFD",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_seat_BB_Right",
                 "entityClassName": "ORIG_890J_Seat_BattleBridge_Right",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "Screen_Console",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_MFD",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_seat_BB_middle",
@@ -153,8 +263,44 @@
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
-                        "itemPortName": "Display_HUD",
-                        "entityClassName": "Projector_HUD_Generic",
+                        "itemPortName": "Screen_Console",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_HUD",
+                        "entityClassName": "H_Dashboard_Projector_HUD_ORIG_890Jump",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "radar_helper",
+                        "entityClassName": "Radar_Display_ORIG_890",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Support_Right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Support_Left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Annunciator_Right",
+                        "entityClassName": "Vehicle_Screen_Physical_Holo",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Annunciator_Left",
+                        "entityClassName": "Vehicle_Screen_Physical_Holo",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       }
@@ -193,30 +339,6 @@
                 "loadout": {}
               },
               {
-                "itemPortName": "hardpoint_radar_02",
-                "entityClassName": "RADR_CHCO_S02_Surveyor",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_radar_03",
-                "entityClassName": "RADR_CHCO_S02_Surveyor",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_radar_turret_upper",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_radar_turret_lower",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
                 "itemPortName": "hardpoint_scanner",
                 "entityClassName": "",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -236,12 +358,6 @@
               },
               {
                 "itemPortName": "hardpoint_powerplant_01",
-                "entityClassName": "POWR_ORIG_S04_890J_SCItem",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_powerplant_02",
                 "entityClassName": "POWR_ORIG_S04_890J_SCItem",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
@@ -286,7 +402,18 @@
                 "itemPortName": "hardpoint_quantum_drive",
                 "entityClassName": "QDRV_ORIG_S04_890J_SCItem",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_jump_drive",
+                        "entityClassName": "",
+                        "entityClassReference": "5f54cdb1-8397-479f-9b14-8988fc53373e",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_quantum_fuel_tank",
@@ -956,6 +1083,24 @@
                             ]
                           }
                         }
+                      },
+                      {
+                        "itemPortName": "Screen_Right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "radar_helper",
+                        "entityClassName": "Radar_Display_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -1001,6 +1146,24 @@
                             ]
                           }
                         }
+                      },
+                      {
+                        "itemPortName": "Screen_Right",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "radar_helper",
+                        "entityClassName": "Radar_Display_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -1126,13 +1289,13 @@
               },
               {
                 "itemPortName": "Hardpoint_Airlock_Door_L",
-                "entityClassName": "Door_Ship_Exterior_ORIG_890J_Airlock",
+                "entityClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_890J_Airlock",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
               {
                 "itemPortName": "Hardpoint_Airlock_Door_R",
-                "entityClassName": "Door_Ship_Exterior_ORIG_890J_Airlock",
+                "entityClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_890J_Airlock",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -1181,18 +1344,6 @@
               {
                 "itemPortName": "hardpoint_controller_missile",
                 "entityClassName": "Controller_Missile",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_weapon_regen_pool",
-                "entityClassName": "",
-                "entityClassReference": "1e5938f3-8079-4928-8990-ab516d9a9013",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                "entityClassName": "WeaponRegenPool_Turret_890J",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -1259,6 +1410,84 @@
               {
                 "itemPortName": "hardpoint_entrance_lift",
                 "entityClassName": "Door_Ship_Exterior_ORIG_890Jump_Entrance_Elevator",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay",
+                "entityClassName": "RELAY_2slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_2",
+                "entityClassName": "RELAY_3slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_3",
+                "entityClassName": "RELAY_3slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_4",
+                "entityClassName": "RELAY_2slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_5",
+                "entityClassName": "RELAY_2slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_6",
+                "entityClassName": "RELAY_3slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_7",
+                "entityClassName": "RELAY_1slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_8",
+                "entityClassName": "RELAY_2slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_9",
+                "entityClassName": "RELAY_3slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_10",
+                "entityClassName": "RELAY_2slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_11",
+                "entityClassName": "RELAY_3slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_12",
+                "entityClassName": "RELAY_3slot_slim",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_lifesupport",
+                "entityClassName": "LFSP_S04_ORIG_890",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               }
@@ -1330,7 +1559,7 @@
         }
       },
       "SDegradationParams": {
-        "MaxLifetimeHours": 25.0,
+        "MaxLifetimeHours": 0.0,
         "InitialAgeRatio": 0.0,
         "DegradeOnlyWhenAttached": false
       },
@@ -1408,8 +1637,8 @@
             "PortTags": "",
             "RequiredPortTags": "",
             "Flags": "",
-            "MinSize": 0,
-            "MaxSize": 0,
+            "MinSize": 1,
+            "MaxSize": 1,
             "InteractionPointSize": -1.0,
             "DefaultWeaponGroup": "UNDEFINED",
             "Types": [
@@ -1425,8 +1654,8 @@
             "PortTags": "",
             "RequiredPortTags": "",
             "Flags": "",
-            "MinSize": 0,
-            "MaxSize": 0,
+            "MinSize": 1,
+            "MaxSize": 1,
             "InteractionPointSize": -1.0,
             "DefaultWeaponGroup": "UNDEFINED",
             "Types": [
@@ -1442,8 +1671,8 @@
             "PortTags": "",
             "RequiredPortTags": "",
             "Flags": "",
-            "MinSize": 0,
-            "MaxSize": 0,
+            "MinSize": 1,
+            "MaxSize": 1,
             "InteractionPointSize": -1.0,
             "DefaultWeaponGroup": "UNDEFINED",
             "Types": [
@@ -1459,13 +1688,246 @@
             "PortTags": "",
             "RequiredPortTags": "",
             "Flags": "",
-            "MinSize": 0,
-            "MaxSize": 0,
+            "MinSize": 1,
+            "MaxSize": 1,
             "InteractionPointSize": -1.0,
             "DefaultWeaponGroup": "UNDEFINED",
             "Types": [
               {
                 "Type": "Door",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_2",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_3",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_4",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_5",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_6",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_7",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_8",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_9",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_10",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_11",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay_12",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 0,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_lifesupport",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 4,
+            "MaxSize": 4,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": []
+          },
+          {
+            "Name": "hardpoint_paint",
+            "DisplayName": "",
+            "PortTags": "Paint_890J",
+            "RequiredPortTags": "Paint_890J",
+            "Flags": "invisible ",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Paints",
                 "SubTypes": []
               }
             ]

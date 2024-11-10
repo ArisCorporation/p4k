@@ -1,24 +1,6 @@
 {
   "PilotHardpoints": [
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapon_locker",
       "Size": 1,
       "Loadout": "Weapon_Rack_MISC_Hull_A",
@@ -223,32 +205,32 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_1",
-      "Size": 1,
-      "Loadout": "SHLD_BASL_S01_Bulwark_SCItem",
+      "Size": 2,
+      "Loadout": "SHLD_BASL_S02_Armada_SCItem",
       "InstalledItem": {
-        "UUID": "624e6c75-afd8-4606-a10e-45d12cb3c882",
-        "ClassName": "SHLD_BASL_S01_Bulwark_SCItem",
-        "Size": 1,
-        "Grade": 3,
+        "UUID": "7ff2c313-51c7-459b-91e5-8afd089df32f",
+        "ClassName": "SHLD_BASL_S02_Armada_SCItem",
+        "Size": 2,
+        "Grade": 4,
         "Type": "Shield.UNDEFINED",
-        "Name": "Bulwark",
-        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 1\nGrade: C\nClass: Industrial\n\nThe Bulwark shield generator provides industrial-grade durability and increased performance, but at the expense of a higher emission level. ",
+        "Name": "Armada",
+        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk\nSize: 2\nGrade: D\nClass: Industrial\n\nBasilisk started by making cutting edge hull plating that was renowned for being durable and dependable. Today they carry on that proud legacy with industrial shield generators like the Armada. ",
         "Manufacturer": {
           "Code": "BASL",
           "Name": "Basilisk"
         },
-        "Width": 0.2233005,
+        "Width": 0.4466009,
         "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
+        "Length": 3.316511,
+        "Volume": 0.252,
         "DimensionOverrides": {
           "Width": 2.25,
           "Height": 0.75,
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -279,93 +261,17 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 40.0
+          "Health": 730.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
-          "PowerBase": 200.0,
-          "PowerDraw": 250.0
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
         },
         "HeatConnection": {
-          "ThermalEnergyBase": 20309.38,
-          "ThermalEnergyDraw": 21200.0,
-          "CoolingRate": 78.67836
-        }
-      },
-      "Types": [
-        "Shield.UNDEFINED"
-      ],
-      "Category": "Shield generators"
-    },
-    {
-      "PortName": "hardpoint_shield_generator_2",
-      "Size": 1,
-      "Loadout": "SHLD_BASL_S01_Bulwark_SCItem",
-      "InstalledItem": {
-        "UUID": "624e6c75-afd8-4606-a10e-45d12cb3c882",
-        "ClassName": "SHLD_BASL_S01_Bulwark_SCItem",
-        "Size": 1,
-        "Grade": 3,
-        "Type": "Shield.UNDEFINED",
-        "Name": "Bulwark",
-        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 1\nGrade: C\nClass: Industrial\n\nThe Bulwark shield generator provides industrial-grade durability and increased performance, but at the expense of a higher emission level. ",
-        "Manufacturer": {
-          "Code": "BASL",
-          "Name": "Basilisk"
-        },
-        "Width": 0.2233005,
-        "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
-        "DimensionOverrides": {
-          "Width": 2.25,
-          "Height": 0.75,
-          "Depth": 2.25
-        },
-        "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
-          "DownedDelay": 10.0,
-          "DamagedDelay": 5.0,
-          "Absorption": {
-            "Physical": {
-              "Minimum": 0.0,
-              "Maximum": 0.3
-            },
-            "Energy": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Distortion": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Thermal": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Biochemical": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Stun": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            }
-          }
-        },
-        "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 40.0
-        },
-        "PowerConnection": {
-          "PowerBase": 200.0,
-          "PowerDraw": 250.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 20309.38,
-          "ThermalEnergyDraw": 21200.0,
-          "CoolingRate": 78.67836
+          "ThermalEnergyBase": 93246.87,
+          "ThermalEnergyDraw": 94500.0,
+          "CoolingRate": 188.4987
         }
       },
       "Types": [
@@ -404,8 +310,8 @@
           "Output": 2313.85
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 21.0
+          "Health": 670.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -453,8 +359,8 @@
           "Rate": 200000.0
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 20.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -500,8 +406,8 @@
           "Rate": 200000.0
         },
         "Durability": {
-          "Health": 1500.0,
-          "Lifetime": 20.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -576,8 +482,7 @@
           "MaxThrustFuelRate": 62.5
         },
         "Durability": {
-          "Health": 11400.0,
-          "Lifetime": 720.0
+          "Health": 11400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -620,8 +525,7 @@
           "MaxThrustFuelRate": 8.3125
         },
         "Durability": {
-          "Health": 11400.0,
-          "Lifetime": 720.0
+          "Health": 11400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -664,8 +568,7 @@
           "MaxThrustFuelRate": 8.3125
         },
         "Durability": {
-          "Health": 11400.0,
-          "Lifetime": 720.0
+          "Health": 11400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -710,8 +613,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -754,8 +656,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -800,8 +701,7 @@
           "MaxThrustFuelRate": 11.887500000000001
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -844,8 +744,7 @@
           "MaxThrustFuelRate": 11.887500000000001
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -888,8 +787,7 @@
           "MaxThrustFuelRate": 11.887500000000001
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -932,8 +830,7 @@
           "MaxThrustFuelRate": 11.887500000000001
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -978,8 +875,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1022,8 +918,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1066,8 +961,7 @@
           "MaxThrustFuelRate": 2.96875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1110,8 +1004,7 @@
           "MaxThrustFuelRate": 2.96875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1154,8 +1047,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1198,8 +1090,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1242,8 +1133,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1286,8 +1176,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1330,8 +1219,7 @@
           "MaxThrustFuelRate": 2.96875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1374,8 +1262,7 @@
           "MaxThrustFuelRate": 2.96875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1418,8 +1305,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1462,8 +1348,7 @@
           "MaxThrustFuelRate": 0.9906250000000001
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

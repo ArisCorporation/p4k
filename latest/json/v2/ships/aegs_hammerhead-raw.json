@@ -91,14 +91,44 @@
                   "SItemPortLoadoutManualParams": {
                     "entries": [
                       {
-                        "itemPortName": "Radar_Helper",
-                        "entityClassName": "AEGS_Hammerhead_RADR_Display",
+                        "itemPortName": "Display_HUD",
+                        "entityClassName": "H_Dashboard_Projector_HUD_AEGS_Hammerhead",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       },
                       {
-                        "itemPortName": "Display_HUD",
-                        "entityClassName": "Projector_HUD_Generic",
+                        "itemPortName": "screen_central",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "pilot_TargetingMFD",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "pilot_OwnShipMFD",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "pilot_support_l_screen",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "pilot_support_r_screen",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "pilot_ann_panel",
+                        "entityClassName": "Vehicle_Screen_Physical",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       }
@@ -121,13 +151,37 @@
                     "entries": [
                       {
                         "itemPortName": "Radar_Helper",
-                        "entityClassName": "AEGS_Hammerhead_RADR_Display",
+                        "entityClassName": "Radar_Display_Template",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       },
                       {
                         "itemPortName": "Display_HUD",
-                        "entityClassName": "Projector_HUD_Generic",
+                        "entityClassName": "H_Dashboard_Projector_HUD_AEGS_Hammerhead_CP",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "copilot_OwnShipMFD",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "copilot_support_l_screen",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "copilot_support_r_screen",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "copilot_ann_panel",
+                        "entityClassName": "Vehicle_Screen_Physical",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       }
@@ -149,13 +203,7 @@
               },
               {
                 "itemPortName": "hardpoint_cargo_bay_engineer_console",
-                "entityClassName": "AEGS_Hammerhead_SCItem_Engineer_Console",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_cargo_bay_engineer_access",
-                "entityClassName": "AEGS_Hammerhead_SCItem_Engineer_Access",
+                "entityClassName": "",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -163,25 +211,35 @@
                 "itemPortName": "hardpoint_component_room_left_engineer_console",
                 "entityClassName": "AEGS_Hammerhead_SCItem_Engineer_Console",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_component_room_left_engineer_access",
-                "entityClassName": "AEGS_Hammerhead_SCItem_Engineer_Access_Left",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "console_screen_mesh",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_component_room_right_engineer_console",
                 "entityClassName": "AEGS_Hammerhead_SCItem_Engineer_Console",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_component_room_right_engineer_access",
-                "entityClassName": "AEGS_Hammerhead_SCItem_Engineer_Access_Right",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "console_screen_mesh",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_seat_access_captains_quarters",
@@ -193,7 +251,18 @@
                 "itemPortName": "hardpoint_dashboard_captains_quarters",
                 "entityClassName": "AEGS_Hammerhead_SCItem_Dashboard_Captain_Room",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "Screen_Center",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_cockpit_selfdestruct",
@@ -295,7 +364,18 @@
                 "itemPortName": "hardpoint_quantum_drive",
                 "entityClassName": "QDRV_JUST_S03_Kama_SCItem",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_jump_drive",
+                        "entityClassName": "JDRV_TARS_S03_C_Explorer",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_quantum_fuel",
@@ -539,6 +619,36 @@
                         "entityClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -547,12 +657,6 @@
               {
                 "itemPortName": "hardpoint_seat_access_turret_front_left",
                 "entityClassName": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_FrontLeft",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "turret_radar_side_front_left",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -636,6 +740,36 @@
                         "entityClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -644,12 +778,6 @@
               {
                 "itemPortName": "hardpoint_seat_access_turret_front_right",
                 "entityClassName": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_FrontRight",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "turret_radar_side_front_right",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -733,6 +861,36 @@
                         "entityClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -741,12 +899,6 @@
               {
                 "itemPortName": "hardpoint_seat_access_turret_back_left",
                 "entityClassName": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_BackLeft",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "turret_radar_side_back_left",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -830,6 +982,36 @@
                         "entityClassName": "AEGS_Hammerhead_Side_Turret_Lighting",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -838,12 +1020,6 @@
               {
                 "itemPortName": "hardpoint_seat_access_turret_back_right",
                 "entityClassName": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Side_BackRight",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "turret_radar_side_back_right",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -921,6 +1097,36 @@
                             ]
                           }
                         }
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -929,12 +1135,6 @@
               {
                 "itemPortName": "hardpoint_seat_access_turret_top",
                 "entityClassName": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Top",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "turret_radar_top",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -1012,6 +1212,36 @@
                             ]
                           }
                         }
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Bottom",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_Top",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Radar",
+                        "entityClassName": "Radar_Display_Screen_Template",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
                       }
                     ]
                   }
@@ -1020,12 +1250,6 @@
               {
                 "itemPortName": "hardpoint_seat_access_turret_rear",
                 "entityClassName": "AEGS_Hammerhead_SCItem_SeatAccess_Turret_Bottom",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "turret_radar_rear",
-                "entityClassName": "RADR_GRNP_S01_Ecouter",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               },
@@ -1418,18 +1642,6 @@
                 "loadout": {}
               },
               {
-                "itemPortName": "hardpoint_weapon_regen_pool",
-                "entityClassName": "",
-                "entityClassReference": "1af0628c-823b-45e1-ad43-32142f16a085",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                "entityClassName": "WeaponRegenPool_Turret_Hammerhead",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
                 "itemPortName": "hardpoint_controller_capacitor_assignment",
                 "entityClassName": "Controller_CapacitorAssignment",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -1462,6 +1674,18 @@
               {
                 "itemPortName": "hardpoint_airlock_door_front",
                 "entityClassName": "Door_Ship_Exterior_AEGS_Hammerhead_Airlock_Door",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_relay_cockpit",
+                "entityClassName": "RELAY_1slot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_lifesupport",
+                "entityClassName": "LFSP_TYDT_S03_ComfortAirMax",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {}
               }
@@ -1533,7 +1757,7 @@
         }
       },
       "SDegradationParams": {
-        "MaxLifetimeHours": 25.0,
+        "MaxLifetimeHours": 0.0,
         "InitialAgeRatio": 0.0,
         "DegradeOnlyWhenAttached": false
       },
@@ -1604,6 +1828,52 @@
                 "SubTypes": []
               }
             ]
+          },
+          {
+            "Name": "hardpoint_relay_cockpit",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_lifesupport",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible",
+            "MinSize": 3,
+            "MaxSize": 3,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "LifeSupportGenerator",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "engineeringBuff",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "",
+            "MinSize": 0,
+            "MaxSize": 0,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": []
           }
         ]
       }

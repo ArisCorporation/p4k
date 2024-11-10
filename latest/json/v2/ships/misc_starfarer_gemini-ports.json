@@ -35,41 +35,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Starfarer",
-      "InstalledItem": {
-        "UUID": "696a3711-ecf1-44e2-ac21-719bafa36a89",
-        "ClassName": "WeaponRegenPool_Turret_Starfarer",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Starfarer",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 1000000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   ],
   "MannedTurrets": [
@@ -183,9 +148,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -230,9 +192,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -279,9 +238,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -326,9 +282,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -375,9 +328,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -422,9 +372,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -471,9 +418,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -519,9 +463,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -566,9 +507,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -950,8 +888,8 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -982,8 +920,160 @@
           }
         },
         "Durability": {
-          "Health": 1485.0,
-          "Lifetime": 80.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 2000.0,
+          "PowerDraw": 2500.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 465000.0,
+          "ThermalEnergyDraw": 470000.0,
+          "CoolingRate": 144.3077
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    },
+    {
+      "PortName": "hardpoint_shield_generator_B",
+      "Size": 3,
+      "Loadout": "SHLD_BASL_S03_Stronghold_SCItem",
+      "InstalledItem": {
+        "UUID": "3a2e37f0-dc95-4082-b74d-fe968ed64eb3",
+        "ClassName": "SHLD_BASL_S03_Stronghold_SCItem",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "Stronghold",
+        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 3\nGrade: C\nClass: Industrial\n\nThe Stronghold shield generator uses patented hull plating techniques to reinforce the generator’s body to make it one of the sturdiest on the market. That means the shield and component are both built to last.",
+        "Manufacturer": {
+          "Code": "BASL",
+          "Name": "Basilisk"
+        },
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 0.756,
+        "DimensionOverrides": {
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
+        },
+        "Shield": {
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 1300.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 2000.0,
+          "PowerDraw": 2500.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 465000.0,
+          "ThermalEnergyDraw": 470000.0,
+          "CoolingRate": 144.3077
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    },
+    {
+      "PortName": "hardpoint_shield_generator_C",
+      "Size": 3,
+      "Loadout": "SHLD_BASL_S03_Stronghold_SCItem",
+      "InstalledItem": {
+        "UUID": "3a2e37f0-dc95-4082-b74d-fe968ed64eb3",
+        "ClassName": "SHLD_BASL_S03_Stronghold_SCItem",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "Stronghold",
+        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 3\nGrade: C\nClass: Industrial\n\nThe Stronghold shield generator uses patented hull plating techniques to reinforce the generator’s body to make it one of the sturdiest on the market. That means the shield and component are both built to last.",
+        "Manufacturer": {
+          "Code": "BASL",
+          "Name": "Basilisk"
+        },
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 0.756,
+        "DimensionOverrides": {
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
+        },
+        "Shield": {
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 2000.0,
@@ -1031,8 +1121,8 @@
           "Output": 37500.0
         },
         "Durability": {
-          "Health": 1296.0,
-          "Lifetime": 60.0
+          "Health": 2000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1080,8 +1170,8 @@
           "Rate": 10400000.0
         },
         "Durability": {
-          "Health": 972.0,
-          "Lifetime": 176.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1127,8 +1217,8 @@
           "Rate": 10400000.0
         },
         "Durability": {
-          "Health": 972.0,
-          "Lifetime": 176.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1203,8 +1293,7 @@
           "MaxThrustFuelRate": 423.5
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1247,8 +1336,7 @@
           "MaxThrustFuelRate": 244.00439999999998
         },
         "Durability": {
-          "Health": 22500.0,
-          "Lifetime": 720.0
+          "Health": 22500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1291,8 +1379,7 @@
           "MaxThrustFuelRate": 244.00439999999998
         },
         "Durability": {
-          "Health": 22500.0,
-          "Lifetime": 720.0
+          "Health": 22500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1337,8 +1424,7 @@
           "MaxThrustFuelRate": 264.6875
         },
         "Durability": {
-          "Health": 21178.0,
-          "Lifetime": 720.0
+          "Health": 21178.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1381,8 +1467,7 @@
           "MaxThrustFuelRate": 264.6875
         },
         "Durability": {
-          "Health": 21178.0,
-          "Lifetime": 720.0
+          "Health": 21178.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1427,8 +1512,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1471,8 +1555,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1515,8 +1598,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1559,8 +1641,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1605,8 +1686,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1649,8 +1729,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1693,8 +1772,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1737,8 +1815,7 @@
           "MaxThrustFuelRate": 50.0
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1781,8 +1858,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1825,8 +1901,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1869,8 +1944,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1913,8 +1987,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1957,8 +2030,7 @@
           "MaxThrustFuelRate": 3.125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2001,8 +2073,7 @@
           "MaxThrustFuelRate": 3.125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2045,8 +2116,7 @@
           "MaxThrustFuelRate": 3.125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2089,8 +2159,7 @@
           "MaxThrustFuelRate": 3.125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

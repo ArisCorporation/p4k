@@ -27,15 +27,52 @@
   },
   "Ports": [
     {
-      "PortName": "hardpoint_cockpit_radar",
+      "PortName": "Display_HUD",
+      "Size": 1
+    },
+    {
+      "PortName": "MFD_Left",
       "Size": 1,
       "Types": [
         "Display"
       ]
     },
     {
-      "PortName": "Display_HUD",
-      "Size": 1
+      "PortName": "MFD_Middle",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "MFD_Right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "MFD_Radar",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "status_right",
+      "Size": 0
+    },
+    {
+      "PortName": "status_left",
+      "Size": 0
+    },
+    {
+      "PortName": "HUD_Left",
+      "Size": 0
+    },
+    {
+      "PortName": "HUD_Right",
+      "Size": 0
     }
   ]
 }

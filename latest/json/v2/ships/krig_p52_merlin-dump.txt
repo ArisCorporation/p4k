@@ -2,8 +2,18 @@ KRIG_P52_Merlin
 hardpoint_seat_access                             S0                                                     KRIG_P52_Merlin_SeatAccess                                       UNKNOWN                                 
 hardpoint_seat_pilot                              S0                                                     KRIG_P52_Merlin_Seat_Pilot                                       UNKNOWN                                 
 hardpoint_dashboard_pilot                         S0                                                     KRIG_P52_Merlin_Dashboard_Pilot                                  UNKNOWN                                 
- Display_HUD                                      S1                                                     Projector_HUD_Generic                                            UNKNOWN                                 
- Display_HUD                                      S0                                                     Projector_HUD_Generic                                            DISABLED                                
+ Display_HUD                                      S1                                                                                                                      UNKNOWN                                 
+ screen_radar                                     S1   Display                                                                                                            UNKNOWN                                 
+ screen_annunciator_left                          S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ screen_annunciator_right                         S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ screen_mfd_left                                  S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ screen_mfd_right                                 S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ Display_HUD                                      S0                                                                                                                      DISABLED                                
+ screen_radar                                     S0                                                                                                                      DISABLED                                
+ screen_annunciator_left                          S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
+ screen_annunciator_right                         S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
+ screen_mfd_left                                  S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ screen_mfd_right                                 S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
 hardpoint_self_destruct_pilot                     S1   SelfDestruct.UNDEFINED                            VHCL_SelfDestruct_10s                                            Self destruct                           
 hardpoint_controller_door                         S0                                                     Controller_Door                                                  UNKNOWN                                 
 hardpoint_controller_light                        S0                                                     Controller_Light                                                 UNKNOWN                                 
@@ -55,11 +65,16 @@ hardpoint_wing_right                              S0                            
 hardpoint_docking_collar                          S1   DockingCollar.UNDEFINED                           KRIG_P52_Merlin_DockingTube                                      UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
 hardpoint_air_traffic_controller                  S0                                                     KRIG_P52_Merlin_ATCDataManager                                   UNKNOWN                                 
-hardpoint_weapon_regen_pool                       S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
-hardpoint_weapon_regen_pool_turrets               S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
 hardpoint_controller_capacitor_assignment         S0                                                     Controller_CapacitorAssignment                                   UNKNOWN                                 
 hardpoint_controller_fuel                         S0                                                     Controller_Fuel                                                  UNKNOWN                                 
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_KRIG_P52_Merlin                           UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
 hardpoint_cockpit_flair_hang                      S0                                                                                                                      DISABLED                                
+hardpoint_relay_cockpit                           S1   Relay.UNDEFINED                                   RELAY_2slot                                                      UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+hardpoint_lifesupport                             S0   LifeSupportGenerator.UNDEFINED                    LFSP_TYDT_S00_ComfortAirLite                                     UNKNOWN                                 
+ $slot_01                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_02                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_03                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
 

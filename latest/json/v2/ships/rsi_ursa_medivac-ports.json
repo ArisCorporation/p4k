@@ -1,58 +1,6 @@
 {
   "PilotHardpoints": [
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Ursa",
-      "InstalledItem": {
-        "UUID": "97502cac-ff50-4411-8aa7-13653fc9841f",
-        "ClassName": "WeaponRegenPool_Crew_Ursa",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Ursa",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Ursa",
-      "InstalledItem": {
-        "UUID": "355514e2-449e-48ac-9f9b-430fb2c1a444",
-        "ClassName": "WeaponRegenPool_Turret_Ursa",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Ursa",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapon_locker",
       "Size": 0,
       "Loadout": "",
@@ -120,7 +68,7 @@
               },
               "Durability": {
                 "Health": 525.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 180.0,
@@ -140,7 +88,7 @@
                   "Size": 1.0,
                   "Capacity": 0.0,
                   "ImpactDamage": {
-                    "Energy": 19.44
+                    "Energy": 17.496
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -163,10 +111,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Energy": 19.44
+                      "Energy": 17.496
                     },
                     "DamagePerSecond": {
-                      "Energy": 243.00000000000003
+                      "Energy": 218.7
                     }
                   }
                 ],
@@ -185,7 +133,7 @@
                 "Size": 1.0,
                 "Capacity": 0.0,
                 "ImpactDamage": {
-                  "Energy": 19.44
+                  "Energy": 17.496
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -275,7 +223,7 @@
               },
               "Durability": {
                 "Health": 525.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 180.0,
@@ -295,7 +243,7 @@
                   "Size": 1.0,
                   "Capacity": 0.0,
                   "ImpactDamage": {
-                    "Energy": 19.44
+                    "Energy": 17.496
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -318,10 +266,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Energy": 19.44
+                      "Energy": 17.496
                     },
                     "DamagePerSecond": {
-                      "Energy": 243.00000000000003
+                      "Energy": 218.7
                     }
                   }
                 ],
@@ -340,7 +288,7 @@
                 "Size": 1.0,
                 "Capacity": 0.0,
                 "ImpactDamage": {
-                  "Energy": 19.44
+                  "Energy": 17.496
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -439,8 +387,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -471,8 +419,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -520,8 +468,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -569,8 +517,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -598,6 +546,92 @@
   "HydogenFuelIntakes": [],
   "InterdictionHardpoints": [],
   "CargoGrids": [
+    {
+      "PortName": "hardpoint_bed",
+      "Size": 1,
+      "Loadout": "Bed_Single_Medical_Ursa_Medivac",
+      "InstalledItem": {
+        "UUID": "7b892f32-472f-4d9b-87a9-d7ef16f7c3e5",
+        "ClassName": "Bed_Single_Medical_Ursa_Medivac",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Usable.UNDEFINED",
+        "Name": "Medical Bed",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "InventoryContainer": {
+          "SCU": 0.7999999999999999,
+          "x": 0.8,
+          "y": 1.6,
+          "z": 0.6,
+          "unit": 6.0
+        },
+        "Ports": [
+          {
+            "PortName": "Mattress",
+            "Size": 2,
+            "Types": [
+              "Seat"
+            ],
+            "Category": "Seats"
+          },
+          {
+            "PortName": "Pillow",
+            "Size": 2,
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "StandingScreen",
+            "Size": 0,
+            "Loadout": "Console_Standing_Angled_MedicalBed_AttachedToBedEnd",
+            "InstalledItem": {
+              "UUID": "272f05f5-ba0d-4d4b-9bd3-c401fd907c6b",
+              "ClassName": "Console_Standing_Angled_MedicalBed_AttachedToBedEnd",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Usable.UNDEFINED",
+              "Name": "Screen",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06
+            },
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Usable.UNDEFINED"
+      ],
+      "Category": "Usables"
+    },
+    {
+      "PortName": "hardpoint_chair",
+      "Size": 0,
+      "Loadout": "Seat_Chair_Anim_RSI_Ursa_Medivac",
+      "InstalledItem": {
+        "UUID": "4b4e7980-d286-4124-9929-13853b121a5b",
+        "ClassName": "Seat_Chair_Anim_RSI_Ursa_Medivac",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Usable.UNDEFINED",
+        "Name": "Seat",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "InventoryContainer": {
+          "SCU": 1E-06,
+          "x": 1.0,
+          "y": 1.25,
+          "z": 1.0,
+          "unit": 6.0
+        }
+      },
+      "Category": "UNKNOWN"
+    },
     {
       "PortName": "hardpoint_personal_storage_left",
       "Size": 1,

@@ -160,11 +160,11 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Ifcs": {
-          "MaxSpeed": 960.0,
-          "ScmSpeed": 160.0,
-          "Pitch": 18.0,
-          "Yaw": 18.0,
-          "Roll": 30.0,
+          "MaxSpeed": 1050.0,
+          "ScmSpeed": 202.5,
+          "Pitch": 32.0,
+          "Yaw": 32.0,
+          "Roll": 115.0,
           "Afterburner": {
             "SpoolUpTime": 0.0,
             "CapacitorThresholdRatio": 0.25,
@@ -172,7 +172,7 @@
             "CapacitorAfterburnerIdleCost": 1.0,
             "CapacitorAfterburnerLinearCost": 0.0,
             "CapacitorAfterburnerAngularCost": 0.0,
-            "CapacitorRegenDelayAfterUse": 1.1,
+            "CapacitorRegenDelayAfterUse": 1.0,
             "CapacitorRegenPerSec": 0.75
           }
         }
@@ -286,8 +286,8 @@
           "Rate": 11600000.0
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 192.0
+          "Health": 1700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -515,14 +515,14 @@
           {
             "PortName": "Radar_Helper",
             "Size": 1,
-            "Loadout": "AEGS_Redeemer_RADR_Display",
+            "Loadout": "Radar_Display_Redeemer",
             "InstalledItem": {
-              "UUID": "c4ce5dd9-3bfe-4949-8a69-b8608ba944a3",
-              "ClassName": "AEGS_Redeemer_RADR_Display",
+              "UUID": "186271f8-985e-4715-bce6-f244ffe465c8",
+              "ClassName": "Radar_Display_Redeemer",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "AEGS_Redeemer_RADR_Display",
+              "Name": "Radar_Display_Redeemer",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
@@ -536,19 +536,169 @@
           {
             "PortName": "Display_HUD",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
+            "Loadout": "H_Dashboard_Projector_HUD_AEGS_Redeemer",
             "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
+              "UUID": "f1cf46c9-783e-4f35-a78d-980d4c43f584",
+              "ClassName": "H_Dashboard_Projector_HUD_AEGS_Redeemer",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
+              "Name": "H_Dashboard_Projector_HUD_AEGS_Redeemer",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
               "Volume": 1E-06
             },
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_top_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_top_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_bottom_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_bottom_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Annunciator_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical_Holo",
+            "InstalledItem": {
+              "UUID": "89d12a4d-4327-45ba-954f-d81d91a6fd13",
+              "ClassName": "Vehicle_Screen_Physical_Holo",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical_Holo",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Annunciator_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical_Holo",
+            "InstalledItem": {
+              "UUID": "89d12a4d-4327-45ba-954f-d81d91a6fd13",
+              "ClassName": "Vehicle_Screen_Physical_Holo",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical_Holo",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -561,7 +711,7 @@
         "Port": {
           "PortName": "Radar_Helper",
           "Size": 0,
-          "Loadout": "AEGS_Redeemer_RADR_Display",
+          "Loadout": "Radar_Display_Redeemer",
           "Category": "DISABLED"
         }
       },
@@ -570,7 +720,61 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "H_Dashboard_Projector_HUD_AEGS_Redeemer",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_top_right",
+        "Port": {
+          "PortName": "screen_top_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_top_left",
+        "Port": {
+          "PortName": "screen_top_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_bottom_left",
+        "Port": {
+          "PortName": "screen_bottom_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_bottom_right",
+        "Port": {
+          "PortName": "screen_bottom_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Annunciator_left",
+        "Port": {
+          "PortName": "Annunciator_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical_Holo",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Annunciator_right",
+        "Port": {
+          "PortName": "Annunciator_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical_Holo",
           "Category": "DISABLED"
         }
       }
@@ -807,9 +1011,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -850,9 +1051,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -895,9 +1093,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -938,9 +1133,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -983,9 +1175,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -1026,9 +1215,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1071,9 +1257,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -1114,9 +1297,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1288,9 +1468,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -1331,9 +1508,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1376,9 +1550,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -1419,9 +1590,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1464,9 +1632,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -1507,9 +1672,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1552,9 +1714,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2057.53
@@ -1595,9 +1754,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1732,8 +1888,58 @@
           "Output": 37500.0
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 44.0
+          "Health": 2000.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 37500.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 353333.3,
+          "ThermalEnergyDraw": 375000.0,
+          "CoolingRate": 285.1282
+        }
+      },
+      "Types": [
+        "PowerPlant.Power"
+      ],
+      "Category": "Power plants"
+    }
+  },
+  {
+    "Name": "hardpoint_power_plant_2",
+    "Port": {
+      "PortName": "hardpoint_power_plant_2",
+      "Size": 3,
+      "Loadout": "POWR_AEGS_S03_Centurion_SCItem",
+      "InstalledItem": {
+        "UUID": "5db93be6-1fa1-450f-b539-fedf8690cab2",
+        "ClassName": "POWR_AEGS_S03_Centurion_SCItem",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "PowerPlant.Power",
+        "Name": "Centurion",
+        "Description": "Item Type: Power Plant\nManufacturer: Aegis Dynamics\nSize: 3\nGrade: C\nClass: Military\n\nThe Centurion stands ready to power your ship. This large power plant from Aegis Dynamics has been in service for centuries and has consistently proven to supply solid performance and durability.",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 0.756,
+        "DimensionOverrides": {
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 1.5
+        },
+        "PowerPlant": {
+          "Output": 37500.0
+        },
+        "Durability": {
+          "Health": 2000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1782,10 +1988,10 @@
           "FuelRate": 2.0709999999999998E-08,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 235872000.0,
+            "Speed": 190000000.0,
             "Cooldown": 21.6,
-            "Stage1AccelerationRate": 1080000.0,
-            "State2AccelerationRate": 13867670.0,
+            "Stage1AccelerationRate": 350000.0,
+            "State2AccelerationRate": 15000000.0,
             "SpoolUpTime": 6.0
           },
           "SplineJump": {
@@ -1797,8 +2003,8 @@
           }
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 41.6
+          "Health": 1100.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.5,
@@ -1813,15 +2019,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 2,
+            "Loadout": "JDRV_TARS_S02_C_Explorer",
+            "InstalledItem": {
+              "UUID": "649c2450-0194-4a4d-99f3-38c16aacad53",
+              "ClassName": "JDRV_TARS_S02_C_Explorer",
+              "Size": 2,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Excelsior",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 2\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Excelsior jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 490.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 20.0,
+                "PowerDraw": 200.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -1835,8 +2065,8 @@
         "Name": "hardpoint_jump_drive",
         "Port": {
           "PortName": "hardpoint_jump_drive",
-          "Size": 0,
-          "Loadout": "",
+          "Size": 2,
+          "Loadout": "JDRV_TARS_S02_C_Explorer",
           "Category": "DISABLED"
         }
       }
@@ -1924,8 +2154,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
+          "Health": 1100.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -1964,24 +2194,20 @@
     "Port": {
       "PortName": "hardpoint_ramp",
       "Size": 1,
-      "Loadout": "AEGS_Redeemer_Ramp",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Redeemer",
       "InstalledItem": {
-        "UUID": "702c6e21-7aa3-457f-946c-3b7cfde6c9bd",
-        "ClassName": "AEGS_Redeemer_Ramp",
+        "UUID": "b3d4b487-2caa-484e-ac69-c8ad20a4e4d9",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Redeemer",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Redeemer",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -2204,32 +2430,32 @@
     "Name": "hardpoint_shield_generator_l",
     "Port": {
       "PortName": "hardpoint_shield_generator_l",
-      "Size": 3,
-      "Loadout": "SHLD_GODI_S03_SureStop_SCItem",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
       "InstalledItem": {
-        "UUID": "925ec9df-cd0d-4c40-a5ad-6d22bdbfdeaa",
-        "ClassName": "SHLD_GODI_S03_SureStop_SCItem",
-        "Size": 3,
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
         "Grade": 3,
         "Type": "Shield.UNDEFINED",
-        "Name": "SureStop",
-        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 3\nGrade: C\nClass: Military\n\nGorgon’s SureStop shield generator was initially developed for military applications, aiming for a middle-of-the-road alternative for circumstances that are anything but. Featuring new Envelop projection technology, the SureStop emphasizes performance and dependability over lower signature.",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
         "Manufacturer": {
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 3.0,
-          "Height": 1.5,
-          "Depth": 3.0
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -2260,17 +2486,17 @@
           }
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 40.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
-          "PowerBase": 2000.0,
-          "PowerDraw": 2500.0
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
         },
         "HeatConnection": {
-          "ThermalEnergyBase": 463333.3,
-          "ThermalEnergyDraw": 470000.0,
-          "CoolingRate": 144.2051
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
         }
       },
       "Types": [
@@ -2283,32 +2509,32 @@
     "Name": "hardpoint_shield_generator_r",
     "Port": {
       "PortName": "hardpoint_shield_generator_r",
-      "Size": 3,
-      "Loadout": "SHLD_GODI_S03_SureStop_SCItem",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
       "InstalledItem": {
-        "UUID": "925ec9df-cd0d-4c40-a5ad-6d22bdbfdeaa",
-        "ClassName": "SHLD_GODI_S03_SureStop_SCItem",
-        "Size": 3,
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
         "Grade": 3,
         "Type": "Shield.UNDEFINED",
-        "Name": "SureStop",
-        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 3\nGrade: C\nClass: Military\n\nGorgon’s SureStop shield generator was initially developed for military applications, aiming for a middle-of-the-road alternative for circumstances that are anything but. Featuring new Envelop projection technology, the SureStop emphasizes performance and dependability over lower signature.",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
         "Manufacturer": {
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 3.0,
-          "Height": 1.5,
-          "Depth": 3.0
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
         },
         "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -2339,17 +2565,17 @@
           }
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 40.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
-          "PowerBase": 2000.0,
-          "PowerDraw": 2500.0
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
         },
         "HeatConnection": {
-          "ThermalEnergyBase": 463333.3,
-          "ThermalEnergyDraw": 470000.0,
-          "CoolingRate": 144.2051
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
         }
       },
       "Types": [
@@ -2376,14 +2602,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2419,14 +2644,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2462,14 +2686,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2505,14 +2728,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2548,14 +2770,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2591,14 +2812,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2634,14 +2854,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2677,14 +2896,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1500000.0,
+          "ThrustCapacity": 2000000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 4.6875
+          "MaxThrustFuelRate": 6.25
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2720,14 +2938,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 5900000.0,
+          "ThrustCapacity": 9000000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 59.730124999999994
+          "MaxThrustFuelRate": 91.11375
         },
         "Durability": {
-          "Health": 27500.0,
-          "Lifetime": 720.0
+          "Health": 27500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2763,14 +2980,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 5900000.0,
+          "ThrustCapacity": 9000000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 59.730124999999994
+          "MaxThrustFuelRate": 91.11375
         },
         "Durability": {
-          "Health": 27500.0,
-          "Lifetime": 720.0
+          "Health": 27500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2806,14 +3022,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3100000.0,
+          "ThrustCapacity": 7900000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 9.6875
+          "MaxThrustFuelRate": 24.6875
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2849,14 +3064,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 3100000.0,
+          "ThrustCapacity": 7900000.0,
           "FuelRate": 3.125E-06,
           "Type": "Maneuver",
-          "MaxThrustFuelRate": 9.6875
+          "MaxThrustFuelRate": 24.6875
         },
         "Durability": {
-          "Health": 25500.0,
-          "Lifetime": 720.0
+          "Health": 25500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2892,14 +3106,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 130000.0,
+          "ThrustCapacity": 110000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Retro",
-          "MaxThrustFuelRate": 1.3160874999999999
+          "MaxThrustFuelRate": 1.1136125
         },
         "Durability": {
-          "Health": 28950.0,
-          "Lifetime": 720.0
+          "Health": 28950.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2935,14 +3148,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 130000.0,
+          "ThrustCapacity": 110000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Retro",
-          "MaxThrustFuelRate": 1.3160874999999999
+          "MaxThrustFuelRate": 1.1136125
         },
         "Durability": {
-          "Health": 28950.0,
-          "Lifetime": 720.0
+          "Health": 28950.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2978,14 +3190,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1130000.0,
+          "ThrustCapacity": 2460000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 11.4398375
+          "MaxThrustFuelRate": 24.904425
         },
         "Durability": {
-          "Health": 21400.0,
-          "Lifetime": 720.0
+          "Health": 21400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3074,14 +3285,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1130000.0,
+          "ThrustCapacity": 2460000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 11.4398375
+          "MaxThrustFuelRate": 24.904425
         },
         "Durability": {
-          "Health": 21400.0,
-          "Lifetime": 720.0
+          "Health": 21400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3170,14 +3380,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1130000.0,
+          "ThrustCapacity": 2460000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 11.4398375
+          "MaxThrustFuelRate": 24.904425
         },
         "Durability": {
-          "Health": 21400.0,
-          "Lifetime": 720.0
+          "Health": 21400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3205,14 +3414,13 @@
               "Length": 0.15,
               "Volume": 1E-06,
               "Thruster": {
-                "ThrustCapacity": 2690000.0,
+                "ThrustCapacity": 5100000.0,
                 "FuelRate": 1.012375E-05,
                 "Type": "Maneuver",
-                "MaxThrustFuelRate": 27.232887499999997
+                "MaxThrustFuelRate": 51.631125
               },
               "Durability": {
-                "Health": 28950.0,
-                "Lifetime": 720.0
+                "Health": 28950.0
               },
               "PowerConnection": {
                 "PowerBase": 20.0,
@@ -3278,14 +3486,13 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Thruster": {
-          "ThrustCapacity": 1130000.0,
+          "ThrustCapacity": 2460000.0,
           "FuelRate": 1.012375E-05,
           "Type": "Main",
-          "MaxThrustFuelRate": 11.4398375
+          "MaxThrustFuelRate": 24.904425
         },
         "Durability": {
-          "Health": 21400.0,
-          "Lifetime": 720.0
+          "Health": 21400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3313,14 +3520,13 @@
               "Length": 0.15,
               "Volume": 1E-06,
               "Thruster": {
-                "ThrustCapacity": 2690000.0,
+                "ThrustCapacity": 5100000.0,
                 "FuelRate": 1.012375E-05,
                 "Type": "Maneuver",
-                "MaxThrustFuelRate": 27.232887499999997
+                "MaxThrustFuelRate": 51.631125
               },
               "Durability": {
-                "Health": 28950.0,
-                "Lifetime": 720.0
+                "Health": 28950.0
               },
               "PowerConnection": {
                 "PowerBase": 20.0,
@@ -3384,8 +3590,8 @@
         "Name": "turret_left",
         "Port": {
           "PortName": "turret_left",
-          "Size": 0,
-          "Loadout": "",
+          "Size": 4,
+          "Loadout": "Mount_Gimbal_S4",
           "Types": [
             "TurretBase.MannedTurret"
           ],
@@ -3396,8 +3602,8 @@
             "Name": "hardpoint_class_2",
             "Port": {
               "PortName": "hardpoint_class_2",
-              "Size": 0,
-              "Loadout": "",
+              "Size": 4,
+              "Loadout": "BEHR_BallisticGatling_S4",
               "Category": "DISABLED"
             }
           }
@@ -3407,8 +3613,8 @@
         "Name": "turret_right",
         "Port": {
           "PortName": "turret_right",
-          "Size": 0,
-          "Loadout": "",
+          "Size": 4,
+          "Loadout": "Mount_Gimbal_S4",
           "Types": [
             "TurretBase.MannedTurret"
           ],
@@ -3419,71 +3625,41 @@
             "Name": "hardpoint_class_2",
             "Port": {
               "PortName": "hardpoint_class_2",
-              "Size": 0,
-              "Loadout": "",
+              "Size": 4,
+              "Loadout": "BEHR_BallisticGatling_S4",
               "Category": "DISABLED"
             }
           }
         ]
+      },
+      {
+        "Name": "Screen_Right",
+        "Port": {
+          "PortName": "Screen_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Left",
+        "Port": {
+          "PortName": "Screen_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Radar",
+        "Port": {
+          "PortName": "Screen_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
       }
     ]
-  },
-  {
-    "Name": "hardpoint_turret_manned_front_radar",
-    "Port": {
-      "PortName": "hardpoint_turret_manned_front_radar",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
   },
   {
     "Name": "hardpoint_turret_manned_front_seat_access",
@@ -3567,65 +3743,35 @@
             }
           }
         ]
+      },
+      {
+        "Name": "Screen_Right",
+        "Port": {
+          "PortName": "Screen_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Left",
+        "Port": {
+          "PortName": "Screen_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Radar",
+        "Port": {
+          "PortName": "Screen_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
       }
     ]
-  },
-  {
-    "Name": "hardpoint_turret_manned_rear_radar",
-    "Port": {
-      "PortName": "hardpoint_turret_manned_rear_radar",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
   },
   {
     "Name": "hardpoint_turret_manned_rear_seat_access",
@@ -3712,63 +3858,6 @@
     }
   },
   {
-    "Name": "hardpoint_turret_remote_front_radar",
-    "Port": {
-      "PortName": "hardpoint_turret_remote_front_radar",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
-      "InstalledItem": {
-        "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
     "Name": "hardpoint_turret_remote_front_seat",
     "Port": {
       "PortName": "hardpoint_turret_remote_front_seat",
@@ -3792,10 +3881,57 @@
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "monitor",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "monitor",
+        "Port": {
+          "PortName": "monitor",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "",
+        "Port": {
+          "PortName": "",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_turret_remote_front_seat_access",
@@ -3840,15 +3976,12 @@
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
-        "Tags": [
-          "$AEGS_Redeemer_Turret"
-        ],
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0
+          "Health": 8500.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -3956,63 +4089,6 @@
     }
   },
   {
-    "Name": "hardpoint_turret_remote_rear_radar",
-    "Port": {
-      "PortName": "hardpoint_turret_remote_rear_radar",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
-      "InstalledItem": {
-        "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
     "Name": "hardpoint_turret_remote_rear_seat",
     "Port": {
       "PortName": "hardpoint_turret_remote_rear_seat",
@@ -4036,10 +4112,48 @@
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "monitor",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "monitor",
+        "Port": {
+          "PortName": "monitor",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_turret_remote_rear_seat_access",
@@ -4204,8 +4318,8 @@
     "Name": "hardpoint_life_support",
     "Port": {
       "PortName": "hardpoint_life_support",
-      "Size": 0,
-      "Loadout": "",
+      "Size": 21,
+      "Loadout": "LFSP_TYDT_S21_ComfortAirPlus",
       "Category": "DISABLED"
     }
   },
@@ -4300,7 +4414,7 @@
         "Size": 1,
         "Grade": 1,
         "Type": "Seat.UNDEFINED",
-        "Name": "AEGS_Redeemer_SCItem_Seat_Bed_Lower_Left",
+        "Name": "Bed",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4368,7 +4482,7 @@
         "Size": 1,
         "Grade": 1,
         "Type": "Seat.UNDEFINED",
-        "Name": "AEGS_Redeemer_SCItem_Seat_Bed_Lower_Right",
+        "Name": "Bed",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4436,7 +4550,7 @@
         "Size": 1,
         "Grade": 1,
         "Type": "Seat.UNDEFINED",
-        "Name": "AEGS_Redeemer_SCItem_Seat_Bed_Upper_Left",
+        "Name": "Bed",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4504,7 +4618,7 @@
         "Size": 1,
         "Grade": 1,
         "Type": "Seat.UNDEFINED",
-        "Name": "AEGS_Redeemer_SCItem_Seat_Bed_Upper_Right",
+        "Name": "Bed",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
@@ -4579,64 +4693,6 @@
         "Volume": 1E-06
       },
       "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_HeavyFighter",
-      "InstalledItem": {
-        "UUID": "9427bda1-a163-4655-98a9-32f30de74d4e",
-        "ClassName": "WeaponRegenPool_Crew_HeavyFighter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_HeavyFighter",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 10000,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 3,
-      "Loadout": "WeaponRegenPool_Turret_S3",
-      "InstalledItem": {
-        "UUID": "54ce0783-0713-4d87-a6ee-6ccb23a27afd",
-        "ClassName": "WeaponRegenPool_Turret_S3",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_S3",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 12000.0,
-          "AmmoLoad": 80000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   },
   {
@@ -5088,6 +5144,485 @@
     "Name": "hardpoint_cockpit_flair_hang",
     "Port": {
       "PortName": "hardpoint_cockpit_flair_hang",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_relay",
+    "Port": {
+      "PortName": "hardpoint_relay",
+      "Size": 1,
+      "Loadout": "RELAY_2slot_slim",
+      "InstalledItem": {
+        "UUID": "fd9d74e7-8b0a-46d3-8d14-7bf7c5e93900",
+        "ClassName": "RELAY_2slot_slim",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot_slim",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_2",
+    "Port": {
+      "PortName": "hardpoint_relay_2",
+      "Size": 1,
+      "Loadout": "RELAY_2slot_slim",
+      "InstalledItem": {
+        "UUID": "fd9d74e7-8b0a-46d3-8d14-7bf7c5e93900",
+        "ClassName": "RELAY_2slot_slim",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot_slim",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_3",
+    "Port": {
+      "PortName": "hardpoint_relay_3",
+      "Size": 1,
+      "Loadout": "RELAY_1slot_slim",
+      "InstalledItem": {
+        "UUID": "175e10ba-3752-4b28-bcb0-9f50c6349f80",
+        "ClassName": "RELAY_1slot_slim",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_1slot_slim",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 300.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_shield_generator_3",
+    "Port": {
+      "PortName": "hardpoint_shield_generator_3",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
+      "InstalledItem": {
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
+        "Manufacturer": {
+          "Code": "GODI",
+          "Name": "Gorgon Defender Industries"
+        },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 4740.0,
+          "Regeneration": 288.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 980.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    }
+  },
+  {
+    "Name": "hardpoint_shield_generator_4",
+    "Port": {
+      "PortName": "hardpoint_shield_generator_4",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
+      "InstalledItem": {
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
+        "Manufacturer": {
+          "Code": "GODI",
+          "Name": "Gorgon Defender Industries"
+        },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 4740.0,
+          "Regeneration": 288.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 980.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    }
+  },
+  {
+    "Name": "hardpoint_shield_generator_5",
+    "Port": {
+      "PortName": "hardpoint_shield_generator_5",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
+      "InstalledItem": {
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
+        "Manufacturer": {
+          "Code": "GODI",
+          "Name": "Gorgon Defender Industries"
+        },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 4740.0,
+          "Regeneration": 288.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 980.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    }
+  },
+  {
+    "Name": "hardpoint_shield_generator_6",
+    "Port": {
+      "PortName": "hardpoint_shield_generator_6",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
+      "InstalledItem": {
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
+        "Manufacturer": {
+          "Code": "GODI",
+          "Name": "Gorgon Defender Industries"
+        },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 4740.0,
+          "Regeneration": 288.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 980.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    }
+  },
+  {
+    "Name": "",
+    "Port": {
+      "PortName": "",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "",
+    "Port": {
+      "PortName": "",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "",
+    "Port": {
+      "PortName": "",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "",
+    "Port": {
+      "PortName": "",
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"

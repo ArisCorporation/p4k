@@ -19,41 +19,6 @@
       "Category": "Weapon hardpoints"
     },
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Starlifter",
-      "InstalledItem": {
-        "UUID": "13a3079e-d6e5-4184-820e-76e50173880a",
-        "ClassName": "WeaponRegenPool_Turret_Starlifter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Starlifter",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 1000000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapon_rack_rifle_1",
       "Size": 1,
       "Loadout": "Weapon_Rack_Starlifter_Armory_Large_Alt",
@@ -554,14 +519,14 @@
     {
       "PortName": "hardpoint_relay_turrets",
       "Size": 1,
-      "Loadout": "RELAY_shipItem_1slot",
+      "Loadout": "RELAY_1slot",
       "InstalledItem": {
         "UUID": "b50ce2fd-9b1d-4daf-8bbc-e5b10d769e63",
-        "ClassName": "RELAY_shipItem_1slot",
+        "ClassName": "RELAY_1slot",
         "Size": 1,
         "Grade": 1,
         "Type": "Relay.UNDEFINED",
-        "Name": "RELAY_shipItem_1slot",
+        "Name": "RELAY_1slot",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -632,7 +597,7 @@
             "Speed": 90.0,
             "Range": 1080.0,
             "Size": 0.0,
-            "Capacity": 135.0,
+            "Capacity": 25.0,
             "ImpactDamage": {},
             "BulletImpulseFalloff": {},
             "BulletPierceability": {},
@@ -660,7 +625,7 @@
           "Speed": 90.0,
           "Range": 1080.0,
           "Size": 0.0,
-          "Capacity": 135.0,
+          "Capacity": 25.0,
           "ImpactDamage": {},
           "BulletImpulseFalloff": {},
           "BulletPierceability": {},
@@ -714,7 +679,7 @@
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
-            "Capacity": 105.0,
+            "Capacity": 20.0,
             "ImpactDamage": {},
             "BulletImpulseFalloff": {},
             "BulletPierceability": {},
@@ -742,7 +707,7 @@
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
-          "Capacity": 105.0,
+          "Capacity": 20.0,
           "ImpactDamage": {},
           "BulletImpulseFalloff": {},
           "BulletPierceability": {},
@@ -796,7 +761,7 @@
             "Speed": 90.0,
             "Range": 1080.0,
             "Size": 0.0,
-            "Capacity": 135.0,
+            "Capacity": 25.0,
             "ImpactDamage": {},
             "BulletImpulseFalloff": {},
             "BulletPierceability": {},
@@ -824,7 +789,7 @@
           "Speed": 90.0,
           "Range": 1080.0,
           "Size": 0.0,
-          "Capacity": 135.0,
+          "Capacity": 25.0,
           "ImpactDamage": {},
           "BulletImpulseFalloff": {},
           "BulletPierceability": {},
@@ -878,7 +843,7 @@
             "Speed": 180.0,
             "Range": 144.0,
             "Size": 0.0,
-            "Capacity": 105.0,
+            "Capacity": 20.0,
             "ImpactDamage": {},
             "BulletImpulseFalloff": {},
             "BulletPierceability": {},
@@ -906,7 +871,7 @@
           "Speed": 180.0,
           "Range": 144.0,
           "Size": 0.0,
-          "Capacity": 105.0,
+          "Capacity": 20.0,
           "ImpactDamage": {},
           "BulletImpulseFalloff": {},
           "BulletPierceability": {},
@@ -925,75 +890,8 @@
   "Shields": [
     {
       "PortName": "hardpoint_shield_generator_l",
-      "Size": 3,
-      "Loadout": "SHLD_GODI_S03_FullBlock_SCItem",
-      "InstalledItem": {
-        "UUID": "6a4d4eb2-dacd-4b04-b17f-e7a02ea7e744",
-        "ClassName": "SHLD_GODI_S03_FullBlock_SCItem",
-        "Size": 3,
-        "Grade": 2,
-        "Type": "Shield.UNDEFINED",
-        "Name": "FullBlock",
-        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 3\nGrade: B\nClass: Military\n\nCrafted by former residents of Caliban, Gorgon’s FullBlock large shield generator has been repeatedly put to the test by members of the military and public. That means you can count on it regardless of what you come up against.",
-        "Manufacturer": {
-          "Code": "GODI",
-          "Name": "Gorgon Defender Industries"
-        },
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
-        "DimensionOverrides": {
-          "Width": 3.0,
-          "Height": 1.5,
-          "Depth": 3.0
-        },
-        "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
-          "DownedDelay": 10.0,
-          "DamagedDelay": 5.0,
-          "Absorption": {
-            "Physical": {
-              "Minimum": 0.0,
-              "Maximum": 0.3
-            },
-            "Energy": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Distortion": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Thermal": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Biochemical": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Stun": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            }
-          }
-        },
-        "Durability": {
-          "Health": 1188.0,
-          "Lifetime": 44.0
-        },
-        "PowerConnection": {
-          "PowerBase": 2000.0,
-          "PowerDraw": 2500.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 487250.0,
-          "ThermalEnergyDraw": 493500.0,
-          "CoolingRate": 151.4615
-        }
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "Shield.UNDEFINED"
       ],
@@ -1001,130 +899,15 @@
     },
     {
       "PortName": "hardpoint_shield_generator_r",
-      "Size": 3,
-      "Loadout": "SHLD_GODI_S03_FullBlock_SCItem",
-      "InstalledItem": {
-        "UUID": "6a4d4eb2-dacd-4b04-b17f-e7a02ea7e744",
-        "ClassName": "SHLD_GODI_S03_FullBlock_SCItem",
-        "Size": 3,
-        "Grade": 2,
-        "Type": "Shield.UNDEFINED",
-        "Name": "FullBlock",
-        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 3\nGrade: B\nClass: Military\n\nCrafted by former residents of Caliban, Gorgon’s FullBlock large shield generator has been repeatedly put to the test by members of the military and public. That means you can count on it regardless of what you come up against.",
-        "Manufacturer": {
-          "Code": "GODI",
-          "Name": "Gorgon Defender Industries"
-        },
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
-        "DimensionOverrides": {
-          "Width": 3.0,
-          "Height": 1.5,
-          "Depth": 3.0
-        },
-        "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
-          "DownedDelay": 10.0,
-          "DamagedDelay": 5.0,
-          "Absorption": {
-            "Physical": {
-              "Minimum": 0.0,
-              "Maximum": 0.3
-            },
-            "Energy": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Distortion": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Thermal": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Biochemical": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Stun": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            }
-          }
-        },
-        "Durability": {
-          "Health": 1188.0,
-          "Lifetime": 44.0
-        },
-        "PowerConnection": {
-          "PowerBase": 2000.0,
-          "PowerDraw": 2500.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 487250.0,
-          "ThermalEnergyDraw": 493500.0,
-          "CoolingRate": 151.4615
-        }
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "Shield.UNDEFINED"
       ],
       "Category": "Shield generators"
     }
   ],
-  "PowerPlants": [
-    {
-      "PortName": "hardpoint_power_plant_l",
-      "Size": 3,
-      "Loadout": "POWR_AMRS_S03_SuperDrive_SCItem",
-      "InstalledItem": {
-        "UUID": "202db33c-6b87-4210-9392-6d5368bc3436",
-        "ClassName": "POWR_AMRS_S03_SuperDrive_SCItem",
-        "Size": 3,
-        "Grade": 3,
-        "Type": "PowerPlant.Power",
-        "Name": "SuperDrive",
-        "Description": "Item Type: Power Plant\nManufacturer: Amon & Reese Co.\nSize: 3\nGrade: C\nClass: Military\n\nA&R’s award winning customer service sets the SuperDrive apart from other military power plants in its class. Consumers love that they can depend on both the component and company when the going gets tough.",
-        "Manufacturer": {
-          "Code": "AMRS",
-          "Name": "Amon & Reese Co."
-        },
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
-        "DimensionOverrides": {
-          "Width": 3.0,
-          "Height": 1.5,
-          "Depth": 1.5
-        },
-        "PowerPlant": {
-          "Output": 37500.0
-        },
-        "Durability": {
-          "Health": 1296.0,
-          "Lifetime": 60.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 37500.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 478333.3,
-          "ThermalEnergyDraw": 500000.0,
-          "CoolingRate": 346.6201
-        }
-      },
-      "Types": [
-        "PowerPlant.Power"
-      ],
-      "Category": "Power plants"
-    }
-  ],
+  "PowerPlants": [],
   "Coolers": [
     {
       "PortName": "hardpoint_cooler_l",
@@ -1155,8 +938,8 @@
           "Rate": 10400000.0
         },
         "Durability": {
-          "Health": 972.0,
-          "Lifetime": 176.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1202,8 +985,8 @@
           "Rate": 10400000.0
         },
         "Durability": {
-          "Health": 972.0,
-          "Lifetime": 176.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1305,8 +1088,7 @@
           "MaxThrustFuelRate": 156.5736375
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1349,8 +1131,7 @@
           "MaxThrustFuelRate": 156.5736375
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1393,8 +1174,7 @@
           "MaxThrustFuelRate": 156.5736375
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1437,8 +1217,7 @@
           "MaxThrustFuelRate": 156.5736375
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1481,8 +1260,7 @@
           "MaxThrustFuelRate": 142.5
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1525,8 +1303,7 @@
           "MaxThrustFuelRate": 142.5
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1569,8 +1346,7 @@
           "MaxThrustFuelRate": 106.97710000000001
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1613,8 +1389,7 @@
           "MaxThrustFuelRate": 106.97710000000001
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1659,8 +1434,7 @@
           "MaxThrustFuelRate": 35.175
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1703,8 +1477,7 @@
           "MaxThrustFuelRate": 35.175
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1749,8 +1522,7 @@
           "MaxThrustFuelRate": 74.1451725
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1793,8 +1565,7 @@
           "MaxThrustFuelRate": 73.41873
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1837,8 +1608,7 @@
           "MaxThrustFuelRate": 78.3046425
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1881,8 +1651,7 @@
           "MaxThrustFuelRate": 78.3046425
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1927,8 +1696,7 @@
           "MaxThrustFuelRate": 17.1875
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1971,8 +1739,7 @@
           "MaxThrustFuelRate": 17.1875
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2015,8 +1782,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2059,8 +1825,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2103,8 +1868,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2147,8 +1911,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2191,8 +1954,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2235,8 +1997,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2279,8 +2040,7 @@
           "MaxThrustFuelRate": 17.1875
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2323,8 +2083,7 @@
           "MaxThrustFuelRate": 17.1875
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2367,8 +2126,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2411,8 +2169,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2455,8 +2212,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2499,8 +2255,7 @@
           "MaxThrustFuelRate": 54.0625
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2538,7 +2293,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 6577500.0
+          "Capacity": 660000.0
         }
       },
       "Types": [
@@ -2565,7 +2320,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 6577500.0
+          "Capacity": 660000.0
         }
       },
       "Types": [

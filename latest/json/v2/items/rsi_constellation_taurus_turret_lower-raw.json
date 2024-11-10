@@ -57,7 +57,7 @@
       }
     },
     "SHealthComponentParams": {
-      "Health": 3000.0,
+      "Health": 8000.0,
       "DetachFromItemPortOnDeath": false,
       "DetachFromEntityOnDeath": false,
       "PropagateExplosionDamageToChildren": false,
@@ -93,9 +93,9 @@
       }
     },
     "SDegradationParams": {
-      "MaxLifetimeHours": 25.0,
+      "MaxLifetimeHours": 0.0,
       "InitialAgeRatio": 0.0,
-      "DegradeOnlyWhenAttached": true
+      "DegradeOnlyWhenAttached": false
     },
     "EntityComponentPowerConnection": {
       "PowerBase": 0.0,
@@ -235,7 +235,7 @@
           "DisplayName": "port_NameTurretGunSlot01",
           "PortTags": "",
           "RequiredPortTags": "",
-          "Flags": "",
+          "Flags": "$uneditable",
           "MinSize": 2,
           "MaxSize": 2,
           "InteractionPointSize": -1.0,
@@ -281,6 +281,57 @@
                   "value": "GunTurret"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "Name": "Screen_Radar",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 1,
+          "MaxSize": 1,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": [
+            {
+              "Type": "Display",
+              "SubTypes": []
+            }
+          ]
+        },
+        {
+          "Name": "Screen_Right_Top",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 1,
+          "MaxSize": 1,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": [
+            {
+              "Type": "Display",
+              "SubTypes": []
+            }
+          ]
+        },
+        {
+          "Name": "Screen_Right_Bottom",
+          "DisplayName": "",
+          "PortTags": "",
+          "RequiredPortTags": "",
+          "Flags": "",
+          "MinSize": 1,
+          "MaxSize": 1,
+          "InteractionPointSize": -1.0,
+          "DefaultWeaponGroup": "UNDEFINED",
+          "Types": [
+            {
+              "Type": "Display",
+              "SubTypes": []
             }
           ]
         }

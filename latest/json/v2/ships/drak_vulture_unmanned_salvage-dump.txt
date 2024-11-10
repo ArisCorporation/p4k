@@ -1,8 +1,20 @@
 DRAK_Vulture_Unmanned_Salvage
 hardpoint_paint                                   S0                                                                                                                      DISABLED                                
 hardpoint_seat_pilot                              S0                                                     DRAK_Vulture_SCItem_Seat_Pilot                                   UNKNOWN                                 
- Display_HUD                                      S1                                                     Projector_HUD_Generic                                            UNKNOWN                                 
- Display_HUD                                      S0                                                     Projector_HUD_Generic                                            DISABLED                                
+ Display_HUD                                      S1                                                     H_Dashboard_Projector_HUD_DRAK_Vulture                           UNKNOWN                                 
+ Screen_Radar_RTT                                 S1   Display                                           Radar_Display_Screen_Template                                    UNKNOWN                                 
+ Screen_Upper_Right_RTT                           S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ Screen_Upper_Left_RTT                            S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ Screen_Arm_Right_RTT                             S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ Screen_Arm_Left_RTT                              S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ Screen_Annunciator_RTT                           S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ Display_HUD                                      S0                                                     H_Dashboard_Projector_HUD_DRAK_Vulture                           DISABLED                                
+ Screen_Radar_RTT                                 S0                                                     Radar_Display_Screen_Template                                    DISABLED                                
+ Screen_Upper_Right_RTT                           S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ Screen_Upper_Left_RTT                            S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ Screen_Arm_Right_RTT                             S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ Screen_Arm_Left_RTT                              S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ Screen_Annunciator_RTT                           S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
 hardpoint_seataccess_pilot                        S0                                                     DRAK_Vulture_SCItem_SeatAccess_Pilot                             UNKNOWN                                 
 hardpoint_seataccess_ladder                       S0                                                     DRAK_Vulture_SCItem_SeatAccess_Ladder                            UNKNOWN                                 
 hardpoint_cockpit_selfdestruct                    S1   SelfDestruct.UNDEFINED                            VHCL_SelfDestruct_30s                                            Self destruct                           
@@ -28,7 +40,8 @@ hardpoint_fuel_intake_right                       S1   FuelIntake.Fuel          
 hardpoint_fuel_tank_left                          S1   FuelTank.Fuel                                     HTNK_DRAK_Vulture                                                Fuel tanks                              
 hardpoint_fuel_tank_right                         S1   FuelTank.Fuel                                     HTNK_DRAK_Vulture                                                Fuel tanks                              
 hardpoint_quantum_drive                           S1   QuantumDrive.UNDEFINED                            QDRV_JUST_S01_Goliath_SCItem                                     UNKNOWN                                 
- hardpoint_Jump_Drive                             S1   JumpDrive.JumpDrive                                                                                                UNKNOWN                                 
+ hardpoint_Jump_Drive                             S1   JumpDrive.JumpDrive                               JDRV_TARS_S01_C_Explorer                                         UNKNOWN                                 
+ hardpoint_jump_drive                             S1                                                     JDRV_TARS_S01_C_Explorer                                         DISABLED                                
 hardpoint_quantum_fuel_tank                       S1   QuantumFuelTank.QuantumFuel                       QTNK_DRAK_Vulture                                                Quantum fuel tanks                      
 hardpoint_thruster_main_left                      S4   MainThruster.FixedThruster                        DRAK_Vulture_Thruster_Main                                       Main thrusters                          
 hardpoint_thruster_main_right                     S4   MainThruster.FixedThruster                        DRAK_Vulture_Thruster_Main                                       Main thrusters                          
@@ -59,10 +72,8 @@ hardpoint_weapon_nose_right                       S0   WeaponGun.Gun            
 hardpoint_cm_launcher_left                        S1   WeaponDefensive.CountermeasureLauncher            DRAK_Vulture_CML_Flare                                           Countermeasures                         
 hardpoint_cm_launcher_right                       S1   WeaponDefensive.CountermeasureLauncher            DRAK_Vulture_CML_Chaff                                           Countermeasures                         
 hardpoint_controller_missile                      S0                                                     Controller_Missile                                               UNKNOWN                                 
-hardpoint_weapon_regen_pool                       S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
-hardpoint_weapon_regen_pool_turrets               S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
 hardpoint_controller_capacitor_assignment         S0                                                     Controller_CapacitorAssignment                                   UNKNOWN                                 
-hardpoint_door_cargo                              S1   Door.UNDEFINED                                    Door_Ship_Exterior_DRAK_Vulture_Cargo                            Doors                                   
+hardpoint_door_cargo                              S1   Door.UNDEFINED                                    Door_RN_RoomConnector_Breachable_OpenReverse_IP_Vulture_Ramp     Doors                                   
 hardpoint_cargogrid_main                          S1   CargoGrid.UNDEFINED                               DRAK_Vulture_CargoGrid_Main                                      UNKNOWN                                 
 hardpoint_controller_fuel                         S0                                                     Controller_Fuel                                                  UNKNOWN                                 
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_DRAK_Vulture                              UNKNOWN                                 
@@ -88,10 +99,21 @@ hardpoint_salvage_arm_right                       S0                            
   hardpoint_salvage_subItem02                     S0                                                     Salvage_Modifier_Scraper_Medium                                  DISABLED                                
 hardpoint_refill_station                          S0                                                                                                                      DISABLED                                
 hardpoint_fire_extinguisher                       S1   Usable.UNDEFINED                                  Gadget_Cabinet_kegr_fire_extinguisher_NG_Flipped                 Usables                                 
- cabinet_attach_loc                               S2   WeaponPersonal.Medium                                                                                              UNKNOWN                                 
+ cabinet_attach_loc                               S2   WeaponPersonal.Medium                             kegr_fire_extinguisher_01                                        UNKNOWN                                 
+  magazine_attach                                 S1   WeaponAttachment.Magazine                         kegr_fire_extinguisher_01_mag                                    UNKNOWN                                 
+  item_grab                                       S0                                                                                                                      UNKNOWN                                 
+  root                                            S1   WeaponAttachment.Magazine                                                                                          UNKNOWN                                 
 hardpoint_attachable_buff                         S1   UNDEFINED.UNDEFINED                               Salvage_Buff_Modifier_Vulture                                    UNKNOWN                                 
 hardpoint_disintegration_area                     S1   SalvageFieldEmitter.UNDEFINED                     SalvageDisintegrationArea                                        UNKNOWN                                 
 hardpoint_internal_storage                        S0                                                                                                                      DISABLED                                
 hardpoint_salvage_dummy_left                      S1   SalvageFieldSupporter.UNDEFINED                   SalvageFieldSupporter                                            UNKNOWN                                 
 hardpoint_salvage_dummy_right                     S1   SalvageFieldSupporter.UNDEFINED                   SalvageFieldSupporter                                            UNKNOWN                                 
+hardpoint_shield_generator_rear                   S1   Shield.UNDEFINED                                  SHLD_BASL_S01_Bulwark_SCItem                                     Shield generators                       
+hardpoint_relay_cockpit                           S1   Relay.UNDEFINED                                   RELAY_2slot                                                      UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+hardpoint_lifesupport                             S1   LifeSupportGenerator.UNDEFINED                    LFSP_TYDT_S01_ComfortAir                                         UNKNOWN                                 
+ $slot_01                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_02                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_03                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
 

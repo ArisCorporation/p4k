@@ -50,17 +50,89 @@
         "Type": "SeatDashboard.UNDEFINED",
         "Name": "DRAK_Mule_Dashboard_Driver",
         "Manufacturer": {
-          "Code": "GRIN",
-          "Name": "Greycat Industrial"
+          "Code": "DRAK",
+          "Name": "Drake Interplanetary"
         },
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
         "Ports": [
           {
-            "PortName": "hardpoint_cockpit_radar",
+            "PortName": "Screen_Radar",
             "Size": 1,
+            "Loadout": "Radar_Display_Screen_GroundVehicle",
+            "InstalledItem": {
+              "UUID": "ba184544-d9e8-44e5-98f7-2f86d91ea56a",
+              "ClassName": "Radar_Display_Screen_GroundVehicle",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Radar_Display_Screen_GroundVehicle",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_Left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
             "Types": [
               "Display"
             ],
@@ -69,7 +141,36 @@
         ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "Screen_MFD_Right",
+        "Port": {
+          "PortName": "Screen_MFD_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Left",
+        "Port": {
+          "PortName": "Screen_MFD_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Radar",
+        "Port": {
+          "PortName": "Screen_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_GroundVehicle",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_access",
@@ -209,8 +310,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -314,8 +415,8 @@
           "Output": 720.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -417,8 +518,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 10.0
+          "Health": 210.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -494,8 +595,8 @@
           },
           "SignalMultipliers": {
             "CrossSection": 1.0,
-            "Infrared": 0.85,
-            "Electromagnetic": 80.0
+            "Infrared": 0.9,
+            "Electromagnetic": 0.8
           }
         }
       },
@@ -643,7 +744,7 @@
         },
         "Ports": [
           {
-            "PortName": "$proxy_cargo_01",
+            "PortName": "cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
@@ -686,7 +787,7 @@
         },
         "Ports": [
           {
-            "PortName": "$proxy_cargo_01",
+            "PortName": "cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
@@ -729,7 +830,7 @@
         },
         "Ports": [
           {
-            "PortName": "$proxy_cargo_01",
+            "PortName": "cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
@@ -772,7 +873,7 @@
         },
         "Ports": [
           {
-            "PortName": "$proxy_cargo_01",
+            "PortName": "cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
@@ -815,7 +916,7 @@
         },
         "Ports": [
           {
-            "PortName": "$proxy_cargo_01",
+            "PortName": "cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
@@ -858,7 +959,7 @@
         },
         "Ports": [
           {
-            "PortName": "$proxy_cargo_01",
+            "PortName": "cargo_01",
             "Size": 4,
             "Types": [
               "Cargo",
@@ -989,8 +1090,8 @@
           "Output": 720.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1057,22 +1158,15 @@
     "Name": "hardpoint_avionics",
     "Port": {
       "PortName": "hardpoint_avionics",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COMP_WLOP_S00_Adze",
       "InstalledItem": {
         "UUID": "a6b4604a-358b-4ee7-8c0f-f3f43427154d",
         "ClassName": "COMP_WLOP_S00_Adze",
-        "Size": 1,
+        "Size": 0,
         "Grade": 1,
         "Type": "Misc.UNDEFINED",
         "Name": "COMP_WLOP_S00_Adze",
-        "Manufacturer": {
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "Tags": [
-          "ESPR_Talon_Base"
-        ],
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -1083,6 +1177,51 @@
       },
       "Types": [
         "Misc.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cockpit",
+    "Port": {
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
       ],
       "Category": "UNKNOWN"
     }

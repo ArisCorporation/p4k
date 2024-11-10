@@ -102,23 +102,6 @@
           {
             "PortName": "hardpoint_cockpit_radar",
             "Size": 1,
-            "Loadout": "ANVL_Arrow_RADR_Display",
-            "InstalledItem": {
-              "UUID": "b997d0ab-4738-4eab-b243-90f4ee6f52f6",
-              "ClassName": "ANVL_Arrow_RADR_Display",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "ANVL_Arrow_RADR_Display",
-              "Manufacturer": {
-                "Code": "ANVL",
-                "Name": "Anvil Aerospace"
-              },
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
             "Types": [
               "Display"
             ],
@@ -127,19 +110,54 @@
           {
             "PortName": "Display_HUD",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
-            "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_mfd_left",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_mfd_right",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_mfd_bottom_left",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_mfd_bottom_right",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_annuciator_left",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_annuciator_right",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -152,7 +170,7 @@
         "Port": {
           "PortName": "hardpoint_cockpit_radar",
           "Size": 0,
-          "Loadout": "ANVL_Arrow_RADR_Display",
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -161,7 +179,61 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_mfd_left",
+        "Port": {
+          "PortName": "rtt_mfd_left",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_mfd_right",
+        "Port": {
+          "PortName": "rtt_mfd_right",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_mfd_bottom_left",
+        "Port": {
+          "PortName": "rtt_mfd_bottom_left",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_mfd_bottom_right",
+        "Port": {
+          "PortName": "rtt_mfd_bottom_right",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_annuciator_left",
+        "Port": {
+          "PortName": "rtt_annuciator_left",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_annuciator_right",
+        "Port": {
+          "PortName": "rtt_annuciator_right",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       }
@@ -413,8 +485,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
+          "Health": 1100.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -497,8 +569,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -547,8 +619,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -735,8 +807,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -785,8 +857,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -835,8 +907,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -885,10 +957,10 @@
           "FuelRate": 2.0709999999999998E-08,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 235872000.0,
+            "Speed": 190000000.0,
             "Cooldown": 21.6,
-            "Stage1AccelerationRate": 1080000.0,
-            "State2AccelerationRate": 13867670.0,
+            "Stage1AccelerationRate": 350000.0,
+            "State2AccelerationRate": 15000000.0,
             "SpoolUpTime": 6.0
           },
           "SplineJump": {
@@ -900,8 +972,8 @@
           }
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 41.6
+          "Health": 1100.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.5,
@@ -916,15 +988,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 2,
+            "Loadout": "JDRV_TARS_S02_C_Explorer",
+            "InstalledItem": {
+              "UUID": "649c2450-0194-4a4d-99f3-38c16aacad53",
+              "ClassName": "JDRV_TARS_S02_C_Explorer",
+              "Size": 2,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Excelsior",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 2\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Excelsior jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 490.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 20.0,
+                "PowerDraw": 200.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -932,7 +1028,18 @@
         "QuantumDrive.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "hardpoint_jump_drive",
+        "Port": {
+          "PortName": "hardpoint_jump_drive",
+          "Size": 2,
+          "Loadout": "JDRV_TARS_S02_C_Explorer",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_quantum_fuel_tank_left",
@@ -1063,8 +1170,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1095,8 +1202,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1142,8 +1249,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1174,8 +1281,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1221,8 +1328,7 @@
           "MaxThrustFuelRate": 105.0223125
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1268,8 +1374,7 @@
           "MaxThrustFuelRate": 105.0223125
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1315,8 +1420,7 @@
           "MaxThrustFuelRate": 40.85375
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1362,8 +1466,7 @@
           "MaxThrustFuelRate": 40.85375
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1409,8 +1512,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1456,8 +1558,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1503,8 +1604,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1550,8 +1650,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1597,8 +1696,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1644,8 +1742,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1691,8 +1788,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1738,8 +1834,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1785,8 +1880,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1832,8 +1926,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1879,8 +1972,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1926,8 +2018,7 @@
           "MaxThrustFuelRate": 6.9281250000000005
         },
         "Durability": {
-          "Health": 22200.0,
-          "Lifetime": 720.0
+          "Health": 22200.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2225,9 +2316,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3219.364
@@ -2268,9 +2356,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2313,9 +2398,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3219.364
@@ -2356,9 +2438,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2494,9 +2573,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3219.364
@@ -2537,9 +2613,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2582,9 +2655,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 3219.364
@@ -2625,9 +2695,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2763,9 +2830,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -2806,9 +2870,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2851,9 +2912,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -2894,9 +2952,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2939,9 +2994,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -2982,9 +3034,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3027,9 +3076,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -3070,9 +3116,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3115,9 +3158,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -3158,9 +3198,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3203,9 +3240,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -3246,9 +3280,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3378,47 +3409,6 @@
         }
       }
     ]
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_S1",
-      "InstalledItem": {
-        "UUID": "c181a828-9eb2-42ed-859e-d4bee560f2b3",
-        "ClassName": "WeaponRegenPool_Turret_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_S1",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 20000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
   },
   {
     "Name": "hardpoint_controller_capacitor_assignment",
@@ -3686,6 +3676,76 @@
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_relay",
+    "Port": {
+      "PortName": "hardpoint_relay",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

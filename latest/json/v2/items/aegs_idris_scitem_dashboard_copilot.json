@@ -5,6 +5,10 @@
   "Grade": 1,
   "Type": "SeatDashboard.UNDEFINED",
   "Name": "AEGS_Idris_SCItem_Dashboard_CoPilot",
+  "Manufacturer": {
+    "Code": "AEG",
+    "Name": "Aegis Dynamics"
+  },
   "Width": 0.15,
   "Height": 0.15,
   "Length": 0.15,
@@ -23,25 +27,15 @@
   },
   "Ports": [
     {
-      "PortName": "SeatPort",
+      "PortName": "touchscreen_main",
       "Size": 1,
       "Types": [
-        "Seat"
-      ],
-      "Flags": [
-        "selfphys"
+        "Display"
       ]
     },
     {
       "PortName": "Display_HUD",
       "Size": 1
-    },
-    {
-      "PortName": "radar_helper",
-      "Size": 1,
-      "Types": [
-        "Display"
-      ]
     }
   ]
 }

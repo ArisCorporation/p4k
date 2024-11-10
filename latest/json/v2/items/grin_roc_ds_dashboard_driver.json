@@ -13,17 +13,54 @@
   "Height": 0.15,
   "Length": 0.15,
   "Volume": 1E-06,
+  "PowerConnection": {
+    "PowerBase": 0.0,
+    "PowerDraw": 1.0
+  },
+  "HeatConnection": {
+    "ThermalEnergyBase": 10.0,
+    "ThermalEnergyDraw": 20.0,
+    "CoolingRate": 1.0
+  },
   "Ports": [
     {
-      "PortName": "hardpoint_cockpit_radar",
+      "PortName": "itemport_scanningHUD",
+      "Size": 1
+    },
+    {
+      "PortName": "Screen_UI_Radar",
       "Size": 1,
       "Types": [
         "Display"
       ]
     },
     {
-      "PortName": "itemport_scanningHUD",
-      "Size": 0
+      "PortName": "Screen_UI_Top_Right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_UI_Top_Left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_UI_Bot_Right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_UI_Bot_Left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
     }
   ]
 }

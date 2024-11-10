@@ -67,14 +67,70 @@
     "Port": {
       "PortName": "hardpoint_dashboard_driver",
       "Size": 0,
-      "Loadout": "ANVL_Ballista_SCItem_Dashboard_Driver",
+      "Loadout": "",
+      "Category": "DISABLED"
+    },
+    "Parts": [
+      {
+        "Name": "Screen_MFD_Radar",
+        "Port": {
+          "PortName": "Screen_MFD_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_GroundVehicle",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_left",
+        "Port": {
+          "PortName": "Screen_MFD_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_right",
+        "Port": {
+          "PortName": "Screen_MFD_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_support_left",
+        "Port": {
+          "PortName": "Screen_support_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_support_right",
+        "Port": {
+          "PortName": "Screen_support_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      }
+    ]
+  },
+  {
+    "Name": "hardpoint_seat_gunner",
+    "Port": {
+      "PortName": "hardpoint_seat_gunner",
+      "Size": 0,
+      "Loadout": "ANVL_Ballista_SCItem_SeatDashboard_Gunner",
       "InstalledItem": {
-        "UUID": "251739b0-8bf7-4e87-86c2-e57ad3dd1bdb",
-        "ClassName": "ANVL_Ballista_SCItem_Dashboard_Driver",
+        "UUID": "39f8eead-4c71-4f40-82ab-6a34f7fad866",
+        "ClassName": "ANVL_Ballista_SCItem_SeatDashboard_Gunner",
         "Size": 1,
         "Grade": 1,
-        "Type": "SeatDashboard.UNDEFINED",
-        "Name": "ANVL_Ballista_SCItem_Dashboard_Driver",
+        "Type": "Seat.UNDEFINED",
+        "Name": "TRGT. STATUS",
         "Manufacturer": {
           "Code": "ANVL",
           "Name": "Anvil Aerospace"
@@ -83,22 +139,63 @@
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
+        "Durability": {
+          "Health": 1.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
         "Ports": [
           {
-            "PortName": "hardpoint_cockpit_radar",
+            "PortName": "Screen_MFD_bottom",
             "Size": 1,
-            "Loadout": "RADR_Display",
+            "Loadout": "Vehicle_Screen_MFD",
             "InstalledItem": {
-              "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-              "ClassName": "RADR_Display",
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "RADR_Display",
+              "Name": "Vehicle_Screen_MFD",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
-              "Volume": 1E-06
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_top",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
             },
             "Types": [
               "Display"
@@ -111,40 +208,24 @@
     },
     "Parts": [
       {
-        "Name": "hardpoint_cockpit_radar",
+        "Name": "Screen_MFD_top",
         "Port": {
-          "PortName": "hardpoint_cockpit_radar",
+          "PortName": "Screen_MFD_top",
           "Size": 0,
-          "Loadout": "RADR_Display",
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_bottom",
+        "Port": {
+          "PortName": "Screen_MFD_bottom",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
           "Category": "DISABLED"
         }
       }
     ]
-  },
-  {
-    "Name": "hardpoint_seat_gunner",
-    "Port": {
-      "PortName": "hardpoint_seat_gunner",
-      "Size": 0,
-      "Loadout": "ANVL_Ballista_SCItem_Seat_Gunner",
-      "InstalledItem": {
-        "UUID": "35c36c48-24eb-46f2-8430-3879150704bc",
-        "ClassName": "ANVL_Ballista_SCItem_Seat_Gunner",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Seat.UNDEFINED",
-        "Name": "TRGT. STATUS",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06
-      },
-      "Category": "UNKNOWN"
-    }
   },
   {
     "Name": "hardpoint_seat_access",
@@ -309,65 +390,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_gunner",
-    "Port": {
-      "PortName": "hardpoint_radar_gunner",
-      "Size": 0,
-      "Loadout": "RADR_GRNP_S00_Prevenir",
-      "InstalledItem": {
-        "UUID": "d8a9b395-4438-4995-a797-9d984c7fd4c0",
-        "ClassName": "RADR_GRNP_S00_Prevenir",
-        "Size": 0,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Prevenir",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 0\nGrade: C\nClass: Military\n\nThe Prevenir has been refined by extensive military field testing, making it the go-to vehicle radar for many across the UEE.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 470.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -485,8 +509,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -556,8 +580,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -627,8 +651,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -659,8 +683,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -706,8 +730,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -738,8 +762,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -791,8 +815,8 @@
           },
           "SignalMultipliers": {
             "CrossSection": 1.0,
-            "Infrared": 1.3,
-            "Electromagnetic": 1.65
+            "Infrared": 1.0,
+            "Electromagnetic": 1.0
           }
         }
       },
@@ -888,16 +912,11 @@
               },
               "Durability": {
                 "Health": 850.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 40.0,
                 "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -1117,16 +1136,11 @@
               },
               "Durability": {
                 "Health": 850.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 40.0,
                 "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -1457,7 +1471,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1467,9 +1481,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1501,7 +1512,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1511,9 +1522,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1545,7 +1553,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1555,9 +1563,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1589,7 +1594,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1599,9 +1604,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1685,7 +1687,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1695,9 +1697,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1729,7 +1728,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1739,9 +1738,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1773,7 +1769,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1783,9 +1779,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1817,7 +1810,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1827,9 +1820,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1913,7 +1903,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1923,9 +1913,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2006,7 +1993,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -2016,9 +2003,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2187,33 +2171,20 @@
     "Port": {
       "PortName": "hardpoint_entrance_door",
       "Size": 1,
-      "Loadout": "ANVL_Ballista_Side_Entrance",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Ballista",
       "InstalledItem": {
-        "UUID": "bbdd91af-df26-4d70-864e-6c2e8f175e6a",
-        "ClassName": "ANVL_Ballista_Side_Entrance",
+        "UUID": "e1d40703-48c3-400a-95d4-59cb5ef43af7",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Ballista",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
-        "Tags": [
-          "ANVL_Ballista",
-          "ANVL_Dunestalker",
-          "ANVL_Snowblind"
-        ],
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Ballista",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -2321,21 +2292,56 @@
     }
   },
   {
-    "Name": "hardpoint_scanner",
+    "Name": "hardpoint_relay",
     "Port": {
-      "PortName": "hardpoint_scanner",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
-    }
-  },
-  {
-    "Name": "hardpoint_scanner_gunner",
-    "Port": {
-      "PortName": "hardpoint_scanner_gunner",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "PortName": "hardpoint_relay",
+      "Size": 1,
+      "Loadout": "RELAY_3slot_slim",
+      "InstalledItem": {
+        "UUID": "a1c1bb89-b476-4293-8898-d324ca44d681",
+        "ClassName": "RELAY_3slot_slim",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_3slot_slim",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 900.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   },
   {
@@ -2357,64 +2363,6 @@
         "Volume": 1E-06
       },
       "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Ballista",
-      "InstalledItem": {
-        "UUID": "14e51388-8fac-48e1-b1e3-03c53424fcc2",
-        "ClassName": "WeaponRegenPool_Crew_Ballista",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Ballista",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Ballista",
-      "InstalledItem": {
-        "UUID": "6dd90669-b945-4a72-8932-02741b9a3aad",
-        "ClassName": "WeaponRegenPool_Turret_Ballista",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Ballista",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   },
   {

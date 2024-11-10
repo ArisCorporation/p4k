@@ -1,58 +1,5 @@
 {
-  "PilotHardpoints": [
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Lynx",
-      "InstalledItem": {
-        "UUID": "0b0967c1-84af-487a-ada0-ea3ac9927c04",
-        "ClassName": "WeaponRegenPool_Crew_Lynx",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Lynx",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Lynx",
-      "InstalledItem": {
-        "UUID": "2fc6b5d3-c2a2-4d87-8dfb-683130c48078",
-        "ClassName": "WeaponRegenPool_Turret_Lynx",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Lynx",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  ],
+  "PilotHardpoints": [],
   "MannedTurrets": [
     {
       "PortName": "hardpoint_turret_mount",
@@ -111,7 +58,7 @@
               },
               "Durability": {
                 "Health": 550.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 220.0,
@@ -131,7 +78,7 @@
                   "Size": 1.0,
                   "Capacity": 0.0,
                   "ImpactDamage": {
-                    "Energy": 202.5
+                    "Energy": 182.25
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -154,10 +101,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Energy": 202.5
+                      "Energy": 182.25
                     },
                     "DamagePerSecond": {
-                      "Energy": 337.5
+                      "Energy": 303.75
                     }
                   }
                 ],
@@ -176,7 +123,7 @@
                 "Size": 1.0,
                 "Capacity": 0.0,
                 "ImpactDamage": {
-                  "Energy": 202.5
+                  "Energy": 182.25
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -266,7 +213,7 @@
               },
               "Durability": {
                 "Health": 550.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 220.0,
@@ -286,7 +233,7 @@
                   "Size": 1.0,
                   "Capacity": 0.0,
                   "ImpactDamage": {
-                    "Energy": 202.5
+                    "Energy": 182.25
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -309,10 +256,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Energy": 202.5
+                      "Energy": 182.25
                     },
                     "DamagePerSecond": {
-                      "Energy": 337.5
+                      "Energy": 303.75
                     }
                   }
                 ],
@@ -331,7 +278,7 @@
                 "Size": 1.0,
                 "Capacity": 0.0,
                 "ImpactDamage": {
-                  "Energy": 202.5
+                  "Energy": 182.25
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -430,8 +377,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -462,8 +409,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -511,8 +458,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -560,8 +507,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,

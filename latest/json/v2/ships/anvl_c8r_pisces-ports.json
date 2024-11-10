@@ -93,9 +93,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -189,9 +186,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 1140.15
@@ -264,8 +258,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1280.0,
+          "Regeneration": 85.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -296,8 +290,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 15.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -345,8 +339,8 @@
           "Output": 4000.0
         },
         "Durability": {
-          "Health": 432.0,
-          "Lifetime": 22.0
+          "Health": 820.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -366,7 +360,7 @@
   ],
   "Coolers": [
     {
-      "PortName": "hardpoint_cooler_left",
+      "PortName": "hardpoint_cooler",
       "Size": 1,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
@@ -394,55 +388,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
-        },
-        "PowerConnection": {
-          "PowerBase": 8.0,
-          "PowerDraw": 12.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        }
-      },
-      "Types": [
-        "Cooler.UNDEFINED"
-      ],
-      "Category": "Coolers"
-    },
-    {
-      "PortName": "hardpoint_cooler_right",
-      "Size": 1,
-      "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
-      "InstalledItem": {
-        "UUID": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
-        "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
-        "Size": 1,
-        "Grade": 3,
-        "Type": "Cooler.UNDEFINED",
-        "Name": "Bracer",
-        "Description": "Item Type: Cooler\nManufacturer: Aegis Dynamics \nSize: 1\nGrade: C\nClass: Military\n\nFor those looking for a solid, dependable mid-line cooler, you can’t do much better than Aegis’ Bracer. This small-frame cooler system offers solid performance and durability to keep your ship firing on all cylinders.",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Width": 0.2233005,
-        "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
-        "DimensionOverrides": {
-          "Width": 2.25,
-          "Height": 0.75,
-          "Depth": 0.75
-        },
-        "Cooler": {
-          "Rate": 260000.0
-        },
-        "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -517,8 +464,7 @@
           "MaxThrustFuelRate": 0.8894374999999999
         },
         "Durability": {
-          "Health": 8000.0,
-          "Lifetime": 720.0
+          "Health": 8000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -561,8 +507,7 @@
           "MaxThrustFuelRate": 0.8894374999999999
         },
         "Durability": {
-          "Health": 8000.0,
-          "Lifetime": 720.0
+          "Health": 8000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -607,8 +552,7 @@
           "MaxThrustFuelRate": 0.280875
         },
         "Durability": {
-          "Health": 7000.0,
-          "Lifetime": 720.0
+          "Health": 7000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -651,8 +595,7 @@
           "MaxThrustFuelRate": 0.280875
         },
         "Durability": {
-          "Health": 7000.0,
-          "Lifetime": 720.0
+          "Health": 7000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -698,8 +641,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -742,8 +684,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -786,8 +727,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -830,8 +770,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -874,8 +813,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -918,8 +856,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -962,8 +899,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1006,8 +942,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1050,8 +985,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1094,8 +1028,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1138,8 +1071,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1182,8 +1114,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

@@ -13,9 +13,25 @@
   "Height": 0.15,
   "Length": 0.15,
   "Volume": 1E-06,
+  "PowerConnection": {
+    "PowerBase": 0.0,
+    "PowerDraw": 1.0
+  },
+  "HeatConnection": {
+    "ThermalEnergyBase": 10.0,
+    "ThermalEnergyDraw": 20.0,
+    "CoolingRate": 1.0
+  },
   "Ports": [
     {
-      "PortName": "hardpoint_cockpit_radar",
+      "PortName": "rtt_radar",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "rtt_remote_view",
       "Size": 1,
       "Types": [
         "Display"

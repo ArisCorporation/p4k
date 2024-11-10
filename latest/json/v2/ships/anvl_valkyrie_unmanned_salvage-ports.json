@@ -19,58 +19,6 @@
       "Category": "Weapon hardpoints"
     },
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Valkyrie",
-      "InstalledItem": {
-        "UUID": "413a1b5d-7a64-457b-936f-3dc8f83abb4b",
-        "ClassName": "WeaponRegenPool_Crew_Valkyrie",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Valkyrie",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 10000,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Valkyrie",
-      "InstalledItem": {
-        "UUID": "9f83a75a-8481-4717-889d-7f8c6c825503",
-        "ClassName": "WeaponRegenPool_Turret_Valkyrie",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Valkyrie",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_Weapon_Cabinet_01",
       "Size": 1,
       "Loadout": "Weapon_Rack_ANVL_Valkyrie_1Slot",
@@ -703,8 +651,8 @@
     },
     {
       "PortName": "turret_gun",
-      "Size": 0,
-      "Loadout": "",
+      "Size": 4,
+      "Loadout": "Mount_Gimbal_S4",
       "Types": [
         "TurretBase.MannedTurret"
       ],
@@ -712,8 +660,8 @@
     },
     {
       "PortName": "turret_gun",
-      "Size": 0,
-      "Loadout": "",
+      "Size": 4,
+      "Loadout": "Mount_Gimbal_S4",
       "Types": [
         "TurretBase.MannedTurret"
       ],
@@ -759,7 +707,34 @@
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "Screen_MFD",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Types": [
         "TurretBase.MannedTurret"
@@ -813,7 +788,34 @@
         "PowerConnection": {
           "PowerBase": 0.0,
           "PowerDraw": 1.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "Screen_MFD",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Types": [
         "TurretBase.MannedTurret"
@@ -1063,8 +1065,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1095,8 +1097,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1139,8 +1141,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1171,8 +1173,160 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    },
+    {
+      "PortName": "hardpoint_shield_03",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
+      "InstalledItem": {
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
+        "Manufacturer": {
+          "Code": "GODI",
+          "Name": "Gorgon Defender Industries"
+        },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 4740.0,
+          "Regeneration": 288.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 980.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    },
+    {
+      "PortName": "hardpoint_shield_04",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
+      "InstalledItem": {
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
+        "Manufacturer": {
+          "Code": "GODI",
+          "Name": "Gorgon Defender Industries"
+        },
+        "Width": 0.4466009,
+        "Height": 0.801895,
+        "Length": 3.316511,
+        "Volume": 0.252,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 4740.0,
+          "Regeneration": 288.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -1220,8 +1374,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1267,8 +1421,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1316,8 +1470,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1363,8 +1517,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1442,8 +1596,7 @@
           "MaxThrustFuelRate": 25.052057125000005
         },
         "Durability": {
-          "Health": 17600.0,
-          "Lifetime": 720.0
+          "Health": 17600.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1489,8 +1642,7 @@
           "MaxThrustFuelRate": 25.052057125000005
         },
         "Durability": {
-          "Health": 17600.0,
-          "Lifetime": 720.0
+          "Health": 17600.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1536,8 +1688,7 @@
           "MaxThrustFuelRate": 17.9047701
         },
         "Durability": {
-          "Health": 17600.0,
-          "Lifetime": 720.0
+          "Health": 17600.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1583,8 +1734,7 @@
           "MaxThrustFuelRate": 17.9047701
         },
         "Durability": {
-          "Health": 17600.0,
-          "Lifetime": 720.0
+          "Health": 17600.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1630,8 +1780,7 @@
           "MaxThrustFuelRate": 97.32693250000001
         },
         "Durability": {
-          "Health": 17600.0,
-          "Lifetime": 720.0
+          "Health": 17600.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1677,8 +1826,7 @@
           "MaxThrustFuelRate": 97.32693250000001
         },
         "Durability": {
-          "Health": 17600.0,
-          "Lifetime": 720.0
+          "Health": 17600.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1726,8 +1874,7 @@
           "MaxThrustFuelRate": 50.866256525000004
         },
         "Durability": {
-          "Health": 16800.0,
-          "Lifetime": 720.0
+          "Health": 16800.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1773,8 +1920,7 @@
           "MaxThrustFuelRate": 50.866256525000004
         },
         "Durability": {
-          "Health": 16800.0,
-          "Lifetime": 720.0
+          "Health": 16800.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1823,8 +1969,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1870,8 +2015,7 @@
           "MaxThrustFuelRate": 39.04353125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1917,8 +2061,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1964,8 +2107,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2011,8 +2153,7 @@
           "MaxThrustFuelRate": 39.04353125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2058,8 +2199,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2105,8 +2245,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2152,8 +2291,7 @@
           "MaxThrustFuelRate": 39.04353125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2199,8 +2337,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2246,8 +2383,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2293,8 +2429,7 @@
           "MaxThrustFuelRate": 39.04353125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2340,8 +2475,7 @@
           "MaxThrustFuelRate": 10.69753125
         },
         "Durability": {
-          "Health": 16250.0,
-          "Lifetime": 720.0
+          "Health": 16250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

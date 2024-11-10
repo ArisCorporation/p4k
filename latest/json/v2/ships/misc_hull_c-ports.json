@@ -1,24 +1,6 @@
 {
   "PilotHardpoints": [
     {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
       "PortName": "hardpoint_weapons_locker",
       "Size": 1,
       "Loadout": "Weapon_Rack_MISC_Hull_C",
@@ -324,110 +306,44 @@
           "ThermalEnergyBase": 10.0,
           "ThermalEnergyDraw": 20.0,
           "CoolingRate": 1.0
-        }
+        },
+        "Ports": [
+          {
+            "PortName": "MFD_Central_TractorBeam",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "Utility hardpoints"
+          }
+        ]
       },
       "Category": "Utility hardpoints"
     },
     {
       "PortName": "hardpoint_turret_tractor_beam_top_front",
-      "Size": 4,
-      "Loadout": "MISC_Hull_C_SCItem_Tractor_Beam_Turret",
-      "InstalledItem": {
-        "UUID": "26bc2fed-566e-4cf6-97c2-f0230ed0f57f",
-        "ClassName": "MISC_Hull_C_SCItem_Tractor_Beam_Turret",
-        "Size": 4,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "MIS",
-          "Name": "Musashi Industrial & Starflight Concern"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 2,
-            "Types": [
-              "TractorBeam"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "TurretBase.MannedTurret"
       ],
-      "Category": "Utility hardpoints"
-    },
-    {
-      "PortName": "hardpoint_radar_turret_tractor_top_front",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
-      "InstalledItem": {
-        "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
       "Category": "Utility hardpoints"
     },
     {
@@ -450,308 +366,63 @@
     },
     {
       "PortName": "hardpoint_turret_tractor_beam_bottom_front",
-      "Size": 4,
-      "Loadout": "MISC_Hull_C_SCItem_Tractor_Beam_Turret_Bottom",
-      "InstalledItem": {
-        "UUID": "4819cdf3-9b11-49ea-aab3-b8c44c796157",
-        "ClassName": "MISC_Hull_C_SCItem_Tractor_Beam_Turret_Bottom",
-        "Size": 4,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "MIS",
-          "Name": "Musashi Industrial & Starflight Concern"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 2,
-            "Types": [
-              "TractorBeam"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "TurretBase.MannedTurret"
       ],
-      "Category": "Utility hardpoints"
-    },
-    {
-      "PortName": "hardpoint_radar_turret_tractor_bottom_front",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
-      "InstalledItem": {
-        "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
       "Category": "Utility hardpoints"
     },
     {
       "PortName": "hardpoint_turret_tractor_beam_top_rear",
-      "Size": 4,
-      "Loadout": "MISC_Hull_C_SCItem_Tractor_Beam_Turret",
-      "InstalledItem": {
-        "UUID": "26bc2fed-566e-4cf6-97c2-f0230ed0f57f",
-        "ClassName": "MISC_Hull_C_SCItem_Tractor_Beam_Turret",
-        "Size": 4,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "MIS",
-          "Name": "Musashi Industrial & Starflight Concern"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 2,
-            "Types": [
-              "TractorBeam"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "TurretBase.MannedTurret"
       ],
-      "Category": "Utility hardpoints"
-    },
-    {
-      "PortName": "hardpoint_radar_turret_tractor_top_rear",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
-      "InstalledItem": {
-        "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
       "Category": "Utility hardpoints"
     },
     {
       "PortName": "hardpoint_turret_tractor_beam_bottom_rear",
-      "Size": 4,
-      "Loadout": "MISC_Hull_C_SCItem_Tractor_Beam_Turret_Bottom",
-      "InstalledItem": {
-        "UUID": "4819cdf3-9b11-49ea-aab3-b8c44c796157",
-        "ClassName": "MISC_Hull_C_SCItem_Tractor_Beam_Turret_Bottom",
-        "Size": 4,
-        "Grade": 1,
-        "Type": "Turret.GunTurret",
-        "Name": "Remote Turret",
-        "Description": "Remote Turret",
-        "Manufacturer": {
-          "Code": "MIS",
-          "Name": "Musashi Industrial & Starflight Concern"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 2000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "turret_left",
-            "Size": 2,
-            "Types": [
-              "TractorBeam"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
+      "Size": 0,
+      "Loadout": "",
       "Types": [
         "TurretBase.MannedTurret"
       ],
       "Category": "Utility hardpoints"
     },
     {
-      "PortName": "hardpoint_radar_turret_tractor_bottom_rear",
-      "Size": 2,
-      "Loadout": "RADR_CHCO_S02_Surveyor",
+      "PortName": "hardpoint_relay_tractorbeam",
+      "Size": 1,
+      "Loadout": "RELAY_1slot",
       "InstalledItem": {
-        "UUID": "3260e018-64ca-42e9-b85a-8b80d24d5375",
-        "ClassName": "RADR_CHCO_S02_Surveyor",
-        "Size": 2,
+        "UUID": "b50ce2fd-9b1d-4daf-8bbc-e5b10d769e63",
+        "ClassName": "RELAY_1slot",
+        "Size": 1,
         "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Surveyor",
-        "Description": "Item Type: Radar\nManufacturer: Chimera Communications\nSize: 2\nGrade: C\nClass: Industrial\n\nThe Surveyor radar from Chimera Communications does away with all the unnecessary extras other manufacturers hide behind to focus on what matters: signature and emission detection that works the way you need it to. ",
-        "Tags": [
-          "flightReady"
-        ],
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_1slot",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 720.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
+          "Health": 300.0
         },
         "Ports": [
           {
-            "PortName": "BatteryPort",
-            "Size": 2,
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
             "Types": [
-              "Battery"
+              "Misc.Fuse"
             ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
+            "Category": "UNKNOWN"
           }
         ]
       },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
       "Category": "Utility hardpoints"
     }
   ],
@@ -949,8 +620,8 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -981,8 +652,8 @@
           }
         },
         "Durability": {
-          "Health": 1485.0,
-          "Lifetime": 80.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 2000.0,
@@ -1025,8 +696,8 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1057,8 +728,8 @@
           }
         },
         "Durability": {
-          "Health": 1485.0,
-          "Lifetime": 80.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 2000.0,
@@ -1079,6 +750,158 @@
       "PortName": "hardpoint_rear_shield_generator02",
       "Size": 3,
       "Loadout": "SHLD_BASL_S03_Stronghold_SCItem",
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    },
+    {
+      "PortName": "hardpoint_shield_generator03",
+      "Size": 3,
+      "Loadout": "SHLD_BASL_S03_Stronghold_SCItem",
+      "InstalledItem": {
+        "UUID": "3a2e37f0-dc95-4082-b74d-fe968ed64eb3",
+        "ClassName": "SHLD_BASL_S03_Stronghold_SCItem",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "Stronghold",
+        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 3\nGrade: C\nClass: Industrial\n\nThe Stronghold shield generator uses patented hull plating techniques to reinforce the generator’s body to make it one of the sturdiest on the market. That means the shield and component are both built to last.",
+        "Manufacturer": {
+          "Code": "BASL",
+          "Name": "Basilisk"
+        },
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 0.756,
+        "DimensionOverrides": {
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
+        },
+        "Shield": {
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 1300.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 2000.0,
+          "PowerDraw": 2500.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 465000.0,
+          "ThermalEnergyDraw": 470000.0,
+          "CoolingRate": 144.3077
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    },
+    {
+      "PortName": "hardpoint_shield_generator04",
+      "Size": 3,
+      "Loadout": "SHLD_BASL_S03_Stronghold_SCItem",
+      "InstalledItem": {
+        "UUID": "3a2e37f0-dc95-4082-b74d-fe968ed64eb3",
+        "ClassName": "SHLD_BASL_S03_Stronghold_SCItem",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "Stronghold",
+        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 3\nGrade: C\nClass: Industrial\n\nThe Stronghold shield generator uses patented hull plating techniques to reinforce the generator’s body to make it one of the sturdiest on the market. That means the shield and component are both built to last.",
+        "Manufacturer": {
+          "Code": "BASL",
+          "Name": "Basilisk"
+        },
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 0.756,
+        "DimensionOverrides": {
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 3.0
+        },
+        "Shield": {
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 1300.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 2000.0,
+          "PowerDraw": 2500.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 465000.0,
+          "ThermalEnergyDraw": 470000.0,
+          "CoolingRate": 144.3077
+        }
+      },
       "Types": [
         "Shield.UNDEFINED"
       ],
@@ -1115,8 +938,8 @@
           "Output": 37500.0
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 44.0
+          "Health": 2000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1130,6 +953,53 @@
       },
       "Types": [
         "PowerPlant"
+      ],
+      "Category": "Power plants"
+    },
+    {
+      "PortName": "hardpoint_rear_power_plant_B",
+      "Size": 3,
+      "Loadout": "POWR_AEGS_S03_Centurion_SCItem",
+      "InstalledItem": {
+        "UUID": "5db93be6-1fa1-450f-b539-fedf8690cab2",
+        "ClassName": "POWR_AEGS_S03_Centurion_SCItem",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "PowerPlant.Power",
+        "Name": "Centurion",
+        "Description": "Item Type: Power Plant\nManufacturer: Aegis Dynamics\nSize: 3\nGrade: C\nClass: Military\n\nThe Centurion stands ready to power your ship. This large power plant from Aegis Dynamics has been in service for centuries and has consistently proven to supply solid performance and durability.",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 0.756,
+        "DimensionOverrides": {
+          "Width": 3.0,
+          "Height": 1.5,
+          "Depth": 1.5
+        },
+        "PowerPlant": {
+          "Output": 37500.0
+        },
+        "Durability": {
+          "Health": 2000.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 37500.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 353333.3,
+          "ThermalEnergyDraw": 375000.0,
+          "CoolingRate": 285.1282
+        }
+      },
+      "Types": [
+        "PowerPlant.Power"
       ],
       "Category": "Power plants"
     }
@@ -1164,8 +1034,8 @@
           "Rate": 11600000.0
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 192.0
+          "Health": 1700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1214,8 +1084,8 @@
           "Rate": 11600000.0
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 192.0
+          "Health": 1700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1284,10 +1154,10 @@
           "FuelRate": 3.864E-08,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 59588720.0,
+            "Speed": 240000000.0,
             "Cooldown": 22.0,
-            "Stage1AccelerationRate": 600000.0,
-            "State2AccelerationRate": 4634678.0,
+            "Stage1AccelerationRate": 200000.0,
+            "State2AccelerationRate": 16000000.0,
             "SpoolUpTime": 7.0
           },
           "SplineJump": {
@@ -1299,8 +1169,8 @@
           }
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 80.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 768.0,
@@ -1315,15 +1185,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 3,
+            "Loadout": "JDRV_TARS_S03_C_Explorer",
+            "InstalledItem": {
+              "UUID": "a8d5784b-5abc-4ab0-9256-b1491b6d3eae",
+              "ClassName": "JDRV_TARS_S03_C_Explorer",
+              "Size": 3,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Exodus",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 3\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Exodus jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 760.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 40.0,
+                "PowerDraw": 400.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -1421,8 +1315,7 @@
           "MaxThrustFuelRate": 60.70275
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1465,8 +1358,7 @@
           "MaxThrustFuelRate": 60.70275
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1509,8 +1401,7 @@
           "MaxThrustFuelRate": 60.70275
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1553,8 +1444,7 @@
           "MaxThrustFuelRate": 60.70275
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1597,8 +1487,7 @@
           "MaxThrustFuelRate": 60.70275
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1641,8 +1530,7 @@
           "MaxThrustFuelRate": 60.70275
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1687,8 +1575,7 @@
           "MaxThrustFuelRate": 65.1
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1731,8 +1618,7 @@
           "MaxThrustFuelRate": 65.1
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1775,8 +1661,7 @@
           "MaxThrustFuelRate": 43.942499999999995
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1819,8 +1704,7 @@
           "MaxThrustFuelRate": 43.942499999999995
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1865,8 +1749,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1909,8 +1792,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1953,8 +1835,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1997,8 +1878,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2041,8 +1921,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2085,8 +1964,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2129,8 +2007,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2173,8 +2050,7 @@
           "MaxThrustFuelRate": 3.7975
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2219,8 +2095,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2263,8 +2138,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2307,8 +2181,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2351,8 +2224,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2395,8 +2267,7 @@
           "MaxThrustFuelRate": 14.0625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2439,8 +2310,7 @@
           "MaxThrustFuelRate": 14.0625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2483,8 +2353,7 @@
           "MaxThrustFuelRate": 23.4375
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2527,8 +2396,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2571,8 +2439,7 @@
           "MaxThrustFuelRate": 23.4375
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2615,8 +2482,7 @@
           "MaxThrustFuelRate": 23.4375
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2659,8 +2525,7 @@
           "MaxThrustFuelRate": 9.375
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2703,8 +2568,7 @@
           "MaxThrustFuelRate": 23.4375
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2747,8 +2611,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2791,8 +2654,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2835,8 +2697,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2879,8 +2740,7 @@
           "MaxThrustFuelRate": 4.15625
         },
         "Durability": {
-          "Health": 15000.0,
-          "Lifetime": 720.0
+          "Health": 15000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

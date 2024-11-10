@@ -68,24 +68,113 @@
         },
         "Ports": [
           {
+            "PortName": "Radar_Helper",
+            "Size": 1,
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
             "PortName": "Display_HUD",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_Left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
             "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
+              "Name": "Vehicle_Screen_MFD",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
-              "Volume": 1E-06
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
             },
             "Types": [
               "Display"
             ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_Radar",
+            "Size": 1,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_annunciator",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical",
+            "InstalledItem": {
+              "UUID": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+              "ClassName": "Vehicle_Screen_Physical",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "HUD_Left",
+            "Size": 0,
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "HUD_Right",
+            "Size": 0,
             "Category": "UNKNOWN"
           }
         ]
@@ -98,7 +187,61 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Radar",
+        "Port": {
+          "PortName": "Screen_MFD_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Left",
+        "Port": {
+          "PortName": "Screen_MFD_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Right",
+        "Port": {
+          "PortName": "Screen_MFD_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_annunciator",
+        "Port": {
+          "PortName": "screen_annunciator",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "HUD_Right",
+        "Port": {
+          "PortName": "HUD_Right",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "HUD_Left",
+        "Port": {
+          "PortName": "HUD_Left",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       }
@@ -196,7 +339,7 @@
               "Length": 0.15,
               "Volume": 1E-06,
               "Durability": {
-                "Health": 2000.0
+                "Health": 6500.0
               },
               "PowerConnection": {
                 "PowerBase": 0.0,
@@ -219,7 +362,7 @@
                     "Grade": 1,
                     "Type": "TowingBeam.UNDEFINED",
                     "Name": "SafeTow S3 Towing Beam",
-                    "Description": "Manufacturer: Greycat Industrial\nItem Type: Towing Beam\nMax Angle: 160°\nMax Range: 250 m\nFull Strength Distance: 200 m\n\nThe safe and secure choice of recovery teams across the empire, the SafeTow towing beam from Greycat Industrial boasts enough strength, power, and control to transport both heavy cargo and entire vehicles across the ‘verse.",
+                    "Description": "Manufacturer: Greycat Industrial\nItem Type: Towing Beam\nMax Angle: 160°\nMax Range: 250 m\nFull Strength Distance: 200 m\n\nThe safe and secure choice of recovery teams across the empire, the SafeTow towing beam from Greycat Industrial boasts enough strength, power, and control to transport both heavy cargo and vehicles across the ‘verse.",
                     "Manufacturer": {
                       "Code": "GRIN",
                       "Name": "Greycat Industrial"
@@ -239,7 +382,7 @@
                     },
                     "Durability": {
                       "Health": 1050.0,
-                      "Lifetime": 100.0
+                      "Lifetime": 0.0
                     },
                     "PowerConnection": {
                       "PowerBase": 46.0,
@@ -471,8 +614,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Ifcs": {
-          "MaxSpeed": 985.0,
-          "ScmSpeed": 140.0,
+          "MaxSpeed": 1100.0,
+          "ScmSpeed": 200.0,
           "Pitch": 30.0,
           "Yaw": 30.0,
           "Roll": 60.0,
@@ -597,8 +740,8 @@
           "Rate": 8000000.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 104.0
+          "Health": 710.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -656,8 +799,8 @@
           "Output": 12500.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 40.0
+          "Health": 1100.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -706,10 +849,10 @@
           "FuelRate": 6.1040000000000004E-09,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 76968760.0,
+            "Speed": 190000000.0,
             "Cooldown": 37.8,
-            "Stage1AccelerationRate": 637000.5,
-            "State2AccelerationRate": 8185776.0,
+            "Stage1AccelerationRate": 350000.0,
+            "State2AccelerationRate": 15000000.0,
             "SpoolUpTime": 6.0
           },
           "SplineJump": {
@@ -721,8 +864,8 @@
           }
         },
         "Durability": {
-          "Health": 2320.0,
-          "Lifetime": 67.2
+          "Health": 960.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.5,
@@ -737,15 +880,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 2,
+            "Loadout": "JDRV_TARS_S02_C_Explorer",
+            "InstalledItem": {
+              "UUID": "649c2450-0194-4a4d-99f3-38c16aacad53",
+              "ClassName": "JDRV_TARS_S02_C_Explorer",
+              "Size": 2,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Excelsior",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 2\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Excelsior jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 490.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 20.0,
+                "PowerDraw": 200.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -753,7 +920,18 @@
         "QuantumDrive.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "hardpoint_jump_drive",
+        "Port": {
+          "PortName": "hardpoint_jump_drive",
+          "Size": 2,
+          "Loadout": "JDRV_TARS_S02_C_Explorer",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_quantum_fuel_tank",
@@ -807,8 +985,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -902,8 +1080,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4430.0,
+          "Regeneration": 269.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -934,8 +1112,8 @@
           }
         },
         "Durability": {
-          "Health": 2320.0,
-          "Lifetime": 40.0
+          "Health": 700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -975,47 +1153,6 @@
         "LandingSystem.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_SRV",
-      "InstalledItem": {
-        "UUID": "ae4f8234-348e-47fb-b2fc-b03d3620df5d",
-        "ClassName": "WeaponRegenPool_Turret_SRV",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_SRV",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   },
   {
@@ -1348,8 +1485,7 @@
           "MaxThrustFuelRate": 37.25
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1395,8 +1531,7 @@
           "MaxThrustFuelRate": 37.25
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1442,8 +1577,7 @@
           "MaxThrustFuelRate": 22.900000000000002
         },
         "Durability": {
-          "Health": 22000.0,
-          "Lifetime": 720.0
+          "Health": 22000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1489,8 +1623,7 @@
           "MaxThrustFuelRate": 22.900000000000002
         },
         "Durability": {
-          "Health": 22000.0,
-          "Lifetime": 720.0
+          "Health": 22000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1536,8 +1669,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1583,8 +1715,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1630,8 +1761,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1677,8 +1807,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1724,8 +1853,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1771,8 +1899,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1818,8 +1945,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1865,8 +1991,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1912,8 +2037,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1959,8 +2083,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2006,8 +2129,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2053,8 +2175,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2100,8 +2221,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2147,8 +2267,7 @@
           "MaxThrustFuelRate": 12.100000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2194,8 +2313,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2241,8 +2359,7 @@
           "MaxThrustFuelRate": 14.875000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2288,8 +2405,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2335,8 +2451,7 @@
           "MaxThrustFuelRate": 11.450000000000001
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2952,8 +3067,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2999,8 +3113,7 @@
           "MaxThrustFuelRate": 1.4375000000000002
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -3133,6 +3246,112 @@
         "Cargo.UNDEFINED"
       ],
       "Category": "Cargo grids"
+    }
+  },
+  {
+    "Name": "hardpoint_relay",
+    "Port": {
+      "PortName": "hardpoint_relay",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   },
   {

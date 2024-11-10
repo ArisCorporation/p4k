@@ -70,14 +70,14 @@
           {
             "PortName": "hardpoint_cockpit_radar",
             "Size": 1,
-            "Loadout": "RADR_Display",
+            "Loadout": "Radar_Display_Mantis",
             "InstalledItem": {
-              "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-              "ClassName": "RADR_Display",
+              "UUID": "7a267da3-d086-4d94-ba7c-74398ce8900f",
+              "ClassName": "Radar_Display_Mantis",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "RADR_Display",
+              "Name": "Radar_Display_Mantis",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
@@ -91,19 +91,119 @@
           {
             "PortName": "Display_HUD",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
+            "Loadout": "H_Dashboard_Projector_HUD_RSI_Mantis",
             "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
+              "UUID": "eeb6be27-c01b-4cc8-8dee-d3e82cf09249",
+              "ClassName": "H_Dashboard_Projector_HUD_RSI_Mantis",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
+              "Name": "H_Dashboard_Projector_HUD_RSI_Mantis",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
               "Volume": 1E-06
             },
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_screen_top_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_screen_top_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_screen_bottom_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "rtt_screen_bottom_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -116,7 +216,7 @@
         "Port": {
           "PortName": "hardpoint_cockpit_radar",
           "Size": 0,
-          "Loadout": "RADR_Display",
+          "Loadout": "Radar_Display_Mantis",
           "Category": "DISABLED"
         }
       },
@@ -125,7 +225,43 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "H_Dashboard_Projector_HUD_RSI_Mantis",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_screen_top_right",
+        "Port": {
+          "PortName": "rtt_screen_top_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_screen_top_left",
+        "Port": {
+          "PortName": "rtt_screen_top_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_screen_bottom_right",
+        "Port": {
+          "PortName": "rtt_screen_bottom_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "rtt_screen_bottom_left",
+        "Port": {
+          "PortName": "rtt_screen_bottom_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
           "Category": "DISABLED"
         }
       }
@@ -257,8 +393,8 @@
           "Output": 4000.0
         },
         "Durability": {
-          "Health": 432.0,
-          "Lifetime": 22.0
+          "Health": 820.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -328,8 +464,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -378,8 +514,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -470,8 +606,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1730.0,
+          "Regeneration": 115.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -502,8 +638,8 @@
           }
         },
         "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
+          "Health": 630.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -549,8 +685,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1730.0,
+          "Regeneration": 115.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -581,8 +717,8 @@
           }
         },
         "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
+          "Health": 630.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -705,8 +841,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
+          "Health": 720.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -789,8 +925,7 @@
           "MaxThrustFuelRate": 209.875
         },
         "Durability": {
-          "Health": 7500.0,
-          "Lifetime": 720.0
+          "Health": 7500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -839,8 +974,7 @@
           "MaxThrustFuelRate": 209.875
         },
         "Durability": {
-          "Health": 7500.0,
-          "Lifetime": 720.0
+          "Health": 7500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -889,8 +1023,7 @@
           "MaxThrustFuelRate": 49.625
         },
         "Durability": {
-          "Health": 6950.0,
-          "Lifetime": 720.0
+          "Health": 6950.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -939,8 +1072,7 @@
           "MaxThrustFuelRate": 49.625
         },
         "Durability": {
-          "Health": 6950.0,
-          "Lifetime": 720.0
+          "Health": 6950.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -989,8 +1121,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1039,8 +1170,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1089,8 +1219,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1139,8 +1268,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1189,8 +1317,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1239,8 +1366,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1289,8 +1415,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1339,8 +1464,7 @@
           "MaxThrustFuelRate": 31.75
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1527,10 +1651,10 @@
           "FuelRate": 1.862E-08,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 253252000.0,
+            "Speed": 165000000.0,
             "Cooldown": 12.0,
-            "Stage1AccelerationRate": 610000.0,
-            "State2AccelerationRate": 3575323.0,
+            "Stage1AccelerationRate": 5000000.0,
+            "State2AccelerationRate": 11000000.0,
             "SpoolUpTime": 4.0
           },
           "SplineJump": {
@@ -1542,8 +1666,8 @@
           }
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 6.5
+          "Health": 720.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.4,
@@ -1558,15 +1682,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 1,
+            "Loadout": "JDRV_TARS_S01_C_Explorer",
+            "InstalledItem": {
+              "UUID": "0089dcd7-93ec-4f42-89e4-00db71d52df6",
+              "ClassName": "JDRV_TARS_S01_C_Explorer",
+              "Size": 1,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Explorer",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 1\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Explorer jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 320.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 10.0,
+                "PowerDraw": 100.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -1574,7 +1722,18 @@
         "QuantumDrive.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "hardpoint_jump_drive",
+        "Port": {
+          "PortName": "hardpoint_jump_drive",
+          "Size": 1,
+          "Loadout": "JDRV_TARS_S01_C_Explorer",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_quantum_fuel_tank",
@@ -1774,9 +1933,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2400.451
@@ -1817,9 +1973,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1937,9 +2090,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -1980,9 +2130,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2032,8 +2179,8 @@
       "InstalledItem": {
         "UUID": "06cc3878-1310-4ada-9c7a-97feecb47fb4",
         "ClassName": "QED_WETK_S03_Reynie",
-        "Size": 3,
-        "Grade": 3,
+        "Size": 1,
+        "Grade": 1,
         "Type": "QuantumInterdictionGenerator.UNDEFINED",
         "Name": "Reynie QED",
         "Description": "Item Type: Quantum Enforcement Device\nManufacturer: Wei-Tek\nSize: 3\nGrade: C\nClass: Military\n\nThis combination Quantum Enforcement Device from Wei-Tek contains both a Quantum Snare for pulling crafts out of quantum travel and a Quantum Dampener for preventing the engaging of quantum drives. With the ability to catch and hold, the Reynie offers an ideal all-in-one solution for security personnel.",
@@ -2240,37 +2387,29 @@
     "Port": {
       "PortName": "hardpoint_door_lift",
       "Size": 1,
-      "Loadout": "RSI_Mantis_Door_Lift",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenReverse_Mantis",
       "InstalledItem": {
-        "UUID": "75707891-2128-4903-9d53-fc74c4bae1b5",
-        "ClassName": "RSI_Mantis_Door_Lift",
+        "UUID": "2451b77e-690d-47f3-af9c-7b864598a1a0",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenReverse_Mantis",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "RSI",
-          "Name": "Roberts Space Industries"
-        },
+        "Name": "Door_RN_RoomConnector_Breachable_OpenReverse_Mantis",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
             "PortName": "control_panel_a",
             "Size": 10,
-            "Loadout": "RSI_Phoenix_Door_Switch_Elevator_Upper",
+            "Loadout": "ControlPanel_Screen_DoorControl_9x16_Small_Elevator_Mantis",
             "InstalledItem": {
-              "UUID": "bda6c528-5e8a-4e87-9611-6a1a0033c10d",
-              "ClassName": "RSI_Phoenix_Door_Switch_Elevator_Upper",
+              "UUID": "e91483d8-257d-4bf5-bf76-7c81fa64d430",
+              "ClassName": "ControlPanel_Screen_DoorControl_9x16_Small_Elevator_Mantis",
               "Size": 1,
               "Grade": 1,
               "Type": "ControlPanel.DoorPart",
@@ -2279,40 +2418,10 @@
                 "Code": "RSI",
                 "Name": "Roberts Space Industries"
               },
-              "Tags": [
-                "AirlockControlUI"
-              ],
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
-              "Volume": 1E-06,
-              "Ports": [
-                {
-                  "PortName": "hardpoint_panel_screen",
-                  "Size": 5,
-                  "Loadout": "UI_EnvironmentScreen_Phoenix_ElevatorPanel_Top",
-                  "InstalledItem": {
-                    "UUID": "7eb567aa-8dd4-470f-85a5-4c36a8172ff2",
-                    "ClassName": "UI_EnvironmentScreen_Phoenix_ElevatorPanel_Top",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "StatusScreen.AirlockPart",
-                    "Name": "UI_EnvironmentScreen_Phoenix_ElevatorPanel_Top",
-                    "Tags": [
-                      "AirlockStateUI"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Flags": [
-                    "uneditable"
-                  ],
-                  "Category": "UNKNOWN",
-                  "Uneditable": true
-                }
-              ]
+              "Volume": 1E-06
             },
             "Types": [
               "ControlPanel.DoorPart"
@@ -2322,10 +2431,10 @@
           {
             "PortName": "control_panel_b",
             "Size": 10,
-            "Loadout": "RSI_Phoenix_Door_Switch_Elevator_Lower",
+            "Loadout": "ControlPanel_Screen_DoorControl_9x16_Small_Elevator_Mantis",
             "InstalledItem": {
-              "UUID": "4585848c-0dab-4349-94b5-53e9d1351e7b",
-              "ClassName": "RSI_Phoenix_Door_Switch_Elevator_Lower",
+              "UUID": "e91483d8-257d-4bf5-bf76-7c81fa64d430",
+              "ClassName": "ControlPanel_Screen_DoorControl_9x16_Small_Elevator_Mantis",
               "Size": 1,
               "Grade": 1,
               "Type": "ControlPanel.DoorPart",
@@ -2334,40 +2443,10 @@
                 "Code": "RSI",
                 "Name": "Roberts Space Industries"
               },
-              "Tags": [
-                "AirlockControlUI"
-              ],
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
-              "Volume": 1E-06,
-              "Ports": [
-                {
-                  "PortName": "hardpoint_panel_screen",
-                  "Size": 5,
-                  "Loadout": "UI_EnvironmentScreen_Phoenix_ElevatorPanel_Bottom",
-                  "InstalledItem": {
-                    "UUID": "37a231ea-652a-4e5e-80f7-c413ddeb61c2",
-                    "ClassName": "UI_EnvironmentScreen_Phoenix_ElevatorPanel_Bottom",
-                    "Size": 1,
-                    "Grade": 1,
-                    "Type": "StatusScreen.AirlockPart",
-                    "Name": "UI_EnvironmentScreen_Phoenix_ElevatorPanel_Bottom",
-                    "Tags": [
-                      "AirlockStateUI"
-                    ],
-                    "Width": 0.15,
-                    "Height": 0.15,
-                    "Length": 0.15,
-                    "Volume": 1E-06
-                  },
-                  "Flags": [
-                    "uneditable"
-                  ],
-                  "Category": "UNKNOWN",
-                  "Uneditable": true
-                }
-              ]
+              "Volume": 1E-06
             },
             "Types": [
               "ControlPanel.DoorPart"
@@ -2484,27 +2563,64 @@
     }
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
+    "Name": "hardpoint_lifesupport",
     "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
+      "PortName": "hardpoint_lifesupport",
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
       "Types": [
-        "WeaponGun.Gun"
+        "LifeSupportGenerator.UNDEFINED"
       ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
+      "Category": "UNKNOWN"
     }
   },
   {
@@ -2621,6 +2737,51 @@
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_interior",
+    "Port": {
+      "PortName": "hardpoint_relay_interior",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

@@ -120,9 +120,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -163,9 +160,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -208,9 +202,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -251,9 +242,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -348,9 +336,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2400.451
@@ -391,9 +376,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -436,9 +418,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2400.451
@@ -479,9 +458,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -599,24 +575,6 @@
           }
         ]
       },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 0,
-      "Loadout": "",
       "Types": [
         "WeaponGun.Gun"
       ],
@@ -833,8 +791,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -865,8 +823,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -909,8 +867,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -941,8 +899,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -990,55 +948,8 @@
           "Output": 9375.0
         },
         "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 9375.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 86250.0,
-          "ThermalEnergyDraw": 93750.0,
-          "CoolingRate": 205.0
-        }
-      },
-      "Types": [
-        "PowerPlant.Power"
-      ],
-      "Category": "Power plants"
-    },
-    {
-      "PortName": "hardpoint_powerplant_rear",
-      "Size": 2,
-      "Loadout": "POWR_AEGS_S02_Maelstrom_SCItem",
-      "InstalledItem": {
-        "UUID": "662e4a88-d893-46fd-9fcc-e33e4b783fae",
-        "ClassName": "POWR_AEGS_S02_Maelstrom_SCItem",
-        "Size": 2,
-        "Grade": 3,
-        "Type": "PowerPlant.Power",
-        "Name": "Maelstrom",
-        "Description": "Item Type: Power Plant\nManufacturer: Aegis Dynamics\nSize: 2\nGrade: C\nClass: Military\n\nThis military-grade component has been put through the paces by the UEE Navy, so you know the Maelstrom can handle the havoc of battle. ",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Width": 0.4466009,
-        "Height": 0.801895,
-        "Length": 3.316511,
-        "Volume": 0.252,
-        "DimensionOverrides": {
-          "Width": 2.25,
-          "Height": 0.75,
-          "Depth": 0.75
-        },
-        "PowerPlant": {
-          "Output": 9375.0
-        },
-        "Durability": {
-          "Health": 864.0,
-          "Lifetime": 35.2
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1086,8 +997,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1133,8 +1044,8 @@
           "Rate": 5200000.0
         },
         "Durability": {
-          "Health": 648.0,
-          "Lifetime": 88.0
+          "Health": 830.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -1209,8 +1120,7 @@
           "MaxThrustFuelRate": 44.500593375
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1253,8 +1163,7 @@
           "MaxThrustFuelRate": 44.500593375
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1297,8 +1206,7 @@
           "MaxThrustFuelRate": 36.015
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1341,8 +1249,7 @@
           "MaxThrustFuelRate": 36.015
         },
         "Durability": {
-          "Health": 16500.0,
-          "Lifetime": 720.0
+          "Health": 16500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1387,8 +1294,7 @@
           "MaxThrustFuelRate": 18.25422725
         },
         "Durability": {
-          "Health": 15250.0,
-          "Lifetime": 720.0
+          "Health": 15250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1431,8 +1337,7 @@
           "MaxThrustFuelRate": 18.25422725
         },
         "Durability": {
-          "Health": 15250.0,
-          "Lifetime": 720.0
+          "Health": 15250.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1478,8 +1383,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1522,8 +1426,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1566,8 +1469,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1610,8 +1512,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1654,8 +1555,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1698,8 +1598,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1742,8 +1641,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1786,8 +1684,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1830,8 +1727,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1874,8 +1770,7 @@
           "MaxThrustFuelRate": 6.356359375
         },
         "Durability": {
-          "Health": 14350.0,
-          "Lifetime": 720.0
+          "Health": 14350.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

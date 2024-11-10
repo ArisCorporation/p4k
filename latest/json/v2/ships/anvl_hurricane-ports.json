@@ -1,41 +1,5 @@
 {
-  "PilotHardpoints": [
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_S1",
-      "InstalledItem": {
-        "UUID": "c181a828-9eb2-42ed-859e-d4bee560f2b3",
-        "ClassName": "WeaponRegenPool_Turret_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_S1",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 20000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  ],
+  "PilotHardpoints": [],
   "MannedTurrets": [
     {
       "PortName": "hardpoint_turret",
@@ -127,9 +91,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -224,9 +185,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -320,9 +278,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -415,9 +370,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -631,8 +583,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 6000.0,
-          "Regeneration": 400.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -663,8 +615,8 @@
           }
         },
         "Durability": {
-          "Health": 792.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 1000.0,
@@ -685,44 +637,91 @@
   "PowerPlants": [
     {
       "PortName": "hardpoint_powerplant",
-      "Size": 2,
-      "Loadout": "POWR_ACOM_S02_SolarFlare_SCItem",
+      "Size": 1,
+      "Loadout": "POWR_AEGS_S01_Regulus_SCItem",
       "InstalledItem": {
-        "UUID": "bec88ea5-1dc1-4c87-836c-e9b9026369be",
-        "ClassName": "POWR_ACOM_S02_SolarFlare_SCItem",
-        "Size": 2,
+        "UUID": "688aab9c-bc62-4774-be7d-065dee7e2187",
+        "ClassName": "POWR_AEGS_S01_Regulus_SCItem",
+        "Size": 1,
         "Grade": 3,
         "Type": "PowerPlant.Power",
-        "Name": "SolarFlare",
-        "Description": "Item Type: Power Plant\nManufacturer: ACOM\nSize: 2\nGrade: C\nClass: Competition\n\nThe ACOM team took their years of experience in the racing world and applied it to their component designs. That focus has helped make the SolarFlare a popular power plant among pilots that want to prioritize performance.",
+        "Name": "Regulus",
+        "Description": "Item Type: Power Plant\nManufacturer: Aegis Dynamics\nSize: 1\nGrade: C\nClass: Military\n\nThe Regulus is the power plant you can count on when everyone is counting on you. Made to exceed exacting military standards, Aegis’ design team has made sure that you have the extra power you need, when you need it most.",
         "Manufacturer": {
-          "Code": "ACOM",
-          "Name": "ACOM"
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
         },
-        "Width": 0.4466009,
+        "Width": 0.2233005,
         "Height": 0.801895,
-        "Length": 3.316511,
-        "Volume": 0.252,
+        "Length": 2.211008,
+        "Volume": 0.08399999999999999,
         "DimensionOverrides": {
-          "Width": 2.25,
+          "Width": 1.5,
           "Height": 0.75,
           "Depth": 0.75
         },
         "PowerPlant": {
-          "Output": 3125.0
+          "Output": 4000.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 24.0
+          "Health": 820.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
-          "PowerDraw": 3125.0
+          "PowerDraw": 4000.0
         },
         "HeatConnection": {
-          "ThermalEnergyBase": 60000.0,
-          "ThermalEnergyDraw": 68750.0,
-          "CoolingRate": 159.5238
+          "ThermalEnergyBase": 22245.0,
+          "ThermalEnergyDraw": 26295.0,
+          "CoolingRate": 104.8765
+        }
+      },
+      "Types": [
+        "PowerPlant.Power"
+      ],
+      "Category": "Power plants"
+    },
+    {
+      "PortName": "hardpoint_powerplant_02",
+      "Size": 1,
+      "Loadout": "POWR_AEGS_S01_Regulus_SCItem",
+      "InstalledItem": {
+        "UUID": "688aab9c-bc62-4774-be7d-065dee7e2187",
+        "ClassName": "POWR_AEGS_S01_Regulus_SCItem",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "PowerPlant.Power",
+        "Name": "Regulus",
+        "Description": "Item Type: Power Plant\nManufacturer: Aegis Dynamics\nSize: 1\nGrade: C\nClass: Military\n\nThe Regulus is the power plant you can count on when everyone is counting on you. Made to exceed exacting military standards, Aegis’ design team has made sure that you have the extra power you need, when you need it most.",
+        "Manufacturer": {
+          "Code": "AEG",
+          "Name": "Aegis Dynamics"
+        },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 0.08399999999999999,
+        "DimensionOverrides": {
+          "Width": 1.5,
+          "Height": 0.75,
+          "Depth": 0.75
+        },
+        "PowerPlant": {
+          "Output": 4000.0
+        },
+        "Durability": {
+          "Health": 820.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 4000.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 22245.0,
+          "ThermalEnergyDraw": 26295.0,
+          "CoolingRate": 104.8765
         }
       },
       "Types": [
@@ -761,8 +760,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -808,8 +807,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -884,8 +883,7 @@
           "MaxThrustFuelRate": 32.8342875
         },
         "Durability": {
-          "Health": 9760.0,
-          "Lifetime": 720.0
+          "Health": 9760.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -928,8 +926,7 @@
           "MaxThrustFuelRate": 32.8342875
         },
         "Durability": {
-          "Health": 9760.0,
-          "Lifetime": 720.0
+          "Health": 9760.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -974,8 +971,7 @@
           "MaxThrustFuelRate": 11.927825
         },
         "Durability": {
-          "Health": 8900.0,
-          "Lifetime": 720.0
+          "Health": 8900.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1018,8 +1014,7 @@
           "MaxThrustFuelRate": 11.927825
         },
         "Durability": {
-          "Health": 8900.0,
-          "Lifetime": 720.0
+          "Health": 8900.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1065,8 +1060,7 @@
           "MaxThrustFuelRate": 5.696875
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1109,8 +1103,7 @@
           "MaxThrustFuelRate": 5.696875
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1153,8 +1146,7 @@
           "MaxThrustFuelRate": 3.203125
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1197,8 +1189,7 @@
           "MaxThrustFuelRate": 3.203125
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1241,8 +1232,7 @@
           "MaxThrustFuelRate": 3.203125
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1285,8 +1275,7 @@
           "MaxThrustFuelRate": 3.203125
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1329,8 +1318,7 @@
           "MaxThrustFuelRate": 5.696875
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1373,8 +1361,7 @@
           "MaxThrustFuelRate": 5.696875
         },
         "Durability": {
-          "Health": 8150.0,
-          "Lifetime": 720.0
+          "Health": 8150.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,

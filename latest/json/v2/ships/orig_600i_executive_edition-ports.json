@@ -392,41 +392,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_600i",
-      "InstalledItem": {
-        "UUID": "8c718771-9c8d-4a05-9c8a-8c09eb8b0c2b",
-        "ClassName": "WeaponRegenPool_Turret_600i",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_600i",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 1000000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   ],
   "MannedTurrets": [
@@ -465,8 +430,8 @@
           "Depth": 0.75
         },
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -586,9 +551,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -629,9 +591,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -674,9 +633,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -717,9 +673,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -815,9 +768,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -858,9 +808,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -903,9 +850,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -946,9 +890,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1044,9 +985,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -1087,9 +1025,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1132,9 +1067,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -1175,9 +1107,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1273,9 +1202,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -1316,9 +1242,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1361,9 +1284,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -1404,9 +1324,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1620,8 +1537,8 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1652,8 +1569,8 @@
           }
         },
         "Durability": {
-          "Health": 1485.0,
-          "Lifetime": 80.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 2000.0,
@@ -1696,8 +1613,8 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 100000.0,
-          "Regeneration": 1600.0,
+          "Health": 56100.0,
+          "Regeneration": 3090.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1728,8 +1645,8 @@
           }
         },
         "Durability": {
-          "Health": 1485.0,
-          "Lifetime": 80.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 2000.0,
@@ -1777,8 +1694,8 @@
           "Output": 55000.0
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 88.0
+          "Health": 2200.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1826,8 +1743,55 @@
           "Rate": 8000000.0
         },
         "Durability": {
-          "Health": 4500.0,
-          "Lifetime": 80.0
+          "Health": 920.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 32.0,
+          "PowerDraw": 48.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        }
+      },
+      "Types": [
+        "Cooler.UNDEFINED"
+      ],
+      "Category": "Coolers"
+    },
+    {
+      "PortName": "hardpoint_cooler_2",
+      "Size": 3,
+      "Loadout": "COOL_LPLT_S03_FrostBurn_SCItem",
+      "InstalledItem": {
+        "UUID": "4f61e805-f5f4-49b2-a834-cfda713f48db",
+        "ClassName": "COOL_LPLT_S03_FrostBurn_SCItem",
+        "Size": 3,
+        "Grade": 3,
+        "Type": "Cooler.UNDEFINED",
+        "Name": "FrostBurn",
+        "Description": "Item Type: Cooler\nManufacturer: Lightning Power Ltd. \nSize: 3\nGrade: C\nClass: Civilian\n\nLightning Power Ltd. has put its years of design expertise and manufacturing know-how to craft the FrostBurn, an effective cooler that can handle the large scale heat management needs of a wide variety of ships on the market.",
+        "Manufacturer": {
+          "Code": "LPLT",
+          "Name": "Lightning Power Ltd."
+        },
+        "Width": 0.6699014,
+        "Height": 1.202842,
+        "Length": 4.422015,
+        "Volume": 0.756,
+        "DimensionOverrides": {
+          "Width": 3.0,
+          "Height": 0.75,
+          "Depth": 0.75
+        },
+        "Cooler": {
+          "Rate": 8000000.0
+        },
+        "Durability": {
+          "Health": 920.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 32.0,
@@ -1902,8 +1866,7 @@
           "MaxThrustFuelRate": 144.8125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1946,8 +1909,7 @@
           "MaxThrustFuelRate": 144.8125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1990,8 +1952,7 @@
           "MaxThrustFuelRate": 144.8125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2034,8 +1995,7 @@
           "MaxThrustFuelRate": 144.8125
         },
         "Durability": {
-          "Health": 21000.0,
-          "Lifetime": 720.0
+          "Health": 21000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2080,8 +2040,7 @@
           "MaxThrustFuelRate": 144.8125
         },
         "Durability": {
-          "Health": 19500.0,
-          "Lifetime": 720.0
+          "Health": 19500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2124,8 +2083,7 @@
           "MaxThrustFuelRate": 144.8125
         },
         "Durability": {
-          "Health": 19500.0,
-          "Lifetime": 720.0
+          "Health": 19500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2171,8 +2129,7 @@
           "MaxThrustFuelRate": 32.34375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2215,8 +2172,7 @@
           "MaxThrustFuelRate": 32.34375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2259,8 +2215,7 @@
           "MaxThrustFuelRate": 51.71875
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2303,8 +2258,7 @@
           "MaxThrustFuelRate": 51.71875
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2347,8 +2301,7 @@
           "MaxThrustFuelRate": 19.375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2391,8 +2344,7 @@
           "MaxThrustFuelRate": 19.375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2435,8 +2387,7 @@
           "MaxThrustFuelRate": 19.375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2479,8 +2430,7 @@
           "MaxThrustFuelRate": 19.375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2523,8 +2473,7 @@
           "MaxThrustFuelRate": 19.375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2567,8 +2516,7 @@
           "MaxThrustFuelRate": 19.375
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2611,8 +2559,7 @@
           "MaxThrustFuelRate": 51.71875
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2655,8 +2602,7 @@
           "MaxThrustFuelRate": 51.71875
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2699,8 +2645,7 @@
           "MaxThrustFuelRate": 51.71875
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2743,8 +2688,7 @@
           "MaxThrustFuelRate": 51.71875
         },
         "Durability": {
-          "Health": 18500.0,
-          "Lifetime": 720.0
+          "Health": 18500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2782,7 +2726,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 1192500.0
+          "Capacity": 900000.0
         }
       },
       "Types": [
@@ -2809,7 +2753,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 1192500.0
+          "Capacity": 900000.0
         }
       },
       "Types": [

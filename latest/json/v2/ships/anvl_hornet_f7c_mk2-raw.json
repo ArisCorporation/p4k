@@ -33,6 +33,9 @@
         "value": "9af9a5ca-328b-4a54-9446-30eb7e3ce730"
       },
       {
+        "value": "5c784de1-5354-4451-8edf-38e9421aa798"
+      },
+      {
         "value": "aad21c30-ad5a-47e2-a899-199fcc77aaf7"
       }
     ],
@@ -40,7 +43,7 @@
       "VehicleComponentParams": {
         "landingSystem": "53ab186d-5e63-47bc-a3c1-bffe5e92685e",
         "manufacturer": "b922abdb-0634-4358-9eee-60118f3cf3a7",
-        "vehicleDefinition": "Scripts/Entities/Vehicles/Implementations/Xml/ANVL_Hornet.xml",
+        "vehicleDefinition": "Scripts/Entities/Vehicles/Implementations/Xml/ANVL_Hornet_F7A.xml",
         "modification": "F7C_Mk2",
         "dogfightEnabled": 1,
         "unmovable": 0,
@@ -92,13 +95,37 @@
                     "entries": [
                       {
                         "itemPortName": "Radar_Helper",
-                        "entityClassName": "RADR_Display",
+                        "entityClassName": "Radar_Display_Hornet_F7A_MK2",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       },
                       {
                         "itemPortName": "Display_HUD",
-                        "entityClassName": "Projector_HUD_Generic",
+                        "entityClassName": "H_Dashboard_Projector_HUD_ANVL_Hornet_F7_Mk2",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Right_RTT",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Left_RTT",
+                        "entityClassName": "Vehicle_Screen_MFD",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Annunciator_Left",
+                        "entityClassName": "Vehicle_Screen_Physical",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "Screen_Annunciator_Right",
+                        "entityClassName": "Vehicle_Screen_Physical",
                         "entityClassReference": "00000000-0000-0000-0000-000000000000",
                         "loadout": {}
                       }
@@ -290,7 +317,18 @@
                 "itemPortName": "hardpoint_quantum_drive",
                 "entityClassName": "QDRV_RSI_S01_Eos_SCItem",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
+                "loadout": {
+                  "SItemPortLoadoutManualParams": {
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_jump_drive",
+                        "entityClassName": "JDRV_TARS_S01_C_Explorer",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "itemPortName": "hardpoint_quantum_fuel_tank",
@@ -356,11 +394,24 @@
               },
               {
                 "itemPortName": "hardpoint_weapon_center",
-                "entityClassName": "",
-                "entityClassReference": "d2f911b6-d68c-439e-b862-3ccd736366ab",
+                "entityClassName": "ANVL_Hornet_F7C_Mk2_Cargo_Door",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
                 "loadout": {
                   "SItemPortLoadoutManualParams": {
-                    "entries": []
+                    "entries": [
+                      {
+                        "itemPortName": "hardpoint_weapon_S3_left",
+                        "entityClassName": "",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      },
+                      {
+                        "itemPortName": "hardpoint_weapon_S3_right",
+                        "entityClassName": "",
+                        "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                        "loadout": {}
+                      }
+                    ]
                   }
                 }
               },
@@ -465,18 +516,6 @@
                 "loadout": {}
               },
               {
-                "itemPortName": "hardpoint_weapon_regen_pool",
-                "entityClassName": "",
-                "entityClassReference": "0dfd7ff7-6b21-4f64-b773-5cdc11456212",
-                "loadout": {}
-              },
-              {
-                "itemPortName": "hardpoint_weapon_regen_pool_turrets",
-                "entityClassName": "",
-                "entityClassReference": "00000000-0000-0000-0000-000000000000",
-                "loadout": {}
-              },
-              {
                 "itemPortName": "hardpoint_controller_capacitor_assignment",
                 "entityClassName": "Controller_CapacitorAssignment",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -513,6 +552,18 @@
                 "loadout": {}
               },
               {
+                "itemPortName": "hardpoint_relay",
+                "entityClassName": "RELAY_3slot",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
+                "itemPortName": "hardpoint_lifesupport",
+                "entityClassName": "LFSP_TYDT_S01_ComfortAir",
+                "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                "loadout": {}
+              },
+              {
                 "itemPortName": "hardpoint_power_plant_02",
                 "entityClassName": "POWR_AEGS_S01_Regulus_SCItem",
                 "entityClassReference": "00000000-0000-0000-0000-000000000000",
@@ -529,7 +580,7 @@
           "Size": 2,
           "Grade": 1,
           "Manufacturer": "b922abdb-0634-4358-9eee-60118f3cf3a7",
-          "Tags": "ANVL_Hornet_F7C_Mk2 Ship_Dock_Refuel expoship",
+          "Tags": "ANVL_Hornet_F7C_Mk2 Ship_Dock_Refuel",
           "RequiredTags": "",
           "DisplayType": "",
           "Localization": {
@@ -586,7 +637,7 @@
         }
       },
       "SDegradationParams": {
-        "MaxLifetimeHours": 25.0,
+        "MaxLifetimeHours": 0.0,
         "InitialAgeRatio": 0.0,
         "DegradeOnlyWhenAttached": false
       },
@@ -671,6 +722,40 @@
             "Types": [
               {
                 "Type": "AirTrafficController",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_relay",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible uneditable",
+            "MinSize": 1,
+            "MaxSize": 3,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "Relay",
+                "SubTypes": []
+              }
+            ]
+          },
+          {
+            "Name": "hardpoint_lifesupport",
+            "DisplayName": "",
+            "PortTags": "",
+            "RequiredPortTags": "",
+            "Flags": "invisible",
+            "MinSize": 1,
+            "MaxSize": 1,
+            "InteractionPointSize": -1.0,
+            "DefaultWeaponGroup": "UNDEFINED",
+            "Types": [
+              {
+                "Type": "LifeSupportGenerator",
                 "SubTypes": []
               }
             ]

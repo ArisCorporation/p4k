@@ -1,0 +1,968 @@
+{
+  "Raw": {
+    "Entity": {
+      "StaticEntityClassData": {
+        "DefaultEntitlementEntityParams": {
+          "entitlementPolicy": "8a1fdd48-7896-4774-a110-2466190e1a07"
+        },
+        "SEntityInsuranceProperties": {
+          "shipInsuranceParams": {
+            "shipEntityClassName": "CRUS_Spirit_C1",
+            "baseWaitTimeMinutes": 6.75,
+            "mandatoryWaitTimeMinutes": 2.25,
+            "baseExpeditingFee": 3375.0
+          }
+        }
+      },
+      "tags": [
+        {
+          "value": "5f12dd31-4ff9-41a5-b5e2-916270351ba9"
+        },
+        {
+          "value": "95b8cab3-5230-46f9-92e6-8e021978f543"
+        },
+        {
+          "value": "546320ee-f027-4b16-ac2c-77186012655f"
+        },
+        {
+          "value": "32d711ab-2106-43f8-8066-f953ce5db8c4"
+        },
+        {
+          "value": "503443c0-b6d1-4539-b493-688117334ff1"
+        },
+        {
+          "value": "a47fb542-a1e9-42c6-a423-fd9cc61d44ec"
+        },
+        {
+          "value": "226ae798-1dc4-4d3e-8679-e84c30973b86"
+        }
+      ],
+      "Components": {
+        "VehicleComponentParams": {
+          "landingSystem": "f972ad2a-9fe3-4758-b916-44892300f6e0",
+          "manufacturer": "63685f47-b0cc-4ebe-8f16-72793a5cd6e0",
+          "vehicleDefinition": "Scripts/Entities/Vehicles/Implementations/Xml/crus_spirit.xml",
+          "modification": "",
+          "dogfightEnabled": 1,
+          "unmovable": 0,
+          "isGravlevVehicle": false,
+          "incomingDamageModifierToAI": 0.0,
+          "emergencyStatusDamageThreshold": 0.25,
+          "crewSize": 2,
+          "vehicleName": "@vehicle_NameCRUS_C1_Spirit",
+          "vehicleDescription": "@vehicle_DescCRUS_C1_Spirit",
+          "vehicleCareer": "@vehicle_focus_transporter",
+          "vehicleCareerRef": "d86d770d-1fc4-4525-b3b0-4f670a8a5634",
+          "vehicleRole": "@vehicle_class_mediumfreight",
+          "vehicleRoleRef": "4c0633a2-887f-4231-a40a-d366224f01d5",
+          "inventoryContainerParams": "e392f8bd-26c9-49ef-bae8-86930262bf4a",
+          "maxBoundingBoxSize": {
+            "x": 47.5,
+            "y": 44.0,
+            "z": 10.0
+          }
+        },
+        "SEntityComponentDefaultLoadoutParams": {
+          "loadout": {
+            "SItemPortLoadoutManualParams": {
+              "entries": [
+                {
+                  "itemPortName": "hardpoint_paint",
+                  "entityClassName": "",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_pilot_seat",
+                  "entityClassName": "CRUS_Spirit_Seat_Pilot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_pilot_seat_access",
+                  "entityClassName": "CRUS_Spirit_Seat_Access_Pilot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_pilot_dashboard",
+                  "entityClassName": "CRUS_Spirit_Pilot_Dashboard",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "Radar_Helper",
+                          "entityClassName": "CRUS_Spirit_RADR_Display",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "Display_HUD",
+                          "entityClassName": "Projector_HUD_Generic",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_copilot_seat",
+                  "entityClassName": "CRUS_Spirit_Seat_Copilot_C1",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_copilot_seat_access",
+                  "entityClassName": "CRUS_Spirit_Seat_Access_Copilot",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_copilot_dashboard",
+                  "entityClassName": "CRUS_Spirit_Copilot_Dashboard",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": []
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_controller_capacitor_assignment",
+                  "entityClassName": "Controller_CapacitorAssignment",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_comms",
+                  "entityClassName": "Controller_Comms",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_cooler",
+                  "entityClassName": "Controller_Cooler",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_energy",
+                  "entityClassName": "Controller_Energy",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_flight",
+                  "entityClassName": "Controller_Flight_CRUS_Spirit_C1",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_light",
+                  "entityClassName": "Controller_Light",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_missile",
+                  "entityClassName": "Controller_Missile",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_scanner",
+                  "entityClassName": "",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_shield",
+                  "entityClassName": "Controller_Shield_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_weapon",
+                  "entityClassName": "Controller_Weapon",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_weapon_copilot",
+                  "entityClassName": "Controller_Weapon",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_weapon_regen_pool",
+                  "entityClassName": "",
+                  "entityClassReference": "c7354cc1-a635-4488-85ba-df5466b8ff6e",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_weapon_regen_pool_turrets",
+                  "entityClassName": "WeaponRegenPool_Turret_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "landingpad_helper",
+                  "entityClassName": "Default_LandingSystem",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_cooler",
+                  "entityClassName": "COOL_AEGS_S02_Boreal_SCItem",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_fuel",
+                  "entityClassName": "HTNK_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_ping",
+                  "entityClassName": "",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_power_plant",
+                  "entityClassName": "POWR_AMRS_S02_UltraFlux_SCItem",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_quantum_drive",
+                  "entityClassName": "QDRV_WETK_S02_Yeager_SCItem",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_quantum_fuel",
+                  "entityClassName": "QTNK_Crus_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_shield_generator",
+                  "entityClassName": "SHLD_GODI_S02_FullStop_SCItem",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_radar",
+                  "entityClassName": "RADR_CHCO_S02_Surveyor",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_intake_left",
+                  "entityClassName": "INTK_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_intake_right",
+                  "entityClassName": "INTK_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_countermeasure_launcher_left",
+                  "entityClassName": "CRUS_Spirit_CML_Flare",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_countermeasure_launcher_right",
+                  "entityClassName": "CRUS_Spirit_CML_Chaff",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_turret_rear",
+                  "entityClassName": "",
+                  "entityClassReference": "86da0491-010a-41c6-9cd1-0e676814ce2a",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "turret_left",
+                          "entityClassName": "",
+                          "entityClassReference": "8c16ee3d-78fb-4fef-a369-b3d42952ec33",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_weapon_nose",
+                  "entityClassName": "",
+                  "entityClassReference": "569d2030-1362-43e7-8589-080fad7b9042",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_left",
+                          "entityClassName": "",
+                          "entityClassReference": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "hardpoint_right",
+                          "entityClassName": "",
+                          "entityClassReference": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_weapon_wing_left",
+                  "entityClassName": "",
+                  "entityClassReference": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_class_2",
+                          "entityClassName": "",
+                          "entityClassReference": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_weapon_wing_right",
+                  "entityClassName": "",
+                  "entityClassReference": "8197c45b-eaf4-4836-a8f0-837d1875cd9c",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "hardpoint_class_2",
+                          "entityClassName": "",
+                          "entityClassReference": "f72ca643-b48c-4f6e-abb7-d5bc8eb261aa",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_missiles_wing_left",
+                  "entityClassName": "MRCK_S04_BEHR_Dual_S03",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "missile_01_attach",
+                          "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "missile_02_attach",
+                          "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_missiles_wing_right",
+                  "entityClassName": "MRCK_S04_BEHR_Dual_S03",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {
+                    "SItemPortLoadoutManualParams": {
+                      "entries": [
+                        {
+                          "itemPortName": "missile_01_attach",
+                          "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        },
+                        {
+                          "itemPortName": "missile_02_attach",
+                          "entityClassName": "MISL_S03_CS_FSKI_Arrester",
+                          "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                          "loadout": {}
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "itemPortName": "hardpoint_bomb_system",
+                  "entityClassName": "",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_armour",
+                  "entityClassName": "ARMR_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_ramp",
+                  "entityClassName": "CRUS_Spirit_Ramp",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_personal_storage_left",
+                  "entityClassName": "PersonalStorage_CRUS_Spirit_Left",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_personal_storage_right",
+                  "entityClassName": "PersonalStorage_CRUS_Spirit_Right",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_weapon_rack",
+                  "entityClassName": "Weapon_Rack_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_rear_side_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_rear_side_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_vtol_aux_rear_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_VTOL_Aux",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_vtol_aux_rear_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_VTOL_Aux",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_front_bottom_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_front_bottom_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_front_side_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_front_side_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_front_top_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_front_top_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_vtol_aux_front_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_VTOL_Aux",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_vtol_aux_front_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_VTOL_Aux",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_01_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_02_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_03_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_04_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_rear_bottom_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_rear_top_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_retro_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Retro",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_vtol_main_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_VTOL_Main",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_01_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_02_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_03_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_04_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_A",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_rear_bottom_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_rear_top_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Mav",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_retro_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Retro",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_vtol_main_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_VTOL_Main",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_fuel",
+                  "entityClassName": "Controller_Fuel",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_fuel_port",
+                  "entityClassName": "DockingTube_Fuel_Ports_CRUS_Spirit",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_air_traffic_controller",
+                  "entityClassName": "CRUS_Spirit_ShipATCDataManager",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_door",
+                  "entityClassName": "Controller_Door",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_self_destruct",
+                  "entityClassName": "VHCL_SelfDestruct_45s",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_turret_rear_radar",
+                  "entityClassName": "RADR_CHCO_S02_Surveyor",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_cargogrid_left",
+                  "entityClassName": "CRUS_Spirit_C1_CargoGrid",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_cargogrid_right",
+                  "entityClassName": "CRUS_Spirit_C1_CargoGrid",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_body",
+                  "entityClassName": "CRUS_Spirit_C1_Exterior",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_nose",
+                  "entityClassName": "CRUS_Spirit_C1_Exterior_Nose",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_blankingplate",
+                  "entityClassName": "CRUS_Spirit_C1_Blanking_Plate",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_backplate_left",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_B",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_thruster_main_backplate_right",
+                  "entityClassName": "CRUS_Spirit_Thruster_Main_B",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_fuel_port_ground",
+                  "entityClassName": "Door_Ship_Exterior_CRUS_Spirit_Fuelport",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_fakedoortoggle",
+                  "entityClassName": "",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_cockpit_flair",
+                  "entityClassName": "",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                },
+                {
+                  "itemPortName": "hardpoint_controller_salvage",
+                  "entityClassName": "Controller_Salvage_Crus_C1",
+                  "entityClassReference": "00000000-0000-0000-0000-000000000000",
+                  "loadout": {}
+                }
+              ]
+            }
+          }
+        },
+        "SAttachableComponentParams": {
+          "AttachDef": {
+            "Type": "NOITEM_Vehicle",
+            "SubType": "Vehicle_Spaceship",
+            "Size": 3,
+            "Grade": 1,
+            "Manufacturer": "63685f47-b0cc-4ebe-8f16-72793a5cd6e0",
+            "Tags": "CRUS_Spirit_C1 Ship_Dock_Refuel",
+            "RequiredTags": "",
+            "DisplayType": "",
+            "Localization": {
+              "Name": "@vehicle_NameCRUS_C1_Spirit",
+              "Description": "@vehicle_DescCRUS_C1_Spirit"
+            },
+            "inventoryOccupancyVolume": {
+              "SMicroCargoUnit": {
+                "microSCU": 1.0
+              }
+            },
+            "inventoryOccupancyDimensions": {
+              "x": 0.15,
+              "y": 0.15,
+              "z": 0.15
+            },
+            "inventoryOccupancyDimensionsUIOverride": {}
+          }
+        },
+        "SHealthComponentParams": {
+          "Health": 1.0,
+          "DetachFromItemPortOnDeath": false,
+          "DetachFromEntityOnDeath": false,
+          "PropagateExplosionDamageToChildren": false,
+          "IsSalvagable": true,
+          "IsRepairable": true,
+          "DamageResistances": {
+            "DamageResistance": {
+              "PhysicalResistance": {
+                "Multiplier": 1.0,
+                "Threshold": 0
+              },
+              "EnergyResistance": {
+                "Multiplier": 1.0,
+                "Threshold": 0
+              },
+              "DistortionResistance": {
+                "Multiplier": 1.0,
+                "Threshold": 0
+              },
+              "ThermalResistance": {
+                "Multiplier": 1.0,
+                "Threshold": 0
+              },
+              "BiochemicalResistance": {
+                "Multiplier": 1.0,
+                "Threshold": 0
+              },
+              "StunResistance": {
+                "Multiplier": 1.0,
+                "Threshold": 0
+              }
+            }
+          }
+        },
+        "SDegradationParams": {
+          "MaxLifetimeHours": 25.0,
+          "InitialAgeRatio": 0.0,
+          "DegradeOnlyWhenAttached": false
+        },
+        "SEntityInteractableParams": {
+          "Interactable": {
+            "SharedInteractions": [
+              {
+                "Name": "PowerOn",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@ui_interactor_power_on",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
+              },
+              {
+                "Name": "PowerOff",
+                "RoomTag": "00000000-0000-0000-0000-000000000000",
+                "UsableTag": "00000000-0000-0000-0000-000000000000",
+                "DisplayName": "@ui_interactor_power_off",
+                "DisplayType": "Show",
+                "GenericCursor": "SingleAction",
+                "FocusModeOnly": false,
+                "Sendable": false,
+                "Linkable": true,
+                "LockedByLinks": false,
+                "RequiresAuthorizedUser": false,
+                "available": true
+              }
+            ]
+          }
+        },
+        "SItemPortContainerComponentParams": {
+          "PortFlags": "",
+          "PortTags": "",
+          "RequiredItemTags": "",
+          "Ports": [
+            {
+              "Name": "hardpoint_controller_fuel",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": []
+            },
+            {
+              "Name": "hardpoint_fuel_port",
+              "DisplayName": "",
+              "PortTags": "Ship_Dock_Refuel",
+              "RequiredPortTags": "",
+              "Flags": "dockingport1",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "DockingCollar",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_air_traffic_controller",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "AirTrafficController",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_cargogrid_left",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "selfphys uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "CargoGrid",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_cargogrid_right",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "selfphys uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "CargoGrid",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_blankingplate",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "uneditable",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Misc",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_fuel_port_ground",
+              "DisplayName": "",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Door",
+                  "SubTypes": []
+                }
+              ]
+            },
+            {
+              "Name": "hardpoint_cockpit_flair",
+              "DisplayName": "port_Flair01",
+              "PortTags": "",
+              "RequiredPortTags": "",
+              "Flags": "",
+              "MinSize": 1,
+              "MaxSize": 1,
+              "InteractionPointSize": -1.0,
+              "DefaultWeaponGroup": "UNDEFINED",
+              "Types": [
+                {
+                  "Type": "Flair_Cockpit",
+                  "SubTypes": [
+                    {
+                      "value": "Flair_Static"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "ClassName": "CRUS_Spirit_C1",
+      "__ref": "9611b8ed-cc96-4b5c-aa1e-baefe7d5bb1c",
+      "__type": "EntityClassDefinition"
+    }
+  }
+}

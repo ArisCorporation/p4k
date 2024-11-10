@@ -6,6 +6,15 @@
   },
   "tags": [],
   "Components": {
+    "SEntityPhysicsControllerParams": {
+      "PhysType": {
+        "SEntityRigidPhysicsControllerParams": {
+          "Mass": 35.0,
+          "PushableByPlayers": true,
+          "BlocksNavigation": false
+        }
+      }
+    },
     "SAttachableComponentParams": {
       "AttachDef": {
         "Type": "Radar",
@@ -34,7 +43,7 @@
       }
     },
     "SHealthComponentParams": {
-      "Health": 1000.0,
+      "Health": 380.0,
       "DetachFromItemPortOnDeath": false,
       "DetachFromEntityOnDeath": false,
       "PropagateExplosionDamageToChildren": false,
@@ -70,9 +79,9 @@
       }
     },
     "SDegradationParams": {
-      "MaxLifetimeHours": 720.0,
+      "MaxLifetimeHours": 0.0,
       "InitialAgeRatio": 0.0,
-      "DegradeOnlyWhenAttached": true
+      "DegradeOnlyWhenAttached": false
     },
     "EntityComponentPowerConnection": {
       "PowerBase": 0.1,
@@ -112,11 +121,23 @@
       "MisfireMinTemperature": 370.0,
       "MisfireMaxTemperature": 600.0
     },
+    "SDistortionParams": {
+      "DecayRate": 40.0,
+      "Maximum": 1000.0,
+      "OverloadRatio": 0.0,
+      "RecoveryRatio": 0.7,
+      "RecoveryTime": 0.0
+    },
     "SCItemRadarComponentParams": {
       "detectionLifetime": 0.0,
       "altitudeCeiling": 0.0,
       "enableCrossSectionOcclusion": false,
       "signatureDetection": []
+    },
+    "SEntityInteractableParams": {
+      "Interactable": {
+        "SharedInteractions": []
+      }
     },
     "SItemPortContainerComponentParams": {
       "PortFlags": "superFLags",

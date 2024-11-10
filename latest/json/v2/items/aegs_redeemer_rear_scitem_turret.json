@@ -1,7 +1,7 @@
 {
   "UUID": "3f3e91f6-cc1e-4616-9728-56459a122a6b",
   "ClassName": "AEGS_Redeemer_Rear_SCItem_Turret",
-  "Size": 5,
+  "Size": 4,
   "Grade": 1,
   "Type": "TurretBase.MannedTurret",
   "Name": "Manned Turret",
@@ -14,8 +14,8 @@
   "Length": 0.15,
   "Volume": 1E-06,
   "Durability": {
-    "Health": 2000.0,
-    "Lifetime": 25.0
+    "Health": 12500.0,
+    "Lifetime": 0.0
   },
   "PowerConnection": {
     "PowerBase": 0.0,
@@ -29,7 +29,7 @@
   "Ports": [
     {
       "PortName": "turret_left",
-      "Size": 5,
+      "Size": 4,
       "Types": [
         "WeaponGun.Gun",
         "Turret.GunTurret"
@@ -37,10 +37,31 @@
     },
     {
       "PortName": "turret_right",
-      "Size": 5,
+      "Size": 4,
       "Types": [
         "WeaponGun.Gun",
         "Turret.GunTurret"
+      ]
+    },
+    {
+      "PortName": "Screen_Radar",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "Screen_Right",
+      "Size": 1,
+      "Types": [
+        "Display"
       ]
     }
   ]

@@ -731,41 +731,6 @@
         "WeaponGun.Gun"
       ],
       "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_890J",
-      "InstalledItem": {
-        "UUID": "232675b4-9c98-43b2-b5e2-36a34df469b2",
-        "ClassName": "WeaponRegenPool_Turret_890J",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_890J",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 1000000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
     }
   ],
   "MannedTurrets": [
@@ -816,8 +781,8 @@
           "Depth": 0.75
         },
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 2160.0
+          "Health": 15000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -846,7 +811,8 @@
                 "Name": "Behring"
               },
               "Tags": [
-                "flightReady"
+                "flightReady",
+                "$ORIG_890Jump"
               ],
               "Width": 0.8932018,
               "Height": 1.60379,
@@ -904,9 +870,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -947,9 +910,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -992,9 +952,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1035,9 +992,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1080,9 +1034,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1123,9 +1074,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1168,9 +1116,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1211,9 +1156,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1273,8 +1215,8 @@
           "Depth": 0.75
         },
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 2160.0
+          "Health": 15000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1303,7 +1245,8 @@
                 "Name": "Behring"
               },
               "Tags": [
-                "flightReady"
+                "flightReady",
+                "$ORIG_890Jump"
               ],
               "Width": 0.8932018,
               "Height": 1.60379,
@@ -1361,9 +1304,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1404,9 +1344,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1449,9 +1386,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1492,9 +1426,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1537,9 +1468,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1580,9 +1508,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1625,9 +1550,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1668,9 +1590,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1730,8 +1649,8 @@
           "Depth": 0.75
         },
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 2160.0
+          "Health": 15000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1760,7 +1679,8 @@
                 "Name": "Behring"
               },
               "Tags": [
-                "flightReady"
+                "flightReady",
+                "$ORIG_890Jump"
               ],
               "Width": 0.8932018,
               "Height": 1.60379,
@@ -1818,9 +1738,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1861,9 +1778,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1906,9 +1820,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -1949,9 +1860,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1994,9 +1902,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -2037,9 +1942,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2082,9 +1984,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -2125,9 +2024,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2187,8 +2083,8 @@
           "Depth": 0.75
         },
         "Durability": {
-          "Health": 2000.0,
-          "Lifetime": 2160.0
+          "Health": 15000.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -2217,7 +2113,8 @@
                 "Name": "Behring"
               },
               "Tags": [
-                "flightReady"
+                "flightReady",
+                "$ORIG_890Jump"
               ],
               "Width": 0.8932018,
               "Height": 1.60379,
@@ -2275,9 +2172,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -2318,9 +2212,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2363,9 +2254,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -2406,9 +2294,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2451,9 +2336,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -2494,9 +2376,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2539,9 +2418,6 @@
                       "Height": 0.75,
                       "Depth": 1.5
                     },
-                    "Durability": {
-                      "Health": 10.0
-                    },
                     "Missile": {
                       "Damage": {
                         "Physical": 2378.678
@@ -2582,9 +2458,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 1.5
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -2657,7 +2530,8 @@
           "Name": "Behring"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "$ORIG_890Jump"
         ],
         "Width": 0.8932018,
         "Height": 1.60379,
@@ -2715,9 +2589,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -2758,9 +2629,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2803,9 +2671,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -2846,9 +2711,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2891,9 +2753,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -2934,9 +2793,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2979,9 +2835,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3022,9 +2875,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3065,7 +2915,8 @@
           "Name": "Behring"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "$ORIG_890Jump"
         ],
         "Width": 0.8932018,
         "Height": 1.60379,
@@ -3123,9 +2974,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3166,9 +3014,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3211,9 +3056,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3254,9 +3096,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3299,9 +3138,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3342,9 +3178,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3387,9 +3220,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3430,9 +3260,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3473,7 +3300,8 @@
           "Name": "Behring"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "$ORIG_890Jump"
         ],
         "Width": 0.8932018,
         "Height": 1.60379,
@@ -3531,9 +3359,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3574,9 +3399,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3619,9 +3441,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3662,9 +3481,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3707,9 +3523,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3750,9 +3563,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3795,9 +3605,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3838,9 +3645,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -3881,7 +3685,8 @@
           "Name": "Behring"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "$ORIG_890Jump"
         ],
         "Width": 0.8932018,
         "Height": 1.60379,
@@ -3939,9 +3744,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -3982,9 +3784,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4027,9 +3826,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -4070,9 +3866,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4115,9 +3908,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -4158,9 +3948,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4203,9 +3990,6 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2378.678
@@ -4246,9 +4030,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4289,7 +4070,8 @@
           "Name": "Behring"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "$ORIG_890Jump"
         ],
         "Width": 1.116502,
         "Height": 2.004737,
@@ -4347,9 +4129,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -4390,9 +4169,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4435,9 +4211,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -4478,9 +4251,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4517,7 +4287,8 @@
           "Name": "Behring"
         },
         "Tags": [
-          "flightReady"
+          "flightReady",
+          "$ORIG_890Jump"
         ],
         "Width": 1.116502,
         "Height": 2.004737,
@@ -4575,9 +4346,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -4618,9 +4386,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4663,9 +4428,6 @@
                 "Height": 0.75,
                 "Depth": 2.25
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 2526.42
@@ -4706,9 +4468,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 2.25
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -4922,8 +4681,8 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 774520.6,
-          "Regeneration": 6112.0,
+          "Health": 454000.0,
+          "Regeneration": 20700.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -4954,8 +4713,8 @@
           }
         },
         "Durability": {
-          "Health": 500.0,
-          "Lifetime": 720.0
+          "Health": 3600.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 2760.0,
@@ -4998,8 +4757,8 @@
           "Depth": 3.0
         },
         "Shield": {
-          "Health": 774520.6,
-          "Regeneration": 6112.0,
+          "Health": 454000.0,
+          "Regeneration": 20700.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -5030,8 +4789,8 @@
           }
         },
         "Durability": {
-          "Health": 500.0,
-          "Lifetime": 720.0
+          "Health": 3600.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 2760.0,
@@ -5075,51 +4834,8 @@
           "Output": 33750.0
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 310.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 33750.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 22000000.0,
-          "ThermalEnergyDraw": 27000000.0,
-          "CoolingRate": 86.66
-        }
-      },
-      "Types": [
-        "PowerPlant.Power"
-      ],
-      "Category": "Power plants"
-    },
-    {
-      "PortName": "hardpoint_powerplant_02",
-      "Size": 4,
-      "Loadout": "POWR_ORIG_S04_890J_SCItem",
-      "InstalledItem": {
-        "UUID": "70019264-f2b2-4741-b50f-bdce41cf0825",
-        "ClassName": "POWR_ORIG_S04_890J_SCItem",
-        "Size": 4,
-        "Grade": 1,
-        "Type": "PowerPlant.Power",
-        "Name": "Stellate",
-        "Description": "Item Type: Power Plant\nManufacturer: Sakura Sun\nSize: 4\nGrade: Bespoke\nClass: Civilian\n\nSakura Sun worked with Origin to fine tune the Stellate into the perfect power plant for the 890 Jump, providing the power and performance necessary for a ship of such grand design.",
-        "Width": 0.8932018,
-        "Height": 1.60379,
-        "Length": 6.633023,
-        "Volume": 2.1,
-        "DimensionOverrides": {
-          "Width": 3.0,
-          "Height": 0.75,
-          "Depth": 0.75
-        },
-        "PowerPlant": {
-          "Output": 33750.0
-        },
-        "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 310.0
+          "Health": 3900.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -5163,8 +4879,8 @@
           "Rate": 16000000.0
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 1080.0
+          "Health": 2500.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 64.0,
@@ -5206,8 +4922,8 @@
           "Rate": 16000000.0
         },
         "Durability": {
-          "Health": 6000.0,
-          "Lifetime": 1080.0
+          "Health": 2500.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 64.0,
@@ -5285,8 +5001,7 @@
           "MaxThrustFuelRate": 177.5
         },
         "Durability": {
-          "Health": 45000.0,
-          "Lifetime": 720.0
+          "Health": 45000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5332,8 +5047,7 @@
           "MaxThrustFuelRate": 177.5
         },
         "Durability": {
-          "Health": 45000.0,
-          "Lifetime": 720.0
+          "Health": 45000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5379,8 +5093,7 @@
           "MaxThrustFuelRate": 177.5
         },
         "Durability": {
-          "Health": 45000.0,
-          "Lifetime": 720.0
+          "Health": 45000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5426,8 +5139,7 @@
           "MaxThrustFuelRate": 177.5
         },
         "Durability": {
-          "Health": 45000.0,
-          "Lifetime": 720.0
+          "Health": 45000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5475,8 +5187,7 @@
           "MaxThrustFuelRate": 163.75
         },
         "Durability": {
-          "Health": 44000.0,
-          "Lifetime": 720.0
+          "Health": 44000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5522,8 +5233,7 @@
           "MaxThrustFuelRate": 163.75
         },
         "Durability": {
-          "Health": 44000.0,
-          "Lifetime": 720.0
+          "Health": 44000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5571,8 +5281,7 @@
           "MaxThrustFuelRate": 390.625
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5618,8 +5327,7 @@
           "MaxThrustFuelRate": 390.625
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5665,8 +5373,7 @@
           "MaxThrustFuelRate": 390.625
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5714,8 +5421,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5761,8 +5467,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5808,8 +5513,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5855,8 +5559,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5902,8 +5605,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5949,8 +5651,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -5996,8 +5697,7 @@
           "MaxThrustFuelRate": 512.5
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6043,8 +5743,7 @@
           "MaxThrustFuelRate": 512.5
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6090,8 +5789,7 @@
           "MaxThrustFuelRate": 390.625
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6137,8 +5835,7 @@
           "MaxThrustFuelRate": 390.625
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6184,8 +5881,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6231,8 +5927,7 @@
           "MaxThrustFuelRate": 341.796875
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6278,8 +5973,7 @@
           "MaxThrustFuelRate": 390.625
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6325,8 +6019,7 @@
           "MaxThrustFuelRate": 390.625
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6372,8 +6065,7 @@
           "MaxThrustFuelRate": 512.5
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6419,8 +6111,7 @@
           "MaxThrustFuelRate": 512.5
         },
         "Durability": {
-          "Health": 42500.0,
-          "Lifetime": 720.0
+          "Health": 42500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -6458,7 +6149,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "HydrogenFuelTank": {
-          "Capacity": 15000000.0
+          "Capacity": 12000000.0
         }
       },
       "Types": [

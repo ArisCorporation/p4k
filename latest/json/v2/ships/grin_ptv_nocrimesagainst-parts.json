@@ -13,28 +13,75 @@
     "Port": {
       "PortName": "hardpoint_seat_driver",
       "Size": 0,
-      "Loadout": "GRIN_Greycat_SCItem_Seat_Driver",
+      "Loadout": "GRIN_PTV_SCItem_SeatDashboard_Pilot",
       "InstalledItem": {
-        "UUID": "12516294-990d-4d00-87a0-e5280e5fef26",
-        "ClassName": "GRIN_Greycat_SCItem_Seat_Driver",
+        "UUID": "3f1f7ac7-5eb8-4f3a-b2b8-6793ea22cea8",
+        "ClassName": "GRIN_PTV_SCItem_SeatDashboard_Pilot",
         "Size": 1,
         "Grade": 1,
         "Type": "Seat.UNDEFINED",
         "Name": "TRGT. STATUS",
         "Manufacturer": {
-          "Code": "RSI",
-          "Name": "Roberts Space Industries"
+          "Code": "GRIN",
+          "Name": "Greycat Industrial"
         },
-        "Tags": [
-          "flightReady"
-        ],
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
-        "Volume": 1E-06
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 1.0
+        },
+        "PowerConnection": {
+          "PowerBase": 1.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "MFD_Screen_Center",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical",
+            "InstalledItem": {
+              "UUID": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+              "ClassName": "Vehicle_Screen_Physical",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "MFD_Screen_Center",
+        "Port": {
+          "PortName": "MFD_Screen_Center",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_passenger",
@@ -179,8 +226,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -321,8 +368,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -419,6 +466,51 @@
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cockpit",
+    "Port": {
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

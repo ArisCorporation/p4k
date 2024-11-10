@@ -2,9 +2,22 @@ ARGO_MPUV
 hardpoint_paint                                   S0                                                                                                                      DISABLED                                
 hardpoint_pilot_chair                             S0                                                     ARGO_MPUV_SCItem_Seat_Pilot                                      UNKNOWN                                 
 hardpoint_seat_access                             S0                                                     ARGO_MPUV_SCItem_SeatAccess                                      UNKNOWN                                 
-hardpoint_dashboard_pilot                         S0                                                     ARGO_MPUV_SCItem_Dashboard_Pilot                                 UNKNOWN                                 
- Display_HUD                                      S1                                                     Projector_HUD_Generic                                            UNKNOWN                                 
- Display_HUD                                      S0                                                     Projector_HUD_Generic                                            DISABLED                                
+hardpoint_dashboard_pilot                         S0                                                     ARGO_MPUV_1T_SCItem_Dashboard_Pilot                              UNKNOWN                                 
+ Afterburners                                     S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ Annunciator_Left                                 S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ Annunciator_Right                                S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ MFD_Left                                         S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ MFD_Right                                        S1   Display                                           Vehicle_Screen_MFD                                               UNKNOWN                                 
+ Radar                                            S1   Display                                           Radar_Display_Screen_Template                                    UNKNOWN                                 
+ Velocity                                         S1   Display                                           Vehicle_Screen_Physical                                          UNKNOWN                                 
+ Display_HUD                                      S0                                                                                                                      DISABLED                                
+ MFD_Left                                         S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ MFD_Right                                        S0                                                     Vehicle_Screen_MFD                                               DISABLED                                
+ Radar                                            S0                                                     Radar_Display_Screen_Template                                    DISABLED                                
+ Annunciator_Left                                 S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
+ Annunciator_Right                                S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
+ Velocity                                         S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
+ Afterburners                                     S0                                                     Vehicle_Screen_Physical                                          DISABLED                                
 hardpoint_controller_energy                       S0                                                     Controller_Energy                                                UNKNOWN                                 
 hardpoint_controller_cooler                       S0                                                     Controller_Cooler                                                UNKNOWN                                 
 hardpoint_controller_shield                       S0                                                     Controller_Shield_ARGO_MPUV                                      UNKNOWN                                 
@@ -23,7 +36,7 @@ hardpoint_door_right                              S1   Door.UNDEFINED           
  hardpoint_int                                    S0                                                     ARGO_MPUV_Door_Int_Right                                         UNKNOWN                                 
 hardpoint_door_rear                               S1   Door.UNDEFINED                                    Door_Ship_Exterior_ARGO_Cargo_Rear                               Doors                                   
  hardpoint_int                                    S0                                                     ARGO_MPUV_Door_Int_Rear                                          UNKNOWN                                 
-hardpoint_powerplant                              S1   PowerPlant.Power                                  POWR_JUST_S01_Roughneck_SCItem                                   Power plants                            
+hardpoint_powerplant                              S0   PowerPlant.Power                                  POWR_LPLT_S00_IonWave_SCItem                                     Power plants                            
 hardpoint_fuel_tank_left                          S1   FuelTank.Fuel                                     HTNK_ARGO_MPUV                                                   Fuel tanks                              
 hardpoint_fuel_tank_right                         S1   FuelTank.Fuel                                     HTNK_ARGO_MPUV                                                   Fuel tanks                              
 hardpoint_fuel_intake_left                        S1   FuelIntake.Fuel                                   INTK_ARGO_MPUV                                                   Fuel intakes                            
@@ -60,6 +73,13 @@ hardpoint_arm                                     S0                            
 hardpoint_controller_fuel                         S0                                                     Controller_Fuel                                                  UNKNOWN                                 
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_ARGO_MPUV                                 UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
+hardpoint_lifesupport                             S1   LifeSupportGenerator.UNDEFINED                    LFSP_TYDT_S01_ComfortAir                                         UNKNOWN                                 
+ $slot_01                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_02                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
+ $slot_03                                         S1   Misc.Utility                                                                                                       UNKNOWN                                 
 hardpoint_controller_capacitor_assignment         S0                                                     Controller_CapacitorAssignment                                   UNKNOWN                                 
 hardpoint_cockpit_flair_hang                      S0                                                                                                                      DISABLED                                
+hardpoint_relay                                   S1   Relay.UNDEFINED                                   RELAY_2slot                                                      UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
 

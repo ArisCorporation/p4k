@@ -3,10 +3,16 @@ hardpoint_paint                                   S0                            
 hardpoint_seat_access                             S0                                                     XIAN_Nox_SCItem_SeatAccess                                       UNKNOWN                                 
 hardpoint_seat_pilot                              S0                                                     XIAN_Nox_SCItem_Seat_Pilot                                       UNKNOWN                                 
 hardpoint_dashboard_pilot                         S0                                                     XIAN_Nox_SCItem_Dashboard_Pilot                                  UNKNOWN                                 
- hardpoint_cockpit_radar                          S1   Display                                           VNCL_Scythe_RADR_Display                                         UNKNOWN                                 
- Display_HUD                                      S1                                                     Projector_HUD_Generic                                            UNKNOWN                                 
- hardpoint_cockpit_radar                          S0                                                     VNCL_Scythe_RADR_Display                                         DISABLED                                
- Display_HUD                                      S0                                                     Projector_HUD_Generic                                            DISABLED                                
+ hardpoint_cockpit_radar                          S1   Display                                           Radar_Display_XNAA_Nox                                           UNKNOWN                                 
+ Display_HUD                                      S1                                                                                                                      UNKNOWN                                 
+ Screen_Right_RTT                                 S1   Display                                           Vehicle_Screen_MFD_Holographic_Nox_R                             UNKNOWN                                 
+ Screen_Left_RTT                                  S1   Display                                           Vehicle_Screen_MFD_Holographic_Nox_L                             UNKNOWN                                 
+ Screen_Center_RTT                                S1   Display                                           Vehicle_Screen_MFD_Holographic_Nox_C                             UNKNOWN                                 
+ hardpoint_cockpit_radar                          S0                                                     Radar_Display_XNAA_Nox                                           DISABLED                                
+ Display_HUD                                      S0                                                                                                                      DISABLED                                
+ Screen_Right_RTT                                 S0                                                     Vehicle_Screen_MFD_Holographic_Nox_R                             DISABLED                                
+ Screen_Left_RTT                                  S0                                                     Vehicle_Screen_MFD_Holographic_Nox_L                             DISABLED                                
+ Screen_Center_RTT                                S0                                                     Vehicle_Screen_MFD_Holographic_Nox_C                             DISABLED                                
 hardpoint_self_destruct_pilot                     S1   SelfDestruct.UNDEFINED                            VHCL_SelfDestruct_10s                                            Self destruct                           
 hardpoint_controller_comms                        S0                                                     Controller_Comms                                                 UNKNOWN                                 
 hardpoint_controller_energy                       S0                                                     Controller_Energy                                                UNKNOWN                                 
@@ -16,6 +22,7 @@ hardpoint_cooler_left                             S0   Cooler.UNDEFINED         
 hardpoint_armor                                   S1   Armor.Medium                                      ARMR_XIAN_Nox                                                    Armor                                   
 hardpoint_controller_flight                       S0                                                     Controller_Flight_XIAN_Nox                                       UNKNOWN                                 
 hardpoint_controller_light                        S0                                                     Controller_Light                                                 UNKNOWN                                 
+hardpoint_controller_door                         S0                                                                                                                      DISABLED                                
 hardpoint_radar                                   S0                                                     RADR_WLOP_S00_Denning                                            UNKNOWN                                 
 hardpoint_scanner                                 S0                                                                                                                      DISABLED                                
 hardpoint_ping                                    S0                                                                                                                      DISABLED                                
@@ -52,12 +59,12 @@ hardpoint_weapon_right                            S0   WeaponGun.Gun            
 hardpoint_weapon_left                             S0   WeaponGun.Gun                                                                                                      Weapon hardpoints                       
 hardpoint_countermeasures_left                    S1   WeaponDefensive.CountermeasureLauncher            XIAN_Nox_CML_Flare                                               Countermeasures                         
 hardpoint_countermeasures_right                   S1   WeaponDefensive.CountermeasureLauncher            XIAN_Nox_CML_Chaff                                               Countermeasures                         
-hardpoint_weapon_regen_pool                       S1   WeaponGun.Gun                                     WeaponRegenPool_Crew_Nox                                         Weapon hardpoints                       
 hardpoint_controller_capacitor_assignment         S0                                                     Controller_CapacitorAssignment                                   UNKNOWN                                 
 hardpoint_controller_fuel                         S0                                                                                                                      DISABLED                                
 hardpoint_fuel_port                               S1   DockingCollar.UNDEFINED                           DockingTube_Fuel_Ports_XIAN_Nox                                  UNKNOWN                                 
  itemport_vehicle_attach                          S8   NOITEM_Vehicle                                                                                                     UNKNOWN                                 
 hardpoint_air_traffic_controller                  S0                                                     XIAN_Nox_ShipATCDataManager                                      UNKNOWN                                 
-                                                  S0                                                                                                                      DISABLED                                
-                                                  S0                                                                                                                      DISABLED                                
+hardpoint_relay_cockpit                           S1   Relay.UNDEFINED                                   RELAY_2slot                                                      UNKNOWN                                 
+ $slot_fuse_01                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
+ $slot_fuse_02                                    S1   Misc.Fuse                                                                                                          UNKNOWN                                 
 

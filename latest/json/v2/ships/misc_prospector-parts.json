@@ -40,16 +40,16 @@
         },
         "Ports": [
           {
-            "PortName": "Radar_Helper",
+            "PortName": "Screen_Radar",
             "Size": 1,
-            "Loadout": "MISC_Prospector_RADR_Display",
+            "Loadout": "Radar_Display_MISC_Prospector",
             "InstalledItem": {
-              "UUID": "e6a0d71f-06f4-49d6-b8ac-9c06a85fd8bf",
-              "ClassName": "MISC_Prospector_RADR_Display",
+              "UUID": "665834d9-f9a9-4c28-860c-63fa6dc93be9",
+              "ClassName": "Radar_Display_MISC_Prospector",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "MISC_Prospector_RADR_Display",
+              "Name": "Radar_Display_MISC_Prospector",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
@@ -63,19 +63,131 @@
           {
             "PortName": "Display_HUD",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Support_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_MR",
             "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
+              "UUID": "cbc378f8-c89f-445c-a95a-9c0c956aabdd",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_MR",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_MR",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
-              "Volume": 1E-06
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
             },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Support_Left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_ML",
+            "InstalledItem": {
+              "UUID": "c075c0d9-6283-413c-abb0-7cc5d110a208",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_ML",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_ML",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_Lower_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_RR",
+            "InstalledItem": {
+              "UUID": "ec694bb2-caac-4e6a-9fe9-d53954803358",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_RR",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_RR",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_MFD_Lower_Left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_LL",
+            "InstalledItem": {
+              "UUID": "67bd042b-d61a-441f-ac30-dd63a1f6e8f3",
+              "ClassName": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_LL",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_LL",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Screen_Annunciator",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical",
+            "InstalledItem": {
+              "UUID": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+              "ClassName": "Vehicle_Screen_Physical",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -84,11 +196,11 @@
     },
     "Parts": [
       {
-        "Name": "Radar_Helper",
+        "Name": "Screen_Radar",
         "Port": {
-          "PortName": "Radar_Helper",
+          "PortName": "Screen_Radar",
           "Size": 0,
-          "Loadout": "MISC_Prospector_RADR_Display",
+          "Loadout": "Radar_Display_MISC_Prospector",
           "Category": "DISABLED"
         }
       },
@@ -97,7 +209,52 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Right",
+        "Port": {
+          "PortName": "Screen_Support_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_MR",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Left",
+        "Port": {
+          "PortName": "Screen_Support_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_ML",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Lower_Right",
+        "Port": {
+          "PortName": "Screen_MFD_Lower_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_RR",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Lower_Left",
+        "Port": {
+          "PortName": "Screen_MFD_Lower_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD_Holographic_MISC_Prospector_LL",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Annunciator",
+        "Port": {
+          "PortName": "Screen_Annunciator",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
           "Category": "DISABLED"
         }
       }
@@ -403,8 +560,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 700.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -456,11 +613,11 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Ifcs": {
-          "MaxSpeed": 993.6,
-          "ScmSpeed": 156.4,
+          "MaxSpeed": 994.0,
+          "ScmSpeed": 156.0,
           "Pitch": 32.0,
           "Yaw": 32.0,
-          "Roll": 68.8,
+          "Roll": 75.0,
           "Afterburner": {
             "SpoolUpTime": 0.0,
             "CapacitorThresholdRatio": 0.25,
@@ -525,8 +682,8 @@
           "Output": 11875.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 60.8
+          "Health": 950.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -686,8 +843,8 @@
           "Rate": 8400000.0
         },
         "Durability": {
-          "Health": 3000.0,
-          "Lifetime": 112.0
+          "Health": 820.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 16.0,
@@ -757,10 +914,10 @@
           "FuelRate": 5.8E-09,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 89383080.0,
+            "Speed": 165000000.0,
             "Cooldown": 22.0,
-            "Stage1AccelerationRate": 600000.0,
-            "State2AccelerationRate": 1986290.0,
+            "Stage1AccelerationRate": 5000000.0,
+            "State2AccelerationRate": 11000000.0,
             "SpoolUpTime": 4.0
           },
           "SplineJump": {
@@ -772,8 +929,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 10.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.4,
@@ -788,15 +945,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 1,
+            "Loadout": "JDRV_TARS_S01_C_Explorer",
+            "InstalledItem": {
+              "UUID": "0089dcd7-93ec-4f42-89e4-00db71d52df6",
+              "ClassName": "JDRV_TARS_S01_C_Explorer",
+              "Size": 1,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Explorer",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 1\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Explorer jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 320.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 10.0,
+                "PowerDraw": 100.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -804,7 +985,18 @@
         "QuantumDrive.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "hardpoint_jump_drive",
+        "Port": {
+          "PortName": "hardpoint_jump_drive",
+          "Size": 1,
+          "Loadout": "JDRV_TARS_S01_C_Explorer",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_quantum_fuel_tank",
@@ -852,18 +1044,7 @@
           "Size": 0,
           "Loadout": "",
           "Category": "DISABLED"
-        },
-        "Parts": [
-          {
-            "Name": "hardpoint_mining_laser",
-            "Port": {
-              "PortName": "hardpoint_mining_laser",
-              "Size": 1,
-              "Loadout": "Mining_Laser_GRIN_Arbor_S1",
-              "Category": "DISABLED"
-            }
-          }
-        ]
+        }
       }
     ]
   },
@@ -895,8 +1076,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1850.0,
+          "Regeneration": 124.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -927,8 +1108,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 40.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -1046,8 +1227,7 @@
           "MaxThrustFuelRate": 46.06875
         },
         "Durability": {
-          "Health": 11400.0,
-          "Lifetime": 720.0
+          "Health": 11400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1093,8 +1273,7 @@
           "MaxThrustFuelRate": 15.868125
         },
         "Durability": {
-          "Health": 11400.0,
-          "Lifetime": 720.0
+          "Health": 11400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1140,8 +1319,7 @@
           "MaxThrustFuelRate": 15.868125
         },
         "Durability": {
-          "Health": 11400.0,
-          "Lifetime": 720.0
+          "Health": 11400.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1187,8 +1365,7 @@
           "MaxThrustFuelRate": 15.35625
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1234,8 +1411,7 @@
           "MaxThrustFuelRate": 15.35625
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1281,8 +1457,7 @@
           "MaxThrustFuelRate": 23.54625
         },
         "Durability": {
-          "Health": 10500.0,
-          "Lifetime": 720.0
+          "Health": 10500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1328,8 +1503,7 @@
           "MaxThrustFuelRate": 2.8125
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1375,8 +1549,7 @@
           "MaxThrustFuelRate": 2.8125
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1422,8 +1595,7 @@
           "MaxThrustFuelRate": 7.5
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1469,8 +1641,7 @@
           "MaxThrustFuelRate": 7.5
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1516,8 +1687,7 @@
           "MaxThrustFuelRate": 4.59375
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1563,8 +1733,7 @@
           "MaxThrustFuelRate": 4.59375
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1610,8 +1779,7 @@
           "MaxThrustFuelRate": 2.96875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1657,8 +1825,7 @@
           "MaxThrustFuelRate": 2.96875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1704,8 +1871,7 @@
           "MaxThrustFuelRate": 4.6875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1751,8 +1917,7 @@
           "MaxThrustFuelRate": 4.6875
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1798,8 +1963,7 @@
           "MaxThrustFuelRate": 6.40625
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1845,8 +2009,7 @@
           "MaxThrustFuelRate": 6.40625
         },
         "Durability": {
-          "Health": 10000.0,
-          "Lifetime": 720.0
+          "Health": 10000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2284,47 +2447,6 @@
     }
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Prospector",
-      "InstalledItem": {
-        "UUID": "6ff99061-4f73-4469-9d5c-9ec06ba8cf7b",
-        "ClassName": "WeaponRegenPool_Turret_Prospector",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Prospector",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
     "Name": "hardpoint_controller_capacitor_assignment",
     "Port": {
       "PortName": "hardpoint_controller_capacitor_assignment",
@@ -2434,6 +2556,270 @@
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_shield_generator_B",
+    "Port": {
+      "PortName": "hardpoint_shield_generator_B",
+      "Size": 1,
+      "Loadout": "SHLD_BASL_S01_Bulwark_SCItem",
+      "InstalledItem": {
+        "UUID": "624e6c75-afd8-4606-a10e-45d12cb3c882",
+        "ClassName": "SHLD_BASL_S01_Bulwark_SCItem",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "Bulwark",
+        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 1\nGrade: C\nClass: Industrial\n\nThe Bulwark shield generator provides industrial-grade durability and increased performance, but at the expense of a higher emission level. ",
+        "Manufacturer": {
+          "Code": "BASL",
+          "Name": "Basilisk"
+        },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 0.08399999999999999,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 1850.0,
+          "Regeneration": 124.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 540.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 200.0,
+          "PowerDraw": 250.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 20309.38,
+          "ThermalEnergyDraw": 21200.0,
+          "CoolingRate": 78.67836
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    }
+  },
+  {
+    "Name": "hardpoint_shield_generator_C",
+    "Port": {
+      "PortName": "hardpoint_shield_generator_C",
+      "Size": 1,
+      "Loadout": "SHLD_BASL_S01_Bulwark_SCItem",
+      "InstalledItem": {
+        "UUID": "624e6c75-afd8-4606-a10e-45d12cb3c882",
+        "ClassName": "SHLD_BASL_S01_Bulwark_SCItem",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "Shield.UNDEFINED",
+        "Name": "Bulwark",
+        "Description": "Item Type: Shield Generator\nManufacturer: Basilisk \nSize: 1\nGrade: C\nClass: Industrial\n\nThe Bulwark shield generator provides industrial-grade durability and increased performance, but at the expense of a higher emission level. ",
+        "Manufacturer": {
+          "Code": "BASL",
+          "Name": "Basilisk"
+        },
+        "Width": 0.2233005,
+        "Height": 0.801895,
+        "Length": 2.211008,
+        "Volume": 0.08399999999999999,
+        "DimensionOverrides": {
+          "Width": 2.25,
+          "Height": 0.75,
+          "Depth": 2.25
+        },
+        "Shield": {
+          "Health": 1850.0,
+          "Regeneration": 124.0,
+          "DownedDelay": 10.0,
+          "DamagedDelay": 5.0,
+          "Absorption": {
+            "Physical": {
+              "Minimum": 0.0,
+              "Maximum": 0.3
+            },
+            "Energy": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Distortion": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Thermal": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Biochemical": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            },
+            "Stun": {
+              "Minimum": 1.0,
+              "Maximum": 1.0
+            }
+          }
+        },
+        "Durability": {
+          "Health": 540.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 200.0,
+          "PowerDraw": 250.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 20309.38,
+          "ThermalEnergyDraw": 21200.0,
+          "CoolingRate": 78.67836
+        }
+      },
+      "Types": [
+        "Shield.UNDEFINED"
+      ],
+      "Category": "Shield generators"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cockpit",
+    "Port": {
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_2slot",
+      "InstalledItem": {
+        "UUID": "609b087d-bdfe-401d-b9fe-526af4d52d09",
+        "ClassName": "RELAY_2slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

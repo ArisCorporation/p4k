@@ -24,10 +24,10 @@
     "FuelRate": 3.6064E-08,
     "JumpRange": 3.402823E+38,
     "StandardJump": {
-      "Speed": 61575010.0,
+      "Speed": 240000000.0,
       "Cooldown": 21.0,
-      "Stage1AccelerationRate": 637000.5,
-      "State2AccelerationRate": 4924345.0,
+      "Stage1AccelerationRate": 200000.0,
+      "State2AccelerationRate": 16000000.0,
       "SpoolUpTime": 7.0
     },
     "SplineJump": {
@@ -39,8 +39,8 @@
     }
   },
   "Durability": {
-    "Health": 2500.0,
-    "Lifetime": 84.0
+    "Health": 1500.0,
+    "Lifetime": 0.0
   },
   "PowerConnection": {
     "PowerBase": 768.0,
@@ -59,10 +59,8 @@
         "JumpDrive.JumpDrive"
       ],
       "Flags": [
-        "uneditable",
-        "invisible"
-      ],
-      "Uneditable": true
+        "dont_hide_entity"
+      ]
     }
   ]
 }

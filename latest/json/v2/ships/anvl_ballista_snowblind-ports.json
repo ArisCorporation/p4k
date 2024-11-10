@@ -1,58 +1,5 @@
 {
-  "PilotHardpoints": [
-    {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Ballista",
-      "InstalledItem": {
-        "UUID": "14e51388-8fac-48e1-b1e3-03c53424fcc2",
-        "ClassName": "WeaponRegenPool_Crew_Ballista",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Ballista",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    },
-    {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Ballista",
-      "InstalledItem": {
-        "UUID": "6dd90669-b945-4a72-8932-02741b9a3aad",
-        "ClassName": "WeaponRegenPool_Turret_Ballista",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Ballista",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  ],
+  "PilotHardpoints": [],
   "MannedTurrets": [
     {
       "PortName": "hardpoint_turret",
@@ -117,16 +64,11 @@
               },
               "Durability": {
                 "Health": 850.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 40.0,
                 "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -346,16 +288,11 @@
               },
               "Durability": {
                 "Health": 850.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 40.0,
                 "PowerDraw": 60.0
-              },
-              "HeatConnection": {
-                "ThermalEnergyBase": 100.0,
-                "ThermalEnergyDraw": 200.0,
-                "CoolingRate": 100.0
               },
               "Weapon": {
                 "Ammunition": {
@@ -642,7 +579,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -652,9 +589,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -686,7 +620,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -696,9 +630,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -730,7 +661,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -740,9 +671,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -774,7 +702,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -784,9 +712,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -870,7 +795,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -880,9 +805,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -914,7 +836,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -924,9 +846,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -958,7 +877,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -968,9 +887,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1002,7 +918,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1012,9 +928,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1098,7 +1011,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1108,9 +1021,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1191,7 +1101,7 @@
                     "Tags": [
                       "TALN",
                       "IR",
-                      "flightReady"
+                      "ANVL_Ballista"
                     ],
                     "Width": 1.0,
                     "Height": 1.0,
@@ -1201,9 +1111,6 @@
                       "Width": 0.75,
                       "Height": 0.75,
                       "Depth": 3.0
-                    },
-                    "Durability": {
-                      "Health": 10.0
                     },
                     "Missile": {
                       "Damage": {
@@ -1298,7 +1205,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1308,9 +1215,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1342,7 +1246,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1352,9 +1256,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1386,7 +1287,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1396,9 +1297,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1430,7 +1328,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1440,9 +1338,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1526,7 +1421,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1536,9 +1431,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1570,7 +1462,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1580,9 +1472,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1614,7 +1503,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1624,9 +1513,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1658,7 +1544,7 @@
               "Tags": [
                 "TALN",
                 "IR",
-                "flightReady"
+                "ANVL_Ballista"
               ],
               "Width": 1.0,
               "Height": 1.0,
@@ -1668,9 +1554,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1722,8 +1605,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1754,8 +1637,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -1798,8 +1681,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -1830,8 +1713,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -1879,8 +1762,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -1928,8 +1811,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,

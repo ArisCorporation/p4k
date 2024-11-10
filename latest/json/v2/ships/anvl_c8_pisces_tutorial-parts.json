@@ -175,9 +175,9 @@
     }
   },
   {
-    "Name": "hardpoint_cooler_left",
+    "Name": "hardpoint_cooler",
     "Port": {
-      "PortName": "hardpoint_cooler_left",
+      "PortName": "hardpoint_cooler",
       "Size": 1,
       "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
       "InstalledItem": {
@@ -205,58 +205,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
-        },
-        "PowerConnection": {
-          "PowerBase": 8.0,
-          "PowerDraw": 12.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        }
-      },
-      "Types": [
-        "Cooler.UNDEFINED"
-      ],
-      "Category": "Coolers"
-    }
-  },
-  {
-    "Name": "hardpoint_cooler_right",
-    "Port": {
-      "PortName": "hardpoint_cooler_right",
-      "Size": 1,
-      "Loadout": "COOL_AEGS_S01_Bracer_SCItem",
-      "InstalledItem": {
-        "UUID": "4ec3037b-4b6f-4837-b00d-cd9b4836a82a",
-        "ClassName": "COOL_AEGS_S01_Bracer_SCItem",
-        "Size": 1,
-        "Grade": 3,
-        "Type": "Cooler.UNDEFINED",
-        "Name": "Bracer",
-        "Description": "Item Type: Cooler\nManufacturer: Aegis Dynamics \nSize: 1\nGrade: C\nClass: Military\n\nFor those looking for a solid, dependable mid-line cooler, you can’t do much better than Aegis’ Bracer. This small-frame cooler system offers solid performance and durability to keep your ship firing on all cylinders.",
-        "Manufacturer": {
-          "Code": "AEG",
-          "Name": "Aegis Dynamics"
-        },
-        "Width": 0.2233005,
-        "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
-        "DimensionOverrides": {
-          "Width": 2.25,
-          "Height": 0.75,
-          "Depth": 0.75
-        },
-        "Cooler": {
-          "Rate": 260000.0
-        },
-        "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -279,81 +229,8 @@
     "Port": {
       "PortName": "hardpoint_dashboard_pilot",
       "Size": 0,
-      "Loadout": "ANVL_Pisces_SCItem_Dashboard_Pilot",
-      "InstalledItem": {
-        "UUID": "07241088-c4c7-4b2a-9579-585dd0036a99",
-        "ClassName": "ANVL_Pisces_SCItem_Dashboard_Pilot",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "SeatDashboard.UNDEFINED",
-        "Name": "ANVL_Pisces_SCItem_Dashboard_Pilot",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1.0
-        },
-        "PowerConnection": {
-          "PowerBase": 1.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "radar_helper",
-            "Size": 1,
-            "Loadout": "ANVL_Pisces_RADR_Display",
-            "InstalledItem": {
-              "UUID": "a23515fc-6a72-48ce-93ba-a265a93a2685",
-              "ClassName": "ANVL_Pisces_RADR_Display",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "ANVL_Pisces_RADR_Display",
-              "Manufacturer": {
-                "Code": "ANVL",
-                "Name": "Anvil Aerospace"
-              },
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
-            "Types": [
-              "Display"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "Display_HUD",
-            "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
-            "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
+      "Loadout": "",
+      "Category": "DISABLED"
     },
     "Parts": [
       {
@@ -361,7 +238,7 @@
         "Port": {
           "PortName": "radar_helper",
           "Size": 0,
-          "Loadout": "ANVL_Pisces_RADR_Display",
+          "Loadout": "Radar_Display_C8_Pisces",
           "Category": "DISABLED"
         }
       },
@@ -370,7 +247,52 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "H_Dashboard_Projector_HUD_ANVL_C8_Pisces",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Left",
+        "Port": {
+          "PortName": "Screen_Support_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Left",
+        "Port": {
+          "PortName": "Screen_MFD_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Right",
+        "Port": {
+          "PortName": "Screen_MFD_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Right",
+        "Port": {
+          "PortName": "Screen_Support_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Annunciator_Center",
+        "Port": {
+          "PortName": "Screen_Annunciator_Center",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
           "Category": "DISABLED"
         }
       }
@@ -524,8 +446,8 @@
           "Output": 4000.0
         },
         "Durability": {
-          "Health": 432.0,
-          "Lifetime": 22.0
+          "Health": 820.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -565,8 +487,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
+          "Health": 720.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -681,8 +603,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1280.0,
+          "Regeneration": 85.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -713,8 +635,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 15.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -760,8 +682,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -807,8 +728,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -854,8 +774,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -901,8 +820,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -948,8 +866,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -995,8 +912,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1042,8 +958,7 @@
           "MaxThrustFuelRate": 0.8894374999999999
         },
         "Durability": {
-          "Health": 8000.0,
-          "Lifetime": 720.0
+          "Health": 8000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1089,8 +1004,7 @@
           "MaxThrustFuelRate": 0.8894374999999999
         },
         "Durability": {
-          "Health": 8000.0,
-          "Lifetime": 720.0
+          "Health": 8000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1136,8 +1050,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1183,8 +1096,7 @@
           "MaxThrustFuelRate": 2.34375
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1230,8 +1142,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1277,8 +1188,7 @@
           "MaxThrustFuelRate": 3.4375
         },
         "Durability": {
-          "Health": 6500.0,
-          "Lifetime": 720.0
+          "Health": 6500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1324,8 +1234,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1371,8 +1280,7 @@
           "MaxThrustFuelRate": 2.03125
         },
         "Durability": {
-          "Health": 5500.0,
-          "Lifetime": 720.0
+          "Health": 5500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1418,8 +1326,7 @@
           "MaxThrustFuelRate": 0.280875
         },
         "Durability": {
-          "Health": 7000.0,
-          "Lifetime": 720.0
+          "Health": 7000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1465,8 +1372,7 @@
           "MaxThrustFuelRate": 0.280875
         },
         "Durability": {
-          "Health": 7000.0,
-          "Lifetime": 720.0
+          "Health": 7000.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1700,10 +1606,10 @@
           "FuelRate": 9.8E-09,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 148971800.0,
+            "Speed": 165000000.0,
             "Cooldown": 10.0,
-            "Stage1AccelerationRate": 750000.0,
-            "State2AccelerationRate": 2482863.0,
+            "Stage1AccelerationRate": 5000000.0,
+            "State2AccelerationRate": 11000000.0,
             "SpoolUpTime": 4.0
           },
           "SplineJump": {
@@ -1715,8 +1621,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 5.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.4,
@@ -1731,16 +1637,13 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 1,
-            "Loadout": "JDRV_TARS_S01_C_Explorer",
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -1754,8 +1657,8 @@
         "Name": "hardpoint_jump_drive",
         "Port": {
           "PortName": "hardpoint_jump_drive",
-          "Size": 1,
-          "Loadout": "JDRV_TARS_S01_C_Explorer",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       }
@@ -2038,28 +1941,20 @@
     "Port": {
       "PortName": "hardpoint_door",
       "Size": 1,
-      "Loadout": "ANVL_Pisces_Back_Door",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Pisces",
       "InstalledItem": {
-        "UUID": "7e719b6e-3d86-4e54-90fb-b20d467e2fd7",
-        "ClassName": "ANVL_Pisces_Back_Door",
+        "UUID": "1e7dc40c-986b-4213-8d40-b1a60a95f14e",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Pisces",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_IP_Pisces",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 6000.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -2157,21 +2052,6 @@
               "Decal.DoorPart"
             ],
             "Category": "Door attachments"
-          },
-          {
-            "PortName": "hardpoint_ext_bot",
-            "Size": 1,
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "hardpoint_ext",
-            "Size": 1,
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "hardpoint_frame",
-            "Size": 1,
-            "Category": "UNKNOWN"
           },
           {
             "PortName": "IP_Exterior",
@@ -2324,6 +2204,67 @@
     }
   },
   {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
     "Name": "hardpoint_controller_missile",
     "Port": {
       "PortName": "hardpoint_controller_missile",
@@ -2389,6 +2330,51 @@
         "Length": 0.15,
         "Volume": 1E-06
       },
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_relay",
+    "Port": {
+      "PortName": "hardpoint_relay",
+      "Size": 1,
+      "Loadout": "RELAY_2slot_slim",
+      "InstalledItem": {
+        "UUID": "fd9d74e7-8b0a-46d3-8d14-7bf7c5e93900",
+        "ClassName": "RELAY_2slot_slim",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_2slot_slim",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 600.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
       "Category": "UNKNOWN"
     }
   }

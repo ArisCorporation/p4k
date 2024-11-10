@@ -45,8 +45,8 @@
           },
           "SignalMultipliers": {
             "CrossSection": 1.0,
-            "Infrared": 1.85,
-            "Electromagnetic": 5.1
+            "Infrared": 1.0,
+            "Electromagnetic": 1.0
           }
         }
       },
@@ -238,35 +238,6 @@
     }
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Storm",
-      "InstalledItem": {
-        "UUID": "57d85c8f-3d4e-4cf2-8646-1e0800d1761b",
-        "ClassName": "WeaponRegenPool_Crew_Storm",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Storm",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
     "Name": "hardpoint_selfdestruct",
     "Port": {
       "PortName": "hardpoint_selfdestruct",
@@ -341,8 +312,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 470.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -424,71 +395,65 @@
     "Port": {
       "PortName": "hardpoint_dashboard_pilot",
       "Size": 0,
-      "Loadout": "TMBL_Storm_Dashboard_Pilot",
-      "InstalledItem": {
-        "UUID": "a5d87d1b-43e6-4dfe-927e-0956f7593bdb",
-        "ClassName": "TMBL_Storm_Dashboard_Pilot",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "SeatDashboard.UNDEFINED",
-        "Name": "TMBL_Storm_Dashboard_Pilot",
-        "Manufacturer": {
-          "Code": "TMBL",
-          "Name": "Tumbril Land Systems"
-        },
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 0.1
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_cockpit_radar",
-            "Size": 1,
-            "Loadout": "RADR_Display",
-            "InstalledItem": {
-              "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-              "ClassName": "RADR_Display",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "RADR_Display",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
-            "Types": [
-              "Display"
-            ],
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
+      "Loadout": "",
+      "Category": "DISABLED"
     },
     "Parts": [
       {
-        "Name": "hardpoint_cockpit_radar",
+        "Name": "Radar_Helper",
         "Port": {
-          "PortName": "hardpoint_cockpit_radar",
+          "PortName": "Radar_Helper",
           "Size": 0,
-          "Loadout": "RADR_Display",
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Main_Left",
+        "Port": {
+          "PortName": "Screen_Main_Left",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Secondary_Left",
+        "Port": {
+          "PortName": "Screen_Secondary_Left",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Main_Right",
+        "Port": {
+          "PortName": "Screen_Main_Right",
+          "Size": 0,
+          "Loadout": "",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Secondary_Right",
+        "Port": {
+          "PortName": "Screen_Secondary_Right",
+          "Size": 0,
+          "Loadout": "",
           "Category": "DISABLED"
         }
       }
     ]
+  },
+  {
+    "Name": "hardpoint_windshield",
+    "Port": {
+      "PortName": "hardpoint_windshield",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
+    }
   },
   {
     "Name": "hardpoint_seat_access",
@@ -642,8 +607,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -665,22 +630,15 @@
     "Name": "hardpoint_computer",
     "Port": {
       "PortName": "hardpoint_computer",
-      "Size": 1,
+      "Size": 0,
       "Loadout": "COMP_WLOP_S00_Adze",
       "InstalledItem": {
         "UUID": "a6b4604a-358b-4ee7-8c0f-f3f43427154d",
         "ClassName": "COMP_WLOP_S00_Adze",
-        "Size": 1,
+        "Size": 0,
         "Grade": 1,
         "Type": "Misc.UNDEFINED",
         "Name": "COMP_WLOP_S00_Adze",
-        "Manufacturer": {
-          "Code": "ESPR",
-          "Name": "Esperia"
-        },
-        "Tags": [
-          "ESPR_Talon_Base"
-        ],
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -726,8 +684,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -773,8 +731,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -805,8 +763,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -896,7 +854,7 @@
               },
               "Durability": {
                 "Health": 1024.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 200.0,
@@ -1703,6 +1661,68 @@
         "Door.UNDEFINED"
       ],
       "Category": "Doors"
+    }
+  },
+  {
+    "Name": "hardpoint_relay_cockpit",
+    "Port": {
+      "PortName": "hardpoint_relay_cockpit",
+      "Size": 1,
+      "Loadout": "RELAY_3slot",
+      "InstalledItem": {
+        "UUID": "d046b6a3-84ba-4a9b-bc51-952ecb40224d",
+        "ClassName": "RELAY_3slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_3slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 900.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     }
   }
 ]

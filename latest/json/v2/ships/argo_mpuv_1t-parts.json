@@ -100,34 +100,16 @@
         },
         "Ports": [
           {
-            "PortName": "HUD_Display",
+            "PortName": "Afterburners",
             "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
+            "Loadout": "Vehicle_Screen_Physical",
             "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
+              "UUID": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+              "ClassName": "Vehicle_Screen_Physical",
               "Size": 1,
               "Grade": 1,
               "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "MFD_Left",
-            "Size": 1,
-            "Loadout": "Vehicle_Screen_MFD",
-            "InstalledItem": {
-              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
-              "ClassName": "Vehicle_Screen_MFD",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "Vehicle_Screen_MFD",
+              "Name": "Vehicle_Screen_Physical",
               "Width": 0.15,
               "Height": 0.15,
               "Length": 0.15,
@@ -137,39 +119,6 @@
                 "PowerDraw": 1.0
               }
             },
-            "Types": [
-              "Display"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "MFD_Right",
-            "Size": 1,
-            "Loadout": "Vehicle_Screen_MFD",
-            "InstalledItem": {
-              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
-              "ClassName": "Vehicle_Screen_MFD",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "Vehicle_Screen_MFD",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06,
-              "PowerConnection": {
-                "PowerBase": 1.0,
-                "PowerDraw": 1.0
-              }
-            },
-            "Types": [
-              "Display"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "Radar",
-            "Size": 1,
             "Types": [
               "Display"
             ],
@@ -226,8 +175,87 @@
             "Category": "UNKNOWN"
           },
           {
-            "PortName": "Afterburners",
+            "PortName": "MFD_Left",
             "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "MFD_Right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Radar",
+            "Size": 1,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "Velocity",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical",
+            "InstalledItem": {
+              "UUID": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+              "ClassName": "Vehicle_Screen_Physical",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
             "Category": "UNKNOWN"
           }
         ]
@@ -240,7 +268,7 @@
         "Port": {
           "PortName": "HUD_Display",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "",
           "Category": "DISABLED"
         }
       },
@@ -263,6 +291,15 @@
         }
       },
       {
+        "Name": "Radar",
+        "Port": {
+          "PortName": "Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
+      },
+      {
         "Name": "Annunciator_Left",
         "Port": {
           "PortName": "Annunciator_Left",
@@ -275,6 +312,24 @@
         "Name": "Annunciator_Right",
         "Port": {
           "PortName": "Annunciator_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Velocity",
+        "Port": {
+          "PortName": "Velocity",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Afterburners",
+        "Port": {
+          "PortName": "Afterburners",
           "Size": 0,
           "Loadout": "Vehicle_Screen_Physical",
           "Category": "DISABLED"
@@ -528,8 +583,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 590.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -797,8 +852,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -847,8 +902,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 430.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -894,8 +949,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 1850.0,
+          "Regeneration": 124.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -926,8 +981,8 @@
           }
         },
         "Durability": {
-          "Health": 1054.0,
-          "Lifetime": 40.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 200.0,
@@ -1025,8 +1080,7 @@
           "MaxThrustFuelRate": 0.56026884375
         },
         "Durability": {
-          "Health": 3500.0,
-          "Lifetime": 720.0
+          "Health": 3500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1075,8 +1129,7 @@
           "MaxThrustFuelRate": 0.7459375
         },
         "Durability": {
-          "Health": 3500.0,
-          "Lifetime": 720.0
+          "Health": 3500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1125,8 +1178,7 @@
           "MaxThrustFuelRate": 0.56026884375
         },
         "Durability": {
-          "Health": 3500.0,
-          "Lifetime": 720.0
+          "Health": 3500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1175,8 +1227,7 @@
           "MaxThrustFuelRate": 0.7459375
         },
         "Durability": {
-          "Health": 3500.0,
-          "Lifetime": 720.0
+          "Health": 3500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1225,8 +1276,7 @@
           "MaxThrustFuelRate": 0.7642465
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1275,8 +1325,7 @@
           "MaxThrustFuelRate": 0.9221187500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1325,8 +1374,7 @@
           "MaxThrustFuelRate": 0.9221187500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1375,8 +1423,7 @@
           "MaxThrustFuelRate": 0.9221187500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1425,8 +1472,7 @@
           "MaxThrustFuelRate": 0.7642465
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1475,8 +1521,7 @@
           "MaxThrustFuelRate": 0.9221187500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1525,8 +1570,7 @@
           "MaxThrustFuelRate": 0.9221187500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1575,8 +1619,7 @@
           "MaxThrustFuelRate": 0.9221187500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1625,8 +1668,7 @@
           "MaxThrustFuelRate": 0.5075000000000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1675,8 +1717,7 @@
           "MaxThrustFuelRate": 0.8049272500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1725,8 +1766,7 @@
           "MaxThrustFuelRate": 0.8951267500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1775,8 +1815,7 @@
           "MaxThrustFuelRate": 0.5075000000000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1825,8 +1864,7 @@
           "MaxThrustFuelRate": 0.8049272500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -1875,8 +1913,7 @@
           "MaxThrustFuelRate": 0.8951267500000001
         },
         "Durability": {
-          "Health": 2500.0,
-          "Lifetime": 720.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 10.0,
@@ -2011,6 +2048,67 @@
     }
   },
   {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
     "Name": "hardpoint_controller_capacitor_assignment",
     "Port": {
       "PortName": "hardpoint_controller_capacitor_assignment",
@@ -2056,7 +2154,7 @@
         "Grade": 1,
         "Type": "TractorBeam.UNDEFINED",
         "Name": "SureGrip S2 Tractor Beam",
-        "Description": "Manufacturer: Greycat Industrial\nItem Type: Tractor Beam\nMax Angle: 60°\nMax Range: 150 m\nFull Strength Distance: 75 m\n\nBacked by their certified Soft-Touch® guarantee, Greycat’s SureGrip tractor beam, is a mainstay of its product catalogue thanks to its dependable range and control.",
+        "Description": "Manufacturer: Greycat Industrial\nItem Type: Tractor Beam\nMax Angle: 60°\nMax Range: 150 m\nFull Strength Distance: 75 m\n\nBacked by their certified Soft-Touch® guarantee, Greycat’s SureGrip tractor beam is a mainstay of its product catalogue thanks to its dependable range and control.",
         "Manufacturer": {
           "Code": "GRIN",
           "Name": "Greycat Industrial"
@@ -2076,7 +2174,7 @@
         },
         "Durability": {
           "Health": 1050.0,
-          "Lifetime": 100.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 46.0,
@@ -2152,14 +2250,14 @@
     "Port": {
       "PortName": "hardpoint_relay",
       "Size": 1,
-      "Loadout": "RELAY_shipItem_2slot_slim",
+      "Loadout": "RELAY_2slot_slim",
       "InstalledItem": {
         "UUID": "fd9d74e7-8b0a-46d3-8d14-7bf7c5e93900",
-        "ClassName": "RELAY_shipItem_2slot_slim",
+        "ClassName": "RELAY_2slot_slim",
         "Size": 1,
         "Grade": 1,
         "Type": "Relay.UNDEFINED",
-        "Name": "RELAY_shipItem_2slot_slim",
+        "Name": "RELAY_2slot_slim",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
@@ -2196,9 +2294,61 @@
     "Name": "hardpoint_lifesupport",
     "Port": {
       "PortName": "hardpoint_lifesupport",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   },
   {
@@ -2397,7 +2547,7 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 2000.0
+          "Health": 2500.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -2420,7 +2570,7 @@
               "Grade": 1,
               "Type": "TractorBeam.UNDEFINED",
               "Name": "SureGrip S1 Tractor Beam",
-              "Description": "Manufacturer: Greycat Industrial\nItem Type: Tractor Beam\nMax Angle: 60°\nMax Range: 150 m\nFull Strength Distance: 75 m\n\nBacked by their certified Soft-Touch® guarantee, Greycat’s SureGrip tractor beam, is a mainstay of its product catalogue thanks to its dependable range and control.",
+              "Description": "Manufacturer: Greycat Industrial\nItem Type: Tractor Beam\nMax Angle: 60°\nMax Range: 150 m\nFull Strength Distance: 75 m\n\nBacked by their certified Soft-Touch® guarantee, Greycat’s SureGrip tractor beam is a mainstay of its product catalogue thanks to its dependable range and control.",
               "Manufacturer": {
                 "Code": "GRIN",
                 "Name": "Greycat Industrial"
@@ -2440,7 +2590,7 @@
               },
               "Durability": {
                 "Health": 1050.0,
-                "Lifetime": 100.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 46.0,
@@ -2761,6 +2911,15 @@
         "Door.UNDEFINED"
       ],
       "Category": "Doors"
+    }
+  },
+  {
+    "Name": "hardpoint_module",
+    "Port": {
+      "PortName": "hardpoint_module",
+      "Size": 0,
+      "Loadout": "",
+      "Category": "DISABLED"
     }
   }
 ]

@@ -31,10 +31,125 @@
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
-        "Volume": 1E-06
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "screen_co-pilot_mid",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_co-pilot_left",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_co-pilot_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_co-pilot_mid",
+        "Port": {
+          "PortName": "screen_co-pilot_mid",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_co-pilot_left",
+        "Port": {
+          "PortName": "screen_co-pilot_left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_co-pilot_right",
+        "Port": {
+          "PortName": "screen_co-pilot_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_driver",
@@ -56,10 +171,143 @@
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
-        "Volume": 1E-06
+        "Volume": 1E-06,
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "screen_pilot_mid",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_pilot_left",
+            "Size": 1,
+            "Loadout": "Radar_Display_Screen_Template",
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_pilot_right",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_MFD",
+            "InstalledItem": {
+              "UUID": "c08cedfa-fafc-4ea6-9737-59faeb4b1510",
+              "ClassName": "Vehicle_Screen_MFD",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_MFD",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "screen_pilot_speed",
+            "Size": 1,
+            "Loadout": "Vehicle_Screen_Physical",
+            "InstalledItem": {
+              "UUID": "9a48b047-69d8-44d0-84b0-14246524e5d0",
+              "ClassName": "Vehicle_Screen_Physical",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Display.UNDEFINED",
+              "Name": "Vehicle_Screen_Physical",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "PowerConnection": {
+                "PowerBase": 1.0,
+                "PowerDraw": 1.0
+              }
+            },
+            "Types": [
+              "Display"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
       },
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "screen_pilot_mid",
+        "Port": {
+          "PortName": "screen_pilot_mid",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_pilot_left",
+        "Port": {
+          "PortName": "screen_pilot_left",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_pilot_right",
+        "Port": {
+          "PortName": "screen_pilot_right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "screen_pilot_speed",
+        "Port": {
+          "PortName": "screen_pilot_speed",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_Physical",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_seat_access",
@@ -242,11 +490,14 @@
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
-        "CargoGrid": {
-          "Capacity": 0.0,
-          "Width": 1.0,
-          "Height": 1.5,
-          "Depth": 2.0
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 1.0
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
         }
       },
       "Types": [
@@ -277,65 +528,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_copilot",
-    "Port": {
-      "PortName": "hardpoint_radar_copilot",
-      "Size": 0,
-      "Loadout": "RADR_GRNP_S00_Prevenir",
-      "InstalledItem": {
-        "UUID": "d8a9b395-4438-4995-a797-9d984c7fd4c0",
-        "ClassName": "RADR_GRNP_S00_Prevenir",
-        "Size": 0,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Prevenir",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 0\nGrade: C\nClass: Military\n\nThe Prevenir has been refined by extensive military field testing, making it the go-to vehicle radar for many across the UEE.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 720.0
+          "Health": 470.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -421,8 +615,8 @@
           "Output": 610.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 380.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -492,8 +686,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,
@@ -563,8 +757,8 @@
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 750.0,
-          "Regeneration": 187.5,
+          "Health": 545.0,
+          "Regeneration": 40.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -595,8 +789,8 @@
           }
         },
         "Durability": {
-          "Health": 65.0,
-          "Lifetime": 10.0
+          "Health": 290.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -619,28 +813,20 @@
     "Port": {
       "PortName": "hardpoint_door_sideDoor",
       "Size": 1,
-      "Loadout": "RSI_Ursa_SideDoor_Medivac",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_Ursa_Medivac_Side",
       "InstalledItem": {
-        "UUID": "1df1cce0-249d-4722-a3c3-2da3e364729c",
-        "ClassName": "RSI_Ursa_SideDoor_Medivac",
+        "UUID": "89f57cf2-786f-4739-a336-498584e7dd98",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_Ursa_Medivac_Side",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "RSI",
-          "Name": "Roberts Space Industries"
-        },
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_Ursa_Medivac_Side",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -794,28 +980,20 @@
     "Port": {
       "PortName": "hardpoint_door_ramp",
       "Size": 1,
-      "Loadout": "RSI_Ursa_Ramp_Medivac",
+      "Loadout": "Door_RN_RoomConnector_Breachable_OpenClose_Ursa_Medivac_Ramp",
       "InstalledItem": {
-        "UUID": "c0d50ec6-8b20-47c6-aa7e-ce77e4004529",
-        "ClassName": "RSI_Ursa_Ramp_Medivac",
+        "UUID": "44383f93-a44a-4e77-8714-7a338020e592",
+        "ClassName": "Door_RN_RoomConnector_Breachable_OpenClose_Ursa_Medivac_Ramp",
         "Size": 1,
         "Grade": 1,
         "Type": "Door.UNDEFINED",
-        "Name": "Door Control",
-        "Manufacturer": {
-          "Code": "RSI",
-          "Name": "Roberts Space Industries"
-        },
+        "Name": "Door_RN_RoomConnector_Breachable_OpenClose_Ursa_Medivac_Ramp",
         "Width": 0.15,
         "Height": 0.15,
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 200.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.0,
-          "PowerDraw": 1.0
+          "Health": 1000.0
         },
         "Ports": [
           {
@@ -1044,7 +1222,7 @@
               },
               "Durability": {
                 "Health": 525.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 180.0,
@@ -1064,7 +1242,7 @@
                   "Size": 1.0,
                   "Capacity": 0.0,
                   "ImpactDamage": {
-                    "Energy": 19.44
+                    "Energy": 17.496
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -1087,10 +1265,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Energy": 19.44
+                      "Energy": 17.496
                     },
                     "DamagePerSecond": {
-                      "Energy": 243.00000000000003
+                      "Energy": 218.7
                     }
                   }
                 ],
@@ -1109,7 +1287,7 @@
                 "Size": 1.0,
                 "Capacity": 0.0,
                 "ImpactDamage": {
-                  "Energy": 19.44
+                  "Energy": 17.496
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -1199,7 +1377,7 @@
               },
               "Durability": {
                 "Health": 525.0,
-                "Lifetime": 20.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 180.0,
@@ -1219,7 +1397,7 @@
                   "Size": 1.0,
                   "Capacity": 0.0,
                   "ImpactDamage": {
-                    "Energy": 19.44
+                    "Energy": 17.496
                   },
                   "BulletImpulseFalloff": {},
                   "BulletPierceability": {
@@ -1242,10 +1420,10 @@
                     "AmmoPerShot": 1.0,
                     "PelletsPerShot": 1.0,
                     "DamagePerShot": {
-                      "Energy": 19.44
+                      "Energy": 17.496
                     },
                     "DamagePerSecond": {
-                      "Energy": 243.00000000000003
+                      "Energy": 218.7
                     }
                   }
                 ],
@@ -1264,7 +1442,7 @@
                 "Size": 1.0,
                 "Capacity": 0.0,
                 "ImpactDamage": {
-                  "Energy": 19.44
+                  "Energy": 17.496
                 },
                 "BulletImpulseFalloff": {},
                 "BulletPierceability": {
@@ -1356,64 +1534,6 @@
     ]
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Crew_Ursa",
-      "InstalledItem": {
-        "UUID": "97502cac-ff50-4411-8aa7-13653fc9841f",
-        "ClassName": "WeaponRegenPool_Crew_Ursa",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Crew_Ursa",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 4500,
-          "RespectsCapacitorAssignments": true
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_Ursa",
-      "InstalledItem": {
-        "UUID": "355514e2-449e-48ac-9f9b-430fb2c1a444",
-        "ClassName": "WeaponRegenPool_Turret_Ursa",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_Ursa",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 100000.0,
-          "AmmoLoad": 60000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
     "Name": "hardpoint_controller_capacitor_assignment",
     "Port": {
       "PortName": "hardpoint_controller_capacitor_assignment",
@@ -1447,21 +1567,144 @@
     }
   },
   {
+    "Name": "hardpoint_relay_interior",
+    "Port": {
+      "PortName": "hardpoint_relay_interior",
+      "Size": 1,
+      "Loadout": "RELAY_3slot",
+      "InstalledItem": {
+        "UUID": "d046b6a3-84ba-4a9b-bc51-952ecb40224d",
+        "ClassName": "RELAY_3slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_3slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 900.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
     "Name": "hardpoint_bed",
     "Port": {
       "PortName": "hardpoint_bed",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "Size": 1,
+      "Loadout": "Bed_Single_Medical_Ursa_Medivac",
+      "InstalledItem": {
+        "UUID": "7b892f32-472f-4d9b-87a9-d7ef16f7c3e5",
+        "ClassName": "Bed_Single_Medical_Ursa_Medivac",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Usable.UNDEFINED",
+        "Name": "Medical Bed",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "InventoryContainer": {
+          "SCU": 0.7999999999999999,
+          "x": 0.8,
+          "y": 1.6,
+          "z": 0.6,
+          "unit": 6.0
+        },
+        "Ports": [
+          {
+            "PortName": "Mattress",
+            "Size": 2,
+            "Types": [
+              "Seat"
+            ],
+            "Category": "Seats"
+          },
+          {
+            "PortName": "Pillow",
+            "Size": 2,
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "StandingScreen",
+            "Size": 0,
+            "Loadout": "Console_Standing_Angled_MedicalBed_AttachedToBedEnd",
+            "InstalledItem": {
+              "UUID": "272f05f5-ba0d-4d4b-9bd3-c401fd907c6b",
+              "ClassName": "Console_Standing_Angled_MedicalBed_AttachedToBedEnd",
+              "Size": 1,
+              "Grade": 1,
+              "Type": "Usable.UNDEFINED",
+              "Name": "Screen",
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06
+            },
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Usable.UNDEFINED"
+      ],
+      "Category": "Usables"
     }
   },
   {
     "Name": "hardpoint_monitor",
     "Port": {
       "PortName": "hardpoint_monitor",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "Size": 1,
+      "Loadout": "Console_Standing_Angled_MedicalBed_Ursa_Medivac",
+      "InstalledItem": {
+        "UUID": "6a9b6017-1451-489c-aff9-8426094cc7ae",
+        "ClassName": "Console_Standing_Angled_MedicalBed_Ursa_Medivac",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Usable.UNDEFINED",
+        "Name": "Screen",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06
+      },
+      "Types": [
+        "Usable.UNDEFINED"
+      ],
+      "Category": "Usables"
     }
   },
   {
@@ -1469,8 +1712,27 @@
     "Port": {
       "PortName": "hardpoint_chair",
       "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "Loadout": "Seat_Chair_Anim_RSI_Ursa_Medivac",
+      "InstalledItem": {
+        "UUID": "4b4e7980-d286-4124-9929-13853b121a5b",
+        "ClassName": "Seat_Chair_Anim_RSI_Ursa_Medivac",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Usable.UNDEFINED",
+        "Name": "Seat",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "InventoryContainer": {
+          "SCU": 1E-06,
+          "x": 1.0,
+          "y": 1.25,
+          "z": 1.0,
+          "unit": 6.0
+        }
+      },
+      "Category": "UNKNOWN"
     }
   },
   {

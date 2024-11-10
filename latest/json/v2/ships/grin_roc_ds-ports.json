@@ -2,24 +2,6 @@
   "PilotHardpoints": [],
   "MannedTurrets": [
     {
-      "PortName": "hardpoint_ping_turret",
-      "Size": 0,
-      "Loadout": "test_ping_Prospector",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    },
-    {
-      "PortName": "hardpoint_scanner_turret",
-      "Size": 0,
-      "Loadout": "test_scanner",
-      "Types": [
-        "TurretBase.MannedTurret"
-      ],
-      "Category": "Manned turrets"
-    },
-    {
       "PortName": "turret_screen",
       "Size": 0,
       "Loadout": "Projector_HUD_Mining_ROCDS",
@@ -55,7 +37,7 @@
         "Volume": 1E-06,
         "Durability": {
           "Health": 2000.0,
-          "Lifetime": 25.0
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -99,7 +81,7 @@
               },
               "Durability": {
                 "Health": 8000.0,
-                "Lifetime": 100.0
+                "Lifetime": 0.0
               },
               "PowerConnection": {
                 "PowerBase": 1250.0,
@@ -142,7 +124,7 @@
           },
           {
             "PortName": "turret_screen",
-            "Size": 0,
+            "Size": 1,
             "Loadout": "Projector_HUD_Mining_ROCDS",
             "InstalledItem": {
               "UUID": "5d2c9019-540f-49d1-9a6f-c71350aab348",
@@ -202,8 +184,8 @@
           "Output": 720.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -249,8 +231,8 @@
           "Output": 720.0
         },
         "Durability": {
-          "Health": 1000.0,
-          "Lifetime": 10.0
+          "Health": 450.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
@@ -298,8 +280,8 @@
           "Rate": 100000.0
         },
         "Durability": {
-          "Health": 125.0,
-          "Lifetime": 17.0
+          "Health": 250.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 4.0,

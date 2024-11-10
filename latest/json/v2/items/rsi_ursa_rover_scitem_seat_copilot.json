@@ -15,5 +15,37 @@
   "Width": 0.15,
   "Height": 0.15,
   "Length": 0.15,
-  "Volume": 1E-06
+  "Volume": 1E-06,
+  "PowerConnection": {
+    "PowerBase": 0.0,
+    "PowerDraw": 1.0
+  },
+  "HeatConnection": {
+    "ThermalEnergyBase": 10.0,
+    "ThermalEnergyDraw": 20.0,
+    "CoolingRate": 1.0
+  },
+  "Ports": [
+    {
+      "PortName": "screen_co-pilot_mid",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "screen_co-pilot_left",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    },
+    {
+      "PortName": "screen_co-pilot_right",
+      "Size": 1,
+      "Types": [
+        "Display"
+      ]
+    }
+  ]
 }

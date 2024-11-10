@@ -19,10 +19,10 @@
     "FuelRate": 6.13E-08,
     "JumpRange": 3.402823E+38,
     "StandardJump": {
-      "Speed": 133904700.0,
+      "Speed": 300000000.0,
       "Cooldown": 92.07,
-      "Stage1AccelerationRate": 75000.0,
-      "State2AccelerationRate": 150000.0,
+      "Stage1AccelerationRate": 300000.0,
+      "State2AccelerationRate": 14000000.0,
       "SpoolUpTime": 9.0
     },
     "SplineJump": {
@@ -34,8 +34,8 @@
     }
   },
   "Durability": {
-    "Health": 4000.0,
-    "Lifetime": 1440.0
+    "Health": 8200.0,
+    "Lifetime": 0.0
   },
   "PowerConnection": {
     "PowerBase": 768.0,
@@ -49,15 +49,13 @@
   "Ports": [
     {
       "PortName": "hardpoint_Jump_Drive",
-      "Size": 0,
+      "Size": 4,
       "Types": [
         "JumpDrive.JumpDrive"
       ],
       "Flags": [
-        "uneditable",
-        "invisible"
-      ],
-      "Uneditable": true
+        "dont_hide_entity"
+      ]
     }
   ]
 }

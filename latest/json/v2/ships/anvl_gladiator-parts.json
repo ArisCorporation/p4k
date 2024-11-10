@@ -61,80 +61,8 @@
     "Port": {
       "PortName": "hardpoint_dashboard_pilot",
       "Size": 0,
-      "Loadout": "ANVL_Gladiator_SCItem_Dashboard_Pilot",
-      "InstalledItem": {
-        "UUID": "11b66d92-5eb2-42b9-bc16-9f6ee8c05561",
-        "ClassName": "ANVL_Gladiator_SCItem_Dashboard_Pilot",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "SeatDashboard.UNDEFINED",
-        "Name": "Anvil Gladiator",
-        "Manufacturer": {
-          "Code": "ANVL",
-          "Name": "Anvil Aerospace"
-        },
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 1.0
-        },
-        "PowerConnection": {
-          "PowerBase": 1.0,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Ports": [
-          {
-            "PortName": "hardpoint_cockpit_radar",
-            "Size": 1,
-            "Loadout": "RADR_Display",
-            "InstalledItem": {
-              "UUID": "ffc98aab-70a8-4553-83bd-ba3ba10d331c",
-              "ClassName": "RADR_Display",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "RADR_Display",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
-            "Types": [
-              "Display"
-            ],
-            "Category": "UNKNOWN"
-          },
-          {
-            "PortName": "Display_HUD",
-            "Size": 1,
-            "Loadout": "Projector_HUD_Generic",
-            "InstalledItem": {
-              "UUID": "93bfb321-c271-4779-93fe-2c8f11d456e4",
-              "ClassName": "Projector_HUD_Generic",
-              "Size": 1,
-              "Grade": 1,
-              "Type": "Display.UNDEFINED",
-              "Name": "Projector_HUD_Generic",
-              "Width": 0.15,
-              "Height": 0.15,
-              "Length": 0.15,
-              "Volume": 1E-06
-            },
-            "Category": "UNKNOWN"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
+      "Loadout": "",
+      "Category": "DISABLED"
     },
     "Parts": [
       {
@@ -142,7 +70,7 @@
         "Port": {
           "PortName": "hardpoint_cockpit_radar",
           "Size": 0,
-          "Loadout": "RADR_Display",
+          "Loadout": "Radar_Display_Gladiator",
           "Category": "DISABLED"
         }
       },
@@ -151,7 +79,61 @@
         "Port": {
           "PortName": "Display_HUD",
           "Size": 0,
-          "Loadout": "Projector_HUD_Generic",
+          "Loadout": "H_Dashboard_Projector_HUD_ANVL_Gladiator",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Center_left",
+        "Port": {
+          "PortName": "Screen_Support_Center_left",
+          "Size": 0,
+          "Loadout": " Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Center_Right",
+        "Port": {
+          "PortName": "Screen_Support_Center_Right",
+          "Size": 0,
+          "Loadout": " Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Outer_Left",
+        "Port": {
+          "PortName": "Screen_Support_Outer_Left",
+          "Size": 0,
+          "Loadout": " Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Support_Outer_Right",
+        "Port": {
+          "PortName": "Screen_Support_Outer_Right",
+          "Size": 0,
+          "Loadout": " Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Annunciator_Left",
+        "Port": {
+          "PortName": "Screen_Annunciator_Left",
+          "Size": 0,
+          "Loadout": " Vehicle_Screen_Physical",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Annunciator_Right",
+        "Port": {
+          "PortName": "Screen_Annunciator_Right",
+          "Size": 0,
+          "Loadout": " Vehicle_Screen_Physical",
           "Category": "DISABLED"
         }
       }
@@ -256,44 +238,44 @@
     "Name": "hardpoint_power_plant",
     "Port": {
       "PortName": "hardpoint_power_plant",
-      "Size": 1,
-      "Loadout": "POWR_AEGS_S01_Regulus_SCItem",
+      "Size": 2,
+      "Loadout": "POWR_AEGS_S02_Maelstrom_SCItem",
       "InstalledItem": {
-        "UUID": "688aab9c-bc62-4774-be7d-065dee7e2187",
-        "ClassName": "POWR_AEGS_S01_Regulus_SCItem",
-        "Size": 1,
+        "UUID": "662e4a88-d893-46fd-9fcc-e33e4b783fae",
+        "ClassName": "POWR_AEGS_S02_Maelstrom_SCItem",
+        "Size": 2,
         "Grade": 3,
         "Type": "PowerPlant.Power",
-        "Name": "Regulus",
-        "Description": "Item Type: Power Plant\nManufacturer: Aegis Dynamics\nSize: 1\nGrade: C\nClass: Military\n\nThe Regulus is the power plant you can count on when everyone is counting on you. Made to exceed exacting military standards, Aegis’ design team has made sure that you have the extra power you need, when you need it most.",
+        "Name": "Maelstrom",
+        "Description": "Item Type: Power Plant\nManufacturer: Aegis Dynamics\nSize: 2\nGrade: C\nClass: Military\n\nThis military-grade component has been put through the paces by the UEE Navy, so you know the Maelstrom can handle the havoc of battle. ",
         "Manufacturer": {
           "Code": "AEG",
           "Name": "Aegis Dynamics"
         },
-        "Width": 0.2233005,
+        "Width": 0.4466009,
         "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
+        "Length": 3.316511,
+        "Volume": 0.252,
         "DimensionOverrides": {
-          "Width": 1.5,
+          "Width": 2.25,
           "Height": 0.75,
           "Depth": 0.75
         },
         "PowerPlant": {
-          "Output": 4000.0
+          "Output": 9375.0
         },
         "Durability": {
-          "Health": 432.0,
-          "Lifetime": 22.0
+          "Health": 1300.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.0,
-          "PowerDraw": 4000.0
+          "PowerDraw": 9375.0
         },
         "HeatConnection": {
-          "ThermalEnergyBase": 22245.0,
-          "ThermalEnergyDraw": 26295.0,
-          "CoolingRate": 104.8765
+          "ThermalEnergyBase": 86250.0,
+          "ThermalEnergyDraw": 93750.0,
+          "CoolingRate": 205.0
         }
       },
       "Types": [
@@ -354,8 +336,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -404,8 +386,8 @@
           "Rate": 260000.0
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 44.0
+          "Health": 540.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 8.0,
@@ -448,114 +430,35 @@
     }
   },
   {
-    "Name": "hardpoint_shield_generator_left",
-    "Port": {
-      "PortName": "hardpoint_shield_generator_left",
-      "Size": 1,
-      "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
-      "InstalledItem": {
-        "UUID": "339bd641-8dfb-4bc1-b273-5ffc5f702fbb",
-        "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
-        "Size": 1,
-        "Grade": 3,
-        "Type": "Shield.UNDEFINED",
-        "Name": "AllStop",
-        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 1\nGrade: C\nClass: Military\n\nGorgon Defender Industries first created the AllStop shield generator to hold off the Vanduul. They worked so well that many military crafts were known to prefer the AllStop. Just one of the many reasons to have one on your ship.",
-        "Manufacturer": {
-          "Code": "GODI",
-          "Name": "Gorgon Defender Industries"
-        },
-        "Width": 0.2233005,
-        "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
-        "DimensionOverrides": {
-          "Width": 2.25,
-          "Height": 0.75,
-          "Depth": 2.25
-        },
-        "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
-          "DownedDelay": 10.0,
-          "DamagedDelay": 5.0,
-          "Absorption": {
-            "Physical": {
-              "Minimum": 0.0,
-              "Maximum": 0.3
-            },
-            "Energy": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Distortion": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Thermal": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Biochemical": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            },
-            "Stun": {
-              "Minimum": 1.0,
-              "Maximum": 1.0
-            }
-          }
-        },
-        "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
-        },
-        "PowerConnection": {
-          "PowerBase": 200.0,
-          "PowerDraw": 250.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 20116.67,
-          "ThermalEnergyDraw": 21200.0,
-          "CoolingRate": 86.08547
-        }
-      },
-      "Types": [
-        "Shield.UNDEFINED"
-      ],
-      "Category": "Shield generators"
-    }
-  },
-  {
     "Name": "hardpoint_shield_generator_right",
     "Port": {
       "PortName": "hardpoint_shield_generator_right",
-      "Size": 1,
-      "Loadout": "SHLD_GODI_S01_AllStop_SCItem",
+      "Size": 2,
+      "Loadout": "SHLD_GODI_S02_FullStop_SCItem",
       "InstalledItem": {
-        "UUID": "339bd641-8dfb-4bc1-b273-5ffc5f702fbb",
-        "ClassName": "SHLD_GODI_S01_AllStop_SCItem",
-        "Size": 1,
+        "UUID": "924e275a-d449-44f5-a8a8-6e0e93a9661e",
+        "ClassName": "SHLD_GODI_S02_FullStop_SCItem",
+        "Size": 2,
         "Grade": 3,
         "Type": "Shield.UNDEFINED",
-        "Name": "AllStop",
-        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 1\nGrade: C\nClass: Military\n\nGorgon Defender Industries first created the AllStop shield generator to hold off the Vanduul. They worked so well that many military crafts were known to prefer the AllStop. Just one of the many reasons to have one on your ship.",
+        "Name": "FullStop",
+        "Description": "Item Type: Shield Generator\nManufacturer: Gorgon Defender Industries\nSize: 2\nGrade: C\nClass: Military\n\nFeaturing proprietary recoil tech, the FullStop shield generator was built to better absorb attacks from a multitude of damage types.",
         "Manufacturer": {
           "Code": "GODI",
           "Name": "Gorgon Defender Industries"
         },
-        "Width": 0.2233005,
+        "Width": 0.4466009,
         "Height": 0.801895,
-        "Length": 2.211008,
-        "Volume": 0.08399999999999999,
+        "Length": 3.316511,
+        "Volume": 0.252,
         "DimensionOverrides": {
           "Width": 2.25,
           "Height": 0.75,
           "Depth": 2.25
         },
         "Shield": {
-          "Health": 1500.0,
-          "Regeneration": 100.0,
+          "Health": 4740.0,
+          "Regeneration": 288.0,
           "DownedDelay": 10.0,
           "DamagedDelay": 5.0,
           "Absorption": {
@@ -586,17 +489,17 @@
           }
         },
         "Durability": {
-          "Health": 396.0,
-          "Lifetime": 20.0
+          "Health": 980.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
-          "PowerBase": 200.0,
-          "PowerDraw": 250.0
+          "PowerBase": 1000.0,
+          "PowerDraw": 1400.0
         },
         "HeatConnection": {
-          "ThermalEnergyBase": 20116.67,
-          "ThermalEnergyDraw": 21200.0,
-          "CoolingRate": 86.08547
+          "ThermalEnergyBase": 88412.7,
+          "ThermalEnergyDraw": 90000.0,
+          "CoolingRate": 179.3651
         }
       },
       "Types": [
@@ -672,11 +575,11 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Ifcs": {
-          "MaxSpeed": 1150.0,
-          "ScmSpeed": 220.0,
-          "Pitch": 45.0,
-          "Yaw": 45.0,
-          "Roll": 140.0,
+          "MaxSpeed": 1125.0,
+          "ScmSpeed": 210.0,
+          "Pitch": 40.0,
+          "Yaw": 40.0,
+          "Roll": 130.0,
           "Afterburner": {
             "SpoolUpTime": 0.0,
             "CapacitorThresholdRatio": 0.25,
@@ -714,65 +617,8 @@
         "Length": 0.15,
         "Volume": 1E-06,
         "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
-        },
-        "PowerConnection": {
-          "PowerBase": 0.1,
-          "PowerDraw": 1.0
-        },
-        "HeatConnection": {
-          "ThermalEnergyBase": 10.0,
-          "ThermalEnergyDraw": 20.0,
-          "CoolingRate": 1.0
-        },
-        "Radar": {
-          "DetectionLifetime": 0.0,
-          "AltitudeCeiling": 0.0,
-          "CrossSectionOcclusion": false,
-          "Signatures": []
-        },
-        "Ports": [
-          {
-            "PortName": "BatteryPort",
-            "Size": 2,
-            "Types": [
-              "Battery"
-            ],
-            "Flags": [
-              "invisible"
-            ],
-            "Category": "Batteries"
-          }
-        ]
-      },
-      "Category": "UNKNOWN"
-    }
-  },
-  {
-    "Name": "hardpoint_radar_turret",
-    "Port": {
-      "PortName": "hardpoint_radar_turret",
-      "Size": 1,
-      "Loadout": "RADR_GRNP_S01_Ecouter",
-      "InstalledItem": {
-        "UUID": "b0ccd135-4424-417c-95e4-594a88d9b72f",
-        "ClassName": "RADR_GRNP_S01_Ecouter",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "Radar.MidRangeRadar",
-        "Name": "Ecouter",
-        "Description": "Item Type: Radar\nManufacturer: GNP\nSize: 1\nGrade: C\nClass: Military\n\nSpace is vast and unknowable, that’s why discerning pilots rely on the Ecouter small radar from GNP to keep them in the know about what’s around them.",
-        "Tags": [
-          "flightReady"
-        ],
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "Durability": {
-          "Health": 360.0,
-          "Lifetime": 720.0
+          "Health": 720.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.1,
@@ -873,8 +719,7 @@
           "MaxThrustFuelRate": 13.828412499999999
         },
         "Durability": {
-          "Health": 8500.0,
-          "Lifetime": 720.0
+          "Health": 8500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -920,8 +765,7 @@
           "MaxThrustFuelRate": 13.828412499999999
         },
         "Durability": {
-          "Health": 8500.0,
-          "Lifetime": 720.0
+          "Health": 8500.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -967,8 +811,7 @@
           "MaxThrustFuelRate": 2.39211875
         },
         "Durability": {
-          "Health": 7256.0,
-          "Lifetime": 720.0
+          "Health": 7256.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1014,8 +857,7 @@
           "MaxThrustFuelRate": 2.39211875
         },
         "Durability": {
-          "Health": 7256.0,
-          "Lifetime": 720.0
+          "Health": 7256.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1061,8 +903,7 @@
           "MaxThrustFuelRate": 2.8125
         },
         "Durability": {
-          "Health": 6980.0,
-          "Lifetime": 720.0
+          "Health": 6980.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1108,8 +949,7 @@
           "MaxThrustFuelRate": 2.8125
         },
         "Durability": {
-          "Health": 6980.0,
-          "Lifetime": 720.0
+          "Health": 6980.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1155,8 +995,7 @@
           "MaxThrustFuelRate": 2.1875
         },
         "Durability": {
-          "Health": 6980.0,
-          "Lifetime": 720.0
+          "Health": 6980.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1202,8 +1041,7 @@
           "MaxThrustFuelRate": 2.1875
         },
         "Durability": {
-          "Health": 6980.0,
-          "Lifetime": 720.0
+          "Health": 6980.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1249,8 +1087,7 @@
           "MaxThrustFuelRate": 2.1875
         },
         "Durability": {
-          "Health": 6980.0,
-          "Lifetime": 720.0
+          "Health": 6980.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1296,8 +1133,7 @@
           "MaxThrustFuelRate": 2.1875
         },
         "Durability": {
-          "Health": 6980.0,
-          "Lifetime": 720.0
+          "Health": 6980.0
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1484,10 +1320,10 @@
           "FuelRate": 1.862E-08,
           "JumpRange": 3.402823E+38,
           "StandardJump": {
-            "Speed": 253252000.0,
+            "Speed": 165000000.0,
             "Cooldown": 12.0,
-            "Stage1AccelerationRate": 610000.0,
-            "State2AccelerationRate": 3575323.0,
+            "Stage1AccelerationRate": 5000000.0,
+            "State2AccelerationRate": 11000000.0,
             "SpoolUpTime": 4.0
           },
           "SplineJump": {
@@ -1499,8 +1335,8 @@
           }
         },
         "Durability": {
-          "Health": 324.0,
-          "Lifetime": 6.5
+          "Health": 720.0,
+          "Lifetime": 0.0
         },
         "PowerConnection": {
           "PowerBase": 0.4,
@@ -1515,15 +1351,39 @@
           {
             "PortName": "hardpoint_Jump_Drive",
             "Size": 1,
+            "Loadout": "JDRV_TARS_S01_C_Explorer",
+            "InstalledItem": {
+              "UUID": "0089dcd7-93ec-4f42-89e4-00db71d52df6",
+              "ClassName": "JDRV_TARS_S01_C_Explorer",
+              "Size": 1,
+              "Grade": 3,
+              "Type": "JumpDrive.JumpDrive",
+              "Name": "Explorer",
+              "Description": "Item Type: Jump Module\nManufacturer: Tarsus\nSize: 1\nGrade: C\nClass: Civilian\n\nJourney across the ‘verse with Tarsus’ Explorer jump module, offering greater reliability to help take your wanderlust to new heights.",
+              "Manufacturer": {
+                "Code": "TARS",
+                "Name": "Tarsus"
+              },
+              "Width": 0.15,
+              "Height": 0.15,
+              "Length": 0.15,
+              "Volume": 1E-06,
+              "Durability": {
+                "Health": 320.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 10.0,
+                "PowerDraw": 100.0
+              }
+            },
             "Types": [
               "JumpDrive.JumpDrive"
             ],
             "Flags": [
-              "uneditable",
-              "invisible"
+              "dont_hide_entity"
             ],
-            "Category": "UNKNOWN",
-            "Uneditable": true
+            "Category": "UNKNOWN"
           }
         ]
       },
@@ -1531,7 +1391,18 @@
         "QuantumDrive.UNDEFINED"
       ],
       "Category": "UNKNOWN"
-    }
+    },
+    "Parts": [
+      {
+        "Name": "hardpoint_jump_drive",
+        "Port": {
+          "PortName": "hardpoint_jump_drive",
+          "Size": 1,
+          "Loadout": "JDRV_TARS_S01_C_Explorer",
+          "Category": "DISABLED"
+        }
+      }
+    ]
   },
   {
     "Name": "hardpoint_quantum_fuel_tank",
@@ -1612,17 +1483,213 @@
     "Name": "hardpoint_class_2_left_wing",
     "Port": {
       "PortName": "hardpoint_class_2_left_wing",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "Size": 4,
+      "Loadout": "Mount_Gimbal_S4",
+      "InstalledItem": {
+        "UUID": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+        "ClassName": "Mount_Gimbal_S4",
+        "Size": 4,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "VariPuck S4 Gimbal Mount",
+        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 4\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon the same size as the hardpoint it is mounting to.",
+        "Manufacturer": {
+          "Code": "FFSY",
+          "Name": "Flashfire Systems"
+        },
+        "Tags": [
+          "gimbalMount",
+          "flightReady"
+        ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2.1,
+        "DimensionOverrides": {
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 0.75
+        },
+        "Durability": {
+          "Health": 1650.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 22.5
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "hardpoint_class_2",
+            "Size": 4,
+            "Loadout": "KLWE_LaserRepeater_S4",
+            "InstalledItem": {
+              "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
+              "ClassName": "KLWE_LaserRepeater_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "CF-447 Rhino Repeater",
+              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
+              "Manufacturer": {
+                "Code": "KLA",
+                "Name": "Klaus & Werner"
+              },
+              "Tags": [
+                "KLWE",
+                "LaserRepeater",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 3.0
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 220.0,
+                "PowerDraw": 220.0
+              },
+              "HeatConnection": {
+                "ThermalEnergyBase": 100.0,
+                "ThermalEnergyDraw": 200.0,
+                "CoolingRate": 248.974
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "ffb3edda-ce00-46e3-b974-849a31825b6a",
+                  "Type": "AmmoParams",
+                  "Speed": 1800.0,
+                  "Range": 3006.0,
+                  "Size": 3.0,
+                  "Capacity": 0.0,
+                  "ImpactDamage": {
+                    "Energy": 65.43
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Single",
+                    "LocalisedName": "[SEMI]",
+                    "RoundsPerMinute": 750.0,
+                    "FireType": "sequence",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Energy": 65.43
+                    },
+                    "DamagePerSecond": {
+                      "Energy": 817.8750000000001
+                    }
+                  }
+                ],
+                "Consumption": {
+                  "RequestedRegenPerSec": 4544.0,
+                  "Cooldown": 0.25,
+                  "CostPerBullet": 72.7,
+                  "RequestedAmmoLoad": 27262.5
+                }
+              },
+              "Ammunition": {
+                "UUID": "ffb3edda-ce00-46e3-b974-849a31825b6a",
+                "Type": "AmmoParams",
+                "Speed": 1800.0,
+                "Range": 3006.0,
+                "Size": 3.0,
+                "Capacity": 0.0,
+                "ImpactDamage": {
+                  "Energy": 65.43
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Category": "Weapon hardpoints"
+          }
+        ]
+      },
+      "Types": [
+        "Turret.GunTurret"
+      ],
+      "Category": "Weapon hardpoints"
     },
     "Parts": [
       {
         "Name": "hardpoint_class_2",
         "Port": {
           "PortName": "hardpoint_class_2",
-          "Size": 0,
-          "Loadout": "",
+          "Size": 4,
+          "Loadout": "KLWE_LaserRepeater_S4",
           "Category": "DISABLED"
         }
       }
@@ -1632,17 +1699,213 @@
     "Name": "hardpoint_class_2_right_wing",
     "Port": {
       "PortName": "hardpoint_class_2_right_wing",
-      "Size": 0,
-      "Loadout": "",
-      "Category": "DISABLED"
+      "Size": 4,
+      "Loadout": "Mount_Gimbal_S4",
+      "InstalledItem": {
+        "UUID": "ea49d194-0c0b-43e1-82fb-d72f35c1af05",
+        "ClassName": "Mount_Gimbal_S4",
+        "Size": 4,
+        "Grade": 1,
+        "Type": "Turret.GunTurret",
+        "Name": "VariPuck S4 Gimbal Mount",
+        "Description": "Manufacturer: Flashfire Systems\nItem Type: Weapon Mount\nSize: 4\n\nThe VariPuck fits between your weapon and the ship hardpoint to transform a fixed weapon mount into a gimballed mount, allowing the pilot to independently aim their weapon’s fire. VariPucks will accept any weapon the same size as the hardpoint it is mounting to.",
+        "Manufacturer": {
+          "Code": "FFSY",
+          "Name": "Flashfire Systems"
+        },
+        "Tags": [
+          "gimbalMount",
+          "flightReady"
+        ],
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2.1,
+        "DimensionOverrides": {
+          "Width": 0.75,
+          "Height": 0.75,
+          "Depth": 0.75
+        },
+        "Durability": {
+          "Health": 1650.0,
+          "Lifetime": 0.0
+        },
+        "PowerConnection": {
+          "PowerBase": 0.0,
+          "PowerDraw": 22.5
+        },
+        "HeatConnection": {
+          "ThermalEnergyBase": 10.0,
+          "ThermalEnergyDraw": 20.0,
+          "CoolingRate": 1.0
+        },
+        "Ports": [
+          {
+            "PortName": "hardpoint_class_2",
+            "Size": 4,
+            "Loadout": "KLWE_LaserRepeater_S4",
+            "InstalledItem": {
+              "UUID": "ecac1df2-4f6f-49df-9cce-f188d118a789",
+              "ClassName": "KLWE_LaserRepeater_S4",
+              "Size": 4,
+              "Grade": 1,
+              "Type": "WeaponGun.Gun",
+              "Name": "CF-447 Rhino Repeater",
+              "Description": "Manufacturer: Klaus & Werner\nItem Type: Laser Repeater\nSize: 4\n\nWhen a ship comes charging at you with a CF-447 Rhino strapped on, it is an experience few pilots will ever forget. This formidable size four laser repeater from Klaus & Werner is well suited for medium-range engagements, but packs a wallop up close.",
+              "Manufacturer": {
+                "Code": "KLA",
+                "Name": "Klaus & Werner"
+              },
+              "Tags": [
+                "KLWE",
+                "LaserRepeater",
+                "flightReady",
+                "weaponMountUsable"
+              ],
+              "Width": 0.8932018,
+              "Height": 1.60379,
+              "Length": 6.633023,
+              "Volume": 2.1,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 3.0
+              },
+              "Durability": {
+                "Health": 1650.0,
+                "Lifetime": 0.0
+              },
+              "PowerConnection": {
+                "PowerBase": 220.0,
+                "PowerDraw": 220.0
+              },
+              "HeatConnection": {
+                "ThermalEnergyBase": 100.0,
+                "ThermalEnergyDraw": 200.0,
+                "CoolingRate": 248.974
+              },
+              "Weapon": {
+                "Ammunition": {
+                  "UUID": "ffb3edda-ce00-46e3-b974-849a31825b6a",
+                  "Type": "AmmoParams",
+                  "Speed": 1800.0,
+                  "Range": 3006.0,
+                  "Size": 3.0,
+                  "Capacity": 0.0,
+                  "ImpactDamage": {
+                    "Energy": 65.43
+                  },
+                  "BulletImpulseFalloff": {},
+                  "BulletPierceability": {
+                    "DamageFalloffLevel1": 0.0,
+                    "DamageFalloffLevel2": 0.0,
+                    "DamageFalloffLevel3": 0.0,
+                    "MaxPenetrationThickness": 0.5
+                  },
+                  "BulletElectron": {},
+                  "DamageDropMinDistance": {},
+                  "DamageDropPerMeter": {},
+                  "DamageDropMinDamage": {}
+                },
+                "Modes": [
+                  {
+                    "Name": "Single",
+                    "LocalisedName": "[SEMI]",
+                    "RoundsPerMinute": 750.0,
+                    "FireType": "sequence",
+                    "AmmoPerShot": 1.0,
+                    "PelletsPerShot": 1.0,
+                    "DamagePerShot": {
+                      "Energy": 65.43
+                    },
+                    "DamagePerSecond": {
+                      "Energy": 817.8750000000001
+                    }
+                  }
+                ],
+                "Consumption": {
+                  "RequestedRegenPerSec": 4544.0,
+                  "Cooldown": 0.25,
+                  "CostPerBullet": 72.7,
+                  "RequestedAmmoLoad": 27262.5
+                }
+              },
+              "Ammunition": {
+                "UUID": "ffb3edda-ce00-46e3-b974-849a31825b6a",
+                "Type": "AmmoParams",
+                "Speed": 1800.0,
+                "Range": 3006.0,
+                "Size": 3.0,
+                "Capacity": 0.0,
+                "ImpactDamage": {
+                  "Energy": 65.43
+                },
+                "BulletImpulseFalloff": {},
+                "BulletPierceability": {
+                  "DamageFalloffLevel1": 0.0,
+                  "DamageFalloffLevel2": 0.0,
+                  "DamageFalloffLevel3": 0.0,
+                  "MaxPenetrationThickness": 0.5
+                },
+                "BulletElectron": {},
+                "DamageDropMinDistance": {},
+                "DamageDropPerMeter": {},
+                "DamageDropMinDamage": {}
+              },
+              "Ports": [
+                {
+                  "PortName": "BAR1",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Barrel"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "MEC",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.FiringMechanism"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "POW",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.PowerArray"
+                  ],
+                  "Category": "Weapon attachments"
+                },
+                {
+                  "PortName": "VEN",
+                  "Size": 1,
+                  "Types": [
+                    "WeaponAttachment.Ventilation"
+                  ],
+                  "Category": "Weapon attachments"
+                }
+              ]
+            },
+            "Types": [
+              "WeaponGun.Gun"
+            ],
+            "Category": "Weapon hardpoints"
+          }
+        ]
+      },
+      "Types": [
+        "Turret.GunTurret"
+      ],
+      "Category": "Weapon hardpoints"
     },
     "Parts": [
       {
         "Name": "hardpoint_class_2",
         "Port": {
           "PortName": "hardpoint_class_2",
-          "Size": 0,
-          "Loadout": "",
+          "Size": 4,
+          "Loadout": "KLWE_LaserRepeater_S4",
           "Category": "DISABLED"
         }
       }
@@ -1705,6 +1968,33 @@
             }
           }
         ]
+      },
+      {
+        "Name": "Screen_MFD_Right",
+        "Port": {
+          "PortName": "Screen_MFD_Right",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_MFD_Left",
+        "Port": {
+          "PortName": "Screen_MFD_Left",
+          "Size": 0,
+          "Loadout": "Vehicle_Screen_MFD",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "Screen_Radar",
+        "Port": {
+          "PortName": "Screen_Radar",
+          "Size": 0,
+          "Loadout": "Radar_Display_Screen_Template",
+          "Category": "DISABLED"
+        }
       }
     ]
   },
@@ -1712,16 +2002,16 @@
     "Name": "hardpoint_missilerack_left_wing_outer",
     "Port": {
       "PortName": "hardpoint_missilerack_left_wing_outer",
-      "Size": 3,
-      "Loadout": "MRCK_S03_BEHR_Dual_S02",
+      "Size": 4,
+      "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
-        "UUID": "6bea95f5-2898-434c-bffe-4b2b332d6440",
-        "ClassName": "MRCK_S03_BEHR_Dual_S02",
-        "Size": 3,
+        "UUID": "fcf0cee0-94f6-4bfb-aed3-e255d7f1e12c",
+        "ClassName": "MRCK_S04_BEHR_Dual_S03",
+        "Size": 4,
         "Grade": 1,
         "Type": "MissileLauncher.MissileRack",
-        "Name": "MSD-322 Missile Rack",
-        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 3\nMissiles: 2xS2\n\nBehring’s MSD-322 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 3 hardpoint for the reliable and effective launch of two S2 missiles.",
+        "Name": "MSD-423 Missile Rack",
+        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 4\nMissiles: 2xS3\n\nBehring’s MSD-423 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 4 hardpoint for the reliable and effective launch of two S3 missiles.",
         "Manufacturer": {
           "Code": "BEH",
           "Name": "Behring"
@@ -1729,10 +2019,10 @@
         "Tags": [
           "flightReady"
         ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2.1,
         "DimensionOverrides": {
           "Width": 0.75,
           "Height": 0.75,
@@ -1743,7 +2033,7 @@
         },
         "MissileRack": {
           "Count": 2,
-          "Size": 2
+          "Size": 3
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -1757,16 +2047,16 @@
         "Ports": [
           {
             "PortName": "missile_01_attach",
-            "Size": 2,
-            "Loadout": "MISL_S02_CS_FSKI_Tempest",
+            "Size": 3,
+            "Loadout": "MISL_S03_CS_FSKI_Arrester",
             "InstalledItem": {
-              "UUID": "4317f2fc-4044-454e-8400-25c2e3c65136",
-              "ClassName": "MISL_S02_CS_FSKI_Tempest",
-              "Size": 2,
+              "UUID": "dee6efca-71ef-438c-b762-624f9ce649f3",
+              "ClassName": "MISL_S03_CS_FSKI_Arrester",
+              "Size": 3,
               "Grade": 1,
               "Type": "Missile.Missile",
-              "Name": "Tempest II Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 2\n\nThe Tempest was designed with nothing but annihilation in mind. Utilizing FireStorm Kinetics' targeting technology, this proximity missile locks onto a target's cross section to draw conflicts to a swift conclusion.",
+              "Name": "Arrester III Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 3\n\nUsing cross section targeting to hunt for its prey, the Firestorm Arrester proximity missile makes quick work of enemies caught in the crosshairs.",
               "Manufacturer": {
                 "Code": "FSKI",
                 "Name": "Aegis Dynamics"
@@ -1778,19 +2068,16 @@
               ],
               "Width": 1.0,
               "Height": 1.0,
-              "Length": 2.0,
-              "Volume": 0.03125,
+              "Length": 3.0,
+              "Volume": 0.046875,
               "DimensionOverrides": {
                 "Width": 0.75,
                 "Height": 0.75,
-                "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
+                "Depth": 2.25
               },
               "Missile": {
                 "Damage": {
-                  "Physical": 1670.246
+                  "Physical": 2526.42
                 }
               }
             },
@@ -1801,16 +2088,16 @@
           },
           {
             "PortName": "missile_02_attach",
-            "Size": 2,
-            "Loadout": "MISL_S02_CS_FSKI_Tempest",
+            "Size": 3,
+            "Loadout": "MISL_S03_CS_FSKI_Arrester",
             "InstalledItem": {
-              "UUID": "4317f2fc-4044-454e-8400-25c2e3c65136",
-              "ClassName": "MISL_S02_CS_FSKI_Tempest",
-              "Size": 2,
+              "UUID": "dee6efca-71ef-438c-b762-624f9ce649f3",
+              "ClassName": "MISL_S03_CS_FSKI_Arrester",
+              "Size": 3,
               "Grade": 1,
               "Type": "Missile.Missile",
-              "Name": "Tempest II Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 2\n\nThe Tempest was designed with nothing but annihilation in mind. Utilizing FireStorm Kinetics' targeting technology, this proximity missile locks onto a target's cross section to draw conflicts to a swift conclusion.",
+              "Name": "Arrester III Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 3\n\nUsing cross section targeting to hunt for its prey, the Firestorm Arrester proximity missile makes quick work of enemies caught in the crosshairs.",
               "Manufacturer": {
                 "Code": "FSKI",
                 "Name": "Aegis Dynamics"
@@ -1822,19 +2109,16 @@
               ],
               "Width": 1.0,
               "Height": 1.0,
-              "Length": 2.0,
-              "Volume": 0.03125,
+              "Length": 3.0,
+              "Volume": 0.046875,
               "DimensionOverrides": {
                 "Width": 0.75,
                 "Height": 0.75,
-                "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
+                "Depth": 2.25
               },
               "Missile": {
                 "Damage": {
-                  "Physical": 1670.246
+                  "Physical": 2526.42
                 }
               }
             },
@@ -1855,8 +2139,8 @@
         "Name": "missile_01_attach",
         "Port": {
           "PortName": "missile_01_attach",
-          "Size": 2,
-          "Loadout": "MISL_S02_CS_FSKI_Tempest",
+          "Size": 3,
+          "Loadout": "MISL_S03_CS_FSKI_Arrester",
           "Category": "DISABLED"
         }
       },
@@ -1864,8 +2148,8 @@
         "Name": "missile_02_attach",
         "Port": {
           "PortName": "missile_02_attach",
-          "Size": 2,
-          "Loadout": "MISL_S02_CS_FSKI_Tempest",
+          "Size": 3,
+          "Loadout": "MISL_S03_CS_FSKI_Arrester",
           "Category": "DISABLED"
         }
       }
@@ -1875,16 +2159,16 @@
     "Name": "hardpoint_missilerack_left_wing_inner",
     "Port": {
       "PortName": "hardpoint_missilerack_left_wing_inner",
-      "Size": 3,
-      "Loadout": "MRCK_S03_BEHR_Dual_S02",
+      "Size": 4,
+      "Loadout": "MRCK_S04_BEHR_Quad_S02",
       "InstalledItem": {
-        "UUID": "6bea95f5-2898-434c-bffe-4b2b332d6440",
-        "ClassName": "MRCK_S03_BEHR_Dual_S02",
-        "Size": 3,
+        "UUID": "01e5071c-2fac-4769-9fae-e1a7fbcaf34b",
+        "ClassName": "MRCK_S04_BEHR_Quad_S02",
+        "Size": 4,
         "Grade": 1,
         "Type": "MissileLauncher.MissileRack",
-        "Name": "MSD-322 Missile Rack",
-        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 3\nMissiles: 2xS2\n\nBehring’s MSD-322 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 3 hardpoint for the reliable and effective launch of two S2 missiles.",
+        "Name": "MSD-442 Missile Rack",
+        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 4\nMissiles: 4xS2\n\nBehring’s MSD-442 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 4 hardpoint for the reliable and effective launch of four S2 missiles.",
         "Manufacturer": {
           "Code": "BEH",
           "Name": "Behring"
@@ -1892,10 +2176,10 @@
         "Tags": [
           "flightReady"
         ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2.1,
         "DimensionOverrides": {
           "Width": 0.75,
           "Height": 0.75,
@@ -1905,7 +2189,7 @@
           "Health": 200.0
         },
         "MissileRack": {
-          "Count": 2,
+          "Count": 4,
           "Size": 2
         },
         "PowerConnection": {
@@ -1947,9 +2231,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -1992,8 +2273,87 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
+              "Missile": {
+                "Damage": {
+                  "Physical": 2378.678
+                }
+              }
+            },
+            "Types": [
+              "Missile.Missile"
+            ],
+            "Category": "Missiles"
+          },
+          {
+            "PortName": "missile_03_attach",
+            "Size": 2,
+            "Loadout": "MISL_S02_IR_FSKI_Ignite",
+            "InstalledItem": {
+              "UUID": "d358cf84-9c78-4929-a2ad-b9caade81962",
+              "ClassName": "MISL_S02_IR_FSKI_Ignite",
+              "Size": 2,
+              "Grade": 1,
+              "Type": "Missile.Missile",
+              "Name": "Ignite II Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Infrared\nSize: 2\n\nThe Ignite is Firestorm's premier brand of heat-seeking strike missile that is the definition of Fire and Forget. Simply let it fly and enjoy the show. ",
+              "Manufacturer": {
+                "Code": "FSKI",
+                "Name": "Aegis Dynamics"
+              },
+              "Tags": [
+                "FSKI",
+                "IR",
+                "flightReady"
+              ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 0.03125,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
+              },
+              "Missile": {
+                "Damage": {
+                  "Physical": 2378.678
+                }
+              }
+            },
+            "Types": [
+              "Missile.Missile"
+            ],
+            "Category": "Missiles"
+          },
+          {
+            "PortName": "missile_04_attach",
+            "Size": 2,
+            "Loadout": "MISL_S02_IR_FSKI_Ignite",
+            "InstalledItem": {
+              "UUID": "d358cf84-9c78-4929-a2ad-b9caade81962",
+              "ClassName": "MISL_S02_IR_FSKI_Ignite",
+              "Size": 2,
+              "Grade": 1,
+              "Type": "Missile.Missile",
+              "Name": "Ignite II Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Infrared\nSize: 2\n\nThe Ignite is Firestorm's premier brand of heat-seeking strike missile that is the definition of Fire and Forget. Simply let it fly and enjoy the show. ",
+              "Manufacturer": {
+                "Code": "FSKI",
+                "Name": "Aegis Dynamics"
+              },
+              "Tags": [
+                "FSKI",
+                "IR",
+                "flightReady"
+              ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 0.03125,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Missile": {
                 "Damage": {
@@ -2027,6 +2387,24 @@
         "Name": "missile_02_attach",
         "Port": {
           "PortName": "missile_02_attach",
+          "Size": 2,
+          "Loadout": "MISL_S02_IR_FSKI_Ignite",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "missile_03_attach",
+        "Port": {
+          "PortName": "missile_03_attach",
+          "Size": 2,
+          "Loadout": "MISL_S02_IR_FSKI_Ignite",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "missile_04_attach",
+        "Port": {
+          "PortName": "missile_04_attach",
           "Size": 2,
           "Loadout": "MISL_S02_IR_FSKI_Ignite",
           "Category": "DISABLED"
@@ -2038,16 +2416,16 @@
     "Name": "hardpoint_missilerack_right_wing_outer",
     "Port": {
       "PortName": "hardpoint_missilerack_right_wing_outer",
-      "Size": 3,
-      "Loadout": "MRCK_S03_BEHR_Dual_S02",
+      "Size": 4,
+      "Loadout": "MRCK_S04_BEHR_Dual_S03",
       "InstalledItem": {
-        "UUID": "6bea95f5-2898-434c-bffe-4b2b332d6440",
-        "ClassName": "MRCK_S03_BEHR_Dual_S02",
-        "Size": 3,
+        "UUID": "fcf0cee0-94f6-4bfb-aed3-e255d7f1e12c",
+        "ClassName": "MRCK_S04_BEHR_Dual_S03",
+        "Size": 4,
         "Grade": 1,
         "Type": "MissileLauncher.MissileRack",
-        "Name": "MSD-322 Missile Rack",
-        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 3\nMissiles: 2xS2\n\nBehring’s MSD-322 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 3 hardpoint for the reliable and effective launch of two S2 missiles.",
+        "Name": "MSD-423 Missile Rack",
+        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 4\nMissiles: 2xS3\n\nBehring’s MSD-423 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 4 hardpoint for the reliable and effective launch of two S3 missiles.",
         "Manufacturer": {
           "Code": "BEH",
           "Name": "Behring"
@@ -2055,10 +2433,10 @@
         "Tags": [
           "flightReady"
         ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2.1,
         "DimensionOverrides": {
           "Width": 0.75,
           "Height": 0.75,
@@ -2069,7 +2447,7 @@
         },
         "MissileRack": {
           "Count": 2,
-          "Size": 2
+          "Size": 3
         },
         "PowerConnection": {
           "PowerBase": 20.0,
@@ -2083,16 +2461,16 @@
         "Ports": [
           {
             "PortName": "missile_01_attach",
-            "Size": 2,
-            "Loadout": "MISL_S02_CS_FSKI_Tempest",
+            "Size": 3,
+            "Loadout": "MISL_S03_CS_FSKI_Arrester",
             "InstalledItem": {
-              "UUID": "4317f2fc-4044-454e-8400-25c2e3c65136",
-              "ClassName": "MISL_S02_CS_FSKI_Tempest",
-              "Size": 2,
+              "UUID": "dee6efca-71ef-438c-b762-624f9ce649f3",
+              "ClassName": "MISL_S03_CS_FSKI_Arrester",
+              "Size": 3,
               "Grade": 1,
               "Type": "Missile.Missile",
-              "Name": "Tempest II Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 2\n\nThe Tempest was designed with nothing but annihilation in mind. Utilizing FireStorm Kinetics' targeting technology, this proximity missile locks onto a target's cross section to draw conflicts to a swift conclusion.",
+              "Name": "Arrester III Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 3\n\nUsing cross section targeting to hunt for its prey, the Firestorm Arrester proximity missile makes quick work of enemies caught in the crosshairs.",
               "Manufacturer": {
                 "Code": "FSKI",
                 "Name": "Aegis Dynamics"
@@ -2104,19 +2482,16 @@
               ],
               "Width": 1.0,
               "Height": 1.0,
-              "Length": 2.0,
-              "Volume": 0.03125,
+              "Length": 3.0,
+              "Volume": 0.046875,
               "DimensionOverrides": {
                 "Width": 0.75,
                 "Height": 0.75,
-                "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
+                "Depth": 2.25
               },
               "Missile": {
                 "Damage": {
-                  "Physical": 1670.246
+                  "Physical": 2526.42
                 }
               }
             },
@@ -2127,16 +2502,16 @@
           },
           {
             "PortName": "missile_02_attach",
-            "Size": 2,
-            "Loadout": "MISL_S02_CS_FSKI_Tempest",
+            "Size": 3,
+            "Loadout": "MISL_S03_CS_FSKI_Arrester",
             "InstalledItem": {
-              "UUID": "4317f2fc-4044-454e-8400-25c2e3c65136",
-              "ClassName": "MISL_S02_CS_FSKI_Tempest",
-              "Size": 2,
+              "UUID": "dee6efca-71ef-438c-b762-624f9ce649f3",
+              "ClassName": "MISL_S03_CS_FSKI_Arrester",
+              "Size": 3,
               "Grade": 1,
               "Type": "Missile.Missile",
-              "Name": "Tempest II Missile",
-              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 2\n\nThe Tempest was designed with nothing but annihilation in mind. Utilizing FireStorm Kinetics' targeting technology, this proximity missile locks onto a target's cross section to draw conflicts to a swift conclusion.",
+              "Name": "Arrester III Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Cross Section\nSize: 3\n\nUsing cross section targeting to hunt for its prey, the Firestorm Arrester proximity missile makes quick work of enemies caught in the crosshairs.",
               "Manufacturer": {
                 "Code": "FSKI",
                 "Name": "Aegis Dynamics"
@@ -2148,19 +2523,16 @@
               ],
               "Width": 1.0,
               "Height": 1.0,
-              "Length": 2.0,
-              "Volume": 0.03125,
+              "Length": 3.0,
+              "Volume": 0.046875,
               "DimensionOverrides": {
                 "Width": 0.75,
                 "Height": 0.75,
-                "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
+                "Depth": 2.25
               },
               "Missile": {
                 "Damage": {
-                  "Physical": 1670.246
+                  "Physical": 2526.42
                 }
               }
             },
@@ -2181,8 +2553,8 @@
         "Name": "missile_01_attach",
         "Port": {
           "PortName": "missile_01_attach",
-          "Size": 2,
-          "Loadout": "MISL_S02_CS_FSKI_Tempest",
+          "Size": 3,
+          "Loadout": "MISL_S03_CS_FSKI_Arrester",
           "Category": "DISABLED"
         }
       },
@@ -2190,8 +2562,8 @@
         "Name": "missile_02_attach",
         "Port": {
           "PortName": "missile_02_attach",
-          "Size": 2,
-          "Loadout": "MISL_S02_CS_FSKI_Tempest",
+          "Size": 3,
+          "Loadout": "MISL_S03_CS_FSKI_Arrester",
           "Category": "DISABLED"
         }
       }
@@ -2201,16 +2573,16 @@
     "Name": "hardpoint_missilerack_right_wing_inner",
     "Port": {
       "PortName": "hardpoint_missilerack_right_wing_inner",
-      "Size": 3,
-      "Loadout": "MRCK_S03_BEHR_Dual_S02",
+      "Size": 4,
+      "Loadout": "MRCK_S04_BEHR_Quad_S02",
       "InstalledItem": {
-        "UUID": "6bea95f5-2898-434c-bffe-4b2b332d6440",
-        "ClassName": "MRCK_S03_BEHR_Dual_S02",
-        "Size": 3,
+        "UUID": "01e5071c-2fac-4769-9fae-e1a7fbcaf34b",
+        "ClassName": "MRCK_S04_BEHR_Quad_S02",
+        "Size": 4,
         "Grade": 1,
         "Type": "MissileLauncher.MissileRack",
-        "Name": "MSD-322 Missile Rack",
-        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 3\nMissiles: 2xS2\n\nBehring’s MSD-322 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 3 hardpoint for the reliable and effective launch of two S2 missiles.",
+        "Name": "MSD-442 Missile Rack",
+        "Description": "Item Type: Missile Rack\nManufacturer: Behring\nSize: 4\nMissiles: 4xS2\n\nBehring’s MSD-442 \"Marsden\" is a complete ordnance storage and deployment system that can be mounted on any compatible size 4 hardpoint for the reliable and effective launch of four S2 missiles.",
         "Manufacturer": {
           "Code": "BEH",
           "Name": "Behring"
@@ -2218,10 +2590,10 @@
         "Tags": [
           "flightReady"
         ],
-        "Width": 0.6699014,
-        "Height": 1.202842,
-        "Length": 4.422015,
-        "Volume": 0.756,
+        "Width": 0.8932018,
+        "Height": 1.60379,
+        "Length": 6.633023,
+        "Volume": 2.1,
         "DimensionOverrides": {
           "Width": 0.75,
           "Height": 0.75,
@@ -2231,7 +2603,7 @@
           "Health": 200.0
         },
         "MissileRack": {
-          "Count": 2,
+          "Count": 4,
           "Size": 2
         },
         "PowerConnection": {
@@ -2273,9 +2645,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 1.5
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2318,8 +2687,87 @@
                 "Height": 0.75,
                 "Depth": 1.5
               },
-              "Durability": {
-                "Health": 10.0
+              "Missile": {
+                "Damage": {
+                  "Physical": 2378.678
+                }
+              }
+            },
+            "Types": [
+              "Missile.Missile"
+            ],
+            "Category": "Missiles"
+          },
+          {
+            "PortName": "missile_03_attach",
+            "Size": 2,
+            "Loadout": "MISL_S02_IR_FSKI_Ignite",
+            "InstalledItem": {
+              "UUID": "d358cf84-9c78-4929-a2ad-b9caade81962",
+              "ClassName": "MISL_S02_IR_FSKI_Ignite",
+              "Size": 2,
+              "Grade": 1,
+              "Type": "Missile.Missile",
+              "Name": "Ignite II Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Infrared\nSize: 2\n\nThe Ignite is Firestorm's premier brand of heat-seeking strike missile that is the definition of Fire and Forget. Simply let it fly and enjoy the show. ",
+              "Manufacturer": {
+                "Code": "FSKI",
+                "Name": "Aegis Dynamics"
+              },
+              "Tags": [
+                "FSKI",
+                "IR",
+                "flightReady"
+              ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 0.03125,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
+              },
+              "Missile": {
+                "Damage": {
+                  "Physical": 2378.678
+                }
+              }
+            },
+            "Types": [
+              "Missile.Missile"
+            ],
+            "Category": "Missiles"
+          },
+          {
+            "PortName": "missile_04_attach",
+            "Size": 2,
+            "Loadout": "MISL_S02_IR_FSKI_Ignite",
+            "InstalledItem": {
+              "UUID": "d358cf84-9c78-4929-a2ad-b9caade81962",
+              "ClassName": "MISL_S02_IR_FSKI_Ignite",
+              "Size": 2,
+              "Grade": 1,
+              "Type": "Missile.Missile",
+              "Name": "Ignite II Missile",
+              "Description": "Manufacturer: Firestorm Kinetics\nTracking Signal: Infrared\nSize: 2\n\nThe Ignite is Firestorm's premier brand of heat-seeking strike missile that is the definition of Fire and Forget. Simply let it fly and enjoy the show. ",
+              "Manufacturer": {
+                "Code": "FSKI",
+                "Name": "Aegis Dynamics"
+              },
+              "Tags": [
+                "FSKI",
+                "IR",
+                "flightReady"
+              ],
+              "Width": 1.0,
+              "Height": 1.0,
+              "Length": 2.0,
+              "Volume": 0.03125,
+              "DimensionOverrides": {
+                "Width": 0.75,
+                "Height": 0.75,
+                "Depth": 1.5
               },
               "Missile": {
                 "Damage": {
@@ -2353,6 +2801,24 @@
         "Name": "missile_02_attach",
         "Port": {
           "PortName": "missile_02_attach",
+          "Size": 2,
+          "Loadout": "MISL_S02_IR_FSKI_Ignite",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "missile_03_attach",
+        "Port": {
+          "PortName": "missile_03_attach",
+          "Size": 2,
+          "Loadout": "MISL_S02_IR_FSKI_Ignite",
+          "Category": "DISABLED"
+        }
+      },
+      {
+        "Name": "missile_04_attach",
+        "Port": {
+          "PortName": "missile_04_attach",
           "Size": 2,
           "Loadout": "MISL_S02_IR_FSKI_Ignite",
           "Category": "DISABLED"
@@ -2437,9 +2903,6 @@
                 "Height": 0.75,
                 "Depth": 3.0
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 17091.71
@@ -2480,9 +2943,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2600,9 +3060,6 @@
                 "Height": 0.75,
                 "Depth": 3.0
               },
-              "Durability": {
-                "Health": 10.0
-              },
               "Missile": {
                 "Damage": {
                   "Physical": 17091.71
@@ -2643,9 +3100,6 @@
                 "Width": 0.75,
                 "Height": 0.75,
                 "Depth": 3.0
-              },
-              "Durability": {
-                "Health": 10.0
               },
               "Missile": {
                 "Damage": {
@@ -2963,47 +3417,6 @@
     }
   },
   {
-    "Name": "hardpoint_weapon_regen_pool",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool",
-      "Size": 0,
-      "Loadout": "",
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
-    "Name": "hardpoint_weapon_regen_pool_turrets",
-    "Port": {
-      "PortName": "hardpoint_weapon_regen_pool_turrets",
-      "Size": 1,
-      "Loadout": "WeaponRegenPool_Turret_S1",
-      "InstalledItem": {
-        "UUID": "c181a828-9eb2-42ed-859e-d4bee560f2b3",
-        "ClassName": "WeaponRegenPool_Turret_S1",
-        "Size": 1,
-        "Grade": 1,
-        "Type": "WeaponRegenPool.UNDEFINED",
-        "Name": "WeaponRegenPool_Turret_S1",
-        "Width": 0.15,
-        "Height": 0.15,
-        "Length": 0.15,
-        "Volume": 1E-06,
-        "WeaponRegenPool": {
-          "RegenFillRate": 3000.0,
-          "AmmoLoad": 20000,
-          "RespectsCapacitorAssignments": false
-        }
-      },
-      "Types": [
-        "WeaponGun.Gun"
-      ],
-      "Category": "Weapon hardpoints"
-    }
-  },
-  {
     "Name": "hardpoint_controller_capacitor_assignment",
     "Port": {
       "PortName": "hardpoint_controller_capacitor_assignment",
@@ -3126,6 +3539,120 @@
       "Size": 0,
       "Loadout": "",
       "Category": "DISABLED"
+    }
+  },
+  {
+    "Name": "hardpoint_relay",
+    "Port": {
+      "PortName": "hardpoint_relay",
+      "Size": 1,
+      "Loadout": "RELAY_3slot",
+      "InstalledItem": {
+        "UUID": "d046b6a3-84ba-4a9b-bc51-952ecb40224d",
+        "ClassName": "RELAY_3slot",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Relay.UNDEFINED",
+        "Name": "RELAY_3slot",
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Durability": {
+          "Health": 900.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_fuse_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_fuse_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Fuse"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "Relay.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
+    }
+  },
+  {
+    "Name": "hardpoint_lifesupport",
+    "Port": {
+      "PortName": "hardpoint_lifesupport",
+      "Size": 1,
+      "Loadout": "LFSP_TYDT_S01_ComfortAir",
+      "InstalledItem": {
+        "UUID": "e947b002-e65e-4637-90b7-c894925d6625",
+        "ClassName": "LFSP_TYDT_S01_ComfortAir",
+        "Size": 1,
+        "Grade": 3,
+        "Type": "LifeSupportGenerator.UNDEFINED",
+        "Name": "LFSP_TYDT_S01_ComfortAir",
+        "Manufacturer": {
+          "Code": "TYDT",
+          "Name": "Tyler Design & Tech"
+        },
+        "Tags": [
+          "EnergySource"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 0.01,
+        "Durability": {
+          "Health": 450.0,
+          "Lifetime": 0.0
+        },
+        "Ports": [
+          {
+            "PortName": "$slot_01",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_02",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          },
+          {
+            "PortName": "$slot_03",
+            "Size": 1,
+            "Types": [
+              "Misc.Utility"
+            ],
+            "Category": "UNKNOWN"
+          }
+        ]
+      },
+      "Types": [
+        "LifeSupportGenerator.UNDEFINED"
+      ],
+      "Category": "UNKNOWN"
     }
   }
 ]

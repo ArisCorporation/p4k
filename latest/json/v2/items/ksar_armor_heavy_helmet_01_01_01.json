@@ -45,6 +45,28 @@
     {
       "PortName": "radar",
       "Size": 1,
+      "Loadout": "FPS_DefaultRadar",
+      "InstalledItem": {
+        "UUID": "ff08bbcf-9364-40d7-9bfa-e3271542a500",
+        "ClassName": "FPS_DefaultRadar",
+        "Size": 1,
+        "Grade": 1,
+        "Type": "Radar.UNDEFINED",
+        "Name": "FPS_DefaultRadar",
+        "Tags": [
+          "flightReady"
+        ],
+        "Width": 0.15,
+        "Height": 0.15,
+        "Length": 0.15,
+        "Volume": 1E-06,
+        "Radar": {
+          "DetectionLifetime": 0.0,
+          "AltitudeCeiling": 0.0,
+          "CrossSectionOcclusion": false,
+          "Signatures": []
+        }
+      },
       "Types": [
         "Radar"
       ],
@@ -107,6 +129,21 @@
         "uneditable"
       ],
       "Uneditable": true
+    },
+    {
+      "PortName": "universal_necksock",
+      "Size": 1,
+      "Loadout": "universal_necksock_01",
+      "Types": [
+        "Char_Flair"
+      ]
+    },
+    {
+      "PortName": "universal_undersuit_necksock",
+      "Size": 1,
+      "Types": [
+        "Char_Flair"
+      ]
     }
   ]
 }
